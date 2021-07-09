@@ -60,6 +60,19 @@
     color: #fff;
     width: fit-content;
 }
+.links { 
+    stroke: #999; 
+    stroke-opacity: 0.6; 
+    stroke-width: 1px; 
+}
+text {
+    pointer-events: none;
+    fill: #000;
+    font: 10px sans-serif;
+}
+svg{
+    border:1px solid #000;
+}
 @media only screen and (max-width: 768px) {
     .intro-txt {
         flex-direction: column;
