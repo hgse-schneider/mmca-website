@@ -44,6 +44,12 @@
 .p-txt {
     font-weight: normal;
 }
+.legend {
+    text-align: left;
+    background-color: rgba(253, 232, 208, 0.829);
+    border-radius: 10px;
+    padding: 5vh
+}
 .dev-txt {
     font-size: 0.9em;
     background-color: rgb(230, 142, 2);
@@ -53,4 +59,16 @@
     border-radius: 25px;
     color: #fff;
     width: fit-content;
+}
+@media only screen and (max-width: 768px) {
+    .intro-txt {
+        flex-direction: column;
+    }
+    .title {
+        margin: 0;
+        padding: 0;
+    }
+    .subtitle {
+        padding-bottom: 5vh;
+    }
 }
