@@ -62,7 +62,7 @@ svg.append('defs').append('marker')
     .style('stroke','none')
 //create some data
 
-d3.json("/data/heart.json")
+d3.json("/data/layer_1/eda.json")
   .then(function(dataset){
     console.log("dataset is ...", dataset);
     // Initialize the links
