@@ -1,0 +1,17 @@
+{
+    "nodes": [
+        {"id": 1, "name": "Combined", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 2, "name": "physiological concordance index", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 3, "name": "Signal Matching (SM)", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 4, "name": "Instantaneous Derivative Matching (IDM)", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 5, "name": "Pearson‚Äôs correlation (PC)", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 6, "name": "Directional Agreement (DA)", "label": "", "group": "Team C", "runtime": 1}
+    ], 
+    "links": [
+        {"source": 2, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 3, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "4"},
+        {"source": 4, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "4"},
+        {"source": 5, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "4"},
+        {"source": 6, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "4"}
+    ]
+}

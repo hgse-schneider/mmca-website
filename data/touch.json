@@ -1,0 +1,15 @@
+{
+    "nodes": [
+        {"id": 1, "name": "Touch", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 2, "name": "total number of touch actions", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 3, "name": "Touch patterns", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 4, "name": "Sequences of meaningful actions", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 5, "name": "symmetry of touch actions amoung group", "label": "", "group": "Team C", "runtime": 1}
+    ], 
+    "links": [
+        {"source": 2, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 3, "target": 1, "type": "", "linetype": "0,0", "linelevel": "1"},
+        {"source": 4, "target": 1, "type": "clust", "linetype": "0,0", "linelevel": "1"},
+        {"source": 5, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"}
+    ]
+}

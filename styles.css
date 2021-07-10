@@ -64,13 +64,14 @@
     stroke: rgb(0, 0, 0); 
     stroke-opacity: 0.6; 
     stroke-width: 1px; 
+    stroke-dasharray: 0,0;
 }
 text {
     pointer-events: none;
     fill: #000;
     font: 10px sans-serif;
 }
-svg{
+svg {
     border:1px solid #000;
 }
 @media only screen and (max-width: 768px) {

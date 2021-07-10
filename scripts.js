@@ -59,10 +59,10 @@ svg.append('defs').append('marker')
     .append('svg:path')
     .attr('d', 'M 0,-5 L 10 ,0 L 0,5')
     .attr('fill', '#999')
-    .style('stroke','none');
+    .style('stroke','none')
 //create some data
 
-d3.json("/data/eye_motion.json")
+d3.json("/data/combined.json")
   .then(function(dataset){
     console.log("dataset is ...", dataset);
     // Initialize the links
@@ -70,7 +70,9 @@ d3.json("/data/eye_motion.json")
         .data(dataset.links)
         .enter()
         .append("line")
-        .attr("class", "links")
+        .attr('class', 'links')
+        .style("stroke-dasharray", d => {return d.linetype})
+        .style("stroke-width", d => {return d.linelevel})
         .attr('marker-end','url(#arrowhead)') //The marker-end attribute defines the arrowhead or polymarker that will be drawn at the final vertex of the given shape.
     //The <title> element provides an accessible, short-text description of any SVG container element or graphics element.
     //Text in a <title> element is not rendered as part of the graphic, but browsers usually display it as a tooltip.
@@ -110,7 +112,7 @@ d3.json("/data/eye_motion.json")
         .call(drag(simulation));
         
     node.append("circle")
-        .attr("r", d=> 17)//+ d.runtime/20 )
+        .attr("r", d=> 20)//+ d.runtime/20 )
         .style("stroke", "grey")
         .style("stroke-opacity",0.3)
         .style("stroke-width", d => d.runtime/10)

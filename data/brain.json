@@ -1,0 +1,9 @@
+{
+    "nodes": [
+        {"id": 1, "name": "Brain", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 2, "name": "brain synchrony", "label": "", "group": "Team A", "runtime": 1}
+    ], 
+    "links": [
+        {"source": 2, "target": 1, "type": "glm", "linetype": "0,0", "linelevel": "1"}
+    ]
+}

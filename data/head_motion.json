@@ -1,0 +1,18 @@
+{
+    "nodes": [
+        {"id": 1, "name": "Head Motion", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 2, "name": "head orientation", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 3, "name": "Number of faces looking at screen", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 4, "name": "head motion features [x5]", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 5, "name": "Head motion", "label": "", "group": "Team C", "runtime": 1},        
+        {"id": 6, "name": "Faces looking at screen (FLS)", "label": "", "group": "Team C", "runtime": 1}
+
+    ], 
+    "links": [
+        {"source": 2, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 3, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 4, "target": 1, "type": "clust", "linetype": "0,0", "linelevel": "1"},
+        {"source": 5, "target": 1, "type": "clust", "linetype": "0,0", "linelevel": "1"},
+        {"source": 6, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"}
+    ]
+}
