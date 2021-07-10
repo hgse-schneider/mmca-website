@@ -1,0 +1,23 @@
+{
+    "nodes": [
+        {"id": 1, "name": "Location", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 2, "name": "dyad proximity", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 3, "name": "Distance between leaners (DBL)", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 4, "name": "Mean distance between learners", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 5, "name": "time spent individually", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 6, "name": "body distance", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 7, "name": "transition probabilities between collaborative state", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 8, "name": "time spent as a group", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 9, "name": "distance from the center of the table", "label": "", "group": "Team A", "runtime": 1}
+    ], 
+    "links": [
+        {"source": 2, "target": 1, "type": "glm", "linetype": "0,0", "linelevel": "1"},
+        {"source": 3, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 4, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 5, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 6, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 7, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 8, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 9, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"}
+    ]
+}

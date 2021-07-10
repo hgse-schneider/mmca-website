@@ -1,0 +1,43 @@
+{
+    "nodes": [
+        {"id": 1, "name": "Task-related", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 2, "name": "student work phases", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 3, "name": "types of exploration", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 4, "name": "Arduino active blocks", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 5, "name": "events", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 6, "name": "Arduino software blocks", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 7, "name": "card movements", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 8, "name": "type of activity done in task", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 9, "name": "target for discussion partner", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 10, "name": "zooming", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 11, "name": "Arduino measure of complexity", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 12, "name": "Calculator use", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 13, "name": "scrolling", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 14, "name": "zoid acceleration", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 15, "name": "Arduino active hardware blocks", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 16, "name": "movement of objects including revisiting past actions", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 17, "name": "physical participation quantity", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 18, "name": "player actions", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 19, "name": "amount of exploration", "label": "", "group": "Team A", "runtime": 1}
+    ], 
+    "links": [
+        {"source": 2, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 3, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 4, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 5, "target": 1, "type": "clust", "linetype": "0,0", "linelevel": "1"},
+        {"source": 6, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 7, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 8, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 9, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 10, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 11, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 12, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 13, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 14, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 15, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 16, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 17, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 18, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 19, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"}
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "nodes": [
+        {"id": 1, "name": "Gross Body Motion", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 2, "name": "head/body motion", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 3, "name": "amount of movement", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 4, "name": "amount of face and body movement", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 5, "name": "Total Movement", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 6, "name": "body pose", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 7, "name": "Face and upper body movement", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 8, "name": "x, y, z body joints", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 9, "name": "upper body agitation", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 10, "name": "Total movement across upper body joints and body parts", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 11, "name": "Body Motion", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 12, "name": "Joint movement", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 13, "name": "Physical synchrony", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 14, "name": "Body synchronization", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 15, "name": "Joint angle", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 16, "name": "body synchronization", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 17, "name": "type of movement", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 18, "name": "Motion energy images", "label": "", "group": "Team C", "runtime": 1}
+    ], 
+    "links": [
+        {"source": 2, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 3, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 4, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 5, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 6, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 7, "target": 1, "type": "clust", "linetype": "5,5", "linelevel": "1"},
+        {"source": 8, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 9, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 10, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 11, "target": 1, "type": "clust", "linetype": "0,0", "linelevel": "1"},
+        {"source": 12, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 13, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 14, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 15, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 16, "target": 1, "type": "glm", "linetype": "0,0", "linelevel": "1"},
+        {"source": 17, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 18, "target": 1, "type": "clust", "linetype": "0,0", "linelevel": "1"}
+    ]
+}

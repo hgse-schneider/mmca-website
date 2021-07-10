@@ -1,0 +1,22 @@
+{
+    "nodes": [
+        {"id": 1, "name": "Heart", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 2, "name": "WC - HR low frequency", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 3, "name": "DA - HR", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 4, "name": "WC - HR high frequency", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 5, "name": "IDM- HR", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 6, "name": "heart rate sychrony", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 7, "name": "SM - HR", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 8, "name": "CC - HR", "label": "", "group": "Team C", "runtime": 1}
+    ], 
+    "links": [
+        {"source": 2, "target": 1, "type": "glm", "linetype": "5,5", "linelevel": "1"},
+        {"source": 3, "target": 1, "type": "glm", "linetype": "5,5", "linelevel": "1"},
+        {"source": 4, "target": 1, "type": "glm", "linetype": "5,5", "linelevel": "1"},
+        {"source": 5, "target": 1, "type": "glm", "linetype": "5,5", "linelevel": "1"},
+        {"source": 6, "target": 1, "type": "ml", "linetype": "5,5", "linelevel": "1"},
+        {"source": 7, "target": 1, "type": "glm", "linetype": "0,0", "linelevel": "1"},
+        {"source": 8, "target": 1, "type": "glm", "linetype": "5,5", "linelevel": "1"}
+    ]
+}
+ 

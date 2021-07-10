@@ -1,0 +1,27 @@
+{
+    "nodes": [
+        {"id": 1, "name": "Text", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 2, "name": "N-grams", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 3, "name": "Cosine similarity scores", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 4, "name": "Convergence measures", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 5, "name": "Average stroke time length", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 6, "name": "Average stroke displacement", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 7, "name": "Average stroke pressure", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 8, "name": "Coherence metrics", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 9, "name": "Average stroke path length", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 10, "name": "Average number of points", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 11, "name": "Average number of pen strokes", "label": "", "group": "Team C", "runtime": 1}
+    ], 
+    "links": [
+        {"source": 2, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 3, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 4, "target": 1, "type": "glm", "linetype": "5,5", "linelevel": "1"},
+        {"source": 5, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 6, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 7, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 8, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 9, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 10, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 11, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"}
+    ]
+}

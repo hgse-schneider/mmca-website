@@ -1,0 +1,27 @@
+{
+    "nodes": [
+        {"id": 1, "name": "Hand Motion", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 2, "name": "Iconic gestures per second", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 3, "name": "gesture", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 4, "name": "Mean distance between hands", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 5, "name": "hand agitation", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 6, "name": "gesture type and location", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 7, "name": "clustered hand/wrist movement", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 8, "name": "Mean hand movement speed", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 9, "name": "Distance between hands", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 10, "name": "Deictic gestures per second", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 11, "name": "Total manual gestures per second", "label": "", "group": "Team C", "runtime": 1}
+    ], 
+    "links": [
+        {"source": 2, "target": 1, "type": "glm", "linetype": "0,0", "linelevel": "1"},
+        {"source": 3, "target": 1, "type": "glm", "linetype": "0,0", "linelevel": "1"},
+        {"source": 4, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 5, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 6, "target": 1, "type": "glm", "linetype": "0,0", "linelevel": "1"},
+        {"source": 7, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 8, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 9, "target": 1, "type": "glm", "linetype": "0,0", "linelevel": "1"},
+        {"source": 10, "target": 1, "type": "glm", "linetype": "5,5", "linelevel": "1"},
+        {"source": 11, "target": 1, "type": "glm", "linetype": "0,0", "linelevel": "1"}
+    ]
+}
