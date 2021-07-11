@@ -44,10 +44,10 @@ const svg = d3.select('.diagram')
     .append("svg")
     .attr("width", window.innerWidth)
     .attr("height", window.innerHeight)
-    .attr("preserveAspectRatio", "xMinYMin meet")
-    .attr("viewBox", "0 0 890 890")
+    // .attr("preserveAspectRatio", "xMinYMin meet")
+    // .attr("viewBox", "0 0 890 890")
     .append("g")
-    .attr("transform", `translate(${margin.left + 20},${margin.top + 10})`)
+    .attr("transform", `translate(${margin.left - 40},${margin.top})`)
 
 
 //appending little triangles, path object, as arrowhead
@@ -174,7 +174,7 @@ d3.json("/data/layer_1/speech_participation.json")
     const legend_g = svg.selectAll(".legend")
         .data(colorScale.domain())
         .enter().append("g") 
-        .attr("transform", (d, i) => `translate(${window.innerWidth-120},${i * 20})`); 
+        .attr("transform", (d, i) => `translate(${window.innerWidth-190},${i * 20})`); 
     legend_g.append("circle")
         .attr("cx", 0)
         .attr("cy", 0)
@@ -187,7 +187,7 @@ d3.json("/data/layer_1/speech_participation.json")
     //drawing the second legend
     const legend_g2 = svg.append("g") 
         //.attr("transform", (d, i) => `translate(${width},${i * 20})`); 
-        .attr("transform", `translate(${window.innerWidth-120}, 120)`);
+        .attr("transform", `translate(${window.innerWidth-190}, 120)`);
     legend_g2.append("circle")
         .attr("r", 5)
         .attr("cx", 0)
