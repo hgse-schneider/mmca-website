@@ -47,7 +47,7 @@ const svg = d3.select('.diagram')
     .attr("preserveAspectRatio", "xMinYMin meet")
     .attr("viewBox", "0 0 890 890")
     .append("g")
-    .attr("transform", `translate(${margin.left + 20},${margin.top + 20})`)
+    .attr("transform", `translate(${margin.left + 20},${margin.top + 10})`)
 
 
 //appending little triangles, path object, as arrowhead
