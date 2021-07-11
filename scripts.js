@@ -35,17 +35,19 @@ function drag(simulation) {
 const simulation = d3.forceSimulation()
 .force("link", d3.forceLink() // This force provides links between nodes
                 .id(d => d.id) // This sets the node id accessor to the specified function. If not specified, will default to the index of a node.
-                .distance(190)) 
-.force("charge", d3.forceManyBody().strength(-10000)) // This adds repulsion (if it's negative) between nodes. 
+                .distance(100)) 
+.force("charge", d3.forceManyBody().strength(-3000)) // This adds repulsion (if it's negative) between nodes. 
 .force("center", d3.forceCenter(width / 2, height / 2))
 
 
 const svg = d3.select('.diagram')
     .append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
+    .attr("width", window.innerWidth)
+    .attr("height", window.innerHeight)
+    .attr("preserveAspectRatio", "xMinYMin meet")
+    .attr("viewBox", "0 0 890 890")
     .append("g")
-    .attr("transform", `translate(${margin.left},${margin.top})`)
+    .attr("transform", `translate(${margin.left + 20},${margin.top + 20})`)
 
 
 //appending little triangles, path object, as arrowhead
@@ -172,7 +174,7 @@ d3.json("/data/layer_1/speech_participation.json")
     const legend_g = svg.selectAll(".legend")
         .data(colorScale.domain())
         .enter().append("g") 
-        .attr("transform", (d, i) => `translate(${width},${i * 20})`); 
+        .attr("transform", (d, i) => `translate(${window.innerWidth-120},${i * 20})`); 
     legend_g.append("circle")
         .attr("cx", 0)
         .attr("cy", 0)
@@ -185,7 +187,7 @@ d3.json("/data/layer_1/speech_participation.json")
     //drawing the second legend
     const legend_g2 = svg.append("g") 
         //.attr("transform", (d, i) => `translate(${width},${i * 20})`); 
-        .attr("transform", `translate(${width}, 120)`);
+        .attr("transform", `translate(${window.innerWidth-120}, 120)`);
     legend_g2.append("circle")
         .attr("r", 5)
         .attr("cx", 0)

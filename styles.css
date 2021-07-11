@@ -40,17 +40,19 @@
     width: 70%;
     text-align: center;
     line-height: 2em;
-    margin-bottom: 10vh;
+    margin-bottom: 3vh;
+    margin-bottom: 6vh;
 }
 .p-txt {
     font-weight: normal;
 }
 .legend {
-    margin-top: 10vh;
     text-align: left;
     background-color: rgba(253, 232, 208, 0.829);
     border-radius: 10px;
-    padding: 5vh
+    padding: 4vh;
+    margin-top: 6vh;
+    margin-bottom: 0;
 }
 .dev-txt {
     font-size: 0.9em;
@@ -61,6 +63,7 @@
     border-radius: 25px;
     color: #fff;
     width: fit-content;
+    margin: 4vh;
 }
 .links { 
     stroke: rgb(0, 0, 0); 
