@@ -12,4 +12,4 @@ scripts.js - JavaScript file that generates diagram using D3.js </br>
 
 HTML/CSS, D3.js
 
-### Developed by Eric Sheen
+#### Developed by Eric Sheen
