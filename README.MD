@@ -4,9 +4,9 @@ By Harvard Learning, Innovation, and Technology Lab (LIT)
 
 ## Structure
 
-assets folder - contain images to style the website
-data - contains all the json data files
-scripts.js - JavaScript file that generates diagram using D3.js
+assets folder - contain images to style the website </br>
+data - contains all the json data files </br>
+scripts.js - JavaScript file that generates diagram using D3.js </br>
 
 ## Technology Used
 
