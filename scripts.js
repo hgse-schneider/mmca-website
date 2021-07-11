@@ -47,7 +47,7 @@ const svg = d3.select('.diagram')
     // .attr("preserveAspectRatio", "xMinYMin meet")
     // .attr("viewBox", "0 0 890 890")
     .append("g")
-    .attr("transform", `translate(${margin.left - 40},${margin.top})`)
+    .attr("transform", `translate(${margin.left - 40},${margin.top  - 10})`)
 
 
 //appending little triangles, path object, as arrowhead
@@ -93,7 +93,6 @@ d3.json("/data/layer_1/speech_participation.json")
         .attr('stroke-opacity', 0)
         .attr('id', function (d, i) {return 'edgepath' + i})
         .style("pointer-events", "none");
-        
     const edgelabels = svg.selectAll(".edgelabel")
         .data(dataset.links)
         .enter()
@@ -130,11 +129,11 @@ d3.json("/data/layer_1/speech_participation.json")
     node.append("text")
         .attr("dy", 4)
         .attr("dx", -15)
-        .text(d => d.name)
+        .text(d => d.name) 
     // node.append("text")
     //     .attr("dy",12)
     //     .attr("dx", -8)
-    //     .text(d=> d.runtime);
+    //     .text(d => d.runtime);
 
     //Listen for tick events to render the nodes as they update in your Canvas or SVG.
     simulation
