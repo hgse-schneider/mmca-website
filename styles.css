@@ -40,11 +40,13 @@
     width: 70%;
     text-align: center;
     line-height: 2em;
+    margin-bottom: 10vh;
 }
 .p-txt {
     font-weight: normal;
 }
 .legend {
+    margin-top: 10vh;
     text-align: left;
     background-color: rgba(253, 232, 208, 0.829);
     border-radius: 10px;
@@ -70,9 +72,6 @@ text {
     pointer-events: none;
     fill: #000;
     font: 10px sans-serif;
-}
-svg {
-    border:1px solid #000;
 }
 @media only screen and (max-width: 768px) {
     .intro-txt {

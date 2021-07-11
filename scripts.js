@@ -35,15 +35,19 @@ function drag(simulation) {
 const simulation = d3.forceSimulation()
 .force("link", d3.forceLink() // This force provides links between nodes
                 .id(d => d.id) // This sets the node id accessor to the specified function. If not specified, will default to the index of a node.
-                .distance(120)) 
-.force("charge", d3.forceManyBody().strength(-700)) // This adds repulsion (if it's negative) between nodes. 
+                .distance(190)) 
+.force("charge", d3.forceManyBody().strength(-10000)) // This adds repulsion (if it's negative) between nodes. 
 .force("center", d3.forceCenter(width / 2, height / 2))
+
+
 const svg = d3.select('.diagram')
     .append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
     .append("g")
-    .attr("transform", `translate(${margin.left},${margin.top})`);
+    .attr("transform", `translate(${margin.left},${margin.top})`)
+
+
 //appending little triangles, path object, as arrowhead
 //The <defs> element is used to store graphical objects that will be used at a later time
 //The <marker> element defines the graphic that is to be used for drawing arrowheads or polymarkers on a given <path>, <line>, <polyline> or <polygon> element.
@@ -62,7 +66,7 @@ svg.append('defs').append('marker')
     .style('stroke','none')
 //create some data
 
-d3.json("/data/layer_1/eda.json")
+d3.json("/data/layer_1/speech_participation.json")
   .then(function(dataset){
     console.log("dataset is ...", dataset);
     // Initialize the links
