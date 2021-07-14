@@ -20,7 +20,7 @@
         {"node":15, "name":"Verbal"},
         {"node":16, "name":"Physiological"},
 
-        {"node":17, "name":"Visual Attention", "data": "/data/layer_1/visual_attention.json"},
+        {"node":17, "name":"Visual Attention"},
         {"node":18, "name":"Eye Motion", "data": "/data/layer_1/eye_motion.json"},
         {"node":19, "name":"Task-related", "data": "/data/layer_1/task_related.json"},
         {"node":20, "name":"Text", "data": "/data/layer_1/text.json"},
@@ -33,13 +33,13 @@
         {"node":27, "name":"Speech Participation", "data": "/data/layer_1/speech_participation.json"},
         {"node":28, "name":"Speech Features", "data": "/data/layer_1/speech_features.json"},
         {"node":29, "name":"Speech Content", "data": "/data/layer_1/speech_content.json"},
-        {"node":30, "name":"EDA", "data": "/data/layer_1/eda.json"},
+        {"node":30, "name":"EDA", "data": "./data/layer_1/eda.json"},
         {"node":31, "name":"Combined", "data": "/data/layer_1/combined.json"},
         {"node":32, "name":"Heart", "data": "/data/layer_1/heart.json"},
         {"node":33, "name":"Brain", "data": "/data/layer_1/brain.json"}
     ],
     "links":[
-        {"source":0, "target":4, "value":1},
+        {"source":0, "target":4, "value":1, "data": "/data/layer_1/visual_attention.json"},
         {"source":1, "target":5, "value":1},
         {"source":2, "target":6, "value":1},
         {"source":2, "target":3, "value":1},

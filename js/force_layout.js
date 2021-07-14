@@ -31,6 +31,7 @@ function drag(simulation) {
       .on("end", dragended);
 }
 
+var data_link = "/data/layer_1/brain.json"; 
 
 const simulation = d3.forceSimulation()
 .force("link", d3.forceLink() // This force provides links between nodes
@@ -43,6 +44,7 @@ const simulation = d3.forceSimulation()
 const svg = d3.select('.diagram').append("svg")
     .attr("width", window.innerWidth)
     .attr("height", window.innerHeight)
+    .attr("id", "force-layout-diagram")
     // .attr("preserveAspectRatio", "xMinYMin meet")
     // .attr("viewBox", "0 0 890 890")
     .append("g")
@@ -67,7 +69,7 @@ svg.append('defs').append('marker')
     .style('stroke','none')
 //create some data
 
-d3.json("/data/layer_1/speech_participation.json")
+d3.json(data_link)
   .then(function(dataset){
     console.log("dataset is ...", dataset);
     // Initialize the links

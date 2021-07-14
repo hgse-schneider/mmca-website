@@ -9,9 +9,10 @@ var formatNumber = d3.format(",.0f"), // zero decimal places
     color = d3.scaleOrdinal(d3.schemeCategory10);
     
 // append the svg object to the body of the page
-const sankey_svg = d3.select(".sankey-diagram").append("svg")
+const sankey_svg = d3.select(".diagram").append("svg")
   .attr("width", sankey_width + sankey_margin.left + sankey_margin.right)
   .attr("height", sankey_height + sankey_margin.top + sankey_margin.bottom)
+  .attr("id", "sankey-diagram")
   .append("g")
     .attr("transform", 
           "translate(" + sankey_margin.left + "," + sankey_margin.top + ")");
@@ -59,8 +60,8 @@ d3.json("/data/sankey_data/layers.json").then(function(sankeydata) {
 		      return d.color = color(d.name.replace(/ .*/, "")); })
       .style("stroke", function(d) { 
 		  return d3.rgb(d.color).darker(2); })
-      .on('click', function() {
-        console.log("hi");
+      .on('click', function(d) {
+        data_link = d.data
       })
       .append("title")
       .text(function(d) { 
