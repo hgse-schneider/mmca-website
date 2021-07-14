@@ -17,7 +17,7 @@
 
       const root = tree(
         d3
-          .hierarchy('/test_data/test_data.json')
+          .hierarchy('test_data/test_data.json')
           .sort((a, b) => d3.ascending(a.data.name, b.data.name))
       );
 
