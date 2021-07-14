@@ -40,8 +40,7 @@ const simulation = d3.forceSimulation()
 .force("center", d3.forceCenter(width / 2, height / 2))
 
 
-const svg = d3.select('.diagram')
-    .append("svg")
+const svg = d3.select('.diagram').append("svg")
     .attr("width", window.innerWidth)
     .attr("height", window.innerHeight)
     // .attr("preserveAspectRatio", "xMinYMin meet")
