@@ -45,9 +45,9 @@ d3.json("/data/sankey_data/layers.json").then(function(sankeydata) {
 
 // add in the nodes
   var node = sankey_svg.append("g").selectAll(".node")
-      .data(graph.nodes)
+    .data(graph.nodes)
     .enter().append("g")
-      .attr("class", "node");
+    .attr("class", "node")
 
 // add the rectangles for the nodes
   node.append("rect")
@@ -59,9 +59,12 @@ d3.json("/data/sankey_data/layers.json").then(function(sankeydata) {
 		      return d.color = color(d.name.replace(/ .*/, "")); })
       .style("stroke", function(d) { 
 		  return d3.rgb(d.color).darker(2); })
-    .append("title")
+      .on('click', function() {
+        console.log("hi");
+      })
+      .append("title")
       .text(function(d) { 
-		  return d.name + "\n" + format(d.value); });
+        return d.name + "\n" + format(d.value); })
 
 // add in the title for the nodes
   node.append("text")
@@ -70,10 +73,9 @@ d3.json("/data/sankey_data/layers.json").then(function(sankeydata) {
       .attr("dy", "0.35em")
       .attr("text-anchor", "end")
       .text(function(d) { return d.name; })
-    .filter(function(d) { return d.x0 < sankey_width / 2; })
+      .filter(function(d) { return d.x0 < sankey_width / 2; })
       .attr("x", function(d) { return d.x1 + 6; })
       .attr("text-anchor", "start");
-
 });
   
 d3.sankey = function() {
