@@ -11,7 +11,7 @@ const svg = d3
 .append('g')
 .attr('transform', 'translate(' + width / 2 + ',' + height / 2 + ')');
 
-d3.json("/test_data/test_data.json", function(data) {
+d3.json("/test_data/test_data.json").then(function(data) { 
     const root = tree(
     d3
         .hierarchy(data)
