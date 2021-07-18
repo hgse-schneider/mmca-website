@@ -96,6 +96,23 @@ text {
     display: inline-block;
     margin: 0 auto;
 }
+.reset-btn {
+    text-align: center;
+    border: none;
+    background-color: aliceblue;
+    font-size: 1em;
+    padding: 2vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    border-radius: 30px;
+    border: 2px solid rgb(156, 209, 255);
+    margin-bottom: 4vh;
+}
+.reset-btn:hover {
+    background-color: rgb(96, 181, 255);
+    color: white;
+    transition: 0.3s;
+}
 @media only screen and (max-width: 768px) {
     .intro-txt {
         flex-direction: column;
