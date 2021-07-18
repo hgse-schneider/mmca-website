@@ -17,4 +17,8 @@ HTML/CSS, D3.js
 ###### NOTICE [This is not the official link. Used for testing.]
 https://mmca.netlify.app/
 
+## Links for learning
+
+https://observablehq.com/@d3/modifying-a-force-directed-graph
+
 ##### Developed by Eric Sheen
