@@ -60,8 +60,8 @@ d3.json("/data/sankey_data/layers.json").then(function(sankeydata) {
 		      return d.color = color(d.name.replace(/ .*/, "")); })
       .style("stroke", function(d) { 
 		  return d3.rgb(d.color).darker(2); })
-      .on('click', function(d) {
-        data_link = d.data
+      .on('click', function(e, d) {
+         console.log(d.data_link)
       })
       .append("title")
       .text(function(d) { 
