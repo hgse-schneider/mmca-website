@@ -12,8 +12,9 @@ scripts.js - JavaScript file that generates diagram using D3.js </br>
 
 HTML/CSS, D3.js
 
-## Debugging or Q&A
+## Link
 
-https://vizhub.com/
+###### NOTICE [This is not the official link. Used for testing.]
+https://mmca.netlify.app/
 
 ##### Developed by Eric Sheen
