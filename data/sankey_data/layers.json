@@ -33,7 +33,7 @@
         {"node":27, "name":"Speech Participation", "data_link": "/data/layer_1/speech_participation.json"},
         {"node":28, "name":"Speech Features", "data_link": "/data/layer_1/speech_features.json"},
         {"node":29, "name":"Speech Content", "data_link": "/data/layer_1/speech_content.json"},
-        {"node":30, "name":"EDA", "data_link": "./data/layer_1/eda.json"},
+        {"node":30, "name":"EDA", "data_link": "/data/layer_1/eda.json"},
         {"node":31, "name":"Combined", "data_link": "/data/layer_1/combined.json"},
         {"node":32, "name":"Heart", "data_link": "/data/layer_1/heart.json"},
         {"node":33, "name":"Brain", "data_link": "/data/layer_1/brain.json"}
