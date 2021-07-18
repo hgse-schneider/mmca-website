@@ -1,4 +1,3 @@
-
 const sankey_margin = {top: 30, right: 80, bottom: 5, left: 5}
 const sankey_width =  890 - sankey_margin.left - sankey_margin.right
 const sankey_height =  800 - sankey_margin.top - sankey_margin.bottom
@@ -61,7 +60,10 @@ d3.json("/data/sankey_data/layers.json").then(function(sankeydata) {
       .style("stroke", function(d) { 
 		  return d3.rgb(d.color).darker(2); })
       .on('click', function(e, d) {
+        let link = d.data_link
          console.log(d.data_link)
+         d3.select("#sankey-diagram").remove();
+         force_layout(link) 
       })
       .append("title")
       .text(function(d) { 
