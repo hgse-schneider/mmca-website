@@ -1,0 +1,33 @@
+{
+    "nodes": [
+        {"id": 1, "name": "22 Intra-Personal features", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 2, "name": "head orientation", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 3, "name": "51 Facial Action Units", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 4, "name": "smiling synchrony", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 5, "name": "Head motion features [x5]", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 6, "name": "Face looking at screen (FLS)", "label": "", "group": "Team A", "runtime": 1},        
+        {"id": 7, "name": "facial features", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 8, "name": "facial expression", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 9, "name": "Number of faces looking at screen", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 10, "name": "Facial expression", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 11, "name": "facial expression features (60 features)", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 12, "name": "9 Dyadic features", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 13, "name": "Head motion", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 14, "name": "Head", "label": "", "group": "Team C", "runtime": 1}
+    ], 
+    "links": [
+        {"source": 1, "target": 14, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 2, "target": 14, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 3, "target": 14, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 4, "target": 14, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 5, "target": 14, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 6, "target": 14, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 7, "target": 14, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 8, "target": 14, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 9, "target": 14, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 10, "target": 14, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 11, "target": 14, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 12, "target": 14, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 13, "target": 14, "type": "corr", "linetype": "5,5", "linelevel": "1"}
+    ]
+}

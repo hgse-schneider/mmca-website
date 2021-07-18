@@ -6,15 +6,19 @@ const sankey_height =  800 - sankey_margin.top - sankey_margin.bottom
 var formatNumber = d3.format(",.0f"), // zero decimal places
     format = function(d) { return formatNumber(d); },
     color = d3.scaleOrdinal(d3.schemeCategory10);
-    
-// append the svg object to the body of the page
-const sankey_svg = d3.select(".diagram").append("svg")
-  .attr("width", sankey_width + sankey_margin.left)
-  .attr("height", sankey_height + sankey_margin.top)
-  .attr("id", "sankey-diagram")
-  .append("g")
-    .attr("transform", 
-          "translate(" + sankey_margin.left + "," + sankey_margin.top + ")");
+  
+const sankey_svg = sankey_graph() 
+
+function sankey_graph() {
+  return (
+    d3.select(".diagram").append("svg")
+      .attr("width", sankey_width + sankey_margin.left)
+      .attr("height", sankey_height + sankey_margin.top)
+      .attr("id", "sankey-diagram")
+      .append("g")
+      .attr("transform", "translate(" + sankey_margin.left + "," + sankey_margin.top + ")")
+  )
+}
 
 // Set the sankey diagram properties
 var sankey = d3.sankey()
@@ -29,27 +33,27 @@ d3.json("/data/sankey_data/layers.json").then(function(sankeydata) {
 
   graph = sankey(sankeydata);
 
-// add in the links
+  // add in the links
   var link = sankey_svg.append("g").selectAll(".link")
-      .data(graph.links)
+    .data(graph.links)
     .enter().append("path")
-      .attr("class", "link")
-      .attr("d", d3.sankeyLinkHorizontal())
-      .attr("stroke-width", function(d) { return d.width; });  
+    .attr("class", "link")
+    .attr("d", d3.sankeyLinkHorizontal())
+    .attr("stroke-width", function(d) { return d.width; });  
 
-// add the link titles
+  // add the link titles
   link.append("title")
-        .text(function(d) {
-    		    return d.source.name + " → " + 
-                d.target.name + "\n" + format(d.value); });
+    .text(function(d) {
+        return d.source.name + " → " + 
+            d.target.name + "\n" + format(d.value); });
 
-// add in the nodes
+  // add in the nodes
   var node = sankey_svg.append("g").selectAll(".node")
     .data(graph.nodes)
     .enter().append("g")
     .attr("class", "node")
 
-// add the rectangles for the nodes
+  // add the rectangles for the nodes
   node.append("rect")
       .attr("x", function(d) { return d.x0; })
       .attr("y", function(d) { return d.y0; })
@@ -61,7 +65,6 @@ d3.json("/data/sankey_data/layers.json").then(function(sankeydata) {
 		  return d3.rgb(d.color).darker(2); })
       .on('click', function(e, d) {
         let link = d.data_link
-         console.log(d.data_link)
          d3.select("#sankey-diagram").remove();
          force_layout(link) 
       })
@@ -69,7 +72,7 @@ d3.json("/data/sankey_data/layers.json").then(function(sankeydata) {
       .text(function(d) { 
         return d.name + "\n" + format(d.value); })
 
-// add in the title for the nodes
+  // add in the title for the nodes
   node.append("text")
       .attr("x", function(d) { return d.x0 - 6; })
       .attr("y", function(d) { return (d.y1 + d.y0) / 2; })
@@ -80,6 +83,10 @@ d3.json("/data/sankey_data/layers.json").then(function(sankeydata) {
       .attr("x", function(d) { return d.x1 + 6; })
       .attr("text-anchor", "start");
 });
+
+function resetVis() {
+  d3.select("#force-layout-diagram").remove();
+}
   
 d3.sankey = function() {
     var sankey = {},
@@ -185,7 +192,7 @@ d3.sankey = function() {
         );
       });
     }
-  
+
     // Iteratively assign the breadth (x-position) for each node.
     // Nodes are assigned the maximum breadth of incoming neighbors plus one;
     // nodes with no incoming links are assigned breadth zero, while
