@@ -9,8 +9,8 @@ var formatNumber = d3.format(",.0f"), // zero decimal places
     
 // append the svg object to the body of the page
 const sankey_svg = d3.select(".diagram").append("svg")
-  .attr("width", sankey_width + sankey_margin.left + sankey_margin.right)
-  .attr("height", sankey_height + sankey_margin.top + sankey_margin.bottom)
+  .attr("width", sankey_width + sankey_margin.left)
+  .attr("height", sankey_height + sankey_margin.top)
   .attr("id", "sankey-diagram")
   .append("g")
     .attr("transform", 

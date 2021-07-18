@@ -92,6 +92,10 @@ text {
 .link:hover {
     stroke-opacity: .5;
 }
+.diagram {
+    display: inline-block;
+    margin: 0 auto;
+}
 @media only screen and (max-width: 768px) {
     .intro-txt {
         flex-direction: column;

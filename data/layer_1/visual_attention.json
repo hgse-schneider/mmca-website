@@ -4,7 +4,6 @@
         {"id": 2, "name": "Audio-visual (Looking while speaking, Looking while listening, Being looked while speaking, Center of attention while speaking, Visual dominance ratio", "label": "", "group": "Team A", "runtime": 1},
         {"id": 3, "name": "attention given by person", "label": "", "group": "Team C", "runtime": 1},
         {"id": 4, "name": "Cycles of collaborative / individual work", "label": "", "group": "Team C", "runtime": 1},
-        {"id": 5, "name": "Network features [+20]", "label": "", "group": "Team C", "runtime": 1},
         {"id": 5, "name": "EVT of spatial entropy", "label": "", "group": "Team C", "runtime": 1},
         {"id": 6, "name": "visual focus of attention", "label": "", "group": "Team C", "runtime": 1},
         {"id": 7, "name": "Joint visual Attention", "label": "", "group": "Team C", "runtime": 1},
@@ -29,7 +28,8 @@
         {"id": 26, "name": "visual focus of attention features", "label": "", "group": "Team C", "runtime": 1},
         {"id": 27, "name": "visual attention metrics [8 metrics]", "label": "", "group": "Team C", "runtime": 1},
         {"id": 28, "name": "join-visual attention", "label": "", "group": "Team C", "runtime": 1},
-        {"id": 29, "name": "visual field of attention on a person features", "label": "", "group": "Team C", "runtime": 1}
+        {"id": 29, "name": "visual field of attention on a person features", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 30, "name": "Network features [+20]", "label": "", "group": "Team C", "runtime": 1}
     ], 
     "links": [
         {"source": 2, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
@@ -59,6 +59,7 @@
         {"source": 26, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
         {"source": 27, "target": 1, "type": "", "linetype": "0,0", "linelevel": "1"},
         {"source": 28, "target": 1, "type": "clust", "linetype": "0,0", "linelevel": "1"},
-        {"source": 29, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"}
+        {"source": 29, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 30, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"}
     ]
 }
