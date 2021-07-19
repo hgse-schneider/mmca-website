@@ -1,0 +1,120 @@
+coordination
+Focused gaze
+glm
+Together gaze
+glm
+Gaze transitions
+glm
+Joint visual attention
+glm
+Convergence measures
+glm
+Sequences of verbal utterances
+clust
+Sequences of meaningful actions
+clust
+physiological synchrony (DA
+corr
+cycles of physiological synchrony (PC
+corr
+Joint visual Attention
+corr
+Cycles of collaborative / individual work
+corr
+card movements
+ml
+scrolling
+ml
+zooming
+ml
+1582 audio features (from Emobase
+ml
+Cross-Recurrence Quantification Analysis (CRQA
+glm
+Multidimensional Recurrence Quantification Analysis (MdRQA
+glm
+coherence
+glm
+35 Coh-metrix indices
+corr
+Physical synchrony
+ml
+Distance between hands
+glm
+Count of faces looking at screen
+glm
+Touch patterns
+Total movement across upper body joints and body parts
+corr
+talking time
+corr
+Network features [+20]
+corr
+Faces looking at screen (FLS
+ml
+Distance between learners (DBL
+ml
+Audio level (AUD
+ml
+joint-visual attention
+corr
+joint visual attention
+corr
+Joint movement
+corr
+dyad proximity
+corr
+Signal Matching (SM
+corr
+Instantaneous Derivative Matching (IDM
+corr
+Pearson‚Äôs correlation (PC
+corr
+Directional Agreement (DA
+corr
+speech time and frequency
+ml
+symmetry of speech among group
+ml
+total number of touch actions
+ml
+symmetry of touch actions among group
+ml
+upper body agitation
+ml
+hand agitation
+ml
+head orientation
+ml
+speaking time / turns
+ml
+EDA synchrony
+ml
+heart rate sychrony
+ml
+shared gaze
+glm
+speech time
+ml
+thousands of features prosodic speech
+ml
+movement of objects including revisiting past actions
+ml
+duration of speech by each student
+ml
+duration in which each student was only speaker
+ml
+duration of overlapping speech from pairs of students
+ml
+duration of overlapping speech from all people
+ml
+duration of silence for all people
+ml
+prosodic and tone features [many]
+ml
+speech rate
+clust
+Face and upper body movement
+clust
+Galvanic skin response
+clust

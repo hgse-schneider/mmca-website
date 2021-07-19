@@ -1,0 +1,28 @@
+{
+    "nodes": [
+        {"id": 1, "name": "affective", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 2, "name": "Physiological linkage", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 3, "name": "dialogue acts", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 4, "name": "facial expression", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 5, "name": "gesture", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 6, "name": "speech rate", "label": "", "group": "Team A", "runtime": 1},        
+        {"id": 7, "name": "Face and upper body movement", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 8, "name": "Galvanic skin response", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 9, "name": "transition probabilities between collaborative state", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 10, "name": "physiological synchrony", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 11, "name": "x,y,z body joints", "label": "", "group": "Team A", "runtime": 1}
+    ], 
+    "links": [
+        {"source": 1, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 2, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 3, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 4, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 5, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 6, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 7, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 8, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 9, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 10, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 11, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"}
+    ]
+}

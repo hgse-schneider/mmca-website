@@ -7,18 +7,16 @@ var formatNumber = d3.format(",.0f"), // zero decimal places
     format = function(d) { return formatNumber(d); },
     color = d3.scaleOrdinal(d3.schemeCategory10);
   
-const sankey_svg = sankey_graph() 
+function resetVis() {
+  d3.select("#force-layout-diagram").remove();
+}
 
-function sankey_graph() {
-  return (
-    d3.select(".diagram").append("svg")
+sankey_svg = d3.select(".diagram").append("svg")
       .attr("width", sankey_width + sankey_margin.left)
       .attr("height", sankey_height + sankey_margin.top)
       .attr("id", "sankey-diagram")
       .append("g")
       .attr("transform", "translate(" + sankey_margin.left + "," + sankey_margin.top + ")")
-  )
-}
 
 // Set the sankey diagram properties
 var sankey = d3.sankey()
@@ -84,10 +82,6 @@ d3.json("/data/sankey_data/layers.json").then(function(sankeydata) {
       .attr("text-anchor", "start");
 });
 
-function resetVis() {
-  d3.select("#force-layout-diagram").remove();
-}
-  
 d3.sankey = function() {
     var sankey = {},
         nodeWidth = 24,

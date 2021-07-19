@@ -1,0 +1,75 @@
+interpersonal
+verbal dominance and information metrics [9 metrics]
+non-verbal speaking metrics (speaking length, interruptions, etc
+visual attention metrics [8 metrics]
+Group Participation Speaking Cues (Speaking Length, Speaking Turns, Successful Interruptions, Unsuccessful Interruptions, Backchannels
+Silence and Overlap Cues (Fraction of Silence, Fraction of Nonoverlapped Speech, Fraction of two-people and three-people Overlapped Speech
+Speaking Distribution Cues (Speaking Length Skew, Speaking Turns Skew, Successful Interruption Skew, Unsuccessful Interruptions Skew, Backchannels Skew
+Individual Visual Focus of Attention
+Group Looking Cues (Fraction of People Gaze, Fraction of Convergent Gaze, Fraction of Mutual Gaze, Fraction of Shared Gaze, Gaze Skew
+88 GeMAPS acoustic features
+102 extended GeMAPs acoustic features
+12 MFCCs
+51 Facial Action Units
+speech rate
+Face and upper body movement
+Galvanic skin response
+Proximity
+Convergence
+Synchrony
+22 Intra-Personal Features
+9 Dyadic Features
+6 One Vs All Features
+Speaking Activity (Speaking length, Speaking turns, Speaking interruptions, Average speaking turn duration
+Audio-visual (Looking while speaking, Looking while listening, Being looked while speaking, Center of attention while speaking, Visual dominance ratio
+visual focus of attention
+body pose
+facial features
+Signal Matching (SM
+Directional Agreement (DA
+Pearson‚Äôs correlation coefficient (PCC
+Fisher‚Äôs z-transform (FZT
+Instantaneous Derivative Matching (IDM
+linguistic features from transcript (65 features
+voice features (4 features
+facial expression features (60 features
+type of activity done in task
+amount of face and body movement
+target for discussion partner
+Pearson‚Äôs correlation (PC
+visual field of attention on a person features
+time spent as a group
+EDA synchrony
+smiling synchrony
+brain synchrony
+body synchronization
+Joint visual attention
+Convergence measures
+Sequences of verbal utterances
+Sequences of meaningful actions
+physiological synchrony (DA
+cycles of physiological synchrony (PC
+Joint visual Attention
+Cycles of collaborative / individual work
+card movements
+scrolling
+zooming
+1582 audio features (from Emobase
+coherence
+35 Coh-metrix indices
+Physical synchrony
+Total movement across upper body joints and body parts
+talking time
+Network features [+20]
+joint-visual attention
+joint visual attention
+Joint movement
+dyad proximity
+speech time and frequency
+symmetry of speech among group
+total number of touch actions
+symmetry of touch actions among group
+shared gaze
+speech time
+thousands of features prosodic speech
+movement of objects including revisiting past actions

@@ -1,0 +1,125 @@
+group composition
+Group Participation Speaking Cues (Speaking Length, Speaking Turns, Successful Interruptions, Unsuccessful Interruptions, Backchannels
+glm
+Silence and Overlap Cues (Fraction of Silence, Fraction of Nonoverlapped Speech, Fraction of two-people and three-people Overlapped Speech
+glm
+Speaking Distribution Cues (Speaking Length Skew, Speaking Turns Skew, Successful Interruption Skew, Unsuccessful Interruptions Skew, Backchannels Skew
+corr
+Individual Visual Focus of Attention
+corr
+Group Looking Cues (Fraction of People Gaze, Fraction of Convergent Gaze, Fraction of Mutual Gaze, Fraction of Shared Gaze, Gaze Skew
+corr
+Calculator Use
+ml
+Total Movement
+ml
+Distance from the center of the table
+ml
+Number of interventions
+ml
+Total speech duration
+ml
+Times numbers were mentioned
+ml
+Times mathematical terms were mentioned
+ml
+Times commands were pronounced
+ml
+Total number of pen strokes
+ml
+Average number of points
+ml
+Average stroke time length
+ml
+Average stroke path length
+ml
+Average stroke displacement
+ml
+Average stroke pressure
+ml
+Speaking status
+clust
+Pitch
+clust
+Energy
+clust
+Head motion
+clust
+Body motion
+clust
+Motion energy images
+clust
+Gaze
+clust
+Total manual gestures per second
+glm
+Iconic gestures per second
+glm
+Deictic gestures per second
+glm
+duration of all vocalisations
+ml
+average duration of vocalisation
+ml
+standard deviation of vocalisation
+ml
+probability of a transition from floor (i.e. a pause, group switching pause or speaker switching pause
+ml
+probability of a transition from a vocalisation to floor
+ml
+probability of transitioning from a group vocalisation to speaker vocalisation
+ml
+probability of transitioning from a speaker vocalisation to a group vocalisation
+ml
+uncertainty in the transitions (turn taking
+ml
+type of movement
+glm
+Gaze location
+ml
+Gaze saccade
+ml
+Gaze fixation
+ml
+Player actions
+ml
+zoid acceleration
+ml
+22 Intra-Personal Features
+glm
+9 Dyadic Features
+glm
+6 One Vs All Features
+glm
+audio energy features
+ml
+visual focus of attention features
+ml
+speech utterances
+ml
+Pause duration
+glm
+Articulation rate
+glm
+peak slope
+glm
+spectral stationarity
+glm
+head/body movement
+ml
+(non
+ml
+speaking turn duration / number
+ml
+interruption
+ml
+visual field of attention on a person features
+ml
+body synchronization
+glm
+speaking time % per individual
+ml
+attention received per person
+ml
+attention given by person
+ml

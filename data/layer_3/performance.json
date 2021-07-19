@@ -1,0 +1,81 @@
+performance
+Focused gaze
+Together gaze
+Group Participation Speaking Cues (Speaking Length, Speaking Turns, Successful Interruptions, Unsuccessful Interruptions, Backchannels
+Silence and Overlap Cues (Fraction of Silence, Fraction of Nonoverlapped Speech, Fraction of two-people and three-people Overlapped Speech
+Speaking Distribution Cues (Speaking Length Skew, Speaking Turns Skew, Successful Interruption Skew, Unsuccessful Interruptions Skew, Backchannels Skew
+Individual Visual Focus of Attention
+Group Looking Cues (Fraction of People Gaze, Fraction of Convergent Gaze, Fraction of Mutual Gaze, Fraction of Shared Gaze, Gaze Skew
+speech features
+linguistic features
+gaze fixations
+gaze saccades
+events
+Calculator Use
+Total Movement
+Distance from the center of the table
+Number of interventions
+Total speech duration
+Times numbers were mentioned
+Times mathematical terms were mentioned
+Times commands were pronounced
+Total number of pen strokes
+Average number of points
+Average stroke time length
+Average stroke path length
+Average stroke displacement
+Average stroke pressure
+transition probability between types of vocalisations
+speech rate
+Face and upper body movement
+Galvanic skin response
+Cycles of collaborative / individual work
+Gaze location
+Joint visual Attention
+Cross-Recurrence Quantification Analysis (CRQA
+SM - EDA
+IDM - EDA
+DA - EDA
+CC - EDA
+WC - EDA
+SM - HR
+IDM - HR
+DA - HR
+CC - HR
+WC - HR low frequency
+WC - HR high frequency
+EVT of spatial entropy
+Speaking turn features [x4]
+Acoustic features [x13]
+Head motion features [x5]
+Linguistic features [x300+]
+Number of faces looking at screen
+Mean distance between learners
+Mean distance between hands
+Mean hand movement speed
+Mean audio level
+Arduino measure of complexity
+Arduino active hardware blocks
+Arduino active software blocks
+Arduino active blocks
+student work phases
+joint visual attention
+Joint movement
+Joint angle
+dyad proximity
+Signal Matching (SM
+Directional Agreement (DA
+Pearson‚Äôs correlation coefficient (PCC
+Fisher‚Äôs z-transform (FZT
+Instantaneous Derivative Matching (IDM
+type of activity done in task
+amount of face and body movement
+target for discussion partner
+time spent individually
+time spent as a group
+transition probabilities between collaborative state
+physiological synchrony
+shared gaze
+Faces looking at screen (FLS
+Distance between learners (DBL
+Audio level (AUD
