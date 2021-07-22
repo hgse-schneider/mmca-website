@@ -8,6 +8,20 @@ assets folder - contain images to style the website </br>
 data - contains all the json data files </br>
 scripts.js - JavaScript file that generates diagram using D3.js </br>
 
+## TODO 
+
+@ All data formatted properly (1-x)
+@ Width of force layout different
+@ Width of sankey layout different
+@ Google Scholar links (1-x)
+@ Colors on sankey
+@ Text inside rectangle
+@ Transformations
+
+## Time
+
+2 weeks
+
 ## Technology Used
 
 HTML/CSS, D3.js
