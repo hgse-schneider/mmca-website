@@ -5,7 +5,6 @@
         {"id": 3, "name": "duration of overlapping speech from all people", "label": "", "group": "Team C", "runtime": 1},
         {"id": 4, "name": "speech activity", "label": "", "group": "Team C", "runtime": 1},
         {"id": 5, "name": "(non)", "label": "", "group": "Team C", "runtime": 1},
-        {"id": 5, "name": "duration of speech by each student", "label": "", "group": "Team C", "runtime": 1},
         {"id": 6, "name": "speech time and frequency", "label": "", "group": "Team C", "runtime": 1},
         {"id": 7, "name": "speaking time/turns", "label": "", "group": "Team C", "runtime": 1},
         {"id": 8, "name": "Individual Visual Focus of Attention", "label": "", "group": "Team C", "runtime": 1},
@@ -39,7 +38,8 @@
         {"id": 36, "name": "Group Participation Speaking Cues (Speaking Length, Speaking turns, Successful Interruptions, Unsuccessful Interruptions, Backchannels)", "label": "", "group": "Team C", "runtime": 1},
         {"id": 37, "name": "speaking turn duration/number", "label": "", "group": "Team C", "runtime": 1},
         {"id": 38, "name": "probability of transition from group vocalisation to speaker vocalisation", "label": "", "group": "Team C", "runtime": 1},
-        {"id": 39, "name": "verbal participation symmetry amoung group", "label": "", "group": "Team C", "runtime": 1}
+        {"id": 39, "name": "verbal participation symmetry amoung group", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 40, "name": "duration of speech by each student", "label": "", "group": "Team C", "runtime": 1}
     ], 
     "links": [
         {"source": 2, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
@@ -79,6 +79,7 @@
         {"source": 36, "target": 1, "type": "clust", "linetype": "0,0", "linelevel": "1"},
         {"source": 37, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
         {"source": 38, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
-        {"source": 39, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"}
+        {"source": 39, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 40, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"}
     ]
 }

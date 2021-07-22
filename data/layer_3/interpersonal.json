@@ -1,75 +1,150 @@
-interpersonal
-verbal dominance and information metrics [9 metrics]
-non-verbal speaking metrics (speaking length, interruptions, etc
-visual attention metrics [8 metrics]
-Group Participation Speaking Cues (Speaking Length, Speaking Turns, Successful Interruptions, Unsuccessful Interruptions, Backchannels
-Silence and Overlap Cues (Fraction of Silence, Fraction of Nonoverlapped Speech, Fraction of two-people and three-people Overlapped Speech
-Speaking Distribution Cues (Speaking Length Skew, Speaking Turns Skew, Successful Interruption Skew, Unsuccessful Interruptions Skew, Backchannels Skew
-Individual Visual Focus of Attention
-Group Looking Cues (Fraction of People Gaze, Fraction of Convergent Gaze, Fraction of Mutual Gaze, Fraction of Shared Gaze, Gaze Skew
-88 GeMAPS acoustic features
-102 extended GeMAPs acoustic features
-12 MFCCs
-51 Facial Action Units
-speech rate
-Face and upper body movement
-Galvanic skin response
-Proximity
-Convergence
-Synchrony
-22 Intra-Personal Features
-9 Dyadic Features
-6 One Vs All Features
-Speaking Activity (Speaking length, Speaking turns, Speaking interruptions, Average speaking turn duration
-Audio-visual (Looking while speaking, Looking while listening, Being looked while speaking, Center of attention while speaking, Visual dominance ratio
-visual focus of attention
-body pose
-facial features
-Signal Matching (SM
-Directional Agreement (DA
-Pearson‚Äôs correlation coefficient (PCC
-Fisher‚Äôs z-transform (FZT
-Instantaneous Derivative Matching (IDM
-linguistic features from transcript (65 features
-voice features (4 features
-facial expression features (60 features
-type of activity done in task
-amount of face and body movement
-target for discussion partner
-Pearson‚Äôs correlation (PC
-visual field of attention on a person features
-time spent as a group
-EDA synchrony
-smiling synchrony
-brain synchrony
-body synchronization
-Joint visual attention
-Convergence measures
-Sequences of verbal utterances
-Sequences of meaningful actions
-physiological synchrony (DA
-cycles of physiological synchrony (PC
-Joint visual Attention
-Cycles of collaborative / individual work
-card movements
-scrolling
-zooming
-1582 audio features (from Emobase
-coherence
-35 Coh-metrix indices
-Physical synchrony
-Total movement across upper body joints and body parts
-talking time
-Network features [+20]
-joint-visual attention
-joint visual attention
-Joint movement
-dyad proximity
-speech time and frequency
-symmetry of speech among group
-total number of touch actions
-symmetry of touch actions among group
-shared gaze
-speech time
-thousands of features prosodic speech
-movement of objects including revisiting past actions
+{
+    "nodes": [
+        {"id":1, "name":"interpersonal", "label":"", "group":"Team C", "runtime":1},
+        {"id":2, "name":"verbal dominance and information metrics [9 metrics]", "label":"", "group":"Team C", "runtime":1},
+        {"id":3, "name":"non-verbal speaking metrics (speaking length, interruptions, etc", "label":"", "group":"Team C", "runtime":1},
+        {"id":4, "name":"visual attention metrics [8 metrics]", "label":"", "group":"Team C", "runtime":1},
+        {"id":5, "name":"Group Participation Speaking Cues (Speaking Length, Speaking Turns, Successful Interruptions, Unsuccessful Interruptions, Backchannels", "label":"", "group":"Team C", "runtime":1},
+        {"id":6, "name":"Silence and Overlap Cues (Fraction of Silence, Fraction of Nonoverlapped Speech, Fraction of two-people and three-people Overlapped Speech", "label":"", "group":"Team C", "runtime":1},
+        {"id":7, "name":"Speaking Distribution Cues (Speaking Length Skew, Speaking Turns Skew, Successful Interruption Skew, Unsuccessful Interruptions Skew, Backchannels Skew", "label":"", "group":"Team C", "runtime":1},
+        {"id":8, "name":"Individual Visual Focus of Attention", "label":"", "group":"Team C", "runtime":1},
+        {"id":9, "name":"Group Looking Cues (Fraction of People Gaze, Fraction of Convergent Gaze, Fraction of Mutual Gaze, Fraction of Shared Gaze, Gaze Skew", "label":"", "group":"Team C", "runtime":1},
+        {"id":10, "name":"88 GeMAPS acoustic features", "label":"", "group":"Team C", "runtime":1},
+        {"id":11, "name":"102 extended GeMAPs acoustic features", "label":"", "group":"Team C", "runtime":1},
+        {"id":12, "name":"12 MFCCs", "label":"", "group":"Team C", "runtime":1},
+        {"id":13, "name":"51 Facial Action Units", "label":"", "group":"Team C", "runtime":1},
+        {"id":14, "name":"speech rate", "label":"", "group":"Team C", "runtime":1},
+        {"id":15, "name":"Face and upper body movement", "label":"", "group":"Team C", "runtime":1},
+        {"id":16, "name":"Galvanic skin response", "label":"", "group":"Team C", "runtime":1},
+        {"id":17, "name":"Proximity", "label":"", "group":"Team C", "runtime":1},
+        {"id":18, "name":"Convergence", "label":"", "group":"Team C", "runtime":1},
+        {"id":19, "name":"Synchrony", "label":"", "group":"Team C", "runtime":1},
+        {"id":20, "name":"22 Intra-Personal Features", "label":"", "group":"Team C", "runtime":1},
+        {"id":21, "name":"9 Dyadic Features", "label":"", "group":"Team C", "runtime":1},
+        {"id":22, "name":"6 One Vs All Features", "label":"", "group":"Team C", "runtime":1},
+        {"id":23, "name":"Speaking Activity (Speaking length, Speaking turns, Speaking interruptions, Average speaking turn duration", "label":"", "group":"Team C", "runtime":1},
+        {"id":24, "name":"Audio-visual (Looking while speaking, Looking while listening, Being looked while speaking, Center of attention while speaking, Visual dominance ratio", "label":"", "group":"Team C", "runtime":1},
+        {"id":25, "name":"visual focus of attention", "label":"", "group":"Team C", "runtime":1},
+        {"id":26, "name":"body pose", "label":"", "group":"Team C", "runtime":1},
+        {"id":27, "name":"facial features", "label":"", "group":"Team C", "runtime":1},
+        {"id":28, "name":"Signal Matching (SM", "label":"", "group":"Team C", "runtime":1},
+        {"id":29, "name":"Directional Agreement (DA", "label":"", "group":"Team C", "runtime":1},
+        {"id":30, "name":"Fisher‚Äôs z-transform (FZT", "label":"", "group":"Team C", "runtime":1},
+        {"id":31, "name":"Instantaneous Derivative Matching (IDM", "label":"", "group":"Team C", "runtime":1},
+        {"id":32, "name":"linguistic features from transcript (65 features", "label":"", "group":"Team C", "runtime":1},
+        {"id":33, "name":"voice features (4 features", "label":"", "group":"Team C", "runtime":1},
+        {"id":34, "name":"facial expression features (60 features", "label":"", "group":"Team C", "runtime":1},
+        {"id":35, "name":"type of activity done in task", "label":"", "group":"Team C", "runtime":1},
+        {"id":36, "name":"amount of face and body movement", "label":"", "group":"Team C", "runtime":1},
+        {"id":37, "name":"target for discussion partner", "label":"", "group":"Team C", "runtime":1},
+        {"id":38, "name":"visual field of attention on a person features", "label":"", "group":"Team C", "runtime":1},
+        {"id":39, "name":"time spent as a group", "label":"", "group":"Team C", "runtime":1},
+        {"id":40, "name":"EDA synchrony", "label":"", "group":"Team C", "runtime":1},
+        {"id":41, "name":"smiling synchrony", "label":"", "group":"Team C", "runtime":1},
+        {"id":42, "name":"brain synchrony", "label":"", "group":"Team C", "runtime":1},
+        {"id":43, "name":"body synchronization", "label":"", "group":"Team C", "runtime":1},
+        {"id":44, "name":"Joint visual attention", "label":"", "group":"Team C", "runtime":1},
+        {"id":45, "name":"Convergence measures", "label":"", "group":"Team C", "runtime":1},
+        {"id":46, "name":"Sequences of verbal utterances", "label":"", "group":"Team C", "runtime":1},
+        {"id":47, "name":"Sequences of meaningful actions", "label":"", "group":"Team C", "runtime":1},
+        {"id":48, "name":"physiological synchrony (DA", "label":"", "group":"Team C", "runtime":1},
+        {"id":49, "name":"cycles of physiological synchrony (PC", "label":"", "group":"Team C", "runtime":1},
+        {"id":50, "name":"Joint visual Attention", "label":"", "group":"Team C", "runtime":1},
+        {"id":51, "name":"Cycles of collaborative / individual work", "label":"", "group":"Team C", "runtime":1},
+        {"id":52, "name":"card movements", "label":"", "group":"Team C", "runtime":1},
+        {"id":53, "name":"scrolling", "label":"", "group":"Team C", "runtime":1},
+        {"id":54, "name":"zooming", "label":"", "group":"Team C", "runtime":1},
+        {"id":55, "name":"1582 audio features (from Emobase", "label":"", "group":"Team C", "runtime":1},
+        {"id":56, "name":"coherence", "label":"", "group":"Team C", "runtime":1},
+        {"id":57, "name":"35 Coh-metrix indices", "label":"", "group":"Team C", "runtime":1},
+        {"id":58, "name":"Physical synchrony", "label":"", "group":"Team C", "runtime":1},
+        {"id":59, "name":"Total movement across upper body joints and body parts", "label":"", "group":"Team C", "runtime":1},
+        {"id":60, "name":"talking time", "label":"", "group":"Team C", "runtime":1},
+        {"id":61, "name":"Network features [+20]", "label":"", "group":"Team C", "runtime":1},
+        {"id":62, "name":"joint-visual attention", "label":"", "group":"Team C", "runtime":1},
+        {"id":63, "name":"joint visual attention", "label":"", "group":"Team C", "runtime":1},
+        {"id":64, "name":"Joint movement", "label":"", "group":"Team C", "runtime":1},
+        {"id":65, "name":"dyad proximity", "label":"", "group":"Team C", "runtime":1},
+        {"id":66, "name":"speech time and frequency", "label":"", "group":"Team C", "runtime":1},
+        {"id":67, "name":"symmetry of speech among group", "label":"", "group":"Team C", "runtime":1},
+        {"id":68, "name":"total number of touch actions", "label":"", "group":"Team C", "runtime":1},
+        {"id":69, "name":"symmetry of touch actions among group", "label":"", "group":"Team C", "runtime":1},
+        {"id":70, "name":"shared gaze", "label":"", "group":"Team C", "runtime":1},
+        {"id":71, "name":"speech time", "label":"", "group":"Team C", "runtime":1},
+        {"id":72, "name":"thousands of features prosodic speech", "label":"", "group":"Team C", "runtime":1},
+        {"id":73, "name":"movement of objects including revisiting past actions", "label":"", "group":"Team C", "runtime":1}
+    ],
+    "links": [
+        {"source": 2, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 3, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 4, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 5, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 6, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 7, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 8, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 9, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 10, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 11, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 12, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 13, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 14, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 15, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 16, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 17, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 18, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 19, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 20, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 21, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 22, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 23, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 24, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 25, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 26, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 27, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 28, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 29, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 30, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 31, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 32, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 33, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 34, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 35, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 36, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 37, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 38, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 39, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 40, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 41, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 42, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 43, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 44, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 45, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 46, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 47, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 48, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 49, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 50, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 51, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 52, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 53, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 54, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 55, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 56, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 57, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 58, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 59, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 60, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 61, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 62, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 63, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 64, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 65, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 66, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 67, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 68, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 69, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 70, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 71, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 72, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"}
+    ]
+}

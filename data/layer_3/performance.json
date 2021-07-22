@@ -1,81 +1,165 @@
-performance
-Focused gaze
-Together gaze
-Group Participation Speaking Cues (Speaking Length, Speaking Turns, Successful Interruptions, Unsuccessful Interruptions, Backchannels
-Silence and Overlap Cues (Fraction of Silence, Fraction of Nonoverlapped Speech, Fraction of two-people and three-people Overlapped Speech
-Speaking Distribution Cues (Speaking Length Skew, Speaking Turns Skew, Successful Interruption Skew, Unsuccessful Interruptions Skew, Backchannels Skew
-Individual Visual Focus of Attention
-Group Looking Cues (Fraction of People Gaze, Fraction of Convergent Gaze, Fraction of Mutual Gaze, Fraction of Shared Gaze, Gaze Skew
-speech features
-linguistic features
-gaze fixations
-gaze saccades
-events
-Calculator Use
-Total Movement
-Distance from the center of the table
-Number of interventions
-Total speech duration
-Times numbers were mentioned
-Times mathematical terms were mentioned
-Times commands were pronounced
-Total number of pen strokes
-Average number of points
-Average stroke time length
-Average stroke path length
-Average stroke displacement
-Average stroke pressure
-transition probability between types of vocalisations
-speech rate
-Face and upper body movement
-Galvanic skin response
-Cycles of collaborative / individual work
-Gaze location
-Joint visual Attention
-Cross-Recurrence Quantification Analysis (CRQA
-SM - EDA
-IDM - EDA
-DA - EDA
-CC - EDA
-WC - EDA
-SM - HR
-IDM - HR
-DA - HR
-CC - HR
-WC - HR low frequency
-WC - HR high frequency
-EVT of spatial entropy
-Speaking turn features [x4]
-Acoustic features [x13]
-Head motion features [x5]
-Linguistic features [x300+]
-Number of faces looking at screen
-Mean distance between learners
-Mean distance between hands
-Mean hand movement speed
-Mean audio level
-Arduino measure of complexity
-Arduino active hardware blocks
-Arduino active software blocks
-Arduino active blocks
-student work phases
-joint visual attention
-Joint movement
-Joint angle
-dyad proximity
-Signal Matching (SM
-Directional Agreement (DA
-Pearson‚Äôs correlation coefficient (PCC
-Fisher‚Äôs z-transform (FZT
-Instantaneous Derivative Matching (IDM
-type of activity done in task
-amount of face and body movement
-target for discussion partner
-time spent individually
-time spent as a group
-transition probabilities between collaborative state
-physiological synchrony
-shared gaze
-Faces looking at screen (FLS
-Distance between learners (DBL
-Audio level (AUD
+{
+    "nodes": [
+        {"id":1, "name":"performance", "label":"", "group":"Team C", "runtime":1},
+        {"id":2, "name":"Focused gaze", "label":"", "group":"Team C", "runtime":1},
+        {"id":3, "name":"Together gaze", "label":"", "group":"Team C", "runtime":1},
+        {"id":4, "name":"Group Participation Speaking Cues (Speaking Length, Speaking Turns, Successful Interruptions, Unsuccessful Interruptions, Backchannels", "label":"", "group":"Team C", "runtime":1},
+        {"id":5, "name":"Silence and Overlap Cues (Fraction of Silence, Fraction of Nonoverlapped Speech, Fraction of two-people and three-people Overlapped Speech", "label":"", "group":"Team C", "runtime":1},
+        {"id":6, "name":"Speaking Distribution Cues (Speaking Length Skew, Speaking Turns Skew, Successful Interruption Skew, Unsuccessful Interruptions Skew, Backchannels Skew", "label":"", "group":"Team C", "runtime":1},
+        {"id":7, "name":"Individual Visual Focus of Attention", "label":"", "group":"Team C", "runtime":1},
+        {"id":8, "name":"Group Looking Cues (Fraction of People Gaze, Fraction of Convergent Gaze, Fraction of Mutual Gaze, Fraction of Shared Gaze, Gaze Skew", "label":"", "group":"Team C", "runtime":1},
+        {"id":9, "name":"speech features", "label":"", "group":"Team C", "runtime":1},
+        {"id":10, "name":"linguistic features", "label":"", "group":"Team C", "runtime":1},
+        {"id":11, "name":"gaze fixations", "label":"", "group":"Team C", "runtime":1},
+        {"id":12, "name":"gaze saccades", "label":"", "group":"Team C", "runtime":1},
+        {"id":13, "name":"events", "label":"", "group":"Team C", "runtime":1},
+        {"id":14, "name":"Calculator Use", "label":"", "group":"Team C", "runtime":1},
+        {"id":15, "name":"Total Movement", "label":"", "group":"Team C", "runtime":1},
+        {"id":16, "name":"Distance from the center of the table", "label":"", "group":"Team C", "runtime":1},
+        {"id":17, "name":"Number of interventions", "label":"", "group":"Team C", "runtime":1},
+        {"id":18, "name":"Total speech duration", "label":"", "group":"Team C", "runtime":1},
+        {"id":19, "name":"Times numbers were mentioned", "label":"", "group":"Team C", "runtime":1},
+        {"id":20, "name":"Times mathematical terms were mentioned", "label":"", "group":"Team C", "runtime":1},
+        {"id":21, "name":"Times commands were pronounced", "label":"", "group":"Team C", "runtime":1},
+        {"id":22, "name":"Total number of pen strokes", "label":"", "group":"Team C", "runtime":1},
+        {"id":23, "name":"Average number of points", "label":"", "group":"Team C", "runtime":1},
+        {"id":24, "name":"Average stroke time length", "label":"", "group":"Team C", "runtime":1},
+        {"id":25, "name":"Average stroke path length", "label":"", "group":"Team C", "runtime":1},
+        {"id":26, "name":"Average stroke displacement", "label":"", "group":"Team C", "runtime":1},
+        {"id":27, "name":"Average stroke pressure", "label":"", "group":"Team C", "runtime":1},
+        {"id":28, "name":"transition probability between types of vocalisations", "label":"", "group":"Team C", "runtime":1},
+        {"id":29, "name":"speech rate", "label":"", "group":"Team C", "runtime":1},
+        {"id":30, "name":"Face and upper body movement", "label":"", "group":"Team C", "runtime":1},
+        {"id":31, "name":"Galvanic skin response", "label":"", "group":"Team C", "runtime":1},
+        {"id":32, "name":"Cycles of collaborative / individual work", "label":"", "group":"Team C", "runtime":1},
+        {"id":33, "name":"Gaze location", "label":"", "group":"Team C", "runtime":1},
+        {"id":34, "name":"Joint visual Attention", "label":"", "group":"Team C", "runtime":1},
+        {"id":35, "name":"Cross-Recurrence Quantification Analysis (CRQA", "label":"", "group":"Team C", "runtime":1},
+        {"id":36, "name":"SM - EDA", "label":"", "group":"Team C", "runtime":1},
+        {"id":37, "name":"IDM - EDA", "label":"", "group":"Team C", "runtime":1},
+        {"id":38, "name":"DA - EDA", "label":"", "group":"Team C", "runtime":1},
+        {"id":39, "name":"CC - EDA", "label":"", "group":"Team C", "runtime":1},
+        {"id":40, "name":"WC - EDA", "label":"", "group":"Team C", "runtime":1},
+        {"id":41, "name":"SM - HR", "label":"", "group":"Team C", "runtime":1},
+        {"id":42, "name":"IDM - HR", "label":"", "group":"Team C", "runtime":1},
+        {"id":43, "name":"DA - HR", "label":"", "group":"Team C", "runtime":1},
+        {"id":44, "name":"CC - HR", "label":"", "group":"Team C", "runtime":1},
+        {"id":45, "name":"WC - HR low frequency", "label":"", "group":"Team C", "runtime":1},
+        {"id":46, "name":"WC - HR high frequency", "label":"", "group":"Team C", "runtime":1},
+        {"id":47, "name":"EVT of spatial entropy", "label":"", "group":"Team C", "runtime":1},
+        {"id":48, "name":"Speaking turn features [x4]", "label":"", "group":"Team C", "runtime":1},
+        {"id":49, "name":"Acoustic features [x13]", "label":"", "group":"Team C", "runtime":1},
+        {"id":50, "name":"Head motion features [x5]", "label":"", "group":"Team C", "runtime":1},
+        {"id":51, "name":"Linguistic features [x300+]", "label":"", "group":"Team C", "runtime":1},
+        {"id":52, "name":"Number of faces looking at screen", "label":"", "group":"Team C", "runtime":1},
+        {"id":53, "name":"Mean distance between learners", "label":"", "group":"Team C", "runtime":1},
+        {"id":54, "name":"Mean distance between hands", "label":"", "group":"Team C", "runtime":1},
+        {"id":55, "name":"Mean hand movement speed", "label":"", "group":"Team C", "runtime":1},
+        {"id":56, "name":"Mean audio level", "label":"", "group":"Team C", "runtime":1},
+        {"id":57, "name":"Arduino measure of complexity", "label":"", "group":"Team C", "runtime":1},
+        {"id":58, "name":"Arduino active hardware blocks", "label":"", "group":"Team C", "runtime":1},
+        {"id":59, "name":"Arduino active software blocks", "label":"", "group":"Team C", "runtime":1},
+        {"id":60, "name":"Arduino active blocks", "label":"", "group":"Team C", "runtime":1},
+        {"id":61, "name":"student work phases", "label":"", "group":"Team C", "runtime":1},
+        {"id":62, "name":"joint visual attention", "label":"", "group":"Team C", "runtime":1},
+        {"id":63, "name":"Joint movement", "label":"", "group":"Team C", "runtime":1},
+        {"id":64, "name":"Joint angle", "label":"", "group":"Team C", "runtime":1},
+        {"id":65, "name":"dyad proximity", "label":"", "group":"Team C", "runtime":1},
+        {"id":66, "name":"Signal Matching (SM", "label":"", "group":"Team C", "runtime":1},
+        {"id":67, "name":"Directional Agreement (DA", "label":"", "group":"Team C", "runtime":1},
+        {"id":68, "name":"Fisher‚Äôs z-transform (FZT", "label":"", "group":"Team C", "runtime":1},
+        {"id":69, "name":"Instantaneous Derivative Matching (IDM", "label":"", "group":"Team C", "runtime":1},
+        {"id":70, "name":"type of activity done in task", "label":"", "group":"Team C", "runtime":1},
+        {"id":71, "name":"amount of face and body movement", "label":"", "group":"Team C", "runtime":1},
+        {"id":72, "name":"target for discussion partner", "label":"", "group":"Team C", "runtime":1},
+        {"id":73, "name":"time spent individually", "label":"", "group":"Team C", "runtime":1},
+        {"id":74, "name":"time spent as a group", "label":"", "group":"Team C", "runtime":1},
+        {"id":75, "name":"transition probabilities between collaborative state", "label":"", "group":"Team C", "runtime":1},
+        {"id":76, "name":"physiological synchrony", "label":"", "group":"Team C", "runtime":1},
+        {"id":77, "name":"shared gaze", "label":"", "group":"Team C", "runtime":1},
+        {"id":78, "name":"Faces looking at screen (FLS", "label":"", "group":"Team C", "runtime":1},
+        {"id":79, "name":"Distance between learners (DB)", "label":"", "group":"Team C", "runtime":1},
+        {"id":80, "name":"Audio level (AUD", "label":"", "group":"Team C", "runtime":1}
+    ],
+    "links": [
+        {"source": 2, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 3, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 4, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 5, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 6, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 7, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 8, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 9, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 10, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 11, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 12, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 13, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 14, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 15, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 16, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 17, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 18, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 19, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 20, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 21, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 22, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 23, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 24, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 25, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 26, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 27, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 28, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 29, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 30, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 31, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 32, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 33, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 34, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 35, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 36, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 37, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 38, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 39, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 40, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 41, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 42, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 43, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 44, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 45, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 46, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 47, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 48, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 49, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 50, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 51, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 52, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 53, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 54, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 55, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 56, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 57, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 58, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 59, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 60, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 61, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 62, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 63, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 64, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 65, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 66, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 67, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 68, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 69, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 70, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 71, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 72, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 73, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 74, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 75, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 76, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 77, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 78, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 79, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 80, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"}
+    ]
+}

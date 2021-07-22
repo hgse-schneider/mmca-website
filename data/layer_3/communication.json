@@ -1,81 +1,86 @@
-communication
-Facial expression
-glm
-Signal Matching (SM
-corr
-Instantaneous Derivative Matching (IDM
-corr
-Pearson‚Äôs correlation (PC
-corr
-Directional Agreement (DA
-corr
-speech quantity
-ml
-physical participation quantity
-ml
-number of active participants in group
-ml
-verbal participation symmetry among group
-ml
-gesture type and location
-glm
-Joint visual attention
-glm
-Convergence measures
-glm
-Sequences of verbal utterances
-clust
-Sequences of meaningful actions
-clust
-physiological synchrony (DA
-corr
-cycles of physiological synchrony (PC
-corr
-Joint visual Attention
-corr
-Cycles of collaborative / individual work
-corr
-card movements
-ml
-scrolling
-ml
-zooming
-ml
-1582 audio features (from Emobase
-ml
-coherence
-glm
-35 Coh-metrix indices
-corr
-Physical synchrony
-ml
-Total movement across upper body joints and body parts
-corr
-talking time
-corr
-Network features [+20]
-corr
-joint-visual attention
-corr
-joint visual attention
-corr
-Joint movement
-corr
-dyad proximity
-corr
-speech time and frequency
-ml
-symmetry of speech among group
-ml
-total number of touch actions
-ml
-symmetry of touch actions among group
-ml
-shared gaze
-glm
-speech time
-ml
-thousands of features prosodic speech
-ml
-movement of objects including revisiting past actions
-ml
+{
+    "nodes": [
+        {"id": 1, "name": "communication", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 2, "name": "Facial expression", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 3, "name": "Signal Matching (SM)", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 4, "name": "Instantaneous Derivative Matching (IDM)", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 5, "name": "Pearson‚Äôs correlation (PC)", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 6, "name": "Directional Agreement (DA)", "label": "", "group": "Team A", "runtime": 1},        
+        {"id": 7, "name": "speech quantity", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 8, "name": "physical participation quantity", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 9, "name": "number of active participants in group", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 10, "name": "verbal participation symmetry among group", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 11, "name": "gesture type and location", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 12, "name": "Joint visual attention", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 13, "name": "Convergence measures", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 14, "name": "Sequences of verbal utterances", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 15, "name": "Sequences of meaningful actions", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 16, "name": "physiological synchrony (DA)", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 17, "name": "cycles of physiological synchrony (PC)", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 18, "name": "Joint visual Attention", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 19, "name": "Cycles of collaborative / individual work", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 20, "name": "card movements", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 21, "name": "scrolling", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 22, "name": "zooming", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 23, "name": "1582 audio features (from Emobase)", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 24, "name": "35 Coh-metrix indices", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 25, "name": "Physical synchrony", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 26, "name": "Total movement across upper body joints and body parts", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 27, "name": "talking time", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 28, "name": "Network features [+20]", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 29, "name": "joint-visual attention", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 30, "name": "joint visual attention", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 31, "name": "Joint movement", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 32, "name": "dyad proximity", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 33, "name": "speech time and frequency", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 34, "name": "symmetry of speech among group", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 35, "name": "total number of touch actions", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 36, "name": "symmetry of touch actions among group", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 37, "name": "shared gaze", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 38, "name": "speech time", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 39, "name": "thousands of features prosodic speech", "label": "", "group": "Team A", "runtime": 1},
+        {"id": 40, "name": "movement of objects including revisiting past actions", "label": "", "group": "Team A", "runtime": 1}
+    ], 
+    "links": [
+        {"source": 2, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 3, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 4, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 5, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 6, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 7, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 8, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 9, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 10, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 11, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 12, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 13, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 14, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 15, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 16, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 17, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 18, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 19, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 20, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 21, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 22, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 23, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 24, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 25, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 26, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 27, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 28, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 29, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 30, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 31, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 32, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 33, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 34, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 35, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 36, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 37, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
+        {"source": 38, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 39, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 40, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"}
+    ]
+}
+
