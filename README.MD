@@ -16,6 +16,8 @@ scripts.js - JavaScript file that generates diagram using D3.js </br>
 @ Google Scholar links (1-x)
 @ Colors on sankey
 @ Text inside rectangle
+@ Proper dotted or darkened lines
+@ Slip to different nodes
 @ Transformations
 
 ## Time
