@@ -18,12 +18,12 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 3vh;
-    margin-bottom: 0vh;
 }
 .rep-img {
     display: flex;
     flex-direction: row;
+    margin-top: 8vh;
+    margin-bottom: 5vh;
 } 
 .img {
     height: 5vh;
@@ -34,7 +34,6 @@
     flex-direction: column;
     align-items: center;
     text-align: left;
-    margin: 4vh;
 }
 .purpose {
     width: 70%;
@@ -112,6 +111,19 @@ text {
     background-color: rgb(96, 181, 255);
     color: white;
     transition: 0.3s;
+}
+.nav-wrapper {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-between;
+    margin-bottom: 10vh;
+}
+.link {
+    text-decoration: none;
+    color: rgb(85, 46, 255);
+    border-radius: 5px;
 }
 @media only screen and (max-width: 768px) {
     .intro-txt {
