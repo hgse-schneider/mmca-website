@@ -116,7 +116,7 @@ function force_layout(data_link) {
             .attr("class", "nodes")
             .call(drag(simulation))
             .append("a")
-            .attr("xlink:href", function(d) {return "https://www.youtube.com/"})
+            .attr("xlink:href", function (d, i) {return d.url})
             
         node.append("circle")
             .attr("r", d=> 20)//+ d.runtime/20 )

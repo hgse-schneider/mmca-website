@@ -1,6 +1,6 @@
 {
     "nodes": [
-        {"id": 1, "name": "Text", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 1, "name": "Text", "label": "", "group": "Team C", "runtime": 1,  "url": "https://scholar.google.com/scholar?hl=en&q=The%20Effect%20of%20Mutual%20Gaze%20Perception%20on%20Students%E2%80%99%20Verbal%20Coordination"},
         {"id": 2, "name": "N-grams", "label": "", "group": "Team A", "runtime": 1},
         {"id": 3, "name": "Cosine similarity scores", "label": "", "group": "Team C", "runtime": 1},
         {"id": 4, "name": "Convergence measures", "label": "", "group": "Team C", "runtime": 1},
