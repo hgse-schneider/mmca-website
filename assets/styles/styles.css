@@ -122,7 +122,7 @@ text {
 }
 .link {
     text-decoration: none;
-    color: rgb(85, 46, 255);
+    color: rgb(43, 109, 195);
     border-radius: 5px;
 }
 @media only screen and (max-width: 768px) {

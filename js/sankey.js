@@ -38,7 +38,8 @@ function redraw() {
       .enter().append("path")
       .attr("class", "link")
       .attr("d", d3.sankeyLinkHorizontal())
-      .attr("stroke-width", function(d) { return d.width; });  
+      .attr("stroke-width", function(d) { return d.width; })
+      .style("stroke", d => {return d.color} );
     // add the link titles
     link.append("title")
       .text(function(d) {

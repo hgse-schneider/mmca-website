@@ -49,7 +49,7 @@ function force_layout(data_link) {
         // .attr("viewBox", "0 0 890 890")
         .append("g")
         .attr("transform", `translate(${margin.left - 40},${margin.top - 20})`)
-
+ 
 
     //appending little triangles, path object, as arrowhead
     //The <defs> element is used to store graphical objects that will be used at a later time
@@ -112,11 +112,11 @@ function force_layout(data_link) {
         const node = svg.selectAll(".nodes")
             .data(dataset.nodes)
             .enter()
-            .append("g")
+            .append("g") 
             .attr("class", "nodes")
             .call(drag(simulation))
             .append("a")
-            .attr("xlink:href", function (d, i) {return d.url})
+            .attr("xlink:href", function (d, i) {return "https://scholar.google.com/scholar?hl=en&q=" + d.url})
             
         node.append("circle")
             .attr("r", d=> 20)//+ d.runtime/20 )

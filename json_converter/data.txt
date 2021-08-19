@@ -1,236 +1,60 @@
-process
+Visual Attention
 Focused gaze
 glm
 Together gaze
 glm
-Gaze transitions
-glm
-Physiological linkage
-glm
-verbal dominance and information metrics [9 metrics]
-glm
-non-verbal speaking metrics (speaking length, interruptions, etc
-glm
 visual attention metrics [8 metrics]
-glm
-EDA peak detection
-corr
-physiological concordance index
-corr
-Group Participation Speaking Cues (Speaking Length, Speaking Turns, Successful Interruptions, Unsuccessful Interruptions, Backchannels
-corr
-Silence and Overlap Cues (Fraction of Silence, Fraction of Nonoverlapped Speech, Fraction of two-people and three-people Overlapped Speech
-glm
-Speaking Distribution Cues (Speaking Length Skew, Speaking Turns Skew, Successful Interruption Skew, Unsuccessful Interruptions Skew, Backchannels Skew
 glm
 Individual Visual Focus of Attention
 corr
 Group Looking Cues (Fraction of People Gaze, Fraction of Convergent Gaze, Fraction of Mutual Gaze, Fraction of Shared Gaze, Gaze Skew
 corr
-88 GeMAPS acoustic features
-ml
-102 extended GeMAPs acoustic features
-ml
-12 MFCCs
-ml
-51 Facial Action Units
-ml
-dialogue acts
-glm
-facial expression
-glm
-gesture
+perceptual with-me-ness (gaze
+corr
+conceptual with-me-ness (gaze
+corr
+gaze similarity
+corr
+gaze fixations
+(not
 glm
 Joint visual attention
 glm
-Convergence measures
-glm
-Sequences of verbal utterances
-clust
-Sequences of meaningful actions
-clust
-physiological synchrony (DA
-corr
-cycles of physiological synchrony (PC
-corr
-speech rate
-clust
-Face and upper body movement
-clust
-Galvanic skin response
+Gaze
 clust
 Joint visual Attention
 corr
 Cycles of collaborative / individual work
 corr
-Proximity
-corr
-Convergence
-corr
-Synchrony
-corr
-22 Intra-Personal Features
+Gaze location
 glm
-9 Dyadic Features
-glm
-6 One Vs All Features
-glm
-card movements
+Gaze fixation
 ml
-scrolling
-ml
-zooming
-ml
-1582 audio features (from Emobase
+visual focus of attention features
 ml
 Cross-Recurrence Quantification Analysis (CRQA
 glm
 Multidimensional Recurrence Quantification Analysis (MdRQA
 glm
-coherence
-glm
-Speaking Activity (Speaking length, Speaking turns, Speaking interruptions, Average speaking turn duration
-ml
 Audio-visual (Looking while speaking, Looking while listening, Being looked while speaking, Center of attention while speaking, Visual dominance ratio
 ml
-35 Coh-metrix indices
-corr
-Physical synchrony
-ml
-SM - EDA
-glm
-IDM - EDA
-glm
-DA - EDA
-glm
-CC - EDA
-glm
-WC - EDA
-glm
-SM - HR
-glm
-IDM - HR
-glm
-Distance between hands
-glm
 Count of faces looking at screen
 glm
-Touch patterns
-Total movement across upper body joints and body parts
-corr
-talking time
-corr
-Facial expression
+EVT of spatial entropy
 glm
 Network features [+20]
 corr
-Faces looking at screen (FLS
-ml
-Distance between learners (DBL
-ml
-Audio level (AUD
-ml
 joint-visual attention
 corr
 joint visual attention
 corr
-Joint movement
-corr
-dyad proximity
-corr
 visual focus of attention
 ml
-body pose
-ml
-facial features
-ml
-Signal Matching (SM
-corr
-Directional Agreement (DA
-corr
-Pearson‚Äôs correlation coefficient (PCC
-glm
-Fisher‚Äôs z-transform (FZT
-glm
-Instantaneous Derivative Matching (IDM
-corr
-linguistic features from transcript (65 features
-corr
-voice features (4 features
-corr
-facial expression features (60 features
-corr
-type of activity done in task
-corr
-amount of face and body movement
-corr
-target for discussion partner
-corr
-Pearson‚Äôs correlation (PC
-corr
 visual field of attention on a person features
-corr
-speech time and frequency
-ml
-symmetry of speech among group
-ml
-total number of touch actions
-ml
-symmetry of touch actions among group
-ml
-speech quantity
-ml
-physical participation quantity
-ml
-number of active participants in group
-ml
-verbal participation symmetry among group
-ml
-time spent as a group
-corr
-transition probabilities between collaborative state
-corr
-physiological synchrony
-glm
-EDA synchrony
-ml
-smiling synchrony
-glm
-x,y,z body joints
-ml
-brain synchrony
-glm
-upper body agitation
-ml
-hand agitation
-ml
-head orientation
-ml
-speaking time / turns
-ml
-heart rate sychrony
 ml
 shared gaze
 glm
-body synchronization
-glm
-speech time
+attention received per person
 ml
-thousands of features prosodic speech
-ml
-movement of objects including revisiting past actions
-ml
-gesture type and location
-glm
-duration of speech by each student
-ml
-duration in which each student was only speaker
-ml
-duration of overlapping speech from pairs of students
-ml
-duration of overlapping speech from all people
-ml
-duration of silence for all people
-ml
-prosodic and tone features [many]
+attention given by person
 ml
