@@ -31,20 +31,19 @@ function redraw() {
 
   // load the data
   d3.json("/data/sankey_data/layers.json").then(function(sankeydata) {
-    graph = sankey(sankeydata);          // <==================== ERROR =======================================>
+    graph = sankey(sankeydata);         
     // add in the links
     var link = sankey_svg.append("g").selectAll(".link")
       .data(graph.links)
       .enter().append("path")
       .attr("class", "link")
       .attr("d", d3.sankeyLinkHorizontal())
-      .attr("stroke-width", function(d) { return d.width; })
-      .style("stroke", d => {return d.color} );
+      .attr("stroke-width", function(d) { return d.link_width / 4; }) // CHANGE THIS FOR WIDTH OF LINKS
+      .style("stroke", d => {return d.color} )
     // add the link titles
     link.append("title")
-      .text(function(d) {
-          return d.source.name + " → " + 
-              d.target.name + "\n" + format(d.value); });
+      .text(function(d) { 
+        return d.link_width })
     // add in the nodes
     var node = sankey_svg.append("g").selectAll(".node")
       .data(graph.nodes)
