@@ -57,7 +57,7 @@ function redraw() {
         .attr("height", function(d) { return d.y1 - d.y0; })
         .attr("width", sankey.nodeWidth())
         .style("fill", function(d) { 
-            return d.color = color(d.name.replace(/ .*/, "")); })
+            return d.node_color })
         .style("stroke", function(d) { 
         return d3.rgb(d.color).darker(2); })
         .on('click', function(e, d) {
