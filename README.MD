@@ -18,7 +18,6 @@ HTML/CSS, D3.js
 
 ## Link
 
-###### NOTICE [This is not the official link. Used for testing.]
-https://mmca.netlify.app/
+TBD
 
 ##### Developed by Eric Sheen
