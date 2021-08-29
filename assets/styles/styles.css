@@ -125,6 +125,11 @@ text {
     color: rgb(43, 109, 195);
     border-radius: 5px;
 }
+.link-1 {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 2px;
+}
 @media only screen and (max-width: 768px) {
     .intro-txt {
         flex-direction: column;

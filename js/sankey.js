@@ -39,6 +39,11 @@ function redraw() {
       .attr("class", "link")
       .attr("d", d3.sankeyLinkHorizontal())
       .attr("stroke-width", function(d) { return d.link_width / 4; }) // CHANGE THIS FOR WIDTH OF LINKS
+      .on('click', function(e, d) {
+        let link = d.data_link
+        d3.select("#sankey-diagram").remove();
+        update(link) 
+      })
       .style("stroke", d => {return d.color} )
     // add the link titles
     link.append("title")

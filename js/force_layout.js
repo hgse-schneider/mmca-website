@@ -162,55 +162,6 @@ function force_layout(data_link) {
             d.fx = d3.event.x;
             d.fy = d3.event.y;
         }
-        //the targeted node is released when the gesture ends
-        //   function dragended(d) {
-        //     if (!d3.event.active) simulation.alphaTarget(0);
-        //     d.fx = null;
-        //     d.fy = null;
-        //     console.log("dataset after dragged is ...",dataset);
-        //   }
-        //drawing the legend
-        // const legend_g = svg.selectAll(".legend")
-        //     .data(colorScale.domain())
-        //     .enter().append("g") 
-        //     .attr("transform", (d, i) => `translate(${window.innerWidth-190},${i * 20})`); 
-        // legend_g.append("circle")
-        //     .attr("cx", 0)
-        //     .attr("cy", 0)
-        //     .attr("r", 5)
-        //     .attr("fill", colorScale);
-        // legend_g.append("text")
-        //     .attr("x", 10)
-        //     .attr("y", 5)
-        //     .text(d => d);
-        // //drawing the second legend
-        // const legend_g2 = svg.append("g") 
-        //     //.attr("transform", (d, i) => `translate(${width},${i * 20})`); 
-        //     .attr("transform", `translate(${window.innerWidth-190}, 120)`);
-        // legend_g2.append("circle")
-        //     .attr("r", 5)
-        //     .attr("cx", 0)
-        //     .attr("cy", 0)
-        //     .style("stroke", "grey")
-        //     .style("stroke-opacity",0.3)
-        //     .style("stroke-width", 15)
-        //     .style("fill", "black")
-        // legend_g2.append("text")
-        //     .attr("x",15)
-        //     .attr("y",0)
-        //     .text("long runtime");
-        // legend_g2.append("circle")
-        //     .attr("r", 5)
-        //     .attr("cx", 0)
-        //     .attr("cy", 20)
-        //     .style("stroke", "grey")
-        //     .style("stroke-opacity",0.3)
-        //     .style("stroke-width", 2)
-        //     .style("fill", "black")
-        // legend_g2.append("text")
-        //     .attr("x",15)
-        //     .attr("y",20)
-        //     .text("short runtime");
     })
 }
 
