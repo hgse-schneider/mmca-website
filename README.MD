@@ -13,7 +13,7 @@ scripts.js - JavaScript file that generates diagram using D3.js </br>
 - URL 
 - Label
 
-# Data Layer 1 
+#### Data Layer 1 
 - Visual Attention
 - Eye Motion
 - Task-related
@@ -31,7 +31,7 @@ scripts.js - JavaScript file that generates diagram using D3.js </br>
 - Heart
 - Brain
 
-# Data Layer 2
+#### Data Layer 2
 - Head
 - Physiological
 - Log data
@@ -39,7 +39,7 @@ scripts.js - JavaScript file that generates diagram using D3.js </br>
 - Verbal 
 - Body
 
-# Data Layer 3
+#### Data Layer 3
 - affective
 - Cognitive Engagement 
 - Communication
@@ -49,7 +49,7 @@ scripts.js - JavaScript file that generates diagram using D3.js </br>
 - Performance
 - Group composition
 
-# Data Layer 4
+#### Data Layer 4
 - 
 
 ## Time/Roadmap 
