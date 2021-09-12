@@ -1,19 +1,19 @@
 {
     "nodes": [
         {"id": 1, "name": "Speech Content", "label": "", "group": "Team C", "runtime": 1},
-        {"id": 2, "name": "Times numbers were mentioned", "label": "", "group": "Team A", "runtime": 1},
-        {"id": 3, "name": "linguistic features from transcript (65 features)", "label": "", "group": "Team A", "runtime": 1},
-        {"id": 4, "name": "linguistic features", "label": "", "group": "Team A", "runtime": 1},
-        {"id": 5, "name": "Linguistic features [x300+]", "label": "", "group": "Team A", "runtime": 1},
-        {"id": 6, "name": "Sequences of verbal utterances", "label": "", "group": "Team A", "runtime": 1},
-        {"id": 7, "name": "convergence (of linguistic styles)", "label": "", "group": "Team A", "runtime": 1},
-        {"id": 8, "name": "coherence", "label": "", "group": "Team A", "runtime": 1},
-        {"id": 9, "name": "dialogue acts", "label": "", "group": "Team A", "runtime": 1},
-        {"id": 10, "name": "speech utterances", "label": "", "group": "Team A", "runtime": 1},
-        {"id": 11, "name": "Times commands were pronounced", "label": "", "group": "Team A", "runtime": 1},
-        {"id": 12, "name": "simple linguistic features", "label": "", "group": "Team A", "runtime": 1},
-        {"id": 13, "name": "Times mathematical terms were mentioned", "label": "", "group": "Team A", "runtime": 1},
-        {"id": 14, "name": "Dialogue episodes (description, management)", "label": "", "group": "Team A", "runtime": 1}
+        {"id": 2, "name": "Times numbers were mentioned", "label": "", "group": "Team A", "runtime": 1, "url": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features"},
+        {"id": 3, "name": "linguistic features from transcript (65 features)", "label": "", "group": "Team A", "runtime": 1, "url": "Multimodal%20Analysis%20of%20Vocal%20Collaborative%20Search:A%20Public%20Corpus%20and%20Results"},
+        {"id": 4, "name": "linguistic features", "label": "", "group": "Team A", "runtime": 1, "url": "Predicting%20Group%20Performance%20in%20Task-Based%20Interaction"},
+        {"id": 5, "name": "Linguistic features [x300+]", "label": "", "group": "Team A", "runtime": 1, "url": "Task-independent%20Multimodal%20Prediction%20of%20Group%20Performance%20Based%20on%20Product%20Dimensions"},
+        {"id": 6, "name": "Sequences of verbal utterances", "label": "", "group": "Team A", "runtime": 1, "url": "Capturing%20and%20analyzing%20verbal%20and%20physical%20collaborative%20learning%20interactions%20at%20an%20enriched%20interactive%20tabletop"},
+        {"id": 7, "name": "convergence (of linguistic styles)", "label": "", "group": "Team A", "runtime": 1, "url": "Does%20Seeing%20One%20Another’s%20Gaze%20Affect%20Group%20Dialogue?"},
+        {"id": 8, "name": "coherence", "label": "", "group": "Team A", "runtime": 1, "url": "Does%20Seeing%20One%20Another’s%20Gaze%20Affect%20Group%20Dialogue?"},
+        {"id": 9, "name": "dialogue acts", "label": "", "group": "Team A", "runtime": 1, "url": "The%20Additive%20Value%20of%20Multimodal%20Features%20for%20Predicting%20Engagement,%20Frustration,%20and%20Learning%20during%20Tutoring"},
+        {"id": 10, "name": "speech utterances", "label": "", "group": "Team A", "runtime": 1, "url": "Using%20Interlocutor-Modulated%20Attention%20BLSTM%20to%20Predict%20Personality%20Traits%20in%20Small%20Group%20Interaction"},
+        {"id": 11, "name": "Times commands were pronounced", "label": "", "group": "Team A", "runtime": 1, "url": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features"},
+        {"id": 12, "name": "simple linguistic features", "label": "", "group": "Team A", "runtime": 1, "url": "Does%20Seeing%20One%20Another’s%20Gaze%20Affect%20Group%20Dialogue?"},
+        {"id": 13, "name": "Times mathematical terms were mentioned", "label": "", "group": "Team A", "runtime": 1, "url": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features"},
+        {"id": 14, "name": "Dialogue episodes (description, management)", "label": "", "group": "Team A", "runtime": 1, "url": "Dual%20Gaze%20as%20a%20Proxy%20for%20Collaboration%20in%20Informal%20Learning"}
     ], 
     "links": [
         {"source": 2, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},

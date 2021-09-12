@@ -1,19 +1,19 @@
 {
     "nodes": [
         {"id": 1, "name": "22 Intra-Personal features", "label": "", "group": "Team C", "runtime": 1},
-        {"id": 2, "name": "head orientation", "label": "", "group": "Team A", "runtime": 1},
-        {"id": 3, "name": "51 Facial Action Units", "label": "", "group": "Team C", "runtime": 1},
-        {"id": 4, "name": "smiling synchrony", "label": "", "group": "Team A", "runtime": 1},
-        {"id": 5, "name": "Head motion features [x5]", "label": "", "group": "Team C", "runtime": 1},
-        {"id": 6, "name": "Face looking at screen (FLS)", "label": "", "group": "Team A", "runtime": 1},        
-        {"id": 7, "name": "facial features", "label": "", "group": "Team C", "runtime": 1},
-        {"id": 8, "name": "facial expression", "label": "", "group": "Team A", "runtime": 1},
-        {"id": 9, "name": "Number of faces looking at screen", "label": "", "group": "Team C", "runtime": 1},
-        {"id": 10, "name": "Facial expression", "label": "", "group": "Team A", "runtime": 1},
-        {"id": 11, "name": "facial expression features (60 features)", "label": "", "group": "Team C", "runtime": 1},
-        {"id": 12, "name": "9 Dyadic features", "label": "", "group": "Team A", "runtime": 1},
-        {"id": 13, "name": "Head motion", "label": "", "group": "Team C", "runtime": 1},
-        {"id": 14, "name": "Head", "label": "", "group": "Team C", "runtime": 1}
+        {"id": 2, "name": "head orientation", "label": "", "group": "Team A", "runtime": 1, "url": "Multi-modal%20Social%20Signal%20Analysis%20for%20Predicting%20Agreement%20in%20Conversation%20Settings"},
+        {"id": 3, "name": "51 Facial Action Units", "label": "", "group": "Team C", "runtime": 1, "url": "Automatic%20Recognition%20of%20Affective%20Laughter%20in%20Spontaneous%20Dyadic%20Interactions%20from%20Audiovisual%20Signals"},
+        {"id": 4, "name": "smiling synchrony", "label": "", "group": "Team A", "runtime": 1, "url": "Physiological%20evidence%20of%20interpersonal%20dynamics%20in%20a%20cooperative%20production%20task"},
+        {"id": 5, "name": "Head motion features [x5]", "label": "", "group": "Team C", "runtime": 1, "url": "Task-independent%20Multimodal%20Prediction%20of%20Group%20Performance%20Based%20on%20Product%20Dimensions"},
+        {"id": 6, "name": "Face looking at screen (FLS)", "label": "", "group": "Team A", "runtime": 1, "url": "Estimation%20of%20success%20in%20collaborative%20learning%20based%20on%20multimodal%20learning%20analytics%20features"},        
+        {"id": 7, "name": "facial features", "label": "", "group": "Team C", "runtime": 1, "url": "Real-time%20mutual%20gaze%20perception"},
+        {"id": 8, "name": "facial expression", "label": "", "group": "Team A", "runtime": 1, "url": "The%20Additive%20Value%20of%20Multimodal%20Features%20for%20Predicting%20Engagement,%20Frustration,%20and%20Learning%20during%20Tutoring"},
+        {"id": 9, "name": "Number of faces looking at screen", "label": "", "group": "Team C", "runtime": 1, "url": "Supervised%20machine%20learning%20in%20multimodal%20learning%20analytics%20for%20estimating%20success%20in%20project-based%20learning"},
+        {"id": 10, "name": "Facial expression", "label": "", "group": "Team A", "runtime": 1, "url": "Going%20beyond%20what%20is%20visible:%20What%20multichannel%20data%20can%20reveal%20about%20interaction%20in%20the%20context%20of%20collaborative%20learning?"},
+        {"id": 11, "name": "facial expression features (60 features)", "label": "", "group": "Team C", "runtime": 1, "url": "Multimodal%20Analysis%20of%20Vocal%20Collaborative%20Search:A%20Public%20Corpus%20and%20Results"},
+        {"id": 12, "name": "9 Dyadic features", "label": "", "group": "Team A", "runtime": 1, "url": "Personality%20classification%20and%20behaviour%20interpretation:%20An%20approach%20based%20on%20feature%20categories"},
+        {"id": 13, "name": "Head motion", "label": "", "group": "Team C", "runtime": 1, "url": "Personality%20Trait%20Classification%20via%20Co-Occurrent%20Multiparty%20Multimodal%20Event%20Discovery"},
+        {"id": 14, "name": "Head", "label": "", "group": "Team C", "runtime": 1, "url": ""}
     ], 
     "links": [
         {"source": 1, "target": 14, "type": "corr", "linetype": "0,0", "linelevel": "1"},

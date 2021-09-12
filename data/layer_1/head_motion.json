@@ -1,11 +1,11 @@
 {
     "nodes": [
         {"id": 1, "name": "Head Motion", "label": "", "group": "Team C", "runtime": 1},
-        {"id": 2, "name": "head orientation", "label": "", "group": "Team A", "runtime": 1},
-        {"id": 3, "name": "Number of faces looking at screen", "label": "", "group": "Team C", "runtime": 1},
-        {"id": 4, "name": "head motion features [x5]", "label": "", "group": "Team C", "runtime": 1},
-        {"id": 5, "name": "Head motion", "label": "", "group": "Team C", "runtime": 1},        
-        {"id": 6, "name": "Faces looking at screen (FLS)", "label": "", "group": "Team C", "runtime": 1}
+        {"id": 2, "name": "head orientation", "label": "", "group": "Team A", "runtime": 1, "url": "Multi-modal%20Social%20Signal%20Analysis%20for%20Predicting%20Agreement%20in%20Conversation%20Settings"},
+        {"id": 3, "name": "Number of faces looking at screen", "label": "", "group": "Team C", "runtime": 1, "url": "Supervised%20machine%20learning%20in%20multimodal%20learning%20analytics%20for%20estimating%20success%20in%20project-based%20learning"},
+        {"id": 4, "name": "head motion features [x5]", "label": "", "group": "Team C", "runtime": 1, "url": "Task-independent%20Multimodal%20Prediction%20of%20Group%20Performance%20Based%20on%20Product%20Dimensions"},
+        {"id": 5, "name": "Head motion", "label": "", "group": "Team C", "runtime": 1, "url": "Personality%20Trait%20Classification%20via%20Co-Occurrent%20Multiparty%20Multimodal%20Event%20Discovery"},        
+        {"id": 6, "name": "Faces looking at screen (FLS)", "label": "", "group": "Team C", "runtime": 1, "url": "Estimation%20of%20success%20in%20collaborative%20learning%20based%20on%20multimodal%20learning%20analytics%20features"}
 
     ], 
     "links": [
