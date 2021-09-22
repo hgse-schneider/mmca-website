@@ -1,46 +1,47 @@
-const margin = {top: 30, right: 80, bottom: 5, left: 5}
-const width =  890 - margin.left - margin.right
-const height=  800 - margin.top - margin.bottom
-// const colorScale  = d3.scaleOrdinal() //=d3.scaleOrdinal(d3.schemeSet2)
-    // .domain(["Team A", "Team B", "Team C", "Team D", "Team E"])
-    // .range(['#ff9e6d', '#86cbff', '#c2e5a0','#fff686','#9e79db'])
-const colorScale  = d3.scaleOrdinal() //=d3.scaleOrdinal(d3.schemeSet2)
-    .domain(["Team A"])
-    .range(['#ffff99'])
-
-function drag(simulation) {
-  
-  function dragstarted(event) {
-    if (!event.active) simulation.alphaTarget(0.3).restart();
-    event.subject.fx = event.subject.x;
-    event.subject.fy = event.subject.y;
-  }
-  
-  function dragged(event) {
-    event.subject.fx = event.x;
-    event.subject.fy = event.y;
-  }
-  
-  function dragended(event) {
-    if (!event.active) simulation.alphaTarget(0);
-    event.subject.fx = null;
-    event.subject.fy = null;
-  }
-  
-  return d3.drag()
-      .on("start", dragstarted)
-      .on("drag", dragged)
-      .on("end", dragended);
-}
-
-const simulation = d3.forceSimulation()
-.force("link", d3.forceLink() // This force provides links between nodes
-                .id(d => d.id) // This sets the node id accessor to the specified function. If not specified, will default to the index of a node.
-                .distance(100)) 
-.force("charge", d3.forceManyBody().strength(-3000)) // This adds repulsion (if it's negative) between nodes. 
-.force("center", d3.forceCenter(window.innerWidth / 2, height / 2))
-
 function force_layout(data_link) {
+    const margin = {top: 30, right: 80, bottom: 5, left: 5}
+    const width =  890 - margin.left - margin.right
+    const height=  800 - margin.top - margin.bottom
+    // const colorScale  = d3.scaleOrdinal() //=d3.scaleOrdinal(d3.schemeSet2)
+        // .domain(["Team A", "Team B", "Team C", "Team D", "Team E"])
+        // .range(['#ff9e6d', '#86cbff', '#c2e5a0','#fff686','#9e79db'])
+    const colorScale  = d3.scaleOrdinal() //=d3.scaleOrdinal(d3.schemeSet2)
+        .domain(["Team A"])
+        .range(['#ffff99'])
+
+    function drag(simulation) {
+    
+    function dragstarted(event) {
+        if (!event.active) simulation.alphaTarget(0.3).restart();
+        event.subject.fx = event.subject.x;
+        event.subject.fy = event.subject.y;
+    }
+    
+    function dragged(event) {
+        event.subject.fx = event.x;
+        event.subject.fy = event.y;
+    }
+    
+    function dragended(event) {
+        if (!event.active) simulation.alphaTarget(0);
+        event.subject.fx = null;
+        event.subject.fy = null;
+    }
+    
+    return d3.drag()
+        .on("start", dragstarted)
+        .on("drag", dragged)
+        .on("end", dragended);
+    }
+
+    const simulation = d3.forceSimulation()
+    .force("link", d3.forceLink() // This force provides links between nodes
+                    .id(d => d.id) // This sets the node id accessor to the specified function. If not specified, will default to the index of a node.
+                    .distance(100)) 
+    .force("charge", d3.forceManyBody().strength(-3000)) // This adds repulsion (if it's negative) between nodes. 
+    .force("center", d3.forceCenter(window.innerWidth / 2, height / 2))
+
+
     const svg = d3.select('.diagram').append("svg")
         .attr("width", window.innerWidth)
         .attr("height", sankey_height + sankey_margin.top)
@@ -116,7 +117,12 @@ function force_layout(data_link) {
             .attr("class", "nodes")
             .call(drag(simulation))
             .append("a")
-            .attr("xlink:href", function (d, i) {return "https://scholar.google.com/scholar?hl=en&q=" + d.url})
+            .on('click', function(i, d) {
+                window.open(
+                    "https://scholar.google.com/scholar?hl=en&q=" + d.url,
+                    '_blank' 
+                );
+            });
             
         node.append("circle")
             .attr("r", d=> 20)//+ d.runtime/20 )

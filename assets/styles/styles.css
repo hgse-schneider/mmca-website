@@ -7,12 +7,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 .title {
     font-size: 3em;
 }
 .subtitle {
     font-weight: normal;
+    text-align: center;
 }
 .intro-txt {
     display: flex;
@@ -22,6 +24,8 @@
 .rep-img {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     margin-top: 8vh;
     margin-bottom: 5vh;
 } 
@@ -87,6 +91,7 @@ text {
     fill: none;
     stroke: #000;
     stroke-opacity: .2;
+    padding: 2vh;
 }
 .link:hover {
     stroke-opacity: .5;
@@ -119,6 +124,7 @@ text {
     width: 40%;
     justify-content: space-between;
     margin-bottom: 10vh;
+    align-items: center;
 }
 .link {
     text-decoration: none;
@@ -140,5 +146,8 @@ text {
     }
     .subtitle {
         padding-bottom: 5vh;
+    }
+    .nav-wrapper {
+        flex-direction: column;
     }
 }

@@ -1,8 +1,8 @@
 {
     "nodes":[
-        {"node":0, "name":"Condition", "data_link": "/data/layer_4/condition.json", "node_color": "gray"},
-        {"node":1, "name":"Product", "data_link": "/data/layer_4/product.json", "node_color": "gray"},
-        {"node":2, "name":"Process", "data_link": "/data/layer_4/process.json", "node_color": "gray"},
+        {"node":0, "name":"Condition", "data_link": "/data/layer_4/condition.json", "node_color": "gray", "container_width": 69},
+        {"node":1, "name":"Product", "data_link": "/data/layer_4/product.json", "node_color": "gray", "container_width": 100},
+        {"node":2, "name":"Process", "data_link": "/data/layer_4/process.json", "node_color": "gray", "container_width": 220},
 
         {"node":3, "name":"Group Composition", "data_link": "/data/layer_3/group_composition.json", "node_color": "gray"},
         {"node":4, "name":"Performance", "data_link": "/data/layer_3/performance.json", "node_color": "gray"},

@@ -10,6 +10,7 @@ var formatNumber = d3.format(",.0f"), // zero decimal places
 function resetVis() {
   d3.select("#force-layout-diagram").remove();
   d3.select("#sankey-diagram").remove();
+  d3.select("#detail-diagram").remove();
   redraw()
 }
 
@@ -42,7 +43,7 @@ function redraw() {
       .on('click', function(e, d) {
         let link = d.data_link
         d3.select("#sankey-diagram").remove();
-        update(link) 
+        treeData() 
       })
       .style("stroke", d => {return d.color} )
     // add the link titles
@@ -69,9 +70,9 @@ function redraw() {
           d3.select("#sankey-diagram").remove();
           force_layout(link) 
         })
-        .append("title")
-        .text(function(d) { 
-          return d.name + "\n" + format(d.value); })
+        // .append("title")
+        // .text(function(d) { 
+        //   return d.name + "\n" + format(d.value); })
     // add in the title for the nodes
     node.append("text")
         .attr("x", function(d) { return d.x0 - 6; })
