@@ -1,0 +1,58 @@
+{
+    "data": [
+        {    
+            "name": "Negotiation",
+            "children": [
+                { "name": "Multidimensional Recurrence Quantification Analysis (MdRQA", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Coordination",
+            "children": [
+                { "name": "Multidimensional Recurrence Quantification Analysis (MdRQA", "link": "" } 
+            ]
+        },
+        {    
+            "name": "quality of collaboration",
+            "children": [
+                { "name": "shared gaze", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Synchronisation",
+            "children": [
+                { "name": "Count of faces looking at screen", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Quality of Collaboration",
+            "children": [
+                { "name": "Joint visual attention", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Construction of shared knowledge",
+            "children": [
+                { "name": "Cross-Recurrence Quantification Analysis (CRQA", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Dialogue episodes",
+            "children": [
+                { "name": "Gaze transitions", "link": "" },
+                { "name": "Focused gaze", "link": "" },
+                { "name": "Together gaze", "link": "" } 
+            ]
+        },
+        {    
+            "name": "collaboration quality",
+            "children": [
+                { "name": "joint visual attention", "link": "" },
+                { "name": "joint-visual attention", "link": "" },
+                { "name": "Cycles of collaborative / individual work", "link": "" },
+                { "name": "Joint visual Attention", "link": "" },
+                { "name": "Network features [+20]", "link": "" } 
+            ]
+        }
+    ]
+}

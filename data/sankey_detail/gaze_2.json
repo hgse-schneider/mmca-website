@@ -1,9 +1,33 @@
 {
     "data": [
         {    
-            "name": "Big Five personality traits scores",
+            "name": "level of understanding",
             "children": [
-                { "name": "Gaze", "link": "" } 
+                { "name": "(not", "link": "" } 
+            ]
+        },
+        {    
+            "name": "post-test score",
+            "children": [
+                { "name": "EVT of spatial entropy", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Learning gains",
+            "children": [
+                { "name": "Joint visual attention", "link": "" } 
+            ]
+        },
+        {    
+            "name": "learning gains",
+            "children": [
+                { "name": "joint visual attention", "link": "" },
+                { "name": "perceptual with-me-ness (gaze", "link": "" },
+                { "name": "conceptual with-me-ness (gaze", "link": "" },
+                { "name": "gaze similarity", "link": "" },
+                { "name": "Cycles of collaborative / individual work", "link": "" }, 
+                { "name": "cognitive load (from pupil size", "link": "" },
+                { "name": "Joint visual Attention", "link": "" }
             ]
         }    
     ]
