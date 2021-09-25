@@ -1,6 +1,6 @@
 const sankey_margin = {top: 30, right: 80, bottom: 5, left: 5}
-const sankey_width =  890 - sankey_margin.left - sankey_margin.right
-const sankey_height =  800 - sankey_margin.top - sankey_margin.bottom
+const sankey_width =  1200 - sankey_margin.left - sankey_margin.right
+const sankey_height =  850 - sankey_margin.top - sankey_margin.bottom
 
 // format variables
 var formatNumber = d3.format(",.0f"), // zero decimal places
@@ -10,21 +10,21 @@ var formatNumber = d3.format(",.0f"), // zero decimal places
 function resetVis() {
   d3.select("#force-layout-diagram").remove();
   d3.select("#sankey-diagram").remove();
-  d3.select("#detail-diagram").remove();
+  d3.selectAll("#detail-diagram").remove()
   redraw()
 }
 
 // Set the sankey diagram properties
 var sankey = d3.sankey()
-  .nodeWidth(36)
-  .nodePadding(40)
-  .size([sankey_width, sankey_height]);
+  .nodeWidth(160)
+  .nodePadding(50)
+  .size([sankey_width, sankey_height - 30]);
 
 redraw()
 
 function redraw() {
   sankey_svg = d3.select(".diagram").append("svg")
-    .attr("width", sankey_width + sankey_margin.left)
+    .attr("width", sankey_width + sankey_margin.left + 100)
     .attr("height", sankey_height + sankey_margin.top)
     .attr("id", "sankey-diagram")
     .append("g")
@@ -33,19 +33,21 @@ function redraw() {
   // load the data
   d3.json("/data/sankey_data/layers.json").then(function(sankeydata) {
     graph = sankey(sankeydata);         
-    // add in the links
+
     var link = sankey_svg.append("g").selectAll(".link")
       .data(graph.links)
       .enter().append("path")
       .attr("class", "link")
       .attr("d", d3.sankeyLinkHorizontal())
-      .attr("stroke-width", function(d) { return d.link_width / 4; }) // CHANGE THIS FOR WIDTH OF LINKS
+      .attr("stroke-width", function(d) { return d.link_width / 3; }) // CHANGE THIS FOR WIDTH OF LINKS
       .on('click', function(e, d) {
-        let link = d.data_link
+        let link = d.d_link
+        console.log(link)
         d3.select("#sankey-diagram").remove();
-        treeData() 
+        treeData(link) 
       })
       .style("stroke", d => {return d.color} )
+
     // add the link titles
     link.append("title")
       .text(function(d) { 
@@ -58,32 +60,35 @@ function redraw() {
     // add the rectangles for the nodes
     node.append("rect")
         .attr("x", function(d) { return d.x0; })
-        .attr("y", function(d) { return d.y0; })
-        .attr("height", function(d) { return d.y1 - d.y0; })
+        .attr("y", function(d) { return d.y0 - 10; })
+        .attr("height", function(d) { return d.y1 - d.y0 + 20; })
         .attr("width", sankey.nodeWidth())
         .style("fill", function(d) { 
-            return d.node_color })
-        .style("stroke", function(d) { 
-        return d3.rgb(d.color).darker(2); })
+            return "transparent" })
         .on('click', function(e, d) {
           let link = d.data_link
           d3.select("#sankey-diagram").remove();
           force_layout(link) 
         })
-        // .append("title")
-        // .text(function(d) { 
-        //   return d.name + "\n" + format(d.value); })
-    // add in the title for the nodes
     node.append("text")
-        .attr("x", function(d) { return d.x0 - 6; })
+        .attr("x", function(d) { return (d.x1 + d.x0) / 2; })
         .attr("y", function(d) { return (d.y1 + d.y0) / 2; })
+        .attr("class", "text_node")
+        .attr("height", function(d) { return d.y1 - d.y0; })
         .attr("dy", "0.35em")
-        .attr("text-anchor", "end")
+        .style("font-size", function(d) { return d.fontSize * 1.1 })
         .text(function(d) { return d.name; })
-        .filter(function(d) { return d.x0 < sankey_width / 2; })
-        .attr("x", function(d) { return d.x1 + 6; })
-        .attr("text-anchor", "start");
+        .attr("text-anchor", "middle")
+        .style("fill", function(d) { 
+          if(d.node_color != "gray") {
+            return d.node_color 
+          } else {
+            return "black"
+          }})
+        .style("text-shadow", "none")
   });
+
+
   d3.sankey = function() {
       var sankey = {},
           nodeWidth = 24,

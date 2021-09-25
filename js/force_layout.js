@@ -33,7 +33,7 @@ function force_layout(data_link) {
         .on("drag", dragged)
         .on("end", dragended);
     }
-
+ 
     const simulation = d3.forceSimulation()
     .force("link", d3.forceLink() // This force provides links between nodes
                     .id(d => d.id) // This sets the node id accessor to the specified function. If not specified, will default to the index of a node.

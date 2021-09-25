@@ -1,0 +1,44 @@
+{
+    "data": [
+        {    
+            "name": "Big Five personality traits scores",
+            "children": [
+                { "name": "Gaze", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Visual Dominance Ratio",
+            "children": [
+                { "name": "visual focus of attention features", "link": "" }
+            ]
+        },
+        {    
+            "name": "Emerging leadership (observed",
+            "children": [
+                { "name": "visual field of attention on a person features", "link": "" }
+            ]
+        },
+        {    
+            "name": "Group Composition (Agreeableness, conscientiousness, Extraversion, Neuroticism, and Openness to experience",
+            "children": [
+                { "name": "Group Looking Cues (Fraction of People Gaze, Fraction of Convergent Gaze, Fraction of Mutual Gaze, Fraction of Shared Gaze, Gaze Skew", "link": "" },
+                { "name": "Individual Visual Focus of Attention", "link": "" }
+            ]
+        },
+        {    
+            "name": "social context",
+            "children": [
+                { "name": "Gaze fixation", "link": "" },
+                { "name": "Gaze location", "link": "" },
+                { "name": "Gaze saccade", "link": "" }
+            ]
+        },
+        {    
+            "name": "extraversion rating",
+            "children": [
+                { "name": "attention given by person", "link": "" },
+                { "name": "attention received per person", "link": "" }
+            ]
+        }      
+    ]
+}

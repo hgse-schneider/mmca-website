@@ -96,10 +96,25 @@ text {
 .link:hover {
     stroke-opacity: .5;
 }
-.diagram {
+.diagram .force .detail {
     display: inline-block;
     margin: 0 auto;
 }
+.creator-link {
+    color: rgb(226, 239, 255);
+}
+#sankey-diagram {
+    padding: 5vh;
+}
+/* #sankey-diagram {
+    background-color: rgb(0, 0, 0);
+    margin-top: 2vh;
+    padding: 5vh;
+    border-radius: 10px;
+}
+#force-layout-diagram {
+    background-color: rgb(0, 0, 0);
+} */
 .reset-btn {
     text-align: center;
     border: none;

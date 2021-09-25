@@ -1,7 +1,0 @@
-{
-    "name": "Top Level",
-    "children": [
-        { "name": "Level 2: A" },
-        { "name": "Level 2: B" }
-    ]
-}

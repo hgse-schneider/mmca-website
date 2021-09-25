@@ -1,0 +1,69 @@
+{
+    "data": [
+        {    
+            "name": "collaboration outcome",
+            "children": [
+                { "name": "EVT of spatial entropy", "link": "" } 
+            ]
+        },
+        {    
+            "name": "reference-action sequence",
+            "children": [
+                { "name": "gaze saccades", "link": "" },
+                { "name": "gaze fixations", "link": "" }
+            ]
+        },
+        {    
+            "name": "task completion time",
+            "children": [
+                { "name": "Gaze location", "link": "" }
+            ]
+        },
+        {    
+            "name": "quality of remote collaboration",
+            "children": [
+                { "name": "Gaze location", "link": "" }
+            ]
+        },
+        {    
+            "name": "Program understanding",
+            "children": [
+                { "name": "Focused gaze", "link": "" },
+                { "name": "Together gaze", "link": "" }
+            ]
+        },
+        {    
+            "name": "Task score",
+            "children": [
+                { "name": "Cross-Recurrence Quantification Analysis (CRQA", "link": "" }
+            ]
+        },
+        {    
+            "name": "Team performance",
+            "children": [
+                { "name": "Cross-Recurrence Quantification Analysis (CRQA", "link": "" }
+            ]
+        },
+        {    
+            "name": "task performance",
+            "children": [
+                { "name": "Cycles of collaborative / individual work", "link": "" },
+                { "name": "Joint visual Attention", "link": "" },
+                { "name": "shared gaze", "link": "" }
+            ]
+        },
+        {    
+            "name": "Group Performance (Negative distance between expert list and group list",
+            "children": [
+                { "name": "Group Looking Cues (Fraction of People Gaze, Fraction of Convergent Gaze, Fraction of Mutual Gaze, Fraction of Shared Gaze, Gaze Skew", "link": "" },
+                { "name": "Individual Visual Focus of Attention", "link": "" }
+            ]
+        },
+        {    
+            "name": "student performance",
+            "children": [
+                { "name": "joint visual attention", "link": "" }
+            ]
+        }  
+    ]
+}
