@@ -1,0 +1,27 @@
+{
+    "data": [
+        {    
+            "name": "Learning gains",
+            "children": [
+                { "name": "Coherence metrics", "link": "" },
+                { "name": "Cosine similarity scores", "link": "" },
+                { "name": "N-grams", "link": "" },
+                { "name": "Convergence measures", "link": "" }
+            ]
+        },
+        {   
+            "name": "learning gains",
+            "children": [
+                { "name": "types of exploration", "link": "" },
+                { "name": "amount of exploration", "link": "" }
+            ]
+        },
+        {    
+            "name": "learning gain group (high or low",
+            "children": [
+                { "name": "types of exploration", "link": "" },
+                { "name": "amount of exploration", "link": "" }
+            ]
+        }   
+    ]
+}

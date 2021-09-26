@@ -1,0 +1,22 @@
+{
+    "data": [
+        {    
+            "name": "social context",
+            "children": [
+                { "name": "zoid acceleration", "link": "" },
+                { "name": "Player actions", "link": "" }
+            ]
+        },
+        {    
+            "name": "Expert prediction",
+            "children": [
+                { "name": "Total number of pen strokes", "link": "" },
+                { "name": "Calculator Use", "link": "" },
+                { "name": "Average stroke path length", "link": "" },
+                { "name": "Average stroke displacement", "link": "" },
+                { "name": "Average stroke pressure", "link": "" },
+                { "name": "Average stroke time length", "link": "" } 
+            ]
+        }    
+    ]
+}

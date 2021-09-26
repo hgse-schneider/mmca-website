@@ -1,0 +1,26 @@
+{
+    "data": [
+        {    
+            "name": "quality of collaboration",
+            "children": [
+                { "name": "shared gaze", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Quality of Collaboration",
+            "children": [
+                { "name": "Joint visual attention", "link": "" } 
+            ]
+        },
+        {    
+            "name": "collaboration quality",
+            "children": [
+                { "name": "joint visual attention", "link": "" },
+                { "name": "joint-visual attention", "link": "" } ,
+                { "name": "Cycles of collaborative / individual work", "link": "" },
+                { "name": "Joint visual Attention", "link": "" },
+                { "name": "Network features [+20]", "link": "" }  
+            ]
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "data": [
+        {    
+            "name": "cultural style matching",
+            "children": [
+                { "name": "body synchronization", "link": "" }
+            ]
+        },
+        {    
+            "name": "language style matching",
+            "children": [
+                { "name": "body synchronization", "link": "" }
+            ]
+        },
+        {    
+            "name": "leadership (driver/passenger",
+            "children": [
+                { "name": "type of movement", "link": "" }
+            ]
+        },
+        {    
+            "name": "Big Five personality traits scores",
+            "children": [
+                { "name": "Motion energy images", "link": "" },
+                { "name": "Body motion", "link": "" }
+            ]
+        },
+        {    
+            "name": "Emerging leadership",
+            "children": [
+                { "name": "head/body movement", "link": "" }
+            ]
+        },
+        {    
+            "name": "Expert prediction",
+            "children": [
+                { "name": "Total Movement", "link": "" },
+                { "name": "Distance from the center of the table", "link": "" }
+            ]
+        },
+        {    
+            "name": "expertise",
+            "children": [
+                { "name": "Total manual gestures per second", "link": "" },
+                { "name": "Iconic gestures per second", "link": "" },
+                { "name": "Deictic gestures per second", "link": "" }
+            ]
+        }  
+    ]
+}

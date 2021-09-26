@@ -1,0 +1,40 @@
+{
+    "data": [
+        {    
+            "name": "task success score",
+            "children": [
+                { "name": "type of activity done in task", "link": "" },
+                { "name": "target for discussion partner", "link": "" }
+            ]
+        },
+        {    
+            "name": "group performance",
+            "children": [
+                { "name": "events", "link": "" } 
+            ]
+        },
+        {    
+            "name": "artefact quality",
+            "children": [
+                { "name": "Arduino active hardware blocks", "link": "" },
+                { "name": "student work phases", "link": "" },
+                { "name": "Arduino active blocks", "link": "" },
+                { "name": "Arduino active software blocks", "link": "" },
+                { "name": "Arduino measure of complexity", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Odds of a student solving correctly a problem",
+            "children": [
+                { "name": "Total number of pen strokes", "link": "" },
+                { "name": "Calculator Use", "link": "" },
+                { "name": "Average stroke path length", "link": "" },
+                { "name": "Average stroke displacement", "link": "" },
+                { "name": "Average stroke pressure", "link": "" },
+                { "name": "Average number of points", "link": "" },
+                { "name": "Average stroke time length", "link": "" } 
+            ]
+        }    
+    ]
+}
+

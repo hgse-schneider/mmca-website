@@ -1,0 +1,38 @@
+{
+    "data": [
+        {    
+            "name": "Quality of Collaboration",
+            "children": [
+                { "name": "Convergence measures", "link": "" }
+            ]
+        },
+        {    
+            "name": "collaboration quality",
+            "children": [
+                { "name": "movement of objects including revisiting past actions", "link": "" }
+            ]
+        },
+        {    
+            "name": "Colloboration",
+            "children": [
+                { "name": "total number of touch actions", "link": "" },
+                { "name": "symmetry of touch actions among group", "link": "" },
+                { "name": "physical participation quantity", "link": "" }
+            ]
+        },
+        {    
+            "name": "Colloboration quality",
+            "children": [
+                { "name": "Sequences of meaningful actions", "link": "" }
+            ]
+        },
+        {    
+            "name": "collaboration",
+            "children": [
+                { "name": "zooming", "link": "" },
+                { "name": "scrolling", "link": "" },
+                { "name": "card movements", "link": "" }
+            ]
+        } 
+    ]
+}

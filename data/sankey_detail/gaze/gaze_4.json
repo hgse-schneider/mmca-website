@@ -1,0 +1,70 @@
+{
+    "data": [
+        {    
+            "name": "Perception of leadership and dominance from external observers",
+            "children": [
+                { "name": "Audio-visual (Looking while speaking, Looking while listening, Being looked while speaking, Center of attention while speaking, Visual dominance ratio", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Ranked dominance",
+            "children": [
+                { "name": "Audio-visual (Looking while speaking, Looking while listening, Being looked while speaking, Center of attention while speaking, Visual dominance ratio", "link": "" } 
+            ]
+        },
+        {    
+            "name": "quality of collaboration",
+            "children": [
+                { "name": "shared gaze", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Emerging leadership (surveyed",
+            "children": [
+                { "name": "visual field of attention on a person features", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Group Interpersonal Perception (Perceived Dominance, Perceived Leadership, Perceived Competence, Perceived Liking",
+            "children": [
+                { "name": "Individual Visual Focus of Attention", "link": "" },
+                { "name": "Group Looking Cues (Fraction of People Gaze, Fraction of Convergent Gaze, Fraction of Mutual Gaze, Fraction of Shared Gaze, Gaze Skew", "link": "" }  
+            ]
+        },
+        {    
+            "name": "Quality of Collaboration",
+            "children": [
+                { "name": "Joint visual attention", "link": "" }
+            ]
+        },
+        {    
+            "name": "Leadership perceived",
+            "children": [
+                { "name": "visual attention metrics [8 metrics]", "link": "" }
+            ]
+        },
+        {    
+            "name": "Contribution perceived",
+            "children": [
+                { "name": "visual attention metrics [8 metrics]", "link": "" }
+            ]
+        },
+        {    
+            "name": "identity of emergent leader",
+            "children": [
+                { "name": "visual focus of attention", "link": "" }
+            ]
+        },
+        {    
+            "name": "collaboration quality",
+            "children": [
+                { "name": "joint visual attention", "link": "" },
+                { "name": "joint-visual attention", "link": "" },
+                { "name": "Cycles of collaborative / individual work", "link": "" },
+                { "name": "Joint visual Attention", "link": "" },
+                { "name": "Network features [+20]", "link": "" }
+            ]
+        }
+    ]
+}
+
