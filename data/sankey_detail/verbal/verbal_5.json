@@ -1,0 +1,41 @@
+{
+    "data": [
+        {    
+            "name": "collaboration",
+            "children": [
+                { "name": "1582 audio features (from Emobase", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Colloboration quality",
+            "children": [
+                { "name": "Sequences of verbal utterances", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Joint Visual Attention",
+            "children": [
+                { "name": "coherence", "link": "" } 
+            ]
+        },
+        {    
+            "name": "collaboration quality",
+            "children": [
+                { "name": "speech time", "link": "" },
+                { "name": "thousands of features prosodic speech", "link": "" },
+                { "name": "talking time", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Collaboration",
+            "children": [
+                { "name": "35 Coh-metrix indices", "link": "" },
+                { "name": "speech quantity", "link": "" },
+                { "name": "symmetry of speech among group", "link": "" },
+                { "name": "verbal participation symmetry among group", "link": "" },
+                { "name": "number of active participants in group", "link": "" },
+                { "name": "speech time and frequency", "link": "" } 
+            ]
+        }
+    ]
+}

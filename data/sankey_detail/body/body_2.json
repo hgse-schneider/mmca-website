@@ -1,0 +1,34 @@
+{
+    "data": [
+        {    
+            "name": "Learning gains",
+            "children": [
+                { "name": "clustered hand/wrist movement", "link": "" }
+            ]
+        },
+        {    
+            "name": "learning",
+            "children": [
+                { "name": "gesture", "link": "" }
+            ]
+        },
+        {    
+            "name": "learning gain group (high or low",
+            "children": [
+                { "name": "Body distance", "link": "" },
+                { "name": "type of movement", "link": "" },
+                { "name": "Body synchronization", "link": "" },
+                { "name": "amount of movement", "link": "" }
+            ]
+        },
+        {    
+            "name": "learning gains",
+            "children": [
+                { "name": "Body distance", "link": "" },
+                { "name": "type of movement", "link": "" },
+                { "name": "Body synchronization", "link": "" },
+                { "name": "amount of movement", "link": "" }
+            ]
+        }  
+    ]
+}

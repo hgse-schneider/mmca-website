@@ -1,0 +1,24 @@
+{
+    "data": [
+        {    
+            "name": "Collaboration",
+            "children": [
+                { "name": "Physical synchrony", "link": "" },
+                { "name": "Joint movement", "link": "" },
+                { "name": "dyad proximity", "link": "" }
+            ]
+        },
+        {    
+            "name": "frequency of utterances",
+            "children": [
+                { "name": "gesture type and location", "link": "" }
+            ]
+        },
+        {    
+            "name": "collaboration quality",
+            "children": [
+                { "name": "Total movement across upper body joints and body parts", "link": "" }
+            ]
+        }
+    ]
+}

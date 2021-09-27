@@ -1,0 +1,88 @@
+{
+    "data": [
+        {    
+            "name": "extraversion rating",
+            "children": [
+                { "name": "speaking time % per individual", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Big Five personality traits scores",
+            "children": [
+                { "name": "Speaking status", "link": "" },
+                { "name": "Pitch", "link": "" },
+                { "name": "Energy", "link": "" }  
+            ]
+        },
+        {    
+            "name": "Visual Dominance Ratio",
+            "children": [
+                { "name": "audio energy features", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Emerging leadership",
+            "children": [
+                { "name": "interruption", "link": "" },
+                { "name": "speaking turn duration / number", "link": "" },
+                { "name": "(non", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Expertise",
+            "children": [
+                { "name": "spectral stationarity", "link": "" },
+                { "name": "Articulation rate", "link": "" },
+                { "name": "peak slope", "link": "" },
+                { "name": "Pause duration", "link": "" }
+            ]
+        },
+        {    
+            "name": "Leadership",
+            "children": [
+                { "name": "spectral stationarity", "link": "" },
+                { "name": "Articulation rate", "link": "" },
+                { "name": "peak slope", "link": "" },
+                { "name": "Pause duration", "link": "" }
+            ]
+        },
+        {    
+            "name": "Personality Traits",
+            "children": [
+                { "name": "speech utterances", "link": "" },
+                { "name": "6 One Vs All Features", "link": "" }
+            ]
+        },
+        {    
+            "name": "Group Composition (Agreeableness, conscientiousness, Extraversion, Neuroticism, and Openness to experience",
+            "children": [
+                { "name": "Group Participation Speaking Cues (Speaking Length, Speaking Turns, Successful Interruptions, Unsuccessful Interruptions, Backchannels", "link": "" },
+                { "name": "Speaking Distribution Cues (Speaking Length Skew, Speaking Turns Skew, Successful Interruption Skew, Unsuccessful Interruptions Skew, Backchannels Skew", "link": "" },
+                { "name": "Silence and Overlap Cues (Fraction of Silence, Fraction of Nonoverlapped Speech, Fraction of two-people and three-people Overlapped Speech", "link": "" }
+            ]
+        },
+        {    
+            "name": "identity of the expert",
+            "children": [
+                { "name": "standard deviation of vocalisation", "link": "" },
+                { "name": "average duration of vocalisation", "link": "" },
+                { "name": "probability of a transition from a vocalisation to floor", "link": "" },
+                { "name": "duration of all vocalisations", "link": "" },
+                { "name": "probability of transitioning from a group vocalisation to speaker vocalisation", "link": "" },
+                { "name": "probability of a transition from floor  (i.e. a pause, group switching pause or speaker switching pause", "link": "" },
+                { "name": "probability of transitioning from a speaker vocalisation to a group vocalisation", "link": "" },
+                { "name": "uncertainty in the transitions (turn taking", "link": "" }
+            ]
+        },
+        {    
+            "name": "Expert prediction",
+            "children": [
+                { "name": "Total speech duration", "link": "" },
+                { "name": "Times numbers were mentioned", "link": "" },
+                { "name": "Times mathematical terms were mentioned", "link": "" },
+                { "name": "Number of interventions", "link": "" },
+                { "name": "Times commands were pronounced", "link": "" }
+            ]
+        }   
+    ]
+}

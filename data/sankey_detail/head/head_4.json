@@ -1,0 +1,59 @@
+{
+    "data": [
+        {    
+            "name": "perception of peer helpfulness",
+            "children": [
+                { "name": "facial expression features (60 features", "link": "" } 
+            ]
+        },
+        {    
+            "name": "perception of peer clarity",
+            "children": [
+                { "name": "facial expression features (60 features", "link": "" } 
+            ]
+        },
+        {    
+            "name": "perception of peer understanding",
+            "children": [
+                { "name": "facial expression features (60 features", "link": "" } 
+            ]
+        },
+        {    
+            "name": "team cohesion",
+            "children": [
+                { "name": "smiling synchrony", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Speech Laughter",
+            "children": [
+                { "name": "51 Facial Action Units", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Voiced Laughter",
+            "children": [
+                { "name": "51 Facial Action Units", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Unvoiced Laughter",
+            "children": [
+                { "name": "51 Facial Action Units", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Social Impressions",
+            "children": [
+                { "name": "22 Intra-Personal Features", "link": "" },
+                { "name": "9 Dyadic Features", "link": "" } 
+            ]
+        },
+        {    
+            "name": "identity of emergent leader",
+            "children": [
+                { "name": "facial features", "link": "" }
+            ]
+        }    
+    ]
+}

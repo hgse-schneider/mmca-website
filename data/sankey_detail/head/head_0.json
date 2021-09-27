@@ -1,0 +1,17 @@
+{
+    "data": [
+        {    
+            "name": "Big Five personality traits scores",
+            "children": [
+                { "name": "Head motion", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Personality Traits",
+            "children": [
+                { "name": "9 Dyadic Features", "link": "" },
+                { "name": "22 Intra-Personal Features", "link": "" } 
+            ]
+        }    
+    ]
+}

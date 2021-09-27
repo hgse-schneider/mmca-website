@@ -1,0 +1,60 @@
+{
+    "data": [
+        {    
+            "name": "Task Performance",
+            "children": [
+                { "name": "Face and upper body movement", "link": "" }
+            ]
+        },
+        {    
+            "name": "Odds of a student solving correctly a problem",
+            "children": [
+                { "name": "Total Movement", "link": "" },
+                { "name": "Distance from the center of the table", "link": "" }
+            ]
+        },
+        {    
+            "name": "collaborative problem solving",
+            "children": [
+                { "name": "Distance between learners (DBL", "link": "" }
+            ]
+        },
+        {    
+            "name": "Task performance",
+            "children": [
+                { "name": "Joint angle", "link": "" },
+                { "name": "Joint movement", "link": "" },
+                { "name": "dyad proximity", "link": "" }
+            ]
+        },
+        {    
+            "name": "technical ability",
+            "children": [
+                { "name": "time spent as a group", "link": "" },
+                { "name": "time spent individually", "link": "" },
+                { "name": "transition probabilities between collaborative state", "link": "" }
+            ]
+        },
+        {    
+            "name": "time spent in makerspace",
+            "children": [
+                { "name": "transition probabilities between collaborative state", "link": "" }
+            ]
+        },
+        {    
+            "name": "artefact quality",
+            "children": [
+                { "name": "Mean hand movement speed", "link": "" },
+                { "name": "Mean distance between hands", "link": "" },
+                { "name": "Mean distance between learners", "link": "" }
+            ]
+        },
+        {    
+            "name": "task success score",
+            "children": [
+                { "name": "amount of face and body movement", "link": "" }
+            ]
+        } 
+    ]
+}
+

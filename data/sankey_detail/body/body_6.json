@@ -1,0 +1,28 @@
+{
+    "data": [
+        {    
+            "name": "Physical engagement",
+            "children": [
+                { "name": "Distance between hands", "link": "" }
+            ]
+        },
+        {    
+            "name": "Individual accountability",
+            "children": [
+                { "name": "Distance between hands", "link": "" }
+            ]
+        },
+        {    
+            "name": "subjective workload",
+            "children": [
+                { "name": "gesture type and location", "link": "" }
+            ]
+        },
+        {    
+            "name": "engagement",
+            "children": [
+                { "name": "gesture", "link": "" }
+            ]
+        }
+    ]
+}

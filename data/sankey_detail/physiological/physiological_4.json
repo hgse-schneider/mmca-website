@@ -1,0 +1,60 @@
+{
+    "data": [
+        {    
+            "name": "Behavioral Involvement",
+            "children": [
+                { "name": "Physiological linkage", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Task interest",
+            "children": [
+                { "name": "Physiological linkage", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Behavioral Involvement",
+            "children": [
+                { "name": "physiological synchrony", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Mental effort",
+            "children": [
+                { "name": "physiological synchrony", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Engagement",
+            "children": [
+                { "name": "brain synchrony", "link": "" } 
+            ]
+        },
+        {    
+            "name": "collaboration quality",
+            "children": [
+                { "name": "EDA synchrony", "link": "" },
+                { "name": "heart rate sychrony", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Monitoring of behavior, cognition, motivations and emotions",
+            "children": [
+                { "name": "EDA peak detection", "link": "" },
+                { "name": "physiological concordance index", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Self-rated workload",
+            "children": [
+                { "name": "DA - EDA", "link": "" },
+                { "name": "IDM - HR", "link": "" },
+                { "name": "IDM - EDA", "link": "" },
+                { "name": "CC - EDA", "link": "" },
+                { "name": "SM - EDA", "link": "" },
+                { "name": "WC - EDA", "link": "" },
+                { "name": "SM - HR", "link": "" } 
+            ]
+        }
+    ]
+}

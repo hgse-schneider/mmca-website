@@ -1,0 +1,49 @@
+{
+    "data": [
+        {    
+            "name": "Perceived Collaboration Quality",
+            "children": [
+                { "name": "Face and upper body movement", "link": "" }
+            ]
+        },
+        {    
+            "name": "Agreement",
+            "children": [
+                { "name": "upper body agitation", "link": "" },
+                { "name": "hand agitation", "link": "" }
+            ]
+        },
+        {    
+            "name": "Collaboration",
+            "children": [
+                { "name": "Physical synchrony", "link": "" },
+                { "name": "Joint movement", "link": "" },
+                { "name": "dyad proximity", "link": "" }
+            ]
+        },
+        {    
+            "name": "Individual accountability",
+            "children": [
+                { "name": "Distance between hands", "link": "" }
+            ]
+        },
+        {    
+            "name": "Synchronisation",
+            "children": [
+                { "name": "Distance between hands", "link": "" }
+            ]
+        },
+        {    
+            "name": "collaborative problem solving",
+            "children": [
+                { "name": "Distance between learners (DBL", "link": "" }
+            ]
+        },
+        {    
+            "name": "collaboration quality",
+            "children": [
+                { "name": "Total movement across upper body joints and body parts", "link": "" }
+            ]
+        } 
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "data": [
+        {    
+            "name": "collaboration",
+            "children": [
+                { "name": "1582 audio features (from Emobase", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Agreement",
+            "children": [
+                { "name": "speaking time / turns", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Perceived Collaboration Quality",
+            "children": [
+                { "name": "speech rate", "link": "" } 
+            ]
+        },
+        {    
+            "name": "collaborative problem solving",
+            "children": [
+                { "name": "Audio level (AUD", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Collaboration quality",
+            "children": [
+                { "name": "Sequences of verbal utterances", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Joint Visual Attention",
+            "children": [
+                { "name": "coherence", "link": "" } 
+            ]
+        },
+        {    
+            "name": "collaboration quality of group [4 level scale]",
+            "children": [
+                { "name": "prosodic and tone features [many]", "link": "" },
+                { "name": "duration in which each student was only speaker", "link": "" },
+                { "name": "duration of silence for all people", "link": "" },
+                { "name": "duration of speech by each student", "link": "" },
+                { "name": "duration of overlapping speech from pairs of students", "link": "" },
+                { "name": "duration of overlapping speech from all people", "link": "" } 
+            ]
+        },
+        {    
+            "name": "collaboration quality",
+            "children": [
+                { "name": "speech time", "link": "" },
+                { "name": "thousands of features prosodic speech", "link": "" },
+                { "name": "talking time", "link": "" }
+            ]
+        },
+        {    
+            "name": "Collaboration",
+            "children": [
+                { "name": "35 Coh-metrix indices", "link": "" },
+                { "name": "symmetry of speech among group", "link": "" },
+                { "name": "speech time and frequency", "link": "" }
+            ]
+        }
+    ]
+}

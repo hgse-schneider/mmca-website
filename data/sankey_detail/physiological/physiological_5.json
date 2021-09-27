@@ -1,0 +1,40 @@
+{
+    "data": [
+        {    
+            "name": "Negative Feelings",
+            "children": [
+                { "name": "Physiological linkage", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Empathy",
+            "children": [
+                { "name": "Physiological linkage", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Perceived Valence",
+            "children": [
+                { "name": "Galvanic skin response", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Perceived Arousal",
+            "children": [
+                { "name": "Galvanic skin response", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Emotional valence",
+            "children": [
+                { "name": "physiological synchrony", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Judgement of confidence",
+            "children": [
+                { "name": "physiological synchrony", "link": "" } 
+            ]
+        }
+    ]
+}

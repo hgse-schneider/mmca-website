@@ -1,0 +1,54 @@
+{
+    "data": [
+        {    
+            "name": "colaughter",
+            "children": [
+                { "name": "body synchronization", "link": "" }
+            ]
+        },
+        {    
+            "name": "cooperation",
+            "children": [
+                { "name": "body synchronization", "link": "" }
+            ]
+        },
+        {    
+            "name": "Perceived Collaboration Quality",
+            "children": [
+                { "name": "Face and upper body movement", "link": "" }
+            ]
+        },
+        {    
+            "name": "Collaboration",
+            "children": [
+                { "name": "Physical synchrony", "link": "" },
+                { "name": "Joint movement", "link": "" },
+                { "name": "dyad proximity", "link": "" }
+            ]
+        },
+        {    
+            "name": "identity of emergent leader",
+            "children": [
+                { "name": "body pose", "link": "" }
+            ]
+        },
+        {    
+            "name": "collaboration quality",
+            "children": [
+                { "name": "Total movement across upper body joints and body parts", "link": "" }
+            ]
+        },
+        {    
+            "name": "social ability",
+            "children": [
+                { "name": "time spent as a group", "link": "" }
+            ]
+        },
+        {    
+            "name": "subjective perception of collaboration",
+            "children": [
+                { "name": "amount of face and body movement", "link": "" }
+            ]
+        }
+    ]
+}

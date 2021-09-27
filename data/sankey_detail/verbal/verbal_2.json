@@ -1,0 +1,31 @@
+{
+    "data": [
+        {    
+            "name": "learning gains",
+            "children": [
+                { "name": "Speech activity", "link": "" } 
+            ]
+        },
+        {    
+            "name": "learning",
+            "children": [
+                { "name": "dialogue acts", "link": "" } 
+            ]
+        },
+        {    
+            "name": "level of understanding",
+            "children": [
+                { "name": "Dialogue episodes (description, management", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Learning",
+            "children": [
+                { "name": "5 Coh-metrix indices", "link": "" },
+                { "name": "simple linguistic features", "link": "" },
+                { "name": "coherence", "link": "" },
+                { "name": "convergence (of linguistic styles", "link": "" } 
+            ]
+        } 
+    ]
+}

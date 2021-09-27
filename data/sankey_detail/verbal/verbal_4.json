@@ -1,0 +1,136 @@
+{
+    "data": [
+        {    
+            "name": "Social Impressions",
+            "children": [
+                { "name": "6 One Vs All Features", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Colloboration quality",
+            "children": [
+                { "name": "Sequences of verbal utterances", "link": "" } 
+            ]
+        },
+        {    
+            "name": "colloboration quality",
+            "children": [
+                { "name": "talking time", "link": "" },
+                { "name": "thousands of features prosodic speech", "link": "" },
+                { "name": "speech time", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Contribution perceived",
+            "children": [
+                { "name": "non-verbal speaking metrics (speaking length, interruptions, etc", "link": "" },
+                { "name": "verbal dominance and information metrics [9 metrics]", "link": "" }
+            ]
+        },
+        {    
+            "name": "Leadership perceived",
+            "children": [
+                { "name": "non-verbal speaking metrics (speaking length, interruptions, etc", "link": "" },
+                { "name": "verbal dominance and information metrics [9 metrics]", "link": "" }
+            ]
+        },
+        {    
+            "name": "Joint Visual Attention",
+            "children": [
+                { "name": "coherence", "link": "" }
+            ]
+        },
+        {    
+            "name": "rapport level",
+            "children": [
+                { "name": "Synchrony", "link": "" },
+                { "name": "Convergence", "link": "" },
+                { "name": "Proximity", "link": "" }
+            ]
+        },
+        {    
+            "name": "colloboration",
+            "children": [
+                { "name": "1582 audio features (from Emobase", "link": "" }
+            ]
+        },
+        {    
+            "name": "Perceived Collaboration Quality",
+            "children": [
+                { "name": "speech rate", "link": "" }
+            ]
+        },
+        {    
+            "name": "Speech Laughter",
+            "children": [
+                { "name": "102 extended GeMAPs acoustic features", "link": "" },
+                { "name": "12 MCFFs", "link": "" },
+                { "name": "88 GeMAPS acoustic features", "link": "" }
+            ]
+        },
+        {    
+            "name": "Voiced Laughter",
+            "children": [
+                { "name": "102 extended GeMAPs acoustic features", "link": "" },
+                { "name": "12 MCFFs", "link": "" },
+                { "name": "88 GeMAPS acoustic features", "link": "" }
+            ]
+        },
+        {    
+            "name": "Unvoiced Laughter",
+            "children": [
+                { "name": "12 MCFFs", "link": "" },
+                { "name": "88 GeMAPS acoustic features", "link": "" }
+            ]
+        },
+        {    
+            "name": "Group Interpersonal Perception (Perceived Dominance, Perceived Leadership, Perceived Competence, Perceived Liking",
+            "children": [
+                { "name": "Group Participation Speaking Cues (Speaking Length, Speaking Turns, Successful Interruptions, Unsuccessful Interruptions, Backchannels", "link": "" },
+                { "name": "Speaking Distribution Cues (Speaking Length Skew, Speaking Turns Skew, Successful Interruption Skew, Unsuccessful Interruptions Skew, Backchannels Skew", "link": "" },
+                { "name": "Silence and Overlap Cues (Fraction of Silence, Fraction of Nonoverlapped Speech, Fraction of two-people and three-people Overlapped Speech", "link": "" }
+            ]
+        },
+        {    
+            "name": "Collaboration",
+            "children": [
+                { "name": "symmetry of speech among group", "link": "" },
+                { "name": "35 Coh-metrix indices", "link": "" },
+                { "name": "speech time and frequency", "link": "" }
+            ]
+        },
+        {    
+            "name": "Ranked dominance",
+            "children": [
+                { "name": "Speaking Activity (Speaking length, Speaking turns, Speaking interruptions, Average speaking turn duration", "link": "" }
+            ]
+        },
+        {    
+            "name": "Ranked dominance",
+            "children": [
+                { "name": "Perception of leadership and dominance from external observers", "link": "" }
+            ]
+        },
+        {    
+            "name": "perception of peer helpfulness",
+            "children": [
+                { "name": "voice features (4 features", "link": "" },
+                { "name": "linguistic features from transcript (65 features", "link": "" }
+            ]
+        },
+        {    
+            "name": "perception of peer clarity",
+            "children": [
+                { "name": "voice features (4 features", "link": "" },
+                { "name": "linguistic features from transcript (65 features", "link": "" }
+            ]
+        },
+        {    
+            "name": "perception of peer understanding",
+            "children": [
+                { "name": "voice features (4 features", "link": "" },
+                { "name": "linguistic features from transcript (65 features", "link": "" }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "data": [
+        {    
+            "name": "emotional state",
+            "children": [
+                { "name": "x,y,z body joints", "link": "" }
+            ]
+        },
+        {    
+            "name": "Perceived Arousal",
+            "children": [
+                { "name": "Face and upper body movement", "link": "" }
+            ]
+        },
+        {    
+            "name": "Perceived Valence",
+            "children": [
+                { "name": "Face and upper body movement", "link": "" }
+            ]
+        },
+        {    
+            "name": "frustration",
+            "children": [
+                { "name": "gesture", "link": "" }
+            ]
+        },
+        {    
+            "name": "reported frustration",
+            "children": [
+                { "name": "transition probabilities between collaborative state", "link": "" }
+            ]
+        }
+    ]
+}

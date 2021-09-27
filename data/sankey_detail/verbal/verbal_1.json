@@ -1,0 +1,61 @@
+{
+    "data": [
+        {    
+            "name": "Task Performance",
+            "children": [
+                { "name": "speech rate", "link": "" } 
+            ]
+        },
+        {    
+            "name": "quality of produced outcome (6 dimensions including length, originality, quality of presentation, etc",
+            "children": [
+                { "name": "Speaking turn features [x4]", "link": "" },
+                { "name": "Acoustic features [x13]", "link": "" },
+                { "name": "Linguistic features [x300+]", "link": "" } 
+            ]
+        },
+        {    
+            "name": "collaborative problem solving",
+            "children": [
+                { "name": "Audio level (AUD", "link": "" }
+            ]
+        },
+        {    
+            "name": "artefact quality",
+            "children": [
+                { "name": "Mean audio level", "link": "" }
+            ]
+        },
+        {    
+            "name": "Group Performance (Negative distance between expert list and group list",
+            "children": [
+                { "name": "Silence and Overlap Cues (Fraction of Silence, Fraction of Nonoverlapped Speech, Fraction of two-people and three-people Overlapped Speech", "link": "" },
+                { "name": "Group Participation Speaking Cues (Speaking Length, Speaking Turns, Successful Interruptions, Unsuccessful Interruptions, Backchannels", "link": "" },
+                { "name": "Speaking Distribution Cues (Speaking Length Skew, Speaking Turns Skew, Successful Interruption Skew, Unsuccessful Interruptions Skew, Backchannels Skew", "link": "" }
+            ]
+        },
+        {    
+            "name": "group performance scores",
+            "children": [
+                { "name": "linguistic features", "link": "" },
+                { "name": "speech features", "link": "" }
+            ]
+        },
+        {    
+            "name": "task performance",
+            "children": [
+                { "name": "transition probability between types of vocalisations", "link": "" }
+            ]
+        },
+        {    
+            "name": "Odds of a student solving correctly a problem",
+            "children": [
+                { "name": "Total speech duration", "link": "" },
+                { "name": "Number of interventions", "link": "" },
+                { "name": "Times numbers were mentioned", "link": "" },
+                { "name": "Times mathematical terms were mentioned", "link": "" },
+                { "name": "Times commands were pronounced", "link": "" }
+            ]
+        }
+    ]
+}

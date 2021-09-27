@@ -1,0 +1,22 @@
+{
+    "data": [
+        {    
+            "name": "Perceived Valence",
+            "children": [
+                { "name": "speech rate", "link": "" } 
+            ]
+        },
+        {    
+            "name": "Perceived Arousal",
+            "children": [
+                { "name": "speech rate", "link": "" } 
+            ]
+        },
+        {    
+            "name": "frustration",
+            "children": [
+                { "name": "dialogue acts", "link": "" } 
+            ]
+        }
+    ]
+}
