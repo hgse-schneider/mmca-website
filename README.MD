@@ -9,6 +9,11 @@ data - contains all the json data files </br>
 scripts.js - JavaScript file that generates diagram using D3.js </br>
 html files - located in the project directory </br>
 
+## Main TODOs
+
+- Input data for the detail and force layout links
+- Ability to click on detail circle or text nodes for URL link
+
 ## Data checked
 
 - *URL (COMPLETE)

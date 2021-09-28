@@ -65,9 +65,11 @@ function treeData (data_link) {
                 .attr("transform", function(d) { 
                 return "translate(" + d.y + "," + d.x + ")"; })
 
+
             // adds the circle to the node
             node.append("circle")
             .attr("r", 7)
+
 
             // adds the text to the node
             node.append("text")
