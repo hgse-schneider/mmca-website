@@ -3,36 +3,36 @@
         {    
             "name": "task success score",
             "children": [
-                { "name": "type of activity done in task", "link": "" },
-                { "name": "target for discussion partner", "link": "" }
+                { "name": "type of activity done in task", "link": "Focused%20or%20Stuck%20Together:%20Multimodal%20Patterns%20Reveal%20Triads’%20Performance%20in%20Collaborative%20Problem%20Solving" },
+                { "name": "target for discussion partner", "link": "Focused%20or%20Stuck%20Together:%20Multimodal%20Patterns%20Reveal%20Triads’%20Performance%20in%20Collaborative%20Problem%20Solving" }
             ]
         },
         {    
             "name": "group performance",
             "children": [
-                { "name": "events", "link": "" } 
+                { "name": "events", "link": "Analysing%20frequent%20sequential%20patterns%20of%20collaborative%20learning%20activity%20around%20an%20interactive%20tabletop" } 
             ]
         },
         {    
             "name": "artefact quality",
             "children": [
-                { "name": "Arduino active hardware blocks", "link": "" },
-                { "name": "student work phases", "link": "" },
-                { "name": "Arduino active blocks", "link": "" },
-                { "name": "Arduino active software blocks", "link": "" },
-                { "name": "Arduino measure of complexity", "link": "" } 
+                { "name": "Arduino active hardware blocks", "link": "Supervised%20machine%20learning%20in%20multimodal%20learning%20analytics%20for%20estimating%20success%20in%20project-based%20learning" },
+                { "name": "student work phases", "link": "Supervised%20machine%20learning%20in%20multimodal%20learning%20analytics%20for%20estimating%20success%20in%20project-based%20learning" },
+                { "name": "Arduino active blocks", "link": "Supervised%20machine%20learning%20in%20multimodal%20learning%20analytics%20for%20estimating%20success%20in%20project-based%20learning" },
+                { "name": "Arduino active software blocks", "link": "Supervised%20machine%20learning%20in%20multimodal%20learning%20analytics%20for%20estimating%20success%20in%20project-based%20learning" },
+                { "name": "Arduino measure of complexity", "link": "Supervised%20machine%20learning%20in%20multimodal%20learning%20analytics%20for%20estimating%20success%20in%20project-based%20learning" } 
             ]
         },
         {    
             "name": "Odds of a student solving correctly a problem",
             "children": [
-                { "name": "Total number of pen strokes", "link": "" },
-                { "name": "Calculator Use", "link": "" },
-                { "name": "Average stroke path length", "link": "" },
-                { "name": "Average stroke displacement", "link": "" },
-                { "name": "Average stroke pressure", "link": "" },
-                { "name": "Average number of points", "link": "" },
-                { "name": "Average stroke time length", "link": "" } 
+                { "name": "Total number of pen strokes", "link": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features" },
+                { "name": "Calculator Use", "link": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features" },
+                { "name": "Average stroke path length", "link": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features" },
+                { "name": "Average stroke displacement", "link": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features" },
+                { "name": "Average stroke pressure", "link": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features" },
+                { "name": "Average number of points", "link": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features" },
+                { "name": "Average stroke time length", "link": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features" } 
             ]
         }    
     ]

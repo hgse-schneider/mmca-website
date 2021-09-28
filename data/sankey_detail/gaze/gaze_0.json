@@ -3,41 +3,41 @@
         {    
             "name": "Big Five personality traits scores",
             "children": [
-                { "name": "Gaze", "link": "" } 
+                { "name": "Gaze", "link": "Personality%20Trait%20Classification%20via%20Co-Occurrent%20Multiparty%20Multimodal%20Event%20Discovery" } 
             ]
         },
         {    
             "name": "Visual Dominance Ratio",
             "children": [
-                { "name": "visual focus of attention features", "link": "" }
+                { "name": "visual focus of attention features", "link": "Investigating%20Automatic%20Dominance%20Estimation%20in%20Groups%20From%20Visual%20Attention%20and%20Speaking%20Activity" }
             ]
         },
         {    
             "name": "Emerging leadership (observed",
             "children": [
-                { "name": "visual field of attention on a person features", "link": "" }
+                { "name": "visual field of attention on a person features", "link": "Detecting%20Emergent%20Leader%20in%20a%20Meeting%20Environment" }
             ]
         },
         {    
             "name": "Group Composition (Agreeableness, conscientiousness, Extraversion, Neuroticism, and Openness to experience",
             "children": [
-                { "name": "Group Looking Cues (Fraction of People Gaze, Fraction of Convergent Gaze, Fraction of Mutual Gaze, Fraction of Shared Gaze, Gaze Skew", "link": "" },
-                { "name": "Individual Visual Focus of Attention", "link": "" }
+                { "name": "Group Looking Cues (Fraction of People Gaze, Fraction of Convergent Gaze, Fraction of Mutual Gaze, Fraction of Shared Gaze, Gaze Skew", "link": "Linking%20Speaking%20and%20Looking%20Behavior%20Patterns%20with%20Group%20Composition,%20Perception,%20and%20Performance" },
+                { "name": "Individual Visual Focus of Attention", "link": "Linking%20Speaking%20and%20Looking%20Behavior%20Patterns%20with%20Group%20Composition,%20Perception,%20and%20Performance" }
             ]
         },
         {    
             "name": "social context",
             "children": [
-                { "name": "Gaze fixation", "link": "" },
-                { "name": "Gaze location", "link": "" },
-                { "name": "Gaze saccade", "link": "" }
+                { "name": "Gaze fixation", "link": "Gaze%20quality%20assisted%20automatic%20recognition%20of%20social%20contexts%20in%20collaborative%20Tetris" },
+                { "name": "Gaze location", "link": "Gaze%20quality%20assisted%20automatic%20recognition%20of%20social%20contexts%20in%20collaborative%20Tetris" },
+                { "name": "Gaze saccade", "link": "Gaze%20quality%20assisted%20automatic%20recognition%20of%20social%20contexts%20in%20collaborative%20Tetris" }
             ]
         },
         {    
             "name": "extraversion rating",
             "children": [
-                { "name": "attention given by person", "link": "" },
-                { "name": "attention received per person", "link": "" }
+                { "name": "attention given by person", "link": "Employing%20Social%20Gaze%20and%20Speaking%20Activity%20for%20Automatic%20Determination%20of%20the%20Extraversion%20Trait" },
+                { "name": "attention received per person", "link": "Employing%20Social%20Gaze%20and%20Speaking%20Activity%20for%20Automatic%20Determination%20of%20the%20Extraversion%20Trait" }
             ]
         }      
     ]

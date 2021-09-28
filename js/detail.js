@@ -2,7 +2,7 @@ function treeData (data_link) {
     // set the dimensions and margins of the diagram
     var margin = {top: 10, right: 570, bottom: 10, left: 570},
     width = 300,
-    height = 150 - margin.top - margin.bottom - 50;
+    height = 180 - margin.top - margin.bottom - 50;
     
     var treemap = d3.tree()
         .size([height, width]);
@@ -22,6 +22,7 @@ function treeData (data_link) {
             // appends a 'group' element to 'svg'
             // moves the 'group' element to the top left margin
             var svg = d3.select(".detail").append("svg")
+                .attr("id", "detail-diagram")
                 .attr("width", width + margin.left + margin.right)
                 .attr("height", height + margin.top + margin.bottom)
                 g = svg.append("g")
@@ -62,11 +63,11 @@ function treeData (data_link) {
                 return "node" + 
                     (d.children ? " node--internal" : " node--leaf"); })
                 .attr("transform", function(d) { 
-                return "translate(" + d.y + "," + d.x + ")"; });
+                return "translate(" + d.y + "," + d.x + ")"; })
 
             // adds the circle to the node
             node.append("circle")
-            .attr("r", 7);
+            .attr("r", 7)
 
             // adds the text to the node
             node.append("text")

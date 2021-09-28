@@ -3,66 +3,66 @@
         {    
             "name": "Perception of leadership and dominance from external observers",
             "children": [
-                { "name": "Audio-visual (Looking while speaking, Looking while listening, Being looked while speaking, Center of attention while speaking, Visual dominance ratio", "link": "" } 
+                { "name": "Audio-visual (Looking while speaking, Looking while listening, Being looked while speaking, Center of attention while speaking, Visual dominance ratio", "link": "Emergent%20leaders%20through%20looking%20and%20speaking:%20from%20audio-visual%20data%20to%20multimodal%20recognition" } 
             ]
         },
         {    
             "name": "Ranked dominance",
             "children": [
-                { "name": "Audio-visual (Looking while speaking, Looking while listening, Being looked while speaking, Center of attention while speaking, Visual dominance ratio", "link": "" } 
+                { "name": "Audio-visual (Looking while speaking, Looking while listening, Being looked while speaking, Center of attention while speaking, Visual dominance ratio", "link": "Emergent%20leaders%20through%20looking%20and%20speaking:%20from%20audio-visual%20data%20to%20multimodal%20recognition" } 
             ]
         },
         {    
             "name": "quality of collaboration",
             "children": [
-                { "name": "shared gaze", "link": "" } 
+                { "name": "shared gaze", "link": "Effects%20of%20Shared%20Gaze%20on%20Audio-%20Versus%20Text-Based%20Remote%20Collaborations" } 
             ]
         },
         {    
             "name": "Emerging leadership (surveyed",
             "children": [
-                { "name": "visual field of attention on a person features", "link": "" } 
+                { "name": "visual field of attention on a person features", "link": "Detecting%20Emergent%20Leader%20in%20a%20Meeting%20Environment" } 
             ]
         },
         {    
             "name": "Group Interpersonal Perception (Perceived Dominance, Perceived Leadership, Perceived Competence, Perceived Liking",
             "children": [
-                { "name": "Individual Visual Focus of Attention", "link": "" },
-                { "name": "Group Looking Cues (Fraction of People Gaze, Fraction of Convergent Gaze, Fraction of Mutual Gaze, Fraction of Shared Gaze, Gaze Skew", "link": "" }  
+                { "name": "Individual Visual Focus of Attention", "link": "Linking%20Speaking%20and%20Looking%20Behavior%20Patterns%20with%20Group%20Composition,%20Perception,%20and%20Performance" },
+                { "name": "Group Looking Cues (Fraction of People Gaze, Fraction of Convergent Gaze, Fraction of Mutual Gaze, Fraction of Shared Gaze, Gaze Skew", "link": "Linking%20Speaking%20and%20Looking%20Behavior%20Patterns%20with%20Group%20Composition,%20Perception,%20and%20Performance" }  
             ]
         },
         {    
             "name": "Quality of Collaboration",
             "children": [
-                { "name": "Joint visual attention", "link": "" }
+                { "name": "Joint visual attention", "link": "The%20Effect%20of%20Mutual%20Gaze%20Perception%20on%20Students’%20Verbal%20Coordination" }
             ]
         },
         {    
             "name": "Leadership perceived",
             "children": [
-                { "name": "visual attention metrics [8 metrics]", "link": "" }
+                { "name": "visual attention metrics [8 metrics]", "link": "A%20Multimodal-Sensor-Enabled%20Room%20for%20Unobtrusive%20Group%20Meeting%20Analysis" }
             ]
         },
         {    
             "name": "Contribution perceived",
             "children": [
-                { "name": "visual attention metrics [8 metrics]", "link": "" }
+                { "name": "visual attention metrics [8 metrics]", "link": "A%20Multimodal-Sensor-Enabled%20Room%20for%20Unobtrusive%20Group%20Meeting%20Analysis" }
             ]
         },
         {    
             "name": "identity of emergent leader",
             "children": [
-                { "name": "visual focus of attention", "link": "" }
+                { "name": "visual focus of attention", "link": "Real-time%20mutual%20gaze%20perception" }
             ]
         },
         {    
             "name": "collaboration quality",
             "children": [
-                { "name": "joint visual attention", "link": "" },
-                { "name": "joint-visual attention", "link": "" },
-                { "name": "Cycles of collaborative / individual work", "link": "" },
-                { "name": "Joint visual Attention", "link": "" },
-                { "name": "Network features [+20]", "link": "" }
+                { "name": "joint visual attention", "link": "3D%20Tangibles%20Facilitate%20Joint%20Visual%20Attention%20in%20Dyads" },
+                { "name": "joint-visual attention", "link": "Unpacking%20Collaborative%20Learning%20Processes%20during%20Hands-on%20Activities%20using%20Mobile%20Eye-Trackers" },
+                { "name": "Cycles of collaborative / individual work", "link": "Leveraging%20Mobile%20Eye-Trackers%20to%20Capture%20Joint%20Visual%20Attention%20in%20Co-Located%20Collaborative%20Learning" },
+                { "name": "Joint visual Attention", "link": "Leveraging%20Mobile%20Eye-Trackers%20to%20Capture%20Joint%20Visual%20Attention%20in%20Co-Located%20Collaborative%20Learning" },
+                { "name": "Network features [+20]", "link": "Toward%20Collaboration%20Sensing" }
             ]
         }
     ]

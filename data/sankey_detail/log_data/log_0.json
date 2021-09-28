@@ -3,19 +3,20 @@
         {    
             "name": "social context",
             "children": [
-                { "name": "zoid acceleration", "link": "" },
-                { "name": "Player actions", "link": "" }
+                { "name": "zoid acceleration", "link": "Gaze%20quality%20assisted%20automatic%20recognition%20of%20social%20contexts%20in%20collaborative%20Tetris" },
+                { "name": "Player actions", "link": "Gaze%20quality%20assisted%20automatic%20recognition%20of%20social%20contexts%20in%20collaborative%20Tetris" }
             ]
         },
         {    
             "name": "Expert prediction",
             "children": [
-                { "name": "Total number of pen strokes", "link": "" },
-                { "name": "Calculator Use", "link": "" },
-                { "name": "Average stroke path length", "link": "" },
-                { "name": "Average stroke displacement", "link": "" },
-                { "name": "Average stroke pressure", "link": "" },
-                { "name": "Average stroke time length", "link": "" } 
+                { "name": "Total number of pen strokes", "link": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features" },
+                { "name": "Calculator Use", "link": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features" },
+                { "name": "Average stroke path length", "link": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features" },
+                { "name": "Average stroke displacement", "link": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features" },
+                { "name": "Average stroke pressure", "link": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features" },
+                { "name": "Average number of points", "link": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features" },
+                { "name": "Average stroke time length", "link": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features" } 
             ]
         }    
     ]

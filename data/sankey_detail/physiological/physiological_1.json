@@ -1,36 +1,35 @@
 {
     "data": [
         {    
-            "name": "Perceived Comprehension",
+            "name": "collaboration quality: reaching consensus",
             "children": [
-                { "name": "Physiological linkage", "link": "" } 
+                { "name": "", "link": "" } 
             ]
         },
         {    
-            "name": "Learning Gains",
+            "name": "collaboration quality: information pooling",
             "children": [
-                { "name": "cycles of physiological synchrony (PC", "link": "" },
-                { "name": "physiological synchrony (PC", "link": "" }
+                { "name": "", "link": "" } 
             ]
         },
         {    
-            "name": "learning gains",
+            "name": "Perceived Collaboration Quality",
             "children": [
-                { "name": "Pearson‚Äôs correlation (PC", "link": "" },
-                { "name": "Instantaneous Derivative Matching (IDM", "link": "" },
-                { "name": "Directional Agreement (DA", "link": "" }
+                { "name": "Galvanic skin response", "link": "" } 
             ]
         },
         {    
-            "name": "dual learning gains",
+            "name": "collaboration quality",
             "children": [
-                { "name": "Fisher‚Äôs z-transform (FZT", "link": "" },
                 { "name": "Instantaneous Derivative Matching (IDM", "link": "" },
                 { "name": "Directional Agreement (DA", "link": "" },
-                { "name": "Pearson‚Äôs correlation coefficient (PCC", "link": "" },
-                { "name": "Signal Matching (SM", "link": "" }
+                { "name": "cycles of physiological synchrony (PC", "link": "" },
+                { "name": "physiological synchrony (DA", "link": "" },
+                { "name": "Signal Matching (SM", "link": "" },
+                { "name": "EDA synchrony", "link": "" },
+                { "name": "heart rate sychrony", "link": "" },
+                { "name": "Pearson‚Äôs correlation (PC", "link": "" }
             ]
         }
     ]
 }
-

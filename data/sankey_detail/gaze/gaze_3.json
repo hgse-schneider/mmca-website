@@ -3,55 +3,55 @@
         {    
             "name": "Negotiation",
             "children": [
-                { "name": "Multidimensional Recurrence Quantification Analysis (MdRQA", "link": "" } 
+                { "name": "Multidimensional Recurrence Quantification Analysis (MdRQA", "link": "Dynamics%20of%20Visual%20Attention%20in%20Multiparty%20Collaborative%20Problem%20Solving%20using%20Multidimensional%20Recurrence%20Quantification%20Analysis" } 
             ]
         },
         {    
             "name": "Coordination",
             "children": [
-                { "name": "Multidimensional Recurrence Quantification Analysis (MdRQA", "link": "" } 
+                { "name": "Multidimensional Recurrence Quantification Analysis (MdRQA", "link": "Dynamics%20of%20Visual%20Attention%20in%20Multiparty%20Collaborative%20Problem%20Solving%20using%20Multidimensional%20Recurrence%20Quantification%20Analysis" } 
             ]
         },
         {    
             "name": "quality of collaboration",
             "children": [
-                { "name": "shared gaze", "link": "" } 
+                { "name": "shared gaze", "link": "Effects%20of%20Shared%20Gaze%20on%20Audio-%20Versus%20Text-Based%20Remote%20Collaborations" } 
             ]
         },
         {    
             "name": "Synchronisation",
             "children": [
-                { "name": "Count of faces looking at screen", "link": "" } 
+                { "name": "Count of faces looking at screen", "link": "Using%20Multimodal%20Learning%20Analytics%20to%20Identify%20Aspects%20of%20Collaboration%20in%20Project-Based%20Learning" } 
             ]
         },
         {    
             "name": "Quality of Collaboration",
             "children": [
-                { "name": "Joint visual attention", "link": "" } 
+                { "name": "Joint visual attention", "link": "The%20Effect%20of%20Mutual%20Gaze%20Perception%20on%20Students’%20Verbal%20Coordination" } 
             ]
         },
         {    
             "name": "Construction of shared knowledge",
             "children": [
-                { "name": "Cross-Recurrence Quantification Analysis (CRQA", "link": "" } 
+                { "name": "Cross-Recurrence Quantification Analysis (CRQA", "link": "Dynamics%20of%20Visual%20Attention%20in%20Multiparty%20Collaborative%20Problem%20Solving%20using%20Multidimensional%20Recurrence%20Quantification%20Analysis" } 
             ]
         },
         {    
             "name": "Dialogue episodes",
             "children": [
-                { "name": "Gaze transitions", "link": "" },
-                { "name": "Focused gaze", "link": "" },
-                { "name": "Together gaze", "link": "" } 
+                { "name": "Gaze transitions", "link": "Understanding%20collaborative%20program%20comprehension:%20Interlacing%20gaze%20and%20dialogues" },
+                { "name": "Focused gaze", "link": "Understanding%20collaborative%20program%20comprehension:%20Interlacing%20gaze%20and%20dialogues" },
+                { "name": "Together gaze", "link": "Understanding%20collaborative%20program%20comprehension:%20Interlacing%20gaze%20and%20dialogues" } 
             ]
         },
         {    
             "name": "collaboration quality",
             "children": [
-                { "name": "joint visual attention", "link": "" },
-                { "name": "joint-visual attention", "link": "" },
-                { "name": "Cycles of collaborative / individual work", "link": "" },
-                { "name": "Joint visual Attention", "link": "" },
-                { "name": "Network features [+20]", "link": "" } 
+                { "name": "joint visual attention", "link": "3D%20Tangibles%20Facilitate%20Joint%20Visual%20Attention%20in%20Dyads" },
+                { "name": "joint-visual attention", "link": "Unpacking%20Collaborative%20Learning%20Processes%20during%20Hands-on%20Activities%20using%20Mobile%20Eye-Trackers" },
+                { "name": "Cycles of collaborative / individual work", "link": "Leveraging%20Mobile%20Eye-Trackers%20to%20Capture%20Joint%20Visual%20Attention%20in%20Co-Located%20Collaborative%20Learning" },
+                { "name": "Joint visual Attention", "link": "Leveraging%20Mobile%20Eye-Trackers%20to%20Capture%20Joint%20Visual%20Attention%20in%20Co-Located%20Collaborative%20Learning" },
+                { "name": "Network features [+20]", "link": "Toward%20Collaboration%20Sensing" } 
             ]
         }
     ]
