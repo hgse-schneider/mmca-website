@@ -1,13 +1,14 @@
 function treeData (data_link) {
     // set the dimensions and margins of the diagram
-    var margin = {top: 20, right: 90, bottom: 30, left: 90},
-        width =  850 - margin.left - margin.right,
-        height = 180 - margin.top - margin.bottom;
+    var margin = {top: 40, right: 570, bottom: 40, left: 570},
+    width = 300,
+    height = 150 - margin.top - margin.bottom;
+    
+    var treemap = d3.tree()
+        .size([height, width]);
 
     d3.json(data_link).then(function(treeData) {
         for (let z = 0; z < treeData["data"].length; z++) {
-            var treemap = d3.tree()
-                .size([height, width]);
 
             //  assigns the data to a hierarchy using parent-child relationships
             var nodes = d3.hierarchy(treeData["data"][z], function(d) {
@@ -21,10 +22,10 @@ function treeData (data_link) {
             // appends a 'group' element to 'svg'
             // moves the 'group' element to the top left margin
             var svg = d3.select(".detail").append("svg")
-                .attr("id", "detail-diagram")
                 .attr("width", width + margin.left + margin.right)
-                .attr("height", height + margin.top + margin.bottom),
+                .attr("height", height + margin.top + margin.bottom)
                 g = svg.append("g")
+                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
             svg.append('defs').append('marker')
                     .attr("id",'arrowhead')
@@ -32,12 +33,12 @@ function treeData (data_link) {
                     .attr('refX',23) // x coordinate for the reference point of the marker. If circle is bigger, this need to be bigger.
                     .attr('refY',0)
                     .attr('orient','auto')
-                    .attr('markerWidth',13)
-                    .attr('markerHeight',13)
+                    .attr('markerWidth',10)
+                    .attr('markerHeight',10)
                     .attr('xoverflow','visible')
                     .append('svg:path')
                     .attr('d', 'M 0,-5 L 10 ,0 L 0,5')
-                    .attr('fill', '#999')
+                    .attr('fill', '#000')
                     .style('stroke','none')
 
             // adds the links between the nodes
@@ -73,7 +74,7 @@ function treeData (data_link) {
             .attr("x", function(d) { return d.children ? -13 : 13; })
             .style("text-anchor", function(d) { 
                 return d.children ? "end" : "start"; })
-            .style("font-size", 15)
-            .text(function(d) { return d.data.name; });
+            .style("font-size", 8)
+            .text(function(d) { return d.data.name; })
         }})
 }

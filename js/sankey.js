@@ -42,7 +42,6 @@ function redraw() {
       .attr("stroke-width", function(d) { return d.link_width / 3; }) // CHANGE THIS FOR WIDTH OF LINKS
       .on('click', function(e, d) {
         let link = d.d_link
-        console.log(link)
         d3.select("#sankey-diagram").remove();
         treeData(link) 
       })

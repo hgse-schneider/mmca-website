@@ -52,7 +52,7 @@
         {"source":2, "target":9, "value":1, "link_width": 14, "d_link": ""},
         {"source":2, "target":10, "value":1, "link_width": 14, "d_link": ""},
 
-        {"source":3, "target":11, "value":1, "color": "#00AB36", "link_width": 10, "d_link": "/data/sankey_detail/gaze_0.json"},
+        {"source":3, "target":11, "value":1, "color": "#00AB36", "link_width": 10, "d_link": "/data/sankey_detail/gaze/gaze_0.json"},
         {"source":4, "target":11, "value":1, "color": "#00AB36", "link_width": 14, "d_link": ""},
         {"source":5, "target":11, "value":1, "color": "#00AB36", "link_width": 16, "d_link": ""},
         {"source":6, "target":11, "value":1, "color": "#00AB36", "link_width": 16, "d_link": ""},
