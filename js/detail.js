@@ -64,12 +64,19 @@ function treeData (data_link) {
                     (d.children ? " node--internal" : " node--leaf"); })
                 .attr("transform", function(d) { 
                 return "translate(" + d.y + "," + d.x + ")"; })
-
-
+    
             // adds the circle to the node
             node.append("circle")
             .attr("r", 7)
-
+            .on('click', function(event, d) {
+                let url = d.data.link
+                if(url != undefined) {
+                    window.open(
+                        "https://scholar.google.com/scholar?hl=en&q=" + url,
+                        '_blank' 
+                    );
+                }
+            })
 
             // adds the text to the node
             node.append("text")
