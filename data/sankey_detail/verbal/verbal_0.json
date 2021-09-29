@@ -3,85 +3,85 @@
         {    
             "name": "extraversion rating",
             "children": [
-                { "name": "speaking time % per individual", "link": "" } 
+                { "name": "speaking time % per individual", "link": "Employing%20Social%20Gaze%20and%20Speaking%20Activity%20for%20Automatic%20Determination%20of%20the%20Extraversion%20Trait" } 
             ]
         },
         {    
             "name": "Big Five personality traits scores",
             "children": [
-                { "name": "Speaking status", "link": "" },
-                { "name": "Pitch", "link": "" },
-                { "name": "Energy", "link": "" }  
+                { "name": "Speaking status", "link": "Personality%20Trait%20Classification%20via%20Co-Occurrent%20Multiparty%20Multimodal%20Event%20Discovery" },
+                { "name": "Pitch", "link": "Personality%20Trait%20Classification%20via%20Co-Occurrent%20Multiparty%20Multimodal%20Event%20Discovery" },
+                { "name": "Energy", "link": "Personality%20Trait%20Classification%20via%20Co-Occurrent%20Multiparty%20Multimodal%20Event%20Discovery" }  
             ]
         },
         {    
             "name": "Visual Dominance Ratio",
             "children": [
-                { "name": "audio energy features", "link": "" } 
+                { "name": "audio energy features", "link": "Investigating%20Automatic%20Dominance%20Estimation%20in%20Groups%20From%20Visual%20Attention%20and%20Speaking%20Activity" } 
             ]
         },
         {    
             "name": "Emerging leadership",
             "children": [
-                { "name": "interruption", "link": "" },
-                { "name": "speaking turn duration / number", "link": "" },
-                { "name": "(non", "link": "" } 
+                { "name": "interruption", "link": "Moving%20as%20a%20Leader:%20Detecting%20Emergent%20Leadership%20in%20Small%20Groups%20using%20Body%20Pose" },
+                { "name": "speaking turn duration / number", "link": "Moving%20as%20a%20Leader:%20Detecting%20Emergent%20Leadership%20in%20Small%20Groups%20using%20Body%20Pose" },
+                { "name": "(non", "link": "Moving%20as%20a%20Leader:%20Detecting%20Emergent%20Leadership%20in%20Small%20Groups%20using%20Body%20Pose" } 
             ]
         },
         {    
             "name": "Expertise",
             "children": [
-                { "name": "spectral stationarity", "link": "" },
-                { "name": "Articulation rate", "link": "" },
-                { "name": "peak slope", "link": "" },
-                { "name": "Pause duration", "link": "" }
+                { "name": "spectral stationarity", "link": "Multimodal%20prediction%20of%20expertise%20and%20leadership%20in%20learning%20groups" },
+                { "name": "Articulation rate", "link": "Multimodal%20prediction%20of%20expertise%20and%20leadership%20in%20learning%20groups" },
+                { "name": "peak slope", "link": "Multimodal%20prediction%20of%20expertise%20and%20leadership%20in%20learning%20groups" },
+                { "name": "Pause duration", "link": "Multimodal%20prediction%20of%20expertise%20and%20leadership%20in%20learning%20groups" }
             ]
         },
         {    
             "name": "Leadership",
             "children": [
-                { "name": "spectral stationarity", "link": "" },
-                { "name": "Articulation rate", "link": "" },
-                { "name": "peak slope", "link": "" },
-                { "name": "Pause duration", "link": "" }
+                { "name": "spectral stationarity", "link": "Multimodal%20prediction%20of%20expertise%20and%20leadership%20in%20learning%20groups" },
+                { "name": "Articulation rate", "link": "Multimodal%20prediction%20of%20expertise%20and%20leadership%20in%20learning%20groups" },
+                { "name": "peak slope", "link": "Multimodal%20prediction%20of%20expertise%20and%20leadership%20in%20learning%20groups" },
+                { "name": "Pause duration", "link": "Multimodal%20prediction%20of%20expertise%20and%20leadership%20in%20learning%20groups" }
             ]
         },
         {    
             "name": "Personality Traits",
             "children": [
-                { "name": "speech utterances", "link": "" },
-                { "name": "6 One Vs All Features", "link": "" }
+                { "name": "speech utterances", "link": "Using%20Interlocutor-Modulated%20Attention%20BLSTM%20to%20Predict%20Personality%20Traits%20in%20Small%20Group%20Interaction" },
+                { "name": "6 One Vs All Features", "link": "Personality%20classification%20and%20behaviour%20interpretation:%20An%20approach%20based%20on%20feature%20categories" }
             ]
         },
         {    
             "name": "Group Composition (Agreeableness, conscientiousness, Extraversion, Neuroticism, and Openness to experience",
             "children": [
-                { "name": "Group Participation Speaking Cues (Speaking Length, Speaking Turns, Successful Interruptions, Unsuccessful Interruptions, Backchannels", "link": "" },
-                { "name": "Speaking Distribution Cues (Speaking Length Skew, Speaking Turns Skew, Successful Interruption Skew, Unsuccessful Interruptions Skew, Backchannels Skew", "link": "" },
-                { "name": "Silence and Overlap Cues (Fraction of Silence, Fraction of Nonoverlapped Speech, Fraction of two-people and three-people Overlapped Speech", "link": "" }
+                { "name": "Group Participation Speaking Cues (Speaking Length, Speaking Turns, Successful Interruptions, Unsuccessful Interruptions, Backchannels", "link": "Linking%20Speaking%20and%20Looking%20Behavior%20Patterns%20with%20Group%20Composition,%20Perception,%20and%20Performance" },
+                { "name": "Speaking Distribution Cues (Speaking Length Skew, Speaking Turns Skew, Successful Interruption Skew, Unsuccessful Interruptions Skew, Backchannels Skew", "link": "Linking%20Speaking%20and%20Looking%20Behavior%20Patterns%20with%20Group%20Composition,%20Perception,%20and%20Performance" },
+                { "name": "Silence and Overlap Cues (Fraction of Silence, Fraction of Nonoverlapped Speech, Fraction of two-people and three-people Overlapped Speech", "link": "Linking%20Speaking%20and%20Looking%20Behavior%20Patterns%20with%20Group%20Composition,%20Perception,%20and%20Performance" }
             ]
         },
         {    
             "name": "identity of the expert",
             "children": [
-                { "name": "standard deviation of vocalisation", "link": "" },
-                { "name": "average duration of vocalisation", "link": "" },
-                { "name": "probability of a transition from a vocalisation to floor", "link": "" },
-                { "name": "duration of all vocalisations", "link": "" },
-                { "name": "probability of transitioning from a group vocalisation to speaker vocalisation", "link": "" },
-                { "name": "probability of a transition from floor  (i.e. a pause, group switching pause or speaker switching pause", "link": "" },
-                { "name": "probability of transitioning from a speaker vocalisation to a group vocalisation", "link": "" },
-                { "name": "uncertainty in the transitions (turn taking", "link": "" }
+                { "name": "standard deviation of vocalisation", "link": "Automatic%20identification%20of%20experts%20and%20performance%20prediction%20in%20the%20multimodal%20math%20data%20corpus%20through%20analysis%20of%20speech%20interaction." },
+                { "name": "average duration of vocalisation", "link": "Automatic%20identification%20of%20experts%20and%20performance%20prediction%20in%20the%20multimodal%20math%20data%20corpus%20through%20analysis%20of%20speech%20interaction." },
+                { "name": "probability of a transition from a vocalisation to floor", "link": "Automatic%20identification%20of%20experts%20and%20performance%20prediction%20in%20the%20multimodal%20math%20data%20corpus%20through%20analysis%20of%20speech%20interaction." },
+                { "name": "duration of all vocalisations", "link": "Automatic%20identification%20of%20experts%20and%20performance%20prediction%20in%20the%20multimodal%20math%20data%20corpus%20through%20analysis%20of%20speech%20interaction." },
+                { "name": "probability of transitioning from a group vocalisation to speaker vocalisation", "link": "Automatic%20identification%20of%20experts%20and%20performance%20prediction%20in%20the%20multimodal%20math%20data%20corpus%20through%20analysis%20of%20speech%20interaction." },
+                { "name": "probability of a transition from floor  (i.e. a pause, group switching pause or speaker switching pause", "link": "Automatic%20identification%20of%20experts%20and%20performance%20prediction%20in%20the%20multimodal%20math%20data%20corpus%20through%20analysis%20of%20speech%20interaction." },
+                { "name": "probability of transitioning from a speaker vocalisation to a group vocalisation", "link": "Automatic%20identification%20of%20experts%20and%20performance%20prediction%20in%20the%20multimodal%20math%20data%20corpus%20through%20analysis%20of%20speech%20interaction." },
+                { "name": "uncertainty in the transitions (turn taking", "link": "Automatic%20identification%20of%20experts%20and%20performance%20prediction%20in%20the%20multimodal%20math%20data%20corpus%20through%20analysis%20of%20speech%20interaction." }
             ]
         },
         {    
             "name": "Expert prediction",
             "children": [
-                { "name": "Total speech duration", "link": "" },
-                { "name": "Times numbers were mentioned", "link": "" },
-                { "name": "Times mathematical terms were mentioned", "link": "" },
-                { "name": "Number of interventions", "link": "" },
-                { "name": "Times commands were pronounced", "link": "" }
+                { "name": "Total speech duration", "link": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features" },
+                { "name": "Times numbers were mentioned", "link": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features" },
+                { "name": "Times mathematical terms were mentioned", "link": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features" },
+                { "name": "Number of interventions", "link": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features" },
+                { "name": "Times commands were pronounced", "link": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features" }
             ]
         }   
     ]

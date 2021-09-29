@@ -3,47 +3,47 @@
         {    
             "name": "cultural style matching",
             "children": [
-                { "name": "body synchronization", "link": "" }
+                { "name": "body synchronization", "link": "Body%20synchrony%20in%20triadic%20interaction" }
             ]
         },
         {    
             "name": "language style matching",
             "children": [
-                { "name": "body synchronization", "link": "" }
+                { "name": "body synchronization", "link": "Body%20synchrony%20in%20triadic%20interaction" }
             ]
         },
         {    
             "name": "leadership (driver/passenger",
             "children": [
-                { "name": "type of movement", "link": "" }
+                { "name": "type of movement", "link": "Unraveling%20Students%27%20Interaction%20around%20a%20Tangible%20Interface%20Using%20Multimodal%20Learning%20Analytics." }
             ]
         },
         {    
             "name": "Big Five personality traits scores",
             "children": [
-                { "name": "Motion energy images", "link": "" },
-                { "name": "Body motion", "link": "" }
+                { "name": "Motion energy images", "link": "Personality%20Trait%20Classification%20via%20Co-Occurrent%20Multiparty%20Multimodal%20Event%20Discovery" },
+                { "name": "Body motion", "link": "Personality%20Trait%20Classification%20via%20Co-Occurrent%20Multiparty%20Multimodal%20Event%20Discovery" }
             ]
         },
         {    
             "name": "Emerging leadership",
             "children": [
-                { "name": "head/body movement", "link": "" }
+                { "name": "head/body movement", "link": "Moving%20as%20a%20Leader:%20Detecting%20Emergent%20Leadership%20in%20Small%20Groups%20using%20Body%20Pose" }
             ]
         },
         {    
             "name": "Expert prediction",
             "children": [
-                { "name": "Total Movement", "link": "" },
-                { "name": "Distance from the center of the table", "link": "" }
+                { "name": "Total Movement", "link": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features" },
+                { "name": "Distance from the center of the table", "link": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features" }
             ]
         },
         {    
             "name": "expertise",
             "children": [
-                { "name": "Total manual gestures per second", "link": "" },
-                { "name": "Iconic gestures per second", "link": "" },
-                { "name": "Deictic gestures per second", "link": "" }
+                { "name": "Total manual gestures per second", "link": "Dynamic%20Adaptive%20Gesturing%20Predicts%20Domain%20Expertise%20in%20Mathematics" },
+                { "name": "Iconic gestures per second", "link": "Dynamic%20Adaptive%20Gesturing%20Predicts%20Domain%20Expertise%20in%20Mathematics" },
+                { "name": "Deictic gestures per second", "link": "Dynamic%20Adaptive%20Gesturing%20Predicts%20Domain%20Expertise%20in%20Mathematics" }
             ]
         }  
     ]

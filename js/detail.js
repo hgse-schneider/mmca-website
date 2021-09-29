@@ -2,7 +2,7 @@ function treeData (data_link) {
     // set the dimensions and margins of the diagram
     var margin = {top: 10, right: 570, bottom: 10, left: 570},
     width = 300,
-    height = 180 - margin.top - margin.bottom - 50;
+    height = 200 - margin.top - margin.bottom - 50;
     
     var treemap = d3.tree()
         .size([height, width]);

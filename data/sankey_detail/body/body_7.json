@@ -3,31 +3,31 @@
         {    
             "name": "emotional state",
             "children": [
-                { "name": "x,y,z body joints", "link": "" }
+                { "name": "x,y,z body joints", "link": "Machine%20learning%20classification%20of%20design%20team%20members’%20body%20language%20patterns%20for%20real%20time%20emotional%20state%20detection" }
             ]
         },
         {    
             "name": "Perceived Arousal",
             "children": [
-                { "name": "Face and upper body movement", "link": "" }
+                { "name": "Face and upper body movement", "link": "Modeling%20Team-level%20Multimodal%20Dynamics%20during%20Multiparty%20Collaboration" }
             ]
         },
         {    
             "name": "Perceived Valence",
             "children": [
-                { "name": "Face and upper body movement", "link": "" }
+                { "name": "Face and upper body movement", "link": "Modeling%20Team-level%20Multimodal%20Dynamics%20during%20Multiparty%20Collaboration" }
             ]
         },
         {    
             "name": "frustration",
             "children": [
-                { "name": "gesture", "link": "" }
+                { "name": "gesture", "link": "The%20Additive%20Value%20of%20Multimodal%20Features%20for%20Predicting%20Engagement,%20Frustration,%20and%20Learning%20during%20Tutoring" }
             ]
         },
         {    
             "name": "reported frustration",
             "children": [
-                { "name": "transition probabilities between collaborative state", "link": "" }
+                { "name": "transition probabilities between collaborative state", "link": "Using%20Motion%20Sensors%20to%20Understand%20Collaborative%20Interactions%20in%20Digital%20Fabrication%20Labs" }
             ]
         }
     ]

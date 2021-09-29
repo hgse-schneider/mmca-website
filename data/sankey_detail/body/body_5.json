@@ -3,21 +3,21 @@
         {    
             "name": "Collaboration",
             "children": [
-                { "name": "Physical synchrony", "link": "" },
-                { "name": "Joint movement", "link": "" },
-                { "name": "dyad proximity", "link": "" }
+                { "name": "Physical synchrony", "link": "Predicting%20the%20Quality%20of%20Collaborative%20Problem%20Solving%20Through%20Linguistic%20Analysis%20of%20Discourse" },
+                { "name": "Joint movement", "link": "Exploring%20Collaboration%20Using%20Motion%20Sensors%20and%20Multi-Modal%20Learning%20Analytics" },
+                { "name": "dyad proximity", "link": "Exploring%20Collaboration%20Using%20Motion%20Sensors%20and%20Multi-Modal%20Learning%20Analytics" }
             ]
         },
         {    
             "name": "frequency of utterances",
             "children": [
-                { "name": "gesture type and location", "link": "" }
+                { "name": "gesture type and location", "link": "Improving%20Visibility%20of%20Remote%20Gestures%20in%20Distributed%20Tabletop%20Collaboration" }
             ]
         },
         {    
             "name": "collaboration quality",
             "children": [
-                { "name": "Total movement across upper body joints and body parts", "link": "" }
+                { "name": "Total movement across upper body joints and body parts", "link": "Toward%20Using%20Multi-Modal%20Learning%20Analytics%20to%20Support%20and%20Measure%20Collaboration%20in%20Co-Located%20Dyads" }
             ]
         }
     ]

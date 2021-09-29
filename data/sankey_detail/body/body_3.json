@@ -3,46 +3,46 @@
         {    
             "name": "Perceived Collaboration Quality",
             "children": [
-                { "name": "Face and upper body movement", "link": "" }
+                { "name": "Face and upper body movement", "link": "Modeling%20Team-level%20Multimodal%20Dynamics%20during%20Multiparty%20Collaboration" }
             ]
         },
         {    
             "name": "Agreement",
             "children": [
-                { "name": "upper body agitation", "link": "" },
-                { "name": "hand agitation", "link": "" }
+                { "name": "upper body agitation", "link": "Multi-modal%20Social%20Signal%20Analysis%20for%20Predicting%20Agreement%20in%20Conversation%20Settings" },
+                { "name": "hand agitation", "link": "Multi-modal%20Social%20Signal%20Analysis%20for%20Predicting%20Agreement%20in%20Conversation%20Settings" }
             ]
         },
         {    
             "name": "Collaboration",
             "children": [
-                { "name": "Physical synchrony", "link": "" },
-                { "name": "Joint movement", "link": "" },
-                { "name": "dyad proximity", "link": "" }
+                { "name": "Physical synchrony", "link": "Predicting%20the%20Quality%20of%20Collaborative%20Problem%20Solving%20Through%20Linguistic%20Analysis%20of%20Discourse" },
+                { "name": "Joint movement", "link": "Exploring%20Collaboration%20Using%20Motion%20Sensors%20and%20Multi-Modal%20Learning%20Analytics" },
+                { "name": "dyad proximity", "link": "Exploring%20Collaboration%20Using%20Motion%20Sensors%20and%20Multi-Modal%20Learning%20Analytics" }
             ]
         },
         {    
             "name": "Individual accountability",
             "children": [
-                { "name": "Distance between hands", "link": "" }
+                { "name": "Distance between hands", "link": "Using%20Multimodal%20Learning%20Analytics%20to%20Identify%20Aspects%20of%20Collaboration%20in%20Project-Based%20Learning" }
             ]
         },
         {    
             "name": "Synchronisation",
             "children": [
-                { "name": "Distance between hands", "link": "" }
+                { "name": "Distance between hands", "link": "Using%20Multimodal%20Learning%20Analytics%20to%20Identify%20Aspects%20of%20Collaboration%20in%20Project-Based%20Learning" }
             ]
         },
         {    
             "name": "collaborative problem solving",
             "children": [
-                { "name": "Distance between learners (DBL", "link": "" }
+                { "name": "Distance between learners (DBL", "link": "Estimation%20of%20success%20in%20collaborative%20learning%20based%20on%20multimodal%20learning%20analytics%20features" }
             ]
         },
         {    
             "name": "collaboration quality",
             "children": [
-                { "name": "Total movement across upper body joints and body parts", "link": "" }
+                { "name": "Total movement across upper body joints and body parts", "link": "Toward%20Using%20Multi-Modal%20Learning%20Analytics%20to%20Support%20and%20Measure%20Collaboration%20in%20Co-Located%20Dyads" }
             ]
         } 
     ]

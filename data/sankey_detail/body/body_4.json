@@ -3,51 +3,51 @@
         {    
             "name": "colaughter",
             "children": [
-                { "name": "body synchronization", "link": "" }
+                { "name": "body synchronization", "link": "Body%20synchrony%20in%20triadic%20interaction" }
             ]
         },
         {    
             "name": "cooperation",
             "children": [
-                { "name": "body synchronization", "link": "" }
+                { "name": "body synchronization", "link": "Body%20synchrony%20in%20triadic%20interaction" }
             ]
         },
         {    
             "name": "Perceived Collaboration Quality",
             "children": [
-                { "name": "Face and upper body movement", "link": "" }
+                { "name": "Face and upper body movement", "link": "Modeling%20Team-level%20Multimodal%20Dynamics%20during%20Multiparty%20Collaboration" }
             ]
         },
         {    
             "name": "Collaboration",
             "children": [
-                { "name": "Physical synchrony", "link": "" },
-                { "name": "Joint movement", "link": "" },
-                { "name": "dyad proximity", "link": "" }
+                { "name": "Physical synchrony", "link": "Predicting%20the%20Quality%20of%20Collaborative%20Problem%20Solving%20Through%20Linguistic%20Analysis%20of%20Discourse" },
+                { "name": "Joint movement", "link": "Exploring%20Collaboration%20Using%20Motion%20Sensors%20and%20Multi-Modal%20Learning%20Analytics" },
+                { "name": "dyad proximity", "link": "Exploring%20Collaboration%20Using%20Motion%20Sensors%20and%20Multi-Modal%20Learning%20Analytics" }
             ]
         },
         {    
             "name": "identity of emergent leader",
             "children": [
-                { "name": "body pose", "link": "" }
+                { "name": "body pose", "link": "Real-time%20mutual%20gaze%20perception" }
             ]
         },
         {    
             "name": "collaboration quality",
             "children": [
-                { "name": "Total movement across upper body joints and body parts", "link": "" }
+                { "name": "Total movement across upper body joints and body parts", "link": "Toward%20Using%20Multi-Modal%20Learning%20Analytics%20to%20Support%20and%20Measure%20Collaboration%20in%20Co-Located%20Dyads" }
             ]
         },
         {    
             "name": "social ability",
             "children": [
-                { "name": "time spent as a group", "link": "" }
+                { "name": "time spent as a group", "link": "Using%20Motion%20Sensors%20to%20Understand%20Collaborative%20Interactions%20in%20Digital%20Fabrication%20Labs" }
             ]
         },
         {    
             "name": "subjective perception of collaboration",
             "children": [
-                { "name": "amount of face and body movement", "link": "" }
+                { "name": "amount of face and body movement", "link": "Focused%20or%20Stuck%20Together:%20Multimodal%20Patterns%20Reveal%20Triads’%20Performance%20in%20Collaborative%20Problem%20Solving" }
             ]
         }
     ]

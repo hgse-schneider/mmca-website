@@ -3,56 +3,56 @@
         {    
             "name": "Task Performance",
             "children": [
-                { "name": "Face and upper body movement", "link": "" }
+                { "name": "Face and upper body movement", "link": "Modeling%20Team-level%20Multimodal%20Dynamics%20during%20Multiparty%20Collaboration" }
             ]
         },
         {    
             "name": "Odds of a student solving correctly a problem",
             "children": [
-                { "name": "Total Movement", "link": "" },
-                { "name": "Distance from the center of the table", "link": "" }
+                { "name": "Total Movement", "link": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features" },
+                { "name": "Distance from the center of the table", "link": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features" }
             ]
         },
         {    
             "name": "collaborative problem solving",
             "children": [
-                { "name": "Distance between learners (DBL", "link": "" }
+                { "name": "Distance between learners (DBL", "link": "Estimation%20of%20success%20in%20collaborative%20learning%20based%20on%20multimodal%20learning%20analytics%20features" }
             ]
         },
         {    
             "name": "Task performance",
             "children": [
-                { "name": "Joint angle", "link": "" },
-                { "name": "Joint movement", "link": "" },
-                { "name": "dyad proximity", "link": "" }
+                { "name": "Joint angle", "link": "Exploring%20Collaboration%20Using%20Motion%20Sensors%20and%20Multi-Modal%20Learning%20Analytics" },
+                { "name": "Joint movement", "link": "Exploring%20Collaboration%20Using%20Motion%20Sensors%20and%20Multi-Modal%20Learning%20Analytics" },
+                { "name": "dyad proximity", "link": "Exploring%20Collaboration%20Using%20Motion%20Sensors%20and%20Multi-Modal%20Learning%20Analytics" }
             ]
         },
         {    
             "name": "technical ability",
             "children": [
-                { "name": "time spent as a group", "link": "" },
-                { "name": "time spent individually", "link": "" },
-                { "name": "transition probabilities between collaborative state", "link": "" }
+                { "name": "time spent as a group", "link": "Using%20Motion%20Sensors%20to%20Understand%20Collaborative%20Interactions%20in%20Digital%20Fabrication%20Labs" },
+                { "name": "time spent individually", "link": "Using%20Motion%20Sensors%20to%20Understand%20Collaborative%20Interactions%20in%20Digital%20Fabrication%20Labs" },
+                { "name": "transition probabilities between collaborative state", "link": "Using%20Motion%20Sensors%20to%20Understand%20Collaborative%20Interactions%20in%20Digital%20Fabrication%20Labs" }
             ]
         },
         {    
             "name": "time spent in makerspace",
             "children": [
-                { "name": "transition probabilities between collaborative state", "link": "" }
+                { "name": "transition probabilities between collaborative state", "link": "Using%20Motion%20Sensors%20to%20Understand%20Collaborative%20Interactions%20in%20Digital%20Fabrication%20Labs" }
             ]
         },
         {    
             "name": "artefact quality",
             "children": [
-                { "name": "Mean hand movement speed", "link": "" },
-                { "name": "Mean distance between hands", "link": "" },
-                { "name": "Mean distance between learners", "link": "" }
+                { "name": "Mean hand movement speed", "link": "Supervised%20machine%20learning%20in%20multimodal%20learning%20analytics%20for%20estimating%20success%20in%20project-based%20learning" },
+                { "name": "Mean distance between hands", "link": "Supervised%20machine%20learning%20in%20multimodal%20learning%20analytics%20for%20estimating%20success%20in%20project-based%20learning" },
+                { "name": "Mean distance between learners", "link": "Supervised%20machine%20learning%20in%20multimodal%20learning%20analytics%20for%20estimating%20success%20in%20project-based%20learning" }
             ]
         },
         {    
             "name": "task success score",
             "children": [
-                { "name": "amount of face and body movement", "link": "" }
+                { "name": "amount of face and body movement", "link": "Focused%20or%20Stuck%20Together:%20Multimodal%20Patterns%20Reveal%20Triads’%20Performance%20in%20Collaborative%20Problem%20Solving" }
             ]
         } 
     ]

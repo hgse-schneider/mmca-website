@@ -3,133 +3,133 @@
         {    
             "name": "Social Impressions",
             "children": [
-                { "name": "6 One Vs All Features", "link": "" } 
+                { "name": "6 One Vs All Features", "link": "Personality%20classification%20and%20behaviour%20interpretation:%20An%20approach%20based%20on%20feature%20categories" } 
             ]
         },
         {    
             "name": "Colloboration quality",
             "children": [
-                { "name": "Sequences of verbal utterances", "link": "" } 
+                { "name": "Sequences of verbal utterances", "link": "Capturing%20and%20analyzing%20verbal%20and%20physical%20collaborative%20learning%20interactions%20at%20an%20enriched%20interactive%20tabletop" } 
             ]
         },
         {    
             "name": "colloboration quality",
             "children": [
-                { "name": "talking time", "link": "" },
-                { "name": "thousands of features prosodic speech", "link": "" },
-                { "name": "speech time", "link": "" } 
+                { "name": "talking time", "link": "Toward%20Using%20Multi-Modal%20Learning%20Analytics%20to%20Support%20and%20Measure%20Collaboration%20in%20Co-Located%20Dyads" },
+                { "name": "thousands of features prosodic speech", "link": "Using%20the%20Tablet%20Gestures%20and%20Speech%20of%20Pairs%20of%20Students%20to%20Classify%20Their%20Collaboration" },
+                { "name": "speech time", "link": "Using%20the%20Tablet%20Gestures%20and%20Speech%20of%20Pairs%20of%20Students%20to%20Classify%20Their%20Collaboration" } 
             ]
         },
         {    
             "name": "Contribution perceived",
             "children": [
-                { "name": "non-verbal speaking metrics (speaking length, interruptions, etc", "link": "" },
-                { "name": "verbal dominance and information metrics [9 metrics]", "link": "" }
+                { "name": "non-verbal speaking metrics (speaking length, interruptions, etc", "link": "A%20Multimodal-Sensor-Enabled%20Room%20for%20Unobtrusive%20Group%20Meeting%20Analysis" },
+                { "name": "verbal dominance and information metrics [9 metrics]", "link": "A%20Multimodal-Sensor-Enabled%20Room%20for%20Unobtrusive%20Group%20Meeting%20Analysis" }
             ]
         },
         {    
             "name": "Leadership perceived",
             "children": [
-                { "name": "non-verbal speaking metrics (speaking length, interruptions, etc", "link": "" },
-                { "name": "verbal dominance and information metrics [9 metrics]", "link": "" }
+                { "name": "non-verbal speaking metrics (speaking length, interruptions, etc", "link": "A%20Multimodal-Sensor-Enabled%20Room%20for%20Unobtrusive%20Group%20Meeting%20Analysis" },
+                { "name": "verbal dominance and information metrics [9 metrics]", "link": "A%20Multimodal-Sensor-Enabled%20Room%20for%20Unobtrusive%20Group%20Meeting%20Analysis" }
             ]
         },
         {    
             "name": "Joint Visual Attention",
             "children": [
-                { "name": "coherence", "link": "" }
+                { "name": "coherence", "link": "Does%20Seeing%20One%20Another’s%20Gaze%20Affect%20Group%20Dialogue?" }
             ]
         },
         {    
             "name": "rapport level",
             "children": [
-                { "name": "Synchrony", "link": "" },
-                { "name": "Convergence", "link": "" },
-                { "name": "Proximity", "link": "" }
+                { "name": "Synchrony", "link": "Acoustic-Prosodic%20Entrainment%20and%20Rapport%20in%20Collaborative%20Learning%20Dialogues" },
+                { "name": "Convergence", "link": "Acoustic-Prosodic%20Entrainment%20and%20Rapport%20in%20Collaborative%20Learning%20Dialogues" },
+                { "name": "Proximity", "link": "Acoustic-Prosodic%20Entrainment%20and%20Rapport%20in%20Collaborative%20Learning%20Dialogues" }
             ]
         },
         {    
             "name": "colloboration",
             "children": [
-                { "name": "1582 audio features (from Emobase", "link": "" }
+                { "name": "1582 audio features (from Emobase", "link": "High%20Accuracy%20Detection%20of%20Collaboration%20From%20Log%20Data%20and%20Superficial%20Speech%20Features" }
             ]
         },
         {    
             "name": "Perceived Collaboration Quality",
             "children": [
-                { "name": "speech rate", "link": "" }
+                { "name": "speech rate", "link": "Modeling%20Team-level%20Multimodal%20Dynamics%20during%20Multiparty%20Collaboration" }
             ]
         },
         {    
             "name": "Speech Laughter",
             "children": [
-                { "name": "102 extended GeMAPs acoustic features", "link": "" },
-                { "name": "12 MCFFs", "link": "" },
-                { "name": "88 GeMAPS acoustic features", "link": "" }
+                { "name": "102 extended GeMAPs acoustic features", "link": "Automatic%20Recognition%20of%20Affective%20Laughter%20in%20Spontaneous%20Dyadic%20Interactions%20from%20Audiovisual%20Signals" },
+                { "name": "12 MCFFs", "link": "Automatic%20Recognition%20of%20Affective%20Laughter%20in%20Spontaneous%20Dyadic%20Interactions%20from%20Audiovisual%20Signals" },
+                { "name": "88 GeMAPS acoustic features", "link": "Automatic%20Recognition%20of%20Affective%20Laughter%20in%20Spontaneous%20Dyadic%20Interactions%20from%20Audiovisual%20Signals" }
             ]
         },
         {    
             "name": "Voiced Laughter",
             "children": [
-                { "name": "102 extended GeMAPs acoustic features", "link": "" },
-                { "name": "12 MCFFs", "link": "" },
-                { "name": "88 GeMAPS acoustic features", "link": "" }
+                { "name": "102 extended GeMAPs acoustic features", "link": "Automatic%20Recognition%20of%20Affective%20Laughter%20in%20Spontaneous%20Dyadic%20Interactions%20from%20Audiovisual%20Signals" },
+                { "name": "12 MCFFs", "link": "Automatic%20Recognition%20of%20Affective%20Laughter%20in%20Spontaneous%20Dyadic%20Interactions%20from%20Audiovisual%20Signals" },
+                { "name": "88 GeMAPS acoustic features", "link": "Automatic%20Recognition%20of%20Affective%20Laughter%20in%20Spontaneous%20Dyadic%20Interactions%20from%20Audiovisual%20Signals" }
             ]
         },
         {    
             "name": "Unvoiced Laughter",
             "children": [
-                { "name": "12 MCFFs", "link": "" },
-                { "name": "88 GeMAPS acoustic features", "link": "" }
+                { "name": "12 MCFFs", "link": "Automatic%20Recognition%20of%20Affective%20Laughter%20in%20Spontaneous%20Dyadic%20Interactions%20from%20Audiovisual%20Signals" },
+                { "name": "88 GeMAPS acoustic features", "link": "Automatic%20Recognition%20of%20Affective%20Laughter%20in%20Spontaneous%20Dyadic%20Interactions%20from%20Audiovisual%20Signals" }
             ]
         },
         {    
             "name": "Group Interpersonal Perception (Perceived Dominance, Perceived Leadership, Perceived Competence, Perceived Liking",
             "children": [
-                { "name": "Group Participation Speaking Cues (Speaking Length, Speaking Turns, Successful Interruptions, Unsuccessful Interruptions, Backchannels", "link": "" },
-                { "name": "Speaking Distribution Cues (Speaking Length Skew, Speaking Turns Skew, Successful Interruption Skew, Unsuccessful Interruptions Skew, Backchannels Skew", "link": "" },
-                { "name": "Silence and Overlap Cues (Fraction of Silence, Fraction of Nonoverlapped Speech, Fraction of two-people and three-people Overlapped Speech", "link": "" }
+                { "name": "Group Participation Speaking Cues (Speaking Length, Speaking Turns, Successful Interruptions, Unsuccessful Interruptions, Backchannels", "link": "Linking%20Speaking%20and%20Looking%20Behavior%20Patterns%20with%20Group%20Composition,%20Perception,%20and%20Performance" },
+                { "name": "Speaking Distribution Cues (Speaking Length Skew, Speaking Turns Skew, Successful Interruption Skew, Unsuccessful Interruptions Skew, Backchannels Skew", "link": "Linking%20Speaking%20and%20Looking%20Behavior%20Patterns%20with%20Group%20Composition,%20Perception,%20and%20Performance" },
+                { "name": "Silence and Overlap Cues (Fraction of Silence, Fraction of Nonoverlapped Speech, Fraction of two-people and three-people Overlapped Speech", "link": "Linking%20Speaking%20and%20Looking%20Behavior%20Patterns%20with%20Group%20Composition,%20Perception,%20and%20Performance" }
             ]
         },
         {    
             "name": "Collaboration",
             "children": [
-                { "name": "symmetry of speech among group", "link": "" },
-                { "name": "35 Coh-metrix indices", "link": "" },
-                { "name": "speech time and frequency", "link": "" }
+                { "name": "symmetry of speech among group", "link": "An%20Automatic%20Approach%20for%20Mining%20Patterns%20of%20Collaboration%20around%20an%20Interactive%20Tabletop" },
+                { "name": "35 Coh-metrix indices", "link": "Predicting%20the%20Quality%20of%20Collaborative%20Problem%20Solving%20Through%20Linguistic%20Analysis%20of%20Discourse" },
+                { "name": "speech time and frequency", "link": "An%20Automatic%20Approach%20for%20Mining%20Patterns%20of%20Collaboration%20around%20an%20Interactive%20Tabletop" }
             ]
         },
         {    
             "name": "Ranked dominance",
             "children": [
-                { "name": "Speaking Activity (Speaking length, Speaking turns, Speaking interruptions, Average speaking turn duration", "link": "" }
+                { "name": "Speaking Activity (Speaking length, Speaking turns, Speaking interruptions, Average speaking turn duration", "link": "Emergent%20leaders%20through%20looking%20and%20speaking:%20from%20audio-visual%20data%20to%20multimodal%20recognition" }
             ]
         },
         {    
-            "name": "Ranked dominance",
+            "name": "Perception of leadership and dominance from external observers",
             "children": [
-                { "name": "Perception of leadership and dominance from external observers", "link": "" }
+                { "name": "Speaking Activity (Speaking length, Speaking turns, Speaking interruptions, Average speaking turn duration", "link": "Emergent%20leaders%20through%20looking%20and%20speaking:%20from%20audio-visual%20data%20to%20multimodal%20recognition" }
             ]
         },
         {    
             "name": "perception of peer helpfulness",
             "children": [
-                { "name": "voice features (4 features", "link": "" },
-                { "name": "linguistic features from transcript (65 features", "link": "" }
+                { "name": "voice features (4 features", "link": "Multimodal%20Analysis%20of%20Vocal%20Collaborative%20Search:A%20Public%20Corpus%20and%20Results" },
+                { "name": "linguistic features from transcript (65 features", "link": "Multimodal%20Analysis%20of%20Vocal%20Collaborative%20Search:A%20Public%20Corpus%20and%20Results" }
             ]
         },
         {    
             "name": "perception of peer clarity",
             "children": [
-                { "name": "voice features (4 features", "link": "" },
-                { "name": "linguistic features from transcript (65 features", "link": "" }
+                { "name": "voice features (4 features", "link": "Multimodal%20Analysis%20of%20Vocal%20Collaborative%20Search:A%20Public%20Corpus%20and%20Results" },
+                { "name": "linguistic features from transcript (65 features", "link": "Multimodal%20Analysis%20of%20Vocal%20Collaborative%20Search:A%20Public%20Corpus%20and%20Results" }
             ]
         },
         {    
             "name": "perception of peer understanding",
             "children": [
-                { "name": "voice features (4 features", "link": "" },
-                { "name": "linguistic features from transcript (65 features", "link": "" }
+                { "name": "voice features (4 features", "link": "Multimodal%20Analysis%20of%20Vocal%20Collaborative%20Search:A%20Public%20Corpus%20and%20Results" },
+                { "name": "linguistic features from transcript (65 features", "link": "Multimodal%20Analysis%20of%20Vocal%20Collaborative%20Search:A%20Public%20Corpus%20and%20Results" }
             ]
         }
     ]

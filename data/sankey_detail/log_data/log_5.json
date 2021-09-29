@@ -3,35 +3,35 @@
         {    
             "name": "Quality of Collaboration",
             "children": [
-                { "name": "Convergence measures", "link": "" }
+                { "name": "Convergence measures", "link": "The%20Effect%20of%20Mutual%20Gaze%20Perception%20on%20Students’%20Verbal%20Coordination" }
             ]
         },
         {    
             "name": "collaboration quality",
             "children": [
-                { "name": "movement of objects including revisiting past actions", "link": "" }
+                { "name": "movement of objects including revisiting past actions", "link": "Using%20the%20Tablet%20Gestures%20and%20Speech%20of%20Pairs%20of%20Students%20to%20Classify%20Their%20Collaboration" }
             ]
         },
         {    
             "name": "Colloboration",
             "children": [
-                { "name": "total number of touch actions", "link": "" },
-                { "name": "symmetry of touch actions among group", "link": "" },
-                { "name": "physical participation quantity", "link": "" }
+                { "name": "total number of touch actions", "link": "An%20Automatic%20Approach%20for%20Mining%20Patterns%20of%20Collaboration%20around%20an%20Interactive%20Tabletop" },
+                { "name": "symmetry of touch actions among group", "link": "An%20Automatic%20Approach%20for%20Mining%20Patterns%20of%20Collaboration%20around%20an%20Interactive%20Tabletop" },
+                { "name": "physical participation quantity", "link": "Modelling%20and%20Identifying%20Collaborative%20Situations%20in%20a%20Collocated%20Multi-display%20Groupware%20Setting" }
             ]
         },
         {    
             "name": "Colloboration quality",
             "children": [
-                { "name": "Sequences of meaningful actions", "link": "" }
+                { "name": "Sequences of meaningful actions", "link": "Capturing%20and%20analyzing%20verbal%20and%20physical%20collaborative%20learning%20interactions%20at%20an%20enriched%20interactive%20tabletop" }
             ]
         },
         {    
             "name": "collaboration",
             "children": [
-                { "name": "zooming", "link": "" },
-                { "name": "scrolling", "link": "" },
-                { "name": "card movements", "link": "" }
+                { "name": "zooming", "link": "High%20Accuracy%20Detection%20of%20Collaboration%20From%20Log%20Data%20and%20Superficial%20Speech%20Features" },
+                { "name": "scrolling", "link": "High%20Accuracy%20Detection%20of%20Collaboration%20From%20Log%20Data%20and%20Superficial%20Speech%20Features" },
+                { "name": "card movements", "link": "High%20Accuracy%20Detection%20of%20Collaboration%20From%20Log%20Data%20and%20Superficial%20Speech%20Features" }
             ]
         } 
     ]

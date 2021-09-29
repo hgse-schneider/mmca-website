@@ -3,58 +3,58 @@
         {    
             "name": "Task Performance",
             "children": [
-                { "name": "speech rate", "link": "" } 
+                { "name": "speech rate", "link": "Modeling%20Team-level%20Multimodal%20Dynamics%20during%20Multiparty%20Collaboration" } 
             ]
         },
         {    
             "name": "quality of produced outcome (6 dimensions including length, originality, quality of presentation, etc",
             "children": [
-                { "name": "Speaking turn features [x4]", "link": "" },
-                { "name": "Acoustic features [x13]", "link": "" },
-                { "name": "Linguistic features [x300+]", "link": "" } 
+                { "name": "Speaking turn features [x4]", "link": "Task-independent%20Multimodal%20Prediction%20of%20Group%20Performance%20Based%20on%20Product%20Dimensions" },
+                { "name": "Acoustic features [x13]", "link": "Task-independent%20Multimodal%20Prediction%20of%20Group%20Performance%20Based%20on%20Product%20Dimensions" },
+                { "name": "Linguistic features [x300+]", "link": "Task-independent%20Multimodal%20Prediction%20of%20Group%20Performance%20Based%20on%20Product%20Dimensions" } 
             ]
         },
         {    
             "name": "collaborative problem solving",
             "children": [
-                { "name": "Audio level (AUD", "link": "" }
+                { "name": "Audio level (AUD", "link": "Estimation%20of%20success%20in%20collaborative%20learning%20based%20on%20multimodal%20learning%20analytics%20features" }
             ]
         },
         {    
             "name": "artefact quality",
             "children": [
-                { "name": "Mean audio level", "link": "" }
+                { "name": "Mean audio level", "link": "Supervised%20machine%20learning%20in%20multimodal%20learning%20analytics%20for%20estimating%20success%20in%20project-based%20learning" }
             ]
         },
         {    
             "name": "Group Performance (Negative distance between expert list and group list",
             "children": [
-                { "name": "Silence and Overlap Cues (Fraction of Silence, Fraction of Nonoverlapped Speech, Fraction of two-people and three-people Overlapped Speech", "link": "" },
-                { "name": "Group Participation Speaking Cues (Speaking Length, Speaking Turns, Successful Interruptions, Unsuccessful Interruptions, Backchannels", "link": "" },
-                { "name": "Speaking Distribution Cues (Speaking Length Skew, Speaking Turns Skew, Successful Interruption Skew, Unsuccessful Interruptions Skew, Backchannels Skew", "link": "" }
+                { "name": "Silence and Overlap Cues (Fraction of Silence, Fraction of Nonoverlapped Speech, Fraction of two-people and three-people Overlapped Speech", "link": "Linking%20Speaking%20and%20Looking%20Behavior%20Patterns%20with%20Group%20Composition,%20Perception,%20and%20Performance" },
+                { "name": "Group Participation Speaking Cues (Speaking Length, Speaking Turns, Successful Interruptions, Unsuccessful Interruptions, Backchannels", "link": "Linking%20Speaking%20and%20Looking%20Behavior%20Patterns%20with%20Group%20Composition,%20Perception,%20and%20Performance" },
+                { "name": "Speaking Distribution Cues (Speaking Length Skew, Speaking Turns Skew, Successful Interruption Skew, Unsuccessful Interruptions Skew, Backchannels Skew", "link": "Linking%20Speaking%20and%20Looking%20Behavior%20Patterns%20with%20Group%20Composition,%20Perception,%20and%20Performance" }
             ]
         },
         {    
             "name": "group performance scores",
             "children": [
-                { "name": "linguistic features", "link": "" },
-                { "name": "speech features", "link": "" }
+                { "name": "linguistic features", "link": "Predicting%20Group%20Performance%20in%20Task-Based%20Interaction" },
+                { "name": "speech features", "link": "Predicting%20Group%20Performance%20in%20Task-Based%20Interaction" }
             ]
         },
         {    
             "name": "task performance",
             "children": [
-                { "name": "transition probability between types of vocalisations", "link": "" }
+                { "name": "transition probability between types of vocalisations", "link": "Automatic%20identification%20of%20experts%20and%20performance%20prediction%20in%20the%20multimodal%20math%20data%20corpus%20through%20analysis%20of%20speech%20interaction." }
             ]
         },
         {    
             "name": "Odds of a student solving correctly a problem",
             "children": [
-                { "name": "Total speech duration", "link": "" },
-                { "name": "Number of interventions", "link": "" },
-                { "name": "Times numbers were mentioned", "link": "" },
-                { "name": "Times mathematical terms were mentioned", "link": "" },
-                { "name": "Times commands were pronounced", "link": "" }
+                { "name": "Total speech duration", "link": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features" },
+                { "name": "Number of interventions", "link": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features" },
+                { "name": "Times numbers were mentioned", "link": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features" },
+                { "name": "Times mathematical terms were mentioned", "link": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features" },
+                { "name": "Times commands were pronounced", "link": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features" }
             ]
         }
     ]

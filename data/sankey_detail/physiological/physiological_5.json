@@ -3,37 +3,37 @@
         {    
             "name": "Negative Feelings",
             "children": [
-                { "name": "Physiological linkage", "link": "" } 
+                { "name": "Physiological linkage", "link": "Physiological%20Linkage%20of%20Dyadic%20Gaming%20Experience" } 
             ]
         },
         {    
             "name": "Empathy",
             "children": [
-                { "name": "Physiological linkage", "link": "" } 
+                { "name": "Physiological linkage", "link": "Physiological%20Linkage%20of%20Dyadic%20Gaming%20Experience" } 
             ]
         },
         {    
             "name": "Perceived Valence",
             "children": [
-                { "name": "Galvanic skin response", "link": "" } 
+                { "name": "Galvanic skin response", "link": "Modeling%20Team-level%20Multimodal%20Dynamics%20during%20Multiparty%20Collaboration" } 
             ]
         },
         {    
             "name": "Perceived Arousal",
             "children": [
-                { "name": "Galvanic skin response", "link": "" } 
+                { "name": "Galvanic skin response", "link": "Modeling%20Team-level%20Multimodal%20Dynamics%20during%20Multiparty%20Collaboration" } 
             ]
         },
         {    
             "name": "Emotional valence",
             "children": [
-                { "name": "physiological synchrony", "link": "" } 
+                { "name": "physiological synchrony", "link": "What%20does%20physiological%20synchrony%20reveal%20about%20metacognitive%20experiences%20and%20group%20performance?" } 
             ]
         },
         {    
             "name": "Judgement of confidence",
             "children": [
-                { "name": "physiological synchrony", "link": "" } 
+                { "name": "physiological synchrony", "link": "What%20does%20physiological%20synchrony%20reveal%20about%20metacognitive%20experiences%20and%20group%20performance?" } 
             ]
         }
     ]

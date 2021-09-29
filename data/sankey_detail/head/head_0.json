@@ -3,14 +3,14 @@
         {    
             "name": "Big Five personality traits scores",
             "children": [
-                { "name": "Head motion", "link": "" } 
+                { "name": "Head motion", "link": "Personality%20Trait%20Classification%20via%20Co-Occurrent%20Multiparty%20Multimodal%20Event%20Discovery" } 
             ]
         },
         {    
             "name": "Personality Traits",
             "children": [
-                { "name": "9 Dyadic Features", "link": "" },
-                { "name": "22 Intra-Personal Features", "link": "" } 
+                { "name": "9 Dyadic Features", "link": "Personality%20classification%20and%20behaviour%20interpretation:%20An%20approach%20based%20on%20feature%20categories" },
+                { "name": "22 Intra-Personal Features", "link": "Personality%20classification%20and%20behaviour%20interpretation:%20An%20approach%20based%20on%20feature%20categories" } 
             ]
         }    
     ]

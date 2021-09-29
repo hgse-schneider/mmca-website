@@ -3,64 +3,64 @@
         {    
             "name": "collaboration",
             "children": [
-                { "name": "1582 audio features (from Emobase", "link": "" } 
+                { "name": "1582 audio features (from Emobase", "link": "High%20Accuracy%20Detection%20of%20Collaboration%20From%20Log%20Data%20and%20Superficial%20Speech%20Features" } 
             ]
         },
         {    
             "name": "Agreement",
             "children": [
-                { "name": "speaking time / turns", "link": "" } 
+                { "name": "speaking time / turns", "link": "Multi-modal%20Social%20Signal%20Analysis%20for%20Predicting%20Agreement%20in%20Conversation%20Settings" } 
             ]
         },
         {    
             "name": "Perceived Collaboration Quality",
             "children": [
-                { "name": "speech rate", "link": "" } 
+                { "name": "speech rate", "link": "Modeling%20Team-level%20Multimodal%20Dynamics%20during%20Multiparty%20Collaboration" } 
             ]
         },
         {    
             "name": "collaborative problem solving",
             "children": [
-                { "name": "Audio level (AUD", "link": "" } 
+                { "name": "Audio level (AUD", "link": "Estimation%20of%20success%20in%20collaborative%20learning%20based%20on%20multimodal%20learning%20analytics%20features" } 
             ]
         },
         {    
             "name": "Collaboration quality",
             "children": [
-                { "name": "Sequences of verbal utterances", "link": "" } 
+                { "name": "Sequences of verbal utterances", "link": "Capturing%20and%20analyzing%20verbal%20and%20physical%20collaborative%20learning%20interactions%20at%20an%20enriched%20interactive%20tabletop" } 
             ]
         },
         {    
             "name": "Joint Visual Attention",
             "children": [
-                { "name": "coherence", "link": "" } 
+                { "name": "coherence", "link": "Does%20Seeing%20One%20Another’s%20Gaze%20Affect%20Group%20Dialogue?" } 
             ]
         },
         {    
             "name": "collaboration quality of group [4 level scale]",
             "children": [
-                { "name": "prosodic and tone features [many]", "link": "" },
-                { "name": "duration in which each student was only speaker", "link": "" },
-                { "name": "duration of silence for all people", "link": "" },
-                { "name": "duration of speech by each student", "link": "" },
-                { "name": "duration of overlapping speech from pairs of students", "link": "" },
-                { "name": "duration of overlapping speech from all people", "link": "" } 
+                { "name": "prosodic and tone features [many]", "link": "Privacy-Preserving%20Speech%20Analytics%20for%20Automatic%20Assessment%20of%20Student%20Collaboration" },
+                { "name": "duration in which each student was only speaker", "link": "Privacy-Preserving%20Speech%20Analytics%20for%20Automatic%20Assessment%20of%20Student%20Collaboration" },
+                { "name": "duration of silence for all people", "link": "Privacy-Preserving%20Speech%20Analytics%20for%20Automatic%20Assessment%20of%20Student%20Collaboration" },
+                { "name": "duration of speech by each student", "link": "Privacy-Preserving%20Speech%20Analytics%20for%20Automatic%20Assessment%20of%20Student%20Collaboration" },
+                { "name": "duration of overlapping speech from pairs of students", "link": "Privacy-Preserving%20Speech%20Analytics%20for%20Automatic%20Assessment%20of%20Student%20Collaboration" },
+                { "name": "duration of overlapping speech from all people", "link": "Privacy-Preserving%20Speech%20Analytics%20for%20Automatic%20Assessment%20of%20Student%20Collaboration" } 
             ]
         },
         {    
             "name": "collaboration quality",
             "children": [
-                { "name": "speech time", "link": "" },
-                { "name": "thousands of features prosodic speech", "link": "" },
-                { "name": "talking time", "link": "" }
+                { "name": "speech time", "link": "Using%20the%20Tablet%20Gestures%20and%20Speech%20of%20Pairs%20of%20Students%20to%20Classify%20Their%20Collaboration" },
+                { "name": "thousands of features prosodic speech", "link": "Using%20the%20Tablet%20Gestures%20and%20Speech%20of%20Pairs%20of%20Students%20to%20Classify%20Their%20Collaboration" },
+                { "name": "talking time", "link": "Toward%20Using%20Multi-Modal%20Learning%20Analytics%20to%20Support%20and%20Measure%20Collaboration%20in%20Co-Located%20Dyads" }
             ]
         },
         {    
             "name": "Collaboration",
             "children": [
-                { "name": "35 Coh-metrix indices", "link": "" },
-                { "name": "symmetry of speech among group", "link": "" },
-                { "name": "speech time and frequency", "link": "" }
+                { "name": "35 Coh-metrix indices", "link": "Predicting%20the%20Quality%20of%20Collaborative%20Problem%20Solving%20Through%20Linguistic%20Analysis%20of%20Discourse" },
+                { "name": "symmetry of speech among group", "link": "An%20Automatic%20Approach%20for%20Mining%20Patterns%20of%20Collaboration%20around%20an%20Interactive%20Tabletop" },
+                { "name": "speech time and frequency", "link": "An%20Automatic%20Approach%20for%20Mining%20Patterns%20of%20Collaboration%20around%20an%20Interactive%20Tabletop" }
             ]
         }
     ]

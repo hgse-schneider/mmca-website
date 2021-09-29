@@ -3,19 +3,19 @@
         {    
             "name": "collaborative problem solving",
             "children": [
-                { "name": "Faces looking at screen (FLS", "link": "" } 
+                { "name": "Faces looking at screen (FLS", "link": "Estimation%20of%20success%20in%20collaborative%20learning%20based%20on%20multimodal%20learning%20analytics%20features" } 
             ]
         },
         {    
             "name": "artefact quality",
             "children": [
-                { "name": "Number of faces looking at screen", "link": "" }
+                { "name": "Number of faces looking at screen", "link": "Supervised%20machine%20learning%20in%20multimodal%20learning%20analytics%20for%20estimating%20success%20in%20project-based%20learning" }
             ]
         },
         {    
             "name": "quality of produced outcome (6 dimensions including length, originality, quality of presentation, etc",
             "children": [
-                { "name": "Head motion features [x5]", "link": "" }
+                { "name": "Head motion features [x5]", "link": "Task-independent%20Multimodal%20Prediction%20of%20Group%20Performance%20Based%20on%20Product%20Dimensions" }
             ]
         }    
     ]

@@ -3,31 +3,31 @@
         {    
             "name": "Learning gains",
             "children": [
-                { "name": "clustered hand/wrist movement", "link": "" }
+                { "name": "clustered hand/wrist movement", "link": "(Dis)Engagement%20Maters:%20Identifying%20Efficacious%20Learning%20Practices%20with%20Multimodal%20Learning%20Analytics" }
             ]
         },
         {    
             "name": "learning",
             "children": [
-                { "name": "gesture", "link": "" }
+                { "name": "gesture", "link": "The%20Additive%20Value%20of%20Multimodal%20Features%20for%20Predicting%20Engagement,%20Frustration,%20and%20Learning%20during%20Tutoring" }
             ]
         },
         {    
             "name": "learning gain group (high or low",
             "children": [
-                { "name": "Body distance", "link": "" },
-                { "name": "type of movement", "link": "" },
-                { "name": "Body synchronization", "link": "" },
-                { "name": "amount of movement", "link": "" }
+                { "name": "Body distance", "link": "Unraveling%20Students%27%20Interaction%20around%20a%20Tangible%20Interface%20Using%20Multimodal%20Learning%20Analytics." },
+                { "name": "type of movement", "link": "Unraveling%20Students%27%20Interaction%20around%20a%20Tangible%20Interface%20Using%20Multimodal%20Learning%20Analytics." },
+                { "name": "Body synchronization", "link": "Unraveling%20Students%27%20Interaction%20around%20a%20Tangible%20Interface%20Using%20Multimodal%20Learning%20Analytics." },
+                { "name": "amount of movement", "link": "Unraveling%20Students%27%20Interaction%20around%20a%20Tangible%20Interface%20Using%20Multimodal%20Learning%20Analytics." }
             ]
         },
         {    
             "name": "learning gains",
             "children": [
-                { "name": "Body distance", "link": "" },
-                { "name": "type of movement", "link": "" },
-                { "name": "Body synchronization", "link": "" },
-                { "name": "amount of movement", "link": "" }
+                { "name": "Body distance", "link": "Unraveling%20Students%27%20Interaction%20around%20a%20Tangible%20Interface%20Using%20Multimodal%20Learning%20Analytics." },
+                { "name": "type of movement", "link": "Unraveling%20Students%27%20Interaction%20around%20a%20Tangible%20Interface%20Using%20Multimodal%20Learning%20Analytics." },
+                { "name": "Body synchronization", "link": "Unraveling%20Students%27%20Interaction%20around%20a%20Tangible%20Interface%20Using%20Multimodal%20Learning%20Analytics." },
+                { "name": "amount of movement", "link": "Unraveling%20Students%27%20Interaction%20around%20a%20Tangible%20Interface%20Using%20Multimodal%20Learning%20Analytics." }
             ]
         }  
     ]
