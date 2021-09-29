@@ -11,7 +11,7 @@ html files - located in the project directory </br>
 
 ## Main TODOs
 
-- Input data for the detail and force layout links
+- Input data for force layout links
 
 ## Data checked
 
