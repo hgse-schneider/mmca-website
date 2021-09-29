@@ -12,7 +12,6 @@ html files - located in the project directory </br>
 ## Main TODOs
 
 - Input data for the detail and force layout links
-- Ability to click on detail circle or text nodes for URL link
 
 ## Data checked
 
@@ -45,22 +44,22 @@ html files - located in the project directory </br>
 - Log data -> DONE -> TODO
 - Gaze -> DONE -> TODO
 - Verbal -> DONE -> TODO
-- Body
+- Body -> DONE -> TODO
 
 #### Data Layer 3
-- affective
-- Cognitive Engagement 
-- Communication
-- Interpersonal
-- Coordination
-- Learning
-- Performance
-- Group composition
+- affective -> DONE
+- Cognitive Engagement -> TODO
+- Communication -> TODO
+- Interpersonal -> TODO
+- Coordination -> TODO
+- Learning -> TODO
+- Performance -> TODO
+- Group composition -> TODO
 
 #### Data Layer 4
-- Condition 
-- Process
-- Product
+- Condition -> TODO
+- Process -> TODO
+- Product -> TODO
 
 ## Technology Used
 
