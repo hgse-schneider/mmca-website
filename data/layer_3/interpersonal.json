@@ -75,7 +75,8 @@
         {"id":73, "name":"movement of objects including revisiting past actions", "label":"", "group":"Team C", "runtime":1, "url": "Using%20the%20Tablet%20Gestures%20and%20Speech%20of%20Pairs%20of%20Students%20to%20Classify%20Their%20Collaboration"}
     ],
     "links": [
-        {"source": 2, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
+        {"source": 2, "target": 1, "type": "UNKNOWN", "linetype": "5,5", "linelevel": "1"},
+        
         {"source": 3, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},
         {"source": 4, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
         {"source": 5, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "1"},

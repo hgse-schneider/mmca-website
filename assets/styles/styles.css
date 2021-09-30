@@ -48,25 +48,26 @@
 }
 .p-txt {
     font-weight: normal;
+    padding: 4vh;
 }
 .legend {
     text-align: left;
-    background-color: rgba(253, 232, 208, 0.829);
+    background-color: rgba(238, 238, 238, 0.829);
     border-radius: 10px;
-    padding: 4vh;
     margin-top: 6vh;
     margin-bottom: 0;
+    width: 80%;
+    padding: 4vh;
 }
 .dev-txt {
     font-size: 0.9em;
-    background-color: rgb(230, 142, 2);
+    background-color: rgb(66, 153, 252);
     padding: 1vh;
     padding-left: 2vh;
     padding-right: 2vh;
     border-radius: 25px;
     color: #fff;
     width: fit-content;
-    margin: 4vh;
 }
 .links { 
     stroke: rgb(0, 0, 0); 
@@ -87,11 +88,55 @@ text {
     pointer-events: none;
     text-shadow: 0 1px 0 #fff;
 }
+.arrow {
+    font-size: 3em;
+}
 .link {
     fill: none;
     stroke: #000;
     stroke-opacity: .2;
     padding: 2vh;
+}
+.metric-container {
+    padding: 2vh;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 3vh;
+    margin-left: 3vh;
+}
+.legend-title {
+    text-decoration: underline;
+    text-decoration-color:rgb(0, 180, 141);
+    text-decoration-thickness: 2px;
+}
+.l-info {
+    font-size: 0.8em;
+}
+.bottom-nav {
+    margin: 3vh;
+    margin-bottom: 1vh;
+}
+.legend-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(243, 243, 243, 0.904);
+    width: 100%;
+    margin-top: 0;
+}
+.legend-wrap {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aq-arrow {
+    color: rgb(2, 214, 168);
+}
+.metric {
+    font-size: 1.1em;
 }
 .link:hover {
     stroke-opacity: .5;
@@ -101,7 +146,7 @@ text {
     margin: 0 auto;
 }
 .creator-link {
-    color: rgb(226, 239, 255);
+    color: rgb(227, 236, 255);
 }
 #sankey-diagram {
     padding: 5vh;
