@@ -150,6 +150,7 @@ text {
 }
 #sankey-diagram {
     padding: 5vh;
+    padding-bottom: 4vh;
 }
 /* #sankey-diagram {
     background-color: rgb(0, 0, 0);
