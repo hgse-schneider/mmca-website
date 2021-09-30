@@ -40,11 +40,14 @@
     text-align: left;
 }
 .purpose {
+    width: 100%;
+    text-align: left;
+    line-height: 2em;
+    margin-bottom: 4vh;
+}
+.purpose-container {
     width: 70%;
     text-align: center;
-    line-height: 2em;
-    margin-bottom: 3vh;
-    margin-bottom: 6vh;
 }
 .p-txt {
     font-weight: normal;
