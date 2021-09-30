@@ -47,8 +47,8 @@ html files - located in the project directory </br>
 - Body -> DONE -> TODO
 
 #### Data Layer 3
-- affective -> DONE
-- Cognitive Engagement -> TODO
+- affective -> DONE -> TODO
+- Cognitive Engagement -> DONE -> TODO
 - Communication -> TODO
 - Interpersonal -> TODO
 - Coordination -> TODO
