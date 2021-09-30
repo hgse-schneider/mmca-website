@@ -99,6 +99,7 @@ text {
 }
 .metric-container {
     padding: 2vh;
+    margin: 3vh;
     padding-top: 0;
     padding-bottom: 0;
     margin-right: 3vh;
@@ -108,6 +109,9 @@ text {
     text-decoration: underline;
     text-decoration-color:rgb(0, 180, 141);
     text-decoration-thickness: 2px;
+    margin-left: 5vh;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 .l-info {
     font-size: 0.8em;
@@ -122,15 +126,6 @@ text {
     align-items: center;
     text-align: center;
     justify-content: center;
-    background-color: rgba(243, 243, 243, 0.904);
-    width: 100%;
-    margin-top: 0;
-}
-.legend-wrap {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 .aq-arrow {
     color: rgb(2, 214, 168);
