@@ -58,7 +58,7 @@ html files - located in the project directory </br>
 
 #### Data Layer 4
 - Condition -> TODO
-- Process -> TODO
+- Process -> DONE
 - Product -> TODO
 
 ## Technology Used
