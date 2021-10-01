@@ -52,13 +52,13 @@ html files - located in the project directory </br>
 - Communication -> DONE -> TODO
 - Interpersonal -> TODO
 - Coordination -> TODO
-- Learning -> TODO
+- Learning -> DONE -> TODO
 - Performance -> TODO
 - Group composition -> TODO
 
 #### Data Layer 4
 - Condition -> TODO
-- Process -> DONE
+- Process -> DONE -> TODO
 - Product -> TODO
 
 ## Technology Used
