@@ -54,7 +54,7 @@ html files - located in the project directory </br>
 - Coordination -> TODO
 - Learning -> DONE -> TODO
 - Performance -> TODO
-- Group composition -> TODO
+- Group composition -> CURRENT
 
 #### Data Layer 4
 - Condition -> TODO
