@@ -51,13 +51,13 @@ html files - located in the project directory </br>
 - Cognitive Engagement -> DONE -> TODO
 - Communication -> DONE -> TODO
 - Interpersonal -> TODO
-- Coordination -> TODO
+- Coordination -> DONE -> TODO
 - Learning -> DONE -> TODO
 - Performance -> TODO
 - Group composition -> CURRENT
 
 #### Data Layer 4
-- Condition -> TODO
+- Condition -> DONE -> TODO
 - Process -> DONE -> TODO
 - Product -> TODO
 
