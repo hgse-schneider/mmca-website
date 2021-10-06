@@ -50,7 +50,7 @@ html files - located in the project directory </br>
 - affective -> DONE -> TODO
 - Cognitive Engagement -> DONE -> TODO
 - Communication -> DONE -> TODO
-- Interpersonal -> TODO
+- Interpersonal -> CURRENT
 - Coordination -> DONE -> TODO
 - Learning -> DONE -> TODO
 - Performance -> TODO
