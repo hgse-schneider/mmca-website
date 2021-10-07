@@ -21,22 +21,23 @@ html files - located in the project directory </br>
 - *UNLABELLED AND *UNKNOWN (Need to discuss)
 
 #### Data Layer 1 
-- Visual Attention -> DONE -> TODO
-- Task-related -> DONE -> TODO
-- Text -> DONE -> TODO
-- Touch -> DONE -> TODO
-- Eye Motion -> DONE -> TODO
-- Hand Motion -> DONE -> TODO
-- Gross body motion -> DONE -> TODO
-- Location -> DONE -> TODO
-- Facial expressions -> DONE -> TODO
-- Head motion -> DONE -> TODO
-- speech features -> DONE -> TODO
-- speech content -> DONE -> TODO
-- EDA -> DONE -> TODO
-- Combined -> DONE -> TODO
-- Heart -> DONE -> TODO
-- Brain -> DONE -> TODO
+Speech Participation >> DONE
+Visual Attention >> DONE
+Task-related >> DONE
+Text >> DONE
+Touch >> DONE
+Eye Motion >> DONE
+Hand Motion >> DONE
+Gross body motion >> DONE
+Location >> DONE
+Facial expressions >> DONE
+Head motion >> DONE
+speech features >> DONE
+speech content >> DONE
+EDA >> DONE
+Combined >> DONE
+Heart >> DONE
+Brain >> DONE
 
 #### Data Layer 2
 - Head -> DONE -> TODO

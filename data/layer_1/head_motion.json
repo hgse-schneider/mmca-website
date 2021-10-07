@@ -13,6 +13,6 @@
         {"source": 3, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
         {"source": 4, "target": 1, "type": "clust", "linetype": "0,0", "linelevel": "1"},
         {"source": 5, "target": 1, "type": "clust", "linetype": "0,0", "linelevel": "1"},
-        {"source": 6, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"}
+        {"source": 6, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "2"}
     ]
 }

@@ -10,13 +10,13 @@
         {"id": 8, "name": "CC - HR", "label": "", "group": "Team C", "runtime": 1, "url": "Shared%20Experiences%20of%20Technology%20and%20Trust:%20An%20Experimental%20Study%20of%20Physiological%20Compliance%20Between%20Active%20and%20Passive%20Users%20in%20Technology-Mediated%20Collaborative%20Encounters"}
     ], 
     "links": [
-        {"source": 2, "target": 1, "type": "glm", "linetype": "5,5", "linelevel": "1"},
-        {"source": 3, "target": 1, "type": "glm", "linetype": "5,5", "linelevel": "1"},
-        {"source": 4, "target": 1, "type": "glm", "linetype": "5,5", "linelevel": "1"},
-        {"source": 5, "target": 1, "type": "glm", "linetype": "5,5", "linelevel": "1"},
-        {"source": 6, "target": 1, "type": "ml", "linetype": "5,5", "linelevel": "1"},
-        {"source": 7, "target": 1, "type": "glm", "linetype": "0,0", "linelevel": "1"},
-        {"source": 8, "target": 1, "type": "glm", "linetype": "5,5", "linelevel": "1"}
+        {"source": 2, "target": 1, "type": "glm", "linetype": "5,5", "linelevel": "2"},
+        {"source": 3, "target": 1, "type": "glm", "linetype": "5,5", "linelevel": "2"},
+        {"source": 4, "target": 1, "type": "glm", "linetype": "5,5", "linelevel": "2"},
+        {"source": 5, "target": 1, "type": "glm", "linetype": "5,5", "linelevel": "3"},
+        {"source": 6, "target": 1, "type": "ml", "linetype": "5,5", "linelevel": "2"},
+        {"source": 7, "target": 1, "type": "glm", "linetype": "0,0", "linelevel": "3"},
+        {"source": 8, "target": 1, "type": "glm", "linetype": "5,5", "linelevel": "2"}
     ]
 }
  

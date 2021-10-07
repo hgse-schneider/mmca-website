@@ -22,22 +22,22 @@
     ], 
     "links": [
         {"source": 2, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
-        {"source": 3, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 3, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "2"},
         {"source": 4, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
         {"source": 5, "target": 1, "type": "clust", "linetype": "0,0", "linelevel": "1"},
         {"source": 6, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
-        {"source": 7, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
-        {"source": 8, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
-        {"source": 9, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "1"},
-        {"source": 10, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 7, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "6"},
+        {"source": 8, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "2"},
+        {"source": 9, "target": 1, "type": "corr", "linetype": "0,0", "linelevel": "2"},
+        {"source": 10, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "6"},
         {"source": 11, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
-        {"source": 12, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
-        {"source": 13, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 12, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "2"},
+        {"source": 13, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "6"},
         {"source": 14, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
         {"source": 15, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
-        {"source": 16, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
+        {"source": 16, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "3"},
         {"source": 17, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
         {"source": 18, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
-        {"source": 19, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"}
+        {"source": 19, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "2"}
     ]
 }
