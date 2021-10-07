@@ -53,13 +53,13 @@ html files - located in the project directory </br>
 - Interpersonal -> DONE -> TODO
 - Coordination -> DONE -> TODO
 - Learning -> DONE -> TODO
-- Performance -> TODO
-- Group composition -> CURRENT
+- Performance -> DONE -> TODO
+- Group composition -> DONE -> TODO
 
 #### Data Layer 4
 - Condition -> DONE -> TODO
 - Process -> DONE -> TODO
-- Product -> TODO
+- Product -> DONE -> TODO
 
 ## Technology Used
 
