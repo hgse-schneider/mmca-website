@@ -13,7 +13,7 @@ html files - located in the project directory </br>
 
 - Decrease height between detail graphs ✅
 - Try to make nodes share 1
-- Change color scheme
+- Change color scheme ✅
 - Make sure sankey nodes show metric ✅
 - Data input ✅
 - Fix arrow sizes 
