@@ -146,6 +146,10 @@ text {
 .creator-link {
     color: rgb(4, 59, 110);
 }
+#detail-diagram {
+    margin: 0;
+    padding: 0;
+}
 #sankey-diagram {
     padding: 5vh;
     padding-bottom: 4vh;

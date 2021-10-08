@@ -1,16 +1,23 @@
 function treeData (data_link) {
     d3.json(data_link).then(function(treeData) {
         for (let z = 0; z < treeData["data"].length; z++) { 
-            var margin = {top: 10, right: 570, bottom: 10, left: 570},
+            var margin = {top: 0, right: 570, bottom: 0, left: 570},
                 width = 300,
                 height = 180;
 
             var _data = treeData["data"][z]
 
             if (_data.children.length >= 5) {
-                margin = {top: 30, right: 570, bottom: 30, left: 570},
+                console.log(_data.children.length)
+                margin = {top: 0, right: 570, bottom: 0, left: 570},
                 width = 300,
                 height = 280; 
+            } else if (_data.children.length == 1) {
+                width = 300,
+                height = 60;
+            } else if (_data.children.length < 5) {
+                width = 300,
+                height = 115;
             }
             
             console.log(_data)

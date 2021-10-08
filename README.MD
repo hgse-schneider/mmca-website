@@ -11,7 +11,7 @@ html files - located in the project directory </br>
 
 ## Main TODOs
 
-- Decrease height between detail graphs
+- Decrease height between detail graphs ✅
 - Try to make nodes share 1
 - Change color scheme
 - Make sure sankey nodes show metric
