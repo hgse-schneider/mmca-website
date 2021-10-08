@@ -28,45 +28,45 @@ html files - located in the project directory </br>
 - Deploy ❌
 
 #### Data Layer 1 
-Speech Participation >> DONE
-Visual Attention >> DONE
-Task-related >> DONE
-Text >> DONE
-Touch >> DONE
-Eye Motion >> DONE
-Hand Motion >> DONE
-Gross body motion >> DONE
-Location >> DONE
-Facial expressions >> DONE
-Head motion >> DONE
-speech features >> DONE
-speech content >> DONE
-EDA >> DONE
-Combined >> DONE
-Heart >> DONE
-Brain >> DONE
+Speech Participation >> DONE </br>
+Visual Attention >> DONE </br>
+Task-related >> DONE </br>
+Text >> DONE </br>
+Touch >> DONE </br>
+Eye Motion >> DONE </br>
+Hand Motion >> DONE </br>
+Gross body motion >> DONE </br>
+Location >> DONE </br>
+Facial expressions >> DONE </br>
+Head motion >> DONE </br>
+speech features >> DONE </br>
+speech content >> DONE </br>
+EDA >> DONE </br>
+Combined >> DONE </br>
+Heart >> DONE </br>
+Brain >> DONE </br>
 
 #### Data Layer 2
-Head >> DONE
-Physiological >> DONE
-Log data >> DONE
-Gaze >> DONE
-Verbal >> DONE
-Body >> DONE
+Head >> DONE </br>
+Physiological >> DONE </br>
+Log data >> DONE </br>
+Gaze >> DONE </br>
+Verbal >> DONE </br>
+Body >> DONE </br>
 
 #### Data Layer 3
-affective >> DONE
-Cognitive Engagement >> DONE
-Communication >> DONE
-Interpersonal >> DONE
-Coordination >> DONE
-Learning >> DONE
-Performance >> DONE
-Group composition >> DONE
+affective >> DONE </br>
+Cognitive Engagement >> DONE </br>
+Communication >> DONE </br>
+Interpersonal >> DONE </br>
+Coordination >> DONE </br>
+Learning >> DONE </br>
+Performance >> DONE </br>
+Group composition >> DONE </br>
 
 #### Data Layer 4
-Condition >> DONE
-Process >> DONE
+Condition >> DONE </br>
+Process >> DONE </br>
 Product >> DONE
 
 ## Technology Used
