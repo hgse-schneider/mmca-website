@@ -44,7 +44,7 @@ function redraw() {
         let link = d.d_link
         if(link != "") {
           d3.select("#sankey-diagram").remove();
-          treeData(link) 
+          treeData(link)  
         }
       })
       .style("stroke", d => {return d.color} )
@@ -70,6 +70,11 @@ function redraw() {
           let link = d.data_link
           d3.select("#sankey-diagram").remove();
           force_layout(link) 
+        })
+        .on('mouseover', function(e, d) {
+          node.append("title")
+          .text(function(d) { 
+            return d.num_connections })
         })
     node.append("text")
         .attr("x", function(d) { return (d.x1 + d.x0) / 2; })
