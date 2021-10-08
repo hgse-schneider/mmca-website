@@ -8,7 +8,6 @@ function treeData (data_link) {
             var _data = treeData["data"][z]
 
             if (_data.children.length >= 5) {
-                console.log(_data.children.length)
                 margin = {top: 0, right: 570, bottom: 0, left: 570},
                 width = 300,
                 height = 280; 
@@ -19,8 +18,6 @@ function treeData (data_link) {
                 width = 300,
                 height = 115;
             }
-            
-            console.log(_data)
 
             var treemap = d3.tree()
                 .size([height, width]);

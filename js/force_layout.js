@@ -61,8 +61,8 @@ function force_layout(data_link) {
         .attr('refX',23) // x coordinate for the reference point of the marker. If circle is bigger, this need to be bigger.
         .attr('refY',0)
         .attr('orient','auto')
-        .attr('markerWidth',13)
-        .attr('markerHeight',13)
+        .attr('markerWidth',7)
+        .attr('markerHeight',7)
         .attr('xoverflow','visible')
         .append('svg:path')
         .attr('d', 'M 0,-5 L 10 ,0 L 0,5')
@@ -81,7 +81,7 @@ function force_layout(data_link) {
             .style("stroke-dasharray", d => {return d.linetype})
             .style("stroke-width", d => {return d.linelevel})
             .attr('marker-end','url(#arrowhead)') //The marker-end attribute defines the arrowhead or polymarker that will be drawn at the final vertex of the given shape.
-        //The <title> element provides an accessible, short-text description of any SVG container element or graphics element.
+            //The <title> element provides an accessible, short-text description of any SVG container element or graphics element.
         //Text in a <title> element is not rendered as part of the graphic, but browsers usually display it as a tooltip.
         link.append("title")
             .text(d => d.type);
@@ -131,7 +131,7 @@ function force_layout(data_link) {
             .style("stroke-width", d => d.runtime/10)
             .style("fill", d => colorScale(d.group))
         node.append("title")
-            .text(d => d.id + ": " + d.label + " - " + d.group +", runtime:"+ d.runtime+ "min");
+            .text(d => d.name);
         node.append("text")
             .attr("dy", 4)
             .attr("dx", -15)

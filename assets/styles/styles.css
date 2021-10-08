@@ -72,12 +72,6 @@
     color: #fff;
     width: fit-content;
 }
-.links { 
-    stroke: rgb(0, 0, 0); 
-    stroke-opacity: 0.6; 
-    stroke-width: 1px; 
-    stroke-dasharray: 0,0;
-}
 text {
     pointer-events: none;
     fill: #000;
@@ -213,4 +207,10 @@ text {
     .nav-wrapper {
         flex-direction: column;
     }
+}
+.links { 
+    stroke: rgb(0, 0, 0); 
+    stroke-opacity: 0.6; 
+    stroke-width: 1px; 
+    stroke-dasharray: 0,0;
 }

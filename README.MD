@@ -9,15 +9,23 @@ data - contains all the json data files </br>
 js folder - contains all javascript file for creating the graphs and diagrams </br>
 html files - located in the project directory </br>
 
+## Legend
+
+❌ ❌ - Not possible
+❌ ✅ - Possible and will be done
+❌❔ - Not done but not sure if possible
+✅ - Done
+
 ## Main TODOs
 
 - Decrease height between detail graphs ✅
-- Try to make nodes share 1
+- Try to make nodes share 1 ❌ ❌ 
 - Change color scheme ✅
 - Make sure sankey nodes show metric ✅
 - Data input ✅
-- Fix arrow sizes 
-- Deploy
+- Group like sankey nodes together ❌❔
+- Fix arrow sizes ❌ ✅
+- Deploy ❌
 
 #### Data Layer 1 
 Speech Participation >> DONE
@@ -73,6 +81,10 @@ Options
 
 ## Due Date
 
-- October 25th 2021
+October 25th 2021
+
+## Expected Deployment Date
+
+October 10th 2021
 
 ##### Developed by Eric Sheen
