@@ -6,19 +6,18 @@ By Harvard Learning, Innovation, and Technology Lab (LIT)
 
 assets folder - contain images to style the website </br>
 data - contains all the json data files </br>
-scripts.js - JavaScript file that generates diagram using D3.js </br>
+js folder - contains all javascript file for creating the graphs and diagrams </br>
 html files - located in the project directory </br>
 
 ## Main TODOs
 
-- Input data for force layout links
-
-## Data checked
-
-- *URL (COMPLETE)
-- *LABEL & *DOTTED LINE (TODO)
-
-- *UNLABELLED AND *UNKNOWN (Need to discuss)
+- Decrease height between detail graphs
+- Try to make nodes share 1
+- Change color scheme
+- Make sure sankey nodes show metric
+- Data input ✅
+- Fix arrow sizes 
+- Deploy
 
 #### Data Layer 1 
 Speech Participation >> DONE
@@ -40,27 +39,27 @@ Heart >> DONE
 Brain >> DONE
 
 #### Data Layer 2
-- Head -> DONE -> TODO
-- Physiological -> DONE -> TODO
-- Log data -> DONE -> TODO
-- Gaze -> DONE -> TODO
-- Verbal -> DONE -> TODO
-- Body -> DONE -> TODO
+Head >> DONE
+Physiological >> DONE
+Log data >> DONE
+Gaze >> DONE
+Verbal >> DONE
+Body >> DONE
 
 #### Data Layer 3
-- affective -> DONE -> TODO
-- Cognitive Engagement -> DONE -> TODO
-- Communication -> DONE -> TODO
-- Interpersonal -> DONE -> TODO
-- Coordination -> DONE -> TODO
-- Learning -> DONE -> TODO
-- Performance -> DONE -> TODO
-- Group composition -> DONE -> TODO
+affective >> DONE
+Cognitive Engagement >> DONE
+Communication >> DONE
+Interpersonal >> DONE
+Coordination >> DONE
+Learning >> DONE
+Performance >> DONE
+Group composition >> DONE
 
 #### Data Layer 4
-- Condition -> DONE -> TODO
-- Process -> DONE -> TODO
-- Product -> DONE -> TODO
+Condition >> DONE
+Process >> DONE
+Product >> DONE
 
 ## Technology Used
 
@@ -71,5 +70,9 @@ HTML/CSS, D3.js
 Options
 - Netlify (more preferred for simplicity)
 - Heroku (more technical full-stack projects)
+
+## Due Date
+
+- October 25th 2021
 
 ##### Developed by Eric Sheen
