@@ -11,9 +11,9 @@ html files - located in the project directory </br>
 
 ## Legend
 
-❌ ❌ - Not possible
-❌ ✅ - Possible and will be done
-❌❔ - Not done but not sure if possible
+❌ ❌ - Not possible </br>
+❌ ✅ - Possible and will be done </br>
+❌❔ - Not done but not sure if possible </br>
 ✅ - Done
 
 ## Main TODOs
