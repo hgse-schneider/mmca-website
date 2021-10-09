@@ -41,7 +41,7 @@ function treeData (data_link) {
                 .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
             svg.append('defs').append('marker')
-                .attr("id",'arrowhead')
+                .attr("id",'arrowhead2')
                 .attr('viewBox','-0 -5 10 10') //the bound of the SVG viewport for the current SVG fragment. defines a coordinate system 10 wide and 10 high starting on (0,-5)
                 .attr('refX',23) // x coordinate for the reference point of the marker. If circle is bigger, this need to be bigger.
                 .attr('refY',0)
@@ -65,7 +65,7 @@ function treeData (data_link) {
                     + " " + (d.y + d.parent.y) / 2 + "," + d.parent.x
                     + " " + d.parent.y + "," + d.parent.x;
                 })
-            .attr('marker-end','url(#arrowhead)')
+            .attr('marker-end','url(#arrowhead2)')
 
             // adds each node as a group
             var node = g.selectAll(".node")

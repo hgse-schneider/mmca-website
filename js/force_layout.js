@@ -46,8 +46,6 @@ function force_layout(data_link) {
         .attr("width", window.innerWidth)
         .attr("height", sankey_height + sankey_margin.top)
         .attr("id", "force-layout-diagram")
-        // .attr("preserveAspectRatio", "xMinYMin meet")
-        // .attr("viewBox", "0 0 890 890")
         .append("g")
         .attr("transform", `translate(${margin.left - 40},${margin.top - 20})`)
  
@@ -63,11 +61,11 @@ function force_layout(data_link) {
         .attr('orient','auto')
         .attr('markerWidth',7)
         .attr('markerHeight',7)
+        // .attr('markerUnits', "userSpaceOnUse")
         .attr('xoverflow','visible')
         .append('svg:path')
         .attr('d', 'M 0,-5 L 10 ,0 L 0,5')
         .attr('fill', '#999')
-        .style('stroke','none')
     //create some data
 
     d3.json(data_link)
@@ -78,13 +76,12 @@ function force_layout(data_link) {
             .enter()
             .append("line")
             .attr('class', 'links')
+            .style("stroke", "rgb(104, 104, 104)")
             .style("stroke-dasharray", d => {return d.linetype})
             .style("stroke-width", d => {return d.linelevel})
-            .attr('marker-end','url(#arrowhead)') //The marker-end attribute defines the arrowhead or polymarker that will be drawn at the final vertex of the given shape.
-            //The <title> element provides an accessible, short-text description of any SVG container element or graphics element.
-        //Text in a <title> element is not rendered as part of the graphic, but browsers usually display it as a tooltip.
+            .attr('marker-end','url(#arrowhead)') 
         link.append("title")
-            .text(d => d.type);
+            .text(d => d.linelevel);
         const edgepaths = svg.selectAll(".edgepath") //make path go along with the link provide position for link labels
             .data(dataset.links)
             .enter()
@@ -102,7 +99,7 @@ function force_layout(data_link) {
             .attr('class', 'edgelabel')
             .attr('id', function (d, i) {return 'edgelabel' + i})
             .attr('font-size', 10)
-            .attr('fill', '#aaa');
+            .attr('fill', '#aaa')
         edgelabels.append('textPath') //To render text along the shape of a <path>, enclose the text in a <textPath> element that has an href attribute with a reference to the <path> element.
             .attr('xlink:href', function (d, i) {return '#edgepath' + i})
             .style("text-anchor", "middle")

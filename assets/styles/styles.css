@@ -148,15 +148,6 @@ text {
     padding: 5vh;
     padding-bottom: 4vh;
 }
-/* #sankey-diagram {
-    background-color: rgb(0, 0, 0);
-    margin-top: 2vh;
-    padding: 5vh;
-    border-radius: 10px;
-}
-#force-layout-diagram {
-    background-color: rgb(0, 0, 0);
-} */
 .reset-btn {
     text-align: center;
     border: none;
@@ -207,10 +198,4 @@ text {
     .nav-wrapper {
         flex-direction: column;
     }
-}
-.links { 
-    stroke: rgb(0, 0, 0); 
-    stroke-opacity: 0.6; 
-    stroke-width: 1px; 
-    stroke-dasharray: 0,0;
 }
