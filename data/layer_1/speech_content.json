@@ -1,6 +1,6 @@
 {
     "nodes": [
-        {"id": 1, "name": "Speech Content", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 1, "name": "Speech Content", "label": "", "group": "Team C", "runtime": 1, "url": "parent"},
         {"id": 2, "name": "Times numbers were mentioned", "label": "", "group": "Team A", "runtime": 1, "url": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features"},
         {"id": 3, "name": "linguistic features from transcript (65 features)", "label": "", "group": "Team A", "runtime": 1, "url": "Multimodal%20Analysis%20of%20Vocal%20Collaborative%20Search:A%20Public%20Corpus%20and%20Results"},
         {"id": 4, "name": "linguistic features", "label": "", "group": "Team A", "runtime": 1, "url": "Predicting%20Group%20Performance%20in%20Task-Based%20Interaction"},

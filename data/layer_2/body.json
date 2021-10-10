@@ -35,7 +35,7 @@
         {"id": 33, "name": "Total movement", "label": "", "group": "Team A", "runtime": 1, "url": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features"},
         {"id": 34, "name": "dyad proximity", "label": "", "group": "Team A", "runtime": 1, "url": "Exploring%20Collaboration%20Using%20Motion%20Sensors%20and%20Multi-Modal%20Learning%20Analytics"},
         {"id": 35, "name": "transition probabilities between collaborative state", "label": "", "group": "Team A", "runtime": 1, "url": "Using%20Motion%20Sensors%20to%20Understand%20Collaborative%20Interactions%20in%20Digital%20Fabrication%20Labs"},
-        {"id": 36, "name": "Body", "label": "", "group": "Team C", "runtime": 1}
+        {"id": 36, "name": "Body", "label": "", "group": "Team C", "runtime": 1, "url": "parent"}
     ], 
     "links": [
         {"source": 1, "target": 36, "type": "clust", "linetype": "5,5", "linelevel": "5"},

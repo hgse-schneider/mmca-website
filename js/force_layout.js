@@ -113,11 +113,14 @@ function force_layout(data_link) {
             .call(drag(simulation))
             .append("a")
             .on('click', function(i, d) {
+            if(d.url != "parent"){
                 window.open(
                     "https://scholar.google.com/scholar?hl=en&q=" + d.url,
                     '_blank' 
                 );
-            })
+            } else {
+                resetVis();
+            }})
             .style("cursor", "pointer"); 
 
             

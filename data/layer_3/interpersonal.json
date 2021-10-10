@@ -1,6 +1,6 @@
 {
     "nodes": [
-        {"id":1, "name":"interpersonal", "label":"", "group":"Team C", "runtime":1},
+        {"id":1, "name":"interpersonal", "label":"", "group":"Team C", "runtime":1, "url": "parent"},
         {"id":2, "name":"verbal dominance and information metrics [9 metrics]", "label":"", "group":"Team C", "runtime":1, "url": "A%20Multimodal-Sensor-Enabled%20Room%20for%20Unobtrusive%20Group%20Meeting%20Analysis"},
         {"id":3, "name":"non-verbal speaking metrics (speaking length, interruptions, etc", "label":"", "group":"Team C", "runtime":1, "url": "A%20Multimodal-Sensor-Enabled%20Room%20for%20Unobtrusive%20Group%20Meeting%20Analysis"},
         {"id":4, "name":"visual attention metrics [8 metrics]", "label":"", "group":"Team C", "runtime":1, "url": "A%20Multimodal-Sensor-Enabled%20Room%20for%20Unobtrusive%20Group%20Meeting%20Analysis"},

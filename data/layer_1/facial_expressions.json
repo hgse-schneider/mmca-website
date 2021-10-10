@@ -1,6 +1,6 @@
 {
     "nodes": [
-        {"id": 1, "name": "Facial Expressions", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 1, "name": "Facial Expressions", "label": "", "group": "Team C", "runtime": 1, "url": "parent"},
         {"id": 2, "name": "Facial Expression", "label": "glm", "group": "Team A", "runtime": 1, "url": "Going%20beyond%20what%20is%20visible:%20What%20multichannel%20data%20can%20reveal%20about%20interaction%20in%20the%20context%20of%20collaborative%20learning?"},
         {"id": 3, "name": "22 Intra-Personal Features", "label": "glm", "group": "Team A", "runtime": 1, "url": "Personality%20classification%20and%20behaviour%20interpretation:%20An%20approach%20based%20on%20feature%20categories"},
         {"id": 4, "name": "facial features", "label": "ml", "group": "Team A", "runtime": 1, "url": "Real-time%20mutual%20gaze%20perception"},

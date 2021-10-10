@@ -1,6 +1,6 @@
 {
     "nodes": [
-        {"id": 1, "name": "Gross Body Motion", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 1, "name": "Gross Body Motion", "label": "", "group": "Team C", "runtime": 1, "url": "parent"},
         {"id": 2, "name": "head/body movement", "label": "ml", "group": "Team A", "runtime": 1, "url": "Moving%20as%20a%20Leader:%20Detecting%20Emergent%20Leadership%20in%20Small%20Groups%20using%20Body%20Pose"},
         {"id": 3, "name": "amount of movement", "label": "ml", "group": "Team C", "runtime": 1, "url": "Unraveling%20Students%27%20Interaction%20around%20a%20Tangible%20Interface%20Using%20Multimodal%20Learning%20Analytics."},
         {"id": 4, "name": "amount of face and body movement", "label": "corr", "group": "Team C", "runtime": 1, "url": "Focused%20or%20Stuck%20Together:%20Multimodal%20Patterns%20Reveal%20Triads’%20Performance%20in%20Collaborative%20Problem%20Solving"},

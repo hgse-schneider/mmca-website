@@ -1,6 +1,6 @@
 {
     "nodes": [
-        {"id": 1, "name": "Speech Participation", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 1, "name": "Speech Participation", "label": "", "group": "Team C", "runtime": 1, "url": "parent"},
         {"id": 2, "name": "duration of overlapping speech from pairs of students", "label": "", "group": "Team A", "runtime": 1, "url": "Privacy-Preserving%20Speech%20Analytics%20for%20Automatic%20Assessment%20of%20Student%20Collaboration"},
         {"id": 3, "name": "duration of overlapping speech from all people", "label": "", "group": "Team C", "runtime": 1, "url": "Privacy-Preserving%20Speech%20Analytics%20for%20Automatic%20Assessment%20of%20Student%20Collaboration"},
         {"id": 4, "name": "Speech activity", "label": "", "group": "Team C", "runtime": 1, "url": "Using%20Physiological%20Synchrony%20as%20an%20Indicator%20of%20Collaboration%20Quality,%20Task%20Performance%20and%20Learning"},

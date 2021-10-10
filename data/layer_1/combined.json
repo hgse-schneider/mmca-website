@@ -1,6 +1,6 @@
 {
     "nodes": [
-        {"id": 1, "name": "Combined", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 1, "name": "Combined", "label": "", "group": "Team C", "runtime": 1, "url": "parent"},
         {"id": 2, "name": "physiological concordance index", "label": "", "group": "Team A", "runtime": 1, "url": "Are%20we%20together%20or%20not?%20The%20temporal%20interplay%20of%20monitoring,%20physiological%20arousal%20and%20physiological%20synchrony%20during%20a%20collaborative%20exam"},
         {"id": 3, "name": "Signal Matching (SM)", "label": "", "group": "Team C", "runtime": 1, "url": "Using%20Physiological%20Synchrony%20as%20an%20Indicator%20of%20Collaboration%20Quality,%20Task%20Performance%20and%20Learning"},
         {"id": 4, "name": "Instantaneous Derivative Matching (IDM)", "label": "", "group": "Team C", "runtime": 1, "url": "Using%20Physiological%20Synchrony%20as%20an%20Indicator%20of%20Collaboration%20Quality,%20Task%20Performance%20and%20Learning"},

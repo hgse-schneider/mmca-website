@@ -1,6 +1,6 @@
 {
     "nodes": [
-        {"id": 1, "name": "Heart", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 1, "name": "Heart", "label": "", "group": "Team C", "runtime": 1, "url": "parent"},
         {"id": 2, "name": "WC - HR low frequency", "label": "", "group": "Team A", "runtime": 1, "url": "Shared%20Experiences%20of%20Technology%20and%20Trust:%20An%20Experimental%20Study%20of%20Physiological%20Compliance%20Between%20Active%20and%20Passive%20Users%20in%20Technology-Mediated%20Collaborative%20Encounters"},
         {"id": 3, "name": "DA - HR", "label": "", "group": "Team C", "runtime": 1, "url": "Shared%20Experiences%20of%20Technology%20and%20Trust:%20An%20Experimental%20Study%20of%20Physiological%20Compliance%20Between%20Active%20and%20Passive%20Users%20in%20Technology-Mediated%20Collaborative%20Encounters"},
         {"id": 4, "name": "WC - HR high frequency", "label": "", "group": "Team C", "runtime": 1, "url": "Shared%20Experiences%20of%20Technology%20and%20Trust:%20An%20Experimental%20Study%20of%20Physiological%20Compliance%20Between%20Active%20and%20Passive%20Users%20in%20Technology-Mediated%20Collaborative%20Encounters"},

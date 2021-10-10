@@ -1,6 +1,6 @@
 {
     "nodes": [
-        {"id": 1, "name": "EDA", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 1, "name": "EDA", "label": "", "group": "Team C", "runtime": 1, "url": "parent"},
         {"id": 2, "name": "Directional Agreement (DA)", "label": "", "group": "Team A", "runtime": 1, "url": "Investigating%20collaborative%20learning%20success%20with%20physiological%20coupling%20indices%20based%20on%20electrodermal%20activity"},
         {"id": 3, "name": "physiological synchrony (DA)", "label": "", "group": "Team A", "runtime": 1, "url": "Unpacking%20the%20relationship%20between%20existing%20and%20new%20measures%20of%20physiological%20synchrony%20and%20collaborative%20learning:%20a%20mixed%20methods%20study"},
         {"id": 4, "name": "Signal Matching (SM)", "label": "", "group": "Team A", "runtime": 1, "url": "Investigating%20collaborative%20learning%20success%20with%20physiological%20coupling%20indices%20based%20on%20electrodermal%20activity"},

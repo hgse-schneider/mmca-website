@@ -1,6 +1,6 @@
 {
     "nodes": [
-        {"id": 1, "name": "cognitive engagement", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 1, "name": "cognitive engagement", "label": "", "group": "Team C", "runtime": 1, "url": "parent"},
         {"id": 2, "name": "Physiological linkage", "label": "", "group": "Team A", "runtime": 1, "url": "Physiological%20Linkage%20of%20Dyadic%20Gaming%20Experience"},
         {"id": 3, "name": "EDA peak detection", "label": "", "group": "Team C", "runtime": 1, "url": "Are%20we%20together%20or%20not?%20The%20temporal%20interplay%20of%20monitoring,%20physiological%20arousal%20and%20physiological%20synchrony%20during%20a%20collaborative%20exam"},
         {"id": 4, "name": "physiological concordance index", "label": "", "group": "Team A", "runtime": 1, "url": "Are%20we%20together%20or%20not?%20The%20temporal%20interplay%20of%20monitoring,%20physiological%20arousal%20and%20physiological%20synchrony%20during%20a%20collaborative%20exam"},

@@ -1,6 +1,6 @@
 {
     "nodes": [
-        {"id": 1, "name": "Brain", "label": "", "group": "Team C", "runtime": 1},
+        {"id": 1, "name": "Brain", "label": "", "group": "Team C", "runtime": 1, "url": "parent"},
         {"id": 2, "name": "brain synchrony", "label": "", "group": "Team A", "runtime": 1, "url": "Brain-to-Brain%20Synchrony%20Tracks%20Real-World%20Dynamic%20Group%20Interactions%20in%20the%20Classroom"}
     ], 
     "links": [
