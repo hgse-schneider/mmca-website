@@ -117,7 +117,9 @@ function force_layout(data_link) {
                     "https://scholar.google.com/scholar?hl=en&q=" + d.url,
                     '_blank' 
                 );
-            });
+            })
+            .style("cursor", "pointer"); 
+
             
         node.append("circle")
             .attr("r", d=> 20)//+ d.runtime/20 )
