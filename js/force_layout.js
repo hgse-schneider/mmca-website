@@ -49,23 +49,19 @@ function force_layout(data_link) {
         .append("g")
         .attr("transform", `translate(${margin.left - 40},${margin.top - 20})`)
  
-
-    //appending little triangles, path object, as arrowhead
-    //The <defs> element is used to store graphical objects that will be used at a later time
-    //The <marker> element defines the graphic that is to be used for drawing arrowheads or polymarkers on a given <path>, <line>, <polyline> or <polygon> element.
     svg.append('defs').append('marker')
-        .attr("id",'arrowhead')
-        .attr('viewBox','-0 -5 10 10') //the bound of the SVG viewport for the current SVG fragment. defines a coordinate system 10 wide and 10 high starting on (0,-5)
-        .attr('refX',23) // x coordinate for the reference point of the marker. If circle is bigger, this need to be bigger.
-        .attr('refY',0)
-        .attr('orient','auto')
-        .attr('markerWidth',7)
-        .attr('markerHeight',7)
-        // .attr('markerUnits', "userSpaceOnUse")
-        .attr('xoverflow','visible')
-        .append('svg:path')
-        .attr('d', 'M 0,-5 L 10 ,0 L 0,5')
-        .attr('fill', '#999')
+        .attr("id", "arrowhead")
+        .attr("markerUnits","userSpaceOnUse")
+        .attr("viewBox", "0 -5 10 10")
+        .attr("refX",32) 
+        .attr("refY", -1)
+        .attr("markerWidth", 12)
+        .attr("markerHeight", 12)
+        .attr("orient", "auto")
+        .attr("stroke-width",2)
+        .append("path")
+        .attr("d", "M0,-5L10,0L0,5")
+        .attr('fill','rgb(104, 104, 104)');
     //create some data
 
     d3.json(data_link)

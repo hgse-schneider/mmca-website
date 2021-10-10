@@ -24,7 +24,7 @@ html files - located in the project directory </br>
 - Make sure sankey nodes show metric ✅
 - Data input ✅
 - Group like sankey nodes together ❌❔
-- Fix arrow sizes ❌ ✅
+- Fix arrow sizes ✅
 - Deploy ❌
 
 #### Data Layer 1 
