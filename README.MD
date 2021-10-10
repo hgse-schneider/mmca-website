@@ -15,6 +15,7 @@ html files - located in the project directory </br>
 ❌ ✅ - Possible and will be done </br>
 ❌❔ - Not done but not sure if possible </br>
 ✅ - Done
+⏳ - Pending 
 
 ## Main TODOs
 
@@ -23,9 +24,9 @@ html files - located in the project directory </br>
 - Change color scheme ✅
 - Make sure sankey nodes show metric ✅
 - Data input ✅
-- Group like sankey nodes together ❌❔
+- Group like sankey nodes together ✅
 - Fix arrow sizes ✅
-- Deploy ❌
+- Deploy ⏳
 
 #### Data Layer 1 
 Speech Participation >> DONE </br>

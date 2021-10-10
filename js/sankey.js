@@ -18,7 +18,8 @@ function resetVis() {
 var sankey = d3.sankey()
   .nodeWidth(160)
   .nodePadding(50)
-  .size([sankey_width, sankey_height - 30]);
+  .size([sankey_width, sankey_height - 30])
+  .nodeSort(null) //creates sankey nodes as ordered in the data 
 
 redraw()
 
