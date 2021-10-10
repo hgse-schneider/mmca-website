@@ -14,7 +14,7 @@ html files - located in the project directory </br>
 ❌ ❌ - Not possible </br>
 ❌ ✅ - Possible and will be done </br>
 ❌❔ - Not done but not sure if possible </br>
-✅ - Done
+✅ - Done </br>
 ⏳ - Pending 
 
 ## Main TODOs
