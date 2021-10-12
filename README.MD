@@ -26,7 +26,7 @@ html files - located in the project directory </br>
 - Data input ✅
 - Group like sankey nodes together ✅
 - Fix arrow sizes ✅
-- Deploy ⏳
+- Deployed!! https://mmca-website.netlify.app/ ✅
 
 #### Data Layer 1 
 Speech Participation >> DONE </br>
