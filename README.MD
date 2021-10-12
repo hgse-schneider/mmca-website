@@ -84,8 +84,4 @@ Options
 
 October 25th 2021
 
-## Expected Deployment Date
-
-October 10th 2021
-
 ##### Developed by Eric Sheen
