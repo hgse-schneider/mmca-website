@@ -72,13 +72,7 @@ Product >> DONE
 
 ## Technology Used
 
-HTML/CSS, D3.js
-
-## Link
-
-Options
-- Netlify (more preferred for simplicity)
-- Heroku (more technical full-stack projects)
+HTML/CSS, JS, D3.js
 
 ## Due Date
 
