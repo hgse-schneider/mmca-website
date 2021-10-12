@@ -63,11 +63,13 @@
     margin-top: 4vh;
 }
 .dev-txt {
-    font-size: 0.9em;
-    background-color: rgb(66, 153, 252);
+    font-size: 0.8em;
+    background: #8360c3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2ebf91, #8360c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 1vh;
-    padding-left: 2vh;
-    padding-right: 2vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
     border-radius: 25px;
     color: #fff;
     width: fit-content;
@@ -138,7 +140,7 @@ text {
     margin: 0 auto;
 }
 .creator-link {
-    color: rgb(4, 59, 110);
+    color: rgb(255, 255, 255);
 }
 #detail-diagram {
     margin: 0;
