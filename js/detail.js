@@ -79,7 +79,22 @@ function treeData (data_link) {
 
             // adds the circle to the node
             node.append("circle")
+            .style("cursor", "pointer")
             .attr("r", 7)
+            .on('click', function(event, d) {
+                let url = d.data.link
+                if(url != undefined) {
+                    window.open(
+                        "https://scholar.google.com/scholar?hl=en&q=" + url,
+                        '_blank' 
+                    );
+                }
+            })
+
+            node.append("rect")
+            .attr("y", "-11")
+            .attr("x", 13)
+            .attr("height", 22)//+ d.runtime/20 )
             .on('click', function(event, d) {
                 let url = d.data.link
                 if(url != undefined) {
@@ -98,7 +113,12 @@ function treeData (data_link) {
                 return d.children ? "end" : "start"; })
             .style("font-size", 12)
             .text(function(d) { return d.data.name; })
-            .call(wrap, 480);
+            .call(wrap, 480)
+
+            node.selectAll('rect')
+            .style("cursor", "pointer")
+            .style("fill", "transparent")
+            .attr("width", function(d) {return this.parentNode.getBBox().width;})
         }})
 }
 

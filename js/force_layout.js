@@ -144,9 +144,7 @@ function force_layout(data_link) {
         node.selectAll('rect')
             .attr("rx", 6)
             .attr("ry", 6)
-            .attr("width", function(d) {return this.parentNode.getBBox().width + 15;})
-            .style("padding", "20px")
-            
+            .attr("width", function(d) {return this.parentNode.getBBox().width + 15;})            
 
         // node.append("text")
         //     .attr("dy",12)
@@ -166,7 +164,7 @@ function force_layout(data_link) {
                 .attr("x2", d => d.target.x)
                 .attr("y2", d => d.target.y);
             node.attr("transform", d => `translate(${d.x},${d.y})`);
-            edgepaths.attr('d', d => 'M ' + d.source.x + ' ' + d.source.y + ' L ' + d.target.x + ' ' + d.target.y);
+            // edgepaths.attr('d', d => 'M ' + d.source.x + ' ' + d.source.y + ' L ' + d.target.x + ' ' + d.target.y);
         }
         //When the drag gesture starts, the targeted node is fixed to the pointer
         //The simulation is temporarily "heated" during interaction by setting the target alpha to a non-zero value.
