@@ -17,6 +17,7 @@
     text-align: center;
 }
 .intro-txt {
+    margin-top: 5vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -48,6 +49,7 @@
 .purpose-container {
     width: 70%;
     text-align: center;
+    margin: 8vh;
 }
 .p-txt {
     font-weight: normal;
@@ -61,6 +63,7 @@
     width: 80%;
     padding: 4vh;
     margin-top: 4vh;
+    margin-bottom: 6vh;
 }
 .dev-txt {
     font-size: 0.8em;
