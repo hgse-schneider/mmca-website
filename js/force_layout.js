@@ -38,7 +38,7 @@ function force_layout(data_link) {
     .force("link", d3.forceLink() // This force provides links between nodes
                     .id(d => d.id) // This sets the node id accessor to the specified function. If not specified, will default to the index of a node.
                     .distance(100)) 
-    .force("charge", d3.forceManyBody().strength(-3000)) // This adds repulsion (if it's negative) between nodes. 
+    .force("charge", d3.forceManyBody().strength(-8000)) // This adds repulsion (if it's negative) between nodes. 
     .force("center", d3.forceCenter(window.innerWidth / 2, height / 2))
 
 
@@ -124,18 +124,30 @@ function force_layout(data_link) {
             .style("cursor", "pointer"); 
 
             
-        node.append("circle")
-            .attr("r", d=> 20)//+ d.runtime/20 )
-            .style("stroke", "grey")
-            .style("stroke-opacity",0.3)
-            .style("stroke-width", d => d.runtime/10)
+        // node.append("circle")
+        //     .attr("r", d=> 20)//+ d.runtime/20 )
+        //     .style("stroke", "grey")
+        //     .style("stroke-opacity",0.3)
+        //     .style("stroke-width", d => d.runtime/10)
+        //     .style("fill", d => colorScale(d.group)) 
+        node.append("rect")
+            .attr("height", 22)//+ d.runtime/20 )
+            .attr("y", -10)
+            .attr("x", -15 - 8)
             .style("fill", d => colorScale(d.group))
-        node.append("title")
-            .text(d => d.name);
         node.append("text")
             .attr("dy", 4)
             .attr("dx", -15)
-            .text(d => d.name) 
+            .text(d => d.name)
+        node.append("title")
+            .text(d => d.name);
+        node.selectAll('rect')
+            .attr("rx", 6)
+            .attr("ry", 6)
+            .attr("width", function(d) {return this.parentNode.getBBox().width + 15;})
+            .style("padding", "20px")
+            
+
         // node.append("text")
         //     .attr("dy",12)
         //     .attr("dx", -8)

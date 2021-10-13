@@ -24,7 +24,7 @@ html files - located in the project directory </br>
 - Main visualization at the top of the page (move the paragraph about purpose to a different subpage) ✅ </br>
 - Possible to use the back button of the browser to reset the visualization? ❌ ❌ </br> 
 - Google scholar links need to be added to any node in the sub-visualizations (e.g., when clicking on a connection ) </br>
-- The text from the yellow bubbles overlaps and is sometimes difficult to read; can you change the size of the bubbles so that the text doesn’t overlap? </br>
+- The text from the yellow bubbles overlaps and is sometimes difficult to read; can you change the size of the bubbles so that the text doesn’t overlap? </br> ✅
 - The different line type (e.g., dotted, solid) and labels (e.g., glm, corr, etc) makes the visualization a little too busy; we feel like they should be removed </br>
 - could you change the color of the yellow bubbles based on modality type? </br>
 
@@ -84,9 +84,5 @@ Product >> DONE
 ## Technology Used
 
 HTML/CSS, JS, D3.js
-
-## Due Date
-
-October 25th 2021
 
 ##### Developed by Eric Sheen
