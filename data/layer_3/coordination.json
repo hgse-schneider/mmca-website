@@ -59,7 +59,7 @@
         {"id": 57, "name": "duration of silence for all people", "label": "", "group": "Team A", "runtime": 1, "url": "Privacy-Preserving%20Speech%20Analytics%20for%20Automatic%20Assessment%20of%20Student%20Collaboration"},
         {"id": 58, "name": "prosodic and tone features [many]", "label": "", "group": "Team A", "runtime": 1, "url": "Privacy-Preserving%20Speech%20Analytics%20for%20Automatic%20Assessment%20of%20Student%20Collaboration"},
         {"id": 59, "name": "speech rate", "label": "", "group": "Team A", "runtime": 1, "url": "Modeling%20Team-level%20Multimodal%20Dynamics%20during%20Multiparty%20Collaboration"},
-        {"id": 59, "name": "Face and upper body movement", "label": "", "group": "Team A", "runtime": 1, "url": "Modeling%20Team-level%20Multimodal%20Dynamics%20during%20Multiparty%20Collaboration"},
+        {"id": 59, "name": "Face and upper body movement", "label": "", "group": "Team E", "runtime": 1, "url": "Modeling%20Team-level%20Multimodal%20Dynamics%20during%20Multiparty%20Collaboration"},
         {"id": 60, "name": "Galvanic skin response", "label": "", "group": "Team A", "runtime": 1, "url": "Modeling%20Team-level%20Multimodal%20Dynamics%20during%20Multiparty%20Collaboration"}
     ], 
     "links": [

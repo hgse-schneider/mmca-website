@@ -20,13 +20,13 @@ html files - located in the project directory </br>
 ## Improvements
 
 - remove harvard logos, developer information, etc. Add back when the paper is accepted ✅ </br>
-- Information to the subpages of the website. Create a document with instructions on how to update the dataset, redeploy the website, and modify its content? </br>
+- Information to the subpages of the website. Create a document with instructions on how to update the dataset, redeploy the website, and modify its content? ⏳ </br>
 - Main visualization at the top of the page (move the paragraph about purpose to a different subpage) ✅ </br>
 - Possible to use the back button of the browser to reset the visualization? ❌ ❌ </br> 
 - Google scholar links need to be added to any node in the sub-visualizations (e.g., when clicking on a connection ) ✅ </br> 
 - The text from the yellow bubbles overlaps and is sometimes difficult to read; can you change the size of the bubbles so that the text doesn’t overlap? ✅ </br>
 - The different line type (e.g., dotted, solid) and labels (e.g., glm, corr, etc) makes the visualization a little too busy; we feel like they should be removed ✅ </br>
-- could you change the color of the yellow bubbles based on modality type? </br>
+- could you change the color of the yellow bubbles based on modality type? ⏳</br>
 
 ## Main TODOs
 
@@ -41,14 +41,14 @@ html files - located in the project directory </br>
 
 #### Data Layer 1 
 Speech Participation >> DONE </br>
-Visual Attention >> DONE </br>
-Task-related >> DONE </br>
-Text >> DONE </br>
-Touch >> DONE </br>
-Eye Motion >> DONE </br>
-Hand Motion >> DONE </br>
-Gross body motion >> DONE </br>
-Location >> DONE </br>
+Visual Attention >> DONE ✅ </br>
+Task-related >> DONE ✅ </br>
+Text >> DONE ✅ </br>
+Touch >> DONE ✅ </br>
+Eye Motion >> DONE ✅ </br>
+Hand Motion >> DONE ✅ </br>
+Gross body motion >> DONE ✅ </br>
+Location >> DONE ✅ </br>
 Facial expressions >> DONE </br>
 Head motion >> DONE </br>
 speech features >> DONE </br>
@@ -61,8 +61,8 @@ Brain >> DONE </br>
 #### Data Layer 2
 Head >> DONE </br>
 Physiological >> DONE </br>
-Log data >> DONE </br>
-Gaze >> DONE </br>
+Log data >> DONE ✅ </br>
+Gaze >> DONE ✅ </br>
 Verbal >> DONE </br>
 Body >> DONE </br>
 

@@ -1,16 +1,16 @@
 {
     "nodes": [
-        {"id": 1, "name": "Hand Motion", "label": "", "group": "Team C", "runtime": 1, "url": "parent"},
-        {"id": 2, "name": "Iconic gestures per second", "label": "glm", "group": "Team A", "runtime": 1, "url": "Dynamic%20Adaptive%20Gesturing%20Predicts%20Domain%20Expertise%20in%20Mathematics"},
-        {"id": 3, "name": "gesture", "label": "glm", "group": "Team C", "runtime": 1, "url": "The%20Additive%20Value%20of%20Multimodal%20Features%20for%20Predicting%20Engagement,%20Frustration,%20and%20Learning%20during%20Tutoring"},
-        {"id": 4, "name": "Mean distance between hands", "label": "ml", "group": "Team C", "runtime": 1, "url": "Supervised%20machine%20learning%20in%20multimodal%20learning%20analytics%20for%20estimating%20success%20in%20project-based%20learning"},
-        {"id": 5, "name": "hand agitation", "label": "ml", "group": "Team C", "runtime": 1, "url": "Multi-modal%20Social%20Signal%20Analysis%20for%20Predicting%20Agreement%20in%20Conversation%20Settings"},
-        {"id": 6, "name": "gesture type and location", "label": "glm", "group": "Team C", "runtime": 1, "url": "Improving%20Visibility%20of%20Remote%20Gestures%20in%20Distributed%20Tabletop%20Collaboration"},
-        {"id": 7, "name": "clustered hand/wrist movement", "label": "ml", "group": "Team C", "runtime": 1, "url": "(Dis)Engagement%20Maters:%20Identifying%20Efficacious%20Learning%20Practices%20with%20Multimodal%20Learning%20Analytics"},
-        {"id": 8, "name": "Mean hand movement speed", "label": "ml", "group": "Team C", "runtime": 1, "url": "Supervised%20machine%20learning%20in%20multimodal%20learning%20analytics%20for%20estimating%20success%20in%20project-based%20learning"},
-        {"id": 9, "name": "Distance between hands", "label": "glm", "group": "Team C", "runtime": 1, "url": "Using%20Multimodal%20Learning%20Analytics%20to%20Identify%20Aspects%20of%20Collaboration%20in%20Project-Based%20Learning"},
-        {"id": 10, "name": "Deictic gestures per second", "label": "glm", "group": "Team C", "runtime": 1, "url": "Dynamic%20Adaptive%20Gesturing%20Predicts%20Domain%20Expertise%20in%20Mathematics"},
-        {"id": 11, "name": "Total manual gestures per second", "label": "glm", "group": "Team C", "runtime": 1, "url": "Dynamic%20Adaptive%20Gesturing%20Predicts%20Domain%20Expertise%20in%20Mathematics"}
+        {"id": 1, "name": "Hand Motion", "label": "", "group": "Team E", "runtime": 1, "url": "parent"},
+        {"id": 2, "name": "Iconic gestures per second", "label": "glm", "group": "Team E", "runtime": 1, "url": "Dynamic%20Adaptive%20Gesturing%20Predicts%20Domain%20Expertise%20in%20Mathematics"},
+        {"id": 3, "name": "gesture", "label": "glm", "group": "Team E", "runtime": 1, "url": "The%20Additive%20Value%20of%20Multimodal%20Features%20for%20Predicting%20Engagement,%20Frustration,%20and%20Learning%20during%20Tutoring"},
+        {"id": 4, "name": "Mean distance between hands", "label": "ml", "group": "Team E", "runtime": 1, "url": "Supervised%20machine%20learning%20in%20multimodal%20learning%20analytics%20for%20estimating%20success%20in%20project-based%20learning"},
+        {"id": 5, "name": "hand agitation", "label": "ml", "group": "Team E", "runtime": 1, "url": "Multi-modal%20Social%20Signal%20Analysis%20for%20Predicting%20Agreement%20in%20Conversation%20Settings"},
+        {"id": 6, "name": "gesture type and location", "label": "glm", "group": "Team E", "runtime": 1, "url": "Improving%20Visibility%20of%20Remote%20Gestures%20in%20Distributed%20Tabletop%20Collaboration"},
+        {"id": 7, "name": "clustered hand/wrist movement", "label": "ml", "group": "Team E", "runtime": 1, "url": "(Dis)Engagement%20Maters:%20Identifying%20Efficacious%20Learning%20Practices%20with%20Multimodal%20Learning%20Analytics"},
+        {"id": 8, "name": "Mean hand movement speed", "label": "ml", "group": "Team E", "runtime": 1, "url": "Supervised%20machine%20learning%20in%20multimodal%20learning%20analytics%20for%20estimating%20success%20in%20project-based%20learning"},
+        {"id": 9, "name": "Distance between hands", "label": "glm", "group": "Team E", "runtime": 1, "url": "Using%20Multimodal%20Learning%20Analytics%20to%20Identify%20Aspects%20of%20Collaboration%20in%20Project-Based%20Learning"},
+        {"id": 10, "name": "Deictic gestures per second", "label": "glm", "group": "Team E", "runtime": 1, "url": "Dynamic%20Adaptive%20Gesturing%20Predicts%20Domain%20Expertise%20in%20Mathematics"},
+        {"id": 11, "name": "Total manual gestures per second", "label": "glm", "group": "Team E", "runtime": 1, "url": "Dynamic%20Adaptive%20Gesturing%20Predicts%20Domain%20Expertise%20in%20Mathematics"}
     ], 
     "links": [
         {"source": 2, "target": 1, "type": "glm", "linetype": "0,0", "linelevel": "1"},

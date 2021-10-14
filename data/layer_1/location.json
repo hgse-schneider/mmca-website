@@ -1,14 +1,14 @@
 {
     "nodes": [
-        {"id": 1, "name": "Location", "label": "", "group": "Team C", "runtime": 1, "url": "parent"},
-        {"id": 2, "name": "dyad proximity", "label": "corr", "group": "Team A", "runtime": 1, "url": "Exploring%20Collaboration%20Using%20Motion%20Sensors%20and%20Multi-Modal%20Learning%20Analytics"},
-        {"id": 3, "name": "Distance between learners (DBL)", "label": "ml", "group": "Team C", "runtime": 1, "url": "Estimation%20of%20success%20in%20collaborative%20learning%20based%20on%20multimodal%20learning%20analytics%20features"},
-        {"id": 4, "name": "Mean distance between learners", "label": "ml", "group": "Team A", "runtime": 1, "url": "Supervised%20machine%20learning%20in%20multimodal%20learning%20analytics%20for%20estimating%20success%20in%20project-based%20learning"},
-        {"id": 5, "name": "time spent individually", "label": "corr", "group": "Team C", "runtime": 1, "url": "Using%20Motion%20Sensors%20to%20Understand%20Collaborative%20Interactions%20in%20Digital%20Fabrication%20Labs"},
-        {"id": 6, "name": "Body distance", "label": "ml", "group": "Team A", "runtime": 1, "url": "Unraveling%20Students%27%20Interaction%20around%20a%20Tangible%20Interface%20Using%20Multimodal%20Learning%20Analytics."},
-        {"id": 7, "name": "transition probabilities between collaborative state", "label": "corr", "group": "Team C", "runtime": 1, "url": "Using%20Motion%20Sensors%20to%20Understand%20Collaborative%20Interactions%20in%20Digital%20Fabrication%20Labs"},
-        {"id": 8, "name": "time spent as a group", "label": "corr", "group": "Team A", "runtime": 1, "url": "Using%20Motion%20Sensors%20to%20Understand%20Collaborative%20Interactions%20in%20Digital%20Fabrication%20Labs"},
-        {"id": 9, "name": "Distance from the center of the table", "label": "ml", "group": "Team A", "runtime": 1, "url": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features"}
+        {"id": 1, "name": "Location", "label": "", "group": "Team E", "runtime": 1, "url": "parent"},
+        {"id": 2, "name": "dyad proximity", "label": "corr", "group": "Team E", "runtime": 1, "url": "Exploring%20Collaboration%20Using%20Motion%20Sensors%20and%20Multi-Modal%20Learning%20Analytics"},
+        {"id": 3, "name": "Distance between learners (DBL)", "label": "ml", "group": "Team E", "runtime": 1, "url": "Estimation%20of%20success%20in%20collaborative%20learning%20based%20on%20multimodal%20learning%20analytics%20features"},
+        {"id": 4, "name": "Mean distance between learners", "label": "ml", "group": "Team E", "runtime": 1, "url": "Supervised%20machine%20learning%20in%20multimodal%20learning%20analytics%20for%20estimating%20success%20in%20project-based%20learning"},
+        {"id": 5, "name": "time spent individually", "label": "corr", "group": "Team E", "runtime": 1, "url": "Using%20Motion%20Sensors%20to%20Understand%20Collaborative%20Interactions%20in%20Digital%20Fabrication%20Labs"},
+        {"id": 6, "name": "Body distance", "label": "ml", "group": "Team E", "runtime": 1, "url": "Unraveling%20Students%27%20Interaction%20around%20a%20Tangible%20Interface%20Using%20Multimodal%20Learning%20Analytics."},
+        {"id": 7, "name": "transition probabilities between collaborative state", "label": "corr", "group": "Team E", "runtime": 1, "url": "Using%20Motion%20Sensors%20to%20Understand%20Collaborative%20Interactions%20in%20Digital%20Fabrication%20Labs"},
+        {"id": 8, "name": "time spent as a group", "label": "corr", "group": "Team E", "runtime": 1, "url": "Using%20Motion%20Sensors%20to%20Understand%20Collaborative%20Interactions%20in%20Digital%20Fabrication%20Labs"},
+        {"id": 9, "name": "Distance from the center of the table", "label": "ml", "group": "Team E", "runtime": 1, "url": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features"}
     ], 
     "links": [
         {"source": 2, "target": 1, "type": "corr", "linetype": "5,5", "linelevel": "4"},

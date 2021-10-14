@@ -1,7 +1,7 @@
 {
     "nodes": [
         {"id": 1, "name": "Visual Attention", "label": "", "group": "Team C", "runtime": 1, "url": "parent"},
-        {"id": 2, "name": "Audio-visual (Looking while speaking, Looking while listening, Being looked while speaking, Center of attention while speaking, Visual dominance ratio", "label": "ml", "group": "Team A", "runtime": 1, "url": "Emergent%20leaders%20through%20looking%20and%20speaking:%20from%20audio-visual%20data%20to%20multimodal%20recognition"},
+        {"id": 2, "name": "Audio-visual (Looking while speaking, Looking while listening, Being looked while speaking, Center of attention while speaking, Visual dominance ratio", "label": "ml", "group": "Team C", "runtime": 1, "url": "Emergent%20leaders%20through%20looking%20and%20speaking:%20from%20audio-visual%20data%20to%20multimodal%20recognition"},
         {"id": 3, "name": "attention given by person", "label": "UNKNOWN", "group": "Team C", "runtime": 12, "url": "Employing%20Social%20Gaze%20and%20Speaking%20Activity%20for%20Automatic%20Determination%20of%20the%20Extraversion%20Trait"}, 
         {"id": 4, "name": "Cycles of collaborative / individual work", "label": "UNKNOWN", "group": "Team C", "runtime": 1, "url": "Leveraging%20Mobile%20Eye-Trackers%20to%20Capture%20Joint%20Visual%20Attention%20in%20Co-Located%20Collaborative%20Learning"},
         {"id": 5, "name": "EVT of spatial entropy", "label": "UNKNOWN", "group": "Team C", "runtime": 1, "url": "An%20Alternate%20Statistical%20Lens%20to%20Look%20at%20Collaboration%20Data:%20Extreme%20Value%20Theory"},
