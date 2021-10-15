@@ -11,7 +11,7 @@
         {"id": 9, "name": "target for discussion partner", "label": "corr", "group": "Team D", "runtime": 1, "url": "Focused%20or%20Stuck%20Together:%20Multimodal%20Patterns%20Reveal%20Triads’%20Performance%20in%20Collaborative%20Problem%20Solving"},
         {"id": 10, "name": "zooming", "label": "ml", "group": "Team D", "runtime": 1, "url": "High%20Accuracy%20Detection%20of%20Collaboration%20From%20Log%20Data%20and%20Superficial%20Speech%20Features"},
         {"id": 11, "name": "Arduino measure of complexity", "label": "ml", "group": "Team D", "runtime": 1, "url": "Supervised%20machine%20learning%20in%20multimodal%20learning%20analytics%20for%20estimating%20success%20in%20project-based%20learning"},
-        {"id": 12, "name": "Calculator use", "label": "ml", "group": "Team D", "runtime": 1, "url": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features"},
+        {"id": 12, "name": "Calculator Use", "label": "ml", "group": "Team D", "runtime": 1, "url": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features"},
         {"id": 13, "name": "scrolling", "label": "ml", "group": "Team D", "runtime": 1, "url": "High%20Accuracy%20Detection%20of%20Collaboration%20From%20Log%20Data%20and%20Superficial%20Speech%20Features"},
         {"id": 14, "name": "zoid acceleration", "label": "ml", "group": "Team D", "runtime": 1, "url": "Gaze%20quality%20assisted%20automatic%20recognition%20of%20social%20contexts%20in%20collaborative%20Tetris"},
         {"id": 15, "name": "Arduino active hardware blocks", "label": "ml", "group": "Team D", "runtime": 1, "url": "Supervised%20machine%20learning%20in%20multimodal%20learning%20analytics%20for%20estimating%20success%20in%20project-based%20learning"},

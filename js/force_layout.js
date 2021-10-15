@@ -139,9 +139,9 @@ function force_layout(data_link) {
                     let color_dict = data["color_dict"]
                     let color_type = color_dict[d.name]
 
-                    if(data_link.includes("layer_1")) {
-                        return colorScale(d.group)
-                    }
+                    // if(data_link.includes("layer_1")) {
+                    //     return colorScale(d.group)
+                    // }
 
                     if(color_type == undefined) {
                         console.log("Undefined: " + d.name)
