@@ -3,8 +3,8 @@ function force_layout(data_link) {
     const width =  890 - margin.left - margin.right
     const height=  800 - margin.top - margin.bottom
     const colorScale  = d3.scaleOrdinal() //=d3.scaleOrdinal(d3.schemeSet2)
-        .domain(["Color_1", "Color_2", "Color_3", "Color_4", "Color_5", "Color_6"])
-        .range(['#ffbfff','#a3ffab','#ffcba6', '#feffc0', '#ffd4dc', '#b5ffff'])
+        .domain(["Color_1", "Color_2", "Color_3", "Color_4", "Color_5", "Color_6", "Parent_color"])
+        .range(['#ffbfff','#a3ffab','#ffcba6', '#feffc0', '#ffd4dc', '#b5ffff', '#f5f2f2'])
 
     function drag(simulation) {
     
@@ -133,7 +133,7 @@ function force_layout(data_link) {
                 .attr("x", -15 - 8)
                 .style("fill", function(d){
                     if(d.url == "parent") {
-                        return colorScale("Team I")
+                        return colorScale("Parent_color")
                     }
                     
                     let color_dict = data["color_dict"]
