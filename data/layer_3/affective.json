@@ -1,15 +1,15 @@
 {
     "nodes": [
         {"id": 1, "name": "affective", "label": "", "group": "Team C", "runtime": 1, "url": "parent"},
-        {"id": 2, "name": "Physiological linkage", "label": "", "group": "Team A", "runtime": 1, "url": "Physiological%20Linkage%20of%20Dyadic%20Gaming%20Experience"},
+        {"id": 2, "name": "Physiological linkage", "label": "", "group": "Team H", "runtime": 1, "url": "Physiological%20Linkage%20of%20Dyadic%20Gaming%20Experience"},
         {"id": 3, "name": "dialogue acts", "label": "", "group": "Team C", "runtime": 1, "url": "The%20Additive%20Value%20of%20Multimodal%20Features%20for%20Predicting%20Engagement,%20Frustration,%20and%20Learning%20during%20Tutoring"},
         {"id": 4, "name": "facial expression", "label": "", "group": "Team F", "runtime": 1, "url": "The%20Additive%20Value%20of%20Multimodal%20Features%20for%20Predicting%20Engagement,%20Frustration,%20and%20Learning%20during%20Tutoring"},
         {"id": 5, "name": "gesture", "label": "", "group": "Team C", "runtime": 1, "url": "The%20Additive%20Value%20of%20Multimodal%20Features%20for%20Predicting%20Engagement,%20Frustration,%20and%20Learning%20during%20Tutoring"},
         {"id": 6, "name": "speech rate", "label": "", "group": "Team A", "runtime": 1, "url": "Modeling%20Team-level%20Multimodal%20Dynamics%20during%20Multiparty%20Collaboration"},        
         {"id": 7, "name": "Face and upper body movement", "label": "", "group": "Team E", "runtime": 1, "url": "Modeling%20Team-level%20Multimodal%20Dynamics%20during%20Multiparty%20Collaboration"},
-        {"id": 8, "name": "Galvanic skin response", "label": "", "group": "Team A", "runtime": 1, "url": "Modeling%20Team-level%20Multimodal%20Dynamics%20during%20Multiparty%20Collaboration"},
+        {"id": 8, "name": "Galvanic skin response", "label": "", "group": "Team H", "runtime": 1, "url": "Modeling%20Team-level%20Multimodal%20Dynamics%20during%20Multiparty%20Collaboration"},
         {"id": 9, "name": "transition probabilities between collaborative state", "label": "", "group": "Team C", "runtime": 1, "url": "Using%20Motion%20Sensors%20to%20Understand%20Collaborative%20Interactions%20in%20Digital%20Fabrication%20Labs"},
-        {"id": 10, "name": "physiological synchrony", "label": "", "group": "Team A", "runtime": 1, "url": "What%20does%20physiological%20synchrony%20reveal%20about%20metacognitive%20experiences%20and%20group%20performance?"},
+        {"id": 10, "name": "physiological synchrony", "label": "", "group": "Team H", "runtime": 1, "url": "What%20does%20physiological%20synchrony%20reveal%20about%20metacognitive%20experiences%20and%20group%20performance?"},
         {"id": 11, "name": "x,y,z body joints", "label": "", "group": "Team A", "runtime": 1, "url": "Machine%20learning%20classification%20of%20design%20team%20members’%20body%20language%20patterns%20for%20real%20time%20emotional%20state%20detection"}
     ], 
     "links": [

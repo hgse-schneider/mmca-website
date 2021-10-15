@@ -3,7 +3,7 @@
         {    
             "name": "level of understanding",
             "children": [
-                { "name": "(not", "link": "Dual%20Gaze%20as%20a%20Proxy%20for%20Collaboration%20in%20Informal%20Learning" } 
+                { "name": "(not)", "link": "Dual%20Gaze%20as%20a%20Proxy%20for%20Collaboration%20in%20Informal%20Learning" } 
             ]
         },
         {    
@@ -22,11 +22,11 @@
             "name": "learning gains",
             "children": [
                 { "name": "joint visual attention", "link": "Real-time%20mutual%20gaze%20perception" },
-                { "name": "perceptual with-me-ness (gaze", "link": "Looking%20AT%20versus%20Looking%20THROUGH:%20A%20Dual%20Eye-tracking%20Study%20in%20MOOC%20Context" },
-                { "name": "conceptual with-me-ness (gaze", "link": "Looking%20AT%20versus%20Looking%20THROUGH:%20A%20Dual%20Eye-tracking%20Study%20in%20MOOC%20Context" },
+                { "name": "perceptual with-me-ness (gaze)", "link": "Looking%20AT%20versus%20Looking%20THROUGH:%20A%20Dual%20Eye-tracking%20Study%20in%20MOOC%20Context" },
+                { "name": "conceptual with-me-ness (gaze)", "link": "Looking%20AT%20versus%20Looking%20THROUGH:%20A%20Dual%20Eye-tracking%20Study%20in%20MOOC%20Context" },
                 { "name": "gaze similarity", "link": "Looking%20AT%20versus%20Looking%20THROUGH:%20A%20Dual%20Eye-tracking%20Study%20in%20MOOC%20Context" },
                 { "name": "Cycles of collaborative / individual work", "link": "Leveraging%20Mobile%20Eye-Trackers%20to%20Capture%20Joint%20Visual%20Attention%20in%20Co-Located%20Collaborative%20Learning" }, 
-                { "name": "cognitive load (from pupil size", "link": "Real-time%20mutual%20gaze%20perception" },
+                { "name": "cognitive load (from pupil size)", "link": "Real-time%20mutual%20gaze%20perception" },
                 { "name": "Joint visual Attention", "link": "Using%20Mobile%20Eye-Trackers%20to%20Unpack%20the%20Perceptual%20Benefits%20of%20a%20Tangible%20User%20Interface%20for%20Collaborative%20Learning" }
             ]
         }    

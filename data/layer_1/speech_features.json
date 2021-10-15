@@ -13,7 +13,7 @@
         {"id": 11, "name": "Acoustic features [x13]", "label": "", "group": "Team G", "runtime": 1, "url": "Task-independent%20Multimodal%20Prediction%20of%20Group%20Performance%20Based%20on%20Product%20Dimensions"},
         {"id": 12, "name": "Convergence", "label": "", "group": "Team G", "runtime": 1, "url": "Acoustic-Prosodic%20Entrainment%20and%20Rapport%20in%20Collaborative%20Learning%20Dialogues"},
         {"id": 13, "name": "Synchrony", "label": "", "group": "Team G", "runtime": 1, "url": "Acoustic-Prosodic%20Entrainment%20and%20Rapport%20in%20Collaborative%20Learning%20Dialogues"},
-        {"id": 14, "name": "102 extended GeMAPS acoustic features", "label": "", "group": "Team G", "runtime": 1, "url": "Automatic%20Recognition%20of%20Affective%20Laughter%20in%20Spontaneous%20Dyadic%20Interactions%20from%20Audiovisual%20Signals"},
+        {"id": 14, "name": "102 extended GeMAPs acoustic features", "label": "", "group": "Team G", "runtime": 1, "url": "Automatic%20Recognition%20of%20Affective%20Laughter%20in%20Spontaneous%20Dyadic%20Interactions%20from%20Audiovisual%20Signals"},
         {"id": 15, "name": "Proximity", "label": "", "group": "Team G", "runtime": 1, "url": "Acoustic-Prosodic%20Entrainment%20and%20Rapport%20in%20Collaborative%20Learning%20Dialogues"},
         {"id": 16, "name": "Energy", "label": "", "group": "Team G", "runtime": 1, "url": "Personality%20Trait%20Classification%20via%20Co-Occurrent%20Multiparty%20Multimodal%20Event%20Discovery"},
         {"id": 17, "name": "voice features (4 features)", "label": "", "group": "Team G", "runtime": 1, "url": "Multimodal%20Analysis%20of%20Vocal%20Collaborative%20Search:A%20Public%20Corpus%20and%20Results"},

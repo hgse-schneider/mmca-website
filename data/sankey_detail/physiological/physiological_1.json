@@ -19,14 +19,14 @@
         {    
             "name": "collaboration quality",
             "children": [
-                { "name": "Instantaneous Derivative Matching (IDM", "link": "Using%20Physiological%20Synchrony%20as%20an%20Indicator%20of%20Collaboration%20Quality,%20Task%20Performance%20and%20Learning" },
-                { "name": "Directional Agreement (DA", "link": "Using%20Physiological%20Synchrony%20as%20an%20Indicator%20of%20Collaboration%20Quality,%20Task%20Performance%20and%20Learning" },
-                { "name": "cycles of physiological synchrony (PC", "link": "Unpacking%20the%20relationship%20between%20existing%20and%20new%20measures%20of%20physiological%20synchrony%20and%20collaborative%20learning:%20a%20mixed%20methods%20study" },
-                { "name": "physiological synchrony (DA", "link": "Unpacking%20the%20relationship%20between%20existing%20and%20new%20measures%20of%20physiological%20synchrony%20and%20collaborative%20learning:%20a%20mixed%20methods%20study" },
-                { "name": "Signal Matching (SM", "link": "Using%20Physiological%20Synchrony%20as%20an%20Indicator%20of%20Collaboration%20Quality,%20Task%20Performance%20and%20Learning" },
+                { "name": "Instantaneous Derivative Matching (IDM)", "link": "Using%20Physiological%20Synchrony%20as%20an%20Indicator%20of%20Collaboration%20Quality,%20Task%20Performance%20and%20Learning" },
+                { "name": "Directional Agreement (DA)", "link": "Using%20Physiological%20Synchrony%20as%20an%20Indicator%20of%20Collaboration%20Quality,%20Task%20Performance%20and%20Learning" },
+                { "name": "cycles of physiological synchrony (PC)", "link": "Unpacking%20the%20relationship%20between%20existing%20and%20new%20measures%20of%20physiological%20synchrony%20and%20collaborative%20learning:%20a%20mixed%20methods%20study" },
+                { "name": "physiological synchrony (DA)", "link": "Unpacking%20the%20relationship%20between%20existing%20and%20new%20measures%20of%20physiological%20synchrony%20and%20collaborative%20learning:%20a%20mixed%20methods%20study" },
+                { "name": "Signal Matching (SM)", "link": "Using%20Physiological%20Synchrony%20as%20an%20Indicator%20of%20Collaboration%20Quality,%20Task%20Performance%20and%20Learning" },
                 { "name": "EDA synchrony", "link": "Predicting%20Collaborative%20Learning%20Quality%20through%20Physiological%20Synchrony%20Recorded%20by%20Wearable%20Biosensors" },
                 { "name": "heart rate sychrony", "link": "Predicting%20Collaborative%20Learning%20Quality%20through%20Physiological%20Synchrony%20Recorded%20by%20Wearable%20Biosensors" },
-                { "name": "Pearson‚Äôs correlation (PC", "link": "Using%20Physiological%20Synchrony%20as%20an%20Indicator%20of%20Collaboration%20Quality,%20Task%20Performance%20and%20Learning" }
+                { "name": "Pearson‚Äôs correlation (PC)", "link": "Using%20Physiological%20Synchrony%20as%20an%20Indicator%20of%20Collaboration%20Quality,%20Task%20Performance%20and%20Learning" }
             ]
         }
     ]
