@@ -26,7 +26,7 @@ html files - located in the project directory </br>
 - Google scholar links need to be added to any node in the sub-visualizations (e.g., when clicking on a connection ) ✅ </br> 
 - The text from the yellow bubbles overlaps and is sometimes difficult to read; can you change the size of the bubbles so that the text doesn’t overlap? ✅ </br>
 - The different line type (e.g., dotted, solid) and labels (e.g., glm, corr, etc) makes the visualization a little too busy; we feel like they should be removed ✅ </br>
-- could you change the color of the yellow bubbles based on modality type? ⏳ </br>
+- could you change the color of the yellow bubbles based on modality type? ✅ </br>
 
 ## Main TODOs
 
@@ -67,19 +67,19 @@ Verbal >> DONE ✅ </br>
 Body >> DONE ✅ </br>
 
 #### Data Layer 3
-affective >> DONE ⏳ </br>
-Cognitive Engagement >> DONE ⏳ </br>
-Communication >> DONE ⏳ </br>
-Interpersonal >> DONE ⏳ </br>
-Coordination >> DONE ⏳ </br>
-Learning >> DONE ⏳ </br>
-Performance >> DONE ⏳ </br>
-Group composition >> DONE ⏳ </br>
+affective >> DONE ✅ </br>
+Cognitive Engagement >> DONE ✅ </br>
+Communication >> DONE ✅ </br>
+Interpersonal >> DONE ✅ </br>
+Coordination >> DONE ✅ </br>
+Learning >> DONE ✅ </br>
+Performance >> DONE ✅ </br>
+Group composition >> DONE ✅ </br>
 
 #### Data Layer 4
-Condition >> DONE ⏳ </br>
-Process >> DONE ⏳ </br>
-Product >> DONE ⏳
+Condition >> DONE ✅ </br>
+Process >> DONE ✅ </br>
+Product >> DONE ✅
 
 ## Technology Used
 
