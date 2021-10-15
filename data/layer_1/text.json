@@ -1,16 +1,16 @@
 {
     "nodes": [
-        {"id": 1, "name": "Text", "label": "", "group": "Team D", "runtime": 1, "url": "parent"},
-        {"id": 2, "name": "N-grams", "label": "ml", "group": "Team D", "runtime": 1, "url": "The%20Effect%20of%20Mutual%20Gaze%20Perception%20on%20Students’%20Verbal%20Coordination"},
-        {"id": 3, "name": "Cosine similarity scores", "label": "ml", "group": "Team D", "runtime": 1, "url": "The%20Effect%20of%20Mutual%20Gaze%20Perception%20on%20Students’%20Verbal%20Coordination"},
-        {"id": 4, "name": "Convergence measures", "label": "glm", "group": "Team D", "runtime": 1, "url": "The%20Effect%20of%20Mutual%20Gaze%20Perception%20on%20Students’%20Verbal%20Coordination"},
-        {"id": 5, "name": "Average stroke time length", "label": "ml", "group": "Team D", "runtime": 1, "url": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features"},
-        {"id": 6, "name": "Average stroke displacement", "label": "ml", "group": "Team D", "runtime": 1, "url": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features"},
-        {"id": 7, "name": "Average stroke pressure", "label": "ml", "group": "Team D", "runtime": 1, "url": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features"},
-        {"id": 8, "name": "Coherence metrics", "label": "ml", "group": "Team D", "runtime": 1, "url": "The%20Effect%20of%20Mutual%20Gaze%20Perception%20on%20Students’%20Verbal%20Coordination"},
-        {"id": 9, "name": "Average stroke path length", "label": "ml", "group": "Team D", "runtime": 1, "url": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features"},
-        {"id": 10, "name": "Average number of points", "label": "ml", "group": "Team D", "runtime": 1, "url": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features"},
-        {"id": 11, "name": "Total number of pen strokes", "label": "ml", "group": "Team D", "runtime": 1, "url": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features"}
+        {"id": 1, "name": "Text", "url": "parent"},
+        {"id": 2, "name": "N-grams", "url": "The%20Effect%20of%20Mutual%20Gaze%20Perception%20on%20Students’%20Verbal%20Coordination"},
+        {"id": 3, "name": "Cosine similarity scores", "url": "The%20Effect%20of%20Mutual%20Gaze%20Perception%20on%20Students’%20Verbal%20Coordination"},
+        {"id": 4, "name": "Convergence measures", "url": "The%20Effect%20of%20Mutual%20Gaze%20Perception%20on%20Students’%20Verbal%20Coordination"},
+        {"id": 5, "name": "Average stroke time length", "url": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features"},
+        {"id": 6, "name": "Average stroke displacement", "url": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features"},
+        {"id": 7, "name": "Average stroke pressure", "url": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features"},
+        {"id": 8, "name": "Coherence metrics", "url": "The%20Effect%20of%20Mutual%20Gaze%20Perception%20on%20Students’%20Verbal%20Coordination"},
+        {"id": 9, "name": "Average stroke path length", "url": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features"},
+        {"id": 10, "name": "Average number of points", "url": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features"},
+        {"id": 11, "name": "Total number of pen strokes", "url": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features"}
     ], 
     "links": [
         {"source": 2, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},

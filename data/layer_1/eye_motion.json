@@ -1,9 +1,9 @@
 {
     "nodes": [
-        {"id": 1, "name": "Eye Motion", "label": "", "group": "Team C", "runtime": 1, "url": "parent"},
-        {"id": 2, "name": "Gaze saccade", "label": "ml", "group": "Team C", "runtime": 1, "url": "Gaze%20quality%20assisted%20automatic%20recognition%20of%20social%20contexts%20in%20collaborative%20Tetris"},
-        {"id": 3, "name": "Gaze transitions", "label": "glm", "group": "Team C", "runtime": 1, "url": "Understanding%20collaborative%20program%20comprehension:%20Interlacing%20gaze%20and%20dialogues"},
-        {"id": 4, "name": "gaze saccades", "label": "", "group": "Team C", "runtime": 1, "url": "A%20Network%20Analytic%20Approach%20to%20Gaze%20Coordination%20during%20a%20Collaborative%20Task"}
+        {"id": 1, "name": "Eye Motion", "url": "parent"},
+        {"id": 2, "name": "Gaze saccade", "url": "Gaze%20quality%20assisted%20automatic%20recognition%20of%20social%20contexts%20in%20collaborative%20Tetris"},
+        {"id": 3, "name": "Gaze transitions", "url": "Understanding%20collaborative%20program%20comprehension:%20Interlacing%20gaze%20and%20dialogues"},
+        {"id": 4, "name": "gaze saccades", "url": "A%20Network%20Analytic%20Approach%20to%20Gaze%20Coordination%20during%20a%20Collaborative%20Task"}
     ], 
     "links": [
         {"source": 2, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},

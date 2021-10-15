@@ -3,8 +3,8 @@ function force_layout(data_link) {
     const width =  890 - margin.left - margin.right
     const height=  800 - margin.top - margin.bottom
     const colorScale  = d3.scaleOrdinal() //=d3.scaleOrdinal(d3.schemeSet2)
-        .domain(["Team C", "Team D", "Team E", "Team F", "Team G", "Team H", "Team I"])
-        .range(['#ffbfff','#a3ffab','#ffcba6', '#feffc0', '#ffd4dc', '#b5ffff', '#f5f2f2'])
+        .domain(["Color_1", "Color_2", "Color_3", "Color_4", "Color_5", "Color_6"])
+        .range(['#ffbfff','#a3ffab','#ffcba6', '#feffc0', '#ffd4dc', '#b5ffff'])
 
     function drag(simulation) {
     

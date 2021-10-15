@@ -1,10 +1,10 @@
 {
     "nodes": [
-        {"id": 1, "name": "Touch", "label": "", "group": "Team D", "runtime": 1, "url": "parent"},
-        {"id": 2, "name": "total number of touch actions", "label": "ml", "group": "Team D", "runtime": 1, "url": "An%20Automatic%20Approach%20for%20Mining%20Patterns%20of%20Collaboration%20around%20an%20Interactive%20Tabletop"},
-        {"id": 3, "name": "Touch patterns", "label": "", "group": "Team D", "runtime": 1, "url": "Modeling%20Collaboration%20Patterns%20on%20an%20Interactive%20Tabletop%20in%20a%20Classroom%20Setting"},
-        {"id": 4, "name": "Sequences of meaningful actions", "label": "clust", "group": "Team D", "runtime": 1, "url": "Capturing%20and%20analyzing%20verbal%20and%20physical%20collaborative%20learning%20interactions%20at%20an%20enriched%20interactive%20tabletop"},
-        {"id": 5, "name": "symmetry of touch actions among group", "label": "ml", "group": "Team D", "runtime": 1, "url": "An%20Automatic%20Approach%20for%20Mining%20Patterns%20of%20Collaboration%20around%20an%20Interactive%20Tabletop"}
+        {"id": 1, "name": "Touch", "url": "parent"},
+        {"id": 2, "name": "total number of touch actions", "url": "An%20Automatic%20Approach%20for%20Mining%20Patterns%20of%20Collaboration%20around%20an%20Interactive%20Tabletop"},
+        {"id": 3, "name": "Touch patterns", "url": "Modeling%20Collaboration%20Patterns%20on%20an%20Interactive%20Tabletop%20in%20a%20Classroom%20Setting"},
+        {"id": 4, "name": "Sequences of meaningful actions", "url": "Capturing%20and%20analyzing%20verbal%20and%20physical%20collaborative%20learning%20interactions%20at%20an%20enriched%20interactive%20tabletop"},
+        {"id": 5, "name": "symmetry of touch actions among group", "url": "An%20Automatic%20Approach%20for%20Mining%20Patterns%20of%20Collaboration%20around%20an%20Interactive%20Tabletop"}
     ], 
     "links": [
         {"source": 2, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "3"},
