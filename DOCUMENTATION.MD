@@ -170,6 +170,17 @@ This file contains all elements required to display everything you see on the fr
 
 <br>
 
+## Local development/testing?
+
+Once this project is on your local machine, open using Visual Studio Code and open in a live server for live updates and viewing! 
+This can be acheived by downloading an extension called Live Server. For more information: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
+
+<img src="./assets/images/go_live.png"></img>
+
+Once downloaded you will see a "Go Live" icon. Clicking on it will open a live updating webpage of this web application project. 
+
+<br>
+
 ## How did I deploy?
 
 I deployed this web app using Netlify. Netlify is trusted and supports multiple frameworks and technologies. It is simple to use and allows you to deploy applications in a matter of seconds. https://www.netlify.com/
