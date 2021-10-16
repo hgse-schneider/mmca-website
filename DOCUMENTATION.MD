@@ -10,6 +10,8 @@
 - ``` js ``` folder contains ALL JavaScript files that create the visual graphs seen on the website.
 - ``` _____.html ``` .html files are the frontend of the website. ``` index.html ``` is the main.
 
+<br>
+
 ## Data  structure
 
 <img src="./assets/images/data_dir.png"></img>
