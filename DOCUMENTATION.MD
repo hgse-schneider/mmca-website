@@ -56,6 +56,8 @@ Example:
 - ```"linetype": "0,0"``` indicates whether or not the line is dotted or straight. ```"0,0"``` indicates the stroke of the line, in this case, it would be a straight dark line. To change it to a dotted line, change the value to ```"5,5"```. 
 - ```"linelevel": "1"``` indicates the thickness of the line, the stroke width.  
 
+You can create as many nodes as you want but you must connect them in order to see the link line. If you do not connect the nodes in the link, you will just see the node floating in space with no connection. So point the source to the target node. 
+
 <br>
 
 ### layers.json (located under sankey_data folder)
