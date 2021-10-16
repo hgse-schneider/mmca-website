@@ -165,3 +165,32 @@ This file generates a detailed diagram of the links (see image below for example
 ### index.html
 
 This file contains all elements required to display everything you see on the frontend when you go to https://mmca-website.netlify.app/.
+
+<br>
+
+## How did I deploy?
+
+I deployed this web app using Netlify. Netlify is trusted and supports multiple frameworks and technologies. It is simple to use and allows you to deploy applications in a matter of seconds. https://www.netlify.com/
+
+1. Sign up in the top right corner. Sign up with either Github or Email. 
+2. After filling in the information you will be directed to a dashboard (see image below).
+
+<img src="./assets/images/netlify.png"></img>
+
+3. Click on the button, "New site from Git."
+4. Now select the Github option because our code is on Github. By doing so you will be directed to Github and asked by Netlify to authorize it to access certain organizations and repositories. If you do not see the repository you are looking for it is most likely because you did not allow Netlify to access that repo. 
+
+<img src="./assets/images/github.png"></img>
+
+5. Choose a repository (mmca-website repo) and deploy!
+6. Upon going back to the dashboard, you will see the website deployed or building. A great thing about netlify is that when deploying the Github repo, every time a push is made to the repo, the website is automatically updated so there is no need for maintenance or any sort of reupdating that is required. 
+
+<img src="./assets/images/netlify_deploy.png"></img>
+
+7. Clicking on the mmca-website on the netlify dashboard will direct you to the website dashboard where you can make custom changes and see different metrics. 
+
+<img src="./assets/images/netlify_website.png"></img>
+
+
+
+
