@@ -281,7 +281,7 @@ function redraw() {
                 var y = d3.sum(node.sourceLinks, weightedTarget) / d3.sum(node.sourceLinks, value);
                 node.y += (y - center(node)) * alpha;
               }
-            });
+            }); 
           });
           function weightedTarget(link) {
             return center(link.target) * link.value;
