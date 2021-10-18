@@ -59,6 +59,7 @@ function redraw() {
       .data(graph.nodes)
       .enter().append("g")
       .attr("class", "node")
+      .style("cursor", "pointer")
     // add the rectangles for the nodes
     node.append("rect")
         .attr("x", function(d) { return d.x0; })
