@@ -117,7 +117,11 @@ Upon inspecting the ```verbal_group.json``` file you will notice a different for
 <img src="./assets/images/detail.png"></img>
 
 - And inside the ```"children": [...]``` contains all the connected "children" nodes that connect to the "parent" node. 
-- For this specific example you can see that there is a "child" within the "children" nodes, represented as ```{ "name": "speaking time % per individual", "link": "Employing%20Social%20Gaze%20and%20Speaking%20Activity%20for%20Automatic%20Determination%20of%20the%20Extraversion%20Trait" } ```. The ```name:``` is the name of the "child" node and the ```"link"``` is the link to the Google Scholar link.
+- For this specific example you can see that there is a "child" within the "children" nodes, represented as: <br>
+
+```{ "name": "speaking time % per individual", "link": "Employing%20Social%20Gaze%20and%20Speaking%20Activity%20for%20Automatic%20Determination%20of%20the%20Extraversion%20Trait" } ```. 
+
+- The ```name:``` is the name of the "child" node and the ```"link"``` is the link to the Google Scholar link.
 
 <br>
 
