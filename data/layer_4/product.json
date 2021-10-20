@@ -1,5 +1,6 @@
 {
     "nodes": [
+        {"id":130, "name":"product", "url": "parent"},
         {"id":29, "name":"Group Participation Speaking Cues (Speaking Length, Speaking Turns, Successful Interruptions, Unsuccessful Interruptions, Backchannels)", "url": "Linking%20Speaking%20and%20Looking%20Behavior%20Patterns%20with%20Group%20Composition,%20Perception,%20and%20Performance"},
         {"id":30, "name":"Silence and Overlap Cues (Fraction of Silence, Fraction of Nonoverlapped Speech, Fraction of two-people and three-people Overlapped Speech)", "url": "Linking%20Speaking%20and%20Looking%20Behavior%20Patterns%20with%20Group%20Composition,%20Perception,%20and%20Performance"},
         {"id":31, "name":"Speaking Distribution Cues (Speaking Length Skew, Speaking Turns Skew, Successful Interruption Skew, Unsuccessful Interruptions Skew, Backchannels Skew)", "url": "Linking%20Speaking%20and%20Looking%20Behavior%20Patterns%20with%20Group%20Composition,%20Perception,%20and%20Performance"},
@@ -101,7 +102,6 @@
         {"id":127, "name":"Focused gaze", "url": "Understanding%20collaborative%20program%20comprehension:%20Interlacing%20gaze%20and%20dialogues"},
         {"id":128, "name":"Together gaze", "url": "Understanding%20collaborative%20program%20comprehension:%20Interlacing%20gaze%20and%20dialogues"},
         {"id":129, "name":"Physiological linkage", "url": "Physiological%20Linkage%20of%20Dyadic%20Gaming%20Experience"},
-        {"id":130, "name":"product", "url": "parent"},
         {"id":131, "name":"clustered hand/wrist movement", "url": "(Dis)Engagement%20Maters:%20Identifying%20Efficacious%20Learning%20Practices%20with%20Multimodal%20Learning%20Analytics"},
         {"id":132, "name":"Pearson‚Äôs correlation coefficient (PCC)", "url": "Investigating%20collaborative%20learning%20success%20with%20physiological%20coupling%20indices%20based%20on%20electrodermal%20activity"},
         {"id":133, "name":"Pearson‚Äôs correlation (PC)", "url": "Using%20Physiological%20Synchrony%20as%20an%20Indicator%20of%20Collaboration%20Quality,%20Task%20Performance%20and%20Learning"}
@@ -119,7 +119,6 @@
         {"source": 38, "target": 130, "type": "corr", "linetype": "0,0", "linelevel": "1"},
         {"source": 39, "target": 130, "type": "", "linetype": "0,0", "linelevel": "1"},
         {"source": 40, "target": 130, "type": "", "linetype": "0,0", "linelevel": "1"},
-        {"source": 131, "target": 130, "type": "ml", "linetype": "0,0", "linelevel": "1"},
         {"source": 41, "target": 130, "type": "glm", "linetype": "0,0", "linelevel": "2"},
         {"source": 42, "target": 130, "type": "glm", "linetype": "0,0", "linelevel": "1"},
         {"source": 43, "target": 130, "type": "corr", "linetype": "0,0", "linelevel": "4"},
@@ -210,6 +209,7 @@
         {"source": 126, "target": 130, "type": "glm", "linetype": "0,0", "linelevel": "1"},
         {"source": 127, "target": 130, "type": "glm", "linetype": "0,0", "linelevel": "1"},
         {"source": 128, "target": 130, "type": "glm", "linetype": "0,0", "linelevel": "1"},
-        {"source": 129, "target": 130, "type": "glm", "linetype": "0,0", "linelevel": "1"}
+        {"source": 129, "target": 130, "type": "glm", "linetype": "0,0", "linelevel": "1"},
+        {"source": 131, "target": 130, "type": "ml", "linetype": "0,0", "linelevel": "1"}
     ]
 }

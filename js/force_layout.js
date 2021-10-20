@@ -1,7 +1,19 @@
-function force_layout(data_link) {
+async function get_TF (data_link, margin) {
+    const dataset = await d3.json(data_link);
+    const num_nodes = dataset["nodes"].length
+    if(num_nodes <= 63) {
+        return 900 - margin.top - margin.bottom
+    } else {
+        return 1500 - margin.top - margin.bottom 
+    }
+}
+
+async function force_layout(data_link) {
     const margin = {top: 30, right: 80, bottom: 5, left: 5}
     const width =  890 - margin.left - margin.right
-    const height=  800 - margin.top - margin.bottom
+
+    const height = await get_TF(data_link, margin)
+
     const colorScale  = d3.scaleOrdinal() 
         .domain(["Color_1", "Color_2", "Color_3", "Color_4", "Color_5", "Color_6", "Parent_color"])
         .range(['#ffbfff','#a3ffab','#ffcba6', '#feffc0', '#ffd4dc', '#b5ffff', '#f5f2f2'])
@@ -35,13 +47,12 @@ function force_layout(data_link) {
     .force("link", d3.forceLink() // This force provides links between nodes
                     .id(d => d.id) // This sets the node id accessor to the specified function. If not specified, will default to the index of a node.
                     .distance(100)) 
-    .force("charge", d3.forceManyBody().strength(-8000)) // This adds repulsion (if it's negative) between nodes. 
+    .force("charge", d3.forceManyBody().strength(-4000)) // This adds repulsion (if it's negative) between nodes. 
     .force("center", d3.forceCenter(window.innerWidth / 2, height / 2))
-
 
     const svg = d3.select('.diagram').append("svg")
         .attr("width", window.innerWidth)
-        .attr("height", sankey_height + sankey_margin.top)
+        .attr("height", height)
         .attr("id", "force-layout-diagram")
         .append("g")
         .attr("transform", `translate(${margin.left - 40},${margin.top - 20})`)
@@ -174,12 +185,21 @@ function force_layout(data_link) {
                 .links(dataset.links);
             // This function is run at each iteration of the force algorithm, updating the nodes position (the nodes data array is directly manipulated).
             function ticked() {
-                link.attr("x1", d => d.source.x)
-                    .attr("y1", d => d.source.y)
-                    .attr("x2", d => d.target.x)
-                    .attr("y2", d => d.target.y);
-                node.attr("transform", d => `translate(${d.x},${d.y})`);
-                // edgepaths.attr('d', d => 'M ' + d.source.x + ' ' + d.source.y + ' L ' + d.target.x + ' ' + d.target.y);
+                // link.attr("x1", d => d.source.x)
+                //     .attr("y1", d => d.source.y)
+                //     .attr("x2", d => d.target.x)
+                //     .attr("y2", d => d.target.y);
+                // node.attr("transform", d => `translate(${d.x},${d.y})`);
+                link
+                    .attr("x1", function(d) { return d.source.x; })
+                    .attr("y1", function(d) { return d.source.y; })
+                    .attr("x2", function(d) { return d.target.x; })
+                    .attr("y2", function(d) { return d.target.y; });
+                node
+                .attr("transform", d => `translate(${d.x},${d.y})`)
+                .attr("cx", function(d) { return d.x = Math.max(this.parentNode.getBBox().width, Math.min(window.innerWidth - this.parentNode.getBBox().width, d.x)); })
+                .attr("cy", function(d) { return d.y = Math.max(22, Math.min(height - 22, d.y)); })
+                
             }
             //When the drag gesture starts, the targeted node is fixed to the pointer
             //The simulation is temporarily "heated" during interaction by setting the target alpha to a non-zero value.
