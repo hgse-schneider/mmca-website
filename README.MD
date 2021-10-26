@@ -27,6 +27,8 @@ html files - located in the project directory </br>
 - The text from the yellow bubbles overlaps and is sometimes difficult to read; can you change the size of the bubbles so that the text doesn’t overlap? ✅ </br>
 - The different line type (e.g., dotted, solid) and labels (e.g., glm, corr, etc) makes the visualization a little too busy; we feel like they should be removed ✅ </br>
 - could you change the color of the yellow bubbles based on modality type? ✅ </br>
+- Script for translating the excel to JSON ⏳ </br>
+- Keep bubbles inside overall rectangle visualization ✅ </br>
 
 ## Main TODOs
 

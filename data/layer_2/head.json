@@ -1,5 +1,6 @@
 {
     "nodes": [
+        {"id": 14, "name": "Head", "url": "parent"},
         {"id": 1, "name": "22 Intra-Personal Features", "url": "Personality%20classification%20and%20behaviour%20interpretation:%20An%20approach%20based%20on%20feature%20categories"},
         {"id": 2, "name": "head orientation", "url": "Multi-modal%20Social%20Signal%20Analysis%20for%20Predicting%20Agreement%20in%20Conversation%20Settings"},
         {"id": 3, "name": "51 Facial Action Units", "url": "Automatic%20Recognition%20of%20Affective%20Laughter%20in%20Spontaneous%20Dyadic%20Interactions%20from%20Audiovisual%20Signals"},
@@ -12,8 +13,7 @@
         {"id": 10, "name": "Facial expression", "url": "Going%20beyond%20what%20is%20visible:%20What%20multichannel%20data%20can%20reveal%20about%20interaction%20in%20the%20context%20of%20collaborative%20learning?"},
         {"id": 11, "name": "facial expression features (60 features)", "url": "Multimodal%20Analysis%20of%20Vocal%20Collaborative%20Search:A%20Public%20Corpus%20and%20Results"},
         {"id": 12, "name": "9 Dyadic Features", "url": "Personality%20classification%20and%20behaviour%20interpretation:%20An%20approach%20based%20on%20feature%20categories"},
-        {"id": 13, "name": "Head motion", "url": "Personality%20Trait%20Classification%20via%20Co-Occurrent%20Multiparty%20Multimodal%20Event%20Discovery"},
-        {"id": 14, "name": "Head", "url": "parent"}
+        {"id": 13, "name": "Head motion", "url": "Personality%20Trait%20Classification%20via%20Co-Occurrent%20Multiparty%20Multimodal%20Event%20Discovery"}
     ], 
     "links": [
         {"source": 1, "target": 14, "type": "glm", "linetype": "0,0", "linelevel": "2"},
