@@ -204,3 +204,7 @@ text {
         flex-direction: column;
     }
 }
+.mmca-nav-txt {
+    text-decoration: none;
+    color: black;
+}
