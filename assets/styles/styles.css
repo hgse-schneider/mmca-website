@@ -50,10 +50,17 @@
     width: 70%;
     text-align: center;
     margin: 8vh;
+    margin-top: 0vh;
+}
+.reference-container {
+    text-align: left;
 }
 .p-txt {
     font-weight: normal;
     padding: 4vh;
+}
+.r-txt {
+    padding: 2vh;
 }
 .legend {
     text-align: left;
@@ -207,4 +214,7 @@ text {
 .mmca-nav-txt {
     text-decoration: none;
     color: black;
+}
+.contribute-frame {
+    margin-top: 4vh;
 }
