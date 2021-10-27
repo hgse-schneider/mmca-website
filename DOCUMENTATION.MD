@@ -208,6 +208,10 @@ I deployed this web app using Netlify. Netlify is trusted and supports multiple 
 
 <img src="./assets/images/netlify_website.png"></img>
 
+<br>
+
+## How do I update the data?
+
 
 
 
