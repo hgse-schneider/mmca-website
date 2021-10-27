@@ -77,7 +77,7 @@
         {"id":75, "name":"Pearson‚Äôs correlation (PC)", "url": "Using%20Physiological%20Synchrony%20as%20an%20Indicator%20of%20Collaboration%20Quality,%20Task%20Performance%20and%20Learning"}
 
     ],
-    "links": [
+    "links": [ 
         {"source": 2, "target": 1, "type": "glm", "linetype": "5,5", "linelevel": "4"},
         {"source": 3, "target": 1, "type": "glm", "linetype": "5,5", "linelevel": "4"},
         {"source": 4, "target": 1, "type": "glm", "linetype": "5,5", "linelevel": "4"},
