@@ -222,7 +222,9 @@ Drag your updated csv file into the convert_script folder.
 To run the script, ```cd``` into the folder directory. 
 To run the script go to your terminal in VSCode and type in ```python3 ctj.py```
 
-<img src="./assets/images/correct_example.png"></img>
+Below are two correct example of using the program! <br>
+<img src="./assets/images/correct_example.png"></img> <br><br>
+<img src="./assets/images/correct_example1.png"></img>
 
 Upon running the script there will be a prompt in the console asking you what type of data file you would like to convert to the JSON format. Simply input the name of the data file. This could be like eye motion, speech content, verbal, product, process, etc. Then it will ask that you input the layer that the data you are looking for is located.
 When inputting which layer, simply input a number such as ```1```, ```2```, ```3```, ```4```.
@@ -247,7 +249,7 @@ If you see the error below:
 
 <img src="./assets/images/error.png"></img>
 
-This could be caused because you inputted a non-existent name. In this specific example, "bob" that was inputted does not exist. Another cause could be because you inputted the CORRECT name BUT you accidentally added a space in front. 
+This could be caused because you inputted a non-existent name. In this specific example, "bob" that was inputted does not exist. Another cause could be because you inputted the CORRECT name BUT you accidentally added a space in front. PLEASE MAKE SURE NOT TO ADD UNNECESSARY SPACES! 
 
 
 
