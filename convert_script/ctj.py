@@ -3,6 +3,7 @@
 import csv 
 
 
+# List of URLs and there respective names
 def determine_url(data_link=""):
     if data_link == "Privacy-Preserving Speech Analytics for Automatic Assessment of Student Collaboration":
         return "Privacy-Preserving%20Speech%20Analytics%20for%20Automatic%20Assessment%20of%20Student%20Collaboration"
@@ -157,53 +158,83 @@ def determine_url(data_link=""):
 
 
 
-def determine_layer(reader, data_link=""):
-    i = 1
-    curr_dict = {"nodes": {}, "links": {}}
-    if data_link == "gaze / eye direction":
+# Main function that converts data
+def determine_layer(reader, data_link="", data_layer=1):
+    i = 1 # counter
+    parent = "'id': {}, 'name': '{}', 'url': '{}'".format(0, data_link, "parent")
+    curr_dict = {"nodes": {}, "links": {}} # dictionary that stores the JSON converted data
+    if data_link == "gaze / eye direction": # just to make sure that it ends up as "eye motion"
         parent = "'id': {}, 'name': '{}', 'url': '{}'".format(0, "eye motion", "parent")
-    if data_link == "verbal content":
+    if data_link == "verbal content": # just to make sure that it ends up as "speech content"
         parent = "'id': {}, 'name': '{}', 'url': '{}'".format(0, "speech content", "parent")
-    curr_dict["nodes"][parent] = 1
-    write_to_file(parent)
+    if data_link == "individual cognitive processes":
+        parent = "'id': {}, 'name': '{}', 'url': '{}'".format(0, "cognitive engagement", "parent")
+    if data_link == "affective state":
+        parent = "'id': {}, 'name': '{}', 'url': '{}'".format(0, "affective", "parent")
+    if data_link == "interpersonal relationship / perception":
+        parent = "'id': {}, 'name': '{}', 'url': '{}'".format(0, "interpersonal", "parent")
+    curr_dict["nodes"][parent] = 1 # add to dictionary 
+    write_to_file(parent) # write the very first and parent node to the txt file
 
     for row in reader:
-        assumed = row[3]
+        assumed = row[data_layer] 
+
         if data_link == assumed:
-            url_title = row[1]
-            name = row[2]
-            if name in curr_dict["nodes"]:
-                curr_dict["nodes"][name] += 1
+            url_title = row[1] # gscholar link name
+            name = row[2] # name of the node
+            if name in curr_dict["nodes"]: # if the name of node already exists in the dictionary
+                curr_dict["nodes"][name] += 1 # increment the number if times it appears
             else:
-                curr_dict["nodes"][name] = 1
-                url_link = determine_url(url_title) 
-                if url_link == "Unknown":
+                curr_dict["nodes"][name] = 1 # new so add to dictionary 
+                url_link = determine_url(url_title) # determine the URL based on the name
+                if url_link == "Unknown": # If the URL is unidentified, print the name of the node
                     print(name)
                 node_ans = "'id': {}, 'name': '{}', 'url': '{}'".format(i, name, url_link)
-                write_to_file(node_ans)
+                write_to_file(node_ans) # writes to file
                 i += 1
 
-    j = 0
+    j = 0 # counter
     for node in curr_dict["nodes"]:
         if "parent" not in node:
             link_ans = "'source': {}, 'target': '{}', 'linelevel': '{}'".format(j, 0, curr_dict["nodes"].get(node))
-            write_to_file(link_ans)
+            write_to_file(link_ans) # writes to file
         j += 1
     print("Complete ==> Please take a look at data.txt")
 
 
 def write_to_file(res=""):
-    f = open("data.txt", "a")
-    format_res = "{" + res + "},"
-    f.write(format_res + "\n")
-    f.write("")
-    f.close()
+    f = open("data.txt", "a") # open the file
+    format_res = "{" + res + "}," # format to JSON-like 
+    f.write(format_res + "\n") # write to file and add new line
+    f.close() # close
 
 
 def get_data():
     user_input = input("Input data file you need to convert (e.g. gaze / eye direction, verbal, speech content, ...): ")
+    data_layer = int(input("Input data metric layer: "))
     with open('df_website.csv', 'r') as file:
-        f = open("data.txt", "w")
+        f = open("data.txt", "w") # clear data.txt file of content
         reader = csv.reader(file)
-        determine_layer(reader, user_input)
+        if data_layer == 1:
+            # visual attention, eye motion, text, touch
+            # 3
+            print("layer 1")
+            determine_layer(reader, user_input, 3)
+        elif data_layer == 2:
+            # Gaze, Log Data, Body, Head
+            # 4
+            print("layer 2")
+            determine_layer(reader, user_input, 4)
+        elif data_layer == 3:
+            # Group Composition, Performance, Learning, Affective
+            # 6
+            print("layer 3")
+            determine_layer(reader, user_input, 6)
+        elif data_layer == 4:
+            # Condition, Product, Process
+            # 7
+            print("layer 4")
+            determine_layer(reader, user_input, 7)
+        else:
+            print("Cannot be identified.")
 get_data()
