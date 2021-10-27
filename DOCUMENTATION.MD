@@ -219,15 +219,14 @@ Drag your updated csv file into the convert_script folder.
 - ```data.txt``` is where the converted JSON data will be located
 - ```ctj.py``` is the python script that you run to convert the CSV data to JSON 
 
-To run the script, ```cd``` into the folder directory. 
+To run the script, ```cd``` into the ```convert_folder``` directory. 
 To run the script go to your terminal in VSCode and type in ```python3 ctj.py```
 
-Below are two correct example of using the program! <br>
+Below are two correct example of using the program! <br><br>
 <img src="./assets/images/correct_example.png"></img> <br><br>
 <img src="./assets/images/correct_example1.png"></img>
 
-Upon running the script there will be a prompt in the console asking you what type of data file you would like to convert to the JSON format. Simply input the name of the data file. This could be like eye motion, speech content, verbal, product, process, etc. Then it will ask that you input the layer that the data you are looking for is located.
-When inputting which layer, simply input a number such as ```1```, ```2```, ```3```, ```4```.
+Upon running the script there will be a prompt in the console asking you what type of data file you would like to convert to the JSON format. Simply input the name of the data file. This could be like interpersonal relationship / perception, speech content, verbal, product, process, etc. Then it will ask that you input the layer that the data you are looking for is located. When inputting which layer, simply input a number such as ```1```, ```2```, ```3```, ```4```.
 
 What is a "layer" - A layer is which column the data name is. 
 - Layer 1 - Visual Attention, Eye Motion, Task-related...
@@ -237,13 +236,26 @@ What is a "layer" - A layer is which column the data name is.
 
 <img src="./assets/images/layer_example.png"></img>
 
+**NOTE: 
+- INSTEAD of eye motion input --> gaze / eye direction 
+- INSTEAD of speech content input --> verbal content
+- INSTEAD of cognitive engagement input --> individual cognitive processes
+- INSTEAD of affective input --> affective state
+- INSTEAD of interpersonal --> interpersonal relationship / perception
+
+Input it as gaze / eye direction instead of eye motion because it is formatted that way inside the CSV file. However, when converting the data to JSON, this gaze / eye direction will be corrected to eye motion.
+
 It will then complete running and prompt that you take a look at the data.txt file. 
 
 This is what the text file will end up looking like.
 Simply copy and paste the node part and the link part separately. 
-
+You can distinguish between the two because the nodes part consists of ```ID```s while the links starts with ```source```.
 
 <img src="./assets/images/code_in_txt.png"></img>
+
+**NOTE: ```linelevel``` is the width of the line. I get this value by counting the number of times it repeatedly appears in the CSV file. For example, ```non-verbal speaking metrics (speaking length, interruptions, etc) [10 metrics]``` appears 4 times in the CSV file, giving it a linelevel of ```4``` <br>
+
+<img src="./assets/images/correct_example1.png"></img>
 
 If you see the error below:
 
