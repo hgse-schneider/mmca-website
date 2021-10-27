@@ -212,6 +212,15 @@ I deployed this web app using Netlify. Netlify is trusted and supports multiple 
 
 ## How do I update the data?
 
+Drag your updated csv file into the convert_script folder.
+
+<img src="./assets/images/convert_folder.png"></img>
+
+- ```data.txt``` is where the converted JSON data will be located
+- ```ctj.py``` is the python script that you run to convert the csv data to JSON 
+
+To run the script go to your terminal in VSCode and type in ```python3 ctj.py```
+
 
 
 

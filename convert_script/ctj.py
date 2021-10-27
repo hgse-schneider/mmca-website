@@ -153,7 +153,7 @@ def determine_url(data_link=""):
     elif data_link == "An Interactive Table for Supporting Participation Balance in Face-to-Face Collaborative Learning":
         return "An%20Interactive%20Table%20for%20Supporting%20Participation%20Balance%20in%20Face-to-Face%20Collaborative%20Learning"
     else:
-        print("Unknown")
+        return "Unknown"
 
 
 
@@ -177,18 +177,19 @@ def determine_layer(reader, data_link=""):
             else:
                 curr_dict["nodes"][name] = 1
                 url_link = determine_url(url_title) 
+                if url_link == "Unknown":
+                    print(name)
                 node_ans = "'id': {}, 'name': '{}', 'url': '{}'".format(i, name, url_link)
                 write_to_file(node_ans)
                 i += 1
 
     j = 0
     for node in curr_dict["nodes"]:
-        if "parent" in node:
-            print("skip")
-        else:
+        if "parent" not in node:
             link_ans = "'source': {}, 'target': '{}', 'linelevel': '{}'".format(j, 0, curr_dict["nodes"].get(node))
             write_to_file(link_ans)
         j += 1
+    print("Complete ==> Please take a look at data.txt")
 
 
 def write_to_file(res=""):
@@ -199,10 +200,10 @@ def write_to_file(res=""):
     f.close()
 
 
-def get_data(layer=1, layer_title=""):
+def get_data():
+    user_input = input("Input data file you need to convert (e.g. gaze / eye direction, verbal, speech content, ...): ")
     with open('df_website.csv', 'r') as file:
+        f = open("data.txt", "w")
         reader = csv.reader(file)
-        if layer == 1:
-            determine_layer(reader, layer_title)
-get_data(1, "verbal content")
-
+        determine_layer(reader, user_input)
+get_data()
