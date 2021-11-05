@@ -5,16 +5,28 @@ import json
 
 
 # function to add to JSON
-def write_json(new_data, filename=""):
+def write_json(new_data, filename="", mode=""):
     with open(filename,'r+') as file:
-          # First we load existing data into a dict.
-        file_data = json.load(file)
-        # Join new_data with file_data inside emp_details
-        file_data["nodes"].append(new_data)
-        # Sets file's current position at offset.
-        file.seek(0)
-        # convert back to json.
-        json.dump(file_data, file, indent = 4)
+        if mode == "nodes":
+            # First we load existing data into a dict.
+            file_data = json.load(file)
+            # Join new_data with file_data inside emp_details
+            file_data["nodes"].append(new_data)
+            # Sets file's current position at offset.
+            file.seek(0)
+            # convert back to json.
+            json.dump(file_data, file, indent = 4)
+        elif mode == "links":
+            # First we load existing data into a dict.
+            file_data = json.load(file)
+            # Join new_data with file_data inside emp_details
+            file_data["links"].append(new_data)
+            # Sets file's current position at offset.
+            file.seek(0)
+            # convert back to json.
+            json.dump(file_data, file, indent = 4)
+        else:
+            print("Do not understand")
 
 
 # List of URLs and there respective names
@@ -209,14 +221,19 @@ def determine_layer(reader, data_link="", data_layer=1):
                     "url": url_link
                 }
                 # write_to_file(node_ans) # writes to file
-                write_json(node_ans, "test_folder/test.json")
+                write_json(node_ans, "test_folder/test.json", "nodes")
                 i += 1
 
     j = 0 # counter
     for node in curr_dict["nodes"]:
         if "parent" not in node:
-            link_ans = "'source': {}, 'target': '{}', 'linelevel': '{}'".format(j, 0, curr_dict["nodes"].get(node))
-            write_to_file(link_ans) # writes to file
+            link_ans = {
+                "source": j, 
+                "target": 0, 
+                "linelevel": curr_dict["nodes"].get(node)
+            }
+            write_json(link_ans, "test_folder/test.json", "links")
+            # write_to_file(link_ans) # writes to file
         j += 1
     print("Complete ==> Please take a look at data.txt")
 
