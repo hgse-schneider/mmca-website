@@ -17,14 +17,6 @@ def write_json(new_data, filename=""):
         json.dump(file_data, file, indent = 4)
 
 
-y = {"emp_name":"Nikhil",
-     "email": "nikhil@geeksforgeeks.org",
-     "job_profile": "Full Time"
-    }
-     
-write_json(y, "test.json")
-
-
 # List of URLs and there respective names
 def determine_url(data_link=""):
     if data_link == "Privacy-Preserving Speech Analytics for Automatic Assessment of Student Collaboration":
@@ -211,8 +203,13 @@ def determine_layer(reader, data_link="", data_layer=1):
                 url_link = determine_url(url_title) # determine the URL based on the name
                 if url_link == "Unknown": # If the URL is unidentified, print the name of the node
                     print(name)
-                node_ans = "'id': {}, 'name': '{}', 'url': '{}'".format(i, name, url_link)
-                write_to_file(node_ans) # writes to file
+                node_ans = {
+                    "id": i,
+                    "name": name,
+                    "url": url_link
+                }
+                # write_to_file(node_ans) # writes to file
+                write_json(node_ans, "test_folder/test.json")
                 i += 1
 
     j = 0 # counter

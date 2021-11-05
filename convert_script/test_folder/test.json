@@ -1,0 +1,170 @@
+{
+    "nodes": [
+        {
+            "id": 1,
+            "name": "gesture",
+            "url": "The%20Additive%20Value%20of%20Multimodal%20Features%20for%20Predicting%20Engagement,%20Frustration,%20and%20Learning%20during%20Tutoring"
+        },
+        {
+            "id": 2,
+            "name": "clustered hand/wrist movement",
+            "url": "(Dis)Engagement%20Maters:%20Identifying%20Efficacious%20Learning%20Practices%20with%20Multimodal%20Learning%20Analytics"
+        },
+        {
+            "id": 3,
+            "name": "gestures",
+            "url": "Detecting%20Collaborative%20Dynamics%20Using%20Mobile%20Eye-Trackers"
+        },
+        {
+            "id": 4,
+            "name": "total movement",
+            "url": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features"
+        },
+        {
+            "id": 5,
+            "name": "distance from the center of the table",
+            "url": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features"
+        },
+        {
+            "id": 6,
+            "name": "body motion",
+            "url": "Personality%20Trait%20Classification%20via%20Co-Occurrent%20Multiparty%20Multimodal%20Event%20Discovery"
+        },
+        {
+            "id": 7,
+            "name": "motion energy images",
+            "url": "Personality%20Trait%20Classification%20via%20Co-Occurrent%20Multiparty%20Multimodal%20Event%20Discovery"
+        },
+        {
+            "id": 8,
+            "name": "total manual gestures per second",
+            "url": "Dynamic%20Adaptive%20Gesturing%20Predicts%20Domain%20Expertise%20in%20Mathematics"
+        },
+        {
+            "id": 9,
+            "name": "iconic gestures per second",
+            "url": "Dynamic%20Adaptive%20Gesturing%20Predicts%20Domain%20Expertise%20in%20Mathematics"
+        },
+        {
+            "id": 10,
+            "name": "deictic gestures per second",
+            "url": "Dynamic%20Adaptive%20Gesturing%20Predicts%20Domain%20Expertise%20in%20Mathematics"
+        },
+        {
+            "id": 11,
+            "name": "amount of movement",
+            "url": "Unraveling%20Students%27%20Interaction%20around%20a%20Tangible%20Interface%20Using%20Multimodal%20Learning%20Analytics."
+        },
+        {
+            "id": 12,
+            "name": "type of movement",
+            "url": "Unraveling%20Students%27%20Interaction%20around%20a%20Tangible%20Interface%20Using%20Multimodal%20Learning%20Analytics."
+        },
+        {
+            "id": 13,
+            "name": "body synchronization",
+            "url": "Unraveling%20Students%27%20Interaction%20around%20a%20Tangible%20Interface%20Using%20Multimodal%20Learning%20Analytics."
+        },
+        {
+            "id": 14,
+            "name": "body distance",
+            "url": "Unraveling%20Students%27%20Interaction%20around%20a%20Tangible%20Interface%20Using%20Multimodal%20Learning%20Analytics."
+        },
+        {
+            "id": 15,
+            "name": "face and upper body movement",
+            "url": "Modeling%20Team-level%20Multimodal%20Dynamics%20during%20Multiparty%20Collaboration"
+        },
+        {
+            "id": 16,
+            "name": "physical synchrony",
+            "url": "Predicting%20the%20Quality%20of%20Collaborative%20Problem%20Solving%20Through%20Linguistic%20Analysis%20of%20Discourse"
+        },
+        {
+            "id": 17,
+            "name": "distance between hands",
+            "url": "Using%20Multimodal%20Learning%20Analytics%20to%20Identify%20Aspects%20of%20Collaboration%20in%20Project-Based%20Learning"
+        },
+        {
+            "id": 18,
+            "name": "total movement across upper body joints and body parts",
+            "url": "Toward%20Using%20Multi-Modal%20Learning%20Analytics%20to%20Support%20and%20Measure%20Collaboration%20in%20Co-Located%20Dyads"
+        },
+        {
+            "id": 19,
+            "name": "mean distance between learners",
+            "url": "Supervised%20machine%20learning%20in%20multimodal%20learning%20analytics%20for%20estimating%20success%20in%20project-based%20learning"
+        },
+        {
+            "id": 20,
+            "name": "mean distance between hands",
+            "url": "Supervised%20machine%20learning%20in%20multimodal%20learning%20analytics%20for%20estimating%20success%20in%20project-based%20learning"
+        },
+        {
+            "id": 21,
+            "name": "mean hand movement speed",
+            "url": "Supervised%20machine%20learning%20in%20multimodal%20learning%20analytics%20for%20estimating%20success%20in%20project-based%20learning"
+        },
+        {
+            "id": 22,
+            "name": "distance between learners (dbl)",
+            "url": "Estimation%20of%20success%20in%20collaborative%20learning%20based%20on%20multimodal%20learning%20analytics%20features"
+        },
+        {
+            "id": 23,
+            "name": "joint movement",
+            "url": "Exploring%20Collaboration%20Using%20Motion%20Sensors%20and%20Multi-Modal%20Learning%20Analytics"
+        },
+        {
+            "id": 24,
+            "name": "joint angle",
+            "url": "Exploring%20Collaboration%20Using%20Motion%20Sensors%20and%20Multi-Modal%20Learning%20Analytics"
+        },
+        {
+            "id": 25,
+            "name": "dyad proximity",
+            "url": "Exploring%20Collaboration%20Using%20Motion%20Sensors%20and%20Multi-Modal%20Learning%20Analytics"
+        },
+        {
+            "id": 26,
+            "name": "amount of face and body movement",
+            "url": "Focused%20or%20Stuck%20Together:%20Multimodal%20Patterns%20Reveal%20Triads\u2019%20Performance%20in%20Collaborative%20Problem%20Solving"
+        },
+        {
+            "id": 27,
+            "name": "head/body movement",
+            "url": "Moving%20as%20a%20Leader:%20Detecting%20Emergent%20Leadership%20in%20Small%20Groups%20using%20Body%20Pose"
+        },
+        {
+            "id": 28,
+            "name": "time spent individually",
+            "url": "Using%20Motion%20Sensors%20to%20Understand%20Collaborative%20Interactions%20in%20Digital%20Fabrication%20Labs"
+        },
+        {
+            "id": 29,
+            "name": "time spent as a group",
+            "url": "Using%20Motion%20Sensors%20to%20Understand%20Collaborative%20Interactions%20in%20Digital%20Fabrication%20Labs"
+        },
+        {
+            "id": 30,
+            "name": "transition probabilities between collaborative state",
+            "url": "Using%20Motion%20Sensors%20to%20Understand%20Collaborative%20Interactions%20in%20Digital%20Fabrication%20Labs"
+        },
+        {
+            "id": 31,
+            "name": "upper body agitation",
+            "url": "Multi-modal%20Social%20Signal%20Analysis%20for%20Predicting%20Agreement%20in%20Conversation%20Settings"
+        },
+        {
+            "id": 32,
+            "name": "hand agitation",
+            "url": "Multi-modal%20Social%20Signal%20Analysis%20for%20Predicting%20Agreement%20in%20Conversation%20Settings"
+        },
+        {
+            "id": 33,
+            "name": "gesture type and location",
+            "url": "Improving%20Visibility%20of%20Remote%20Gestures%20in%20Distributed%20Tabletop%20Collaboration"
+        }
+    ],
+    "links": []
+}
