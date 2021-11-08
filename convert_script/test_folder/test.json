@@ -1,172 +1,157 @@
 {
     "nodes": [
         {
+            "id": 0,
+            "name": "eye motion",
+            "url": "parent"
+        },
+        {
             "id": 1,
-            "name": "gesture",
-            "url": "The%20Additive%20Value%20of%20Multimodal%20Features%20for%20Predicting%20Engagement,%20Frustration,%20and%20Learning%20during%20Tutoring"
+            "name": "focused gaze",
+            "url": "Understanding%20collaborative%20program%20comprehension:%20Interlacing%20gaze%20and%20dialogues"
         },
         {
             "id": 2,
-            "name": "clustered hand/wrist movement",
-            "url": "(Dis)Engagement%20Maters:%20Identifying%20Efficacious%20Learning%20Practices%20with%20Multimodal%20Learning%20Analytics"
+            "name": "together gaze",
+            "url": "Understanding%20collaborative%20program%20comprehension:%20Interlacing%20gaze%20and%20dialogues"
         },
         {
             "id": 3,
-            "name": "gestures",
-            "url": "Detecting%20Collaborative%20Dynamics%20Using%20Mobile%20Eye-Trackers"
+            "name": "visual attention metrics [8 metrics]",
+            "url": "A%20Multimodal-Sensor-Enabled%20Room%20for%20Unobtrusive%20Group%20Meeting%20Analysis"
         },
         {
             "id": 4,
-            "name": "total movement",
-            "url": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features"
+            "name": "individual visual focus of attention",
+            "url": "Linking%20Speaking%20and%20Looking%20Behavior%20Patterns%20with%20Group%20Composition,%20Perception,%20and%20Performance"
         },
         {
             "id": 5,
-            "name": "distance from the center of the table",
-            "url": "Expertise%20estimation%20based%20on%20simple%20multimodal%20features"
+            "name": "group looking cues (fraction of people gaze, fraction of convergent gaze, fraction of mutual gaze, fraction of shared gaze, gaze skew)",
+            "url": "Linking%20Speaking%20and%20Looking%20Behavior%20Patterns%20with%20Group%20Composition,%20Perception,%20and%20Performance"
         },
         {
             "id": 6,
-            "name": "body motion",
-            "url": "Personality%20Trait%20Classification%20via%20Co-Occurrent%20Multiparty%20Multimodal%20Event%20Discovery"
+            "name": "perceptual with-me-ness (gaze)",
+            "url": "Looking%20AT%20versus%20Looking%20THROUGH:%20A%20Dual%20Eye-tracking%20Study%20in%20MOOC%20Context"
         },
         {
             "id": 7,
-            "name": "motion energy images",
-            "url": "Personality%20Trait%20Classification%20via%20Co-Occurrent%20Multiparty%20Multimodal%20Event%20Discovery"
+            "name": "conceptual with-me-ness (gaze)",
+            "url": "Looking%20AT%20versus%20Looking%20THROUGH:%20A%20Dual%20Eye-tracking%20Study%20in%20MOOC%20Context"
         },
         {
             "id": 8,
-            "name": "total manual gestures per second",
-            "url": "Dynamic%20Adaptive%20Gesturing%20Predicts%20Domain%20Expertise%20in%20Mathematics"
+            "name": "gaze similarity",
+            "url": "Looking%20AT%20versus%20Looking%20THROUGH:%20A%20Dual%20Eye-tracking%20Study%20in%20MOOC%20Context"
         },
         {
             "id": 9,
-            "name": "iconic gestures per second",
-            "url": "Dynamic%20Adaptive%20Gesturing%20Predicts%20Domain%20Expertise%20in%20Mathematics"
+            "name": "gaze fixations",
+            "url": "A%20Network%20Analytic%20Approach%20to%20Gaze%20Coordination%20during%20a%20Collaborative%20Task"
         },
         {
             "id": 10,
-            "name": "deictic gestures per second",
-            "url": "Dynamic%20Adaptive%20Gesturing%20Predicts%20Domain%20Expertise%20in%20Mathematics"
+            "name": "(not) focused together",
+            "url": "Dual%20Gaze%20as%20a%20Proxy%20for%20Collaboration%20in%20Informal%20Learning"
         },
         {
             "id": 11,
-            "name": "amount of movement",
-            "url": "Unraveling%20Students%27%20Interaction%20around%20a%20Tangible%20Interface%20Using%20Multimodal%20Learning%20Analytics."
+            "name": "joint visual attention",
+            "url": "Using%20Eye-Tracking%20Technology%20to%20Support%20Visual%20Coordination%20in%20Collaborative%20Problem-Solving%20Groups"
         },
         {
             "id": 12,
-            "name": "type of movement",
-            "url": "Unraveling%20Students%27%20Interaction%20around%20a%20Tangible%20Interface%20Using%20Multimodal%20Learning%20Analytics."
+            "name": "gaze",
+            "url": "Personality%20Trait%20Classification%20via%20Co-Occurrent%20Multiparty%20Multimodal%20Event%20Discovery"
         },
         {
             "id": 13,
-            "name": "body synchronization",
-            "url": "Unraveling%20Students%27%20Interaction%20around%20a%20Tangible%20Interface%20Using%20Multimodal%20Learning%20Analytics."
+            "name": "cycles of collaborative / individual work",
+            "url": "Leveraging%20Mobile%20Eye-Trackers%20to%20Capture%20Joint%20Visual%20Attention%20in%20Co-Located%20Collaborative%20Learning"
         },
         {
             "id": 14,
-            "name": "body distance",
-            "url": "Unraveling%20Students%27%20Interaction%20around%20a%20Tangible%20Interface%20Using%20Multimodal%20Learning%20Analytics."
+            "name": "gaze location",
+            "url": "Gaze%20quality%20assisted%20automatic%20recognition%20of%20social%20contexts%20in%20collaborative%20Tetris"
         },
         {
             "id": 15,
-            "name": "face and upper body movement",
-            "url": "Modeling%20Team-level%20Multimodal%20Dynamics%20during%20Multiparty%20Collaboration"
+            "name": "gaze fixation",
+            "url": "Gaze%20quality%20assisted%20automatic%20recognition%20of%20social%20contexts%20in%20collaborative%20Tetris"
         },
         {
             "id": 16,
-            "name": "physical synchrony",
-            "url": "Predicting%20the%20Quality%20of%20Collaborative%20Problem%20Solving%20Through%20Linguistic%20Analysis%20of%20Discourse"
+            "name": "visual focus of attention features",
+            "url": "Investigating%20Automatic%20Dominance%20Estimation%20in%20Groups%20From%20Visual%20Attention%20and%20Speaking%20Activity"
         },
         {
             "id": 17,
-            "name": "distance between hands",
-            "url": "Using%20Multimodal%20Learning%20Analytics%20to%20Identify%20Aspects%20of%20Collaboration%20in%20Project-Based%20Learning"
+            "name": "cross-recurrence quantification analysis (crqa)",
+            "url": "Dynamics%20of%20Visual%20Attention%20in%20Multiparty%20Collaborative%20Problem%20Solving%20using%20Multidimensional%20Recurrence%20Quantification%20Analysis"
         },
         {
             "id": 18,
-            "name": "total movement across upper body joints and body parts",
-            "url": "Toward%20Using%20Multi-Modal%20Learning%20Analytics%20to%20Support%20and%20Measure%20Collaboration%20in%20Co-Located%20Dyads"
+            "name": "multidimensional recurrence quantification analysis (mdrqa)",
+            "url": "Dynamics%20of%20Visual%20Attention%20in%20Multiparty%20Collaborative%20Problem%20Solving%20using%20Multidimensional%20Recurrence%20Quantification%20Analysis"
         },
         {
             "id": 19,
-            "name": "mean distance between learners",
-            "url": "Supervised%20machine%20learning%20in%20multimodal%20learning%20analytics%20for%20estimating%20success%20in%20project-based%20learning"
+            "name": "audio-visual (looking while speaking, looking while listening, being looked while speaking, center of attention while speaking, visual dominance ratio)",
+            "url": "Emergent%20leaders%20through%20looking%20and%20speaking:%20from%20audio-visual%20data%20to%20multimodal%20recognition"
         },
         {
             "id": 20,
-            "name": "mean distance between hands",
-            "url": "Supervised%20machine%20learning%20in%20multimodal%20learning%20analytics%20for%20estimating%20success%20in%20project-based%20learning"
+            "name": "count of faces looking at screen",
+            "url": "Using%20Multimodal%20Learning%20Analytics%20to%20Identify%20Aspects%20of%20Collaboration%20in%20Project-Based%20Learning"
         },
         {
             "id": 21,
-            "name": "mean hand movement speed",
-            "url": "Supervised%20machine%20learning%20in%20multimodal%20learning%20analytics%20for%20estimating%20success%20in%20project-based%20learning"
+            "name": "evt of spatial entropy",
+            "url": "An%20Alternate%20Statistical%20Lens%20to%20Look%20at%20Collaboration%20Data:%20Extreme%20Value%20Theory"
         },
         {
             "id": 22,
-            "name": "distance between learners (dbl)",
-            "url": "Estimation%20of%20success%20in%20collaborative%20learning%20based%20on%20multimodal%20learning%20analytics%20features"
+            "name": "network features (+20)",
+            "url": "Toward%20Collaboration%20Sensing"
         },
         {
             "id": 23,
-            "name": "joint movement",
-            "url": "Exploring%20Collaboration%20Using%20Motion%20Sensors%20and%20Multi-Modal%20Learning%20Analytics"
+            "name": "joint-visual attention",
+            "url": "Unpacking%20Collaborative%20Learning%20Processes%20during%20Hands-on%20Activities%20using%20Mobile%20Eye-Trackers"
         },
         {
             "id": 24,
-            "name": "joint angle",
-            "url": "Exploring%20Collaboration%20Using%20Motion%20Sensors%20and%20Multi-Modal%20Learning%20Analytics"
+            "name": "visual field of attention on a person features",
+            "url": "Detecting%20Emergent%20Leader%20in%20a%20Meeting%20Environment"
         },
         {
             "id": 25,
-            "name": "dyad proximity",
-            "url": "Exploring%20Collaboration%20Using%20Motion%20Sensors%20and%20Multi-Modal%20Learning%20Analytics"
+            "name": "shared gaze",
+            "url": "Effects%20of%20Shared%20Gaze%20on%20Audio-%20Versus%20Text-Based%20Remote%20Collaborations"
         },
         {
             "id": 26,
-            "name": "amount of face and body movement",
-            "url": "Focused%20or%20Stuck%20Together:%20Multimodal%20Patterns%20Reveal%20Triads\u2019%20Performance%20in%20Collaborative%20Problem%20Solving"
+            "name": "attention received per person",
+            "url": "Employing%20Social%20Gaze%20and%20Speaking%20Activity%20for%20Automatic%20Determination%20of%20the%20Extraversion%20Trait"
         },
         {
             "id": 27,
-            "name": "head/body movement",
-            "url": "Moving%20as%20a%20Leader:%20Detecting%20Emergent%20Leadership%20in%20Small%20Groups%20using%20Body%20Pose"
+            "name": "attention given by person",
+            "url": "Employing%20Social%20Gaze%20and%20Speaking%20Activity%20for%20Automatic%20Determination%20of%20the%20Extraversion%20Trait"
         },
         {
             "id": 28,
-            "name": "time spent individually",
-            "url": "Using%20Motion%20Sensors%20to%20Understand%20Collaborative%20Interactions%20in%20Digital%20Fabrication%20Labs"
-        },
-        {
-            "id": 29,
-            "name": "time spent as a group",
-            "url": "Using%20Motion%20Sensors%20to%20Understand%20Collaborative%20Interactions%20in%20Digital%20Fabrication%20Labs"
-        },
-        {
-            "id": 30,
-            "name": "transition probabilities between collaborative state",
-            "url": "Using%20Motion%20Sensors%20to%20Understand%20Collaborative%20Interactions%20in%20Digital%20Fabrication%20Labs"
-        },
-        {
-            "id": 31,
-            "name": "upper body agitation",
-            "url": "Multi-modal%20Social%20Signal%20Analysis%20for%20Predicting%20Agreement%20in%20Conversation%20Settings"
-        },
-        {
-            "id": 32,
-            "name": "hand agitation",
-            "url": "Multi-modal%20Social%20Signal%20Analysis%20for%20Predicting%20Agreement%20in%20Conversation%20Settings"
-        },
-        {
-            "id": 33,
-            "name": "gesture type and location",
-            "url": "Improving%20Visibility%20of%20Remote%20Gestures%20in%20Distributed%20Tabletop%20Collaboration"
+            "name": "gaze overlap",
+            "url": "See%20What%20I\u2019m%20Saying?%20Using%20Dyadic%20Mobile%20Eye%20Tracking%20to%20Study%20Collaborative%20Reference"
         }
     ],
     "links": [
+        {
+            "source": 0,
+            "target": 0,
+            "linelevel": 1
+        },
         {
             "source": 1,
             "target": 0,
@@ -175,22 +160,22 @@
         {
             "source": 2,
             "target": 0,
-            "linelevel": 1
+            "linelevel": 3
         },
         {
             "source": 3,
             "target": 0,
-            "linelevel": 1
+            "linelevel": 4
         },
         {
             "source": 4,
             "target": 0,
-            "linelevel": 2
+            "linelevel": 3
         },
         {
             "source": 5,
             "target": 0,
-            "linelevel": 2
+            "linelevel": 3
         },
         {
             "source": 6,
@@ -215,37 +200,37 @@
         {
             "source": 10,
             "target": 0,
-            "linelevel": 1
+            "linelevel": 2
         },
         {
             "source": 11,
             "target": 0,
-            "linelevel": 2
+            "linelevel": 19
         },
         {
             "source": 12,
             "target": 0,
-            "linelevel": 3
+            "linelevel": 1
         },
         {
             "source": 13,
             "target": 0,
-            "linelevel": 6
+            "linelevel": 4
         },
         {
             "source": 14,
             "target": 0,
-            "linelevel": 2
+            "linelevel": 3
         },
         {
             "source": 15,
             "target": 0,
-            "linelevel": 5
+            "linelevel": 1
         },
         {
             "source": 16,
             "target": 0,
-            "linelevel": 3
+            "linelevel": 1
         },
         {
             "source": 17,
@@ -260,7 +245,7 @@
         {
             "source": 19,
             "target": 0,
-            "linelevel": 1
+            "linelevel": 4
         },
         {
             "source": 20,
@@ -270,67 +255,42 @@
         {
             "source": 21,
             "target": 0,
-            "linelevel": 1
+            "linelevel": 2
         },
         {
             "source": 22,
             "target": 0,
-            "linelevel": 2
+            "linelevel": 4
         },
         {
             "source": 23,
             "target": 0,
-            "linelevel": 3
+            "linelevel": 4
         },
         {
             "source": 24,
             "target": 0,
-            "linelevel": 1
+            "linelevel": 2
         },
         {
             "source": 25,
             "target": 0,
-            "linelevel": 3
+            "linelevel": 5
         },
         {
             "source": 26,
             "target": 0,
-            "linelevel": 2
+            "linelevel": 1
         },
         {
             "source": 27,
             "target": 0,
-            "linelevel": 2
+            "linelevel": 1
         },
         {
             "source": 28,
             "target": 0,
             "linelevel": 1
-        },
-        {
-            "source": 29,
-            "target": 0,
-            "linelevel": 2
-        },
-        {
-            "source": 30,
-            "target": 0,
-            "linelevel": 3
-        },
-        {
-            "source": 31,
-            "target": 0,
-            "linelevel": 1
-        },
-        {
-            "source": 32,
-            "target": 0,
-            "linelevel": 1
-        },
-        {
-            "source": 33,
-            "target": 0,
-            "linelevel": 2
         }
     ]
 }

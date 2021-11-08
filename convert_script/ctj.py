@@ -187,20 +187,26 @@ def determine_url(data_link=""):
 # Main function that converts data
 def determine_layer(reader, data_link="", data_layer=1):
     i = 1 # counter
-    parent = "'id': {}, 'name': '{}', 'url': '{}'".format(0, data_link, "parent")
+    parent = {
+        "id": 0,
+        "name": data_link,
+        "url": "parent"
+    }
     curr_dict = {"nodes": {}, "links": {}} # dictionary that stores the JSON converted data
     if data_link == "gaze / eye direction": # just to make sure that it ends up as "eye motion"
-        parent = "'id': {}, 'name': '{}', 'url': '{}'".format(0, "eye motion", "parent")
+        parent["name"] = "eye motion"
     if data_link == "verbal content": # just to make sure that it ends up as "speech content"
         parent = "'id': {}, 'name': '{}', 'url': '{}'".format(0, "speech content", "parent")
+        parent["name"] = "speech content"
     if data_link == "individual cognitive processes":
-        parent = "'id': {}, 'name': '{}', 'url': '{}'".format(0, "cognitive engagement", "parent")
+        parent["name"] = "cognitive engagement"
     if data_link == "affective state":
-        parent = "'id': {}, 'name': '{}', 'url': '{}'".format(0, "affective", "parent")
+        parent["name"] = "affective"
     if data_link == "interpersonal relationship / perception":
-        parent = "'id': {}, 'name': '{}', 'url': '{}'".format(0, "interpersonal", "parent")
-    curr_dict["nodes"][parent] = 1 # add to dictionary 
-    write_to_file(parent) # write the very first and parent node to the txt file
+        parent["name"] = "interpersonal"
+    curr_dict["nodes"][parent["name"]] = 1 # add to dictionary 
+    # write_to_file(parent) # write the very first and parent node to the txt file
+    write_json(parent, "test_folder/test.json", "nodes")
 
     for row in reader:
         assumed = row[data_layer] 
@@ -274,4 +280,3 @@ def get_data():
         else:
             print("Cannot be identified.")
 get_data()
-

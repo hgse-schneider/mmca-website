@@ -148,14 +148,15 @@ async function force_layout(data_link) {
                     }
                     
                     let color_dict = data["color_dict"]
-                    let color_type = color_dict[d.name]
-
-                    // if(data_link.includes("layer_1")) {
-                    //     return colorScale(d.group)
-                    // }
-
+                    let lowercase_dict = []
+                    for (const [key, value] of Object.entries(color_dict)) {
+                        lowercase_dict[key.toLowerCase()] = value
+                    }
+                    let d_name = d.name.toLowerCase()
+                    let color_type = lowercase_dict[d_name]
+   
                     if(color_type == undefined) {
-                        console.log("Undefined: " + d.name)
+                        console.log("Undefined: " + d_name)
                     } else {
                         // console.log(color_dict[d.name])
                         return colorScale(color_type)

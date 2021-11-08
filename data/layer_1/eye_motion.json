@@ -1,13 +1,291 @@
 {
     "nodes": [
-        {"id": 1, "name": "Eye Motion", "url": "parent"},
-        {"id": 2, "name": "Gaze saccade", "url": "Gaze%20quality%20assisted%20automatic%20recognition%20of%20social%20contexts%20in%20collaborative%20Tetris"},
-        {"id": 3, "name": "Gaze transitions", "url": "Understanding%20collaborative%20program%20comprehension:%20Interlacing%20gaze%20and%20dialogues"},
-        {"id": 4, "name": "gaze saccades", "url": "A%20Network%20Analytic%20Approach%20to%20Gaze%20Coordination%20during%20a%20Collaborative%20Task"}
-    ], 
+        {
+            "id": 0,
+            "name": "eye motion",
+            "url": "parent"
+        },
+        {
+            "id": 1,
+            "name": "focused gaze",
+            "url": "Understanding%20collaborative%20program%20comprehension:%20Interlacing%20gaze%20and%20dialogues"
+        },
+        {
+            "id": 2,
+            "name": "together gaze",
+            "url": "Understanding%20collaborative%20program%20comprehension:%20Interlacing%20gaze%20and%20dialogues"
+        },
+        {
+            "id": 3,
+            "name": "visual attention metrics [8 metrics]",
+            "url": "A%20Multimodal-Sensor-Enabled%20Room%20for%20Unobtrusive%20Group%20Meeting%20Analysis"
+        },
+        {
+            "id": 4,
+            "name": "individual visual focus of attention",
+            "url": "Linking%20Speaking%20and%20Looking%20Behavior%20Patterns%20with%20Group%20Composition,%20Perception,%20and%20Performance"
+        },
+        {
+            "id": 5,
+            "name": "group looking cues (fraction of people gaze, fraction of convergent gaze, fraction of mutual gaze, fraction of shared gaze, gaze skew)",
+            "url": "Linking%20Speaking%20and%20Looking%20Behavior%20Patterns%20with%20Group%20Composition,%20Perception,%20and%20Performance"
+        },
+        {
+            "id": 6,
+            "name": "perceptual with-me-ness (gaze)",
+            "url": "Looking%20AT%20versus%20Looking%20THROUGH:%20A%20Dual%20Eye-tracking%20Study%20in%20MOOC%20Context"
+        },
+        {
+            "id": 7,
+            "name": "conceptual with-me-ness (gaze)",
+            "url": "Looking%20AT%20versus%20Looking%20THROUGH:%20A%20Dual%20Eye-tracking%20Study%20in%20MOOC%20Context"
+        },
+        {
+            "id": 8,
+            "name": "gaze similarity",
+            "url": "Looking%20AT%20versus%20Looking%20THROUGH:%20A%20Dual%20Eye-tracking%20Study%20in%20MOOC%20Context"
+        },
+        {
+            "id": 9,
+            "name": "gaze fixations",
+            "url": "A%20Network%20Analytic%20Approach%20to%20Gaze%20Coordination%20during%20a%20Collaborative%20Task"
+        },
+        {
+            "id": 10,
+            "name": "(not) focused together",
+            "url": "Dual%20Gaze%20as%20a%20Proxy%20for%20Collaboration%20in%20Informal%20Learning"
+        },
+        {
+            "id": 11,
+            "name": "joint visual attention",
+            "url": "Using%20Eye-Tracking%20Technology%20to%20Support%20Visual%20Coordination%20in%20Collaborative%20Problem-Solving%20Groups"
+        },
+        {
+            "id": 12,
+            "name": "gaze",
+            "url": "Personality%20Trait%20Classification%20via%20Co-Occurrent%20Multiparty%20Multimodal%20Event%20Discovery"
+        },
+        {
+            "id": 13,
+            "name": "cycles of collaborative / individual work",
+            "url": "Leveraging%20Mobile%20Eye-Trackers%20to%20Capture%20Joint%20Visual%20Attention%20in%20Co-Located%20Collaborative%20Learning"
+        },
+        {
+            "id": 14,
+            "name": "gaze location",
+            "url": "Gaze%20quality%20assisted%20automatic%20recognition%20of%20social%20contexts%20in%20collaborative%20Tetris"
+        },
+        {
+            "id": 15,
+            "name": "gaze fixation",
+            "url": "Gaze%20quality%20assisted%20automatic%20recognition%20of%20social%20contexts%20in%20collaborative%20Tetris"
+        },
+        {
+            "id": 16,
+            "name": "visual focus of attention features",
+            "url": "Investigating%20Automatic%20Dominance%20Estimation%20in%20Groups%20From%20Visual%20Attention%20and%20Speaking%20Activity"
+        },
+        {
+            "id": 17,
+            "name": "cross-recurrence quantification analysis (crqa)",
+            "url": "Dynamics%20of%20Visual%20Attention%20in%20Multiparty%20Collaborative%20Problem%20Solving%20using%20Multidimensional%20Recurrence%20Quantification%20Analysis"
+        },
+        {
+            "id": 18,
+            "name": "multidimensional recurrence quantification analysis (mdrqa)",
+            "url": "Dynamics%20of%20Visual%20Attention%20in%20Multiparty%20Collaborative%20Problem%20Solving%20using%20Multidimensional%20Recurrence%20Quantification%20Analysis"
+        },
+        {
+            "id": 19,
+            "name": "audio-visual (looking while speaking, looking while listening, being looked while speaking, center of attention while speaking, visual dominance ratio)",
+            "url": "Emergent%20leaders%20through%20looking%20and%20speaking:%20from%20audio-visual%20data%20to%20multimodal%20recognition"
+        },
+        {
+            "id": 20,
+            "name": "count of faces looking at screen",
+            "url": "Using%20Multimodal%20Learning%20Analytics%20to%20Identify%20Aspects%20of%20Collaboration%20in%20Project-Based%20Learning"
+        },
+        {
+            "id": 21,
+            "name": "evt of spatial entropy",
+            "url": "An%20Alternate%20Statistical%20Lens%20to%20Look%20at%20Collaboration%20Data:%20Extreme%20Value%20Theory"
+        },
+        {
+            "id": 22,
+            "name": "network features (+20)",
+            "url": "Toward%20Collaboration%20Sensing"
+        },
+        {
+            "id": 23,
+            "name": "joint-visual attention",
+            "url": "Unpacking%20Collaborative%20Learning%20Processes%20during%20Hands-on%20Activities%20using%20Mobile%20Eye-Trackers"
+        },
+        {
+            "id": 24,
+            "name": "visual field of attention on a person features",
+            "url": "Detecting%20Emergent%20Leader%20in%20a%20Meeting%20Environment"
+        },
+        {
+            "id": 25,
+            "name": "shared gaze",
+            "url": "Effects%20of%20Shared%20Gaze%20on%20Audio-%20Versus%20Text-Based%20Remote%20Collaborations"
+        },
+        {
+            "id": 26,
+            "name": "attention received per person",
+            "url": "Employing%20Social%20Gaze%20and%20Speaking%20Activity%20for%20Automatic%20Determination%20of%20the%20Extraversion%20Trait"
+        },
+        {
+            "id": 27,
+            "name": "attention given by person",
+            "url": "Employing%20Social%20Gaze%20and%20Speaking%20Activity%20for%20Automatic%20Determination%20of%20the%20Extraversion%20Trait"
+        },
+        {
+            "id": 28,
+            "name": "gaze overlap",
+            "url": "See%20What%20I\u2019m%20Saying?%20Using%20Dyadic%20Mobile%20Eye%20Tracking%20to%20Study%20Collaborative%20Reference"
+        }
+    ],
     "links": [
-        {"source": 2, "target": 1, "type": "ml", "linetype": "0,0", "linelevel": "1"},
-        {"source": 3, "target": 1, "type": "glm", "linetype": "0,0", "linelevel": "1"},
-        {"source": 4, "target": 1, "type": "", "linetype": "0,0", "linelevel": "1"}
+        {
+            "source": 1,
+            "target": 0,
+            "linelevel": 3
+        },
+        {
+            "source": 2,
+            "target": 0,
+            "linelevel": 3
+        },
+        {
+            "source": 3,
+            "target": 0,
+            "linelevel": 4
+        },
+        {
+            "source": 4,
+            "target": 0,
+            "linelevel": 3
+        },
+        {
+            "source": 5,
+            "target": 0,
+            "linelevel": 3
+        },
+        {
+            "source": 6,
+            "target": 0,
+            "linelevel": 1
+        },
+        {
+            "source": 7,
+            "target": 0,
+            "linelevel": 1
+        },
+        {
+            "source": 8,
+            "target": 0,
+            "linelevel": 1
+        },
+        {
+            "source": 9,
+            "target": 0,
+            "linelevel": 1
+        },
+        {
+            "source": 10,
+            "target": 0,
+            "linelevel": 2
+        },
+        {
+            "source": 11,
+            "target": 0,
+            "linelevel": 19
+        },
+        {
+            "source": 12,
+            "target": 0,
+            "linelevel": 1
+        },
+        {
+            "source": 13,
+            "target": 0,
+            "linelevel": 4
+        },
+        {
+            "source": 14,
+            "target": 0,
+            "linelevel": 3
+        },
+        {
+            "source": 15,
+            "target": 0,
+            "linelevel": 1
+        },
+        {
+            "source": 16,
+            "target": 0,
+            "linelevel": 1
+        },
+        {
+            "source": 17,
+            "target": 0,
+            "linelevel": 5
+        },
+        {
+            "source": 18,
+            "target": 0,
+            "linelevel": 2
+        },
+        {
+            "source": 19,
+            "target": 0,
+            "linelevel": 4
+        },
+        {
+            "source": 20,
+            "target": 0,
+            "linelevel": 1
+        },
+        {
+            "source": 21,
+            "target": 0,
+            "linelevel": 2
+        },
+        {
+            "source": 22,
+            "target": 0,
+            "linelevel": 4
+        },
+        {
+            "source": 23,
+            "target": 0,
+            "linelevel": 4
+        },
+        {
+            "source": 24,
+            "target": 0,
+            "linelevel": 2
+        },
+        {
+            "source": 25,
+            "target": 0,
+            "linelevel": 5
+        },
+        {
+            "source": 26,
+            "target": 0,
+            "linelevel": 1
+        },
+        {
+            "source": 27,
+            "target": 0,
+            "linelevel": 1
+        },
+        {
+            "source": 28,
+            "target": 0,
+            "linelevel": 1
+        }
     ]
 }

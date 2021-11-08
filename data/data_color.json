@@ -188,18 +188,21 @@
         "symmetry of touch actions among group": "Color_2", 
         "cognitive load (from pupil size)": "Color_1",
         "Audio-visual (Looking while speaking, Looking while listening, Being looked while speaking, Center of attention while speaking, Visual dominance ratio)": "Color_1", 
+        "audio-visual (Looking while speaking, Looking while listening, Being looked while speaking, Center of attention while speaking, Visual dominance ratio)": "Color_1", 
         "attention given by person": "Color_1", 
         "Cycles of collaborative / individual work": "Color_1", 
         "EVT of spatial entropy": "Color_1", 
         "visual focus of attention": "Color_1", 
         "Joint visual Attention": "Color_1", 
         "Individual Visual Focus of Attention": "Color_1", 
+        "individual visual focus of attention": "Color_1",
         "Gaze": "Color_1", 
         "Focused gaze": "Color_1", 
         "attention received per person": "Color_1", 
         "conceptual with-me-ness (gaze)": "Color_1", 
         "Gaze fixation": "Color_1", 
-        "Gaze location": "Color_1", 
+        "Gaze location": "Color_1",
+        "gaze location": "Color_1", 
         "gaze fixations": "Color_1", 
         "joint visual attention": "Color_1", 
         "(not)": "Color_1", 
@@ -216,6 +219,9 @@
         "joint-visual attention": "Color_1", 
         "visual field of attention on a person features": "Color_1", 
         "Network features [+20]": "Color_1", 
-        "Cross-Recurrence Quantification Analysis (CRQA)": "Color_1"
+        "Cross-Recurrence Quantification Analysis (CRQA)": "Color_1",
+        "gaze overlap": "Color_1",
+        "network features (+20)": "Color_1",
+        "(not) focused together": "Color_1"
     }
 }
