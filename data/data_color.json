@@ -222,6 +222,12 @@
         "Cross-Recurrence Quantification Analysis (CRQA)": "Color_1",
         "gaze overlap": "Color_1",
         "network features (+20)": "Color_1",
-        "(not) focused together": "Color_1"
+        "(not) focused together": "Color_1",
+        "cross-recurrence quantification analysis": "Color_1",
+        "multidimensional recurrence quantification analysis": "Color_1",
+        "group looking cues": "Color_1",
+        "audio-visual": "Color_1",
+        "visual attention": "Color_1",
+        "network features": "Color_1"
     }
 }

@@ -22,7 +22,7 @@
         },
         {
             "id": 4,
-            "name": "visual attention metrics [8 metrics]",
+            "name": "visual attention",
             "url": "A%20Multimodal-Sensor-Enabled%20Room%20for%20Unobtrusive%20Group%20Meeting%20Analysis"
         },
         {
@@ -32,7 +32,7 @@
         },
         {
             "id": 6,
-            "name": "group looking cues (fraction of people gaze, fraction of convergent gaze, fraction of mutual gaze, fraction of shared gaze, gaze skew)",
+            "name": "group looking cues",
             "url": "Linking%20Speaking%20and%20Looking%20Behavior%20Patterns%20with%20Group%20Composition,%20Perception,%20and%20Performance"
         },
         {
@@ -92,23 +92,23 @@
         },
         {
             "id": 18,
-            "name": "visual focus of attention features",
+            "name": "visual focus of attention",
             "url": "Investigating%20Automatic%20Dominance%20Estimation%20in%20Groups%20From%20Visual%20Attention%20and%20Speaking%20Activity"
         },
         {
             "id": 19,
-            "name": "cross-recurrence quantification analysis (crqa)",
+            "name": "cross-recurrence quantification analysis",
             "url": "Dynamics%20of%20Visual%20Attention%20in%20Multiparty%20Collaborative%20Problem%20Solving%20using%20Multidimensional%20Recurrence%20Quantification%20Analysis"
         },
         {
             "id": 20,
-            "name": "multidimensional recurrence quantification analysis (mdrqa)",
+            "name": "multidimensional recurrence quantification analysis",
             "url": "Dynamics%20of%20Visual%20Attention%20in%20Multiparty%20Collaborative%20Problem%20Solving%20using%20Multidimensional%20Recurrence%20Quantification%20Analysis"
         },
         {
             "id": 21,
-            "name": "audio-visual (looking while speaking, looking while listening, being looked while speaking, center of attention while speaking, visual dominance ratio)",
-            "url": "Emergent%20leaders%20through%20looking%20and%20speaking:%20from%20audio-visual%20data%20to%20multimodal%20recognition"
+            "name": "audio-visual",
+            "url": "Unknown"
         },
         {
             "id": 22,
@@ -122,41 +122,36 @@
         },
         {
             "id": 24,
-            "name": "network features (+20)",
+            "name": "network features",
             "url": "Toward%20Collaboration%20Sensing"
         },
         {
             "id": 25,
-            "name": "joint-visual attention",
-            "url": "Unpacking%20Collaborative%20Learning%20Processes%20during%20Hands-on%20Activities%20using%20Mobile%20Eye-Trackers"
-        },
-        {
-            "id": 26,
             "name": "cognitive load (from pupil size)",
             "url": "Real-time%20mutual%20gaze%20perception"
         },
         {
-            "id": 27,
+            "id": 26,
             "name": "visual field of attention on a person features",
             "url": "Detecting%20Emergent%20Leader%20in%20a%20Meeting%20Environment"
         },
         {
-            "id": 28,
+            "id": 27,
             "name": "shared gaze",
             "url": "Effects%20of%20Shared%20Gaze%20on%20Audio-%20Versus%20Text-Based%20Remote%20Collaborations"
         },
         {
-            "id": 29,
+            "id": 28,
             "name": "attention received per person",
             "url": "Employing%20Social%20Gaze%20and%20Speaking%20Activity%20for%20Automatic%20Determination%20of%20the%20Extraversion%20Trait"
         },
         {
-            "id": 30,
+            "id": 29,
             "name": "attention given by person",
             "url": "Employing%20Social%20Gaze%20and%20Speaking%20Activity%20for%20Automatic%20Determination%20of%20the%20Extraversion%20Trait"
         },
         {
-            "id": 31,
+            "id": 30,
             "name": "gaze overlap",
             "url": "See%20What%20I\u2019m%20Saying?%20Using%20Dyadic%20Mobile%20Eye%20Tracking%20to%20Study%20Collaborative%20Reference"
         }
@@ -230,7 +225,7 @@
         {
             "source": 13,
             "target": 0,
-            "linelevel": 19
+            "linelevel": 23
         },
         {
             "source": 14,
@@ -290,22 +285,22 @@
         {
             "source": 25,
             "target": 0,
-            "linelevel": 4
+            "linelevel": 1
         },
         {
             "source": 26,
             "target": 0,
-            "linelevel": 1
+            "linelevel": 2
         },
         {
             "source": 27,
             "target": 0,
-            "linelevel": 2
+            "linelevel": 5
         },
         {
             "source": 28,
             "target": 0,
-            "linelevel": 5
+            "linelevel": 1
         },
         {
             "source": 29,
@@ -314,11 +309,6 @@
         },
         {
             "source": 30,
-            "target": 0,
-            "linelevel": 1
-        },
-        {
-            "source": 31,
             "target": 0,
             "linelevel": 1
         }
