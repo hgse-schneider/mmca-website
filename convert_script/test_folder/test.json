@@ -2,7 +2,7 @@
     "nodes": [
         {
             "id": 0,
-            "name": "gaze",
+            "name": "eye motion",
             "url": "parent"
         },
         {
@@ -72,63 +72,63 @@
         },
         {
             "id": 14,
+            "name": "gaze",
+            "url": "Personality%20Trait%20Classification%20via%20Co-Occurrent%20Multiparty%20Multimodal%20Event%20Discovery"
+        },
+        {
+            "id": 15,
             "name": "cycles of collaborative / individual work",
             "url": "Leveraging%20Mobile%20Eye-Trackers%20to%20Capture%20Joint%20Visual%20Attention%20in%20Co-Located%20Collaborative%20Learning"
         },
         {
-            "id": 15,
+            "id": 16,
             "name": "gaze location",
             "url": "Gaze%20quality%20assisted%20automatic%20recognition%20of%20social%20contexts%20in%20collaborative%20Tetris"
         },
         {
-            "id": 16,
+            "id": 17,
             "name": "gaze saccade",
             "url": "Gaze%20quality%20assisted%20automatic%20recognition%20of%20social%20contexts%20in%20collaborative%20Tetris"
         },
         {
-            "id": 17,
+            "id": 18,
             "name": "gaze fixation",
             "url": "Gaze%20quality%20assisted%20automatic%20recognition%20of%20social%20contexts%20in%20collaborative%20Tetris"
         },
         {
-            "id": 18,
+            "id": 19,
             "name": "visual focus of attention",
             "url": "Investigating%20Automatic%20Dominance%20Estimation%20in%20Groups%20From%20Visual%20Attention%20and%20Speaking%20Activity"
         },
         {
-            "id": 19,
+            "id": 20,
             "name": "cross-recurrence quantification analysis",
             "url": "Dynamics%20of%20Visual%20Attention%20in%20Multiparty%20Collaborative%20Problem%20Solving%20using%20Multidimensional%20Recurrence%20Quantification%20Analysis"
         },
         {
-            "id": 20,
+            "id": 21,
             "name": "multidimensional recurrence quantification analysis",
             "url": "Dynamics%20of%20Visual%20Attention%20in%20Multiparty%20Collaborative%20Problem%20Solving%20using%20Multidimensional%20Recurrence%20Quantification%20Analysis"
         },
         {
-            "id": 21,
+            "id": 22,
             "name": "audio-visual",
             "url": "Unknown"
         },
         {
-            "id": 22,
+            "id": 23,
             "name": "count of faces looking at screen",
             "url": "Using%20Multimodal%20Learning%20Analytics%20to%20Identify%20Aspects%20of%20Collaboration%20in%20Project-Based%20Learning"
         },
         {
-            "id": 23,
+            "id": 24,
             "name": "evt of spatial entropy",
             "url": "An%20Alternate%20Statistical%20Lens%20to%20Look%20at%20Collaboration%20Data:%20Extreme%20Value%20Theory"
         },
         {
-            "id": 24,
+            "id": 25,
             "name": "network features",
             "url": "Toward%20Collaboration%20Sensing"
-        },
-        {
-            "id": 25,
-            "name": "cognitive load (from pupil size)",
-            "url": "Real-time%20mutual%20gaze%20perception"
         },
         {
             "id": 26,
@@ -160,7 +160,7 @@
         {
             "source": 0,
             "target": 0,
-            "linelevel": 2
+            "linelevel": 1
         },
         {
             "source": 1,
@@ -230,17 +230,17 @@
         {
             "source": 14,
             "target": 0,
-            "linelevel": 4
+            "linelevel": 1
         },
         {
             "source": 15,
             "target": 0,
-            "linelevel": 3
+            "linelevel": 4
         },
         {
             "source": 16,
             "target": 0,
-            "linelevel": 1
+            "linelevel": 3
         },
         {
             "source": 17,
@@ -255,37 +255,37 @@
         {
             "source": 19,
             "target": 0,
-            "linelevel": 5
+            "linelevel": 1
         },
         {
             "source": 20,
             "target": 0,
-            "linelevel": 2
+            "linelevel": 5
         },
         {
             "source": 21,
             "target": 0,
-            "linelevel": 4
+            "linelevel": 2
         },
         {
             "source": 22,
             "target": 0,
-            "linelevel": 1
+            "linelevel": 4
         },
         {
             "source": 23,
             "target": 0,
-            "linelevel": 2
+            "linelevel": 1
         },
         {
             "source": 24,
             "target": 0,
-            "linelevel": 4
+            "linelevel": 2
         },
         {
             "source": 25,
             "target": 0,
-            "linelevel": 1
+            "linelevel": 4
         },
         {
             "source": 26,
