@@ -6,7 +6,7 @@ By Harvard Learning, Innovation, and Technology Lab (LIT)
 
  - master: latest stable build
  - live: currently deployed site
- ✅ - testing: General testing branch
+ - ✅ testing: General testing branch
  - Others: Individual branches for specific features, to be merged into testing
 
 ## Structure
