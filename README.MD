@@ -2,6 +2,14 @@
 
 By Harvard Learning, Innovation, and Technology Lab (LIT)
 
+### GitHub organization
+
+ - ✅ master: latest stable build
+ - live: currently deployed site
+ - testing: General testing branch
+ - Others: Individual branches for specific features, to be merged into testing
+
+
 ## Structure
 
 assets folder - contain images to style the website </br>
