@@ -1,4 +1,4 @@
-Paper_id_ new,paper_id,coder,data,data_standardized,sensor,brand,metric,metric_larger_category,metric_smaller_category,metric_IG_category,data_per_metric,data_metric_method,outcome,outcome_instrument,outcome_smaller_category,outcome_larger_category,analysis_and_results mm-oo:analysis:resultsig
+paper_id_ new,paper_id,coder,data,data_standardized,sensor,brand,metric,metric_larger_category,metric_smaller_category,metric_IG_category,data_per_metric,data_metric_method,outcome,outcome_instrument,outcome_smaller_category,outcome_larger_category,analysis_and_results mm-oo:analysis:resultsig
 1,1,bert,III) Audio,III) Audio,III) microphone,III) NS,1) speech time,1) Verbal,1) Speech Features,1) individual,1) III,1) calculation,A) verbal participation,A) survey,A) communication,A) process,1-A: t-test: sig (t[38] = 2.18)
 2,3,bert,"I) Eye gaze
 III) Audio","I) Eye gaze
