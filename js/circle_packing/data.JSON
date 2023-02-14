@@ -1,0 +1,2640 @@
+{
+    "0": {
+        "data_standardized": [
+            "III) Audio"
+        ],
+        "sensor": [
+            "III) microphone"
+        ],
+        "metric": [
+            "1) speech time"
+        ],
+        "metric_larger_category": [
+            "1) Verbal"
+        ],
+        "metric_smaller_category": [
+            "1) Speech Features"
+        ],
+        "outcome": [
+            "A) verbal participation"
+        ],
+        "outcome_instrument": [
+            "A) survey"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1-A: t-test: sig (t[38] = 2.18)"
+    },
+    "1": {
+        "data_standardized": [
+            "I) Eye gaze",
+            "III) Audio"
+        ],
+        "sensor": [
+            "I) eye-tracker",
+            "III) microphone"
+        ],
+        "metric": [
+            "1) focused gaze ",
+            "2) together gaze ",
+            "3) dialogue episode",
+            "4) gaze transitions"
+        ],
+        "metric_larger_category": [
+            "1) Gaze",
+            "2) Gaze",
+            "3) Verbal",
+            "4) Gaze"
+        ],
+        "metric_smaller_category": [
+            "1) Visual Attention",
+            "2) Visual Attention",
+            "3) Speech Content",
+            "4) Eye Motion"
+        ],
+        "outcome": [
+            "A) program understanding",
+            "B) dialogue episodes"
+        ],
+        "outcome_instrument": [
+            "A) researcher codes",
+            "B) researcher codes"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1+2-A: anova: sig\n1+2-A+B: mixed linear model: sig\n4-B: anova: sig"
+    },
+    "2": {
+        "data_standardized": [
+            "VI) Physiological",
+            "VII) Physiological"
+        ],
+        "sensor": [
+            "VI) Varioport 16-bit digital skin conductance amplifier",
+            "VII) modified Lead II configuration"
+        ],
+        "metric": [
+            "1) physiological linkage"
+        ],
+        "metric_larger_category": [
+            "1) Physiological"
+        ],
+        "metric_smaller_category": [
+            "1) EDA"
+        ],
+        "outcome": [
+            "A) behavioral Involvement",
+            "B) empathy",
+            "C) negative Feelings",
+            "D) perceived comprehension"
+        ],
+        "outcome_instrument": [
+            "A) Social Presence in Gaming Questionnaire",
+            "B) Social Presence in Gaming Questionnaire",
+            "C) Social Presence in Gaming Questionnaire",
+            "D) Social Presence Inventory Questionnaire"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1-A:regression:sig\n1-B:regression:sig\n1-C:regression:sig\n1-D:regression:sig"
+    },
+    "3": {
+        "data_standardized": [
+            "II) Video",
+            "III) Audio",
+            "X) Body language"
+        ],
+        "sensor": [
+            "II) kinect",
+            "III) microphone",
+            "X) IRMA Matrix ToF sensors"
+        ],
+        "metric": [
+            "1) non-verbal speaking metrics",
+            "2) visual attention",
+            "3) verbal dominance and information metrics"
+        ],
+        "metric_larger_category": [
+            "1) Verbal",
+            "2) Gaze",
+            "3) Verbal"
+        ],
+        "metric_smaller_category": [
+            "1) Speech Participation",
+            "2) Visual Attention",
+            "3) Speech Participation"
+        ],
+        "outcome": [
+            "A) perceived leadership",
+            "B) perceived contribution"
+        ],
+        "outcome_instrument": [
+            "A) questionnaire",
+            "B) questionnaire"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "3-A : correlation : sig\n3-B : correlation : sig\n1-A : correlation : nonsig\n1-B : correlation : nonsig\n2-A : correlation : nonsig\n2-B : correlation : sig\n1*2*3-A : regression:nonsig\n1*2*3-B : regression:nonsig"
+    },
+    "4": {
+        "data_standardized": [
+            "VI) Physiological",
+            "II) Video"
+        ],
+        "sensor": [
+            "VI) EDA sensor",
+            "II) video camera"
+        ],
+        "metric": [
+            "1) eda peak detection ",
+            "2) physiological concordance index"
+        ],
+        "metric_larger_category": [
+            "1) Physiological",
+            "2) Physiological"
+        ],
+        "metric_smaller_category": [
+            "1) EDA",
+            "2) Combined"
+        ],
+        "outcome": [
+            "A) monitoring of behavior, cognition, motivations and emotions "
+        ],
+        "outcome_instrument": [
+            "A) Video coding of monitoring (behavior, cognition, motivations and emotions) "
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1,2-A: correlation:sig (r=0.663)"
+    },
+    "5": {
+        "data_standardized": [
+            "III) Audio",
+            "IV) Video"
+        ],
+        "sensor": [
+            "III) Microphone",
+            "IV) video camera"
+        ],
+        "metric": [
+            "1) group participation speaking cues",
+            "2) silence and overlap cues",
+            "3) speaking distribution cues",
+            "4) individual visual focus of attention",
+            "5) group looking cues"
+        ],
+        "metric_larger_category": [
+            "1) Verbal",
+            "2) Verbal",
+            "3) Verbal",
+            "4) Gaze",
+            "5) Gaze"
+        ],
+        "metric_smaller_category": [
+            "1) Speech Participation",
+            "2) Speech Participation",
+            "3) Speech Participation",
+            "4) Visual Attention",
+            "5) Visual Attention "
+        ],
+        "outcome": [
+            "A) group composition",
+            "B) group interpersonal perception",
+            "C) group performance"
+        ],
+        "outcome_instrument": [
+            "A) NEO-FFI questionnaire",
+            "B) Questionnaire",
+            "C) Negative distance between expert list and group list"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1-A:correlation:sig\n2-A:correlation:sig\n3-A:correlation:sig\n4-A:correlation:sig\n5-A:correlation:sig\n1-B:correlation:sig\n2-B:correlation:sig\n3-B:correlation:sig\n4-B:correlation:sig\n5-B:correlation:sig\n1-C:correlation:sig\n2-C:correlation:sig\n3-C:correlation:sig\n4-C:correlation:sig\n5-C:correlation:sig\n1+2-A:regression:sig\n2+3-B:regression:sig\n2-C:regression:sig"
+    },
+    "6": {
+        "data_standardized": [
+            "I) Audio",
+            "II) Video"
+        ],
+        "sensor": [
+            "I) NS",
+            "II) NS"
+        ],
+        "metric": [
+            "1) GeMAPS acoustic features",
+            "2) extended GeMAPs acoustic features",
+            "3) MFCCs",
+            "4) facial action units"
+        ],
+        "metric_larger_category": [
+            "1) Verbal",
+            "2) Verbal",
+            "3) Verbal",
+            "4) Head"
+        ],
+        "metric_smaller_category": [
+            "1) Speech Features",
+            "2) Speech Features",
+            "3) Speech Features",
+            "4) Facial Expressions"
+        ],
+        "outcome": [
+            "A) voiced Laughter",
+            "B) unvoiced Laughter",
+            "C) speech Laughter"
+        ],
+        "outcome_instrument": [
+            "A) Voicing probability and unvoiced frame ratio",
+            "B) Voicing probability and unvoiced frame ratio",
+            "C) Human Annotations"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1+2+3+4-A:sup. machine learning:NS\n1+3+3+4-B:sup. machine learning:NS\n1+2+3+4-C:sup. machine learning:NS"
+    },
+    "7": {
+        "data_standardized": [
+            "I) Audio"
+        ],
+        "sensor": [
+            "I) Microphone"
+        ],
+        "metric": [
+            "1) speech features ",
+            "2) linguistic features"
+        ],
+        "metric_larger_category": [
+            "1) Verbal",
+            "2) Verbal"
+        ],
+        "metric_smaller_category": [
+            "1) Speech Features",
+            "2) Speech Content"
+        ],
+        "outcome": [
+            "A) group performance"
+        ],
+        "outcome_instrument": [
+            "A) group scores compared to expert scores"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1+2-A: sup. machine learning: 64.4"
+    },
+    "8": {
+        "data_standardized": [
+            "I) Eye gaze"
+        ],
+        "sensor": [
+            "I) eyetracker"
+        ],
+        "metric": [
+            "1) perceptual with-me-ness (gaze)",
+            "2) conceptual with-me-ness (gaze)",
+            "3) gaze similarity "
+        ],
+        "metric_larger_category": [
+            "1) Gaze",
+            "2) Gaze",
+            "3) Gaze"
+        ],
+        "metric_smaller_category": [
+            "1) Visual Attention",
+            "2) Visual Attention",
+            "3) Visual Attention"
+        ],
+        "outcome": [
+            "A) learning gains"
+        ],
+        "outcome_instrument": [
+            "A) pre-post test"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1-A: correlation: sig (r = 0.51)\n2-A: correlation: sig (r = 0.41)\n3-A: correlation: sig (r = 0.39)"
+    },
+    "9": {
+        "data_standardized": [
+            "I) Eye gaze"
+        ],
+        "sensor": [
+            "I) eye-tracking glasses"
+        ],
+        "metric": [
+            "1) gaze fixations",
+            "2) gaze saccades"
+        ],
+        "metric_larger_category": [
+            "1) Gaze",
+            "2) Gaze"
+        ],
+        "metric_smaller_category": [
+            "1) Visual Attention",
+            "2) Eye Motion"
+        ],
+        "outcome": [
+            "A) reference-action sequence"
+        ],
+        "outcome_instrument": [
+            "A) researcher codes"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1+2-A:correlation:NS"
+    },
+    "10": {
+        "data_standardized": [
+            "II) Video",
+            "IV) Body language",
+            "V) Log data"
+        ],
+        "sensor": [
+            "II) Kinect",
+            "IV) Kinect",
+            "V) own application"
+        ],
+        "metric": [
+            "1) dialogue acts",
+            "2) facial expression",
+            "3) gesture",
+            "4) task actions"
+        ],
+        "metric_larger_category": [
+            "1) Verbal",
+            "2) Head",
+            "3) Body",
+            "4) Log Data"
+        ],
+        "metric_smaller_category": [
+            "1) Speech Content",
+            "2) Facial Expressions",
+            "3) Hand Motion",
+            "4) Task-related"
+        ],
+        "outcome": [
+            "A) engagement",
+            "B) frustration",
+            "C) learning gains"
+        ],
+        "outcome_instrument": [
+            "A) participant self report",
+            "B) participant self report",
+            "C) pre-post test"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1+2+3-A: regression: sig\n1+2+3-B: regression: sig\n1+2+3-C: regression: sig"
+    },
+    "11": {
+        "data_standardized": [
+            "IV) Body language",
+            "II) Video"
+        ],
+        "sensor": [
+            "IV) Kinect",
+            "II) video camera"
+        ],
+        "metric": [
+            "1) clustered hand/wrist movement",
+            "2) object manipulation"
+        ],
+        "metric_larger_category": [
+            "1) Body",
+            "2) Log Data"
+        ],
+        "metric_smaller_category": [
+            "1) Hand Motion",
+            "2) Task-related"
+        ],
+        "outcome": [
+            "A) learning gains"
+        ],
+        "outcome_instrument": [
+            "A) pre-post test (references to  principles or mechanisms that confer stability to three example structures) "
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1-A:sup. machine learning: sig (ACC: 76%)"
+    },
+    "12": {
+        "data_standardized": [
+            "I) Eye gaze",
+            "II) Audio"
+        ],
+        "sensor": [
+            "I) eye-tracker",
+            "II) Microphone"
+        ],
+        "metric": [
+            "1) (not) focused together",
+            "2) dialogue episodes"
+        ],
+        "metric_larger_category": [
+            "1) Gaze",
+            "2) Verbal"
+        ],
+        "metric_smaller_category": [
+            "1) Visual Attention",
+            "2) Speech Content"
+        ],
+        "outcome": [
+            "A) level of understanding"
+        ],
+        "outcome_instrument": [
+            "A) researcher codes"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1-A: anova: sig (F [1,16]=8.70)\n1+2-A: anova: sig (F [1,61]=7.60)"
+    },
+    "13": {
+        "data_standardized": [
+            "I) Eye gaze"
+        ],
+        "sensor": [
+            "I) eye-tracker"
+        ],
+        "metric": [
+            "1) joint visual attention"
+        ],
+        "metric_larger_category": [
+            "1) Gaze"
+        ],
+        "metric_smaller_category": [
+            "1) Visual Attention"
+        ],
+        "outcome": [
+            "A) learning gains",
+            "B) collaboration quality"
+        ],
+        "outcome_instrument": [
+            "A) learning test",
+            "B) coding scheme"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1-A:regression:sig\n1-B:regression:sig"
+    },
+    "14": {
+        "data_standardized": [
+            "V) Log data"
+        ],
+        "sensor": [
+            "V) interactive tabletop"
+        ],
+        "metric": [
+            "1) events"
+        ],
+        "metric_larger_category": [
+            "1) Log Data"
+        ],
+        "metric_smaller_category": [
+            "1) Task-related "
+        ],
+        "outcome": [
+            "A) group performance"
+        ],
+        "outcome_instrument": [
+            "A) researcher codes"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1-A: unsup. machine learning: sig"
+    },
+    "15": {
+        "data_standardized": [
+            "I) Eye gaze",
+            "V) Log data"
+        ],
+        "sensor": [
+            "I) eye-tracker",
+            "V) NS"
+        ],
+        "metric": [
+            "1) joint visual attention",
+            "2) n-grams",
+            "3) cosine similarity scores",
+            "4) convergence measures",
+            "5) coherence metrics"
+        ],
+        "metric_larger_category": [
+            "1) Gaze",
+            "2) Verbal",
+            "3) Verbal",
+            "4) Verbal",
+            "5) Verbal"
+        ],
+        "metric_smaller_category": [
+            "1) Visual Attention",
+            "2) Speech Content",
+            "3) Speech Content",
+            "4) Speech Content",
+            "5) Speech Content"
+        ],
+        "outcome": [
+            "A) learning gains",
+            "B) collaboration quality"
+        ],
+        "outcome_instrument": [
+            "A) learning test",
+            "B) coding scheme"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1,4-A: ANOVA:nosig\n1,4-B:ANOVA:nosig\n1,5-A:correlation:sig\n2,3,4,5-A: sup. machine learning: 75%"
+    },
+    "16": {
+        "data_standardized": [
+            "I) Eye gaze",
+            "II) Video",
+            "III) Audio"
+        ],
+        "sensor": [
+            "I) eye-tracker",
+            "II) camera",
+            "III) microphone "
+        ],
+        "metric": [
+            "1) joint visual attention",
+            "2) gestures",
+            "3) speech duration"
+        ],
+        "metric_larger_category": [
+            "1) Gaze",
+            "2) Body",
+            "3) Verbal"
+        ],
+        "metric_smaller_category": [
+            "1) Visual Attention",
+            "2) Hand Motion",
+            "3) Speech Participation"
+        ],
+        "outcome": [
+            "A) group performance ",
+            "B) learning gains"
+        ],
+        "outcome_instrument": [
+            "A) researcher codes",
+            "B) learning test"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1,2,3-B:qualitative:sig\n1-B:correlation:sig"
+    },
+    "17": {
+        "data_standardized": [
+            "II) Video",
+            "III) Audio",
+            "V) Log data"
+        ],
+        "sensor": [
+            "II) camera",
+            "III) microphone",
+            "V) digital pen"
+        ],
+        "metric": [
+            "1) calculator use",
+            "2) total movement",
+            "3) distance from the center of the table",
+            "4) number of interventions",
+            "5) speech duration",
+            "6) times numbers were mentioned",
+            "7) times mathematical terms were mentioned",
+            "8) times commands were pronounced",
+            "9) total number of pen strokes",
+            "10) average number of points",
+            "11) average stroke time length",
+            "12) average stroke path length",
+            "13) average stroke displacement",
+            "14) average stroke pressure"
+        ],
+        "metric_larger_category": [
+            "1) Log Data",
+            "2) Body",
+            "3) Body",
+            "4) Verbal",
+            "5) Verbal",
+            "6) Verbal",
+            "7) Verbal",
+            "8) Verbal",
+            "9) Log Data ",
+            "10) Log Data ",
+            "11) Log Data ",
+            "12) Log Data ",
+            "13) Log Data ",
+            "14) Log Data"
+        ],
+        "metric_smaller_category": [
+            "1) Task-related",
+            "2) Gross Body Motion",
+            "3) Location",
+            "4) Speech Participation",
+            "5) Speech Participation",
+            "6) Speech Content",
+            "7) Speech Content",
+            "8) Speech Content",
+            "9) Text ",
+            "10) Text ",
+            "11) Text ",
+            "12) Text ",
+            "13) Text ",
+            "14) Text "
+        ],
+        "outcome": [
+            "A) odds of a student solving correctly a problem",
+            "B) expert prediction"
+        ],
+        "outcome_instrument": [
+            "A) researcher codes",
+            "B) researcher codes"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1,2,3,4,5,6,7,8,9,10,11,12,13,14-A:regression:sig\n1,2,3,4,5,6,7,8,9,10,11,12,13,14-B:sup. machine learning:sig"
+    },
+    "18": {
+        "data_standardized": [
+            "II) Video",
+            "III) Audio"
+        ],
+        "sensor": [
+            "II) video camera",
+            "III) microcone"
+        ],
+        "metric": [
+            "1) speaking status",
+            "2) pitch",
+            "3) energy",
+            "4) head motion",
+            "5) body motion",
+            "6) motion energy images",
+            "7) gaze"
+        ],
+        "metric_larger_category": [
+            "1) Verbal",
+            "2) Verbal",
+            "3) Verbal",
+            "4) Head",
+            "5) Body",
+            "6) Body",
+            "7) Gaze"
+        ],
+        "metric_smaller_category": [
+            "1) Speech Participation",
+            "2) Speech Features",
+            "3) Speech Features",
+            "4) Head Motion",
+            "5) Gross Body Motion",
+            "6) Gross Body Motion",
+            "7) Visual Attention"
+        ],
+        "outcome": [
+            "A) personality traits"
+        ],
+        "outcome_instrument": [
+            "A) self-reported survey + researcher codes"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1,2,3,4,5,6,7-A:unsup. machine learning:69.61%"
+    },
+    "19": {
+        "data_standardized": [
+            "II) Video",
+            "III) Audio",
+            "V) Log data"
+        ],
+        "sensor": [
+            "II) camera",
+            "III) microphone",
+            "V) digital pen and digital paper"
+        ],
+        "metric": [
+            "1) total manual gestures per second",
+            "2) iconic gestures per second",
+            "3) deictic gestures per second"
+        ],
+        "metric_larger_category": [
+            "1) Body",
+            "2) Body",
+            "3) Body"
+        ],
+        "metric_smaller_category": [
+            "1) Hand Motion",
+            "2) Hand Motion",
+            "3) Hand Motion"
+        ],
+        "outcome": [
+            "A) expertise"
+        ],
+        "outcome_instrument": [
+            "A) researcher codes"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1-A:Wilcoxon Signed Ranks test:sig\n2-A:Wilcoxon Signed Ranks test:sig\n3-A:Wilcoxon Signed Ranks test:non-sig"
+    },
+    "20": {
+        "data_standardized": [
+            "III) Audio",
+            "V) Log data"
+        ],
+        "sensor": [
+            "III) microphone",
+            "V) interactive tabletop"
+        ],
+        "metric": [
+            "1) sequences of verbal utterances",
+            "2) sequences of meaningful actions"
+        ],
+        "metric_larger_category": [
+            "1) Verbal",
+            "2) Log Data"
+        ],
+        "metric_smaller_category": [
+            "1) Speech Content",
+            "2) Touch "
+        ],
+        "outcome": [
+            "A) colloboration quality"
+        ],
+        "outcome_instrument": [
+            "A) researcher codes"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1,2-A:unsup. machine learning:90%"
+    },
+    "21": {
+        "data_standardized": [
+            "III) Audio"
+        ],
+        "sensor": [
+            "III) microphone"
+        ],
+        "metric": [
+            "1) duration of all vocalisations",
+            "2) average duration of vocalisation",
+            "3) standard deviation of vocalisation",
+            "4) probability of a transition from floor to a vocalisation",
+            "5) probability of a transition from a vocalisation to floor",
+            "6) probability of transitioning from a group vocalisation to speaker vocalisation",
+            "7) probability of transitioning from a speaker vocalisation to a group vocalisation",
+            "8) uncertainty in the transitions originating from a speaker"
+        ],
+        "metric_larger_category": [
+            "1) Verbal",
+            "2) Verbal",
+            "3) Verbal",
+            "4) Verbal",
+            "5) Verbal",
+            "6) Verbal",
+            "7) Verbal",
+            "8) Verbal"
+        ],
+        "metric_smaller_category": [
+            "1) Speech Participation",
+            "2) Speech Participation",
+            "3) Speech Participation",
+            "4) Speech Participation",
+            "5) Speech Participation",
+            "6) Speech Participation",
+            "7) Speech Participation",
+            "8) Speech Participation"
+        ],
+        "outcome": [
+            "A) identity of the expert"
+        ],
+        "outcome_instrument": [
+            "A) student with the highest cumulative score of points assigned to correctly and incorrectly solved problems, weighted according a discrete diffculty level scale"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1+2+3+4+5+6+7+8-A: sup. machine learning: sig (ACC: 92%)"
+    },
+    "22": {
+        "data_standardized": [
+            "III) Audio"
+        ],
+        "sensor": [
+            "III) microphone"
+        ],
+        "metric": [
+            "9) transition probability between types of vocalisations"
+        ],
+        "metric_larger_category": [
+            "9) Verbal"
+        ],
+        "metric_smaller_category": [
+            "9) Speech Participation"
+        ],
+        "outcome": [
+            "B) task performance"
+        ],
+        "outcome_instrument": [
+            "B) correct vs incorrect solutions"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "9-B: sup. machine learning: sig (F1: 0.838, 0.395)"
+    },
+    "23": {
+        "data_standardized": [
+            "IV) Body language",
+            "V) Log data"
+        ],
+        "sensor": [
+            "IV) Kinect",
+            "V) Own application"
+        ],
+        "metric": [
+            "1) amount of exploration",
+            "2) types of exploration",
+            "3) amount of movement",
+            "4) type of movement",
+            "5) body synchronization",
+            "6) body distance"
+        ],
+        "metric_larger_category": [
+            "1) Log Data",
+            "2) Log Data",
+            "3) Body",
+            "4) Body",
+            "5) Body",
+            "6) Body"
+        ],
+        "metric_smaller_category": [
+            "1) Task-related",
+            "2) Task-related",
+            "3) Gross Body Motion",
+            "4) Gross Body Motion",
+            "5) Gross Body Motion",
+            "6) Location"
+        ],
+        "outcome": [
+            "A) individual learning gains",
+            "B) group learning gains",
+            "C) leadership"
+        ],
+        "outcome_instrument": [
+            "A) pre-post test",
+            "B) pre-post test",
+            "C) coding"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1-A: correlation: not sig\n2-A: correlation: mixed\n3-A: correlation: not sig\n4-A: correlation: sig\n4-C: ANOVA: sig\n5-A: ANOVA: not sig\n6-A: correlation: not sig\n1+2+3+4+5+6-B: sup. machine learning: sig (ACC: 100%)"
+    },
+    "24": {
+        "data_standardized": [
+            "VI) Physiological",
+            "II) Audio"
+        ],
+        "sensor": [
+            "VI) Smart Wristband",
+            "II) Microphone "
+        ],
+        "metric": [
+            "1) physiological synchrony (PC)",
+            "2) physiological synchrony (DA)",
+            "3) physiological synchrony (SM)",
+            "4) physiological synchrony (IDM)",
+            "5) cycles of physiological synchrony (PC)"
+        ],
+        "metric_larger_category": [
+            "1) Physiological",
+            "2) Physiological",
+            "3) Physiological",
+            "4) Physiological",
+            "5) Physiological"
+        ],
+        "metric_smaller_category": [
+            "1) EDA",
+            "2) EDA",
+            "3) EDA",
+            "4) EDA",
+            "5) EDA"
+        ],
+        "outcome": [
+            "A) collaboration quality",
+            "B) task performance",
+            "C) learning gains"
+        ],
+        "outcome_instrument": [
+            "A) Meier, Spada and Rummel coding scheme",
+            "B) Performance score",
+            "C) pre-post test"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1-C: correlation: sig r = 0.35\n2-A: correlation: sig r =0.47\n5-A: correlation: sig r = 0.57\n5-C: correlation: sig r = 0.47"
+    },
+    "25": {
+        "data_standardized": [
+            "I) Audio",
+            "II) Video",
+            "VI) Physiological"
+        ],
+        "sensor": [
+            "I) microphone",
+            "II) webcam",
+            "VI) electrodes"
+        ],
+        "metric": [
+            "1) speech rate",
+            "2) face and upper body movement",
+            "3) galvanic skin response"
+        ],
+        "metric_larger_category": [
+            "1) Verbal",
+            "2) Body",
+            "3) Physiological"
+        ],
+        "metric_smaller_category": [
+            "1) Speech Features",
+            "2) Gross Body Motion",
+            "3) EDA"
+        ],
+        "outcome": [
+            "A) perceived collaboration quality",
+            "B) perceived valence",
+            "C) perceived arousal",
+            "D) task performance"
+        ],
+        "outcome_instrument": [
+            "A) Questionnaire",
+            "B) 5-point Likert scale",
+            "C) 5-point Likert scale",
+            "D) Trophies earned"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1+2+3-A:unsup. machine learning:NS\n1+2+3-B:unsup. machine learning:NS\n1+2+3-C:unsup. machine learning:NS\n1+2+3-D:unsup. machine learning:NS"
+    },
+    "26": {
+        "data_standardized": [
+            "I) Eye gaze"
+        ],
+        "sensor": [
+            "I) eyetracker"
+        ],
+        "metric": [
+            "1) joint visual attention",
+            "2) cycles of collaborative / individual work"
+        ],
+        "metric_larger_category": [
+            "1) Gaze",
+            "2) Gaze"
+        ],
+        "metric_smaller_category": [
+            "1) Visual Attention",
+            "2) Visual Attention"
+        ],
+        "outcome": [
+            "A) learning gains",
+            "B) collaboration quality",
+            "C) task performance"
+        ],
+        "outcome_instrument": [
+            "A) pre-post test",
+            "B) Meier Spada Rummel coding scheme",
+            "C) number of mazes solved"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1-B: correlation: sig r = 0.341\n2-B: correlation: sig r = 0.347\n2-A: correlation: sig r = 0.398\n2-C: correlation: sig r = 0.355"
+    },
+    "27": {
+        "data_standardized": [
+            "I) Eye gaze",
+            "VI) Log data"
+        ],
+        "sensor": [
+            "I) eye-tracker",
+            "VI) digital"
+        ],
+        "metric": [
+            "1) gaze location",
+            "2) gaze saccade",
+            "3) gaze fixation",
+            "4) player actions",
+            "5) zoid acceleration"
+        ],
+        "metric_larger_category": [
+            "1) Gaze",
+            "2) Gaze",
+            "3) Gaze",
+            "4) Log Data",
+            "5) Log Data"
+        ],
+        "metric_smaller_category": [
+            "1) Visual Attention",
+            "2) Eye Motion",
+            "3) Visual Attention",
+            "4) Task-related",
+            "5) Task-related "
+        ],
+        "outcome": [
+            "A) social context"
+        ],
+        "outcome_instrument": [
+            "A) experimental set-up"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1+2+3+4+5-A: sup. machine learning: sig (ACC:81.43)"
+    },
+    "28": {
+        "data_standardized": [
+            "III) Audio"
+        ],
+        "sensor": [
+            "III) microphone"
+        ],
+        "metric": [
+            "1) pitch",
+            "2) intensity",
+            "3) voice quality",
+            "4) speaking rate",
+            "5) proximity",
+            "6) convergence",
+            "7) synchrony"
+        ],
+        "metric_larger_category": [
+            "1) Verbal",
+            "2) Verbal",
+            "3) Verbal",
+            "4) Verbal",
+            "5) Verbal",
+            "6) Verbal",
+            "7) Verbal"
+        ],
+        "metric_smaller_category": [
+            "1) Speech Features",
+            "2) Speech Features",
+            "3) Speech Features",
+            "4) Speech Features",
+            "5) Speech Features",
+            "6) Speech Features",
+            "7) Speech Features"
+        ],
+        "outcome": [
+            "A) rapport level"
+        ],
+        "outcome_instrument": [
+            "A) human coding validated with self-reports"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "5-A: correlation: mixed (Max r 0.842)\n6-A: correlation: mixed (Max r 0.741)\n7-A: correlation: mixed (Max r 0.634)"
+    },
+    "29": {
+        "data_standardized": [
+            "I) Eye gaze"
+        ],
+        "sensor": [
+            "I) optical see-through head-mounted display"
+        ],
+        "metric": [
+            "1) gaze location"
+        ],
+        "metric_larger_category": [
+            "1) Gaze"
+        ],
+        "metric_smaller_category": [
+            "1) Visual Attention"
+        ],
+        "outcome": [
+            "A) quality of remote collaboration",
+            "B) task completion time"
+        ],
+        "outcome_instrument": [
+            "A) seven-point scale questionnaire",
+            "B) timer"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1-A:Wilcoxon Signed Ranks test:sig\n1-B:Wilcoxon Signed Ranks test:sig"
+    },
+    "30": {
+        "data_standardized": [
+            "I) Eye gaze"
+        ],
+        "sensor": [
+            "I) eyetracker"
+        ],
+        "metric": [
+            "1) joint visual attention"
+        ],
+        "metric_larger_category": [
+            "1) Gaze"
+        ],
+        "metric_smaller_category": [
+            "1) Visual Attention"
+        ],
+        "outcome": [
+            "A) task performance",
+            "B) learning gains"
+        ],
+        "outcome_instrument": [
+            "A) calculation",
+            "B) pre post test"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1-A: correlation: sig (r = 0.59)\n1-B: correlation: sig (r = 0.42)"
+    },
+    "31": {
+        "data_standardized": [
+            "II) Video",
+            "III) Audio"
+        ],
+        "sensor": [
+            "II) video camera",
+            "III) microcone"
+        ],
+        "metric": [
+            "1) intra-personal features",
+            "2) dyadic features",
+            "3) one vs all features"
+        ],
+        "metric_larger_category": [
+            "1) Head",
+            "2) Head",
+            "3) Verbal"
+        ],
+        "metric_smaller_category": [
+            "1) Facial Expressions",
+            "2) Facial Expressions",
+            "3) Speech Features"
+        ],
+        "outcome": [
+            "A) personality traits",
+            "B) social impressions"
+        ],
+        "outcome_instrument": [
+            "A) self-reported survey",
+            "B) questionnaire"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1-A: Regression: 73.53%\n1-B:Regression: 76.47%\n2-A: Regression: 60.54%\n2-B: Regression: 66.42%\n3-A: Regression: 65.69%\n3-B: Regression: 73.53%"
+    },
+    "32": {
+        "data_standardized": [
+            "II) Video",
+            "III) Audio"
+        ],
+        "sensor": [
+            "II) video camera",
+            "III) microphone"
+        ],
+        "metric": [
+            "1) audio energy features",
+            "2) visual focus of attention"
+        ],
+        "metric_larger_category": [
+            "1) Verbal",
+            "2) Gaze"
+        ],
+        "metric_smaller_category": [
+            "1) Speech Features",
+            "2) Visual Attention"
+        ],
+        "outcome": [
+            "A) visual dominance ratio"
+        ],
+        "outcome_instrument": [
+            "A) manual annotation of videos"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1+2-A: sup. machine learning: 79.4%"
+    },
+    "33": {
+        "data_standardized": [
+            "II) Video",
+            "III) Audio",
+            "V) Log data",
+            "X) Log data"
+        ],
+        "sensor": [
+            "II) video camera",
+            "III) microphone",
+            "V) digital",
+            "X) digital"
+        ],
+        "metric": [
+            "1) card movements",
+            "2) scrolling",
+            "3) zooming",
+            "4) audio features"
+        ],
+        "metric_larger_category": [
+            "1) Log Data",
+            "2) Log Data",
+            "3) Log Data",
+            "4) Verbal"
+        ],
+        "metric_smaller_category": [
+            "1) Task-related ",
+            "2) Task-related ",
+            "3) Task-related ",
+            "4) Speech Features"
+        ],
+        "outcome": [
+            "A) collaboration",
+            "B) asymmetric contribution",
+            "C) cooperation"
+        ],
+        "outcome_instrument": [
+            "A) manual annotation of videos",
+            "B) manual annotation of videos",
+            "C) manual annotation of videos"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1+2+3+4-A+C: sup. machine learning: 96%\n1+2+3+4-A+B+C: sup. machine learning: 86%"
+    },
+    "34": {
+        "data_standardized": [
+            "III) Audio"
+        ],
+        "sensor": [
+            "III) NS"
+        ],
+        "metric": [
+            "1) speech utterances"
+        ],
+        "metric_larger_category": [
+            "1) Verbal"
+        ],
+        "metric_smaller_category": [
+            "1) Speech Content"
+        ],
+        "outcome": [
+            "A) personality traits"
+        ],
+        "outcome_instrument": [
+            "A) self-reported survey + perceived interaction scores"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1-A: sup. machine learning : 87.9%"
+    },
+    "35": {
+        "data_standardized": [
+            "I) Eye gaze"
+        ],
+        "sensor": [
+            "I) eye-tracker"
+        ],
+        "metric": [
+            "1) gaze area of interest ",
+            "2) cross-recurrence quantification analysis",
+            "3) multidimensional recurrence quantification analysis"
+        ],
+        "metric_larger_category": [
+            "1) Gaze",
+            "2) Gaze",
+            "3) Gaze"
+        ],
+        "metric_smaller_category": [
+            "1) Visual Attention",
+            "2) Visual Attention",
+            "3) Visual Attention"
+        ],
+        "outcome": [
+            "A) construction of shared knowledge",
+            "B) negotiation",
+            "C) coordination",
+            "D) task score",
+            "E) group performance"
+        ],
+        "outcome_instrument": [
+            "A) manual annotation of videos",
+            "B) manual annotation of videos",
+            "C) manual annotation of videos",
+            "D) expert coding of task, post-test score",
+            "E) self-reported survey"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "2-A: regression:sig \n3-B: regression:sig\n3-C: regression:sig\n2-D: regression:nosig\n2-E: regression:sig\n2-D: regression:nosig\n2-E: regression:nosig"
+    },
+    "36": {
+        "data_standardized": [
+            "I) Eye gaze",
+            "III) Audio"
+        ],
+        "sensor": [
+            "I) eye-tracker",
+            "III) microphone"
+        ],
+        "metric": [
+            "1) joint visual attention",
+            "2) simple linguistic features",
+            "3) convergence of linguistic styles",
+            "4) coherence"
+        ],
+        "metric_larger_category": [
+            "1) Gaze",
+            "2) Verbal",
+            "3) Verbal",
+            "4) Verbal"
+        ],
+        "metric_smaller_category": [
+            "1) Visual Attention",
+            "2) Speech Content",
+            "3) Speech Content",
+            "4) Speech Content"
+        ],
+        "outcome": [
+            "A) learning gains",
+            "B) collaboration",
+            "C) joint visual attention"
+        ],
+        "outcome_instrument": [
+            "A) pre-post test",
+            "B) Coding scheme",
+            "C) calculation"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "3-A,B,C: correlation: nosig\n4-A: correlation: sig\n4-C: ANOVA: sig\n2-A: sup. machine learning: 75%"
+    },
+    "37": {
+        "data_standardized": [
+            "III) Audio",
+            "II) Video"
+        ],
+        "sensor": [
+            "III) microphone",
+            "II) video camera"
+        ],
+        "metric": [
+            "1) speaking activity",
+            "2) visual attention",
+            "3) audio-visual"
+        ],
+        "metric_larger_category": [
+            "1) Verbal",
+            "2) Gaze",
+            "3) Gaze"
+        ],
+        "metric_smaller_category": [
+            "1) Speech Participation",
+            "2) Visual Attention",
+            "3) Visual Attention"
+        ],
+        "outcome": [
+            "A) personality traits",
+            "B) percieved interaction score",
+            "C) ranked dominance",
+            "D) task performance",
+            "E) perceived leadership and dominance"
+        ],
+        "outcome_instrument": [
+            "A) NEO-FFI, PRF",
+            "B) questionnaire ",
+            "C) questionnaire",
+            "D) expert grading",
+            "E) questionnaire"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1*3-E: sup. machine learning: 50%\n1*3-C: sup. machine learning: 59.1%"
+    },
+    "38": {
+        "data_standardized": [
+            "I) Eye gaze",
+            "III) Audio",
+            "IV) Body language",
+            "VI) Physiological"
+        ],
+        "sensor": [
+            "I) Mobile eye-tracker",
+            "III) microphone",
+            "IV) Kinect v2",
+            "VI) Smart wristband"
+        ],
+        "metric": [
+            "1) coh-metrix indices",
+            "2) physical synchrony",
+            "3) physiological synchrony",
+            "4) joint visual attention"
+        ],
+        "metric_larger_category": [
+            "1) Verbal",
+            "2) Body",
+            "3) Physiological",
+            "4) Gaze"
+        ],
+        "metric_smaller_category": [
+            "1) Speech Features",
+            "2) Gross Body Motion",
+            "3) EDA",
+            "4) Visual Attention"
+        ],
+        "outcome": [
+            "A) learning gains",
+            "B) collaboration",
+            "C) coh-metrix indices"
+        ],
+        "outcome_instrument": [
+            "A) pre-post test",
+            "B) Meier Spada Rummel coding scheme",
+            "C) computational measures of transcripts"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1-A: correlation: sig\n1-B: correlation: sig\n1-C: correlation: sig\n2-C: correlation: sig\n3-C: correlation: sig\n4-C: correlation: sig\n2-B: sup. machine learning: 84%"
+    },
+    "39": {
+        "data_standardized": [
+            "VI) Physiological",
+            "VII) Physiological"
+        ],
+        "sensor": [
+            "VI) wearable sensor",
+            "VII) wearable sensor"
+        ],
+        "metric": [
+            "1) SM - EDA",
+            "2) IDM - EDA",
+            "3) DA - EDA",
+            "4) CC - EDA",
+            "5) WC - EDA",
+            "6) SM - HR",
+            "7) IDM - HR",
+            "8) DA - HR",
+            "9) CC - HR",
+            "10) WC - HR low frequency",
+            "11) WC - HR high frequency"
+        ],
+        "metric_larger_category": [
+            "1) Physiological",
+            "2) Physiological",
+            "3) Physiological",
+            "4) Physiological",
+            "5) Physiological",
+            "6) Physiological",
+            "7) Physiological",
+            "8) Physiological",
+            "9) Physiological",
+            "10) Physiological",
+            "11) Physiological"
+        ],
+        "metric_smaller_category": [
+            "1) EDA",
+            "2) EDA",
+            "3) EDA",
+            "4) EDA",
+            "5) EDA",
+            "6) Heart",
+            "7) Heart",
+            "8) Heart",
+            "9) Heart",
+            "10) Heart",
+            "11) Heart"
+        ],
+        "outcome": [
+            "A) task performance",
+            "B) self-rated workload"
+        ],
+        "outcome_instrument": [
+            "A) Multiattribute Task Battery program",
+            "B) Questionnaire (NASA Task Load Index)"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1-A: LME: non-sig\n2-A: LME: non-sig\n3-A: LME: sig\n4-A: LME: non-sig\n5-A: LME: non-sig\n6-A: LME: non-sig\n7-A: LME: non-sig\n8-A: LME: non-sig\n9-A: LME: non-sig\n10-A: LME: non-sig\n11-A: LME: non-sig\n1-B: LME: non-sig\n2-B: LME: non-sig\n3-B: LME: non-sig\n4-B: LME: non-sig\n5-B: LME: non-sig\n6-B: LME: non-sig\n7-B: LME: non-sig\n8-A: LME: non-sig\n9-A: LME: non-sig\n10-A: LME: non-sig\n11-A: LME: non-sig"
+    },
+    "40": {
+        "data_standardized": [
+            "II) Video"
+        ],
+        "sensor": [
+            "II) camera"
+        ],
+        "metric": [
+            "1) count of faces looking at screen",
+            "2) distance between learners",
+            "3) distance between hands",
+            "4) hand motion speed"
+        ],
+        "metric_larger_category": [
+            "1) Gaze",
+            "2) Body",
+            "3) Body",
+            "4) Body"
+        ],
+        "metric_smaller_category": [
+            "1) Visual Attention",
+            "2) Location",
+            "3) Hand Motion",
+            "4) Hand Motion"
+        ],
+        "outcome": [
+            "A) physical engagement",
+            "B) synchronisation",
+            "C) individual accountability"
+        ],
+        "outcome_instrument": [
+            "A) Researcher codes",
+            "B) Researcher codes",
+            "C) Researcher codes"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "3-C:regression:sig\n3-B:regression:sig\n1+3-B:regression:sig\n3-A:regression:sig"
+    },
+    "41": {
+        "data_standardized": [
+            "V) Log data"
+        ],
+        "sensor": [
+            "V) touch screen"
+        ],
+        "metric": [
+            "1) touch patterns"
+        ],
+        "metric_larger_category": [
+            "1) Log Data"
+        ],
+        "metric_smaller_category": [
+            "1) Touch"
+        ],
+        "outcome": [
+            "A) social regulation"
+        ],
+        "outcome_instrument": [
+            "A) Rogat and Linnenbrink-Garcia’s framework"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1-A:calculation:84.2%"
+    },
+    "42": {
+        "data_standardized": [
+            "III) Audio",
+            "I) Eye gaze",
+            "VI) Physiological",
+            "IV) Body language"
+        ],
+        "sensor": [
+            "III) kinect",
+            "I) eye-tracker",
+            "VI) wearable sensor ",
+            "IV) kinect"
+        ],
+        "metric": [
+            "1) total movement across upper body joints and body parts",
+            "2) talking time"
+        ],
+        "metric_larger_category": [
+            "1) Body",
+            "2) Verbal"
+        ],
+        "metric_smaller_category": [
+            "1) Gross Body Motion",
+            "2) Speech Participation"
+        ],
+        "outcome": [
+            "A) collaboration quality"
+        ],
+        "outcome_instrument": [
+            "A) experimenter code"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1-A: correlation:sig\n2-A: correlation:sig"
+    },
+    "43": {
+        "data_standardized": [
+            "I) Eye gaze"
+        ],
+        "sensor": [
+            "I) eye-tracker"
+        ],
+        "metric": [
+            "1) EVT of spatial entropy"
+        ],
+        "metric_larger_category": [
+            "1) Gaze"
+        ],
+        "metric_smaller_category": [
+            "1) Visual Attention"
+        ],
+        "outcome": [
+            "A) collaboration outcome",
+            "B) post-test score"
+        ],
+        "outcome_instrument": [
+            "A) NS",
+            "B) Pre-post test"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1-A: regression: sig\n1-B: regression: sig"
+    },
+    "44": {
+        "data_standardized": [
+            "II) Video",
+            "III) Audio",
+            "VI) Physiological"
+        ],
+        "sensor": [
+            "II) video camera",
+            "III) microphone",
+            "VI) wearable sensor"
+        ],
+        "metric": [
+            "1) facial expression",
+            "2) physiological simultaneous arousal"
+        ],
+        "metric_larger_category": [
+            "1) Head",
+            "2) Physiological"
+        ],
+        "metric_smaller_category": [
+            "1) Facial Expressions",
+            "2) EDA"
+        ],
+        "outcome": [
+            "A) type of working activity",
+            "B) type of interaction"
+        ],
+        "outcome_instrument": [
+            "A) Researcher codes",
+            "B) Researcher codes"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1-A: calculation:NS\n1-B: ANOVA: sig\n2-A: calculation:NS\n2-B: calculation:NS"
+    },
+    "45": {
+        "data_standardized": [
+            "III) Audio",
+            "IV) Body language",
+            "V) Log data"
+        ],
+        "sensor": [
+            "III) microphone",
+            "IV) wearable sensor",
+            "V) digital"
+        ],
+        "metric": [
+            "1) speaking turn features",
+            "2) acoustic features",
+            "3) head motion features",
+            "4) linguistic features"
+        ],
+        "metric_larger_category": [
+            "1) Verbal",
+            "2) Verbal",
+            "3) Head",
+            "4) Verbal"
+        ],
+        "metric_smaller_category": [
+            "1) Speech Participation",
+            "2) Speech Features",
+            "3) Head Motion",
+            "4) Speech Content"
+        ],
+        "outcome": [
+            "A) artefact quality"
+        ],
+        "outcome_instrument": [
+            "A) Researcher codes"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1*2*3*4-A : unsup. machine learning : sig"
+    },
+    "46": {
+        "data_standardized": [
+            "I) Eye gaze"
+        ],
+        "sensor": [
+            "I) eye-tracker"
+        ],
+        "metric": [
+            "1) network features"
+        ],
+        "metric_larger_category": [
+            "1) Gaze"
+        ],
+        "metric_smaller_category": [
+            "1) Visual Attention"
+        ],
+        "outcome": [
+            "A) collaboration quality"
+        ],
+        "outcome_instrument": [
+            "A) Meier, Spada and Rummel coding scheme"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1-A: sup. machine learning: 85-100%\n1-A: correlation: sig"
+    },
+    "47": {
+        "data_standardized": [
+            "IV) Body language",
+            "VI) Body language",
+            "III) Audio",
+            "V) Log data"
+        ],
+        "sensor": [
+            "IV) video camera",
+            "VI) kinect",
+            "III) microphone",
+            "V) arduino IDE "
+        ],
+        "metric": [
+            "1) number of faces looking at screen",
+            "2) mean distance between learners ",
+            "3) mean distance between hands",
+            "4) mean hand movement speed",
+            "5) mean audio level",
+            "6) arduino measure of complexity",
+            "7) arduino active hardware blocks",
+            "8) arduino active software blocks",
+            "9) arduino active blocks",
+            "10) student work phases"
+        ],
+        "metric_larger_category": [
+            "1) Head",
+            "2) Body",
+            "3) Body",
+            "4) Body",
+            "5) Verbal",
+            "6) Log Data",
+            "7) Log Data",
+            "8) Log Data",
+            "9) Log Data",
+            "10) Log Data"
+        ],
+        "metric_smaller_category": [
+            "1) Head Motion",
+            "2) Location",
+            "3) Hand Motion",
+            "4) Hand Motion",
+            "5) Speech Features",
+            "6) Task-related",
+            "7) Task-related",
+            "8) Task-related",
+            "9) Task-related",
+            "10) Task-related"
+        ],
+        "outcome": [
+            "A) artefact quality"
+        ],
+        "outcome_instrument": [
+            "A) Researcher codes"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1*2*3*4*5*6*7*8*9*10-A: sup. machine learning: 24%"
+    },
+    "48": {
+        "data_standardized": [
+            "III) Audio",
+            "V) Log data "
+        ],
+        "sensor": [
+            "III) microphone",
+            "V) digital pen"
+        ],
+        "metric": [
+            "1) pause duration",
+            "2) energy",
+            "3) articulation rate",
+            "4) fundamental frequency",
+            "5) peak slope",
+            "6) spectral stationarity ",
+            "7) writing rate",
+            "8) writing area ",
+            "9) aspect ration",
+            "10) pressure",
+            "11) uninterrupted writing ",
+            "12) pause distribution/average pauses"
+        ],
+        "metric_larger_category": [
+            "1) Verbal",
+            "2) Verbal",
+            "3) Verbal",
+            "4) Verbal",
+            "5) Verbal",
+            "6) Verbal",
+            "7) Log Data",
+            "8) Log Data",
+            "9) Log Data",
+            "10) Log Data",
+            "11) Log Data",
+            "12) Log Data"
+        ],
+        "metric_smaller_category": [
+            "1) Speech Participation",
+            "2) Speech Features",
+            "3) Speech Features",
+            "4) Speech Features",
+            "5) Speech Features",
+            "6) Speech Features",
+            "7) Text",
+            "8) Text",
+            "9) Text",
+            "10) Text",
+            "11) Text",
+            "12) Text"
+        ],
+        "outcome": [
+            "A) leadership",
+            "B) expertise"
+        ],
+        "outcome_instrument": [
+            "A) assigned",
+            "B) problem solving performance"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1-A: t-test: sig\n3-A: t-test: sig\n5-A: t-test: sig\n6-A: t-test: sig\n5-B: t-test: sig\n3-B: t-test: non-sig\n1-B: t-test: non-sig\n6-B: t-test: non-sig"
+    },
+    "49": {
+        "data_standardized": [
+            "IV) Body language",
+            "V) Log data",
+            "III) Audio"
+        ],
+        "sensor": [
+            "IV) video camera",
+            "V) Arduino IDE",
+            "III) microphone"
+        ],
+        "metric": [
+            "1) faces looking at screen ",
+            "2) distance between learners",
+            "3) distance between hands",
+            "4) number of active blocks",
+            "5) variety of hardware blocks",
+            "6) variety of software blocks ",
+            "7) number of interconnections between blocks ",
+            "8) audio level"
+        ],
+        "metric_larger_category": [
+            "1) Head",
+            "2) Body",
+            "3) Body",
+            "4) Log Data",
+            "5) Log Data",
+            "6) Log Data",
+            "7) Log Data",
+            "8) Verbal"
+        ],
+        "metric_smaller_category": [
+            "1) Head Motion",
+            "2) Location",
+            "3) Hand Motion",
+            "4) Task-related",
+            "5) Task-related",
+            "6) Task-related",
+            "7) Task-related",
+            "8) Speech Features"
+        ],
+        "outcome": [
+            "A) collaborative problem solving "
+        ],
+        "outcome_instrument": [
+            "A) researcher codes "
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1+2-A: sup. machine learning: sig\n8-A: sup. machine learning: sig"
+    },
+    "50": {
+        "data_standardized": [
+            "I) Eye gaze"
+        ],
+        "sensor": [
+            "I) eye-tracker"
+        ],
+        "metric": [
+            "1) joint visual attention"
+        ],
+        "metric_larger_category": [
+            "1) Gaze"
+        ],
+        "metric_smaller_category": [
+            "1) Visual attention"
+        ],
+        "outcome": [
+            "A) collaboration quality",
+            "B) cycles of collaboration",
+            "C) learning gains ",
+            "D) task performance"
+        ],
+        "outcome_instrument": [
+            "A) researcher codes",
+            "B) researcher analysis",
+            "C) pre-post test",
+            "D) correctness "
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1-A: correlation: sig\n1-A: correlation: sig"
+    },
+    "51": {
+        "data_standardized": [
+            "I) Eye gaze"
+        ],
+        "sensor": [
+            "I) eye-tracker"
+        ],
+        "metric": [
+            "1) joint visual attention"
+        ],
+        "metric_larger_category": [
+            "1) Gaze"
+        ],
+        "metric_smaller_category": [
+            "1) Visual attention"
+        ],
+        "outcome": [
+            "A) collaboration quality",
+            "B) student performance ",
+            "C) learning gains "
+        ],
+        "outcome_instrument": [
+            "A) researcher codes",
+            "B) correctness",
+            "C) pre-post test"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1-A: correlation: sig\n1-B: regression: sig\n1-C: correlation: sig"
+    },
+    "52": {
+        "data_standardized": [
+            "IV) Body language"
+        ],
+        "sensor": [
+            "IV) kinect"
+        ],
+        "metric": [
+            "1) joint movement",
+            "2) joint angle",
+            "3) dyad proximity"
+        ],
+        "metric_larger_category": [
+            "1) Body",
+            "2) Body",
+            "3) Body"
+        ],
+        "metric_smaller_category": [
+            "1) Gross Body Motion",
+            "2) Gross Body Motion",
+            "3) Location"
+        ],
+        "outcome": [
+            "A) task performance",
+            "B) collaboration",
+            "C) learning gains"
+        ],
+        "outcome_instrument": [
+            "A) researcher codes",
+            "B) researcher codes",
+            "C) pre-post test"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1-A: correlation: sig\n1-B: correlation: non-sig\n2-A: correlation: sig / mixed\n3-B: correlation: non-sig\n3-A: correlation: sig"
+    },
+    "53": {
+        "data_standardized": [
+            "I) Eye gaze",
+            "II) Video"
+        ],
+        "sensor": [
+            "I) eye tracker",
+            "II) eye tracker"
+        ],
+        "metric": [
+            "1) joint visual attention",
+            "2) cognitive load (from pupil size)"
+        ],
+        "metric_larger_category": [
+            "1) Gaze",
+            "2) Gaze"
+        ],
+        "metric_smaller_category": [
+            "1) Visual Attention",
+            "2) Eye Physiology"
+        ],
+        "outcome": [
+            "A) learning gains"
+        ],
+        "outcome_instrument": [
+            "A) pre/post test"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1-A :mediation : sig\n2-A:mediation:nonsig"
+    },
+    "54": {
+        "data_standardized": [
+            "VI) Physiological"
+        ],
+        "sensor": [
+            "VI) wearable sensor"
+        ],
+        "metric": [
+            "1) signal matching ",
+            "2) instantaneous derivative matching ",
+            "3) directional agreement",
+            "4) pearson’s correlation coefficient ",
+            "5) fisher’s z-transform of pearson's correlation coefficient"
+        ],
+        "metric_larger_category": [
+            "1) Physiological",
+            "2) Physiological",
+            "3) Physiological",
+            "4) Physiological",
+            "5) Physiological"
+        ],
+        "metric_smaller_category": [
+            "1) EDA",
+            "2) EDA",
+            "3) EDA",
+            "4) EDA",
+            "5) EDA"
+        ],
+        "outcome": [
+            "A) collaborative will",
+            "B) collaborative learning product",
+            "C) dual learning gains"
+        ],
+        "outcome_instrument": [
+            "A) self report",
+            "B) researcher coded",
+            "C) researcher coded"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1,3,4,5-A : regression : nonsig\n2-A:regression:sig\n1,3,4,5-B : regression : nonsig\n2-B:regression:sig\n1,2,4,5-C : regression : nonsig\n3-C:regression:sig"
+    },
+    "55": {
+        "data_standardized": [
+            "II) Video",
+            "III) Audio"
+        ],
+        "sensor": [
+            "II) video camera",
+            "III) microphone"
+        ],
+        "metric": [
+            "1) linguistic features",
+            "2) voice features",
+            "3) facial expression features"
+        ],
+        "metric_larger_category": [
+            "1) Verbal",
+            "2) Verbal",
+            "3) Head"
+        ],
+        "metric_smaller_category": [
+            "1) Speech Content",
+            "2) Speech Features",
+            "3) Facial Expressions"
+        ],
+        "outcome": [
+            "A) perception of peer helpfulness",
+            "B) perception of peer understanding",
+            "C) perception of peer clarity"
+        ],
+        "outcome_instrument": [
+            "A) questionnaire",
+            "B) questionnaire",
+            "C) questionnaire"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1+2+3-A: correlation:sig\n1+2+3-B: correlation:sig\n1+2+3-C:correlation:sig\n1,2-A:correlation:nonsig\n1,2-B:correlation:nonsig\n1,2-C:correlation:nonsig\n3-A:correlation:sig\n3-B:correlation:sig\n3-C:correlation:sig"
+    },
+    "56": {
+        "data_standardized": [
+            "II) Video",
+            "V) Log data"
+        ],
+        "sensor": [
+            "II) video camera",
+            "V) own application"
+        ],
+        "metric": [
+            "1) type of activity done in task",
+            "2) amount of face and body movement",
+            "3) target for discussion partner"
+        ],
+        "metric_larger_category": [
+            "1) Log Data",
+            "2) Body",
+            "3) Log Data"
+        ],
+        "metric_smaller_category": [
+            "1) Task-related",
+            "2) Gross Body Motion",
+            "3) Task-related"
+        ],
+        "outcome": [
+            "A) task success score",
+            "B) subjective perception of collaboration"
+        ],
+        "outcome_instrument": [
+            "A) researcher coded",
+            "B) self report"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1*2*3-A : correlation : sig\n1*2*3-B : correlation : sig"
+    },
+    "57": {
+        "data_standardized": [
+            "II) Video",
+            "III) Audio",
+            "VI) Physiological"
+        ],
+        "sensor": [
+            "II) kinect",
+            "III) kinect",
+            "VI) wearable sensor"
+        ],
+        "metric": [
+            "1) signal matching",
+            "2) instantaneous derivative matching ",
+            "3) directional agreement ",
+            "4) pearson’s correlation coefficient",
+            "5) speech activity"
+        ],
+        "metric_larger_category": [
+            "1) Physiological",
+            "2) Physiological",
+            "3) Physiological",
+            "4) Physiological",
+            "5) Verbal"
+        ],
+        "metric_smaller_category": [
+            "1) Combined",
+            "2) Combined",
+            "3) Combined",
+            "4) Combined",
+            "5) Speech Participation"
+        ],
+        "outcome": [
+            "A) learning gains"
+        ],
+        "outcome_instrument": [
+            "A) pre/post tests"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1,2,3-A : correlation : nonsig\n4-A:correlation:sig\n5-A : ANOVA : sig"
+    },
+    "58": {
+        "data_standardized": [
+            "II) Video",
+            "III) Audio",
+            "VI) Physiological"
+        ],
+        "sensor": [
+            "II) kinect",
+            "III) kinect",
+            "VI) wearable sensor"
+        ],
+        "metric": [
+            "1) signal matching",
+            "2) instantaneous derivative matching ",
+            "3) directional agreement ",
+            "4) pearson’s correlation coefficient",
+            "5) speech activity"
+        ],
+        "metric_larger_category": [
+            "1) Physiological",
+            "2) Physiological",
+            "3) Physiological",
+            "4) Physiological",
+            "5) Verbal"
+        ],
+        "metric_smaller_category": [
+            "1) Combined",
+            "2) Combined",
+            "3) Combined",
+            "4) Combined",
+            "5) Speech Participation"
+        ],
+        "outcome": [
+            "B) collaboration quality: dialogue management",
+            "C) collaboration quality: reaching consensus",
+            "D) colaboration quality: reciprocal interaction",
+            "E) collaboration quality: information pooling"
+        ],
+        "outcome_instrument": [
+            "B) researcher coded",
+            "C) researcher coded",
+            "D) researcher coded",
+            "E) researcher coded"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1,2,4-B : correlation : nonsig\n3-B:correlation:sig\n1,2,4-C : correlation : nonsig\n3-C:correlation:sig\n1,2,4-D : correlation : nonsig\n3-D:correlation:sig\n1,2,3-E : correlation : nonsig\n4-E:correlation:sig"
+    },
+    "59": {
+        "data_standardized": [
+            "II) Video",
+            "III) Audio"
+        ],
+        "sensor": [
+            "II) camera",
+            "III) microphone"
+        ],
+        "metric": [
+            "1) head/body movement",
+            "2) (non)concurrent speaking length",
+            "3) speaking turn duration/number",
+            "4) interruption"
+        ],
+        "metric_larger_category": [
+            "1) Body",
+            "2) Verbal",
+            "3) Verbal",
+            "4) Verbal"
+        ],
+        "metric_smaller_category": [
+            "1) Gross Body Motion",
+            "2) Speech Participation",
+            "3) Speech Participation",
+            "4) Speech Participation"
+        ],
+        "outcome": [
+            "A) emerging leadership"
+        ],
+        "outcome_instrument": [
+            "A) researcher codes"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1-A: sup. machine learning: sig\n2+3+4-A: sup. machine learning: sig\n1+2+3+4-A: sup. machine learning: mixed"
+    },
+    "60": {
+        "data_standardized": [
+            "II) Video"
+        ],
+        "sensor": [
+            "II) camera"
+        ],
+        "metric": [
+            "1) visual field of attention on a person features"
+        ],
+        "metric_larger_category": [
+            "1) Gaze"
+        ],
+        "metric_smaller_category": [
+            "1) Visual Attention"
+        ],
+        "outcome": [
+            "A) surveyed and observed emerging leadership"
+        ],
+        "outcome_instrument": [
+            "A) questionnaire (The SYstematic method for the Multiple Level Observation of Groups; General Leader Impression Scale) + researcher codes (GLIS-observers)"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1-A: correlation: mixed\n1-A: sup. machine learning: sig"
+    },
+    "61": {
+        "data_standardized": [
+            "III) Audio",
+            "V) Log data"
+        ],
+        "sensor": [
+            "III) Microphone",
+            "V) own application"
+        ],
+        "metric": [
+            "1) speech time and frequency",
+            "2) symmetry of speech among group",
+            "3) total number of touch actions",
+            "4) symmetry of touch actions among group"
+        ],
+        "metric_larger_category": [
+            "1) Verbal",
+            "2) Verbal",
+            "3) Log Data",
+            "4) Log Data"
+        ],
+        "metric_smaller_category": [
+            "1) Speech Participation",
+            "2) Speech Participation",
+            "3) Touch ",
+            "4) Touch"
+        ],
+        "outcome": [
+            "A) collaboration"
+        ],
+        "outcome_instrument": [
+            "A) researcher codes (Meier et al.)"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1+2+3+4-A: sup. machine learning: sig (85%)"
+    },
+    "62": {
+        "data_standardized": [
+            "III) Audio",
+            "V) Log data"
+        ],
+        "sensor": [
+            "III) Microphone",
+            "V) own application"
+        ],
+        "metric": [
+            "1) speech quantity",
+            "2) physical participation quantity",
+            "3) number of active participants in group",
+            "4) verbal participation symmetry among group",
+            "5) physical participation symmetry among group"
+        ],
+        "metric_larger_category": [
+            "1) Verbal",
+            "2) Log Data",
+            "3) Verbal",
+            "4) Verbal",
+            "5) Log Data"
+        ],
+        "metric_smaller_category": [
+            "1) Speech Participation",
+            "2) Task-related",
+            "3) Speech Participation",
+            "4) Speech Participation",
+            "5) Task-related"
+        ],
+        "outcome": [
+            "A) collaboration"
+        ],
+        "outcome_instrument": [
+            "A) researcher codes"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1+2+3+4-A: sup. machine learning: sig"
+    },
+    "63": {
+        "data_standardized": [
+            "IV) Body language"
+        ],
+        "sensor": [
+            "IV) kinect"
+        ],
+        "metric": [
+            "1) time spent individually",
+            "2) time spent as a group",
+            "3) diversity of collaborative interactions",
+            "4) transition probabilities between collaborative state"
+        ],
+        "metric_larger_category": [
+            "1) Body",
+            "2) Body",
+            "3) Body",
+            "4) Body"
+        ],
+        "metric_smaller_category": [
+            "1) Location",
+            "2) Location",
+            "3) Location",
+            "4) Location"
+        ],
+        "outcome": [
+            "A) technical ability",
+            "B) social ability",
+            "C) time spent in makerspace",
+            "D) reported frustration"
+        ],
+        "outcome_instrument": [
+            "A) teaching team assessment",
+            "B) teaching team assessment",
+            "C) N/A",
+            "D) survey"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1-A: correlation: mixed\n2-A: correlation: mixed\n2-B: correlation: mixed\n4-A: correlation: mixed\n4-C: correlation: mixed\n4-D: correlation: mixed"
+    },
+    "64": {
+        "data_standardized": [
+            "VI) Physiological"
+        ],
+        "sensor": [
+            "VI) Electrodes"
+        ],
+        "metric": [
+            "1) physiological synchrony "
+        ],
+        "metric_larger_category": [
+            "1) Physiological"
+        ],
+        "metric_smaller_category": [
+            "1) EDA"
+        ],
+        "outcome": [
+            "A) judgement of confidence",
+            "B) mental effort",
+            "C) task difficulty",
+            "D) task interest",
+            "E) emotional valence",
+            "F) perceived group performance",
+            "G) objective group performance score"
+        ],
+        "outcome_instrument": [
+            "A) questionnaire",
+            "B) questionnaire",
+            "C) questionnaire",
+            "D) questionnaire",
+            "E) questionnaire",
+            "F) questionnaire",
+            "G) performance score"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1-A: regression: non-sig\n1-B: regression: sig (positive)\n1-C: regression: non-sig\n1-D: regression: non-sig\n1-E: regression: non-sig\n1-F: regression: non-sig\n1-G:regression: non-sig"
+    },
+    "65": {
+        "data_standardized": [
+            "VI) Physiological",
+            "VII) Physiological",
+            "X) Facial expression"
+        ],
+        "sensor": [
+            "VI) Electrodes",
+            "VII) Electrodes",
+            "X) Electrodes"
+        ],
+        "metric": [
+            "1) EDA synchrony",
+            "2) smiling synchrony",
+            "3) heart rate sychrony"
+        ],
+        "metric_larger_category": [
+            "1) Physiological",
+            "2) Head",
+            "3) Physiological"
+        ],
+        "metric_smaller_category": [
+            "1) EDA",
+            "2) Facial Expressions",
+            "3) Heart"
+        ],
+        "outcome": [
+            "A) team cohesion",
+            "B) routine choice"
+        ],
+        "outcome_instrument": [
+            "A) questionnaire",
+            "B) researcher codes"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1-A: regression: sig (negative)\n2-A: regression: sig\n2-B: regression: sig"
+    },
+    "66": {
+        "data_standardized": [
+            "XI) Physiological"
+        ],
+        "sensor": [
+            "XI) EEG"
+        ],
+        "metric": [
+            "1) brain synchrony"
+        ],
+        "metric_larger_category": [
+            "1) Physiological"
+        ],
+        "metric_smaller_category": [
+            "1) Brain"
+        ],
+        "outcome": [
+            "A) engagement",
+            "B) social dynamics"
+        ],
+        "outcome_instrument": [
+            "A) questionnaire",
+            "B) questionnaire"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1-A: regression: sig\n1-B: regression: sig"
+    },
+    "67": {
+        "data_standardized": [
+            "III) Audio",
+            "II) Video",
+            "IV) Body language"
+        ],
+        "sensor": [
+            "III) microphone",
+            "II) kinect RGB",
+            "IV) kinect "
+        ],
+        "metric": [
+            "1) upper body agitation",
+            "2) hand agitation",
+            "3) head orientation",
+            "4) speaking time/turns"
+        ],
+        "metric_larger_category": [
+            "1) Body",
+            "2) Body",
+            "3) Head",
+            "4) Verbal"
+        ],
+        "metric_smaller_category": [
+            "1) Gross Body Motion",
+            "2) Hand Motion",
+            "3) Head Motion",
+            "4) Speech Participation"
+        ],
+        "outcome": [
+            "A) agreement"
+        ],
+        "outcome_instrument": [
+            "A) expert rating"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1+2+3+4-A: sup. machine learning: sig (75% accuracy)"
+    },
+    "68": {
+        "data_standardized": [
+            "VI) Physiological",
+            "VII) Physiological"
+        ],
+        "sensor": [
+            "VI) wearable sensor",
+            "VII) wearable sensor"
+        ],
+        "metric": [
+            "1) EDA synchrony",
+            "2) heart rate sychrony"
+        ],
+        "metric_larger_category": [
+            "1) Physiological",
+            "2) Physiological"
+        ],
+        "metric_smaller_category": [
+            "1) EDA",
+            "2) Heart"
+        ],
+        "outcome": [
+            "A) collaboration quality"
+        ],
+        "outcome_instrument": [
+            "A) researcher codes"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1-A: sup. machine learning: sig\n2-A: sup. machine learning: non-sig"
+    },
+    "69": {
+        "data_standardized": [
+            "I) Eye gaze"
+        ],
+        "sensor": [
+            "I) Tobii 4C"
+        ],
+        "metric": [
+            "1) shared gaze"
+        ],
+        "metric_larger_category": [
+            "1) Gaze"
+        ],
+        "metric_smaller_category": [
+            "1) Visual Attention"
+        ],
+        "outcome": [
+            "A) cognitive load",
+            "B) collaboration quality",
+            "C) task performance",
+            "D) gaze overlap"
+        ],
+        "outcome_instrument": [
+            "A) questionnaire",
+            "B) self-report",
+            "C) Completion time, correctness",
+            "D) calculation"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1-A: anova: non-sig\n1-B: anova: sig\n1-C: anova: sig\n1-D: anova: sig"
+    },
+    "70": {
+        "data_standardized": [
+            "II) Video"
+        ],
+        "sensor": [
+            "II) video camera"
+        ],
+        "metric": [
+            "1) body synchronization"
+        ],
+        "metric_larger_category": [
+            "1) Body"
+        ],
+        "metric_smaller_category": [
+            "1) Gross Body Motion"
+        ],
+        "outcome": [
+            "A) cooperation",
+            "B) cultural style matching",
+            "C) language style matching",
+            "D) colaughter"
+        ],
+        "outcome_instrument": [
+            "A) task outcome (prisoner's dilemna)",
+            "B) video coding",
+            "C) video coding",
+            "D) video coding"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1-A: regression: non-sig\n1-B: regression: sig (neg)\n1-C: regression: sig (neg)\n1-D: regression: sig"
+    },
+    "71": {
+        "data_standardized": [
+            "III) Audio",
+            "V) Log data"
+        ],
+        "sensor": [
+            "III) Microphone",
+            "V) Log files"
+        ],
+        "metric": [
+            "1) speech time",
+            "2) prosodic speech features",
+            "3) movement of objects"
+        ],
+        "metric_larger_category": [
+            "1) Verbal",
+            "2) Verbal",
+            "3) Log Data"
+        ],
+        "metric_smaller_category": [
+            "1) Speech Participation",
+            "2) Speech Features",
+            "3) Task-related"
+        ],
+        "outcome": [
+            "A) collaboration quality"
+        ],
+        "outcome_instrument": [
+            "A) self made researcher coding scheme (4-scale ranging between collaboration and cooperation)"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1*2*3-A:sup. machine learning:sig"
+    },
+    "72": {
+        "data_standardized": [
+            "IV) Body language"
+        ],
+        "sensor": [
+            "IV) video camera array"
+        ],
+        "metric": [
+            "1) gesture type and location"
+        ],
+        "metric_larger_category": [
+            "1) Body"
+        ],
+        "metric_smaller_category": [
+            "1) Hand Motion"
+        ],
+        "outcome": [
+            "A) frequency of utterances",
+            "B) subjective workload"
+        ],
+        "outcome_instrument": [
+            "A) calculation",
+            "B) survey"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1-A: ANOVA: sig\n1-B: ANOVA: sig"
+    },
+    "73": {
+        "data_standardized": [
+            "II) Video",
+            "III) Audio"
+        ],
+        "sensor": [
+            "II) video camera",
+            "III) microphone"
+        ],
+        "metric": [
+            "1) speaking time",
+            "2) attention received per person",
+            "3) attention given by person"
+        ],
+        "metric_larger_category": [
+            "1) Verbal",
+            "2) Gaze",
+            "3) Gaze"
+        ],
+        "metric_smaller_category": [
+            "1) Speech Participation",
+            "2) Visual Attention",
+            "3) Visual Attention"
+        ],
+        "outcome": [
+            "A) extraversion rating"
+        ],
+        "outcome_instrument": [
+            "A) Big Marker Five Scale (? researcher coded ?)"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1*2*3-A: sup. machine learning : sig"
+    },
+    "74": {
+        "data_standardized": [
+            "I) Eye gaze"
+        ],
+        "sensor": [
+            "I) eye-tracker"
+        ],
+        "metric": [
+            "1) gaze overlap"
+        ],
+        "metric_larger_category": [
+            "1) Gaze"
+        ],
+        "metric_smaller_category": [
+            "1) Visual Attention"
+        ],
+        "outcome": [
+            "A) referential form"
+        ],
+        "outcome_instrument": [
+            "A) self-made researcher codes"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": "1-A:regression:NS"
+    }
+}
