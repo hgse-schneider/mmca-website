@@ -1,7 +1,5 @@
-import csv
 import pandas as pd
 import json
-import random
 ''' 
 Parameters:
 --> DATA_PATH: location of input data
