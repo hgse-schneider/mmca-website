@@ -16,6 +16,14 @@ const color = d3.scaleLinear()
 
 const format = d3.format(",d");
 
+const nodeColor = (d) => {
+  if (d.data.name == "1")
+  {
+    return "blue";
+  }
+  return d.children ? color(d.depth) : "white";
+}
+
 const chart = (data) => {
     const root = pack(data);
     let focus = root;
@@ -34,7 +42,8 @@ const chart = (data) => {
       .selectAll("circle")
       .data(root.descendants().slice(1))
       .join("circle")
-        .attr("fill", d => d.children ? color(d.depth) : "white")
+      // d.children ? color(d.depth) : "white"
+        .attr("fill", d => nodeColor(d))
         .attr("pointer-events", d => !d.children ? "none" : null)
         .on("mouseover", function() { d3.select(this).attr("stroke", "#000"); })
         .on("mouseout", function() { d3.select(this).attr("stroke", null); })

@@ -33,9 +33,10 @@ with open(INPUT_PATH, 'r') as f:
             category = hierarchy_list.pop()
             
             for feature in data[paper][category]:
+                clean_feature = feature.split(") ")[1]
                 # If pos currently is an empty children list, we add the feature!
                 if not pos:
-                    pos.append({"name": feature, "children": []})
+                    pos.append({"name": clean_feature, "children": []})
                     # Recursively call to fill the new children array we created with the next feature
                     build_data(pos[0]["children"], hierarchy_list)
                 else:
@@ -43,12 +44,12 @@ with open(INPUT_PATH, 'r') as f:
                     found = False
                     for i in range(len(pos)):
                         # If so, we will build the next node there
-                        if pos[i]["name"] == feature:
+                        if pos[i]["name"] == clean_feature:
                             build_data(pos[i]["children"], hierarchy_list)
                             found = True
                     # Else we must again add the feature with empty children and continue at the next level
                     if not found:
-                        pos.append({"name": feature, "children": []})
+                        pos.append({"name": clean_feature, "children": []})
                         build_data(pos[-1]["children"], hierarchy_list)
             hierarchy_list.append(category)
             return
