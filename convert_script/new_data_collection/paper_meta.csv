@@ -1,4 +1,4 @@
-paper_id_ new,paper_id,coder,data,data_standardized,sensor,brand,metric,metric_larger_category,metric_smaller_category,metric_IG_category,data_per_metric,data_metric_method,outcome,outcome_instrument,outcome_smaller_category,outcome_larger_category,analysis_and_results mm-oo:analysis:resultsig
+paper_id_new,paper_id,coder,data,data_standardized,sensor,brand,metric,metric_larger_category,metric_smaller_category,metric_IG_category,data_per_metric,data_metric_method,outcome,outcome_instrument,outcome_smaller_category,outcome_larger_category,analysis_and_results mm-oo:analysis:resultsig
 1,1,bert,III) Audio,III) Audio,III) microphone,III) NS,1) speech time,1) Verbal,1) Speech Features,1) individual,1) III,1) calculation,A) verbal participation,A) survey,A) communication,A) process,1-A: t-test: sig (t[38] = 2.18)
 2,3,bert,"I) Eye gaze
 III) Audio","I) Eye gaze
@@ -1961,14 +1961,14 @@ III) NS","1) speaking time
 4) calculation
 5) calculation
 6) calculation",A) collaboration quality,A) video coded scale of collaboration,A) coordination,A) process,1*2*3*4*5*6-A:sup. machine learning:NS
-,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,
 75,(Dis)Engagement Matters: Identifying Efficacious Learning Practices with Multimodal Learning Analytics,,"IV) Kinesiology
 II) Video",,"IV) Kinect
 II) video camera","IV) Microsoft Kinect
 II) NS","1) clustered hand/wrist movement
-2) object manipulation",,,,"1) IV
-2) II",,A) Learning gains,A) pre-post test (references to  principles or mechanisms that confer stability to three example structures) ,,,1-A:sup. machine learning: sig (ACC: 76%)
+2) object manipulation","1) Body
+2) Body","1) Hand Motion
+2) Task-related",,"1) IV
+2) II",,A) Learning gains,A) pre-post test (references to  principles or mechanisms that confer stability to three example structures) ,A) learning,A) Product,1-A:sup. machine learning: sig (ACC: 76%)
 76,Unraveling Students’ Interaction Around a Tangible Interface Using Multimodal Learning Analytics,,"IV) Kinesiology
 V) Log data",,"IV) Kinect
 V) Own application","IV) Microsoft Kinect
@@ -1977,7 +1977,11 @@ V) Created","1) amount of exploration
 3) amount of movement
 4) type of movement
 5) Body synchronization
-6) Body distance",,,,"1) V
+6) Body distance","1) Body
+2) Body
+3) Body","1) Task-related
+2)  Task-related
+3) Gross Body Motion",,"1) V
 2) V
 3) IV
 4) IV
@@ -1986,7 +1990,11 @@ V) Created","1) amount of exploration
 B) learning gain group (high or low)
 C) leadership (driver/passenger)","A) pre-post test
 B) pre-post test
-C) coding",,,"1-A: correlation: not sig
+C) coding","A) Learning
+B) Learning
+C) Interpersonal relationship","A) Product
+B) Product
+C) Process","1-A: correlation: not sig
 2-A: correlation: mixed
 3-A: correlation: not sig
 4-A: correlation: sig
@@ -1995,29 +2003,41 @@ C) coding",,,"1-A: correlation: not sig
 6-A: correlation: not sig
 1+2+3+4+5+6-B: sup. machine learning: sig (ACC: 100%)"
 77,Leveraging mobile eye-trackers to capture joint visual attention in co-located collaborative learning groups,,I) Eye gaze,,I) eyetracker,I) Tobii Glasses,"1) Joint visual Attention
-2) Cycles of collaborative / individual work",,,,"1) I
+2) Cycles of collaborative / individual work","1) Gaze
+2)","1) Visual Attention
+2) Task-related",,"1) I
 2) I",,"A) learning gains
 B) collaboration quality
 C) task performance","A) pre-post test
 B) Meier Spada Rummel coding scheme
-C) number of mazes solved",,,"1-B: correlation: sig r = 0.341
-2-B: correlation: sig r = 0.347
-2-A: correlation: sig r = 0.398
-2-C: correlation: sig r = 0.355"
+C) number of mazes solved","A) Learning
+B) Coordination
+C) Performance","A) Product
+B) Process
+C) Product","1-B: correlation: sig 
+2-B: correlation: sig 
+2-A: correlation: sig 
+2-C: correlation: sig "
 78,Does Seeing One Another’s Gaze Affect Group Dialogue? A Computational Approach,,"I) Eye gaze
 III) Audio",,"I) eye-tracker
 III) microphone","I) Tobii X1
 III) NS","1) Joint visual attention
 2) simple linguistic features
 3) convergence (of linguistic styles)
-4) coherence",,,,"1) I
+4) coherence","1) Gaze
+2)Verbal","1) Visual Attention
+2) Speech Participation",,"1) I
 2) III
 3) III
 4) III",,"A) Learning 
 B) Collaboration
-C) Joint Visual Attention","A) pre-post test
+","A) pre-post test
 B) Coding scheme
-C) calculation",,,"3-A,B,C: correlation: nosig
+","A) Learning
+B) Coordination
+","A) Product
+B) Process
+","
 4-A: correlation: sig
 4-C: ANOVA: sig
 2-A: sup. machine learning: 75%"
@@ -2025,25 +2045,109 @@ C) calculation",,,"3-A,B,C: correlation: nosig
 II) Video",,"I) eye tracker
 II) eye tracker","I) Tobii X1
 II) Tobii X1 eye tracker","1) joint visual attention
-2) cognitive load (from pupil size)",,,,"1) I
-2) II",,A) learning gains,A) pre/post test,,,"1-A :mediation : sig
+2) cognitive load (from pupil size)","1) Gaze
+2) ",1) Visual Attention,,"1) I
+2) II",,A) learning gains,A) pre/post test,A) Learning,A) product,"1-A :mediation : sig
 2-A:mediation:nonsig"
-,Challenging Joint Visual Attention as a Proxy for Collaborative Performance,,,,,,,,,,,,,,,,
-,Deep neural networks for collaborative learning analytics: Evaluating team collaborations using student gaze point prediction,,,,,,,,,,,,,,,,
-,Towards Collaborative Convergence: Quantifying Collaboration Quality with Automated Co-located Collaboration Analytics,,,,,,,,,,,,,,,,
-,Joint attention behaviour in remote collaborative problem solving: exploring different attentional levels in dyadic interaction,,,,,,,,,,,,,,,,
-,Phases of collaborative mathematical problem solving and joint attention: a case study utilizing mobile gaze tracking,,,,,,,,,,,,,,,,
-,Measuring causality between collaborative and individual gaze metrics for collaborative problem-solving with intelligent tutoring systems,,,,,,,,,,,,,,,,
-,Dyadic joint visual attention interaction in face-to-face collaborative problem-solving at K-12 Maths Education: A Multimodal Approach,,,,,,,,,,,,,,,,
-,Brain-to-Brain Synchrony Tracks Real-World Dynamic Group Interactions in the Classroom,,,,,,,,,,,,,,,,
-,Exploring Adaptation in Socially-Shared Regulation of Learning Using Video and Heart Rate Data,,,,,,,,,,,,,,,,
-,"Utilizing Interactive Surfaces to Enhance Learning, Collaboration and Engagement: Insights from Learners’ Gaze and Speech",,,,,,,,,,,,,,,,
-,A Multimodal Exploration of Engineering Students Emotions and Electrodermal Activity in Design Activities,,,,,,,,,,,,,,,,
-,"Multimodal, Multiparty Modeling of Collaborative Problem Solving Performance",,,,,,,,,,,,,,,,
-,Temporal analysis of multimodal data to predict collaborative learning outcomes,,,,,,,,,,,,,,,University students,
-,Collaboration on Procedural Problems May Support Conceptual Knowledge More than You May Think,,,,,,,,,,,,,,,University students,
-,An Application of Extreme Value Theory to Learning Analytics: Predicting Collaboration Outcome from Eye-Tracking Data,,,,,,,,,,,,,,,University students,
-,Using Dual Eye-Tracking to Evaluate Students' Collaboration with an Intelligent Tutoring System for Elementary-Level Fractions,,,,,,,,,,,,,,,middle school students,
-,,,,,,,,,,,,,,,,Elementary students (4th and 5th),
-,,,,,,,,,,,,,,,,University students,
-,,,,,,,,,,,,,,,,Elementary students (4th and 5th),
+80,Challenging Joint Visual Attention as a Proxy for Collaborative Performance,,,,,,,,,,,,,,,,
+81,Deep neural networks for collaborative learning analytics: Evaluating team collaborations using student gaze point prediction,,I) Eye Gaze,,"I) video camera, 
+gaze-tracker (deep neural networks)","I) Microsoft Kinect, Gaze following framework (GazeFollow)",1) Joint Visual Attention,,,,1) I,,A) learning gains,A) post test,,,1-A: correlation: sig
+82,Towards Collaborative Convergence: Quantifying Collaboration Quality with Automated Co-located Collaboration Analytics,,,,,,,,,,,,,,,,
+83,Joint attention behaviour in remote collaborative problem solving: exploring different attentional levels in dyadic interaction,,,,,,,,,,,,,,,,
+84,Phases of collaborative mathematical problem solving and joint attention: a case study utilizing mobile gaze tracking,,,,,,,,,,,,,,,,
+85,Measuring causality between collaborative and individual gaze metrics for collaborative problem-solving with intelligent tutoring systems,,,,,,,,,,,,,,,,
+86,Dyadic joint visual attention interaction in face-to-face collaborative problem-solving at K-12 Maths Education: A Multimodal Approach,,,,,,,,,,,,,,,,
+87,Brain-to-Brain Synchrony Tracks Real-World Dynamic Group Interactions in the Classroom,,,,,,,,,,,,,,,,
+88,Exploring Adaptation in Socially-Shared Regulation of Learning Using Video and Heart Rate Data,,,,,,,,,,,,,,,,
+89,"Utilizing Interactive Surfaces to Enhance Learning, Collaboration and Engagement: Insights from Learners’ Gaze and Speech",,,,,,,,,,,,,,,,
+90,A Multimodal Exploration of Engineering Students Emotions and Electrodermal Activity in Design Activities,,,,,,,,,,,,,,,,
+91,"Multimodal, Multiparty Modeling of Collaborative Problem Solving Performance",,"I) Eye Gaze
+II) Video
+III) Audio",,"I) eye-tracker
+II) web camera
+II) Emotient
+III) headset","I) Tobii 4C
+II) NS
+II) NS","1) gaze features (fixation dispersion, number of fixations and mean fixation duration, mean saccade amplitude, joint attention)
+2) acoustic-prosodic information (fundamental frequency (pitch), loudness (energy), center frequency and amplitude of the first through third formants, harmonics to noise ratio, jitter, and shimmer)
+3) facial features (face area, positive and negative valence, expressivity, face/upper body motion)
+4) task content feature",,,,"1) I
+2) III
+3) III",,A) task performance,A) AUROC,,,"1+2+3+4-A: AUROC=0.71
+1-A: AUROC=0.62
+2-A: AUROC=0.54
+3-A: AUROC=0.61
+4-A: AUROC=0.67"
+92,Temporal analysis of multimodal data to predict collaborative learning outcomes,,"I) Eye Gaze
+III) Audio 
+V) Log data ",,"I) eye-tracker 
+III) microphone
+V) NS","I) SMI Red
+III) NS
+V) NS","1) Gaze
+2) Entropy
+3) Similarity
+4) Cognitive load
+5) Auto-correlation coefficient
+6) Energy
+7) Shape of envelope
+8) Linear predictive coding
+9) Dialog
+10)  correct/incorrect/hint feedbacks",,,,"1) I 
+2) I
+3) I
+4) I
+5) III
+6) III
+7) III
+8) III
+9) III
+10) V",,A) Learning gains,A)  pre -post test ,,,"9 - A: correlation: sig
+10 - A: correlation: sig
+1- A: correlation: non-sig
+2- A: correlation: non-sig
+3-A: correlation:non-sig
+4-A : correlation:non-sig
+5-A: correlation: non-sig
+6-A: correlation: non-sig
+7-A: correlation: non-sig
+8-A: correlation: non-sig
+"
+93,Collaboration on Procedural Problems May Support Conceptual Knowledge More than You May Think,,"I) Eye Gaze
+III) Audio
+V) Log data",,"I) eye-tracker
+III) computer audio chat
+V) computer","I) NS
+III) NS
+V) NS","1) hint behavior
+2) joint visual attention - collaboration quality
+3) moments of good collaboration ",,,,"1) V
+2) I
+3) III",,"A) knowledge gain
+A1) conceptual knowledge
+A2) procedural knowledge",A) computer-based isomorphic test forms,,,"2-A: correlation: sig
+2-A2: correlation: nosig"
+94,An Application of Extreme Value Theory to Learning Analytics: Predicting Collaboration Outcome from Eye-Tracking Data,,I) Eye Gaze ,,I) eye-tracker ,I) NS ,"1) Gaze Visual Agitation
+2) Gaze Spatial Entropy
+3) Return Levels - EVT ",,,,"1) I
+2) I
+3) I",,A) quality of collaboration,A) scores based on comparing concept map with the map created by two experts,,,"1-A: ANOVA: nosig
+2-A: ANOVA: nosig
+2-A: correlation: nosig"
+95,Using Dual Eye-Tracking to Evaluate Students' Collaboration with an Intelligent Tutoring System for Elementary-Level Fractions,,I) Eye Gaze,,I) eye-tracker,I) SMI Red 250 Hz,"1) joint visual attention 
+2) gaze recurrence ",,,,"1) I 
+2) I ",,"A) learning gain - procedural test
+B) learning gain - conceptual test","A) pre post test 
+B) pre post test ",,,"1-A: correlation: nosig
+1-B: correlation: sig"
+96,DUPLICATES with 81,,,,,,,,,,,,,,,,
+97,"Understanding Collaborative Program Comprehension: Interlacing Gaze and Dialogues
+",,"I）Eye Gaze
+III)Audio",,"I) Eye-tracker 
+III) NS
+","I) Tobii 1750
+III) NS","1) Gaze Episodes
+2) Dialogue Episodes
+3) Gaze Transitions",,,,"1) I
+2) III
+3) I",,A) Task performance - level of understanding ,A) researcher coded,,,
