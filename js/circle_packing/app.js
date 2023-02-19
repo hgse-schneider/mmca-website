@@ -17,7 +17,7 @@ const color = d3.scaleLinear()
 const format = d3.format(",d");
 
 const nodeColor = (d) => {
-  if (d.data.name == "1")
+  if (d.data.id == 2)
   {
     return "blue";
   }

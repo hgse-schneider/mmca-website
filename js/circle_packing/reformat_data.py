@@ -27,7 +27,7 @@ with open(INPUT_PATH, 'r') as f:
         def build_data(pos, hierarchy_list):
             # If at end of the hierarchy, we add a point corresponding to the paper in the position
             if not(hierarchy_list):
-                pos.append({"name": paper, "value": 1})
+                pos.append({"name": data[paper]["title"], "value": 1, "id": data[paper]["paper_id_new"]})
                 return
             # Else we pop what category we are considering
             category = hierarchy_list.pop()

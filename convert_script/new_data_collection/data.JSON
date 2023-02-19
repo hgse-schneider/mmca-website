@@ -1,5 +1,6 @@
 {
     "0": {
+        "paper_id_new": 1,
         "data_standardized": [
             "III) Audio"
         ],
@@ -35,6 +36,7 @@
         "authors": "Khaled Bachour, Frederic Kaplan, Pierre Dillenbourg"
     },
     "1": {
+        "paper_id_new": 2,
         "data_standardized": [
             "I) Eye gaze",
             "III) Audio"
@@ -87,6 +89,7 @@
         "authors": "Kshitij Sharma, Patrick Jermann, Marc-Antoine Nüssli, Pierre Dillenbourg"
     },
     "2": {
+        "paper_id_new": 3,
         "data_standardized": [
             "VI) Physiological",
             "VII) Physiological"
@@ -139,6 +142,7 @@
         "authors": "Simo Järvelä, J. Matias Kivikangas, Jari Kätsyri, Niklas Ravaja"
     },
     "3": {
+        "paper_id_new": 4,
         "data_standardized": [
             "II) Video",
             "III) Audio",
@@ -195,6 +199,7 @@
         "authors": null
     },
     "4": {
+        "paper_id_new": 5,
         "data_standardized": [
             "VI) Physiological",
             "II) Video"
@@ -235,6 +240,7 @@
         "authors": "Jonna Malmberm, Eetu Haataja, Tapio Seppänen, Sanna Järvelä"
     },
     "5": {
+        "paper_id_new": 6,
         "data_standardized": [
             "III) Audio",
             "IV) Video"
@@ -309,6 +315,7 @@
         "authors": null
     },
     "6": {
+        "paper_id_new": 7,
         "data_standardized": [
             "I) Audio",
             "II) Video"
@@ -365,6 +372,7 @@
         "authors": "Reshmashree B. Kantharaju, Fabien Ringeval"
     },
     "7": {
+        "paper_id_new": 8,
         "data_standardized": [
             "I) Audio"
         ],
@@ -403,6 +411,7 @@
         "authors": "Gabriel Murray, Catharine Oertel, Laurent Besacier"
     },
     "8": {
+        "paper_id_new": 9,
         "data_standardized": [
             "I) Eye gaze"
         ],
@@ -446,6 +455,7 @@
         "authors": "Sharma, K., Caballero, D., Verma, H., Jermann, P., & Dillenbourg, P."
     },
     "9": {
+        "paper_id_new": 10,
         "data_standardized": [
             "I) Eye gaze"
         ],
@@ -484,6 +494,7 @@
         "authors": "Andrist, S., Ruis, A.R., Shaffer, D.W."
     },
     "10": {
+        "paper_id_new": 11,
         "data_standardized": [
             "II) Video",
             "IV) Body language",
@@ -542,6 +553,7 @@
         "authors": "Grafsgaard, Wiggins, Vail, Boyer"
     },
     "11": {
+        "paper_id_new": 12,
         "data_standardized": [
             "IV) Body language",
             "II) Video"
@@ -582,6 +594,7 @@
         "authors": "Marcelo Worsley"
     },
     "12": {
+        "paper_id_new": 13,
         "data_standardized": [
             "I) Eye gaze",
             "II) Audio"
@@ -623,6 +636,7 @@
         "authors": "Kshitij Sharma, Patrick Jermann, Marc-Antoine Nüssli, Pierre Dillenbourg"
     },
     "13": {
+        "paper_id_new": 14,
         "data_standardized": [
             "I) Eye gaze"
         ],
@@ -663,6 +677,7 @@
         "authors": "Bertrand Schneider, Roy Pea"
     },
     "14": {
+        "paper_id_new": 15,
         "data_standardized": [
             "V) Log data"
         ],
@@ -698,6 +713,7 @@
         "authors": "Martinez, R., Yacef, K., Kay, J., Al-Qaraghuli, A., & Kharrufa, A."
     },
     "15": {
+        "paper_id_new": 16,
         "data_standardized": [
             "I) Eye gaze",
             "V) Log data"
@@ -754,6 +770,7 @@
         "authors": "Bertrand Schneider, Roy Pea"
     },
     "16": {
+        "paper_id_new": 17,
         "data_standardized": [
             "I) Eye gaze",
             "II) Video",
@@ -804,6 +821,7 @@
         "authors": "Schneider, B., Sharma, K., Cuendet, S., Zufferey, G., Dillenbourg, P., & Pea, R"
     },
     "17": {
+        "paper_id_new": 18,
         "data_standardized": [
             "II) Video",
             "III) Audio",
@@ -887,6 +905,7 @@
         "authors": "Ochoa, X., Chiluiza, K., Méndez, G., Luzardo, G., Guamán, B., & Castells, J."
     },
     "18": {
+        "paper_id_new": 19,
         "data_standardized": [
             "II) Video",
             "III) Audio"
@@ -942,6 +961,7 @@
         "authors": "Okada, S., Aran, O., & Gatica-Perez, D."
     },
     "19": {
+        "paper_id_new": 20,
         "data_standardized": [
             "II) Video",
             "III) Audio",
@@ -989,6 +1009,7 @@
         "authors": "Sriramulu, A., Lin, J., & Oviatt, S."
     },
     "20": {
+        "paper_id_new": 21,
         "data_standardized": [
             "III) Audio",
             "V) Log data"
@@ -1029,6 +1050,7 @@
         "authors": "Martinez-Maldonado, R., Dimitriadis, Y., Martinez-Monés, A., Kay, J., & Yacef, K."
     },
     "21": {
+        "paper_id_new": 22,
         "data_standardized": [
             "III) Audio"
         ],
@@ -1085,6 +1107,7 @@
         "authors": "Luz, S."
     },
     "22": {
+        "paper_id_new": 22,
         "data_standardized": [
             "III) Audio"
         ],
@@ -1120,6 +1143,7 @@
         "authors": "Luz, S."
     },
     "23": {
+        "paper_id_new": 23,
         "data_standardized": [
             "IV) Body language",
             "V) Log data"
@@ -1187,6 +1211,7 @@
         "authors": "Schneider, B., & Blikstein, P. "
     },
     "24": {
+        "paper_id_new": 24,
         "data_standardized": [
             "VI) Physiological",
             "II) Audio"
@@ -1247,6 +1272,7 @@
         "authors": "Bertrand Schneider, Yong Dich, Iulian Radu"
     },
     "25": {
+        "paper_id_new": 25,
         "data_standardized": [
             "I) Audio",
             "II) Video",
@@ -1307,6 +1333,7 @@
         "authors": "Eloy, L., Stewart, A. E. B., Amon, M. J., Reinhardt, C., Michaels, A., Chen, S., Shute, V., Duran, N. D., & D’Mello, S. K."
     },
     "26": {
+        "paper_id_new": 26,
         "data_standardized": [
             "I) Eye gaze"
         ],
@@ -1356,6 +1383,7 @@
         "authors": "Bertrand Schneider"
     },
     "27": {
+        "paper_id_new": 27,
         "data_standardized": [
             "I) Eye gaze",
             "VI) Log data"
@@ -1405,6 +1433,7 @@
         "authors": "Weifeng Li, Marc-Antoine Nüssli, Patrick Jermann"
     },
     "28": {
+        "paper_id_new": 28,
         "data_standardized": [
             "III) Audio"
         ],
@@ -1460,6 +1489,7 @@
         "authors": "Nichola Lubold, Heather Pon-Barry"
     },
     "29": {
+        "paper_id_new": 29,
         "data_standardized": [
             "I) Eye gaze"
         ],
@@ -1500,6 +1530,7 @@
         "authors": "Keita Higuch, Ryo Yonetani, & Yoichi Sato"
     },
     "30": {
+        "paper_id_new": 30,
         "data_standardized": [
             "I) Eye gaze"
         ],
@@ -1540,6 +1571,7 @@
         "authors": "Schneider, B., *Sharma., K., *Cuendet, S., Zufferey, G., Dillenbourg, P., & Pea, R"
     },
     "31": {
+        "paper_id_new": 31,
         "data_standardized": [
             "II) Video",
             "III) Audio"
@@ -1592,6 +1624,7 @@
         "authors": "Sheng Fang, Catherine Achard, & Severine Dubuisson"
     },
     "32": {
+        "paper_id_new": 32,
         "data_standardized": [
             "II) Video",
             "III) Audio"
@@ -1632,6 +1665,7 @@
         "authors": "Hayley Hung, Dinesh Babu Jayagopi, Sileye Ba, Jean-Marc Odobez, Daniel Gatica-Perez"
     },
     "33": {
+        "paper_id_new": 33,
         "data_standardized": [
             "II) Video",
             "III) Audio",
@@ -1691,6 +1725,7 @@
         "authors": "Sree Aurovindh Viswanathan, Kurt VanLehn"
     },
     "34": {
+        "paper_id_new": 34,
         "data_standardized": [
             "III) Audio"
         ],
@@ -1726,6 +1761,7 @@
         "authors": "Yun-Shao Lin, Chi-Chun Lee"
     },
     "35": {
+        "paper_id_new": 35,
         "data_standardized": [
             "I) Eye gaze"
         ],
@@ -1789,6 +1825,7 @@
         "authors": "Hana Vrzakova, Angela E. B. Stewart, Mary Jean Amon, Sidney K. D’Mello"
     },
     "36": {
+        "paper_id_new": 36,
         "data_standardized": [
             "I) Eye gaze",
             "III) Audio"
@@ -1846,6 +1883,7 @@
         "authors": "Bertrand Schneider, Roy Pea"
     },
     "37": {
+        "paper_id_new": 37,
         "data_standardized": [
             "III) Audio",
             "II) Video"
@@ -1906,6 +1944,7 @@
         "authors": "Dairazalia Sanchez-Cortes, Oya Aran, Dinesh Babu Jayagopi, Marianne Schmid Mast, Daniel Gatica-Perez"
     },
     "38": {
+        "paper_id_new": 38,
         "data_standardized": [
             "I) Eye gaze",
             "III) Audio",
@@ -1970,6 +2009,7 @@
         "authors": "Joseph Reilly, Bertrand Schneider"
     },
     "39": {
+        "paper_id_new": 39,
         "data_standardized": [
             "VI) Physiological",
             "VII) Physiological"
@@ -2062,6 +2102,7 @@
         "authors": "Enid Montague, Jie Xu, and Erin Chiou"
     },
     "40": {
+        "paper_id_new": 40,
         "data_standardized": [
             "II) Video"
         ],
@@ -2117,6 +2158,7 @@
         "authors": "Daniel Spikol, Emanuele Ruffaldi, Mutlu Cukurova"
     },
     "41": {
+        "paper_id_new": 41,
         "data_standardized": [
             "V) Log data"
         ],
@@ -2152,6 +2194,7 @@
         "authors": "Abigail C. Evans, Jacob O. Wobbrock and Katie Davis"
     },
     "42": {
+        "paper_id_new": 42,
         "data_standardized": [
             "III) Audio",
             "I) Eye gaze",
@@ -2197,6 +2240,7 @@
         "authors": "Emma L. Starr, Joseph M. Reilly, and Bertrand Schneider"
     },
     "43": {
+        "paper_id_new": 43,
         "data_standardized": [
             "I) Eye gaze"
         ],
@@ -2237,6 +2281,7 @@
         "authors": "Kshitij Sharma, Jennifer Olsen"
     },
     "44": {
+        "paper_id_new": 44,
         "data_standardized": [
             "II) Video",
             "III) Audio",
@@ -2286,6 +2331,7 @@
         "authors": "Jonna Malmberg, Sanna Järvelä, Jukka Holappa, Eetu Haataja, Xiaohua Huang, Antti Siipo"
     },
     "45": {
+        "paper_id_new": 45,
         "data_standardized": [
             "III) Audio",
             "IV) Body language",
@@ -2334,6 +2380,7 @@
         "authors": "Go Miura, Shogo Okada"
     },
     "46": {
+        "paper_id_new": 46,
         "data_standardized": [
             "I) Eye gaze"
         ],
@@ -2370,6 +2417,7 @@
         "authors": "Schneider & Pea"
     },
     "47": {
+        "paper_id_new": 47,
         "data_standardized": [
             "IV) Body language",
             "VI) Body language",
@@ -2438,6 +2486,7 @@
         "authors": "Daniel Spikol, Emanuele Ruffaldi, Giacomo Dabisias, Mutlu Cukurova"
     },
     "48": {
+        "paper_id_new": 48,
         "data_standardized": [
             "III) Audio",
             "V) Log data "
@@ -2519,6 +2568,7 @@
         "authors": "Stefan Scherer, Nadir Weibel, Sharon Oviatt, Louis-Philippe Morency"
     },
     "49": {
+        "paper_id_new": 49,
         "data_standardized": [
             "IV) Body language",
             "V) Log data",
@@ -2580,6 +2630,7 @@
         "authors": "Daniel Spikol, Emanuele Ruffaldi, Lorenzo Landolfi, Mutlu Cukurova"
     },
     "50": {
+        "paper_id_new": 50,
         "data_standardized": [
             "I) Eye gaze"
         ],
@@ -2628,6 +2679,7 @@
         "authors": "Bertrand Schneider"
     },
     "51": {
+        "paper_id_new": 51,
         "data_standardized": [
             "I) Eye gaze"
         ],
@@ -2673,6 +2725,7 @@
         "authors": "Bertrand Schneider, Kshitij Sharma, Sébastien Cuendet, Guillaume Zufferey, Pierre Dillenbourg, Roy Pea"
     },
     "52": {
+        "paper_id_new": 52,
         "data_standardized": [
             "IV) Body language"
         ],
@@ -2726,6 +2779,7 @@
         "authors": "Joseph M. Reilly, Milan Ravenell, Bertrand Schneider"
     },
     "53": {
+        "paper_id_new": 53,
         "data_standardized": [
             "I) Eye gaze",
             "II) Video"
@@ -2767,6 +2821,7 @@
         "authors": "Bertrand Schneider, Roy Pea"
     },
     "54": {
+        "paper_id_new": 54,
         "data_standardized": [
             "VI) Physiological"
         ],
@@ -2827,6 +2882,7 @@
         "authors": "Héctor J. Pijeira-Díaz, Hendrik Drachsler, Sanna Järvelä, Paul A. Kirschner"
     },
     "55": {
+        "paper_id_new": 55,
         "data_standardized": [
             "II) Video",
             "III) Audio"
@@ -2886,6 +2942,7 @@
         "authors": "McDuff, Thomas, Czerwinski, Craswell"
     },
     "56": {
+        "paper_id_new": 56,
         "data_standardized": [
             "II) Video",
             "V) Log data"
@@ -2934,6 +2991,7 @@
         "authors": "Hana Vrzakova,Mary Jean Amon,Angela E.B. Stewart,Nicholas D Duran,Sidney K D'Mello"
     },
     "57": {
+        "paper_id_new": 57,
         "data_standardized": [
             "II) Video",
             "III) Audio",
@@ -2987,6 +3045,7 @@
         "authors": "Yong Dich, Joseph Reilly, Bertrand Schneider"
     },
     "58": {
+        "paper_id_new": 57,
         "data_standardized": [
             "II) Video",
             "III) Audio",
@@ -3057,6 +3116,7 @@
         "authors": "Yong Dich, Joseph Reilly, Bertrand Schneider"
     },
     "59": {
+        "paper_id_new": 58,
         "data_standardized": [
             "II) Video",
             "III) Audio"
@@ -3105,6 +3165,7 @@
         "authors": "Cigdem Beyan, Vasiliki-Maria Katsageorgiou, Vittorio Murino"
     },
     "60": {
+        "paper_id_new": 59,
         "data_standardized": [
             "II) Video"
         ],
@@ -3141,6 +3202,7 @@
         "authors": "Cigdem Beyan, Nicolò Carissimi, Francesca Capozzi, Sebastiano Vascon, Matteo Bustreo, Antonio Pierro, Cristina Becchio, Vittorio Murino"
     },
     "61": {
+        "paper_id_new": 60,
         "data_standardized": [
             "III) Audio",
             "V) Log data"
@@ -3187,6 +3249,7 @@
         "authors": "Roberto Martinez-Maldonado, Judy Kay, Kalina Yacef"
     },
     "62": {
+        "paper_id_new": 61,
         "data_standardized": [
             "III) Audio",
             "V) Log data"
@@ -3236,6 +3299,7 @@
         "authors": "Roberto Martinez, James R. Wallace, Judy Kay, Kalina Yacef"
     },
     "63": {
+        "paper_id_new": 62,
         "data_standardized": [
             "IV) Body language"
         ],
@@ -3297,6 +3361,7 @@
         "authors": "Edwin Chng, Mohamed Raouf Seyam, William Yao, Bertrand Schneider"
     },
     "64": {
+        "paper_id_new": 63,
         "data_standardized": [
             "VI) Physiological"
         ],
@@ -3362,6 +3427,7 @@
         "authors": "Muhterem Dindar, Sanna Järvelä and Eetu Haataja"
     },
     "65": {
+        "paper_id_new": 64,
         "data_standardized": [
             "VI) Physiological",
             "VII) Physiological",
@@ -3413,6 +3479,7 @@
         "authors": "Dan Mønster, Dorthe Døjbak Håkonsson, Jacob Kjær Eskildsen, Sebastian Wallot"
     },
     "66": {
+        "paper_id_new": 65,
         "data_standardized": [
             "XI) Physiological"
         ],
@@ -3453,6 +3520,7 @@
         "authors": "Suzanne Dikker, Lu Wan, Ido Davidesco, ..., Jay J. Van Bavel, Mingzhou Ding, David Poeppel"
     },
     "67": {
+        "paper_id_new": 66,
         "data_standardized": [
             "III) Audio",
             "II) Video",
@@ -3501,6 +3569,7 @@
         "authors": "Víctor Ponce-López, Sergio  Escalera, Xavier Baró"
     },
     "68": {
+        "paper_id_new": 67,
         "data_standardized": [
             "VI) Physiological",
             "VII) Physiological"
@@ -3542,6 +3611,7 @@
         "authors": "Yang Liu , Tingting Wang , Kun Wang , Yu Zhang"
     },
     "69": {
+        "paper_id_new": 68,
         "data_standardized": [
             "I) Eye gaze"
         ],
@@ -3592,6 +3662,7 @@
         "authors": "Grete Helena KÜtt, Teerapaun Tanprasert, Jay Rodolitz, Bernardo Moyza, Samuel So, Georgia Kenderova, Alexandra Papoutsaki"
     },
     "70": {
+        "paper_id_new": 69,
         "data_standardized": [
             "II) Video"
         ],
@@ -3642,6 +3713,7 @@
         "authors": "Rick Dale, Gregory A. Bryant, Joseph H. Manson, and Matthew M. Gervais"
     },
     "71": {
+        "paper_id_new": 70,
         "data_standardized": [
             "III) Audio",
             "V) Log data"
@@ -3685,6 +3757,7 @@
         "authors": "Sree Aurovindh Viswanathan and Kurt VanLehn"
     },
     "72": {
+        "paper_id_new": 71,
         "data_standardized": [
             "IV) Body language"
         ],
@@ -3725,6 +3798,7 @@
         "authors": "Naomi Yamashita, Katsuhiko Kaji, Hideaki Kuzuoka, Keiji Hirata"
     },
     "73": {
+        "paper_id_new": 72,
         "data_standardized": [
             "II) Video",
             "III) Audio"
@@ -3768,6 +3842,7 @@
         "authors": "Lepri, Bruno, Ramanathan Subramanian, Kyriaki Kalimeri, Jacopo Staiano, Fabio Pianesi, Nicu Sebe"
     },
     "74": {
+        "paper_id_new": 73,
         "data_standardized": [
             "I) Eye gaze"
         ],

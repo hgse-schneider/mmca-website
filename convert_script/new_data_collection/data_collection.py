@@ -31,7 +31,7 @@ ALL_FIELDS = False
 # DEBUG = False
 # DEBUG_PATH = 'debug.txt'
 USEFUL_FIELDS = [
-    "paper_id_ new",
+    "paper_id_new",
     "data_standardized",
     "sensor",
     "metric", 
