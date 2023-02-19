@@ -1,5 +1,5 @@
 
-const width = 932;
+const width = 900;
 const height = width;
 
 const pack = data => d3.pack()

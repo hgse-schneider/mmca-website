@@ -30,6 +30,8 @@ USEFUL_FIELDS = [
     "metric_larger_category", 
     "metric_smaller_category",
     "outcome",
+    "outcome_larger_category", 
+    "outcome_smaller_category",
     "outcome_instrument",
     "analysis_and_results mm-oo:analysis:resultsig"
 ]
