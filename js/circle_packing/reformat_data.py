@@ -50,6 +50,7 @@ with open(INPUT_PATH, 'r') as f:
                     if not found:
                         pos.append({"name": feature, "children": []})
                         build_data(pos[-1]["children"], hierarchy_list)
+            hierarchy_list.append(category)
             return
         
         build_data(pos, FIELD_HIERARHCY.copy())
