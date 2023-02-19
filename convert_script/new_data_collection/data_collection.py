@@ -1,6 +1,18 @@
 import pandas as pd
 import json
 ''' 
+Guidance:
+This script takes in two CSV files, one containing the metrics data and one containing the paper meta data.
+It combines the two and outputs the data into a JSON format. There are a number of parameters you can use
+to change its behaviour, including setting which fields to use in generating the output file,
+converting fields to array fields within the JSON, and deciding how many papers to use. 
+
+How-to:
+You can run this file using:
+$ py data_collection.py
+
+You should ensure all parameters specified below are set to your desire before doing so.
+
 Parameters:
 --> METRIC_PATH: location of input metric data
 --> META_PATH: location of input meta data
@@ -66,8 +78,10 @@ def CSV_to_JSON():
     # Read in data
     metric_data = pd.read_csv(METRIC_PATH)
     meta_data = pd.read_csv(META_PATH)
+    # Safety conversion to ensure merge completes correctly
     meta_data.astype({"paper_id_new": "int"})
     metric_data.astype({"paper_id_new": "int"})
+    # Combining files
     combined = pd.merge(meta_data, metric_data, how="left", on="paper_id_new")
     # Dropping fields and papers we don't need unless we have ALL_FIELDS or ALL_PAPERS
     if not(ALL_FIELDS):

@@ -1,7 +1,17 @@
 import pandas as pd
 import json
 
-''' 
+'''
+Guidance:
+This script is designed to take the overall JSON data file created using data_collection.py
+and refactor it into another JSON format to work well for the circular_packing plot.
+
+How-to:
+You can run this file using:
+$ py reformat_data.py
+
+You should ensure all parameters specified below are set to your desire before doing so.
+
 Parameters:
 --> INPUT_PATH: location of input data (must end .JSON)
 --> OUTPUT_PATH: desired location/name of output data (must end .JSON)
