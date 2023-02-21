@@ -1,0 +1,126 @@
+{ 
+    "nodes":[
+        {"node":0, "name":"Condition", "data_link": "/data/layer_4/condition.json", "node_color": "gray", "fontSize": 13, "num_connections": 69},
+        {"node":1, "name":"Product", "data_link": "/data/layer_4/product.json", "node_color": "gray", "fontSize": 14, "num_connections": 100},
+        {"node":2, "name":"Process", "data_link": "/data/layer_4/process.json", "node_color": "gray", "fontSize": 20, "num_connections": 220},
+
+        {"node":3, "name":"Group Composition", "data_link": "/data/layer_3/group_composition.json", "node_color": "gray", "fontSize": 15.5, "num_connections": 138},
+        {"node":4, "name":"Performance", "data_link": "/data/layer_3/performance.json", "node_color": "gray", "fontSize": 15.2, "num_connections": 132},
+        {"node":5, "name":"Learning", "data_link": "/data/layer_3/learning.json", "node_color": "gray", "fontSize": 14.1, "num_connections": 80},
+        {"node":6, "name":"Coordination", "data_link": "/data/layer_3/coordination.json", "node_color": "gray", "fontSize": 15.2, "num_connections": 120},
+        {"node":7, "name":"Interpersonal", "data_link": "/data/layer_3/interpersonal.json", "node_color": "gray", "fontSize": 18, "num_connections": 182},
+        {"node":8, "name":"Communication", "data_link": "/data/layer_3/communication.json", "node_color": "gray", "fontSize": 14.5, "num_connections": 80},
+        {"node":9, "name":"Cognitive Engagement", "data_link": "/data/layer_3/cognitive_engagement.json", "node_color": "gray", "fontSize": 10, "num_connections": 26},
+        {"node":10, "name":"Affective", "data_link": "/data/layer_3/affective.json", "node_color": "gray", "fontSize": 9, "num_connections": 20}, 
+
+        {"node":11, "name":"Gaze", "data_link": "/data/layer_2/gaze.json", "node_color": "#5d29ff", "fontSize": 17, "num_connections": 160},
+        {"node":12, "name":"Log Data", "data_link": "/data/layer_2/log_data.json", "node_color": "#00b55b", "fontSize": 15.5, "num_connections": 134},
+        {"node":13, "name":"Body", "data_link": "/data/layer_2/body.json", "node_color": "#510000", "fontSize":  14.8, "num_connections": 116},
+        {"node":14, "name":"Head", "data_link": "/data/layer_2/head.json", "node_color": "#fbad00", "fontSize": 14, "num_connections": 52},
+        {"node":15, "name":"Verbal", "data_link": "/data/layer_2/verbal.json", "node_color": "#c76d81", "fontSize": 20.5, "num_connections": 266},
+        {"node":16, "name":"Physiological", "data_link": "/data/layer_2/physiological.json", "node_color": "#00b0b0", "fontSize": 14.3, "num_connections": 66},
+
+        {"node":17, "name":"Visual Attention", "data_link": "/data/layer_1/visual_attention.json", "node_color": "#5d29ff", "fontSize": 14.7, "num_connections": 77},
+        {"node":18, "name":"Eye Motion", "data_link": "/data/layer_1/eye_motion.json", "node_color": "#5d29ff", "fontSize": 7.8, "num_connections": 3},
+        {"node":19, "name":"Task-related", "data_link": "/data/layer_1/task_related.json", "node_color": "#00b55b", "fontSize": 9, "num_connections": 39},
+        {"node":20, "name":"Text", "data_link": "/data/layer_1/text.json", "node_color": "#00b55b", "fontSize": 8.5, "num_connections": 17},
+        {"node":21, "name":"Touch", "data_link": "/data/layer_1/touch.json", "node_color": "#00b55b", "fontSize": 8.1, "num_connections": 11},
+        {"node":22, "name":"Hand Motion", "data_link": "/data/layer_1/hand_motion.json", "node_color": "#510000", "fontSize": 8.5, "num_connections": 16},
+        {"node":23, "name":"Gross Body Motion", "data_link": "/data/layer_1/gross_body_motion.json", "node_color": "#510000", "fontSize": 8.4, "num_connections": 29},
+        {"node":24, "name":"Location", "data_link": "/data/layer_1/location.json", "node_color": "#510000", "fontSize": 8, "num_connections": 13},
+        {"node":25, "name":"Facial Expressions", "data_link": "/data/layer_1/facial_expressions.json", "node_color": "#fbad00", "fontSize": 7.9, "num_connections": 20},
+        {"node":26, "name":"Head Motion", "data_link": "/data/layer_1/head_motion.json", "node_color": "#fbad00", "fontSize": 7.6, "num_connections": 6},
+        {"node":27, "name":"Speech Participation", "data_link": "/data/layer_1/speech_participation.json", "node_color": "#c76d81", "fontSize": 13, "num_connections": 63},
+        {"node":28, "name":"Speech Features", "data_link": "/data/layer_1/speech_features.json", "node_color": "#c76d81", "fontSize": 12.5, "num_connections": 46},
+        {"node":29, "name":"Speech Content", "data_link": "/data/layer_1/speech_content.json", "node_color": "#c76d81", "fontSize": 12.1, "num_connections": 24},
+        {"node":30, "name":"EDA", "data_link": "/data/layer_1/eda.json", "node_color": "#00b0b0", "fontSize": 7.8, "num_connections": 24},
+        {"node":31, "name":"Combined", "data_link": "/data/layer_1/combined.json", "node_color": "#00b0b0", "fontSize": 7.8, "num_connections": 6},
+        {"node":32, "name":"Heart", "data_link": "/data/layer_1/heart.json", "node_color": "#00b0b0", "fontSize": 7.8, "num_connections": 1},
+        {"node":33, "name":"Brain", "data_link": "/data/layer_1/brain.json", "node_color": "#00b0b0", "fontSize": 7.8, "num_connections": 2}
+    ],
+    "links":[
+        {"source":0, "target":3, "value":1, "link_width": 69, "d_link": ""},
+
+        {"source":1, "target":4, "value":1, "link_width": 63, "d_link": ""},
+        {"source":1, "target":5, "value":1, "link_width": 37, "d_link": ""},
+
+        {"source":2, "target":4, "value":1, "link_width": 4, "d_link": ""},
+        {"source":2, "target":5, "value":1, "link_width": 4, "d_link": ""},
+        {"source":2, "target":6, "value":1, "link_width": 60, "d_link": ""},
+        {"source":2, "target":7, "value":1, "link_width": 91, "d_link": ""},
+        {"source":2, "target":8, "value":1, "link_width": 40, "d_link": ""},
+        {"source":2, "target":9, "value":1, "link_width": 14, "d_link": ""},
+        {"source":2, "target":10, "value":1, "link_width": 14, "d_link": ""},
+ 
+        {"source":3, "target":11, "value":1, "color": "#5d29ff", "link_width": 10, "d_link": "/data/sankey_detail/gaze/gaze_group.json"},
+        {"source":4, "target":11, "value":1, "color": "#5d29ff", "link_width": 14, "d_link": "/data/sankey_detail/gaze/gaze_performance.json"},
+        {"source":5, "target":11, "value":1, "color": "#5d29ff", "link_width": 16, "d_link": "/data/sankey_detail/gaze/gaze_learning.json"},
+        {"source":6, "target":11, "value":1, "color": "#5d29ff", "link_width": 16, "d_link": "/data/sankey_detail/gaze/gaze_coordination.json"}, 
+        {"source":7, "target":11, "value":1, "color": "#5d29ff", "link_width": 16, "d_link": "/data/sankey_detail/gaze/gaze_interpersonal.json"},
+        {"source":8, "target":11, "value":1, "color": "#5d29ff", "link_width": 13, "d_link": "/data/sankey_detail/gaze/gaze_communication.json"},
+
+        {"source":3, "target":12, "value":1, "color": "#00b55b", "link_width": 9, "d_link": "/data/sankey_detail/log_data/log_group.json"},
+        {"source":4, "target":12, "value":1, "color": "#00b55b", "link_width": 15, "d_link": "/data/sankey_detail/log_data/log_performance.json"},
+        {"source":5, "target":12, "value":1, "color": "#00b55b", "link_width": 8, "d_link": "/data/sankey_detail/log_data/log_learning.json"},
+        {"source":6, "target":12, "value":1, "color": "#00b55b", "link_width": 11, "d_link": "/data/sankey_detail/log_data/log_coordination.json"},
+        {"source":7, "target":12, "value":1, "color": "#00b55b", "link_width": 11, "d_link": "/data/sankey_detail/log_data/log_interpersonal.json"},
+        {"source":8, "target":12, "value":1, "color": "#00b55b", "link_width": 11, "d_link": "/data/sankey_detail/log_data/log_communication.json"},
+        {"source":9, "target":12, "value":1, "color": "#00b55b", "link_width": 1, "d_link": "/data/sankey_detail/log_data/log_cognitive.json"},
+
+        {"source":3, "target":13, "value":1, "color": "#510000", "link_width": 14, "d_link": "/data/sankey_detail/body/body_group.json"},
+        {"source":4, "target":13, "value":1, "color": "#510000", "link_width": 14, "d_link": "/data/sankey_detail/body/body_performance.json"},
+        {"source":5, "target":13, "value":1, "color": "#510000", "link_width": 7, "d_link":  "/data/sankey_detail/body/body_learning.json"},
+        {"source":6, "target":13, "value":1, "color": "#510000", "link_width": 8, "d_link":  "/data/sankey_detail/body/body_coordination.json"},
+        {"source":7, "target":13, "value":1, "color": "#510000", "link_width": 6, "d_link":  "/data/sankey_detail/body/body_interpersonal.json"},
+        {"source":8, "target":13, "value":1, "color": "#510000", "link_width": 3, "d_link":  "/data/sankey_detail/body/body_communication.json"},
+        {"source":9, "target":13, "value":1, "color": "#510000", "link_width": 4, "d_link":  "/data/sankey_detail/body/body_cognitive.json"},
+        {"source":10, "target":13, "value":1, "color": "#510000", "link_width": 4, "d_link":  "/data/sankey_detail/body/body_affective.json"},
+
+        {"source":3, "target":14, "value":1, "color": "#fbad00", "link_width": 3, "d_link": "/data/sankey_detail/head/head_group.json"},
+        {"source":4, "target":14, "value":1, "color": "#fbad00", "link_width": 3, "d_link": "/data/sankey_detail/head/head_performance.json"},
+        {"source":5, "target":14, "value":1, "color": "#fbad00", "link_width": 1, "d_link": "/data/sankey_detail/head/head_learning.json"},
+        {"source":6, "target":14, "value":1, "color": "#fbad00", "link_width": 2, "d_link": "/data/sankey_detail/head/head_coordination.json"},
+        {"source":7, "target":14, "value":1, "color": "#fbad00", "link_width": 13, "d_link": "/data/sankey_detail/head/head_interpersonal.json"},
+        {"source":8, "target":14, "value":1, "color": "#fbad00", "link_width": 1, "d_link": "/data/sankey_detail/head/head_communication.json"},
+        {"source":9, "target":14, "value":1, "color": "#fbad00", "link_width": 1, "d_link": "/data/sankey_detail/head/head_cognitive.json"},
+
+        {"source":3, "target":15, "value":1, "color": "#c76d81", "link_width": 36, "d_link": "/data/sankey_detail/verbal/verbal_group.json"},
+        {"source":4, "target":15, "value":1, "color": "#c76d81", "link_width": 18, "d_link": "/data/sankey_detail/verbal/verbal_performance.json"},
+        {"source":5, "target":15, "value":1, "color": "#c76d81", "link_width": 18, "d_link": "/data/sankey_detail/verbal/verbal_learning.json"},
+        {"source":6, "target":15, "value":1, "color": "#c76d81", "link_width": 38, "d_link": "/data/sankey_detail/verbal/verbal_coordination.json"},
+        {"source":7, "target":15, "value":1, "color": "#c76d81", "link_width": 13, "d_link": "/data/sankey_detail/verbal/verbal_interpersonal.json"},
+        {"source":8, "target":15, "value":1, "color": "#c76d81", "link_width": 1, "d_link": "/data/sankey_detail/verbal/verbal_communication.json"},
+        {"source":9, "target":15, "value":1, "color": "#c76d81", "link_width": 1, "d_link": "/data/sankey_detail/verbal/verbal_cognitive.json"},
+        {"source":10, "target":15, "value":1, "color": "#c76d81", "link_width": 2, "d_link": "/data/sankey_detail/verbal/verbal_affective.json"},
+
+        {"source":5, "target":16, "value":1, "color": "#00b0b0", "link_width": 6, "d_link": "/data/sankey_detail/physiological/physiological_learning.json"},
+        {"source":6, "target":16, "value":1, "color": "#00b0b0", "link_width": 5, "d_link": "/data/sankey_detail/physiological/physiological_coordination.json"},
+        {"source":7, "target":16, "value":1, "color": "#00b0b0", "link_width": 6, "d_link": "/data/sankey_detail/physiological/physiological_interpersonal.json"},
+        {"source":8, "target":16, "value":1, "color": "#00b0b0", "link_width": 3, "d_link": "/data/sankey_detail/physiological/physiological_communication.json"},
+        {"source":9, "target":16, "value":1, "color": "#00b0b0", "link_width": 6, "d_link": "/data/sankey_detail/physiological/physiological_cognitive.json"},
+        {"source":10, "target":16, "value":1, "color": "#00b0b0", "link_width": 3, "d_link": "/data/sankey_detail/physiological/physiological_affective.json"},
+
+        {"source":11, "target":17, "value":1, "color": "#5d29ff", "link_width": 77, "d_link": ""},
+        {"source":11, "target":18, "value":1, "color": "#5d29ff", "link_width": 3, "d_link": ""},
+
+        {"source":12, "target":19, "value":1, "color": "#00b55b", "link_width": 39, "d_link": ""},
+        {"source":12, "target":20, "value":1, "color": "#00b55b", "link_width": 14, "d_link": ""},
+        {"source":12, "target":21, "value":1, "color": "#00b55b", "link_width": 11, "d_link": ""},
+
+        {"source":13, "target":22, "value":1, "color": "#510000", "link_width": 16, "d_link": ""},
+        {"source":13, "target":23, "value":1, "color": "#510000", "link_width": 29, "d_link": ""},
+        {"source":13, "target":24, "value":1, "color": "#510000", "link_width": 13, "d_link": ""},
+
+        {"source":14, "target":25, "value":1, "color": "#fbad00", "link_width": 20, "d_link": ""},
+        {"source":14, "target":26, "value":1, "color": "#fbad00", "link_width": 6, "d_link": ""},
+
+        {"source":15, "target":27, "value":1, "color": "#c76d81", "link_width": 63, "d_link": ""},
+        {"source":15, "target":28, "value":1, "color": "#c76d81", "link_width": 46, "d_link": ""},
+        {"source":15, "target":29, "value":1, "color": "#c76d81", "link_width": 24, "d_link": ""},
+
+        {"source":16, "target":30, "value":1, "color": "#00b0b0", "link_width": 24, "d_link": ""},
+        {"source":16, "target":31, "value":1, "color": "#00b0b0", "link_width": 6, "d_link": ""},
+        {"source":16, "target":32, "value":1, "color": "#00b0b0", "link_width": 1, "d_link": ""},
+        {"source":16, "target":33, "value":1, "color": "#00b0b0", "link_width": 2, "d_link": ""}
+    ]
+}

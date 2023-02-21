@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    background-color: aliceblue;
+}
+.content-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    background-color: aliceblue;
+}
+
+.button-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 40px 0px;
+}
+
+button
+{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+button:hover{
+    background-color: aqua;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+node rect {
+    fill-opacity: .9;
+    shape-rendering: crispEdges;
+}
+.node text {
+    pointer-events: none;
+    text-shadow: 0 1px 0 #fff;
+}
+.arrow {
+    font-size: 3em;
+}
+.link {
+    fill: none;
+    stroke: #000;
+    stroke-opacity: .2;
+    padding: 2vh;
+}
+.metric-container {
+    padding: 2vh;
+    margin: 3vh;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 3vh;
+    margin-left: 3vh;
+}
+.legend-title {
+    text-decoration: underline;
+    text-decoration-color:rgb(0, 180, 141);
+    text-decoration-thickness: 2px;
+    margin-left: 5vh;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.l-info {
+    font-size: 0.8em;
+}
+.bottom-nav {
+    margin: 3vh;
+    margin-bottom: 1vh;
+}
+.legend-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.aq-arrow {
+    color: rgb(2, 214, 168);
+}
+.metric {
+    font-size: 1.1em;
+}
+.link:hover {
+    stroke-opacity: .5;
+}
+.diagram .force .detail {
+    display: inline-block;
+    margin: 0 auto;
+}
+.creator-link {
+    color: rgb(255, 255, 255);
+}
+#detail-diagram {
+    margin: 0;
+    padding: 0;
+}
+#sankey-diagram {
+    padding: 5vh;
+    padding-bottom: 4vh;
+}
+.reset-btn {
+    text-align: center;
+    border: none;
+    background-color: aliceblue;
+    font-size: 1em;
+    padding: 2vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    border-radius: 30px;
+    border: 2px solid rgb(156, 209, 255);
+    margin-bottom: 4vh;
+}
+.reset-btn:hover {
+    background-color: rgb(96, 181, 255);
+    color: white;
+    transition: 0.3s;
+}
+.nav-wrapper {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-between;
+    margin-bottom: 10vh;
+    align-items: center;
+}
+.link {
+    text-decoration: none;
+    color: rgb(43, 109, 195);
+    border-radius: 5px;
+}
+.link-1 {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 2px;
+}
