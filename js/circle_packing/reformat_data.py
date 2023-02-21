@@ -37,7 +37,16 @@ with open(INPUT_PATH, 'r') as f:
         def build_data(pos, hierarchy_list):
             # If at end of the hierarchy, we add a point corresponding to the paper in the position
             if not(hierarchy_list):
-                pos.append({"name": data[paper]["title"], "value": 1, "id": data[paper]["paper_id_new"]})
+                update = False
+                if pos:
+                    for i in range(len(pos)):
+                        # print(pos[i])
+                        if pos[i]["name"] == data[paper]["title"]:
+                            pos[i]["value"] += 1
+                            update =  True
+                            break
+                if not update:
+                    pos.append({"name": data[paper]["title"], "value": 1, "id": data[paper]["paper_id_new"]})
                 return
             # Else we pop what category we are considering
             category = hierarchy_list.pop()
