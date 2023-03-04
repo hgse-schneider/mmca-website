@@ -37,7 +37,12 @@ const chart = (data) => {
         .style("background", color(0))
         .style("cursor", "pointer")
         .on("click", (event) => zoom(event, root));
-  
+
+    // Currently only returning the SVG node :( 
+    const popout = d3.select("body").append("div")
+        .attr("class", "tooltip-text")
+        .style("opacity", 0);
+
     const node = svg.append("g")
       .selectAll("circle")
       .data(root.descendants().slice(1))
@@ -45,8 +50,18 @@ const chart = (data) => {
       // d.children ? color(d.depth) : "white"
         .attr("fill", d => nodeColor(d))
         .attr("pointer-events", d => !d.children ? "none" : null)
-        .on("mouseover", function() { d3.select(this).attr("stroke", "#000"); })
-        .on("mouseout", function() { d3.select(this).attr("stroke", null); })
+        .on("mouseover", function() { 
+                                      d3.select(this).attr("stroke", "#000"); 
+                                      console.log("test");
+                                      popout.html("test")
+                                        .style("opacity", 1);
+                                    })
+        .on("mouseout", function() { 
+                                    d3.select(this).attr("stroke", null); 
+                                    popout.transition()
+                                      .duration('50')
+                                      .style("opacity", 0);
+                                  })
         .on("click", (event, d) => focus !== d && (zoom(event, d), event.stopPropagation()));
   
     const label = svg.append("g")
