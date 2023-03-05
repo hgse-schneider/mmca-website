@@ -35,7 +35,10 @@ const chart = (data) => {
     let focus = root;
     let view;
   
-    const svg = d3.select(".container")
+  const con = d3.select(".container")
+    .append("div");
+  
+    const svg = con
         .append("svg")
         .attr("viewBox", `-${width / 2} -${height / 2} ${width} ${height}`)
         .style("display", "block")
@@ -43,28 +46,40 @@ const chart = (data) => {
         .on("click", (event) => zoom(event, root));
 
     // Currently only returning the SVG node :( 
-    const popout = d3.select("body").append("div")
+    const popout = con.append("div")
         .attr("class", "tooltip-text")
-        .style("opacity", 0);
+        .style("opacity", 0)
+        .style("padding", "6px")
+        .style("border-radius", "10px")
+        .style("position", "absolute");
 
     const node = svg.append("g")
       .selectAll("circle")
       .data(root.descendants().slice(1))
       .join("circle")
         .attr("fill", d => nodeColor(d))
-        .attr("pointer-events", d => !d.children ? "none" : null)
-        .on("mouseover", function() { 
+        .attr("d", d => d)
+        // .attr("pointer-events", d => !d.children ? "none" : null)
+        .attr("pointer-events", "all")
+        .on("mouseover", function(event, d) { 
                                       d3.select(this).attr("stroke", "#000"); 
-                                      console.log("test");
-                                      popout.html("test")
+                                      console.log(d.data)
+
+                                      popout.html(!d.data.children ? d.data.name : "")
+                                      popout.style("background", !d.data.children ? "white" : "none")
+                                      popout.transition()
+                                        .duration('50')
                                         .style("opacity", 1);
                                     })
-        .on("mouseout", function() { 
-                                    d3.select(this).attr("stroke", null); 
-                                    popout.transition()
-                                      .duration('50')
-                                      .style("opacity", 0);
-                                  })
+        .on("mousemove", function(event, d) {
+          popout.style("top", (event.pageY-10)+"px").style("left",(event.pageX+10)+"px")
+        })
+        .on("mouseout", function(event, d) { 
+          d3.select(this).attr("stroke", null); 
+          popout.transition()
+            .duration('50')
+            .style("opacity", 0);
+        })
         .on("click", (event, d) => focus !== d && (zoom(event, d), event.stopPropagation()));
   
     const label = svg.append("g")
@@ -116,8 +131,10 @@ const chart = (data) => {
           .on("end", function(d) { if (d.parent !== focus) this.style.display = "none"; });
     }
 
-    return svg.node();
+    return con;
   }
+
+
 
 Promise.all([
     d3.json('circle_data.json'),
