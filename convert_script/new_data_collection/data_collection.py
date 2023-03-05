@@ -34,7 +34,7 @@ IMPORTANT NOTES:
 
 # TODO: Handle input files having empty lines
 
-METRIC_PATH = "data_metrics_constructs.csv"
+METRIC_PATH = "paper_metrics_constructs.csv"
 META_PATH = "paper_meta.csv"
 JSON_PATH = "data.JSON"
 FINAL_CODED = 74
@@ -56,7 +56,8 @@ USEFUL_FIELDS = [
     "analysis_and_results mm-oo:analysis:resultsig",
     "title",
     "year",
-    "authors"
+    "authors",
+    "data_per_metric"
 ]
 ARRAY_FIELDS = ["data", 
                 "data_standardized", 
@@ -76,6 +77,10 @@ ARRAY_FIELDS = ["data",
 
 def CSV_to_JSON():
     # Read in data
+
+    # This often hits this error: pandas.errors.IntCastingNaNError: Cannot convert non-finite values (NA or inf) to integer
+    # I've dealt with before, how to fix this again? Open in Excel, delete all rows beneath the space/gap, save file, try again
+
     metric_data = pd.read_csv(METRIC_PATH)
     meta_data = pd.read_csv(META_PATH)
     # Safety conversion to ensure merge completes correctly
