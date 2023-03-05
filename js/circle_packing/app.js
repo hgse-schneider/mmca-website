@@ -11,17 +11,23 @@ const pack = data => d3.pack()
 
 const color = d3.scaleLinear()
     .domain([0, 5])
-    .range(["hsl(152,80%,80%)", "hsl(228,30%,40%)"])
-    .interpolate(d3.interpolateHcl);
+    .range(["#14248a", "#f9f5ff"])
+    .interpolate(d3.interpolateRgb);
+  
 
 const format = d3.format(",d");
+
+const paperColor = d3.scaleLinear()
+  .domain([0, 25, 50, 73])
+  .range(["#ffe226", "#ff2626", "rgb(129, 254, 5)", "blue"])
+  .interpolate(d3.interpolateRgb);
 
 const nodeColor = (d) => {
   if (d.data.id == 2)
   {
     return "blue";
   }
-  return d.children ? color(d.depth) : "white";
+  return d.children ? color(d.depth) : paperColor(d.data.id);
 }
 
 const chart = (data) => {
@@ -33,33 +39,51 @@ const chart = (data) => {
         .append("svg")
         .attr("viewBox", `-${width / 2} -${height / 2} ${width} ${height}`)
         .style("display", "block")
-        .style("margin", "0 -14px")
-        .style("background", color(0))
         .style("cursor", "pointer")
         .on("click", (event) => zoom(event, root));
-  
+
+    // Currently only returning the SVG node :( 
+    const popout = d3.select("body").append("div")
+        .attr("class", "tooltip-text")
+        .style("opacity", 0);
+
     const node = svg.append("g")
       .selectAll("circle")
       .data(root.descendants().slice(1))
       .join("circle")
-      // d.children ? color(d.depth) : "white"
         .attr("fill", d => nodeColor(d))
         .attr("pointer-events", d => !d.children ? "none" : null)
-        .on("mouseover", function() { d3.select(this).attr("stroke", "#000"); })
-        .on("mouseout", function() { d3.select(this).attr("stroke", null); })
+        .on("mouseover", function() { 
+                                      d3.select(this).attr("stroke", "#000"); 
+                                      console.log("test");
+                                      popout.html("test")
+                                        .style("opacity", 1);
+                                    })
+        .on("mouseout", function() { 
+                                    d3.select(this).attr("stroke", null); 
+                                    popout.transition()
+                                      .duration('50')
+                                      .style("opacity", 0);
+                                  })
         .on("click", (event, d) => focus !== d && (zoom(event, d), event.stopPropagation()));
   
     const label = svg.append("g")
         .style("font", "10px sans-serif")
         .attr("pointer-events", "none")
         .attr("text-anchor", "middle")
+        .style("fill", "#000")
       .selectAll("text")
       .data(root.descendants())
       .join("text")
         .style("fill-opacity", d => d.parent === root ? 1 : 0)
         .style("display", d => d.parent === root ? "inline" : "none")
         .text(d => d.data.name);
-  
+      
+      svg.selectAll("text").each(function(d) {
+        d.bbox = this.getBBox();
+        console.log(d.bbox);
+      });
+
     zoomTo([root.x, root.y, root.r * 2]);
   
     function zoomTo(v) {
