@@ -139,35 +139,44 @@ const tree_chart = (data) => {
     });
   }
 
+  // Update the root
   update(root);
-  if (state){
-    console.log("working stuff")
-    console.log(root.children[0]);
-    console.log(root.children[0].children[0]);
-    root.children[0].children = root.children[0]._children;
-    update(root.children[0]);
-    const next = root.children[0];
-    next.children[0].children = next.children[0]._children;
-    update(next.children[0]);
-  }
-  
-  // update(root.children[0].children[0]);
+  // If we have state information, display appropriately
   if (state)
   {
+    // Find the nodes we need to update
     let trav = state[1];
     let update_nodes = [];
     while (trav){
-      update_nodes.push(trav);
+      update_nodes.push(trav.data.name);
       trav = trav.parent;
     }
+    // Remove the root node
     update_nodes.pop();
+    // Reverse data so we can update from lowest depth up
     update_nodes.reverse();
-    console.log("not working stuff")
+    // Gives us the nodes we need to unfurl
     console.log(update_nodes);
-    update_nodes.forEach((n) => {
-      console.log(n);
-      n.children = n.data.children;
-      update(n);
+    let pos = root;
+    console.log(pos);
+    update_nodes.forEach((update_node) => {
+      let skip = false;
+      pos.children.forEach((child)=>{
+        if (skip == true)
+        {
+          return;
+        }
+        if(child.data.name == update_node)
+        {
+          console.log(child);
+          child.children = child._children;
+          console.log(child);
+          update(child);
+          pos = child;
+          console.log(pos);
+          skip = true;
+        }
+      })
     })
   }
 
