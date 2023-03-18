@@ -10,11 +10,39 @@
 </head>
 <body>
     <div class="content-container">
-        <div class="button-container">
-            <button id="sankey">Sankey diagram</button>
-            <button id="circle">Circular packing</button>
-            <button id="tree">Collapsible tree</button>
+        <div class="top-area">
+            <div class="option-container">
+                <div class="option-header">
+                    <h1>Filter options</h1>
+                </div>
+                <div class="option-body">
+                    <button class="button" id="00s" >2001-2010 only</button>
+                    <button class="button" id="10s">2011-onwards</button>
+    
+                </div>
+            </div>
+            <div class="option-container">
+                <div class="option-header">
+                    <h1>Visualization choice</h1>
+                </div>
+                <div class="option-body">
+                    <button id="sankey">Sankey diagram</button>
+                    <button id="circle">Circular packing</button>
+                    <button id="tree">Collapsible tree</button>
+                </div>
+                
+            </div>
+            <div class="option-container">
+                <div class="option-header">
+                    <h1>Visualization options</h1>
+                </div>
+                <div class="option-body">
+                    <button id="citations">Number of citations</button>
+                    <button id="connections">Number of connections</button>
+                </div>
+            </div>
         </div>
+        
         <div class="container"></div>
     </div>
     <script src="https://unpkg.com/d3-array@1"></script>

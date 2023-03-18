@@ -17,6 +17,7 @@ const pack = data => d3.pack()
                         .sum(d => d.value)
                         .sort((a, b) => b.value - a.value));
 
+let state = "";                  
 
 const tree_chart = (data) => {
   d3.select('.container').html('');
@@ -139,6 +140,36 @@ const tree_chart = (data) => {
   }
 
   update(root);
+  if (state){
+    console.log("working stuff")
+    console.log(root.children[0]);
+    console.log(root.children[0].children[0]);
+    root.children[0].children = root.children[0]._children;
+    update(root.children[0]);
+    const next = root.children[0];
+    next.children[0].children = next.children[0]._children;
+    update(next.children[0]);
+  }
+  
+  // update(root.children[0].children[0]);
+  if (state)
+  {
+    let trav = state[1];
+    let update_nodes = [];
+    while (trav){
+      update_nodes.push(trav);
+      trav = trav.parent;
+    }
+    update_nodes.pop();
+    update_nodes.reverse();
+    console.log("not working stuff")
+    console.log(update_nodes);
+    update_nodes.forEach((n) => {
+      console.log(n);
+      n.children = n.data.children;
+      update(n);
+    })
+  }
 
   return svg.node();
 }
@@ -194,6 +225,7 @@ const circle_chart = (data) => {
         .style("position", "absolute");
 
     const node = svg.append("g")
+      .attr("transform", "translate(0, -200)")
       .selectAll("circle")
       .data(root.descendants().slice(1))
       .join("circle")
@@ -223,9 +255,11 @@ const circle_chart = (data) => {
         .on("click", (event, d) => focus !== d && (zoom(event, d), event.stopPropagation()));
   
     const label = svg.append("g")
+        .attr("transform", "translate(0, -200)")
         .style("font", "10px sans-serif")
         .attr("pointer-events", "none")
         .attr("text-anchor", "middle")
+        // Doesn't seem to do anything
         .style("fill", "#000")
       .selectAll("text")
       .data(root.descendants())
@@ -252,9 +286,13 @@ const circle_chart = (data) => {
     }
   
     function zoom(event, d) {
+      state = [event, d]
+      console.log(state)
       const focus0 = focus;
   
       focus = d;
+      console.log("focus:");
+      console.log(focus);
   
       const transition = svg.transition()
           .duration(event.altKey ? 7500 : 750)
@@ -269,6 +307,12 @@ const circle_chart = (data) => {
           .style("fill-opacity", d => d.parent === focus ? 1 : 0)
           .on("start", function(d) { if (d.parent === focus) this.style.display = "inline"; })
           .on("end", function(d) { if (d.parent !== focus) this.style.display = "none"; });
+    }
+    if (state)
+    {
+      focus = state[1].children;
+      // focus !== state[1] && (zoom(state[0], state[1]), state[0].stopPropagation());
+      zoom(state[0], state[1]);
     }
 
     return con;
