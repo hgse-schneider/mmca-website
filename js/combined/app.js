@@ -146,59 +146,47 @@ const tree_chart = (data) => {
   // If we have state information, display appropriately
 
   const unfurl_tree = (state) => {
+    // Pulling out state information to make life easier
     e = state.event;
     update_nodes = state.update_nodes;
     chart_type = state.chart_type;
 
+    // Start unfurling from root
     let pos = root;
-    // console.log(pos);
+    // update each node in order
     update_nodes.forEach( (update_node, i) => {
-      console.log(i);
+
       let skip = false;
+      // If on our way pos doesn't have children (not unfurled), unfrul it
       if (!pos.children)
       {
         pos.children = pos._children;
         pos._children = null;
       }
+      // Else consider its children
       else
       {
+        // Check for each child if it matches the current category we're looking for
         pos.children.forEach((child)=>{
-          console.log("child!");
           if (skip == true)
           {
             return;
           }
+          // If match and currently not unfurled, unfurl
           if(child.data.name == update_node)
           {
-            console.log("should have an update");
-            console.log(child);
-            // console.log(child);
-            console.log(i);
-            console.log(update_nodes.length - 1);
-            if (i == update_nodes.length - 1)
+            if (!child.children)
             {
-              console.log("final update");
-              console.log(child);
-              console.log("child._children");
-              console.log(child._children);
-              if (child.children)
-              {
-                console.log("child._children before");
-                console.log(child._children);
-                child._children = child.children;
-                console.log(child._children);
-                child.children = null;
-              }
-              else
-              {
-                child.children = child._children;
-                child._children = null;
-              }
-              console.log("child._children 2");
-              console.log(child._children);
+              child.children = child._children;
+              child._children = null;
             }
-            console.log(child);
+            // If match and already unfurled, then if it's the final element, we should furl (?) it back a level
+            else if (i == update_nodes.length - 1 && child.children) {
+              child._children = child.children;
+              child.children = null;
+            }
             update(child);
+            // Update pos to go down the tree
             pos = child;
             skip = true;
           }
@@ -207,7 +195,7 @@ const tree_chart = (data) => {
     })
 
   }
-
+  // If we have state, unfurl the tree according to the state
   if (state)
   {
     unfurl_tree(state);
