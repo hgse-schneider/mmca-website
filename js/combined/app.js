@@ -185,10 +185,12 @@ const tree_chart = (data) => {
   return svg.node();
 }
 
-const findState = (event, d, chart_type) => {
+const findState = (e, d, chart_type) => {
+  // Some node that an event happened at
   let trav = d;
+  // Going to backtrack to the root, keeping track of our path
   let update_nodes = [];
-  while (trav){
+  while (trav && trav.data){
     update_nodes.push(trav.data.name);
     trav = trav.parent;
   }
@@ -197,7 +199,7 @@ const findState = (event, d, chart_type) => {
     // Reverse data so we can update from lowest depth up
     update_nodes.reverse();
     // Gives us the nodes we need to unfurl
-  return {event: event, state: update_nodes, chart_type: chart_type}
+  return {event: e, update_nodes: update_nodes, chart_type: chart_type}
 }
 
 
@@ -311,7 +313,13 @@ const circle_chart = (data) => {
     }
   
     function zoom(event, d) {
+      console.log("d we are zooming to!");
+      console.log(d);
+      // Update our state
       state = findState(event, d, "CIRCLE");
+
+      e = state.event;
+
       // console.log("Circle packing state upon entering zoom function")
       // console.log(state);
       const focus0 = focus;
@@ -321,7 +329,7 @@ const circle_chart = (data) => {
       // console.log(focus);
   
       const transition = svg.transition()
-          .duration(event.altKey ? 7500 : 750)
+          .duration(e.altKey ? 7500 : 750)
           .tween("zoom", d => {
             const i = d3.interpolateZoom(view, [focus.x, focus.y, focus.r * 2]);
             return t => zoomTo(i(t));
@@ -334,22 +342,20 @@ const circle_chart = (data) => {
           .on("start", function(d) { if (d.parent === focus) this.style.display = "inline"; })
           .on("end", function(d) { if (d.parent !== focus) this.style.display = "none"; });
     }
+  // If we have state transitiong from another chart, match that chart's state
   if (state)
   {
-    // Find the nodes we need to update
-    let trav = state[1];
-    let update_nodes = [];
-    while (trav){
-      update_nodes.push(trav.data.name);
-      trav = trav.parent;
-    }
-    // Remove the root node
-    update_nodes.pop();
-    // Reverse data so we can update from lowest depth up
-    update_nodes.reverse();
-    // Gives us the nodes we need to unfurl
-    // console.log(update_nodes);
-    let pos = root.data;
+    console.log("STATE");
+    console.log(state);
+    // We have state
+    e = state.event;
+    update_nodes = state.update_nodes;
+    chart_type = state.chart_type;
+    
+    console.log("ROOT");
+    console.log(root);
+
+    let pos = root;
     // console.log(pos);
     update_nodes.forEach((update_node) => {
       let skip = false;
@@ -358,7 +364,7 @@ const circle_chart = (data) => {
         {
           return;
         }
-        if(child.name == update_node)
+        if(child.data.name == update_node)
         {
           // console.log(child);
           pos = child;
@@ -366,7 +372,8 @@ const circle_chart = (data) => {
         }
       })
     })
-    zoom(state[0], pos);
+    console.log(pos);
+    zoom(state.event, pos);
   }
 
 
