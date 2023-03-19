@@ -79,6 +79,8 @@ const tree_chart = (data) => {
         .attr("fill-opacity", 0)
         .attr("stroke-opacity", 0)
         .on("click", (event, d) => {
+          state = findState(event, d, "TREE");
+          // console.log(state);
           d.children = d.children ? null : d._children;
           update(d);
         });
@@ -156,9 +158,9 @@ const tree_chart = (data) => {
     // Reverse data so we can update from lowest depth up
     update_nodes.reverse();
     // Gives us the nodes we need to unfurl
-    console.log(update_nodes);
+    // console.log(update_nodes);
     let pos = root;
-    console.log(pos);
+    // console.log(pos);
     update_nodes.forEach((update_node) => {
       let skip = false;
       pos.children.forEach((child)=>{
@@ -168,12 +170,12 @@ const tree_chart = (data) => {
         }
         if(child.data.name == update_node)
         {
-          console.log(child);
+          // console.log(child);
           child.children = child._children;
-          console.log(child);
+          // console.log(child);
           update(child);
           pos = child;
-          console.log(pos);
+          // console.log(pos);
           skip = true;
         }
       })
@@ -183,6 +185,20 @@ const tree_chart = (data) => {
   return svg.node();
 }
 
+const findState = (event, d, chart_type) => {
+  let trav = d;
+  let update_nodes = [];
+  while (trav){
+    update_nodes.push(trav.data.name);
+    trav = trav.parent;
+  }
+    // Remove the root node
+    update_nodes.pop();
+    // Reverse data so we can update from lowest depth up
+    update_nodes.reverse();
+    // Gives us the nodes we need to unfurl
+  return {event: event, state: update_nodes, chart_type: chart_type}
+}
 
 
 // Circular Packing
@@ -244,7 +260,7 @@ const circle_chart = (data) => {
         .attr("pointer-events", "all")
         .on("mouseover", function(event, d) { 
                                       d3.select(this).attr("stroke", "#000"); 
-                                      console.log(d.data)
+                                      // console.log(d.data)
 
                                       popout.html(!d.data.children ? d.data.name : "")
                                       popout.style("background", !d.data.children ? "white" : "none")
@@ -279,7 +295,7 @@ const circle_chart = (data) => {
       
       svg.selectAll("text").each(function(d) {
         d.bbox = this.getBBox();
-        console.log(d.bbox);
+        // // console.log(d.bbox);
       });
 
     zoomTo([root.x, root.y, root.r * 2]);
@@ -295,13 +311,14 @@ const circle_chart = (data) => {
     }
   
     function zoom(event, d) {
-      state = [event, d]
-      console.log(state)
+      state = findState(event, d, "CIRCLE");
+      // console.log("Circle packing state upon entering zoom function")
+      // console.log(state);
       const focus0 = focus;
   
       focus = d;
-      console.log("focus:");
-      console.log(focus);
+      // console.log("focus:");
+      // console.log(focus);
   
       const transition = svg.transition()
           .duration(event.altKey ? 7500 : 750)
@@ -317,12 +334,50 @@ const circle_chart = (data) => {
           .on("start", function(d) { if (d.parent === focus) this.style.display = "inline"; })
           .on("end", function(d) { if (d.parent !== focus) this.style.display = "none"; });
     }
-    if (state)
-    {
-      focus = state[1].children;
-      // focus !== state[1] && (zoom(state[0], state[1]), state[0].stopPropagation());
-      zoom(state[0], state[1]);
+  if (state)
+  {
+    // Find the nodes we need to update
+    let trav = state[1];
+    let update_nodes = [];
+    while (trav){
+      update_nodes.push(trav.data.name);
+      trav = trav.parent;
     }
+    // Remove the root node
+    update_nodes.pop();
+    // Reverse data so we can update from lowest depth up
+    update_nodes.reverse();
+    // Gives us the nodes we need to unfurl
+    // console.log(update_nodes);
+    let pos = root.data;
+    // console.log(pos);
+    update_nodes.forEach((update_node) => {
+      let skip = false;
+      pos.children.forEach((child)=>{
+        if (skip == true)
+        {
+          return;
+        }
+        if(child.name == update_node)
+        {
+          // console.log(child);
+          pos = child;
+          skip = true;
+        }
+      })
+    })
+    zoom(state[0], pos);
+  }
+
+
+    // if (state)
+    // {
+    //   // console.log('state');
+    //   // console.log(state);
+    //   focus = state[1].children;
+    //   // focus !== state[1] && (zoom(state[0], state[1]), state[0].stopPropagation());
+    //   zoom(state[0], state[1]);
+    // }
 
     return con;
 }
@@ -381,7 +436,7 @@ function sankey_chart(low, high) {
       .on('click', function(e, d) {
         let link = d.d_link
         if(link != "") {
-          console.log(d) 
+          // console.log(d) 
         }
       })
       .style("stroke", d => {return d.color} )
@@ -406,7 +461,7 @@ function sankey_chart(low, high) {
             return "transparent" })
         .on('click', function(e, d) {
           let link = d.data_link
-          console.log(d)
+          // console.log(d)
         })
         .on('mouseover', function(e, d) {
           node.append("title")
@@ -436,7 +491,7 @@ function sankey_chart(low, high) {
 const graph_switcher = (circle_data, sankey_data) => {
   d3.select("#sankey")
   .on("click", function(d,i) {
-      console.log("test")
+      // console.log("test")
       sankey_chart(0, 100)
   })   
   d3.select("#circle")
@@ -456,5 +511,5 @@ Promise.all([
     graph_switcher(files[0], files[1]);
 }).catch(function(err) {
     // Check errors
-    console.log(err)
+    // console.log(err)
 });
