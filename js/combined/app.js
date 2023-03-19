@@ -80,9 +80,9 @@ const tree_chart = (data) => {
         .attr("stroke-opacity", 0)
         .on("click", (event, d) => {
           state = findState(event, d, "TREE");
-          // console.log(state);
-          d.children = d.children ? null : d._children;
-          update(d);
+          unfurl_tree(state);
+          // d.children = d.children ? null : d._children;
+          // update(d);
         });
 
     nodeEnter.append("circle")
@@ -144,42 +144,73 @@ const tree_chart = (data) => {
   // Update the root
   update(root);
   // If we have state information, display appropriately
-  if (state)
-  {
-    // Find the nodes we need to update
-    let trav = state[1];
-    let update_nodes = [];
-    while (trav){
-      update_nodes.push(trav.data.name);
-      trav = trav.parent;
-    }
-    // Remove the root node
-    update_nodes.pop();
-    // Reverse data so we can update from lowest depth up
-    update_nodes.reverse();
-    // Gives us the nodes we need to unfurl
-    // console.log(update_nodes);
+
+  const unfurl_tree = (state) => {
+    e = state.event;
+    update_nodes = state.update_nodes;
+    chart_type = state.chart_type;
+
     let pos = root;
     // console.log(pos);
-    update_nodes.forEach((update_node) => {
+    update_nodes.forEach( (update_node, i) => {
+      console.log(i);
       let skip = false;
-      pos.children.forEach((child)=>{
-        if (skip == true)
-        {
-          return;
-        }
-        if(child.data.name == update_node)
-        {
-          // console.log(child);
-          child.children = child._children;
-          // console.log(child);
-          update(child);
-          pos = child;
-          // console.log(pos);
-          skip = true;
-        }
-      })
+      if (!pos.children)
+      {
+        pos.children = pos._children;
+        pos._children = null;
+      }
+      else
+      {
+        pos.children.forEach((child)=>{
+          console.log("child!");
+          if (skip == true)
+          {
+            return;
+          }
+          if(child.data.name == update_node)
+          {
+            console.log("should have an update");
+            console.log(child);
+            // console.log(child);
+            console.log(i);
+            console.log(update_nodes.length - 1);
+            if (i == update_nodes.length - 1)
+            {
+              console.log("final update");
+              console.log(child);
+              console.log("child._children");
+              console.log(child._children);
+              if (child.children)
+              {
+                console.log("child._children before");
+                console.log(child._children);
+                child._children = child.children;
+                console.log(child._children);
+                child.children = null;
+              }
+              else
+              {
+                child.children = child._children;
+                child._children = null;
+              }
+              console.log("child._children 2");
+              console.log(child._children);
+            }
+            console.log(child);
+            update(child);
+            pos = child;
+            skip = true;
+          }
+        })
+      }
     })
+
+  }
+
+  if (state)
+  {
+    unfurl_tree(state);
   }
 
   return svg.node();
