@@ -34,7 +34,7 @@ const filter_data = (data, filter) => {
                 if (leaf.value < 2)
                 {
                   leaf.value = 100;
-                  console.log(leaf);
+                  // console.log(leaf);
                 }
               })
             })
@@ -356,30 +356,47 @@ const circle_chart = (data) => {
         .style("fill", "blue");
     
     zoomTo([root.x, root.y, root.r * 2]);
+    
+
+    box_widths = [];
+    console.log("GET TESTING");
+    sublabels.nodes().forEach((n, i) => {
+      const bbox = n.getBBox();
+      box_widths.push(bbox);
+    })
+    console.log(sublabels.nodes());
+
+    const padding = 2;
+    console.log("GET TESTING");
+      label.selectAll("rect")
+        .attr("x", (d, i) => box_widths[i].x - padding)
+        .attr("y", (d, i) => box_widths[i].y - padding)
+        .attr("width", (d, i) => box_widths[i].width + (padding*2))
+        .attr("height", (d, i) => box_widths[i].height + (padding*2));
         
-      console.log(boxes._groups[0]);
-      boxes._groups[0].forEach((b, i) => {
-        // console.log(sublabels);
-        sublabels._groups[0].forEach((l, li) => {
-          if (i == li)
-          {
-            // console.log(l);
-            const bbox = l.getBBox();
-            const padding = 2;
-            if (bbox.x)
-            {
-              console.log(bbox);
-              console.log(b);
-              // b.attr("x", 10);
-            }
-            // b.attr("x", bbox.x - padding)
-            //   .attr("y", bbox.y - padding)
-            //   .attr("width", bbox.width + (padding*2))
-            //   .attr("height", bbox.height + (padding*2));
+      // console.log("GET TESTING");
+      // boxes._groups[0].forEach((b, i) => {
+      //   // console.log(sublabels);
+      //   sublabels._groups[0].forEach((l, li) => {
+      //     if (i == li)
+      //     {
+      //       // console.log(l);
+      //       // const bbox = l.getBBox();
+      //       const padding = 2;
+      //       if (bbox.x)
+      //       {
+      //         // console.log(bbox);
+      //         // console.log(b);
+      //         // b.attr("x", 10);
+      //       }
+      //       // b.attr("x", bbox.x - padding)
+      //       //   .attr("y", bbox.y - padding)
+      //       //   .attr("width", bbox.width + (padding*2))
+      //       //   .attr("height", bbox.height + (padding*2));
             
-          }
-        })
-      })
+      //     }
+      //   })
+      // })
 
       // console.log(svg.selectAll("text").nodes());
       // console.log("LABELS")
@@ -400,6 +417,10 @@ const circle_chart = (data) => {
       //   }
         
       // })
+      // console.log("CURRETNLY HERE");
+      // label.selectAll("text").each((l, i) => {
+      //   console.log(l.previousSibling);
+      // });
       // console.log(svg);
 
     function zoomTo(v) {
