@@ -327,26 +327,13 @@ const circle_chart = (data) => {
         .on("click", (event, d) => focus !== d && (zoom(event, d), event.stopPropagation()));
   
     const label = svg.append("g")
-    const sublabels = label
-        .attr("transform", "translate(0, -200)")
-        .style("font", "10px sans-serif")
-        .attr("pointer-events", "none")
-        .attr("text-anchor", "middle")
-        // Doesn't seem to do anything
-        .style("fill", "#000")
-      .selectAll("text")
-      .data(root.descendants())
-      .join("text")
-        .style("fill-opacity", d => d.parent === root ? 1 : 0)
-        .style("display", d => d.parent === root ? "inline" : "none")
-        .text(d => d.data.name);
-    
+
     const boxes = label
       .attr("transform", "translate(0, -200)")
     .selectAll("rect")
     .data(root.descendants())
     .join("rect")
-        .style("fill-opacity", d => d.parent === root ? 1 : 0)
+        .style("fill-opacity", d => d.parent === root ? 0.7 : 0)
         .style("fill", "blue")
         .style("display", d => d.parent === root ? "inline" : "none")
         .attr("d", d => d)
@@ -354,6 +341,22 @@ const circle_chart = (data) => {
         .attr("width", 10)
         .attr("height", 10)
         .style("fill", "blue");
+
+    const sublabels = label
+        .attr("transform", "translate(0, -200)")
+        .style("font", "10px sans-serif")
+        .attr("pointer-events", "none")
+        .attr("text-anchor", "middle")
+        // Doesn't seem to do anything
+        .style("fill", "#fff")
+      .selectAll("text")
+      .data(root.descendants())
+      .join("text")
+        .style("fill-opacity", d => d.parent === root ? 1 : 0)
+        .style("display", d => d.parent === root ? "inline" : "none")
+        .text(d => d.data.name);
+    
+
     
     zoomTo([root.x, root.y, root.r * 2]);
     
