@@ -143,8 +143,8 @@ const tree_chart = (data) => {
 
   // Update the root
   update(root);
-  // If we have state information, display appropriately
-
+  
+  // Function for unfurling tree according to state from other visualizations
   const unfurl_tree = (state) => {
     // Pulling out state information to make life easier
     e = state.event;
@@ -204,6 +204,8 @@ const tree_chart = (data) => {
   return svg.node();
 }
 
+// Function used in visualizations to update state to have consistent state object
+// between visualizations
 const findState = (e, d, chart_type) => {
   // Some node that an event happened at
   let trav = d;
@@ -262,7 +264,6 @@ const circle_chart = (data) => {
         .style("cursor", "pointer")
         .on("click", (event) => zoom(event, root));
 
-    // Currently only returning the SVG node :( 
     const popout = con.append("div")
         .attr("class", "tooltip-text")
         .style("opacity", 0)
@@ -277,7 +278,6 @@ const circle_chart = (data) => {
       .join("circle")
         .attr("fill", d => nodeColor(d))
         .attr("d", d => d)
-        // .attr("pointer-events", d => !d.children ? "none" : null)
         .attr("pointer-events", "all")
         .on("mouseover", function(event, d) { 
                                       d3.select(this).attr("stroke", "#000"); 
@@ -316,7 +316,6 @@ const circle_chart = (data) => {
       
       svg.selectAll("text").each(function(d) {
         d.bbox = this.getBBox();
-        // // console.log(d.bbox);
       });
 
     zoomTo([root.x, root.y, root.r * 2]);
@@ -332,20 +331,15 @@ const circle_chart = (data) => {
     }
   
     function zoom(event, d) {
-      console.log("d we are zooming to!");
-      console.log(d);
-      // Update our state
+      // Update our state (redundant when coming from another vis, 
+      // but needed when clicking around this vis, could save this one op but doesn't really hurt)
       state = findState(event, d, "CIRCLE");
 
       e = state.event;
 
-      // console.log("Circle packing state upon entering zoom function")
-      // console.log(state);
+      // Update focus position
       const focus0 = focus;
-  
       focus = d;
-      // console.log("focus:");
-      // console.log(focus);
   
       const transition = svg.transition()
           .duration(e.altKey ? 7500 : 750)
@@ -361,21 +355,19 @@ const circle_chart = (data) => {
           .on("start", function(d) { if (d.parent === focus) this.style.display = "inline"; })
           .on("end", function(d) { if (d.parent !== focus) this.style.display = "none"; });
     }
+
   // If we have state transitiong from another chart, match that chart's state
   if (state)
   {
-    console.log("STATE");
-    console.log(state);
-    // We have state
+    // Extract out state information
     e = state.event;
     update_nodes = state.update_nodes;
     chart_type = state.chart_type;
-    
-    console.log("ROOT");
-    console.log(root);
 
+    // Start from the root
     let pos = root;
-    // console.log(pos);
+
+    // For each node we had in our state, we need to update our position
     update_nodes.forEach((update_node) => {
       let skip = false;
       pos.children.forEach((child)=>{
@@ -383,28 +375,17 @@ const circle_chart = (data) => {
         {
           return;
         }
+        // If we match, move pos to that child
         if(child.data.name == update_node)
         {
-          // console.log(child);
           pos = child;
           skip = true;
         }
       })
     })
-    console.log(pos);
+    // Once we're done, pos should be at the position we want to zoom to, so zoom!
     zoom(state.event, pos);
   }
-
-
-    // if (state)
-    // {
-    //   // console.log('state');
-    //   // console.log(state);
-    //   focus = state[1].children;
-    //   // focus !== state[1] && (zoom(state[0], state[1]), state[0].stopPropagation());
-    //   zoom(state[0], state[1]);
-    // }
-
     return con;
 }
 
