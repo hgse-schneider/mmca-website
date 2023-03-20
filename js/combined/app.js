@@ -300,7 +300,8 @@ const circle_chart = (data) => {
         })
         .on("click", (event, d) => focus !== d && (zoom(event, d), event.stopPropagation()));
   
-    const label = svg.append("g")
+    const labels = svg.append("g")
+    const label = labels
         .attr("transform", "translate(0, -200)")
         .style("font", "10px sans-serif")
         .attr("pointer-events", "none")
@@ -314,20 +315,29 @@ const circle_chart = (data) => {
         .style("display", d => d.parent === root ? "inline" : "none")
         .text(d => d.data.name);
     
-    console.log('test');
-    console.log(svg.selectAll("text"));
-      console.log(svg.selectAll("text").nodes());
+    zoomTo([root.x, root.y, root.r * 2]);
+  
+      // console.log(svg.selectAll("text").nodes());
+      console.log("LABELS")
+      console.log(label.nodes());
       svg.selectAll("text").nodes().forEach((t) => {
         let bbox = t.getBBox();
         if (bbox.height) 
         {
+          console.log(t);
           console.log(bbox);
+          var padding = 2;
+          labels.insert("rect", "text")
+              .attr("x", bbox.x - padding)
+              .attr("y", bbox.y - padding)
+              .attr("width", bbox.width + (padding*2))
+              .attr("height", bbox.height + (padding*2))
+              .style("fill", "blue");
         }
         
       })
+      console.log(svg);
 
-    zoomTo([root.x, root.y, root.r * 2]);
-  
     function zoomTo(v) {
       const k = width / v[2];
   
