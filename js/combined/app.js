@@ -313,10 +313,18 @@ const circle_chart = (data) => {
         .style("fill-opacity", d => d.parent === root ? 1 : 0)
         .style("display", d => d.parent === root ? "inline" : "none")
         .text(d => d.data.name);
-      
-      svg.selectAll("text").each(function(d) {
-        d.bbox = this.getBBox();
-      });
+    
+    console.log('test');
+    console.log(svg.selectAll("text"));
+      console.log(svg.selectAll("text").nodes());
+      svg.selectAll("text").nodes().forEach((t) => {
+        let bbox = t.getBBox();
+        if (bbox.height) 
+        {
+          console.log(bbox);
+        }
+        
+      })
 
     zoomTo([root.x, root.y, root.r * 2]);
   
