@@ -341,28 +341,66 @@ const circle_chart = (data) => {
         .style("display", d => d.parent === root ? "inline" : "none")
         .text(d => d.data.name);
     
+    const boxes = label
+      .attr("transform", "translate(0, -200)")
+    .selectAll("rect")
+    .data(root.descendants())
+    .join("rect")
+        .style("fill-opacity", d => d.parent === root ? 1 : 0)
+        .style("fill", "blue")
+        .style("display", d => d.parent === root ? "inline" : "none")
+        .attr("d", d => d)
+        // For testing purposes
+        .attr("width", 10)
+        .attr("height", 10)
+        .style("fill", "blue");
+    
     zoomTo([root.x, root.y, root.r * 2]);
-  
-      // console.log(svg.selectAll("text").nodes());
-      console.log("LABELS")
-      console.log(sublabels.nodes());
-      svg.selectAll("text").nodes().forEach((t) => {
-        let bbox = t.getBBox();
-        if (bbox.height) 
-        {
-          console.log(t);
-          console.log(bbox);
-          var padding = 2;
-          label.insert("rect", "text")
-              .attr("x", bbox.x - padding)
-              .attr("y", bbox.y - padding)
-              .attr("width", bbox.width + (padding*2))
-              .attr("height", bbox.height + (padding*2))
-              .style("fill", "blue");
-        }
         
+      console.log(boxes._groups[0]);
+      boxes._groups[0].forEach((b, i) => {
+        // console.log(sublabels);
+        sublabels._groups[0].forEach((l, li) => {
+          if (i == li)
+          {
+            // console.log(l);
+            const bbox = l.getBBox();
+            const padding = 2;
+            if (bbox.x)
+            {
+              console.log(bbox);
+              console.log(b);
+              // b.attr("x", 10);
+            }
+            // b.attr("x", bbox.x - padding)
+            //   .attr("y", bbox.y - padding)
+            //   .attr("width", bbox.width + (padding*2))
+            //   .attr("height", bbox.height + (padding*2));
+            
+          }
+        })
       })
-      console.log(svg);
+
+      // console.log(svg.selectAll("text").nodes());
+      // console.log("LABELS")
+      // console.log(sublabels.nodes());
+      // svg.selectAll("text").nodes().forEach((t) => {
+      //   let bbox = t.getBBox();
+      //   if (bbox.height) 
+      //   {
+      //     console.log(t);
+      //     console.log(bbox);
+      //     var padding = 2;
+      //     label.insert("rect", "text")
+      //         .attr("x", bbox.x - padding)
+      //         .attr("y", bbox.y - padding)
+      //         .attr("width", bbox.width + (padding*2))
+      //         .attr("height", bbox.height + (padding*2))
+      //         .style("fill", "blue");
+      //   }
+        
+      // })
+      // console.log(svg);
 
     function zoomTo(v) {
       const k = width / v[2];
@@ -370,6 +408,8 @@ const circle_chart = (data) => {
       view = v;
       console.log("HUTNING RECTANGLES");
       console.log(label.nodes());
+      boxes.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k})`);
+      console.log(boxes);
       sublabels.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k})`);
       node.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k})`);
       node.attr("r", d => d.r * k);
