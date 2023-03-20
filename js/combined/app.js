@@ -467,8 +467,12 @@ function sankey_chart(low, high) {
         .style("fill", function(d) { 
             return "transparent" })
         .on('click', function(e, d) {
-          let link = d.data_link
-          // console.log(d)
+          // TODO: This link only works while in combined, will need fixing upon
+          // Moving location
+          let link = "../.." + d.data_link;
+          console.log("DATALINK");
+          console.log(link);
+          force_layout(link);
         })
         .on('mouseover', function(e, d) {
           node.append("title")
