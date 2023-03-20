@@ -19,6 +19,32 @@ const pack = data => d3.pack()
 
 let state = "";                  
 
+let filter_state = new Set();
+
+const filter_data = (data, filter) => {
+  console.log(data);
+  switch (filter)
+  {
+    case "10s":
+      data.children.forEach((layer_1) => {
+        layer_1.children.forEach((layer_2) => {
+          layer_2.children.forEach((layer_3) => {
+            layer_3.children.forEach((layer_4) => {
+              layer_4.children.forEach((leaf) => {
+                if (leaf.value < 2)
+                {
+                  leaf.value = 100;
+                  console.log(leaf);
+                }
+              })
+            })
+          })
+        })
+      })
+  }
+  return data;
+}
+
 const tree_chart = (data) => {
   d3.select('.container').html('');
   const root = d3.hierarchy(data);
@@ -300,8 +326,8 @@ const circle_chart = (data) => {
         })
         .on("click", (event, d) => focus !== d && (zoom(event, d), event.stopPropagation()));
   
-    const labels = svg.append("g")
-    const label = labels
+    const label = svg.append("g")
+    const sublabels = label
         .attr("transform", "translate(0, -200)")
         .style("font", "10px sans-serif")
         .attr("pointer-events", "none")
@@ -319,7 +345,7 @@ const circle_chart = (data) => {
   
       // console.log(svg.selectAll("text").nodes());
       console.log("LABELS")
-      console.log(label.nodes());
+      console.log(sublabels.nodes());
       svg.selectAll("text").nodes().forEach((t) => {
         let bbox = t.getBBox();
         if (bbox.height) 
@@ -327,7 +353,7 @@ const circle_chart = (data) => {
           console.log(t);
           console.log(bbox);
           var padding = 2;
-          labels.insert("rect", "text")
+          label.insert("rect", "text")
               .attr("x", bbox.x - padding)
               .attr("y", bbox.y - padding)
               .attr("width", bbox.width + (padding*2))
@@ -342,8 +368,9 @@ const circle_chart = (data) => {
       const k = width / v[2];
   
       view = v;
-  
-      label.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k})`);
+      console.log("HUTNING RECTANGLES");
+      console.log(label.nodes());
+      sublabels.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k})`);
       node.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k})`);
       node.attr("r", d => d.r * k);
     }
@@ -525,7 +552,9 @@ const graph_switcher = (circle_data, sankey_data) => {
   })   
   d3.select("#circle")
   .on("click", function(d,i) {
-      circle_chart(circle_data)
+      const filtered = filter_data(circle_data, "10s");
+      circle_chart(filtered)
+      console.log("FILTER ATTEMPT");
   })   
   d3.select("#tree")
   .on("click", function(d,i) {
