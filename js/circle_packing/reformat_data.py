@@ -19,8 +19,8 @@ Parameters:
 --> FIELD_HIERARCHY: order of fields in diagram, first element highest
 '''
 
-INPUT_PATH = "data.JSON"
-OUTPUT_PATH = "circle_data.JSON"
+INPUT_PATH = "citation_data_verified.JSON"
+OUTPUT_PATH = "circle_data_new.JSON"
 # Flipping hierarhcy order from the intuitive since pop removes from end
 FIELD_HIERARHCY = ["outcome_larger_category", "outcome_smaller_category", "data_standardized", "metric"][::-1]
 
@@ -70,6 +70,7 @@ with open(INPUT_PATH, 'r') as f:
                 cleaned = link.split(": ")
                 if len(cleaned) < 3:
                     print(data[paper])
+                    print(cleaned)
                 if cleaned[2].strip() == "nonsig":
                     continue
                 split_links = re.findall(r"[\w']+|[.!?;]", cleaned[0])
@@ -181,7 +182,15 @@ with open(INPUT_PATH, 'r') as f:
                             update =  True
                             break
                 if not update:
-                    pos.append({"name": data[paper]["title"], "value": 1, "id": data[paper]["paper_id_new"]})
+                    pos.append({"name": data[paper]["title"], 
+                                "value": 1, 
+                                "id": data[paper]["paper_id_new"],
+                                "citations": data[paper]["Citations"],
+                                "year": data[paper]["year"],
+                                "url": data[paper]["google_scholar_url"],
+                                "metric": data[paper]["metric"],
+                                "outcome": data[paper]["outcome"]
+                                })
                 return
             category = info.pop()
             if not pos:
@@ -203,48 +212,6 @@ with open(INPUT_PATH, 'r') as f:
 
         for info in info_list:
             build_data(pos, info)
-
-        # Recursive function to generate children for each paper
-        # def build_data(pos, hierarchy_list):
-        #     # If at end of the hierarchy, we add a point corresponding to the paper in the position
-        #     if not(hierarchy_list):
-        #         update = False
-        #         if pos:
-        #             for i in range(len(pos)):
-        #                 # print(pos[i])
-        #                 if pos[i]["name"] == data[paper]["title"]:
-        #                     pos[i]["value"] += 1
-        #                     update =  True
-        #                     break
-        #         if not update:
-        #             pos.append({"name": data[paper]["title"], "value": 1, "id": data[paper]["paper_id_new"]})
-        #         return
-        #     # Else we pop what category we are considering
-        #     category = hierarchy_list.pop()
-            
-        #     for feature in data[paper][category]:
-        #         clean_feature = feature.split(") ")[1]
-        #         # If pos currently is an empty children list, we add the feature!
-        #         if not pos:
-        #             pos.append({"name": clean_feature, "children": []})
-        #             # Recursively call to fill the new children array we created with the next feature
-        #             build_data(pos[0]["children"], hierarchy_list)
-        #         else:
-        #             # Otherwise check if the feature is already there.
-        #             found = False
-        #             for i in range(len(pos)):
-        #                 # If so, we will build the next node there
-        #                 if pos[i]["name"] == clean_feature:
-        #                     build_data(pos[i]["children"], hierarchy_list)
-        #                     found = True
-        #             # Else we must again add the feature with empty children and continue at the next level
-        #             if not found:
-        #                 pos.append({"name": clean_feature, "children": []})
-        #                 build_data(pos[-1]["children"], hierarchy_list)
-        #     hierarchy_list.append(category)
-        #     return
-        
-        # build_data(pos, FIELD_HIERARHCY.copy())
     
     # Dump JSON to output file
     with open(OUTPUT_PATH, "w") as output_file:
