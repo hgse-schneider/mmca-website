@@ -605,32 +605,70 @@ function sankey_chart(low, high) {
   });
 }
 
+let display_setting = "";
+
+const switch_node_display = (data) => {
+  if (!display_setting)
+  {
+    return data;
+  }
+  if (display_setting == "citations")
+  {
+    data.children.forEach((layer_1) => {
+      layer_1.children.forEach((layer_2) => {
+        layer_2.children.forEach((layer_3) => {
+          layer_3.children.forEach((layer_4) => {
+            layer_4.children.forEach((leaf) => {
+              leaf.value = leaf.citations;
+            })
+          })
+        })
+      })
+    })
+  }
+  return data;
+}
 
 let filter_state = new Set();
 
 const graph_switcher = (circle_data, sankey_data) => {
+  
+  // Handles the switch graph buttons
   d3.select("#sankey")
   .on("click", function(d,i) {
-      // console.log("test")
       sankey_chart(0, 100)
   })   
+  // Switch to circle, applying filters
   d3.select("#circle")
   .on("click", function(d,i) {
       const filtered = filter_data(circle_data, filter_state);
       circle_chart(filtered)
-      console.log("FILTER ATTEMPT");
   })   
+  // Switch to tree, applying filters
   d3.select("#tree")
   .on("click", function(d,i) {
-      tree_chart(circle_data)
+      const filtered = filter_data(circle_data, filter_state);
+      tree_chart(filtered)
   }) 
 
-  let filtered = circle_data;
+  d3.select("#num_citations")
+  .on("click", function(d, i) {
+    if (display_setting == "citations")
+    {
+      display_setting = "";
+    }
+    else
+    {
+      display_setting = "citations";
+    }
+    if (current_graph == "circle")
+    {
+      const filtered = filter_data(circle_data, filter_state);
+      const adjusted = switch_node_display(filtered);
+      circle_chart(adjusted);
+    }
+  })
 
-
-  console.log("HOW ABOUT HERE");
-  console.log("HOW ABOUT HERE");
-  console.log(d3.select("#teens"));
   // Update filter with 10s button
   d3.select("#teens")
   .on("click", function(d, i) {
@@ -641,18 +679,18 @@ const graph_switcher = (circle_data, sankey_data) => {
       filter_state.delete("00s");
       filter_state.add("10s");
     }
-    filtered = filter_data(circle_data, filter_state);
-    switch(current_graph) {
-      case "":
-        return
-      case "tree":
-        tree_chart(filtered);
-      case "circle":
-        circle_chart(filtered);
+    const filtered = filter_data(circle_data, filter_state);
+    if (current_graph == "tree")
+    {
+      tree_chart(filtered);
     }
+    if (current_graph == "circle")
+    {
+      circle_chart(filtered);
+    }
+    return;
   });
-  console.log("HOW ABOUT HERE");
-  console.log(d3.select("#noughts"));
+
   // Update filter with 00s button
   d3.select("#noughts")
   .on("click", function(d, i) {
@@ -663,15 +701,16 @@ const graph_switcher = (circle_data, sankey_data) => {
       filter_state.delete("10s");
       filter_state.add("00s");
     }
-    filtered = filter_data(circle_data, filter_state);
-    switch(current_graph) {
-      case "":
-        return
-      case "tree":
-        tree_chart(filtered);
-      case "circle":
-        circle_chart(filtered);
+    const filtered = filter_data(circle_data, filter_state);
+    if (current_graph == "tree")
+    {
+      tree_chart(filtered);
     }
+    if (current_graph == "circle")
+    {
+      circle_chart(filtered);
+    }
+    return;
   })
 }
 
