@@ -17,67 +17,9 @@ const pack = data => d3.pack()
                         .sum(d => d.value)
                         .sort((a, b) => b.value - a.value));
 
-let state = "";  
-let current_graph = "";                
-
-const filter_data = (data, filter) => {
-  // Look at all children
-  const filtered_children = data.children
-  // Map over children at each layer
-  .map((layer_1) => {
-    let children = layer_1.children.map((layer_2) => {
-      let children = layer_2.children.map((layer_3) => {
-        let children = layer_3.children.map((layer_4) =>{
-          // When we reach base layer, filter according to data that interests us
-          let children = layer_4.children.filter((leaf) => {
-
-            pass_list = []
-            // FILTER LOGIC TO GO HERE DEPENDING ON TYPE OF FILTER
-            if (filter_state.has("10s"))
-            {
-              pass_list.push(leaf.year > 2010);
-            }
-            if (filter_state.has("00s"))
-            {
-              pass_list.push(leaf.year <= 2010);
-            }
-            return pass_list.every(v => v === true);
-          })
-          // If no children, set to null for cleanup
-          if (!children.length) {
-            return null;
-          }
-          // Else return what we had with the filtered children
-          return {...layer_4, children};
-        // Then filter out the nulls
-        }).filter(Boolean);
-        // Repeat this process at every layer so that we don't have any empty nodes
-        if (!children.length) {
-          return null;
-        }
-        return {...layer_3, children};
-      }).filter(Boolean)
-      if(!children.length) {
-        return null;
-      }
-      return {...layer_2, children};
-    }).filter(Boolean)
-    if(!children.length)
-    {
-      return null;
-    }
-    return {...layer_1, children}
-  })
-  .filter(Boolean);
-
-  // Reconstruct the data structure as we could only use map
-  // over the children array and return
-  const filtered = {"name": "data", "children": filtered_children}
-  return filtered;
-}
+let state = "";                  
 
 const tree_chart = (data) => {
-  current_graph = "tree";
   d3.select('.container').html('');
   const root = d3.hierarchy(data);
 
@@ -278,10 +220,7 @@ const findState = (e, d, chart_type) => {
     // Reverse data so we can update from lowest depth up
     update_nodes.reverse();
     // Gives us the nodes we need to unfurl
-  return {event: e,
-          update_nodes: update_nodes,
-          chart_type: chart_type,
-          }
+  return {event: e, update_nodes: update_nodes, chart_type: chart_type}
 }
 
 
@@ -309,7 +248,6 @@ const nodeColor = (d) => {
 }
 
 const circle_chart = (data) => {
-  current_graph = "circle";
   d3.select('.container').html('');
   const root = pack(data);
   let focus = root;
@@ -361,30 +299,15 @@ const circle_chart = (data) => {
             .style("opacity", 0);
         })
         .on("click", (event, d) => focus !== d && (zoom(event, d), event.stopPropagation()));
-  
-    const label = svg.append("g")
-
-    const boxes = label
-      .attr("transform", "translate(0, -200)")
-    .selectAll("rect")
-    .data(root.descendants())
-    .join("rect")
-        .style("fill-opacity", d => d.parent === root ? 0.7 : 0)
-        .style("fill", "blue")
-        .style("display", d => d.parent === root ? "inline" : "none")
-        .attr("d", d => d)
-        // For testing purposes
-        .attr("width", 10)
-        .attr("height", 10)
-        .style("fill", "blue");
-
-    const sublabels = label
+    
+    const superlabel = svg.append("g")
+    const label = superlabel
         .attr("transform", "translate(0, -200)")
         .style("font", "10px sans-serif")
         .attr("pointer-events", "none")
         .attr("text-anchor", "middle")
         // Doesn't seem to do anything
-        .style("fill", "#fff")
+        .style("fill", "#000")
       .selectAll("text")
       .data(root.descendants())
       .join("text")
@@ -392,39 +315,62 @@ const circle_chart = (data) => {
         .style("display", d => d.parent === root ? "inline" : "none")
         .text(d => d.data.name);
     
-
-    
     zoomTo([root.x, root.y, root.r * 2]);
+  
+    // const label_boxes = svg.append("g")
+    //   .attr("transform", "translate(0, -200)")
+    //   .style("font", "10px sans-serif")
+    //   .attr("pointer-events", "none")
+    //   .attr("text-anchor", "middle")
+    //   // Doesn't seem to do anything
+    //   .style("fill", "#000")
+    // .selectAll("rect")
+    // .data(root.descendants())
+    // .join("rect")
+    //     .attr("bbox", d => d.getBBox())
+    //     .attr("x", bbox.x - padding)
+    //     .attr("y", bbox.y - padding)
+    //     .attr("width", bbox.width + (padding*2))
+    //     .attr("height", bbox.height + (padding*2))
+    //     .style("fill", "blue");
+
+    console.log('test');
+    console.log(svg.selectAll("text"));
+      console.log(svg.selectAll("text").nodes());
+      svg.selectAll("text").nodes().forEach((t) => {
+        let bbox = t.getBBox();
+        if (bbox.height) 
+        {
+          console.log(t);
+          console.log(bbox);
+          var padding = 2;
+          // console.log(this.svg);
+          console.log("LABEL HERE");
+          console.log(label.nodes());
+          label.nodes().forEach((r) => {
+
+          r.insert("rect", "text")
+              .attr("x", bbox.x - padding)
+              .attr("y", bbox.y - padding)
+              .attr("width", bbox.width + (padding*2))
+              .attr("height", bbox.height + (padding*2))
+              .style("fill", "blue");
+            })
+        }
+        
+      })
+      console.log(svg);
 
     function zoomTo(v) {
       const k = width / v[2];
   
       view = v;
-      // Transform everything according to the current view/zoom
-      boxes.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k})`);
-      sublabels.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k})`);
+  
+      label.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k})`);
       node.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k})`);
       node.attr("r", d => d.r * k);
     }
   
-    // Function which draws boxes around labels
-    function drawBoxes() {
-      // For all the text's, get their bounding boxes (will be 0 if not currently visible)
-      box_widths = [];
-      sublabels.nodes().forEach((n, i) => {
-        const bbox = n.getBBox();
-        box_widths.push(bbox);
-      })
-  
-      // Create rectangles
-      const padding = 2;
-        label.selectAll("rect")
-          .attr("x", (d, i) => {return box_widths[i].x ? box_widths[i].x - padding: 0} )
-          .attr("y", (d, i) => {return box_widths[i].x ? box_widths[i].y - padding : 0})
-          .attr("width", (d, i) => {return box_widths[i].x  ? box_widths[i].width + (padding*2) : 0})
-          .attr("height", (d, i) => {return box_widths[i].x  ? box_widths[i].height + (padding*2): 0});
-    }
-
     function zoom(event, d) {
       // Update our state (redundant when coming from another vis, 
       // but needed when clicking around this vis, could save this one op but doesn't really hurt)
@@ -435,33 +381,22 @@ const circle_chart = (data) => {
       // Update focus position
       const focus0 = focus;
       focus = d;
-
-      // Create our transition
+  
       const transition = svg.transition()
           .duration(e.altKey ? 7500 : 750)
           .tween("zoom", d => {
             const i = d3.interpolateZoom(view, [focus.x, focus.y, focus.r * 2]);
             return t => zoomTo(i(t));
           });
-      
-      // The boxes behind our labels
-      boxes
-        .filter(function(d) { return d.parent === focus || this.style.display === "inline"; })
-        .transition(transition)
-        .style("fill-opacity", d => d.parent === focus ? 1 : 0)
-        .on("start", function(d) { if (d.parent === focus) this.style.display = "inline"; })
-        .on("end", function(d) { if (d.parent !== focus) this.style.display = "none"; drawBoxes(); });
-        
-      sublabels
+  
+      label
         .filter(function(d) { return d.parent === focus || this.style.display === "inline"; })
         .transition(transition)
           .style("fill-opacity", d => d.parent === focus ? 1 : 0)
           .on("start", function(d) { if (d.parent === focus) this.style.display = "inline"; })
           .on("end", function(d) { if (d.parent !== focus) this.style.display = "none"; });
     }
-  
-    drawBoxes();
-  
+
   // If we have state transitiong from another chart, match that chart's state
   if (state)
   {
@@ -510,7 +445,6 @@ var sankey = d3.sankey()
   .size([sankey_width, sankey_height - 30])
 
 function sankey_chart(low, high) {
-  current_graph = "sankey";
   d3.select('.container').html('');
   sankey_svg = d3.select(".container").append("svg")
     .attr("width", sankey_width + sankey_margin.left + 100)
@@ -606,8 +540,6 @@ function sankey_chart(low, high) {
 }
 
 
-let filter_state = new Set();
-
 const graph_switcher = (circle_data, sankey_data) => {
   d3.select("#sankey")
   .on("click", function(d,i) {
@@ -616,74 +548,19 @@ const graph_switcher = (circle_data, sankey_data) => {
   })   
   d3.select("#circle")
   .on("click", function(d,i) {
-      const filtered = filter_data(circle_data, filter_state);
-      circle_chart(filtered)
-      console.log("FILTER ATTEMPT");
+      circle_chart(circle_data)
   })   
   d3.select("#tree")
   .on("click", function(d,i) {
       tree_chart(circle_data)
   }) 
-
-  let filtered = circle_data;
-
-
-  console.log("HOW ABOUT HERE");
-  console.log("HOW ABOUT HERE");
-  console.log(d3.select("#teens"));
-  // Update filter with 10s button
-  d3.select("#teens")
-  .on("click", function(d, i) {
-    if (filter_state.has("10s")) {
-      filter_state.delete("10s");
-    }
-    else {
-      filter_state.delete("00s");
-      filter_state.add("10s");
-    }
-    filtered = filter_data(circle_data, filter_state);
-    switch(current_graph) {
-      case "":
-        return
-      case "tree":
-        tree_chart(filtered);
-      case "circle":
-        circle_chart(filtered);
-    }
-  });
-  console.log("HOW ABOUT HERE");
-  console.log(d3.select("#noughts"));
-  // Update filter with 00s button
-  d3.select("#noughts")
-  .on("click", function(d, i) {
-    if (filter_state.has("00s")) {
-      filter_state.delete("00s");
-    }
-    else {
-      filter_state.delete("10s");
-      filter_state.add("00s");
-    }
-    filtered = filter_data(circle_data, filter_state);
-    switch(current_graph) {
-      case "":
-        return
-      case "tree":
-        tree_chart(filtered);
-      case "circle":
-        circle_chart(filtered);
-    }
-  })
 }
 
 Promise.all([
-    d3.json('circle_data_new.json'),
+    d3.json('circle_data.json'),
     d3.json('layers.json')
 ]).then(function(files) {
-    // filter_updater(files[0]);
-    console.log("REACHED HERE")
     graph_switcher(files[0], files[1]);
-    
-    console.log("REACHED HERE")
 }).catch(function(err) {
     // Check errors
     // console.log(err)
