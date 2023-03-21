@@ -20,7 +20,7 @@ Parameters:
 '''
 
 INPUT_PATH = "citation_data_verified.JSON"
-OUTPUT_PATH = "circle_data_new.JSON"
+OUTPUT_PATH = "circle_data_test.JSON"
 # Flipping hierarhcy order from the intuitive since pop removes from end
 FIELD_HIERARHCY = ["outcome_larger_category", "outcome_smaller_category", "data_standardized", "metric"][::-1]
 
