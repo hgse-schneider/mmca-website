@@ -23,26 +23,87 @@ let filter_state = new Set();
 
 const filter_data = (data, filter) => {
   console.log(data);
-  // switch (filter)
-  // {
-  //   case "10s":
-  //     data.children.forEach((layer_1) => {
-  //       layer_1.children.forEach((layer_2) => {
-  //         layer_2.children.forEach((layer_3) => {
-  //           console.log(layer_3);
-  //           layer_3.children.forEach((layer_4) => {
-  //             layer_4.children.forEach((leaf) => {
-  //               if (leaf.value < 2)
-  //               {
-  //                 leaf.value = 100;
-  //                 // console.log(leaf);
-  //               }
-  //             })
-  //           })
-  //         })
-  //       })
-  //     })
-  // }
+
+  const company = [
+    {
+      company: "HIJ",
+      _id: "610aeaec618ac5902c466541",
+      details: [
+        {
+          employee: "Lesley Peden",
+          notes: "Lesley's note",
+          _id: "610aeaec618ac5902c466542",
+        },
+        {
+          employee: "Wayne Smith",
+          notes: "Wayne's note",
+          _id: "610aeaec618ac5902c466543",
+        },
+      ],
+    },
+    {
+      company: "ABC",
+      _id: "61003ff8e7684b709cf10da6",
+      details: [
+        {
+          employee: "Lesley Peden",
+          notes: "some note!!",
+          _id: "610aebb2618ac5902c46654e",
+        },
+      ],
+    },
+  ];
+
+  const test2 = data.children
+  .map((layer_1) => {
+    let bubble1 = layer_1.children.map((layer_2) => {
+      let bubble2 = layer_2.children.map((layer_3) => {
+        let bubble3 = layer_3.children.map((layer_4) =>{
+          let bubble4 = layer_4.children.filter((leaf) => {
+            console.log(leaf);
+            return leaf.year > 2000;
+          })
+          if (!bubble4.length) {
+            return null;
+          }
+          return {...layer_4, bubble4};
+        });
+        if (!bubble3.length) {
+          return null;
+        }
+        return {...layer_3, bubble3};
+      })
+      if(!bubble2.length) {
+        return null;
+      }
+      return {...layer_2, bubble2};
+    })
+    if(!bubble1.length)
+    {
+      return null;
+    }
+    return {...layer_1, bubble1}
+  })
+  .filter(Boolean);
+
+  console.log("TEST 2");
+  console.log(test2);
+
+  switch (filter)
+  {
+    case "10s":
+      data.children.forEach((layer_1) => {
+        layer_1.children.forEach((layer_2) => {
+          layer_2.children.forEach((layer_3) => {
+            layer_3.children.forEach((layer_4) => {
+              layer_4.children.filter((leaf, i) => {
+                return leaf.year == 2030;
+              })
+            })
+          })
+        })
+      })
+  }
   return data;
 }
 
@@ -247,7 +308,10 @@ const findState = (e, d, chart_type) => {
     // Reverse data so we can update from lowest depth up
     update_nodes.reverse();
     // Gives us the nodes we need to unfurl
-  return {event: e, update_nodes: update_nodes, chart_type: chart_type}
+  return {event: e,
+          update_nodes: update_nodes,
+          chart_type: chart_type,
+          }
 }
 
 
