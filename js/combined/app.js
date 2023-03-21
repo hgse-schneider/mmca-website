@@ -53,41 +53,42 @@ const filter_data = (data, filter) => {
       ],
     },
   ];
-
-  const test2 = data.children
+  console.log(data);
+  const filtered_children = data.children
   .map((layer_1) => {
-    let bubble1 = layer_1.children.map((layer_2) => {
-      let bubble2 = layer_2.children.map((layer_3) => {
-        let bubble3 = layer_3.children.map((layer_4) =>{
-          let bubble4 = layer_4.children.filter((leaf) => {
-            console.log(leaf);
-            return leaf.year > 2000;
+    let children = layer_1.children.map((layer_2) => {
+      let children = layer_2.children.map((layer_3) => {
+        let children = layer_3.children.map((layer_4) =>{
+          let children = layer_4.children.filter((leaf) => {
+            return leaf.year > 2010;
           })
-          if (!bubble4.length) {
+          if (!children.length) {
             return null;
           }
-          return {...layer_4, bubble4};
-        });
-        if (!bubble3.length) {
+          return {...layer_4, children};
+        }).filter(Boolean);
+        if (!children.length) {
           return null;
         }
-        return {...layer_3, bubble3};
-      })
-      if(!bubble2.length) {
+        return {...layer_3, children};
+      }).filter(Boolean)
+      if(!children.length) {
         return null;
       }
-      return {...layer_2, bubble2};
-    })
-    if(!bubble1.length)
+      return {...layer_2, children};
+    }).filter(Boolean)
+    if(!children.length)
     {
       return null;
     }
-    return {...layer_1, bubble1}
+    return {...layer_1, children}
   })
   .filter(Boolean);
 
+  const filtered = {"name": "data", "children": filtered_children}
+  console.log(filtered);
+
   console.log("TEST 2");
-  console.log(test2);
 
   switch (filter)
   {
