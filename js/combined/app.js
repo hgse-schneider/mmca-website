@@ -23,25 +23,26 @@ let filter_state = new Set();
 
 const filter_data = (data, filter) => {
   console.log(data);
-  switch (filter)
-  {
-    case "10s":
-      data.children.forEach((layer_1) => {
-        layer_1.children.forEach((layer_2) => {
-          layer_2.children.forEach((layer_3) => {
-            layer_3.children.forEach((layer_4) => {
-              layer_4.children.forEach((leaf) => {
-                if (leaf.value < 2)
-                {
-                  leaf.value = 100;
-                  // console.log(leaf);
-                }
-              })
-            })
-          })
-        })
-      })
-  }
+  // switch (filter)
+  // {
+  //   case "10s":
+  //     data.children.forEach((layer_1) => {
+  //       layer_1.children.forEach((layer_2) => {
+  //         layer_2.children.forEach((layer_3) => {
+  //           console.log(layer_3);
+  //           layer_3.children.forEach((layer_4) => {
+  //             layer_4.children.forEach((leaf) => {
+  //               if (leaf.value < 2)
+  //               {
+  //                 leaf.value = 100;
+  //                 // console.log(leaf);
+  //               }
+  //             })
+  //           })
+  //         })
+  //       })
+  //     })
+  // }
   return data;
 }
 
@@ -359,86 +360,36 @@ const circle_chart = (data) => {
 
     
     zoomTo([root.x, root.y, root.r * 2]);
-    
-
-    box_widths = [];
-    console.log("GET TESTING");
-    sublabels.nodes().forEach((n, i) => {
-      const bbox = n.getBBox();
-      box_widths.push(bbox);
-    })
-    console.log(sublabels.nodes());
-
-    const padding = 2;
-    console.log("GET TESTING");
-      label.selectAll("rect")
-        .attr("x", (d, i) => box_widths[i].x - padding)
-        .attr("y", (d, i) => box_widths[i].y - padding)
-        .attr("width", (d, i) => box_widths[i].width + (padding*2))
-        .attr("height", (d, i) => box_widths[i].height + (padding*2));
-        
-      // console.log("GET TESTING");
-      // boxes._groups[0].forEach((b, i) => {
-      //   // console.log(sublabels);
-      //   sublabels._groups[0].forEach((l, li) => {
-      //     if (i == li)
-      //     {
-      //       // console.log(l);
-      //       // const bbox = l.getBBox();
-      //       const padding = 2;
-      //       if (bbox.x)
-      //       {
-      //         // console.log(bbox);
-      //         // console.log(b);
-      //         // b.attr("x", 10);
-      //       }
-      //       // b.attr("x", bbox.x - padding)
-      //       //   .attr("y", bbox.y - padding)
-      //       //   .attr("width", bbox.width + (padding*2))
-      //       //   .attr("height", bbox.height + (padding*2));
-            
-      //     }
-      //   })
-      // })
-
-      // console.log(svg.selectAll("text").nodes());
-      // console.log("LABELS")
-      // console.log(sublabels.nodes());
-      // svg.selectAll("text").nodes().forEach((t) => {
-      //   let bbox = t.getBBox();
-      //   if (bbox.height) 
-      //   {
-      //     console.log(t);
-      //     console.log(bbox);
-      //     var padding = 2;
-      //     label.insert("rect", "text")
-      //         .attr("x", bbox.x - padding)
-      //         .attr("y", bbox.y - padding)
-      //         .attr("width", bbox.width + (padding*2))
-      //         .attr("height", bbox.height + (padding*2))
-      //         .style("fill", "blue");
-      //   }
-        
-      // })
-      // console.log("CURRETNLY HERE");
-      // label.selectAll("text").each((l, i) => {
-      //   console.log(l.previousSibling);
-      // });
-      // console.log(svg);
 
     function zoomTo(v) {
       const k = width / v[2];
   
       view = v;
-      console.log("HUTNING RECTANGLES");
-      console.log(label.nodes());
+      // Transform everything according to the current view/zoom
       boxes.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k})`);
-      console.log(boxes);
       sublabels.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k})`);
       node.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k})`);
       node.attr("r", d => d.r * k);
     }
   
+    // Function which draws boxes around labels
+    function drawBoxes() {
+      // For all the text's, get their bounding boxes (will be 0 if not currently visible)
+      box_widths = [];
+      sublabels.nodes().forEach((n, i) => {
+        const bbox = n.getBBox();
+        box_widths.push(bbox);
+      })
+  
+      // Create rectangles
+      const padding = 2;
+        label.selectAll("rect")
+          .attr("x", (d, i) => {return box_widths[i].x ? box_widths[i].x - padding: 0} )
+          .attr("y", (d, i) => {return box_widths[i].x ? box_widths[i].y - padding : 0})
+          .attr("width", (d, i) => {return box_widths[i].x  ? box_widths[i].width + (padding*2) : 0})
+          .attr("height", (d, i) => {return box_widths[i].x  ? box_widths[i].height + (padding*2): 0});
+    }
+
     function zoom(event, d) {
       // Update our state (redundant when coming from another vis, 
       // but needed when clicking around this vis, could save this one op but doesn't really hurt)
@@ -449,22 +400,33 @@ const circle_chart = (data) => {
       // Update focus position
       const focus0 = focus;
       focus = d;
-  
+
+      // Create our transition
       const transition = svg.transition()
           .duration(e.altKey ? 7500 : 750)
           .tween("zoom", d => {
             const i = d3.interpolateZoom(view, [focus.x, focus.y, focus.r * 2]);
             return t => zoomTo(i(t));
           });
-  
-      label
+      
+      // The boxes behind our labels
+      boxes
+        .filter(function(d) { return d.parent === focus || this.style.display === "inline"; })
+        .transition(transition)
+        .style("fill-opacity", d => d.parent === focus ? 1 : 0)
+        .on("start", function(d) { if (d.parent === focus) this.style.display = "inline"; })
+        .on("end", function(d) { if (d.parent !== focus) this.style.display = "none"; drawBoxes(); });
+        
+      sublabels
         .filter(function(d) { return d.parent === focus || this.style.display === "inline"; })
         .transition(transition)
           .style("fill-opacity", d => d.parent === focus ? 1 : 0)
           .on("start", function(d) { if (d.parent === focus) this.style.display = "inline"; })
           .on("end", function(d) { if (d.parent !== focus) this.style.display = "none"; });
     }
-
+  
+    drawBoxes();
+  
   // If we have state transitiong from another chart, match that chart's state
   if (state)
   {
@@ -627,7 +589,7 @@ const graph_switcher = (circle_data, sankey_data) => {
 }
 
 Promise.all([
-    d3.json('circle_data.json'),
+    d3.json('circle_data_new.json'),
     d3.json('layers.json')
 ]).then(function(files) {
     graph_switcher(files[0], files[1]);
