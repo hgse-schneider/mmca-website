@@ -137,10 +137,20 @@ const tree_chart = (data) => {
         .attr("fill-opacity", 0)
         .attr("stroke-opacity", 0)
         .on("click", (event, d) => {
+          // Update state
           state = findState(event, d, "TREE");
-          unfurl_tree(state);
-          // d.children = d.children ? null : d._children;
-          // update(d);
+          // If at a leaf node, open the corresponding URL
+          if (!d.children && !d._children)
+          {
+            window.open(
+              d.data.url 
+            );
+          }
+          // Else unfurl the tree appropriately
+          else 
+          {
+            unfurl_tree(state);
+          }
         });
 
     nodeEnter.append("circle")
@@ -208,6 +218,8 @@ const tree_chart = (data) => {
     e = state.event;
     update_nodes = state.update_nodes;
     chart_type = state.chart_type;
+
+
 
     // Start unfurling from root
     let pos = root;
@@ -445,6 +457,10 @@ const circle_chart = (data) => {
           });
       
       // The boxes behind our labels
+      // TODO: Handle drawBoxes more nicely within animation
+      // Issue is that until text is visible, the bbox is 0. 
+      // Idea for solution: Pretend they are all visible somehow before loading, store all bboxes and move from there?
+      // Could be reasonably tricky to pre-process this.
       boxes
         .filter(function(d) { return d.parent === focus || this.style.display === "inline"; })
         .transition(transition)
