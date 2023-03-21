@@ -22,51 +22,31 @@ let state = "";
 let filter_state = new Set();
 
 const filter_data = (data, filter) => {
-  console.log(data);
-
-  const company = [
-    {
-      company: "HIJ",
-      _id: "610aeaec618ac5902c466541",
-      details: [
-        {
-          employee: "Lesley Peden",
-          notes: "Lesley's note",
-          _id: "610aeaec618ac5902c466542",
-        },
-        {
-          employee: "Wayne Smith",
-          notes: "Wayne's note",
-          _id: "610aeaec618ac5902c466543",
-        },
-      ],
-    },
-    {
-      company: "ABC",
-      _id: "61003ff8e7684b709cf10da6",
-      details: [
-        {
-          employee: "Lesley Peden",
-          notes: "some note!!",
-          _id: "610aebb2618ac5902c46654e",
-        },
-      ],
-    },
-  ];
-  console.log(data);
+  // Look at all children
   const filtered_children = data.children
+  // Map over children at each layer
   .map((layer_1) => {
     let children = layer_1.children.map((layer_2) => {
       let children = layer_2.children.map((layer_3) => {
         let children = layer_3.children.map((layer_4) =>{
+          // When we reach base layer, filter according to data that interests us
           let children = layer_4.children.filter((leaf) => {
+
+            // FILTER LOGIC TO GO HERE DEPENDING ON TYPE OF FILTER
+
             return leaf.year > 2010;
+          
+          
           })
+          // If no children, set to null for cleanup
           if (!children.length) {
             return null;
           }
+          // Else return what we had with the filtered children
           return {...layer_4, children};
+        // Then filter out the nulls
         }).filter(Boolean);
+        // Repeat this process at every layer so that we don't have any empty nodes
         if (!children.length) {
           return null;
         }
@@ -85,27 +65,10 @@ const filter_data = (data, filter) => {
   })
   .filter(Boolean);
 
+  // Reconstruct the data structure as we could only use map
+  // over the children array and return
   const filtered = {"name": "data", "children": filtered_children}
-  console.log(filtered);
-
-  console.log("TEST 2");
-
-  switch (filter)
-  {
-    case "10s":
-      data.children.forEach((layer_1) => {
-        layer_1.children.forEach((layer_2) => {
-          layer_2.children.forEach((layer_3) => {
-            layer_3.children.forEach((layer_4) => {
-              layer_4.children.filter((leaf, i) => {
-                return leaf.year == 2030;
-              })
-            })
-          })
-        })
-      })
-  }
-  return data;
+  return filtered;
 }
 
 const tree_chart = (data) => {
