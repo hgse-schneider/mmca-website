@@ -1,3 +1,22 @@
+const width = 1000;
+const height = width;
+
+const dx = 10;
+const dy = width / 6;
+
+const diagonal = d3.linkHorizontal().x(d => d.y).y(d => d.x);
+
+const tree = d3.tree().nodeSize([dx, dy]);
+
+const margin = ({top: 10, right: 120, bottom: 10, left: 40});
+
+const pack = data => d3.pack()
+                        .size([width, height])
+                        .padding(3)
+                        (d3.hierarchy(data)
+                        .sum(d => d.value)
+                        .sort((a, b) => b.value - a.value));
+
 const tree_chart = (data) => {
     current_graph = "tree";
     d3.select('.container').html('');
