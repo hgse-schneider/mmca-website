@@ -4,19 +4,18 @@ let sankey_data;
 
 // Read in the data!
 Promise.all([
-  d3.json('circle_data_new.json'),
+  d3.json('circle_data_test.json'),
   d3.json('layers.json')
 ]).then(function(files) {
-  // filter_updater(files[0]);
+  // Set the global variables to store the data
   circle_data = files[0];
-  sankey_dat = files[1];
-  console.log("REACHED HERE")
+  sankey_data = files[1];
+  // Run our graph switching logic
   graph_switcher(files[0], files[1]);
-  
-  console.log("REACHED HERE")
 }).catch(function(err) {
   // Check errors
-  // console.log(err)
+  console.log("ERROR: File reading error")
+  console.log(err)
 });
 
 
@@ -42,14 +41,12 @@ const graph_switcher = (circle_data, sankey_data) => {
 
   d3.select("#num_citations")
   .on("click", function(d, i) {
-    if (display_setting == "citations")
-    {
-      display_setting = "";
-    }
-    else
-    {
-      display_setting = "citations";
-    }
+    // Set this as the active and remove any other actives
+    var current = document.querySelector(".active");
+    current.className = current.className.replace(" active", "");
+    this.className += " active";
+
+    display_setting = "citations";
     if (current_graph == "circle")
     {
       const filtered = filter_data(circle_data, filter_state);
@@ -58,54 +55,22 @@ const graph_switcher = (circle_data, sankey_data) => {
     }
   })
 
-  // Update filter with 10s button
-  d3.select("#teens")
+  d3.select("#num_connections")
   .on("click", function(d, i) {
-    if (filter_state.has("10s")) {
-      filter_state.delete("10s");
-    }
-    else {
-      filter_state.delete("00s");
-      filter_state.add("10s");
-    }
-    const filtered = filter_data(circle_data, filter_state);
-    if (current_graph == "tree")
-    {
-      tree_chart(filtered);
-    }
-    if (current_graph == "circle")
-    {
-      circle_chart(filtered);
-    }
-    return;
-  });
+    // Set this as the active and remove any other actives
+    var current = document.querySelector(".active");
+    current.className = current.className.replace(" active", "");
+    this.className += " active";
 
-  // Update filter with 00s button
-  d3.select("#noughts")
-  .on("click", function(d, i) {
-    if (filter_state.has("00s")) {
-      filter_state.delete("00s");
-    }
-    else {
-      filter_state.delete("10s");
-      filter_state.add("00s");
-    }
-    const filtered = filter_data(circle_data, filter_state);
-    if (current_graph == "tree")
-    {
-      tree_chart(filtered);
-    }
+    display_setting = "connections";
     if (current_graph == "circle")
     {
-      circle_chart(filtered);
+      const filtered = filter_data(circle_data, filter_state);
+      const adjusted = switch_node_display(filtered);
+      circle_chart(adjusted);
     }
-    return;
   })
 }
-
-
-
-
 
 let filter_state = {};
 
@@ -116,34 +81,16 @@ slider.oninput = function() {
   filter_state["yearRange"] = this.value;
   console.log(filter_state)
   const filtered = filter_data(circle_data, filter_state);
+  const adjusted = switch_node_display(filtered);
   if (current_graph == "tree")
   {
-    tree_chart(filtered);
+    tree_chart(adjusted);
   }
   if (current_graph == "circle")
   {
-    circle_chart(filtered);
+    circle_chart(adjusted);
   }
 }
-
-const width = 1000;
-const height = width;
-
-const dx = 10;
-const dy = width / 6;
-
-const diagonal = d3.linkHorizontal().x(d => d.y).y(d => d.x);
-
-const tree = d3.tree().nodeSize([dx, dy]);
-
-const margin = ({top: 10, right: 120, bottom: 10, left: 40});
-
-const pack = data => d3.pack()
-                        .size([width, height])
-                        .padding(3)
-                        (d3.hierarchy(data)
-                        .sum(d => d.value)
-                        .sort((a, b) => b.value - a.value));
 
 let state = "";  
 let current_graph = "";                
@@ -203,48 +150,56 @@ const filter_data = (data, filter) => {
 // Function used in visualizations to update state to have consistent state object
 // between visualizations
 const findState = (e, d, chart_type) => {
+
   // Some node that an event happened at
   let trav = d;
+
   // Going to backtrack to the root, keeping track of our path
   let update_nodes = [];
   while (trav && trav.data){
     update_nodes.push(trav.data.name);
     trav = trav.parent;
   }
-    // Remove the root node
-    update_nodes.pop();
-    // Reverse data so we can update from lowest depth up
-    update_nodes.reverse();
-    // Gives us the nodes we need to unfurl
+
+  // Remove the root node
+  update_nodes.pop();
+
+  // Reverse data so we can update from lowest depth up
+  update_nodes.reverse();
+
+  // Gives us the nodes we need to unfurl
   return {event: e,
           update_nodes: update_nodes,
-          chart_type: chart_type,
-          }
+          chart_type: chart_type}
 }
 
 let display_setting = "";
 
 const switch_node_display = (data) => {
+  // If no display setting, defaults to value
+  // Which is # connections
   if (!display_setting)
   {
     return data;
   }
-  if (display_setting == "citations")
-  {
-    data.children.forEach((layer_1) => {
-      layer_1.children.forEach((layer_2) => {
-        layer_2.children.forEach((layer_3) => {
-          layer_3.children.forEach((layer_4) => {
-            layer_4.children.forEach((leaf) => {
-              leaf.value = leaf.citations;
-            })
+
+  // Else set the value to be the correct display setting!
+  data.children.forEach((layer_1) => {
+    layer_1.children.forEach((layer_2) => {
+      layer_2.children.forEach((layer_3) => {
+        layer_3.children.forEach((layer_4) => {
+          layer_4.children.forEach((leaf) => {
+            leaf.value = leaf[display_setting]
           })
         })
       })
     })
-  }
+  })
+
+  // Return the data with now the correct data set to be value for each leaf
   return data;
 }
+
 
 
 

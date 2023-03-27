@@ -13,6 +13,14 @@
     background-color: aliceblue;
 }
 
+.active:after {
+    background-color: #008fb3 !important;
+}
+
+.poiner {
+    cursor: pointer;
+}
+
 .top-area
 {
     width: 80%;
