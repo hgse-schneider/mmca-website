@@ -178,12 +178,17 @@ with open(INPUT_PATH, 'r') as f:
                     for i in range(len(pos)):
                         # print(pos[i])
                         if pos[i]["name"] == data[paper]["title"]:
+                            # Value and connections are initialized to be the same
+                            # Visualizations use value, but we store connections as
+                            # we will switch what it uses for value, but viz default to connections
                             pos[i]["value"] += 1
+                            pos[i]["connections"] = pos[i]["value"]
                             update =  True
                             break
                 if not update:
                     pos.append({"name": data[paper]["title"], 
                                 "value": 1, 
+                                "connections": 1,
                                 "id": data[paper]["paper_id_new"],
                                 "citations": data[paper]["Citations"],
                                 "year": data[paper]["year"],
