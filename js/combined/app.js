@@ -76,10 +76,8 @@ let filter_state = {};
 
 const slider = document.querySelector('#yearRange');
 slider.oninput = function() {
-  console.log(this.value);
   this.nextElementSibling.value = this.value;
   filter_state["yearRange"] = this.value;
-  console.log(filter_state)
   const filtered = filter_data(circle_data, filter_state);
   const adjusted = switch_node_display(filtered);
   if (current_graph == "tree")

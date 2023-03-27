@@ -1,3 +1,5 @@
+const DATA_REL_LINK = "../../../"
+
 // Sankey stuff
 
 const sankey_margin = {top: 30, right: 80, bottom: 5, left: 5}
@@ -78,8 +80,7 @@ function sankey_chart(low, high) {
         .on('click', function(e, d) {
           // TODO: This link only works while in combined, will need fixing upon
           // Moving location
-          let link = "../.." + d.data_link;
-          console.log("DATALINK");
+          let link = DATA_REL_LINK + d.data_link;
           console.log(link);
           force_layout(link);
         })
