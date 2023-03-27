@@ -95,9 +95,17 @@ const tree_chart = (data) => {
           });
   
       nodeEnter.append("circle")
-          .attr("r", 2.5)
+          .attr("r", d => d._children ? 1.5 * Math.sqrt(d._children.length) : 1)
           .attr("fill", d => d._children ? "#555" : "#999")
           .attr("stroke-width", 10);
+      
+      nodeEnter.append("rect")
+          .attr("width", 6)
+          .attr("height", 6)
+          .attr("transform", d => `translate(-3,-3)`)
+          .attr("fill", "transparent")
+          .attr("stroke", d => d._children ? "transparent" : "black" )
+          .attr("stroke-width", 1);
   
       nodeEnter.append("text")
           .attr("dy", "0.31em")
