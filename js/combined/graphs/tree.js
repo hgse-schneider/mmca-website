@@ -10,17 +10,55 @@ const tree = d3.tree().nodeSize([dx, dy]);
 
 const margin = ({top: 10, right: 120, bottom: 10, left: 40});
 
-const pack = data => d3.pack()
-                        .size([width, height])
-                        .padding(3)
-                        (d3.hierarchy(data)
-                        .sum(d => d.value)
-                        .sort((a, b) => b.value - a.value));
+const information_backprop = (root) => {
+  root.children.forEach((layer_1) =>{
+    const layer_1_children = layer_1.children ? layer_1.children : layer_1._children;
+    let sum_connections_1 = 0;
+    let sum_citations_1 = 0;
+    layer_1_children.forEach((layer_2) => {
+      const layer_2_children = layer_2.children ? layer_2.children : layer_2._children;
+      let sum_connections_2 = 0;
+      let sum_citations_2 = 0;
+      layer_2_children.forEach((layer_3) => {
+        const layer_3_children = layer_3.children ? layer_3.children : layer_3._children;
+        let sum_connections_3 = 0;
+        let sum_citations_3 = 0;
+        layer_3_children.forEach((layer_4) => {
+          const layer_4_children = layer_4.children ? layer_4.children : layer_4._children;
+          let sum_connections = 0;
+          let sum_citations = 0;
+          layer_4_children.forEach((leaf) => {
+            sum_citations += leaf.data.citations;
+            sum_connections += leaf.data.connections;
+          })
+          layer_4.data.citations = sum_citations;
+          layer_4.data.connections = sum_connections;
+          sum_connections_3 += sum_connections;
+          sum_citations_3 += sum_citations;
+        })
+        layer_3.data.citations = sum_citations_3;
+        layer_3.data.connections = sum_connections_3;
+        sum_citations_2 += sum_citations_3;
+        sum_connections_2 += sum_connections_3;
+      })
+      layer_2.data.citations = sum_citations_2;
+      layer_2.data.connections = sum_connections_2;
+      sum_citations_1 += sum_citations_2;
+      sum_connections_1 += sum_connections_2;
+    })
+    layer_1.data.citations = sum_citations_1;
+    layer_1.data.connections = sum_connections_1;
+  })
+}
 
 const tree_chart = (data) => {
+
     current_graph = "tree";
     d3.select('.container').html('');
     const root = d3.hierarchy(data);
+
+    information_backprop(root);
+    console.log(root);
   
     root.x0 = dy / 2;
     root.y0 = 0;
@@ -95,7 +133,7 @@ const tree_chart = (data) => {
           });
   
       nodeEnter.append("circle")
-          .attr("r", d => d._children ? 1.5 * Math.sqrt(d._children.length) : 1)
+          .attr("r", d => Math.sqrt(Math.sqrt(d.data[display_setting])))
           .attr("fill", d => d._children ? "#555" : "#999")
           .attr("stroke-width", 10);
       
@@ -160,7 +198,8 @@ const tree_chart = (data) => {
   
     // Update the root
     update(root);
-    
+    console.log(root);
+
     // Function for unfurling tree according to state from other visualizations
     const unfurl_tree = (state) => {
       // Pulling out state information to make life easier
@@ -203,6 +242,14 @@ const tree_chart = (data) => {
               else if (i == update_nodes.length - 1 && child.children) {
                 child._children = child.children;
                 child.children = null;
+              }
+              if (i == update_nodes.length - 1 && child.children)
+              {
+                console.log(child.children);
+                child.children.forEach((c) => {
+                  console.log(c);
+                  c.data.value = c.data[display_setting];
+                })
               }
               update(child);
               // Update pos to go down the tree
