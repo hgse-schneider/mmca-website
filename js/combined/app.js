@@ -53,6 +53,14 @@ const graph_switcher = (circle_data, sankey_data) => {
       const adjusted = switch_node_display(filtered);
       circle_chart(adjusted);
     }
+    if (current_graph == "tree")
+    {
+      const filtered = filter_data(circle_data, filter_state);
+      // This doesn't work because data is stored away in _children rather than childrens
+      const adjusted = switch_node_display(filtered);
+      console.log("adjusted tree chart");
+      tree_chart(adjusted);
+    }
   })
 
   d3.select("#num_connections")
@@ -68,6 +76,12 @@ const graph_switcher = (circle_data, sankey_data) => {
       const filtered = filter_data(circle_data, filter_state);
       const adjusted = switch_node_display(filtered);
       circle_chart(adjusted);
+    }
+    if (current_graph == "tree")
+    {
+      const filtered = filter_data(circle_data, filter_state);
+      const adjusted = switch_node_display(filtered);
+      tree_chart(adjusted);
     }
   })
 }
@@ -171,7 +185,7 @@ const findState = (e, d, chart_type) => {
           chart_type: chart_type}
 }
 
-let display_setting = "";
+let display_setting = "connections";
 
 const switch_node_display = (data) => {
   // If no display setting, defaults to value
@@ -182,17 +196,46 @@ const switch_node_display = (data) => {
   }
 
   // Else set the value to be the correct display setting!
-  data.children.forEach((layer_1) => {
-    layer_1.children.forEach((layer_2) => {
-      layer_2.children.forEach((layer_3) => {
-        layer_3.children.forEach((layer_4) => {
-          layer_4.children.forEach((leaf) => {
-            leaf.value = leaf[display_setting]
+  if (current_graph == "circle")
+  {
+    data.children.forEach((layer_1) => {
+      layer_1.children.forEach((layer_2) => {
+        layer_2.children.forEach((layer_3) => {
+          layer_3.children.forEach((layer_4) => {
+            layer_4.children.forEach((leaf) => {
+              leaf.value = leaf[display_setting]
+            })
           })
         })
       })
     })
-  })
+  };
+  if (current_graph == "tree")
+  {
+    console.log("Attempted to change node display");
+    data.children.forEach((layer_1) =>{
+      const layer_1_children = layer_1.children ? layer_1.children : layer_1._children;
+      layer_1_children.forEach((layer_2) => {
+        const layer_2_children = layer_2.children ? layer_2.children : layer_2._children;
+        layer_2_children.forEach((layer_3) => {
+          const layer_3_children = layer_3.children ? layer_3.children : layer_3._children;
+          layer_3_children.forEach((layer_4) => {
+            const layer_4_children = layer_4.children ? layer_4.children : layer_4._children;
+            layer_4_children.forEach((leaf) => {
+              const prev = leaf.value;
+              leaf.value = leaf[display_setting];
+              const post = leaf.value;
+              if (post - prev > 500)
+              {
+                console.log(post);
+              }
+            })
+          })
+        })
+      })
+    })
+  }
+
 
   // Return the data with now the correct data set to be value for each leaf
   return data;
