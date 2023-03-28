@@ -54,7 +54,8 @@ function sankey_chart(low, high) {
       .on('click', function(e, d) {
         let link = d.d_link
         if(link != "") {
-          // console.log(d) 
+          d3.select('.container').html('');
+          treeData(link);
         }
       })
       .style("stroke", d => {return d.color} )
