@@ -30,6 +30,7 @@ const information_backprop = (root) => {
           layer_4_children.forEach((leaf) => {
             sum_citations += leaf.data.citations;
             sum_connections += leaf.data.connections;
+            leaf.y0 = leaf.y0 + 100;
           })
           layer_4.data.citations = sum_citations;
           layer_4.data.connections = sum_connections;
@@ -51,8 +52,48 @@ const information_backprop = (root) => {
   })
 }
 
-const tree_chart = (data) => {
+// Colors for tree diagram nodes & text
+// TODO: Confirm whether I'm using the right hierarchy?? 
+// I swear we confirmed this before, but now I'm confused
+const tree_colors = {
+  "Physiological": "#00b0b0",
+  "Body language": "#510000",
+  "Log data": "#00b55b",
+  "Facial expression": "#fbad00"
+}
 
+const tree_scale = (data) => {
+  // Reset viz
+  d3.select('.scale').html('');
+
+  const root = d3.hierarchy(data);
+
+  console.log(root);
+
+  const nodes = root.descendants().reverse();
+
+  const svg = d3.select(".scale")
+    .append("svg")
+    .style("font", "10px sans-serif")
+    .style("user-select", "none");
+
+  const node = svg.append("g")
+    .data(nodes, d => 1)
+    .enter()
+    .append("circle")
+      // .attr("r", 1);
+  console.log(node)
+
+}
+
+const tree_chart = (data) => {
+    
+    const separation = (a, b) => {
+      return a.parent == b.parent ? 2 : 3;
+    }
+  
+    tree.separation(separation);
+    // tree.size([500, 800])
     current_graph = "tree";
     d3.select('.container').html('');
     const root = d3.hierarchy(data);
@@ -132,9 +173,19 @@ const tree_chart = (data) => {
             }
           });
   
+      const node_size = (d) => {
+        // Root node size
+        if (d.depth === 0)
+        {
+          return 5;
+        }
+        // All other nodes
+        return 1 + Math.log(Math.abs(d.data[display_setting]) + 1);
+      }
+
       nodeEnter.append("circle")
-          .attr("r", d => Math.sqrt(Math.sqrt(d.data[display_setting])))
-          .attr("fill", d => d._children ? "#555" : "#999")
+          .attr("r", d => node_size(d))
+          .attr("fill", d => tree_colors[d.data.name] ?? "#555")
           .attr("stroke-width", 10);
       
       nodeEnter.append("rect")
@@ -142,22 +193,27 @@ const tree_chart = (data) => {
           .attr("height", 6)
           .attr("transform", d => `translate(-3,-3)`)
           .attr("fill", "transparent")
-          .attr("stroke", d => d._children ? "transparent" : "black" )
+          .attr("stroke", d => d.depth != 5 ? "transparent" : "black" )
           .attr("stroke-width", 1);
   
       nodeEnter.append("text")
           .attr("dy", "0.31em")
-          .attr("x", d => d._children ? -6 : 6)
-          .attr("text-anchor", d => d._children ? "end" : "start")
+          .attr("font-size", d => Math.max(2 * node_size(d), 8))
+          .attr("x", d => d.depth != 5 ? -6 : 6)
+          .attr("text-anchor", d => d.depth != 5 ? "end" : "start")
           .text(d => d.data.name)
+          // .style('fill', 'blue')
+          .style('fill', d => tree_colors[d.data.name] ?? "black")
+          .call(wrap, 200)
         .clone(true).lower()
           .attr("stroke-linejoin", "round")
           .attr("stroke-width", 3)
           .attr("stroke", "white");
+          // .call(wrap, 10);
   
       // Transition nodes to their new position.
       const nodeUpdate = node.merge(nodeEnter).transition(transition)
-          .attr("transform", d => `translate(${d.y},${d.x})`)
+          .attr("transform", d => {return d.depth == 5 ? `translate(${d.y -100},${d.x})` : `translate(${d.y},${d.x})`})
           .attr("fill-opacity", 1)
           .attr("stroke-opacity", 1);
   

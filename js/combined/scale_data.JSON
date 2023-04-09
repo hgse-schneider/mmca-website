@@ -1,0 +1,23 @@
+{
+    "name": "data",
+    "children": [
+        {
+            "name": "1 citation/connection",
+            "value": 1,
+            "citations": 1,
+            "connections": 1
+        },
+        {
+            "name": "10 citations/connections",
+            "value": 10,
+            "citations": 10,
+            "connections": 10
+        },
+        {
+            "name": "100 citations/connections",
+            "value": 100,
+            "citations": 100,
+            "connections": 100
+        }
+    ]
+}

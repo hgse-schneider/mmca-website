@@ -1,15 +1,18 @@
 // Globals to store the data. Must check that these are loaded in correctly before using!
 let circle_data;
 let sankey_data;
+let scale_data;
 
 // Read in the data!
 Promise.all([
   d3.json('circle_data_test.json'),
-  d3.json('layers.json')
+  d3.json('layers.json'),
+  d3.json('scale_data.json')
 ]).then(function(files) {
   // Set the global variables to store the data
   circle_data = files[0];
   sankey_data = files[1];
+  scale_data = files[2];
   // Run our graph switching logic
   graph_switcher(files[0], files[1]);
 }).catch(function(err) {
@@ -36,6 +39,7 @@ const graph_switcher = (circle_data, sankey_data) => {
   d3.select("#tree")
   .on("click", function(d,i) {
       const filtered = filter_data(circle_data, filter_state);
+      tree_scale(scale_data);
       tree_chart(filtered)
   }) 
 
