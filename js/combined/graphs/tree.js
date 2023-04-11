@@ -1,6 +1,10 @@
 const width = 1000;
 const height = width;
 
+
+let svgwidth;
+let svgheight;
+
 const dx = 10;
 const dy = width / 6;
 
@@ -52,6 +56,19 @@ const information_backprop = (root) => {
   })
 }
 
+const node_size = (d) => {
+  // Root node size
+  if (d.depth === 0)
+  {
+    return 5;
+  }
+  // All other nodes
+  if (display_setting === "citations") {
+    return 1 + Math.log10(Math.abs(d.data[display_setting]) + 1);
+  }
+  return 1 + Math.log(Math.abs(d.data[display_setting]) + 1);
+}
+
 // Colors for tree diagram nodes & text
 // TODO: Confirm whether I'm using the right hierarchy?? 
 // I swear we confirmed this before, but now I'm confused
@@ -62,27 +79,45 @@ const tree_colors = {
   "Facial expression": "#fbad00"
 }
 
+// TODO: Fix scale only updating on initial display
 const tree_scale = (data) => {
   // Reset viz
   d3.select('.scale').html('');
 
   const root = d3.hierarchy(data);
 
-  console.log(root);
-
-  const nodes = root.descendants().reverse();
-
   const svg = d3.select(".scale")
     .append("svg")
+    .attr("viewBox", [-margin.left, -margin.top, width/6, dx/6])
     .style("font", "10px sans-serif")
+    .attr("height", svgheight/6)
+    .attr("width", svgwidth/6)
     .style("user-select", "none");
 
-  const node = svg.append("g")
-    .data(nodes, d => 1)
-    .enter()
-    .append("circle")
-      // .attr("r", 1);
-  console.log(node)
+  const nodes = root.descendants().reverse();
+  nodes.pop();
+  nodes.reverse();
+
+  nodes.forEach((d, i) => {
+    svg.append("circle")
+      .attr("r", node_size(d))
+      .attr("transform", `translate(${i * 50},${0})`);
+  })
+
+  console.log(nodes);
+
+  nodes.forEach((d, i) => {
+    console.log(d.data);
+    svg.append("text")
+      .text(d.data[display_setting])
+      .attr("transform", `translate(${i * 50 - node_size(d) - 2},${-8})`)
+      .attr("text-anchor", "start");
+
+  })
+
+
+
+
 
 }
 
@@ -132,6 +167,9 @@ const tree_chart = (data) => {
   
       // Compute the new tree layout.
       tree(root);
+
+      console.log("try to get bounding box");
+      // console.log(root.node().getBBox());
   
       let left = root;
       let right = root;
@@ -172,16 +210,6 @@ const tree_chart = (data) => {
               unfurl_tree(state);
             }
           });
-  
-      const node_size = (d) => {
-        // Root node size
-        if (d.depth === 0)
-        {
-          return 5;
-        }
-        // All other nodes
-        return 1 + Math.log(Math.abs(d.data[display_setting]) + 1);
-      }
 
       nodeEnter.append("circle")
           .attr("r", d => node_size(d))
@@ -204,7 +232,7 @@ const tree_chart = (data) => {
           .text(d => d.data.name)
           // .style('fill', 'blue')
           .style('fill', d => tree_colors[d.data.name] ?? "black")
-          .call(wrap, 200)
+          .call(wrap, 150)
         .clone(true).lower()
           .attr("stroke-linejoin", "round")
           .attr("stroke-width", 3)
@@ -323,5 +351,13 @@ const tree_chart = (data) => {
       unfurl_tree(state);
     }
   
+    console.log("svg details")
+    svgwidth = svg.style("width");
+    svgwidth = svgwidth.substring(0, svgwidth.length - 2);
+    svgheight = svgwidth * (6/25);
+    console.log(svgwidth);
+    console.log(svgwidth * (6/25));
+    console.log(svg);
+
     return svg.node();
   }

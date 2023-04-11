@@ -6,8 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Circular packing testing</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
+    <!-- <link rel="stylesheet" href="global.css"> -->
     <link rel="stylesheet" href="styles.css">
+    
 </head>
+<header id="header">
+    <div class="branding_header">
+        <img src="static/harvard_logo.svg" alt="Harvard University">
+        <a href="https://www.harvard.edu">Visit Harvard.edu</a>
+    </div>
+</header>
 <body>
     <div class="content-container">
         <div class="top-area">
@@ -39,11 +47,11 @@
                     <button id="num_citations" class="pointer">Number of citations</button>
                     <button id="num_connections" class="pointer active">Number of connections</button>
                 </div>
+                <div class="scale"></div>
             </div>
         </div>
         
         <div class="container"></div>
-        <div class="scale"></div>
         <div class="detail"></div>
     </div>
     <script src="https://unpkg.com/d3-array@1"></script>
@@ -57,4 +65,34 @@
     <script src="sankey_sub.js"></script> 
     <script src="app.js"></script> 
 </body>
+<footer>
+    <div class="bottom-nav">
+      <div class="bottom-nav-signature-link">
+        <img alt="Harvard Graduate School of Education" src="static/hgse_logo.svg">
+        <p>
+          Harvard Graduate School of Education
+          <br>Appian Way, Cambridge
+          <br>MA 02138
+          <br><a href="https://www.gse.harvard.edu/node/414411">View Map</a>
+        </p>
+      </div>
+      <div class="nav-links">
+        <a href="https://mmla.gse.harvard.edu/contact">Contact Us</a>
+        <a href="https://mmla.gse.harvard.edu/publications">Publications</a>
+        <a href="https://mmla.gse.harvard.edu/news">News</a>
+      </div>
+    </div>
+    <div class="branding-footer">
+      <div class="copyright">
+        <p>© 2021 The President and Fellows of Harvard College</p>
+      </div>
+      <div class="branding-footer-socials">
+        <a href="http://twitter.com/harvard" target="_blank" aria-label="Harvard Twitter"><svg viewBox="0 0 30 30"><use xlink:href="#share-twitter"></use></svg></a>
+        <a href="http://facebook.com/harvard" target="_blank" aria-label="Harvard Facebook"><svg viewBox="0 0 30 30"><use xlink:href="#share-facebook"></use></svg></a>
+        <a href="http://www.linkedin.com/edu/school?id=18483" target="_blank" aria-label="Harvard LinkedIn"><svg viewBox="0 0 30 30"><use xlink:href="#share-linkedin"></use></svg></a>
+        <a href="http://instagram.com/harvard" target="_blank" aria-label="Harvard Instagram"><svg viewBox="0 0 30 30"><use xlink:href="#share-instagram"></use></svg></a>
+      </div>
+    </div>
+  </footer>
+
 </html>

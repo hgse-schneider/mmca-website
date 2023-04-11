@@ -99,7 +99,7 @@ const circle_chart = (data) => {
       if (d.parent === root || (d.parent && d.parent.parent === root))
       {
         console.log(d);
-        return "inline";
+        return "block";
       }
       return "none";
     }
@@ -129,14 +129,13 @@ const circle_chart = (data) => {
       .data(root.descendants())
       .join("text")
         .attr("d", d => d)
+        .attr("rlab", d => d.r)
         .style("fill-opacity", d => d.parent === root || d.parent && d.parent.parent === root ? 1 : 0)
-        .attr("y", d => d.parent === root ? -d.r + 20 : "0")
+        .attr("y", d => -d.r)
         .style("font", d => d.parent === root ? "16px sans-serif" : "10px sans-serif")
         .style("display", d => display_labels(d))
-        .text(d => d.data.name);
-
-    
-    
+        .text(d => d.data.name)
+        .call(circle_text_wrap, 80);    
 
     
     zoomTo([root.x, root.y, root.r * 2]);
@@ -208,20 +207,24 @@ const circle_chart = (data) => {
       }
 
       boxes
-        .filter(function(d) { return (d.parent === focus || d.parent && d.parent.parent === focus ) || this.style.display === "inline"; })
+        .filter(function(d) { return (d.parent === focus || d.parent && d.parent.parent === focus ) || this.style.display === "block"; })
         .transition(transition)
         .style("fill-opacity", d => boxOpactiy(d, this, 0.5))
-        .on("start", function(d) { if (d.parent === focus || d.parent && d.parent.parent === focus) this.style.display = "inline"; })
-        .on("end", function(d) { drawBoxes(); });
+        .on("start", function(d) { if (d.parent === focus || d.parent && d.parent.parent === focus) this.style.display = "block"; })
+        .on("end", function(d) { drawBoxes(); })
         
+// .attr("y", d => d.parent === root ? -d.r + 20 : "0")
+
       sublabels
-        .filter(function(d) { return (d.parent === focus || d.parent && d.parent.parent === focus ) || this.style.display === "inline"; })
+        .filter(function(d) { return (d.parent === focus || d.parent && d.parent.parent === focus ) || this.style.display === "block"; })
         .transition(transition)
           .style("fill-opacity",  d => boxOpactiy(d, this, 0.8))
           .style("font-weight", d => d.parent === focus ? "bold" : "plain")
-          .on("start", function(d) { if (d.parent === focus || d.parent && d.parent.parent === focus) this.style.display = "inline"; })
+          .on("start", function(d) { if (d.parent === focus || d.parent && d.parent.parent === focus) this.style.display = "block"; })
+          // .on("end", function(d) { console.log(this.node())})
           // .on("end", function(d) { if (d.parent !== focus || d.parent && d.parent.parent != focus) this.style.display = "none"; });
-    }
+          // console.log(this.getAttribute("y")); this.setAttribute("y", this.getAttribute("y") * 50); console.log(this.getAttribute("y"))
+        }
   
     drawBoxes();
   

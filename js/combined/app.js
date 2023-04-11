@@ -39,8 +39,10 @@ const graph_switcher = (circle_data, sankey_data) => {
   d3.select("#tree")
   .on("click", function(d,i) {
       const filtered = filter_data(circle_data, filter_state);
+      console.log("scale_data");
+      console.log(scale_data);
+      tree_chart(filtered);
       tree_scale(scale_data);
-      tree_chart(filtered)
   }) 
 
   d3.select("#num_citations")
@@ -64,6 +66,7 @@ const graph_switcher = (circle_data, sankey_data) => {
       const adjusted = switch_node_display(filtered);
       console.log("adjusted tree chart");
       tree_chart(adjusted);
+      tree_scale(scale_data);
     }
   })
 
@@ -86,6 +89,7 @@ const graph_switcher = (circle_data, sankey_data) => {
       const filtered = filter_data(circle_data, filter_state);
       const adjusted = switch_node_display(filtered);
       tree_chart(adjusted);
+      tree_scale(scale_data);
     }
   })
 }
@@ -101,6 +105,7 @@ slider.oninput = function() {
   if (current_graph == "tree")
   {
     tree_chart(adjusted);
+    tree_scale(scale_data);
   }
   if (current_graph == "circle")
   {
