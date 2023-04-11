@@ -1,5 +1,6 @@
 // Circular Packing
 
+
 const format = d3.format(",d");
 
 const color = d3.scaleLinear()
@@ -37,6 +38,46 @@ const pack = data => d3.pack()
   (d3.hierarchy(data)
   .sum(d => d.value)
   .sort((a, b) => b.value - a.value));
+
+  const circle_scale = (data) => {
+
+    d3.select('.scale').html('');
+
+    const root = d3.hierarchy(data);
+  
+    const svg = d3.select(".scale")
+      .append("svg")
+      .attr("viewBox", [-margin.left, -margin.top, width/6, dx/6])
+      .style("font", "10px sans-serif")
+      .attr("height", svgheight/6)
+      .attr("width", svgwidth/6)
+      .style("user-select", "none");
+  
+    const nodes = root.descendants().reverse();
+    nodes.pop();
+    nodes.reverse();
+  
+    nodes.forEach((d, i) => {
+      svg.append("circle")
+        .attr("r", node_size(d))
+        .attr("transform", `translate(${i * 50},${0})`);
+    })
+  
+    console.log(nodes);
+  
+    nodes.forEach((d, i) => {
+      console.log(d.data);
+      svg.append("text")
+        .text(d.data[display_setting])
+        .attr("transform", `translate(${i * 50 - node_size(d) - 2},${-8})`)
+        .attr("text-anchor", "start");
+  
+    })  
+    return svg;
+  }
+
+
+
 
 const circle_chart = (data) => {
 
@@ -258,5 +299,14 @@ const circle_chart = (data) => {
     // Once we're done, pos should be at the position we want to zoom to, so zoom!
     zoom(state.event, pos);
   }
+
+  console.log("svg details")
+  svgwidth = svg.style("width");
+  svgwidth = svgwidth.substring(0, svgwidth.length - 2);
+  svgheight = svgwidth * (6/25);
+  console.log(svgwidth);
+  console.log(svgwidth * (6/25));
+  console.log(svg);
+
     return con;
 }

@@ -115,10 +115,6 @@ const tree_scale = (data) => {
 
   })
 
-
-
-
-
 }
 
 const tree_chart = (data) => {
@@ -264,7 +260,9 @@ const tree_chart = (data) => {
   
       // Transition links to their new position.
       link.merge(linkEnter).transition(transition)
-          .attr("d", diagonal);
+          .attr("d", diagonal)
+          // How to change edge colors
+          .style("stroke", "blue");
   
       // Transition exiting nodes to the parent's new position.
       link.exit().transition(transition).remove()

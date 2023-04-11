@@ -33,7 +33,8 @@ const graph_switcher = (circle_data, sankey_data) => {
   d3.select("#circle")
   .on("click", function(d,i) {
       const filtered = filter_data(circle_data, filter_state);
-      circle_chart(filtered)
+      circle_chart(filtered);
+      circle_scale(scale_data);
   })   
   // Switch to tree, applying filters
   d3.select("#tree")
@@ -58,6 +59,7 @@ const graph_switcher = (circle_data, sankey_data) => {
       const filtered = filter_data(circle_data, filter_state);
       const adjusted = switch_node_display(filtered);
       circle_chart(adjusted);
+      circle_scale(scale_data);
     }
     if (current_graph == "tree")
     {
@@ -83,6 +85,7 @@ const graph_switcher = (circle_data, sankey_data) => {
       const filtered = filter_data(circle_data, filter_state);
       const adjusted = switch_node_display(filtered);
       circle_chart(adjusted);
+      circle_scale(scale_data);
     }
     if (current_graph == "tree")
     {
@@ -110,6 +113,7 @@ slider.oninput = function() {
   if (current_graph == "circle")
   {
     circle_chart(adjusted);
+    circle_scale(scale_data);
   }
 }
 
