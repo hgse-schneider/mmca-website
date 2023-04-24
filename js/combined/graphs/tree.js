@@ -1,12 +1,12 @@
-const width = 1000;
-const height = width;
+const tree_width = 1000;
+const tree_height = tree_width;
 
 
 let svgwidth;
 let svgheight;
 
 const dx = 10;
-const dy = width / 6;
+const dy = tree_width / 6;
 
 const diagonal = d3.linkHorizontal().x(d => d.y).y(d => d.x);
 
@@ -88,7 +88,7 @@ const tree_scale = (data) => {
 
   const svg = d3.select(".scale")
     .append("svg")
-    .attr("viewBox", [-margin.left, -margin.top, width/6, dx/6])
+    .attr("viewBox", [-margin.left, -margin.top, tree_width/6, dx/6])
     .style("font", "10px sans-serif")
     .attr("height", svgheight/6)
     .attr("width", svgwidth/6)
@@ -142,7 +142,7 @@ const tree_chart = (data) => {
   
     const svg = d3.select(".container")
         .append("svg")
-        .attr("viewBox", [-margin.left, -margin.top, width, dx])
+        .attr("viewBox", [-margin.left, -margin.top, tree_width, dx])
         .style("font", "10px sans-serif")
         .style("user-select", "none");
   
@@ -178,7 +178,7 @@ const tree_chart = (data) => {
   
       const transition = svg.transition()
           .duration(duration)
-          .attr("viewBox", [-margin.left, left.x - margin.top, width, height])
+          .attr("viewBox", [-margin.left, left.x - margin.top, tree_width, height])
           .tween("resize", window.ResizeObserver ? null : () => () => svg.dispatch("toggle"));
   
       // Update the nodes…

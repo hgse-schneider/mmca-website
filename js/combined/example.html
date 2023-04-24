@@ -8,6 +8,7 @@
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <!-- <link rel="stylesheet" href="global.css"> -->
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="menu.css">
     
 </head>
 <header id="header">
@@ -19,13 +20,42 @@
 <body>
     <div class="content-container">
         <div class="top-area">
+          <div class="menu-container">
             <div class="option-container">
                 <div class="option-header">
                     <h1>Filter options</h1>
                 </div>
-                <div class="option-body">
-                    <input type="range" value="2022" min="2009" max="2022" id="yearRange">
-                    <output>2022</output>
+                <div class="option-body"> 
+                    <div class="range-slider" id="range-slider-year" >
+                      <div class="range-labels">
+                        <span class="range-label range-label-start">2009</span>
+                        <span class="range-label range-label-end">2022</span>
+                      </div>
+                      <input type="range" min="2009" value="2009" max="2022" name="" id="">
+                      <input type="range" min="2009" value="2022" max="2022" name="" id="">
+                  
+                      <div class="track-wrapper">
+                        <div class="track"></div>
+                        <div class="range-between"></div>
+                        <div class="thumb left"></div>
+                        <div class="thumb right"></div>
+                      </div>
+                    </div>
+                    <div class="range-slider" id="range-slider-citation" >
+                      <div class="range-labels">
+                        <span class="range-label range-label-start">1</span>
+                        <span class="range-label range-label-end">600</span>
+                      </div>
+                      <input type="range" min="1" value="1" max="600" name="" id="">
+                      <input type="range" min="1" value="600" max="600" name="" id="">
+                  
+                      <div class="track-wrapper">
+                        <div class="track"></div>
+                        <div class="range-between"></div>
+                        <div class="thumb left"></div>
+                        <div class="thumb right"></div>
+                      </div>
+                    </div>
                 </div>
             </div>
             <div class="option-container">
@@ -33,9 +63,9 @@
                     <h1>Visualization choice</h1>
                 </div>
                 <div class="option-body">
-                    <button id="sankey">Sankey diagram</button>
-                    <button id="circle">Circular packing</button>
-                    <button id="tree">Collapsible tree</button>
+                    <button id="sankey" class="menu-button">Sankey diagram</button>
+                    <button id="circle" class="menu-button">Circular packing</button>
+                    <button id="tree" class="menu-button">Collapsible tree</button>
                 </div>
                 
             </div>
@@ -44,11 +74,18 @@
                     <h1>Visualization options</h1>
                 </div>
                 <div class="option-body">
-                    <button id="num_citations" class="pointer">Number of citations</button>
-                    <button id="num_connections" class="pointer active">Number of connections</button>
+                  <div class="option-button-container">
+                    <button id="num_citations" class="menu-button">Number of citations</button>
+                    <button id="num_connections" class="menu-button active">Number of connections</button>
+                  </div>
                 </div>
-                <div class="scale"></div>
+                <div class="scale-container">
+                  <div class="scale-header"><h1>Graph scale</h1></div>
+                  <div class="scale"></div>
+                </div>
+                
             </div>
+          </div>
         </div>
         
         <div class="container"></div>
@@ -63,7 +100,8 @@
     <script src="graphs/tree.js"></script>
     <script src="graphs/sankey.js"></script>
     <script src="sankey_sub.js"></script> 
-    <script src="app.js"></script> 
+    <script src="app.js"></script>
+    <script src="slider.js"></script> 
 </body>
 <footer>
     <div class="bottom-nav">

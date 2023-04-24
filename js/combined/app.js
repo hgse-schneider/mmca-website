@@ -1,126 +1,9 @@
-// Globals to store the data. Must check that these are loaded in correctly before using!
-let circle_data;
-let sankey_data;
-let scale_data;
-
-// Read in the data!
-Promise.all([
-  d3.json('circle_data_test.json'),
-  d3.json('layers.json'),
-  d3.json('scale_data.json')
-]).then(function(files) {
-  // Set the global variables to store the data
-  circle_data = files[0];
-  sankey_data = files[1];
-  scale_data = files[2];
-  // Run our graph switching logic
-  graph_switcher(files[0], files[1]);
-}).catch(function(err) {
-  // Check errors
-  console.log("ERROR: File reading error")
-  console.log(err)
-});
-
-
-const graph_switcher = (circle_data, sankey_data) => {
-  
-  // Handles the switch graph buttons
-  d3.select("#sankey")
-  .on("click", function(d,i) {
-      sankey_chart(0, 100)
-  })   
-  // Switch to circle, applying filters
-  d3.select("#circle")
-  .on("click", function(d,i) {
-      const filtered = filter_data(circle_data, filter_state);
-      circle_chart(filtered);
-      circle_scale(scale_data);
-  })   
-  // Switch to tree, applying filters
-  d3.select("#tree")
-  .on("click", function(d,i) {
-      const filtered = filter_data(circle_data, filter_state);
-      console.log("scale_data");
-      console.log(scale_data);
-      tree_chart(filtered);
-      tree_scale(scale_data);
-  }) 
-
-  d3.select("#num_citations")
-  .on("click", function(d, i) {
-    // Set this as the active and remove any other actives
-    var current = document.querySelector(".active");
-    current.className = current.className.replace(" active", "");
-    this.className += " active";
-
-    display_setting = "citations";
-    if (current_graph == "circle")
-    {
-      const filtered = filter_data(circle_data, filter_state);
-      const adjusted = switch_node_display(filtered);
-      circle_chart(adjusted);
-      circle_scale(scale_data);
-    }
-    if (current_graph == "tree")
-    {
-      const filtered = filter_data(circle_data, filter_state);
-      // This doesn't work because data is stored away in _children rather than childrens
-      const adjusted = switch_node_display(filtered);
-      console.log("adjusted tree chart");
-      tree_chart(adjusted);
-      tree_scale(scale_data);
-    }
-  })
-
-  d3.select("#num_connections")
-  .on("click", function(d, i) {
-    // Set this as the active and remove any other actives
-    var current = document.querySelector(".active");
-    current.className = current.className.replace(" active", "");
-    this.className += " active";
-
-    display_setting = "connections";
-    if (current_graph == "circle")
-    {
-      const filtered = filter_data(circle_data, filter_state);
-      const adjusted = switch_node_display(filtered);
-      circle_chart(adjusted);
-      circle_scale(scale_data);
-    }
-    if (current_graph == "tree")
-    {
-      const filtered = filter_data(circle_data, filter_state);
-      const adjusted = switch_node_display(filtered);
-      tree_chart(adjusted);
-      tree_scale(scale_data);
-    }
-  })
-}
-
-let filter_state = {};
-
-const slider = document.querySelector('#yearRange');
-slider.oninput = function() {
-  this.nextElementSibling.value = this.value;
-  filter_state["yearRange"] = this.value;
-  const filtered = filter_data(circle_data, filter_state);
-  const adjusted = switch_node_display(filtered);
-  if (current_graph == "tree")
-  {
-    tree_chart(adjusted);
-    tree_scale(scale_data);
-  }
-  if (current_graph == "circle")
-  {
-    circle_chart(adjusted);
-    circle_scale(scale_data);
-  }
-}
-
 let state = "";  
-let current_graph = "";                
+let current_graph = "";   
 
 const filter_data = (data, filter) => {
+  console.log("filter attempted");
+  console.log(filter);
   // Look at all children
   const filtered_children = data.children
   // Map over children at each layer
@@ -133,10 +16,25 @@ const filter_data = (data, filter) => {
 
             pass_list = []
             // FILTER LOGIC TO GO HERE DEPENDING ON TYPE OF FILTER
-            if('yearRange' in filter_state)
+
+            // Year filter
+            if ('year_lower' in filter)
             {
-              pass_list.push(leaf.year < filter_state['yearRange']);
+              pass_list.push(leaf.year >= filter['year_lower']);
             }
+            if ('year_upper' in filter)
+            {
+              pass_list.push(leaf.year <= filter["year_upper"]);
+            }
+
+            // Citation filter
+            if('citation_lower' in filter) {
+              pass_list.push(leaf.citations >= filter['citation_lower']);
+            }
+            if('citation_upper' in filter){
+              pass_list.push(leaf.citations <= filter['citation_upper']);
+            }
+
             return pass_list.every(v => v === true);
           })
           // If no children, set to null for cleanup
@@ -171,6 +69,135 @@ const filter_data = (data, filter) => {
   const filtered = {"name": "data", "children": filtered_children}
   return filtered;
 }
+
+
+// Globals to store the data. Must check that these are loaded in correctly before using!
+let circle_data;
+let sankey_data;
+let scale_data;
+
+// Read in the data!
+Promise.all([
+  d3.json('circle_data_test.json'),
+  d3.json('layers.json'),
+  d3.json('scale_data.json')
+]).then(function(files) {
+  // Set the global variables to store the data
+  circle_data = files[0];
+  sankey_data = files[1];
+  scale_data = files[2];
+  // Run our graph switching logic
+  graph_switcher(files[0], files[1]);
+}).catch(function(err) {
+  // Check errors
+  console.log("ERROR: File reading error")
+  console.log(err)
+});
+
+
+const graph_switcher = (circle_data, sankey_data) => {
+  
+  // Handles the switch graph buttons
+  d3.select("#sankey")
+  .on("click", function(d,i) {
+      var current = this.parentElement.querySelector(".active");
+      current && (current.className = current.className.replace(" active", ""));
+      this.className += " active";
+      sankey_chart(0, 100)
+  })   
+  // Switch to circle, applying filters
+  d3.select("#circle")
+  .on("click", function(d,i) {
+      var current = this.parentElement.querySelector(".active");
+      current && (current.className = current.className.replace(" active", ""));
+      this.className += " active";
+      const filtered = filter_data(circle_data, filter_state);
+      circle_chart(filtered);
+      circle_scale_2(scale_data);
+  })   
+  // Switch to tree, applying filters
+  d3.select("#tree")
+  .on("click", function(d,i) {
+      var current = this.parentElement.querySelector(".active");
+      current && (current.className = current.className.replace(" active", ""));
+      this.className += " active";
+      const filtered = filter_data(circle_data, filter_state);
+      tree_chart(filtered);
+      tree_scale(scale_data);
+  }) 
+
+  d3.select("#num_citations")
+  .on("click", function(d, i) {
+    // Set this as the active and remove any other actives
+    var current = this.parentElement.querySelector(".active");
+    current.className = current.className.replace(" active", "");
+    this.className += " active";
+
+    display_setting = "citations";
+    if (current_graph == "circle")
+    {
+      const filtered = filter_data(circle_data, filter_state);
+      const adjusted = switch_node_display(filtered);
+      circle_chart(adjusted);
+      circle_scale(scale_data);
+    }
+    if (current_graph == "tree")
+    {
+      const filtered = filter_data(circle_data, filter_state);
+      // This doesn't work because data is stored away in _children rather than childrens
+      const adjusted = switch_node_display(filtered);
+      tree_chart(adjusted);
+      tree_scale(scale_data);
+    }
+  })
+
+  d3.select("#num_connections")
+  .on("click", function(d, i) {
+    // Set this as the active and remove any other actives
+    var current = this.parentElement.querySelector(".active");
+    current.className = current.className.replace(" active", "");
+    this.className += " active";
+
+    display_setting = "connections";
+    if (current_graph == "circle")
+    {
+      const filtered = filter_data(circle_data, filter_state);
+      const adjusted = switch_node_display(filtered);
+      circle_chart(adjusted);
+      const adjusted_scaled= switch_node_display(scale_data);
+      circle_scale(adjusted_scaled);
+    }
+    if (current_graph == "tree")
+    {
+      const filtered = filter_data(circle_data, filter_state);
+      const adjusted = switch_node_display(filtered);
+      tree_chart(adjusted);
+      tree_scale(scale_data);
+    }
+  })
+}
+
+let filter_state = {};
+
+// const slider = document.querySelector('#yearRange');
+// slider.oninput = function() {
+//   this.nextElementSibling.value = this.value;
+//   filter_state["yearRange"] = this.value;
+
+function updateState() {
+  const filtered = filter_data(circle_data, filter_state);
+  const adjusted = switch_node_display(filtered);
+  if (current_graph == "tree")
+  {
+    tree_chart(adjusted);
+    tree_scale(scale_data);
+  }
+  if (current_graph == "circle")
+  {
+    circle_chart(adjusted);
+    // circle_scale(scale_data);
+  }
+}             
 
 // Function used in visualizations to update state to have consistent state object
 // between visualizations
@@ -225,7 +252,6 @@ const switch_node_display = (data) => {
   };
   if (current_graph == "tree")
   {
-    console.log("Attempted to change node display");
     data.children.forEach((layer_1) =>{
       const layer_1_children = layer_1.children ? layer_1.children : layer_1._children;
       layer_1_children.forEach((layer_2) => {
@@ -235,13 +261,7 @@ const switch_node_display = (data) => {
           layer_3_children.forEach((layer_4) => {
             const layer_4_children = layer_4.children ? layer_4.children : layer_4._children;
             layer_4_children.forEach((leaf) => {
-              const prev = leaf.value;
               leaf.value = leaf[display_setting];
-              const post = leaf.value;
-              if (post - prev > 500)
-              {
-                console.log(post);
-              }
             })
           })
         })

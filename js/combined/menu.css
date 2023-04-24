@@ -1,0 +1,180 @@
+/* 
+CSS file to control the styling of the visualization menu
+All styling for the menu, buttons and visualizations within should be contained here
+*/
+
+.menu-container{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+  
+  .top-area
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(238, 238, 238, 0.829);
+    box-shadow: inset 0px -15px 20px rgba(205, 205, 205, 1), inset 0px 10px 20px rgba(140, 140, 140, 1);
+    /* background: linear-gradient(#aaa, #eee); */
+  }
+
+/* Button info
+    Original color: #616467
+    Source: https://copy-paste-css.com/
+*/
+.menu-button{
+    width: 100%;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 1;
+    border-radius: 500px;
+    transition-property: background-color,border-color,color,box-shadow,filter;
+    transition-duration: .3s;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 14px 12px 14px;
+    color: var(--blue);
+    box-shadow: inset 0 0 0 2px var(--blue);
+    background-color: transparent;
+    height: 48px;
+}
+
+.menu-button:hover{
+    color: #fff;
+    background-color: var(--blue);
+}
+
+.active {
+    background-color: var(--blue);
+    color: #fff;
+}
+
+/* Top options area */
+.content-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.scale-container {
+    box-shadow: inset 0 0 0 2px var(--blue);
+    background-color: #fff;
+    border-radius: 500px;
+    padding: 14px 12px 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.scale-header{
+    font-size: 10px;
+    text-align: center;
+}
+
+
+.scale{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.active:after {
+    background-color: #008fb3 !important;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.option-container
+{
+    flex: 1;
+    border-radius: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 0px;
+}
+
+.option-button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.option-header
+{
+    text-align: center;
+}
+
+.option-body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 80%;
+}
+
+/* CSS Button source:
+https://codepen.io/alticreation/pen/zBZwOP
+ */
+/* button {
+    padding: 0.5rem 0.5rem;
+    border-radius: 10rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    letter-spacing: 0.15rem;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+button:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0cf;
+    border-radius: 10rem;
+    z-index: -2;
+}
+button:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #008fb3;
+    transition: all 0.3s;
+    border-radius: 10rem;
+    z-index: -1;
+}
+button:hover {
+    cursor: pointer;
+    color: #fff;
+}
+button:hover:before {
+    width: 100%;
+} */

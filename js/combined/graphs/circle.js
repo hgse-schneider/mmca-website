@@ -1,5 +1,6 @@
 // Circular Packing
-
+const circle_width = 1000;
+const circle_height = circle_width;
 
 const format = d3.format(",d");
 
@@ -33,51 +34,111 @@ const nodeColor = (d) => {
 }
 
 const pack = data => d3.pack()
-  .size([width, height])
+  .size([circle_width, circle_height])
   .padding(3)
   (d3.hierarchy(data)
   .sum(d => d.value)
   .sort((a, b) => b.value - a.value));
 
-  const circle_scale = (data) => {
+  // const circle_scale = (data) => {
 
-    d3.select('.scale').html('');
+  //   d3.select('.scale').html('');
 
-    const root = d3.hierarchy(data);
+  //   const root = d3.hierarchy(data);
   
-    const svg = d3.select(".scale")
-      .append("svg")
-      .attr("viewBox", [-margin.left, -margin.top, width/6, dx/6])
-      .style("font", "10px sans-serif")
-      .attr("height", svgheight/6)
-      .attr("width", svgwidth/6)
-      .style("user-select", "none");
+  //   const svg = d3.select(".scale")
+  //     .append("svg")
+  //     .attr("viewBox", [-margin.left, -margin.top, circle_width/6, dx/6])
+  //     .style("font", "10px sans-serif")
+  //     .attr("height", svgheight/6)
+  //     .attr("width", svgwidth/6)
+  //     .style("user-select", "none");
   
-    const nodes = root.descendants().reverse();
-    nodes.pop();
-    nodes.reverse();
+  //   const nodes = root.descendants().reverse();
+  //   nodes.pop();
+  //   nodes.reverse();
   
-    nodes.forEach((d, i) => {
-      svg.append("circle")
-        .attr("r", node_size(d))
-        .attr("transform", `translate(${i * 50},${0})`);
-    })
+  //   nodes.forEach((d, i) => {
+  //     svg.append("circle")
+  //       .attr("r", node_size(d))
+  //       .attr("transform", `translate(${i * 50},${0})`);
+  //   })
   
-    console.log(nodes);
+  //   console.log(nodes);
   
-    nodes.forEach((d, i) => {
-      console.log(d.data);
-      svg.append("text")
-        .text(d.data[display_setting])
-        .attr("transform", `translate(${i * 50 - node_size(d) - 2},${-8})`)
-        .attr("text-anchor", "start");
+  //   nodes.forEach((d, i) => {
+  //     console.log(d.data);
+  //     svg.append("text")
+  //       .text(d.data[display_setting])
+  //       .attr("transform", `translate(${i * 50 - node_size(d) - 2},${-8})`)
+  //       .attr("text-anchor", "start");
   
-    })  
-    return svg;
+  //   })  
+  //   return svg;
+  // }
+
+  // const scale_width = 150;
+  // const scale_height = scale_width;
+
+const scale_pack = data => d3.pack()
+  .size([svgwidth/6, svgheight/6])
+  .padding(3)
+  (d3.hierarchy(data)
+  .sum(d => d.value)
+  .sort((a, b) => b.value - a.value));
+
+  const scaleNodeColor = (d) => {
+    if (d.data.value == 1)
+    {
+      return "#5d29ff";
+    }
+    if (d.data.value == 10)
+    {
+      return "#fbad00";
+    }
+    return "#c76d81";
   }
 
+const circle_scale_2 = (data) => {
+  d3.select('.scale').html('');
+  const root = scale_pack(data);
+  let focus = root;
+  let view;
 
+  const con = d3.select(".scale");
+    const svg = con
+        .append("svg")
+        .attr("viewBox", [-margin.left, -margin.top, svgwidth/6, dx/6])
+        .style("display", "block")
+        .style("cursor", "pointer")
+        .attr("height", svgheight/6)
+        .attr("width", svgwidth/6)
+        .on("click", (event) => zoom(event, root));
 
+    const node = svg.append("g")
+      .attr("transform", "translate(0, 0)")
+      .selectAll("circle")
+      .data(root.descendants().slice(1))
+      .join("circle")
+        .attr("fill", d =>  scaleNodeColor(d))
+        .attr("d", d => d);
+    
+    zoomTo([root.x, root.y, root.r * 2]);
+
+    function scaleSize(d) {
+
+    }
+
+    function zoomTo(v) {
+      const k = circle_width / v[2];
+  
+      view = v;
+      // Transform everything according to the current view/zoom
+      node.attr("transform", d => `translate(${(d.x - v[0]) * k / 28 + 50},${(d.y - v[1]) * k / 24})`);
+      node.attr("r", d => d.data.connections * 0.077 + 3.1691);
+    }
+    return con;
+}
 
 const circle_chart = (data) => {
 
@@ -93,7 +154,7 @@ const circle_chart = (data) => {
   
     const svg = con
         .append("svg")
-        .attr("viewBox", `-${width / 2} -${height / 2} ${width} ${height}`)
+        .attr("viewBox", `-${circle_width / 2} -${circle_height / 2} ${circle_width} ${circle_height}`)
         .style("display", "block")
         .style("cursor", "pointer")
         .on("click", (event) => zoom(event, root));
@@ -137,9 +198,13 @@ const circle_chart = (data) => {
     const label = svg.append("g")
 
     const display_labels = (d) => {
-      if (d.parent === root || (d.parent && d.parent.parent === root))
+      if (d.depth == 5 && d.data.connections > 2)
       {
         console.log(d);
+      }
+      if (d.parent === root || (d.parent && d.parent.parent === root))
+      {
+        // console.log(d);
         return "block";
       }
       return "none";
@@ -182,7 +247,7 @@ const circle_chart = (data) => {
     zoomTo([root.x, root.y, root.r * 2]);
 
     function zoomTo(v) {
-      const k = width / v[2];
+      const k = circle_width / v[2];
   
       view = v;
       // Transform everything according to the current view/zoom
