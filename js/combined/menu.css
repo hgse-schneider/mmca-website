@@ -13,6 +13,7 @@ All styling for the menu, buttons and visualizations within should be contained 
   
   .top-area
   {
+    font-family: sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -46,7 +47,7 @@ All styling for the menu, buttons and visualizations within should be contained 
     padding: 14px 12px 14px;
     color: var(--blue);
     box-shadow: inset 0 0 0 2px var(--blue);
-    background-color: transparent;
+    background-color: #ffffff;
     height: 48px;
 }
 
@@ -133,48 +134,134 @@ All styling for the menu, buttons and visualizations within should be contained 
     width: 80%;
 }
 
-/* CSS Button source:
-https://codepen.io/alticreation/pen/zBZwOP
- */
-/* button {
-    padding: 0.5rem 0.5rem;
-    border-radius: 10rem;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 0.6rem;
-    letter-spacing: 0.15rem;
-    transition: all 0.3s;
+/* New double sided slider */
+
+.range-slider {
+    padding-top: 30px;
+    --_height: 5px;
+    --_thumb-size: calc(var(--_height) * 4);
     position: relative;
-    overflow: hidden;
+    width: 70%;
+    display: grid;
+    margin-bottom: calc(var(--_thumb-size) * -1);
+  }
+  .range-slider .range-labels {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+  }
+  .range-slider .range-labels .range-label {
+    display: inline-flex;
+    font-size: 16px;
+    color: var(--black);
+    line-height: 1;
+  }
+  .range-slider .range-labels .range-label-start {
+    align-self: flex-start;
+  }
+  .range-slider .range-labels .range-label-end {
+    align-self: flex-end;
+  }
+  .range-slider .range-labels .range-label-middle {
+    text-align: center;
+  }
+  .range-slider .track-wrapper {
+    position: relative;
     z-index: 1;
-}
-button:after {
-    content: '';
+    height: var(--_height);
+    margin-bottom: var(--_thumb-size);
+    display: grid;
+    align-items: center;
+    margin: 0 calc(var(--_thumb-size) / 2);
+  }
+  .range-slider .track-wrapper .track {
     position: absolute;
-    bottom: 0;
+    z-index: 1;
     left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #0cf;
-    border-radius: 10rem;
-    z-index: -2;
-}
-button:before {
-    content: '';
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 5px;
+    background-color: var(--light-grey);
+  }
+  .range-slider .track-wrapper .range-between {
     position: absolute;
+    z-index: 2;
+    left: 0%;
+    right: 0%;
+    top: 0;
     bottom: 0;
-    left: 0;
-    width: 0%;
-    height: 100%;
-    background-color: #008fb3;
-    transition: all 0.3s;
-    border-radius: 10rem;
+    border-radius: 5px;
+    background-color: var(--blue);
+  }
+  .range-slider .track-wrapper .thumb {
+    --_shadow-sizer: 2;
+    --_shadow-size: calc(var(--_thumb-size) * var(--_shadow-sizer));
+    --_shadow-color: var(--blue);
+    --_shadow-opacity: 0;
+    position: absolute;
+    z-index: 3;
+    width: var(--_thumb-size);
+    height: var(--_thumb-size);
+    background-color: var(--blue);
+    border-radius: 50%;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  .range-slider .track-wrapper .thumb::before {
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     z-index: -1;
-}
-button:hover {
-    cursor: pointer;
-    color: #fff;
-}
-button:hover:before {
+    background-color: var(--_shadow-color);
+    width: var(--_shadow-size);
+    height: var(--_shadow-size);
+    border-radius: inherit;
+    opacity: var(--_shadow-opacity);
+  }
+  .range-slider .track-wrapper .thumb.left {
+    left: 0%;
+    transform: translate(calc(var(--_thumb-size) / -2), 0px);
+  }
+  .range-slider .track-wrapper .thumb.right {
+    right: 0%;
+    transform: translate(calc(var(--_thumb-size) / 2), 0px);
+  }
+  .range-slider .track-wrapper .thumb.hover {
+    --_shadow-opacity: .2;
+  }
+  .range-slider .track-wrapper .thumb.active {
+    --_shadow-opacity: .4;
+    --_shadow-sizer: 4;
+  }
+  .range-slider input[type=range] {
+    position: absolute;
+    pointer-events: none;
+    -webkit-appearance: none;
+    z-index: 2;
+    height: var(--_height);
     width: 100%;
-} */
+    opacity: 0;
+    cursor: pointer;
+    bottom: 0;
+  }
+  .range-slider input[type=range]::-webkit-slider-thumb {
+    pointer-events: all;
+    width: var(--_thumb-size);
+    height: var(--_thumb-size);
+    border-radius: 0;
+    border: 0 none;
+    background-color: var(--blue);
+    -webkit-appearance: none;
+  }
+  .range-slider input[type=range]::-moz-range-thumb {
+    pointer-events: all;
+    width: var(--_thumb-size);
+    height: var(--_thumb-size);
+    border-radius: 0;
+    border: 0 none;
+    background-color: var(--blue);
+    -webkit-appearance: none;
+  }
