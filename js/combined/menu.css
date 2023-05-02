@@ -51,6 +51,25 @@ All styling for the menu, buttons and visualizations within should be contained 
     height: 48px;
 }
 
+.menu-button-small {
+  padding: 10px 8px 10px;
+  min-width: 60px;
+}
+
+.metric-option-button-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.metric-option-container{
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
 .menu-button:hover{
     color: #fff;
     background-color: var(--blue);
@@ -109,7 +128,7 @@ All styling for the menu, buttons and visualizations within should be contained 
     justify-content: flex-start;
     align-items: center;
     gap: 20px;
-    padding: 40px 0px;
+    padding: 10px 0px;
 }
 
 .option-button-container{
@@ -137,6 +156,7 @@ All styling for the menu, buttons and visualizations within should be contained 
 /* New double sided slider */
 
 .range-slider {
+    margin: 0;
     padding-top: 30px;
     --_height: 5px;
     --_thumb-size: calc(var(--_height) * 4);
@@ -145,6 +165,10 @@ All styling for the menu, buttons and visualizations within should be contained 
     display: grid;
     margin-bottom: calc(var(--_thumb-size) * -1);
   }
+  .range-slider:nth-of-type(1) {
+    padding-top: 0px;
+  }
+
   .range-slider .range-labels {
     display: flex;
     justify-content: space-between;

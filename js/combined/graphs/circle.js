@@ -215,7 +215,7 @@ const circle_chart = (data) => {
     .selectAll("rect")
     .data(root.descendants())
     .join("rect")
-        .style("fill-opacity", d => d.parent === root ? 0.7 : 0)
+        .style("fill-opacity", d => d.parent === root ? 0.7 : 0.7)
         .style("fill", "blue")
         .style("display", d => display_labels(d))
         .attr("d", d => d)
@@ -223,6 +223,22 @@ const circle_chart = (data) => {
         .attr("width", 10)
         .attr("height", 10)
         .style("fill", "blue");
+
+      const label_pos = (d) => {
+        if (d.depth == 1){
+          return -d.r;
+        }
+        if (d.depth == 2) {
+          return -2 * d.r;
+        }
+        if (d.depth == 3) {
+          return -5 * d.r;
+        }
+        if (d.depth == 4) {
+          return -6 * d.r;
+        }
+
+      }
 
         const sublabels = label
         .attr("transform", "translate(0, -200)" )
@@ -237,7 +253,7 @@ const circle_chart = (data) => {
         .attr("d", d => d)
         .attr("rlab", d => d.r)
         .style("fill-opacity", d => d.parent === root || d.parent && d.parent.parent === root ? 1 : 0)
-        .attr("y", d => -d.r)
+        .attr("y", d => label_pos(d))
         .style("font", d => d.parent === root ? "16px sans-serif" : "10px sans-serif")
         .style("display", d => display_labels(d))
         .text(d => d.data.name)
@@ -252,6 +268,7 @@ const circle_chart = (data) => {
       view = v;
       // Transform everything according to the current view/zoom
       boxes.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k})`);
+      // sublabels.attr("y", d => -d.r * 100)
       sublabels.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k})`);
       node.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k})`);
       node.attr("r", d => d.r * k);
