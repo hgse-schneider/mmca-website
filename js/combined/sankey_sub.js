@@ -363,8 +363,8 @@ function circle_text_wrap(text, width) {
                 tspan = text.append("tspan")
                             .attr("x", x)
                             .attr("y", y)
-                            .attr("dy", ++lineNumber * lineHeight + dy + "em")
-                            .attr("dx", prev_length ? -prev_length - 3  : 0)
+                            .attr("dy", lineHeight + dy + "em")
+                            .attr("dx", prev_length ? -prev_length  : 0)
                             .text(word);
             }
         }

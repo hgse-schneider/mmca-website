@@ -200,6 +200,7 @@ const circle_chart = (data) => {
     const label = svg.append("g")
 
     const display_labels = (d) => {
+      // return "block";
       if (d.depth == 5 && d.data.connections > 2)
       {
         console.log(d);
@@ -238,12 +239,15 @@ const circle_chart = (data) => {
       .data(root.descendants())
       .join("text")
         .attr("d", d => d)
+        .text(d => d.data.name)
+        .style("display", "block")
+        .style("fill-opacity", 1)
+        .call(circle_text_wrap, 100) 
         .style("fill-opacity", d => d.parent === root || d.parent && d.parent.parent === root ? 1 : 0)
         .attr("y", d => -d.r)
         .style("font", d => d.parent === root ? "16px sans-serif" : "10px sans-serif")
-        .style("display", d => display_labels(d))
-        .text(d => d.data.name)
-        .call(circle_text_wrap, 80);    
+        .style("display", d => display_labels(d));
+        
 
     
     zoomTo([root.x, root.y, root.r * 2]);
@@ -332,7 +336,8 @@ const circle_chart = (data) => {
           .style("fill-opacity",  d => boxOpactiy(d, this, 0.8))
           .style("font-weight", d => d.parent === focus ? "bold" : "plain")
           .on("start", function(d) { if (d.parent === focus || d.parent && d.parent.parent === focus) this.style.display = "block"; })
-          // .on("end", function(d) { console.log(this.node())})
+          // .on("end", function() { circle_text_wrap(d3.selectAll("text"), 80)})
+          // .call(circle_text_wrap, 80)
           // .on("end", function(d) { if (d.parent !== focus || d.parent && d.parent.parent != focus) this.style.display = "none"; });
           // console.log(this.getAttribute("y")); this.setAttribute("y", this.getAttribute("y") * 50); console.log(this.getAttribute("y"))
         }
