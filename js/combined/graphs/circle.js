@@ -259,7 +259,7 @@ const circle_chart = (data) => {
       .join("text")
         .attr("d", d => d)
         .style("fill-opacity", d => d.parent === root || d.parent && d.parent.parent === root ? 1 : 0)
-        .attr("y", d => -d.r)
+        .attr("y", d => d.parent ? -d["rlab"] * circle_width / (d.parent.r * 2) : -d["rlab"])
         .style("font", d => d.parent === root ? "16px sans-serif" : "10px sans-serif")
         .style("display", d => display_labels(d))
         .text(d => d.data.name)
