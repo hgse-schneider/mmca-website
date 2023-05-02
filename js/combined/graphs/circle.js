@@ -147,12 +147,7 @@ const circle_chart = (data) => {
   current_graph = "circle";
   d3.select('.container').html('');
   const root = pack(data);
-  console.log("ROOT");
-  console.log(root);
-  const mapped_root = map_data(root);
-  console.log("MAPPED ROOT");
-  console.log(mapped_root);
-  let focus = mapped_root;
+  let focus = root;
   let view;
 
   const con = d3.select(".container")
@@ -244,7 +239,7 @@ const circle_chart = (data) => {
       .join("text")
         .attr("d", d => d)
         .style("fill-opacity", d => d.parent === root || d.parent && d.parent.parent === root ? 1 : 0)
-        .attr("y", d => -d["rlab"])
+        .attr("y", d => -d.r)
         .style("font", d => d.parent === root ? "16px sans-serif" : "10px sans-serif")
         .style("display", d => display_labels(d))
         .text(d => d.data.name)

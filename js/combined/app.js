@@ -1,41 +1,6 @@
 let state = "";  
 let current_graph = "";   
 
-const map_data = (data) => {
-  console.log("map attempted");
-  // const test = data.children.map((l1) => {
-  //   const next = l1;
-  //   next.rlab = l1.r;
-  //   return next;
-  // })
-  // console.log("TEST");
-  // console.log(test);
-  // console.log(data.children);
-  const mapped_children = data.children
-  // Map over children at each layer
-  .map((layer_1) => {
-    let children = layer_1.children.map((layer_2) => {
-      let children = layer_2.children.map((layer_3) => {
-        let children = layer_3.children.map((layer_4) =>{
-          let children = layer_4.children.map((leaf)=> {
-            leaf.rlab = leaf.r;
-            return leaf;
-          })
-          layer_4.rlab = layer_4.r;
-          return layer_4;
-        })
-        layer_3.rlab = layer_3.r;
-        return layer_3;
-      })
-      layer_2.rlab = layer_2.r;
-      return layer_2;
-    })
-    layer_1.rlab = layer_1.r;
-    return layer_1;
-  })
-  return {"name": "data", "children": mapped_children}
-}
-
 const filter_data = (data, filter) => {
   console.log("filter attempted");
   console.log(filter);
