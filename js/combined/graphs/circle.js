@@ -152,7 +152,7 @@ const circle_chart = (data) => {
   const mapped_root = map_data(root);
   console.log("MAPPED ROOT");
   console.log(mapped_root);
-  let focus = root;
+  let focus = mapped_root;
   let view;
 
   const con = d3.select(".container")
@@ -231,21 +231,6 @@ const circle_chart = (data) => {
         .attr("height", 10)
         .style("fill", "blue");
 
-      const label_pos = (d) => {
-        if (d.depth == 1){
-          return -d.r;
-        }
-        if (d.depth == 2) {
-          return -2 * d.r;
-        }
-        if (d.depth == 3) {
-          return -5 * d.r;
-        }
-        if (d.depth == 4) {
-          return -6 * d.r;
-        }
-
-      }
 
         const sublabels = label
         // .attr("transform", "translate(0, -200)" )
@@ -259,7 +244,7 @@ const circle_chart = (data) => {
       .join("text")
         .attr("d", d => d)
         .style("fill-opacity", d => d.parent === root || d.parent && d.parent.parent === root ? 1 : 0)
-        .attr("y", d => d.parent ? -d["rlab"] * circle_width / (d.parent.r * 2) : -d["rlab"])
+        .attr("y", d => -d["rlab"])
         .style("font", d => d.parent === root ? "16px sans-serif" : "10px sans-serif")
         .style("display", d => display_labels(d))
         .text(d => d.data.name)
@@ -274,34 +259,12 @@ const circle_chart = (data) => {
 
       view = v;
       // Transform everything according to the current view/zoom
-      if (v[0]==500)
-      {
-        console.log("SUBLABELS");
-        console.log(sublabels._groups[0][7]);
-        boxes.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k})`);
-        sublabels.attr("y", d => -d.r * 100)
-        sublabels.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k})`);
-        node.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k})`);
-        node.attr("r", d => d.r * k);
-        console.log("SUBLABELS pt 2");
-        console.log(sublabels._groups[0][7]);
-        console.log("K");
-        console.log(k);
-      }
-      else {
-        console.log("SUBLABELS");
-        console.log(sublabels._groups[0][7]);
-        boxes.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k})`);
-        sublabels.attr("y", d => -d.r * 100)
-        sublabels.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k})`);
-        node.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k})`);
-        node.attr("r", d => d.r * k);
-        console.log(sublabels._groups[0][7]);
-        console.log("K");
-        console.log(k);
-      }
-
-
+      boxes.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k + d.r -k*d.r})`);
+      sublabels.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k + d.r - k*d.r})`);
+      // console.log(sublabels);
+      node.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k})`);
+      // node.attr("rlab", d => 10000);
+      node.attr("r", d => d.r * k);
     }
   
     // Function which draws boxes around labels
