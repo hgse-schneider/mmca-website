@@ -102,6 +102,8 @@ const scale_pack = data => d3.pack()
 const circle_scale_2 = (data) => {
   d3.select('.scale').html('');
   const root = scale_pack(data);
+  // const f_rlab = (d) => {d.rlab = d.r};
+  // root = map_data(root, f_rlab);
   let focus = root;
   let view;
 
@@ -145,6 +147,11 @@ const circle_chart = (data) => {
   current_graph = "circle";
   d3.select('.container').html('');
   const root = pack(data);
+  console.log("ROOT");
+  console.log(root);
+  const mapped_root = map_data(root);
+  console.log("MAPPED ROOT");
+  console.log(mapped_root);
   let focus = root;
   let view;
 
@@ -167,7 +174,7 @@ const circle_chart = (data) => {
         .style("position", "absolute");
 
     const node = svg.append("g")
-      .attr("transform", "translate(0, -200)")
+      // .attr("transform", "translate(0, -200)")
       .selectAll("circle")
       .data(root.descendants().slice(1))
       .join("circle")
@@ -211,7 +218,7 @@ const circle_chart = (data) => {
     }
 
     const boxes = label
-      .attr("transform", "translate(0, -200)")
+      // .attr("transform", "translate(0, -200)")
     .selectAll("rect")
     .data(root.descendants())
     .join("rect")
@@ -241,7 +248,7 @@ const circle_chart = (data) => {
       }
 
         const sublabels = label
-        .attr("transform", "translate(0, -200)" )
+        // .attr("transform", "translate(0, -200)" )
         .style("font", "10px sans-serif")
         .attr("pointer-events", "none")
         .attr("text-anchor", "middle")
@@ -251,9 +258,8 @@ const circle_chart = (data) => {
       .data(root.descendants())
       .join("text")
         .attr("d", d => d)
-        .attr("rlab", d => d.r)
         .style("fill-opacity", d => d.parent === root || d.parent && d.parent.parent === root ? 1 : 0)
-        .attr("y", d => label_pos(d))
+        .attr("y", d => -d.r)
         .style("font", d => d.parent === root ? "16px sans-serif" : "10px sans-serif")
         .style("display", d => display_labels(d))
         .text(d => d.data.name)
@@ -264,14 +270,38 @@ const circle_chart = (data) => {
 
     function zoomTo(v) {
       const k = circle_width / v[2];
-  
+      
+
       view = v;
       // Transform everything according to the current view/zoom
-      boxes.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k})`);
-      // sublabels.attr("y", d => -d.r * 100)
-      sublabels.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k})`);
-      node.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k})`);
-      node.attr("r", d => d.r * k);
+      if (v[0]==500)
+      {
+        console.log("SUBLABELS");
+        console.log(sublabels._groups[0][7]);
+        boxes.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k})`);
+        sublabels.attr("y", d => -d.r * 100)
+        sublabels.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k})`);
+        node.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k})`);
+        node.attr("r", d => d.r * k);
+        console.log("SUBLABELS pt 2");
+        console.log(sublabels._groups[0][7]);
+        console.log("K");
+        console.log(k);
+      }
+      else {
+        console.log("SUBLABELS");
+        console.log(sublabels._groups[0][7]);
+        boxes.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k})`);
+        sublabels.attr("y", d => -d.r * 100)
+        sublabels.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k})`);
+        node.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k})`);
+        node.attr("r", d => d.r * k);
+        console.log(sublabels._groups[0][7]);
+        console.log("K");
+        console.log(k);
+      }
+
+
     }
   
     // Function which draws boxes around labels
