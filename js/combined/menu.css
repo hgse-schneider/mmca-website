@@ -56,6 +56,38 @@ All styling for the menu, buttons and visualizations within should be contained 
   min-width: 60px;
 }
 
+.color-key-container {
+  box-shadow: inset 0 0 0 2px var(--blue);
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 8px 20px 8px;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+
+.color-row {
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 12px;
+}
+
+#gaze-color {
+  color: blue;
+}
+
+#log-color {
+  color: red;
+}
+
+#eye-color {
+  color: green;
+}
+
 .metric-option-button-container{
   display: flex;
   flex-direction: row;

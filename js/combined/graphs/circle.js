@@ -242,7 +242,7 @@ const circle_chart = (data) => {
         .text(d => d.data.name)
         .style("display", "block")
         .style("fill-opacity", 1)
-        .call(circle_text_wrap, 100) 
+        .call(circle_text_wrap, 60) 
         .style("fill-opacity", d => d.parent === root || d.parent && d.parent.parent === root ? 1 : 0)
         .attr("y", d => -d.r)
         .style("font", d => d.parent === root ? "16px sans-serif" : "10px sans-serif")
@@ -255,14 +255,19 @@ const circle_chart = (data) => {
     function zoomTo(v) {
       const k = circle_width / v[2];
       
-
       view = v;
       // Transform everything according to the current view/zoom
-      boxes.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k + d.r -k*d.r})`);
+
+      // Version 1: Just treating everything the same
+      boxes.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k + d.r - k*d.r})` );
       sublabels.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k + d.r - k*d.r})`);
-      // console.log(sublabels);
+
+      // Version 2: Try to put text boxes in center (PROBLEM: Puts the first line in center, not centering all lines)
+      // boxes.attr("transform", d => d.depth != 5 ? `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k + d.r - k*d.r})` : `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k + d.r})`);
+      // sublabels.attr("transform", d => d.depth != 5 ? `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k + d.r - k*d.r})` : `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k + d.r})`);
+
+      // Transform node size and position
       node.attr("transform", d => `translate(${(d.x - v[0]) * k},${(d.y - v[1]) * k})`);
-      // node.attr("rlab", d => 10000);
       node.attr("r", d => d.r * k);
     }
   
