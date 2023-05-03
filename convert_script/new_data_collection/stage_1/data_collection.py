@@ -38,7 +38,7 @@ METRIC_PATH = "paper_metrics_constructs.csv"
 META_PATH = "paper_meta.csv"
 JSON_PATH = "data.JSON"
 FINAL_CODED = 74
-ALL_PAPERS = False
+ALL_PAPERS = True
 ALL_FIELDS = False
 # DEBUG = False
 # DEBUG_PATH = 'debug.txt'
@@ -83,6 +83,11 @@ def CSV_to_JSON():
 
     metric_data = pd.read_csv(METRIC_PATH)
     meta_data = pd.read_csv(META_PATH)
+
+    # Cleaning rows where we don't have a valid paper id
+    metric_data_clean = metric_data[len(metric_data["paper_id_new"]) > 0 and metric_data["paper_id_new"].isnumeric()]
+    meta_data_clean = meta_data[len(meta_data["paper_id_new"]) > 0 and meta_data["paper_id_new"].isnumeric()]
+
     # Safety conversion to ensure merge completes correctly
     meta_data.astype({"paper_id_new": "int"})
     metric_data.astype({"paper_id_new": "int"})

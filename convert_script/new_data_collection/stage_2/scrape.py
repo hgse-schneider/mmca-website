@@ -11,9 +11,6 @@ import pandas as pd
 import time
 import random
 headers = {"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36" ,'referer':'https://www.google.com/'}
-url ="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Automatic+Recognition+of+Affective+Laughter+in+Spontaneous+Dyadic+Interactions+from+Audiovisual+Signals&btnG="
-# response=requests.get(url,headers=headers)
-# soup=BeautifulSoup(response.content,'lxml')
 
 INPUT_PATH = "data.JSON"
 OUTPUT_PATH = "citation_data.JSON"
@@ -57,7 +54,7 @@ with open(INPUT_PATH, 'r') as f:
 		# Just in case things break 
 		except:
 			citations.append(-1)
-			print('Problem 2')
+			print(f'Problem 2, paper: {paper}')
 		# Random amount of time before queries to play nice with google scholar rules
 		time.sleep(50 + random.random()*20)
 	
