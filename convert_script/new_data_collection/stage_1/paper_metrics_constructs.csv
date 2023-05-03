@@ -547,7 +547,6 @@ V) Collaid","1) sequences of verbal utterances
 6) calculation
 7) calculation
 8) calculation",A) identity of the expert,"A) student with the highest cumulative score of points assigned to correctly and incorrectly solved problems, weighted according a discrete diffculty level scale",A) group composition,A) condition,"1,2,3,4,5,6,7,8-A: sup. machine learning: sig (ACC: 92%)"
-22,32,callie,III) Audio,III) Audio,III) microphone,III) NS,9) transition probability between types of vocalisations,9) Verbal,9) Speech Participation,9) individual,9) III,9) calculation,B) task performance,B) correct vs incorrect solutions,B) performance,B) product,"9-B: sup. machine learning: sig (F1: 0.838, 0.395)"
 23,33,callie,"IV) Kinesiology
 V) Log data","IV) Body language
 V) Log data","IV) Kinect
@@ -2340,7 +2339,6 @@ III) Microphone","I) Eye-link II
 3) task-related",,"1) V
 2) V
 3) V",,A) focus attention,A) log data,A) coordination,A) process,"1, 2, 3-A: sup machine learning: 74.25%"
-107,,kavie,I) Eye Gaze,,I) Eye Tracker,,"1) saccade length, fixation duration",1) Gaze,1) Visual Attention,,1) I,,A) Task performance,A) log data,A) collaboration,A) product,1-A: sup. machine learning
 107,,kavie,X) BVP,,X) Digital pen,X) DOVE,1) gesture drawing on video feed,1) Body,1) Gesture drawing,,1) X,,A) Task performance,A) log data,A) collaboration,A) process,1-A: ANOVA: sig
 108,,kavie,"I) Eye Gaze
 ",,,,"1) attention
@@ -2359,16 +2357,6 @@ B) collaboration
 B) process ","1- A: ANOVA: sig 
 1- B: ANOVA: sig"
 110,Recognizing communicative facial expressions for discovering interpersonal emotions in group meetings,zoe,II) Video,,II) camera,II)NS,1) facial expressions,1) Physiological,1) Affective,,1) I,,A) Emotion network,A) researcher coded ,A) collaboration,A) process,1-A unsup. machine learnig:sig 
-111,A realtime multimodal system for analyzing group meetings by combining face pose tracking and speaker diarization,zoe,"II) Video
-III) Audio
-",,"II) camera
-III) Microphone
-","III) NS
-II) NS","1) head directions 
-2) speech features - utterances","1) Body
-2) Verbal","1) head movements 
-2) speech features ",,"1)II
-2)III",,A) Group dynamics (visual focus of attention),A) researcher coded ,A) group composition,A) condition,"1,2- A: mean"
 112,"Deixis and Gaze in Collaborative Work at a Distance (over a shared map): a
 Computational Model to Detect Misunderstandings",zoe ,,,,,,,,,,,,,,,
 113,Coordinating spatial referencing using shared gaze,zoe ,"I)  Eye Gaze
@@ -2400,21 +2388,6 @@ X) NS","1) physiology
 2) VII
 3) VI
 4) X",,A) Affective states,A) self-report ,A) Affective ,A) Process,"1,2,3,4 - A: machine learning: sig (86.30%)"
-115,Cache-based language model adaptation using visual attention for ASR in meeting scenarios,zoe,,,,,,,,,,,,,,,
-116,Incorporating gesture and gaze into multimodal models of human-to-human communication,zoe ,,,,,,,,,,,,,,,
-117,Multimodal corpus of multi-party meetings for automatic social behavior analysis and personality traits detection,zoe,"II) Video
-III) Audio
-",,"II) camera
-III) Microphone
-","III) NS
-II) NS","1) Body movements
-2) Head movements 
-3) Speech Features ","1)Body
-2) Body
-3) Verbal","1)Body motions
-2) Head motions
-3) Speech features ",,"1) II
-2) III",,A) Group Cohesion,A)slef report ,A) Collaboration,A) process,Shapiro-Wilk - only checked normality 
 118,Multimodal Analysis of Group Attitudes Towards Meeting Management,zoe,III) Audio,,III) Microphone,III) NS,"1) Speech Features
 2) Linguisitc features ","1) Verbal
 2) Verbal","1) Speech features 
@@ -2535,11 +2508,6 @@ II) NS","1) gaze fixations
 3) task-related ",,"1) I 
 2) I
 3) V",,A) group contexts ,A) researcher coded ,A) Group dynamics,A) Process,"1,2,3 - sup. machine learning: sig: 81.43%"
-130（moved to unqualified）,Tracking the Multi Person Wandering Visual Focus of Attention,zoe,II) Video,,II) Camera,II) NS,"1) body movements
-2) head movements ","1) body
-2) head","1) body motions 
-2) head motions ",,"1) II
-2) III",,A) focus of attention ,A) researcher coded ,A) Group dynamics,A) Process,"1,2-A: sup.machine: sig"
 131,Putting the Pieces Together: Multimodal Analysis of Social Attention in Meetings,zoe,"I) Eye Gaze
 II) Video
 III) Audio",,"II) Camera

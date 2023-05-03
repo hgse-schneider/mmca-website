@@ -85,14 +85,20 @@ def CSV_to_JSON():
     meta_data = pd.read_csv(META_PATH)
 
     # Cleaning rows where we don't have a valid paper id
-    metric_data_clean = metric_data[len(metric_data["paper_id_new"]) > 0 and metric_data["paper_id_new"].isnumeric()]
-    meta_data_clean = meta_data[len(meta_data["paper_id_new"]) > 0 and meta_data["paper_id_new"].isnumeric()]
+    # NOTE: Can remove the map to strings once other rows have been removed
+    meta_data_clean = meta_data[meta_data["paper_id_new"].isin(list(map(lambda x: str(x), list(range(1, 200)))))]
+    metric_data_clean = metric_data[metric_data["paper_id_new"].isin(list(map(lambda x: x, list(range(1, 200)))))]
+
+    # These should be the same shape. If not, check the dataset to ensure same papers in both
+    # Metrics and meta
+    assert(metric_data_clean.shape[0] == meta_data_clean.shape[0])
 
     # Safety conversion to ensure merge completes correctly
-    meta_data.astype({"paper_id_new": "int"})
-    metric_data.astype({"paper_id_new": "int"})
+    meta_data_safe = meta_data_clean.astype({"paper_id_new": "int"})
+    metric_data_safe = metric_data_clean.astype({"paper_id_new": "int"})
+
     # Combining files
-    combined = pd.merge(meta_data, metric_data, how="left", on="paper_id_new")
+    combined = pd.merge(meta_data_safe, metric_data_safe, how="left", on="paper_id_new")
     # Dropping fields and papers we don't need unless we have ALL_FIELDS or ALL_PAPERS
     if not(ALL_FIELDS):
         combined.drop(list(filter(lambda x: not(x in USEFUL_FIELDS), list(combined.columns))), axis="columns", inplace=True)
