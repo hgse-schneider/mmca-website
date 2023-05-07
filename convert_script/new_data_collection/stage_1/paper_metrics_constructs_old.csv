@@ -1,5 +1,5 @@
 paper_id_new,paper_id,coder,data,data_standardized,sensor,brand,metric,metric_larger_category,metric_smaller_category,metric_IG_category,data_per_metric,data_metric_method,outcome,outcome_instrument,outcome_smaller_category,outcome_larger_category,analysis_and_results mm-oo:analysis:resultsig
-1,1,bert,III) Audio,III) Audio,III) microphone,III) NS,1) speech time,1) Verbal,1) Speech Features,1) individual,1) III,1) calculation,A) verbal participation,A) survey,A) communication,A) process,1-A: t-test: sig: (t[38] = 2.18)
+1,1,bert,III) Audio,III) Audio,III) microphone,III) NS,1) speech time,1) Verbal,1) Speech Features,1) individual,1) III,1) calculation,A) verbal participation,A) survey,A) communication,A) process,1-A: t-test: sig (t[38] = 2.18)
 2,3,bert,"I) Eye gaze
 III) Audio","I) Eye gaze
 III) Audio","I) eye-tracker
@@ -26,8 +26,8 @@ III) NS","1) focused gaze
 B) dialogue episodes","A) researcher codes
 B) researcher codes","A) performance
 B) coordination","A) product
-B) process","1+2-A: anova: sig
-1+2-A+B: mixed linear model: sig
+B) process","1,2-A: anova: sig
+1,2-A,B: mixed linear model: sig
 4-B: anova: sig"
 3,4,edwin,"VI) EDA
 VII) ECG","VI) Physiological
@@ -45,10 +45,10 @@ C) affective
 D) learning","A) process
 B) process
 C) process
-D) product","1-A: regression: sig
-1-B: regression: sig
-1-C: regression: sig
-1-D: regression: sig"
+D) product","1-A:regression: sig
+1-B:regression: sig
+1-C:regression: sig
+1-D:regression: sig"
 4,5,iulian,"II) Video
 III) Audio
 X) Time of flight 3D map","II) Video
@@ -73,14 +73,14 @@ X) Infrared Intelligent Systems","1) non-verbal speaking metrics
 B) perceived contribution","A) questionnaire
 B) questionnaire","A) interpersonal relationship / perception
 B) interpersonal relationship / perception","A) process
-B) process","3-A: correlation: sig
-3-B: correlation: sig
-1-A: correlation: nonsig
-1-B: correlation: nonsig
-2-A: correlation: nonsig
-2-B: correlation: sig
-1*2*3-A: regression: nonsig
-1*2*3-B: regression: nonsig"
+B) process","3-A : correlation : sig
+3-B : correlation : sig
+1-A : correlation : nonsig
+1-B : correlation : nonsig
+2-A : correlation : nonsig
+2-B : correlation : sig
+1,2,3-A : regression: nonsig
+1,2,3-B : regression: nonsig"
 5,6,bert,"VI) EDA
 II) Video","VI) Physiological
 II) Video","VI) EDA sensor
@@ -91,7 +91,7 @@ II) NS","1) eda peak detection
 2) Combined","1) individual
 2) group","1) VI
 2) II","1) calculation
-2) calculation","A) monitoring of behavior, cognition, motivations and emotions ","A) Video coding of monitoring (behavior, cognition, motivations and emotions) ",A) cognitive engagement,A) process,"1,2-A: correlation: sig: (r=0.663)"
+2) calculation","A) monitoring of behavior, cognition, motivations and emotions ","A) Video coding of monitoring (behavior, cognition, motivations and emotions) ",A) cognitive engagement,A) process,"1,2-A: correlation: sig (r=0.663)"
 6,10,steph,"III) Audio
 II) Video","III) Audio
 II) Video","III) Microphone
@@ -128,24 +128,24 @@ C) Negative distance between expert list and group list","A) group composition
 B) interpersonal relationship / perception
 C) performance","A) condition
 B) process
-C) product","1-A: correlation: sig
-2-A: correlation: sig
-3-A: correlation: sig
-4-A: correlation: sig
-5-A: correlation: sig
-1-B: correlation: sig
-2-B: correlation: sig
-3-B: correlation: sig
-4-B: correlation: sig
-5-B: correlation: sig
-1-C: correlation: sig
-2-C: correlation: sig
-3-C: correlation: sig
-4-C: correlation: sig
-5-C: correlation: sig
-1+2-A: regression: sig
-2+3-B: regression: sig
-2-C: regression: sig"
+C) product","1-A:correlation: sig
+2-A:correlation: sig
+3-A:correlation: sig
+4-A:correlation: sig
+5-A:correlation: sig
+1-B:correlation: sig
+2-B:correlation: sig
+3-B:correlation: sig
+4-B:correlation: sig
+5-B:correlation: sig
+1-C:correlation: sig
+2-C:correlation: sig
+3-C:correlation: sig
+4-C:correlation: sig
+5-C:correlation: sig
+1,2-A:regression:sig
+2,3-B:regression:sig
+2-C:regression:sig"
 7,11,edwin,"I) Audio
 II) Video","I) Audio
 II) Video","I) NS
@@ -176,16 +176,16 @@ C) Human Annotations","A) interpersonal relationship / perception
 B) interpersonal relationship / perception
 C) interpersonal relationship / perception","A) process
 B) process
-C) process","1+2+3+4-A: sup. machine learning: nonsig
-1+3+3+4-B: sup. machine learning: nonsig
-1+2+3+4-C: sup. machine learning: nonsig"
+C) process","1,2,3,4-A:sup. machine learning: nonsig
+1,3,3,4-B:sup. machine learning: nonsig
+1,2,3,4-C:sup. machine learning: nonsig"
 8,12,bert,I) Audio,I) Audio,I) Microphone,I) NS,"1) speech features 
 2) linguistic features","1) Verbal
 2) Verbal","1) Speech Features
 2) Speech Content","1) individual
 2) individual","1) I
 2) I ","1) calculation
-2) calculation",A) group performance,A) group scores compared to expert scores,A) performance,A) product,1+2-A: sup. machine learning: 64.4
+2) calculation",A) group performance,A) group scores compared to expert scores,A) performance,A) product,"1,2-A: sup. machine learning: 64.4"
 9,14,callie,I) Eye gaze,I) Eye gaze,I) eyetracker,I) NS,"1) perceptual with-me-ness (gaze)
 2) conceptual with-me-ness (gaze)
 3) gaze similarity ","1) Gaze
@@ -198,16 +198,16 @@ C) process","1+2+3+4-A: sup. machine learning: nonsig
 2) I
 3) I","1) calculation
 2) calculation 
-3) calculation",A) learning gains,A) pre-post test,A) learning,A) product,"1-A: correlation: sig: (r = 0.51)
-2-A: correlation: sig: (r = 0.41)
-3-A: correlation: sig: (r = 0.39)"
+3) calculation",A) learning gains,A) pre-post test,A) learning,A) product,"1-A: correlation: sig (r = 0.51)
+2-A: correlation: sig (r = 0.41)
+3-A: correlation: sig (r = 0.39)"
 10,15,edwin,I) Eye gaze,I) Eye gaze,I) eye-tracking glasses,I) SMI,"1) gaze fixations
 2) gaze saccades","1) Gaze
 2) Gaze","1) Visual Attention
 2) Eye Motion","1) individual
 2) individual","1) I
 2) I","1) other: BeGaze
-2) other: BeGaze",A) reference-action sequence,A) researcher codes,A) performance,A) product,1+2-A: correlation: nonsig
+2) other: BeGaze",A) reference-action sequence,A) researcher codes,A) performance,A) product,"1,2-A:correlation: nonsig"
 11,17,steph,"II) Video
 IV) Kinesiology
 V) Log data","II) Video
@@ -242,9 +242,9 @@ C) pre-post test","A) cognitive engagement
 B) affective
 C) learning","A) process
 B) process
-C) product","1+2+3-A: regression: sig
-1+2+3-B: regression: sig
-1+2+3-C: regression: sig"
+C) product","1,2,3-A: regression: sig
+1,2,3-B: regression: sig
+1,2,3-C: regression: sig"
 12,18,steph,"IV) Kinesiology
 II) Video","IV) Body language
 II) Video","IV) Kinect
@@ -255,7 +255,7 @@ II) NS","1) clustered hand/wrist movement
 2) Task-related","1) individual
 2) individual","1) IV
 2) II","1) unsupervised machine learning
-2) human coding",A) learning gains,A) pre-post test (references to  principles or mechanisms that confer stability to three example structures) ,A) learning,A) product,1-A: sup. machine learning: sig: (ACC: 76%)
+2) human coding",A) learning gains,A) pre-post test (references to  principles or mechanisms that confer stability to three example structures) ,A) learning,A) product,1-A:sup. machine learning: sig (ACC: 76%)
 13,19,bert,"I) Eye gaze
 II) Audio","I) Eye gaze
 II) Audio","I) eye-tracker
@@ -266,14 +266,14 @@ II) NS","1) (not) focused together
 2) Speech Content","1) group
 2) individual","1) I
 2) II","1) calculation
-2) calculation",A) level of understanding,A) researcher codes,A) learning,A) product,"1-A: anova: sig: (F [1,16]=8.70)
-1+2-A: anova: sig: (F [1,61]=7.60)"
+2) calculation",A) level of understanding,A) researcher codes,A) learning,A) product,"1-A: anova: sig (F [1,16]=8.70)
+1,2-A: anova: sig (F [1,61]=7.60)"
 14,20,edwin,I) Eye gaze,I) Eye gaze,I) eye-tracker,I) NS,1) joint visual attention,1) Gaze,1) Visual Attention,1) group,1) I,1) calculation,"A) learning gains
 B) collaboration quality","A) learning test
 B) coding scheme","A) learning
 B) coordination , communication","A) product
-B) process","1-A: regression: sig
-1-B: regression: sig"
+B) process","1-A:regression: sig
+1-B:regression: sig"
 15,21,edwin,V) Log data,V) Log data,V) interactive tabletop,V) NS,1) events,1) Log Data,1) Task-related ,1) individual,1) V,1) calculation,A) group performance,A) researcher codes,A) performance,A) product,1-A: unsup. machine learning: sig
 16,22,edwin,"I) Eye gaze
 V) Log data","I) Eye gaze
@@ -308,8 +308,8 @@ B) collaboration quality","A) learning test
 B) coding scheme","A) learning
 B) coordination , communication","A) product
 B) process","1,4-A: ANOVA: nonsig
-1,4-B: ANOVA: nonsig
-1,5-A: correlation: sig
+1,4-B:ANOVA: nonsig
+1,5-A:correlation: sig
 2,3,4,5-A: sup. machine learning: 75%"
 17,24,edwin,"I) Eye gaze
 II) Video
@@ -335,8 +335,8 @@ III) NS","1) joint visual attention
 B) learning gains","A) researcher codes
 B) learning test","A) performance
 B) learning","A) product
-B) product","1,2,3-B: qualitative: sig
-1-B: correlation: sig"
+B) product","1,2,3-B:qualitative: sig
+1-B:correlation: sig"
 18,25,edwin,"II) Video
 III) Audio
 V) Log data","II) Video
@@ -427,8 +427,8 @@ V) NS","1) calculator use
 B) expert prediction","A) researcher codes
 B) researcher codes","A) performance
 B) group composition","A) product
-B) condition","1,2,3,4,5,6,7,8,9,10,11,12,13,14-A: regression: sig
-1,2,3,4,5,6,7,8,9,10,11,12,13,14-B: sup. machine learning: sig"
+B) condition","1,2,3,4,5,6,7,8,9,10,11,12,13,14-A:regression: sig
+1,2,3,4,5,6,7,8,9,10,11,12,13,14-B:sup. machine learning: sig"
 19,26,edwin,"II) Video
 III) Audio","II) Video
 III) Audio","II) camera
@@ -469,7 +469,7 @@ III) Dev-Audio","1) speaking status
 4) calculation
 5) calculation
 6) calculation
-7) calculation",A) personality traits,"A) self-reported survey , researcher codes",A) group composition,A) condition,"1,2,3,4,5,6,7-A: unsup. machine learning: 69.61%"
+7) calculation",A) personality traits,"A) self-reported survey , researcher codes",A) group composition,A) condition,"1,2,3,4,5,6,7-A:unsup. machine learning: 69.61%"
 20,27,edwin,"II) Video
 III) Audio
 V) Log data","II) Video
@@ -490,9 +490,9 @@ V) Nokia digital pens and Anoto digital paper","1) total manual gestures per sec
 2) II
 3) II","1) qualitative
 2) qualitative
-3) qualitative",A) expertise,A) researcher codes,A) group composition,A) condition,"1-A: Wilcoxon Signed Ranks test: sig
-2-A: Wilcoxon Signed Ranks test: sig
-3-A: Wilcoxon Signed Ranks test: nonsig"
+3) qualitative",A) expertise,A) researcher codes,A) group composition,A) condition,"1-A:Wilcoxon Signed Ranks test: sig
+2-A:Wilcoxon Signed Ranks test: sig
+3-A:Wilcoxon Signed Ranks test: nonsig"
 21,28,edwin,"III) Audio
 V) Log data","III) Audio
 V) Log data","III) microphone
@@ -503,7 +503,7 @@ V) Collaid","1) sequences of verbal utterances
 2) Touch ","1) individual
 2) individual","1) III
 2) V","1) qualitative
-2) qualitative",A) colloboration quality,A) researcher codes,"A) coordination , communication",A) process,"1,2-A: unsup. machine learning: 90%"
+2) qualitative",A) colloboration quality,A) researcher codes,"A) coordination , communication",A) process,"1,2-A:unsup. machine learning: 90%"
 22,32,callie,III) Audio,III) Audio,III) microphone,III) NS,"1) duration of all vocalisations
 2) average duration of vocalisation
 3) standard deviation of vocalisation
@@ -596,7 +596,7 @@ C) condition","1-A: correlation: nonsig
 4-C: ANOVA: sig
 5-A: ANOVA: nonsig
 6-A: correlation: nonsig
-1+2+3+4+5+6-B: sup. machine learning: sig (ACC: 100%)"
+1,2,3,4,5,6-B: sup. machine learning: sig (ACC: 100%)"
 24,39,bert,"VI) EDA
 II) Audio","VI) Physiological
 II) Audio","VI) Smart Wristband
@@ -633,10 +633,10 @@ C) pre-post test","A) coordination , communication
 B) performance
 C) learning","A) process
 B) product
-C) product","1-C: correlation: sig: r = 0.35
-2-A: correlation: sig: r =0.47
-5-A: correlation: sig: r = 0.57
-5-C: correlation: sig: r = 0.47"
+C) product","1-C: correlation: sig r = 0.35
+2-A: correlation: sig r =0.47
+5-A: correlation: sig r = 0.57
+5-C: correlation: sig r = 0.47"
 25,40,edwin,"I) Audio
 II) Video
 VI) EDA","I) Audio
@@ -669,10 +669,10 @@ C) affective
 D) performance","A) process
 B) process
 C) process
-D) product","1+2+3-A: unsup. machine learning: nonsig
-1+2+3-B: unsup. machine learning: nonsig
-1+2+3-C: unsup. machine learning: nonsig
-1+2+3-D: unsup. machine learning: nonsig"
+D) product","1,2,3-A:unsup. machine learning: nonsig
+1,2,3-B:unsup. machine learning: nonsig
+1,2,3-C:unsup. machine learning: nonsig
+1,2,3-D:unsup. machine learning: nonsig"
 26,41,bert,I) Eye gaze,I) Eye gaze,I) eyetracker,I) Tobii Glasses,"1) joint visual attention
 2) cycles of collaborative / individual work","1) Gaze
 2) Gaze","1) Visual Attention
@@ -687,10 +687,10 @@ C) number of mazes solved","A) learning
 B) coordination , communication
 C) performance","A) product
 B) process
-C) product","1-B: correlation: sig: r = 0.341
-2-B: correlation: sig: r = 0.347
-2-A: correlation: sig: r = 0.398
-2-C: correlation: sig: r = 0.355"
+C) product","1-B: correlation: sig r = 0.341
+2-B: correlation: sig r = 0.347
+2-A: correlation: sig r = 0.398
+2-C: correlation: sig r = 0.355"
 27,42,steph,"I) Eye gaze
 VI) Log data","I) Eye gaze
 VI) Log data","I) eye-tracker
@@ -719,7 +719,7 @@ VI) Tetris ","1) gaze location
 2) calculation
 3) calculation
 4) calculation
-5) calculation",A) social context,A) experimental set-up,A) group composition,A) condition,1+2+3+4+5-A: sup. machine learning: sig: (ACC:81.43)
+5) calculation",A) social context,A) experimental set-up,A) group composition,A) condition,"1,2,3,4,5-A: sup. machine learning: sig (ACC:81.43)"
 28,43,callie,III) Audio,III) Audio,III) microphone,III) NS,"1) pitch
 2) intensity
 3) voice quality
@@ -756,21 +756,21 @@ VI) Tetris ","1) gaze location
 4) calculation
 5) calculation
 6) calculation
-7) calculation",A) rapport level,A) human coding validated with self-reports,A) interpersonal relationship / perception,A) process,"5-A: correlation: mixed: (Max r 0.842)
-6-A: correlation: mixed: (Max r 0.741)
-7-A: correlation: mixed: (Max r 0.634)"
+7) calculation",A) rapport level,A) human coding validated with self-reports,A) interpersonal relationship / perception,A) process,"5-A: correlation: mixed (Max r 0.842)
+6-A: correlation: mixed (Max r 0.741)
+7-A: correlation: mixed (Max r 0.634)"
 29,44,edwin,I) Eye gaze,I) Eye gaze,I) optical see-through head-mounted display,I) NS,1) gaze location,1) Gaze,1) Visual Attention,1) individual,1) I,1) none,"A) quality of remote collaboration
 B) task completion time","A) seven-point scale questionnaire
 B) timer","A) performance
 B) performance","A) product
-B) product","1-A: Wilcoxon Signed Ranks test: sig
-1-B: Wilcoxon Signed Ranks test: sig"
+B) product","1-A:Wilcoxon Signed Ranks test: sig
+1-B:Wilcoxon Signed Ranks test: sig"
 30,46,bert,I) Eye gaze,I) Eye gaze,I) eyetracker,I) SMI Glasses,1) joint visual attention,1) Gaze,1) Visual Attention,1) group,1) I,1) calculation,"A) task performance
 B) learning gains","A) calculation
 B) pre post test","A) performance
 B) learning","A) product
-B) product","1-A: correlation: sig: (r = 0.59)
-1-B: correlation: sig: (r = 0.42)"
+B) product","1-A: correlation: sig (r = 0.59)
+1-B: correlation: sig (r = 0.42)"
 31,47,edwin,"II) Video
 III) Audio","II) Video
 III) Audio","II) camera
@@ -792,7 +792,7 @@ B) social impressions","A) self-reported survey
 B) questionnaire","A) group composition
 B) interpersonal relationship / perception","A) condition
 B) process","1-A: Regression: 73.53%
-1-B: Regression: 76.47%
+1-B:Regression: 76.47%
 2-A: Regression: 60.54%
 2-B: Regression: 66.42%
 3-A: Regression: 65.69%
@@ -807,7 +807,7 @@ III) NS","1) audio energy features
 2) Visual Attention","1) individual
 2) individual","1) III
 2) II","1) calculation
-2) calculation",A) visual dominance ratio,A) manual annotation of videos,A) group composition,A) condition,1+2-A: sup. machine learning: 79.4%
+2) calculation",A) visual dominance ratio,A) manual annotation of videos,A) group composition,A) condition,"1,2-A: sup. machine learning: 79.4%"
 33,49,steph,"II) Video
 III) Audio
 V) Log data
@@ -846,9 +846,9 @@ C) manual annotation of videos","A) coordination , communication
 B) coordination
 C) coordination , communication","A) process
 B) process
-C) process","1+2+3+4-A+C: sup. machine learning: 96%
-1+2+3+4-A+B+C: sup. machine learning: 86%"
-34,50,edwin,III) Audio,III) Audio,III) NS,III) NS,1) speech utterances,1) Verbal,1) Speech Content,1) individual,1) III,1) calculation,A) personality traits,"A) self-reported survey , perceived interaction scores",A) group composition,A) condition,1-A: sup. machine learning: 87.9%
+C) process","1,2,3,4-A,C: sup. machine learning: 96%
+1,2,3,4-A,B,C: sup. machine learning: 86%"
+34,50,edwin,III) Audio,III) Audio,III) NS,III) NS,1) speech utterances,1) Verbal,1) Speech Content,1) individual,1) III,1) calculation,A) personality traits,"A) self-reported survey , perceived interaction scores",A) group composition,A) condition,1-A: sup. machine learning : 87.9%
 35,52,steph,I) Eye gaze,I) Eye gaze,I) eye-tracker,I) EyeTribe,"1) gaze area of interest 
 2) cross-recurrence quantification analysis
 3) multidimensional recurrence quantification analysis","1) Gaze
@@ -883,7 +883,7 @@ E) product","2-A: regression: sig
 2-D: regression: nonsig
 2-E: regression: sig
 2-D: regression: nonsig
-2-E: regression: nosig"
+2-E: regression:nosig"
 36,53,bert,"I) Eye gaze
 III) Audio","I) Eye gaze
 III) Audio","I) eye-tracker
@@ -950,8 +950,8 @@ E) interpersonal relationship / perception","A) condition
 B) process
 C) process
 D) product
-E) process","1*3-E: sup. machine learning: 50%
-1*3-C: sup. machine learning: 59.1%"
+E) process","1,3-E: sup. machine learning: 50%
+1,3-C: sup. machine learning: 59.1%"
 38,56,bert,"I) Eye gaze
 III) Audio
 IV) Kinesiology
@@ -1113,11 +1113,11 @@ C) Researcher codes","A) cognitive engagement
 B) coordination
 C) coordination, cognitive engagement","A) process
 B) process
-C) process","3-C: regression: sig
-3-B: regression: sig
-1+3-B: regression: sig
-3-A: regression: sig"
-41,60,edwin,V) Log data,V) Log data,V) touch screen,V) Microsoft PixelSense SDK,1) touch patterns,1) Log Data,1) Touch,1) individual,1) V,1) calculation,A) social regulation,A) Rogat and Linnenbrink-Garcia’s framework,"A) coordination, cognitive engagement",A) process,1-A: calculation: 84.2%
+C) process","3-C:regression: sig
+3-B:regression: sig
+1+3-B:regression: sig
+3-A:regression: sig"
+41,60,edwin,V) Log data,V) Log data,V) touch screen,V) Microsoft PixelSense SDK,1) touch patterns,1) Log Data,1) Touch,1) individual,1) V,1) calculation,A) social regulation,A) Rogat and Linnenbrink-Garcia’s framework,"A) coordination, cognitive engagement",A) process,1-A:calculation:84.2%
 42,61,steph,"III) Audio
 I) Eye gaze
 VI) EDA
@@ -1192,7 +1192,7 @@ V) NS","1) speaking turn features
 4) V","1) calculation
 2) calculation
 3) calculation
-4) calculation",A) artefact quality,A) Researcher codes,A) performance,A) product,1*2*3*4-A: unsup. machine learning: sig
+4) calculation",A) artefact quality,A) Researcher codes,A) performance,A) product,"1,2,3,4-A : unsup. machine learning : sig"
 46,66,bert,I) Eye gaze,I) Eye gaze,I) eye-tracker,I) Tobii,1) network features,1) Gaze,1) Visual Attention,1) individual,1) I,1) Other (network analyses),A) collaboration quality,"A) Meier, Spada and Rummel coding scheme","A) coordination , communication",A) process,"1-A: sup. machine learning: 85-100%
 1-A: correlation: sig"
 47,69,steph,"IV) Kinesiology
@@ -1261,7 +1261,7 @@ V) Arduino","1) number of faces looking at screen
 7) other: Arduino
 8) other: Arduino
 9) other: Arduino
-10) other: experimenter coded",A) artefact quality,A) Researcher codes,A) performance,A) product,1*2*3*4*5*6*7*8*9*10-A: sup. machine learning: 24%
+10) other: experimenter coded",A) artefact quality,A) Researcher codes,A) performance,A) product,"1,2,3,4,5,6,7,8,9,10-A: sup. machine learning: 24%"
 48,70,steph,"III) Audio
 V) Log data ","III) Audio
 V) Log data ","III) microphone
@@ -1394,7 +1394,7 @@ III) microphone","1) faces looking at screen
 5) Arduino
 6) Arduino
 7) Arduino
-8) calculation",A) collaborative problem solving ,A) researcher codes ,"A) coordination, performance","A) process, product","1+2-A: sup. machine learning: sig
+8) calculation",A) collaborative problem solving ,A) researcher codes ,"A) coordination, performance","A) process, product","1,2-A: sup. machine learning: sig
 8-A: sup. machine learning: sig"
 50,73,steph,I) Eye gaze,I) Eye gaze,I) eye-tracker,I) Tobii Pro Glasses 2,1) joint visual attention,1) Gaze,1) Visual attention,1) group,1) I,1) calculation,"A) collaboration quality
 B) cycles of collaboration
@@ -1456,8 +1456,8 @@ II) Tobii X1 eye tracker","1) joint visual attention
 2) Eye Physiology","1) individual
 2) individual","1) I
 2) II","1) calculation
-2) calculation",A) learning gains,A) pre/post test,A) learning,A) product,"1-A: mediation: sig
-2-A: mediation: nonsig"
+2) calculation",A) learning gains,A) pre/post test,A) learning,A) product,"1-A :mediation: sig
+2-A:mediation: nonsig"
 54,80,iulian,VI) EDA,VI) Physiological,VI) wearable sensor,VI) Empatica S3,"1) signal matching 
 2) instantaneous derivative matching 
 3) directional agreement
@@ -1490,12 +1490,12 @@ C) researcher coded","A) interpersonal relationship / perception
 B) performance
 C) learning","A) process
 B) product
-C) product","1,3,4,5-A : regression: nonsig
-2-A: regression: sig
-1,3,4,5-B : regression: nonsig
-2-B: regression: sig
-1,2,4,5-C: regression: nonsig
-3-C: regression: sig"
+C) product","1,3,4,5-A : regression : nonsig
+2-A:regression: sig
+1,3,4,5-B : regression : nonsig
+2-B:regression: sig
+1,2,4,5-C : regression : nonsig
+3-C:regression: sig"
 55,82,iulian,"II) Video
 III) Audio","II) Video
 III) Audio","II) camera
@@ -1520,15 +1520,15 @@ C) questionnaire","A) interpersonal relationship / perception
 B) interpersonal relationship / perception
 C) interpersonal relationship / perception","A) process
 B) process
-C) process","1+2+3-A: correlation: sig
-1+2+3-B: correlation: sig
-1+2+3-C: correlation: sig
-1,2-A: correlation: nonsig
-1,2-B: correlation: nonsig
-1,2-C: correlation: nonsig
-3-A: correlation: sig
-3-B: correlation: sig
-3-C: correlation: sig"
+C) process","1,2,3-A: correlation: sig
+1,2,3-B: correlation: sig
+1,2,3-C:correlation: sig
+1,2-A:correlation: nonsig
+1,2-B:correlation: nonsig
+1,2-C:correlation: nonsig
+3-A:correlation: sig
+3-B:correlation: sig
+3-C:correlation: sig"
 56,83,iulian,"II) Video
 V) Log data","II) Video
 V) Log data","II) camera
@@ -1549,8 +1549,8 @@ V) NS","1) type of activity done in task
 B) subjective perception of collaboration","A) researcher coded
 B) self report","A) performance
 B) interpersonal relationship / perception","A) product
-B) process","1*2*3-A: correlation: sig
-1*2*3-B: correlation: sig"
+B) process","1,2,3-A : correlation : sig
+1,2,3-B : correlation : sig"
 57,84,iulian,"II) Video
 III) Audio
 VI) EDA","II) Video
@@ -1633,8 +1633,8 @@ III) NS","1) head/body movement
 2) calculation
 3) calculation
 4) calculation",A) emerging leadership,A) researcher codes,A) group composition,A) condition,"1-A: sup. machine learning: sig
-2+3+4-A: sup. machine learning: sig
-1+2+3+4-A: sup. machine learning: mixed"
+2,3,4-A: sup. machine learning: sig
+1,2,3,4-A: sup. machine learning: mixed"
 59,90,callie,II) Video,II) Video,II) camera,II) NS,1) visual field of attention on a person features,1) Gaze,1) Visual Attention,1) individual,1) II,1) sup. machine learning; calcuation,A) surveyed and observed emerging leadership,A) questionnaire (The SYstematic method for the Multiple Level Observation of Groups; General Leader Impression Scale) + researcher codes (GLIS-observers),A) group composition,A) condition,"1-A: correlation: mixed
 1-A: sup. machine learning: sig"
 60,92,callie,"III) Audio
@@ -1659,7 +1659,7 @@ V) Cmate","1) speech time and frequency
 4) V","1) calculation
 2) calculation
 3) calculation
-4) calculation",A) collaboration,A) researcher codes (Meier et al.),"A) coordination , communication",A) process,1+2+3+4-A: sup. machine learning: sig: (85%)
+4) calculation",A) collaboration,A) researcher codes (Meier et al.),"A) coordination , communication",A) process,"1,2,3,4-A: sup. machine learning: sig (85%)"
 61,93,callie,"III) Audio
 V) Log data","III) Audio
 V) Log data","III) Microphone
@@ -1688,7 +1688,7 @@ V) NS","1) speech quantity
 2) calculation
 3) calculation
 4) calculation
-5) calculation",A) collaboration,A) researcher codes,A) communication,A) process,1+2+3+4-A: sup. machine learning: sig
+5) calculation",A) collaboration,A) researcher codes,A) communication,A) process,"1,2,3,4-A: sup. machine learning: sig"
 62,94,callie,IV) Kinesiology,IV) Body language,IV) kinect,IV) Kinect,"1) time spent individually
 2) time spent as a group
 3) diversity of collaborative interactions
@@ -1750,12 +1750,12 @@ D) process
 E) process
 F) product
 G) product","1-A: regression: nonsig
-1-B: regression: sig: (positive)
+1-B: regression: sig (positive)
 1-C: regression: nonsig
 1-D: regression: nonsig
 1-E: regression: nonsig
 1-F: regression: nonsig
-1-G: regression: nonsig"
+1-G:regression: nonsig"
 64,97,bert,"VI) EDA
 VII) ECG
 X) Facial EMG","VI) Physiological
@@ -1780,7 +1780,7 @@ X) BIOPAC EL254S ","1) EDA synchrony
 B) routine choice","A) questionnaire
 B) researcher codes","A) interpersonal relationship / perception
 B) coordination","A) process
-B) process","1-A: regression: sig: (negative)
+B) process","1-A: regression: sig (negative)
 2-A: regression: sig
 2-B: regression: sig"
 65,99,bert,XI) EEG,XI) Physiological,XI) EEG,XI) emotiv EPOC EEG headset,1) brain synchrony,1) Physiological,1) Brain,1) individual,1) XI,1) calculation,"A) engagement
@@ -1815,7 +1815,7 @@ IV) Kinect","1) upper body agitation
 4) III","1) calculation
 2) calculation
 3) calculation
-4) calculation (speech diarization)",A) agreement,A) expert rating,A) coordination,A) process,1+2+3+4-A: sup. machine learning: sig: (75% accuracy)
+4) calculation (speech diarization)",A) agreement,A) expert rating,A) coordination,A) process,"1,2,3,4-A: sup. machine learning: sig (75% accuracy)"
 67,103,bert,"VI) EDA
 VII) ECG","VI) Physiological
 VII) Physiological","VI) wearable sensor
@@ -1857,8 +1857,8 @@ D) interpersonal relationship / perception","A) process
 B) condition
 C) condition
 D) process","1-A: regression: nonsig
-1-B: regression: sig: (neg)
-1-C: regression: sig: (neg)
+1-B: regression: sig (neg)
+1-C: regression: sig (neg)
 1-D: regression: sig"
 70,174,iulian,"III) Audio
 V) Log data","III) Audio
@@ -1876,7 +1876,7 @@ V) NS","1) speech time
 2) III
 3) V","1) calculation
 2) calculation (OpenSMILE)
-3) calculation",A) collaboration quality,A) self made researcher coding scheme (4-scale ranging between collaboration and cooperation),A) coordination,A) process,1*2*3-A: sup. machine learning: sig
+3) calculation",A) collaboration quality,A) self made researcher coding scheme (4-scale ranging between collaboration and cooperation),A) coordination,A) process,"1,2,3-A:sup. machine learning: sig"
 71,181,iulian,IV) Kinesiology,IV) Body language,IV) video camera array,IV) NS,1) gesture type and location,1) Body,1) Hand Motion,1) individual,1) IV,1) calculation,"A) frequency of utterances
 B) subjective workload","A) calculation
 B) survey","A) communication
@@ -1899,8 +1899,8 @@ III) NS","1) speaking time
 2) II
 3) II","1) calculation
 2) calculation
-3) calculation",A) extraversion rating,A) Big Marker Five Scale (? researcher coded ?),A) group composition,A) condition,1*2*3-A: sup. machine learning: sig
-73,503,steph,I) Eye gaze,I) Eye gaze,I) eye-tracker,I) Applied Science Laboratories (ASL) EyeVision system,1) gaze overlap,1) Gaze,1) Visual Attention,1) group,1) I ,1) regression,A) referential form,A) self-made researcher codes,A) communication,A) process,1-A: regression: nonsig
+3) calculation",A) extraversion rating,A) Big Marker Five Scale (? researcher coded ?),A) group composition,A) condition,"1,2,3-A: sup. machine learning: sig"
+73,503,steph,I) Eye gaze,I) Eye gaze,I) eye-tracker,I) Applied Science Laboratories (ASL) EyeVision system,1) gaze overlap,1) Gaze,1) Visual Attention,1) group,1) I ,1) regression,A) referential form,A) self-made researcher codes,A) communication,A) process,1-A:regression: nonsig
 74,506,iulian,III) Audio,III) Audio,III) microphones,III) NS,"1) duration of speech by each student
 2) duration in which each student was only speaker
 3) duration of overlapping speech from pairs of students
@@ -1931,7 +1931,7 @@ III) NS","1) speaking time
 3) calculation
 4) calculation
 5) calculation
-6) calculation",A) collaboration quality,A) video coded scale of collaboration,A) coordination,A) process,1*2*3*4*5*6-A: sup. machine learning: nonsig
+6) calculation",A) collaboration quality,A) video coded scale of collaboration,A) coordination,A) process,"1,2,3,4,5,6-A:sup. machine learning: nonsig"
 75,(Dis)Engagement Matters: Identifying Efficacious Learning Practices with Multimodal Learning Analytics,,"IV) Kinesiology
 II) Video",,"IV) Kinect
 II) camera","IV) Microsoft Kinect
@@ -1939,7 +1939,7 @@ II) NS","1) clustered hand/wrist movement
 2) object manipulation","1) Body
 2) Body","1) Hand Motion
 2) Task-related",,"1) IV
-2) II",,A) Learning gains,A) pre-post test (references to  principles or mechanisms that confer stability to three example structures) ,A) learning,A) Product,1-A: sup. machine learning: sig: (ACC: 76%)
+2) II",,A) Learning gains,A) pre-post test (references to  principles or mechanisms that confer stability to three example structures) ,A) learning,A) Product,1-A:sup. machine learning: sig (ACC: 76%)
 76,Unraveling Students’ Interaction Around a Tangible Interface Using Multimodal Learning Analytics,,"IV) Kinesiology
 V) Log data",,"IV) Kinect
 V) Own application","IV) Microsoft Kinect
@@ -2008,7 +2008,8 @@ B) Coding scheme
 B) Coordination
 ","A) Product
 B) Process
-","4-A: correlation: sig
+","
+4-A: correlation: sig
 4-C: ANOVA: sig
 2-A: sup. machine learning: 75%"
 79,Real-time mutual gaze perception enhances collaborative 4 learning and collaboration quality,,"I) Eye gaze
@@ -2018,8 +2019,8 @@ II) Tobii X1 eye tracker","1) joint visual attention
 2) cognitive load (from pupil size)","1) Gaze
 2) Physiological","1) Visual Attention
 2）",,"1) I
-2) II",,A) learning gains,A) pre/post test,A) Learning,A) product,"1-A: mediation: sig
-2-A: mediation: nonsig"
+2) II",,A) learning gains,A) pre/post test,A) Learning,A) product,"1-A :mediation : sig
+2-A:mediation: nonsig"
 80,Challenging Joint Visual Attention as a Proxy for Collaborative Performance,22,"I) Eye Gaze
 III) Audio
 V) Log Data",,"I) eye-tracker
@@ -2037,7 +2038,9 @@ V) NS","1) Joint Visual Attention
 2) I
 3) III
 4) V",,A) learning performance,A) task outcome,A)product,A)product,"1-A: ANOVA: sig 
-2-A: ANOVA: sig"
+2-A: ANOVA: sig 
+
+"
 81,Deep neural networks for collaborative learning analytics: Evaluating team collaborations using student gaze point prediction,,I) Eye Gaze,,"I) video camera, 
 gaze-tracker (deep neural networks)","I) Microsoft Kinect, Gaze following framework (GazeFollow)",1) Joint Visual Attention,1) Gaze,1) Visual Attention,,1) I,,A) learning gains,A) post test,A)product,A)product,1-A: correlation: sig
 82,"Utilizing Interactive Surfaces to Enhance Learning, Collaboration and Engagement: Insights from Learners’ Gaze and Speech",,"I) Eye Gaze
@@ -2088,11 +2091,11 @@ II) NS","1) gaze features (fixation dispersion, number of fixations and mean fix
 3) Facial Expressions
 4) Task Related",,"1) I
 2) III
-3) III",,A) task performance,A) AUROC,A) performance,A) product,"1,2,3,4-A: AUROC: sig: 0.71
-1-A: AUROC: sig: 0.62
-2-A: AUROC: sig: 0.54
-3-A: AUROC: sig: 0.61
-4-A: AUROC: sig: 0.67"
+3) III",,A) task performance,A) AUROC,A) performance,A) product,"1,2,3,4-A: AUROC=0.71
+1-A: AUROC=0.62
+2-A: AUROC=0.54
+3-A: AUROC=0.61
+4-A: AUROC=0.67"
 85,Temporal analysis of multimodal data to predict collaborative learning outcomes,,"I) Eye Gaze
 III) Audio 
 V) Log data ",,"I) eye-tracker 
@@ -2136,16 +2139,17 @@ V) NS","1) Gaze
 7) III
 8) III
 9) III
-10) V",,A) Learning gains,A)  pre -post test ,A) Learning ,A) product,"9-A: correlation: sig
-10-A: correlation: sig
-1-A: correlation: nonsig
-2-A: correlation: nonsig
+10) V",,A) Learning gains,A)  pre -post test ,A) Learning ,A) product,"9 - A: correlation: sig
+10 - A: correlation: sig
+1- A: correlation: nonsig
+2- A: correlation: nonsig
 3-A: correlation: nonsig
 4-A : correlation: nonsig
 5-A: correlation: nonsig
 6-A: correlation: nonsig
 7-A: correlation: nonsig
-8-A: correlation: nonsig"
+8-A: correlation: nonsig
+"
 86,Collaboration on Procedural Problems May Support Conceptual Knowledge More than You May Think,,"I) Eye Gaze
 III) Audio
 V) Log data",,"I) eye-tracker
@@ -2162,7 +2166,7 @@ V) NS","1) hint behavior
 2) I
 3) III",,"A) learning gain
 ",A) computer-based isomorphic test forms,A) Learning ,A) product,"2-A: correlation: sig
-2-A: correlation: nonsig"
+2-A: correlation: nosig"
 87,An Application of Extreme Value Theory to Learning Analytics: Predicting Collaboration Outcome from Eye-Tracking Data,,I) Eye Gaze ,,I) eye-tracker ,I) NS ,"1) Gaze Visual Agitation
 2) Gaze Spatial Entropy
 3) Return Levels - EVT ","1) Gaze
@@ -2195,7 +2199,8 @@ III) NS","1) Gaze Episodes
 2) Speech Participation
 3) Visual Attention",,"1) I
 2) III
-3) I",,A) Task performance - level of understanding ,A) researcher coded,A) performance,A) product,1- A: ANOVA: sig
+3) I",,A) Task performance - level of understanding ,A) researcher coded,A) performance,A) product,"1- A: ANOVA:sig
+"
 90,Many are the ways to learn identifying multi-modal behavioral profiles of collaborative learning in constructivist activities,"kavie, zoe","II) Video
 III) Audio
 V) Log data",,"II) Camera
@@ -2218,7 +2223,7 @@ B) Learning gain","A) performance score
 B) pre-post test","A) performance
 B) learning","A) product
 B) product","1-A: Kruskal-Wallis: nonsig
-2-B: Kruskal-Wallis: sig: (expressive explorers, silent wanderers)"
+2-B: Kruskal-Wallis: sig (expressive explorers, silent wanderers)"
 91,Looking To Understand: The Coupling Between Speakers’ and Listeners’ Eye Movements and Its Relationship to Discourse Comprehension,kavie,I) Eye Gaze,,I) Eye Tracker,I) ASL,1) Eye Movement,1) Gaze,1) Eye Motion,,1) I,,A) Task performance,A) performance score,A) performance,"A) product
 ",1-A: ANOVA: sig
 92,On the Same Wavelength: Exploring Team Neurosynchrony in Undergraduate Dyads Solving a Cyberlearning Problem With Collaborative Script,"kavie, zoe","III) Audio
@@ -2229,8 +2234,8 @@ B) log data
 ","A) performance
 B) coordination
 ","A) product
-B) process","1-A: positive correlation: sig
-2-B: negative correlation: sig
+B) process","1-A:positive correlation:sig
+2-B:negative correlation: sig
 
 "
 93,Automatically Recognizing Facial Indicators of Frustration: A Learning-centric Analysis,kavie,IV) Kinesiology,,IV) Kinect,IV) Kinect depth camera,"1) Posture Estimation
@@ -2241,15 +2246,15 @@ B) process","1-A: positive correlation: sig
 ","A) pre post test
 ","A) cognitive load
 ","A) product
-",1-A: negative correlation: sig: (frustration level)
+",1-A: negative correlation: sig (frustration level)
 94,"The relationships between learner variables, tool-usage behaviour and performance",kavie,V) Log Data,,V) Log Data,,1) Task-Context Features,1) Log Data,1) Task Related,,1) V,,A) Task performance,A) researcher coded,"A) perspective
 B) argument","A) product
-B) product","1-A: Wilcoxon Signed Ranks test: sig
+B) product","1-A:Wilcoxon Signed Ranks test: sig
 1-B: Wilcoxon Signed Ranks test: sig"
 95,Effects of Knowledge Interdependence with the Partner on Visual and Action Transactivity in Collaborative Concept Mapping,kavie,I) Eye Gaze,,I) Eye Tracker,,"1) Concept map fixation time ratio
 2) Number of concept-map eye-gaze transitions",1) Gaze,1) Visual Attention,,1) I,,"A) Learning Measures
 ","A) questionnaire (individual level), research coded (dyad level)
-",A) performance,A) product,"1,2-A: negative correlation: sig: (individual learning, knowledge equivalence)"
+",A) performance,A) product,"1,2-A: negative correlation: sig (individual learning, knowledge equivalence)"
 96,On the Same Wavelength: Exploring Team Neurosynchrony in Undergraduate Dyads Solving a Cyberlearning Problem With Collaborative Script,zoe,VIII) EEG ,,VIII) EEG Sensor,VII) B-Alert X-10,1) Physiological Synchrony,1） physiology,1）brain,,1) VIII,,"A) Collaborative problem-solving performance
 B) Collaborative problem-solving efficiency","A) Researcher coded 
 B) Log data","A) Performance 
@@ -2258,7 +2263,7 @@ B) performance
 A) product","1-A: Positive Correlation: sig
 1-B: Negative Correlation: sig"
 97,The NISPI framework: Analysing collaborative problem-solving from students' physical interactions,zoe,II) video,,II) camera,II) Microsoft Kinetic,1)physical interactivity,1）Body,1）Gross Body motion,,"1) II
-",,A)CPS competencies,A) researcher coded ,A) performance,A) product,1-A: anova: sig
+",,A)CPS competencies,A) researcher coded ,A) performance,A) product,1-A: anova:sig
 98,Many are the ways to learn identifying multi-modal behavioral profiles of collaborative learning in constructivist activities,zoe,"II) video
 III) Audio
 V) Log data",,"II) camera
@@ -2279,8 +2284,8 @@ V) Learning Platform","1) Affective States
 3) V
 4) II",,"A) Learning gains 
 ","A) pre-post test 
-",A) Learning ,A) product,"2-A: Kruskal-Wallis: sig 
-1,2,3-A: sup. machine learning: sig: (0.89)"
+",A) Learning ,A) product,"2 - A: Kruskal-Wallis: sig 
+1,2,3- A: sup. machine learning(0.89)"
 99,"Supervised machine learning in multimodal learning analytics
 for estimating success in project-based learning",zoe,"II)VIdeo
 III) Audio
@@ -2299,13 +2304,13 @@ V) learning platform",II) NS III) NS V) Arduino IDE,"1）Total number of faces l
 6）II
 7）V
 8）II
-9)V",,A）task performance,A) researcher coded ,A) performance,A) product,"7,2,9,10-A: regression: sig: (best result)"
+9)V",,A）task performance,A) researcher coded ,A) performance,A) product,"7,2,9,10-A: regression:sig(best result)"
 100,Modelling Collaborative Problem-solving Competence with Transparent Learning Analytics: Is Video Data Enough?,zoe,II) Video,,II) Camera,II) NS,"1) Metrics of frequency
 2) Metrics of hands distance","1) Body
 2) Body",1) Hand 2) Hand,,"1) II
-2) II",,A) CPS competence,A) Researcher coded ,A) Collaboration,A) Process,"1,2-A: machine learning: sig: (0.75)"
+2) II",,A) CPS competence,A) Researcher coded ,A) Collaboration,A) Process,"1,2 - A: machine learning(0.75)"
 101,An Integrated Observing Technic for Collaborative Learning: The Multimodal Learning Analytics Based on the Video Coding and EEG Data Mining,zoe,VIII) EEG,,VIII) EEG,VIII) NS,1)mediation- anxiety level,1 ) physioloy,1) brain,,1) VIII,,"A) Learning gains 
-",A) researcher coded ,A) Learning ,A) product,1-A: Mann-Whitney U and Kruskal-Wllis tests: sig
+",A) researcher coded ,A) Learning ,A) product,1-A: Mann-Whitney U and Kruskal-Wllis tests:sig
 102,Inter-brain synchrony in teams predicts collective performance,zoe,VIII) EEG ,,"VIII) EEG sensor
 ","VIII) Emotiv
 ",1) Inter-brain synchrony ,1） physiology,1）brain,,1) VIII,,A) tasks performance,A) mixed - researcher coded & tests,A)Performance,A) Product,1-A: correlation: sig
@@ -2333,7 +2338,7 @@ III) Microphone","I) Eye-link II
 2) task-related
 3) task-related",,"1) V
 2) V
-3) V",,A) focus attention,A) log data,A) coordination,A) process,"1, 2, 3-A: sup machine learning: sig: 74.25%"
+3) V",,A) focus attention,A) log data,A) coordination,A) process,"1, 2, 3-A: sup machine learning: 74.25%"
 107,,kavie,X) BVP,,X) Digital pen,X) DOVE,1) gesture drawing on video feed,1) Body,1) Gesture drawing,,1) X,,A) Task performance,A) log data,A) collaboration,A) process,1-A: ANOVA: sig
 108,,kavie,"I) Eye Gaze
 ",,,,"1) attention
@@ -2349,9 +2354,9 @@ B) collaboration quality","A) log data
 B) log data ","A) performance 
 B) collaboration
 ","A) product
-B) process ","1-A: ANOVA: sig 
-1-B: ANOVA: sig"
-110,Recognizing communicative facial expressions for discovering interpersonal emotions in group meetings,zoe,II) Video,,II) camera,II)NS,1) facial expressions,1) Physiological,1) Affective,,1) I,,A) Emotion network,A) researcher coded ,A) collaboration,A) process,1-A: unsup. machine learnig: sig 
+B) process ","1- A: ANOVA: sig 
+1- B: ANOVA: sig"
+110,Recognizing communicative facial expressions for discovering interpersonal emotions in group meetings,zoe,II) Video,,II) camera,II)NS,1) facial expressions,1) Physiological,1) Affective,,1) I,,A) Emotion network,A) researcher coded ,A) collaboration,A) process,1-A unsup. machine learnig:sig 
 112,"Deixis and Gaze in Collaborative Work at a Distance (over a shared map): a
 Computational Model to Detect Misunderstandings",zoe ,,,,,,,,,,,,,,,
 113,Coordinating spatial referencing using shared gaze,zoe ,"I)  Eye Gaze
@@ -2361,7 +2366,7 @@ III) NS","1) shared gaze
 2) shared speech ","1) Gaze
 2) Speech ","1) visual attention
 2) Speech Features",,"1) I
-2) III",,A) task performance ,A) log data ,A) performance,A) Product ,"1,2-A: t-test: sig "
+2) III",,A) task performance ,A) log data ,A) performance,A) Product ,"1,2- A: t-test:sig "
 114,Affective e-Learning: Using “Emotional” Data to Improve Learning in Pervasive Learning Environment,zoe ,"VIII) EEG
 VII) ECG
 VI) EDA
@@ -2382,12 +2387,12 @@ X) NS","1) physiology
 4）brain",,"1) VIII
 2) VII
 3) VI
-4) X",,A) Affective states,A) self-report ,A) Affective ,A) Process,"1,2,3,4-A: machine learning: sig: (86.30%)"
+4) X",,A) Affective states,A) self-report ,A) Affective ,A) Process,"1,2,3,4 - A: machine learning: sig (86.30%)"
 118,Multimodal Analysis of Group Attitudes Towards Meeting Management,zoe,III) Audio,,III) Microphone,III) NS,"1) Speech Features
 2) Linguisitc features ","1) Verbal
 2) Verbal","1) Speech features 
 2) Speech features",,"1) III
-2) III",,A) social impressions,A) self report,A) Collaboration,A) Process,"1,2-A: sup.machine learning: sig: (93%)"
+2) III",,A) social impressions,A) self report,A) Collaboration,A) Process,"1,2-A: sup.machine learning: sig(93%)"
 119,"Toward Open-Microphone Engagementfor Multiparty Interactions",kavie,III) Audio,,III) Microphone,,"1) speech features
 2) speech features
 3) speech style","1) Verbal
@@ -2401,7 +2406,8 @@ B) command usage","A) log data
 B) researcher coded","A) Collaboration
 B) Coordination","A) Process
 B) Product","1,2,3-A: t-test: sig
-1,2,3-B: t-test: sig"
+1,2,3-B: t-test: sig
+"
 120,Evaluation of user gestures in multi-touch interaction: a case study in pair-programming,kavie,II) Video,,II) Camera,,1) Gesture fluency,1) Body,1) Gesture fluency,,1) II,,A) communicative intent ,A) researcher coded,A) Collaboration,A) Process ,"1-A: ANOVA: sig
 "
 121,"Towards Adapting Fantasy, Curiosity and Challenge in
@@ -2409,8 +2415,8 @@ Multimodal Dialogue Systems for Preschoolers",kavie,III) Audio,,III) Microphone,
 B) fantasy levels","A) researcher coded
 B) researcher coded","A) performance
 B) affective","A) Product 
-B) process ","1-A: correlation: sig: (r=0.406)
-1-B: correlation: sig: (r=0.224)"
+B) process ","1-A: correlation: sig (r=0.406)
+1-B: correlation: sig (r=0.224)"
 122,"Multimodal recognition of personality traits in social interactions
 Authors
 ",zoe,"II) Video
@@ -2422,7 +2428,7 @@ II) NS","1) Gross body movements
 2) Speech Features ","1) Body
 2) Verbal","1) Gross body motions
 2) Speech features ",,"1)II
-2)III",,A) personality traits (five personality),A) questionnaire,A) group composition,A) Condition,"1,2-A:sup.machine learning: sig: (90%)"
+2)III",,A) personality traits (five personality),A) questionnaire,A) group composition,A) Condition,"1,2- A:sup.machine learning:sig (90%)"
 123,Modeling the Personality of Participants During Group Interactions,zoe,"II) Video
 III) Audio
 ",,"II) camera
@@ -2432,7 +2438,7 @@ II) NS","1) Gross body movements
 2) Speech Features ","1) Body
 2) Verbal","1) Body
 2) speech features ",,"1)II
-2)III",,A) personality traits (Extraversion and Locus of Control),A) questionnaire,A) group composition,A) Condition,"1,2- A: sup.machine learning: sig: (90%)"
+2)III",,A) personality traits (Extraversion and Locus of Control),A) questionnaire,A) group composition,A) Condition,"1,2- A:sup.machine learning:sig (90%)"
 124,"Automatic prediction of individual performance from"" thin slices"" of social behavior",zoe,"II)Video
 III) Audio",,"II) camera
 III) Microphone
@@ -2441,14 +2447,14 @@ II) NS","1) Gross body movements
  2) Speech Features","1) Body
 2) Verbal","1) Body
 2) Speech features ",,"1)II
-2)III",,A) task performance,A) researcher coded,A) Product ,A) Product ,"1,2-A: unsup-machine learning: sig: 50%"
+2)III",,A) task performance,A) researcher coded,A) Product ,A) Product ,"1,2-A:unsup:machine learning:50%"
 125,Combining audio and video to predict helpers' focus of attention in multiparty remote collaboration on physical tasks,kavie,"II) Video
 III) Audio",,"II) Camera
 III) Microphone",,"1) gross body movements
 2) dialogue","1) Body
 2) Verbal","1) worker's actions
 2) dialogue ",,"1) II
-2) III",,A) focus of attention,A) researcher coded,A) Collaboration,A) process,"1,2-A: sup.machine learning: sig: 81.79%"
+2) III",,A) focus of attention,A) researcher coded,A) Collaboration,A) process,"1,2-A: sup.machine learning: 81.79%"
 126,Predicting remote versus collocated group interactions using nonverbal cues,kavie,III) Audio,,III) Microphone,,"1) Speaking Length
 2) Speaking Turns
 3) Successful Interruptions
@@ -2478,9 +2484,9 @@ C) log data","A) Group dynamics
 B) Group dynamics
 C) Group dynamics","A) Condition
 B) Condition
-C) Condition","2-A: unsup.machine.learning: sig: 70% (compared to 66% random performance)
-2-B: unsup.machine.learning: sig: 81% (compared to 33% random performance)
-1-C: unsup.machine.learning: sig: 50% (compared to 25% random performance)"
+C) Condition","2-A: unsup.machine.learning: 70% (compared to 66% random performance)
+2-B: unsup.machine.learning: 81% (compared to 33% random performance)
+1-C: unsup.machine.learning: 50% (compared to 25% random performance)"
 127,Reciprocal attentive communication in remote meeting with a humanoid robot,kavie,II) Video ,,II) camera,,1) gaze frequency,1) Gaze,1) gaze frequency,,1) II,,A) conversational attention,A) questionnaire,A) attention,A) Process,1-A: Tukey’s HSD test: sig
 128,Estimating focus of attention based on gaze and sound,zoe,"I)  Eye Gaze
 III) Audio",,"II) camera
@@ -2489,7 +2495,7 @@ II) NS","1) gaze focus
 2) sound focus","1) Gaze
 2) Verbal","1) Visual Attention 
 2) speech features ",,"1) II
-2) III",,A) focus of attention,A) researcher coded ,A) Group dynamics,A) Process,"1,2-A: sup. machine learning: 74.8%"
+2) III",,A) focus of attention,A) researcher coded ,A) Group dynamics,A) Process,"1,2- A: sup. machine learning: 74.8%"
 129,Gaze quality assisted automatic recognition of social contexts in collaborative Tetris,zoe,"I) Eye Gaze
 V) log data ",,"I) Eye Tracker
 V) application","I) Tobii 1750
@@ -2501,7 +2507,7 @@ II) NS","1) gaze fixations
 2) Eye Motion
 3) task-related ",,"1) I 
 2) I
-3) V",,A) group contexts ,A) researcher coded ,A) Group dynamics,A) Process,"1,2,3-A: sup. machine learning: sig: 81.43%"
+3) V",,A) group contexts ,A) researcher coded ,A) Group dynamics,A) Process,"1,2,3 - sup. machine learning: sig: 81.43%"
 131,Putting the Pieces Together: Multimodal Analysis of Social Attention in Meetings,zoe,"I) Eye Gaze
 II) Video
 III) Audio",,"II) Camera
@@ -2515,7 +2521,7 @@ III) NS","1) eye gaze directions
 3) speech features
 ",,"1) I
 2) II
-3) III",,A) focus of attention ,A) researcher coded ,A) Coordination,A) Process,"1,2,3-A: sup.machine learning: sig: 94.6%"
+3) III",,A) focus of attention ,A) researcher coded ,A) Coordination,A) Process,"1,2,3 -A: sup.machine learning:sig: 94.6%"
 132,Modeling focus of attention for meeting indexing,zoe,"I) Eye Gaze
 IV) Kinesiology",,"II) Camera
 XI) Motion detecting sensor ","II)NS
@@ -2524,7 +2530,7 @@ XI) Polhemus pose tracker","1) eye gaze directions
 2) Body","1) visual attention 
 2)head motions ",,"1) I 
 2) IV",,A) focus of attention ,"A) researcher coded
-",A) coordination,A) process,"1,2-A: sup. machine learning: sig: 93%"
+",A) coordination,A) process,"1,2- A: sup. machine learning: 93%"
 133,Modeling focus of attention for meeting indexing based on multiple cues,zoe,"I) Eye Gaze
 III) Audio
 IV) Kinesiology",,"II) Camera
@@ -2539,7 +2545,7 @@ XI) Polhemus pose tracker","1) eye gaze directions
 2)head motions 
 ",,"1) I 
 2) IV",,A) focus of attention ,"A) researcher coded
-",A) coordination,A) process,"1,2,3-A: sup.machine learning: 76%"
+",A) coordination,A) process,"1,2,3- A: sup.machine learning: 76%"
 134,Mediated attention with multimodal augmented reality,kavie,I) Eye Gaze,,I) Eye Tracker,,1) reaction time,1) Gaze,"1) visual attention 
 2) head motions 
 3) speech features ",,1) I,,"A) search time
@@ -2580,7 +2586,7 @@ V) Log ",,"1) speech features
 3) Task- related ",,"1) III
 2) IV
 3) V",,A) focus of attention ,"A) researcher coded
-",A) coordination,A) process,"1,2,3-A: unsup.machine learning: 46.7%"
+",A) coordination,A) process,"1,2,3 - A: unsup.machine learning: 46.7%"
 138,Multimodal Real-Time Focus of Attention Estimation in SmartRooms,zoe,IV) Kinesiology,,IV) Camera,,1) head rotation,1) Body,1) head motions,,1) IV,,A) focus of attention ,"A) researcher coded
 ",A) coordination,A) process,1-A: unsup.machine learning: 85%
 139,,kavie,"II) Video
@@ -2643,7 +2649,7 @@ IV) Camera",,"1) speaking length
 1-B: sup. machine learning: 82%
 1-C: sup. machine learning: 62%"
 146,Visual focus of attention estimation from head pose posterior probability distributions,zoe,IV) Kinesiology,,II) Camera,,1) head pose,1) Body,1) head motions,,1) IV,,A) focus of attention ,"A) researcher coded
-",A) coordination,A) process,1-A: unsup.machine learning: sig: 53.6%
+",A) coordination,A) process,1-A: unsup.machine learning:53.6%
 147,Towards High-Level Human Activity Recognition through Computer Vision and Temporal Logic,zoe,"II) Video
 III) Audio
 IV) Kinesiology",,"II) Camera
@@ -2656,16 +2662,16 @@ IV) Camera",,"1) focus of attention
 2) gross body motion
 3) speech features ",,"1) II
 2) IV
-3) III",,A) group activity,A)researcher coded,A) group dynamics,A) process,"1,2,3-A: unsup.machine learning: 74.4%"
+3) III",,A) group activity,A)researcher coded,A) group dynamics,A) process,"1,2,3- A: unsup.machine learning: 74.4%"
 148,Biosignals reflect pair-dynamics in collaborative work: EDA and ECG study of pair-programming in a classroom environmen,zoe,"VI) EDA
 VII) ECG
 ",,"VI) wearable sensor
 VII) wearable sensor","VI) Shimmer 3+ GSR devices
 VII)  eMotion Faros 180",1) Social Physiological Compliance (SPC),"1) Physiology
-",1) combined,,1) VI& VII,,A) task performance,A) log data ,A) performance,A) product,"1-A: minimum-width envelope: sig
+",1) combined,,1) VI& VII,,A) task performance,A) log data ,A) performance,A) product,"1-A:minimum-width envelope: sig
 "
 149,"Toward Automated Detection of Phase Changes in Team Collaboration
-",zoe,III) Audio,,III) Microphone,,1) speech features,1) Verbal,1) speech features,,1) III,,A) team coordination,A) researcuer coded,A)coordination,A) process,1-A:sup.machine learning: 40%
+",zoe,III) Audio,,III) Microphone,,1) speech features,1) Verbal,1) speech features,,1) III,,A) team coordination,A) researcuer coded,A)coordination,A) process,1- A:sup.machine learning: 40%
 150,Modeling People's Focus of Attention,zoe,IV) Kinesiology,,IV) Camera,,1) head rotation,1) Body,1) head motions,,1) IV,,A) focus of attention ,"A) researcher coded
 ",A) coordination,A) process,1-A: unsup.machine learning: 93%
 151,,kavie,"VI) EDA

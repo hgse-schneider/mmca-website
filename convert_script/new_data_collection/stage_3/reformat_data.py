@@ -58,6 +58,13 @@ with open(INPUT_PATH, 'r') as f:
                 "children": []}
     # For each paper we do the following
     for paper in data:
+
+        # TODO: REMOVE THIS TEMPORARY FIX WHEN THEY HAVE FIXED THE DATA, DONT KNOW WHAT HAPPENED
+        # TO PAPER 112
+
+        if paper == 110:
+            continue
+
         # Location of where will be adding data, children of main node (represents all graph data)
         pos = new_data["children"]
 
@@ -133,7 +140,11 @@ with open(INPUT_PATH, 'r') as f:
                     if len(split) > 2:
                         no, met = split[0], split[2]
                     else:
+                        if len(split) == 1:
+                            print(paper)
+                            print(split)
                         no, met = split[0], split[1]
+                        
                     if no == metric_no:
                         info.append(met)
                         break
@@ -159,7 +170,12 @@ with open(INPUT_PATH, 'r') as f:
 
                 # Find the correct outcomes
                 for small_outcome in paper_useful_data[2]:
-                    no, out = small_outcome.split(") ")
+                    try:
+                        no, out = small_outcome.split(") ")
+                    except Exception as e:
+                        print(paper)
+                        print(paper_useful_data[2]) 
+
                     if no == outcome_let:
                         info.append(out)
                         break

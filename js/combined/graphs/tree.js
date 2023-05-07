@@ -27,6 +27,8 @@ const information_backprop = (root) => {
         const layer_3_children = layer_3.children ? layer_3.children : layer_3._children;
         let sum_connections_3 = 0;
         let sum_citations_3 = 0;
+        console.log(layer_3_children);
+        console.log(layer_3);
         layer_3_children.forEach((layer_4) => {
           const layer_4_children = layer_4.children ? layer_4.children : layer_4._children;
           let sum_connections = 0;

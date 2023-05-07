@@ -4,6 +4,7 @@ let current_graph = "";
 const filter_data = (data, filter) => {
   console.log("filter attempted");
   console.log(filter);
+  console.log(data);
   // Look at all children
   const filtered_children = data.children
   // Map over children at each layer
@@ -78,7 +79,7 @@ let scale_data;
 
 // Read in the data!
 Promise.all([
-  d3.json('circle_data_test.json'),
+  d3.json('circle_data.json'),
   d3.json('layers.json'),
   d3.json('scale_data.json')
 ]).then(function(files) {
@@ -121,7 +122,9 @@ const graph_switcher = (circle_data, sankey_data) => {
       var current = this.parentElement.querySelector(".active");
       current && (current.className = current.className.replace(" active", ""));
       this.className += " active";
-      const filtered = filter_data(circle_data, filter_state);
+      // TODO: put this back, just for testing new dataset
+      // const filtered = filter_data(circle_data, filter_state);
+      const filtered = circle_data;
       tree_chart(filtered);
       tree_scale(scale_data);
   }) 
