@@ -35,7 +35,7 @@
             "A) process"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1-A: t-test: sig: (t[38] = 2.18)"
+            "1-A: t-test: sig (t[38] = 2.18)"
         ]
     },
     "1": {
@@ -92,8 +92,8 @@
             "B) process"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1+2-A: anova: sig",
-            "1+2-A+B: mixed linear model: sig",
+            "1,2-A: anova: sig",
+            "1,2-A,B: mixed linear model: sig",
             "4-B: anova: sig"
         ]
     },
@@ -147,10 +147,10 @@
             "D) product"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1-A: regression: sig",
-            "1-B: regression: sig",
-            "1-C: regression: sig",
-            "1-D: regression: sig"
+            "1-A:regression: sig",
+            "1-B:regression: sig",
+            "1-C:regression: sig",
+            "1-D:regression: sig"
         ]
     },
     "3": {
@@ -205,14 +205,14 @@
             "B) process"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "3-A: correlation : sig",
-            "3-B: correlation : sig",
-            "1-A: correlation : nonsig",
-            "1-B: correlation : nonsig",
-            "2-A: correlation : nonsig",
-            "2-B: correlation : sig",
-            "1*2*3-A: regression: nonsig",
-            "1*2*3-B: regression: nonsig"
+            "3-A : correlation : sig",
+            "3-B : correlation : sig",
+            "1-A : correlation : nonsig",
+            "1-B : correlation : nonsig",
+            "2-A : correlation : nonsig",
+            "2-B : correlation : sig",
+            "1,2,3-A : regression: nonsig",
+            "1,2,3-B : regression: nonsig"
         ]
     },
     "4": {
@@ -226,7 +226,7 @@
         ],
         "sensor": [
             "VI) EDA sensor",
-            "II) video camera"
+            "II) camera"
         ],
         "metric": [
             "1) eda peak detection ",
@@ -257,21 +257,21 @@
             "A) process"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1,2-A: correlation: sig: (r=0.663)"
+            "1,2-A: correlation: sig (r=0.663)"
         ]
     },
     "5": {
         "paper_id_new": 6,
         "title": "Linking Speaking and Looking Behavior Patterns with Group Composition, Perception, and Performance",
         "year": 2012,
-        "authors": null,
+        "authors": "Dineshbabu Jayagopi, Dairazalia Sanchez-Cortes, Kazuhiro Otsuka Junji Yamato\n,Daniel Gatica-Perez\n",
         "data_standardized": [
             "III) Audio",
-            "IV) Video"
+            "II) Video"
         ],
         "sensor": [
             "III) Microphone",
-            "IV) video camera"
+            "II) camera"
         ],
         "metric": [
             "1) group participation speaking cues",
@@ -322,24 +322,24 @@
             "C) product"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1-A: correlation: sig",
-            "2-A: correlation: sig",
-            "3-A: correlation: sig",
-            "4-A: correlation: sig",
-            "5-A: correlation: sig",
-            "1-B: correlation: sig",
-            "2-B: correlation: sig",
-            "3-B: correlation: sig",
-            "4-B: correlation: sig",
-            "5-B: correlation: sig",
-            "1-C: correlation: sig",
-            "2-C: correlation: sig",
-            "3-C: correlation: sig",
-            "4-C: correlation: sig",
-            "5-C: correlation: sig",
-            "1+2-A: regression: sig",
-            "2+3-B: regression: sig",
-            "2-C: regression: sig"
+            "1-A:correlation: sig",
+            "2-A:correlation: sig",
+            "3-A:correlation: sig",
+            "4-A:correlation: sig",
+            "5-A:correlation: sig",
+            "1-B:correlation: sig",
+            "2-B:correlation: sig",
+            "3-B:correlation: sig",
+            "4-B:correlation: sig",
+            "5-B:correlation: sig",
+            "1-C:correlation: sig",
+            "2-C:correlation: sig",
+            "3-C:correlation: sig",
+            "4-C:correlation: sig",
+            "5-C:correlation: sig",
+            "1,2-A:regression:sig",
+            "2,3-B:regression:sig",
+            "2-C:regression:sig"
         ]
     },
     "6": {
@@ -400,9 +400,9 @@
             "C) process"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1+2+3+4-A: sup. machine learning: nonsig",
-            "1+3+3+4-B: sup. machine learning: nonsig",
-            "1+2+3+4-C: sup. machine learning: nonsig"
+            "1,2,3,4-A:sup. machine learning: nonsig",
+            "1,3,3,4-B:sup. machine learning: nonsig",
+            "1,2,3,4-C:sup. machine learning: nonsig"
         ]
     },
     "7": {
@@ -445,7 +445,7 @@
             "A) product"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1+2-A: sup. machine learning: 64.4"
+            "1,2-A: sup. machine learning: 64.4"
         ]
     },
     "8": {
@@ -492,9 +492,9 @@
             "A) product"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1-A: correlation: sig: (r = 0.51)",
-            "2-A: correlation: sig: (r = 0.41)",
-            "3-A: correlation: sig: (r = 0.39)"
+            "1-A: correlation: sig (r = 0.51)",
+            "2-A: correlation: sig (r = 0.41)",
+            "3-A: correlation: sig (r = 0.39)"
         ]
     },
     "9": {
@@ -537,7 +537,7 @@
             "A) product"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1+2-A: correlation: nonsig"
+            "1,2-A:correlation: nonsig"
         ]
     },
     "10": {
@@ -600,9 +600,9 @@
             "C) product"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1+2+3-A: regression: sig",
-            "1+2+3-B: regression: sig",
-            "1+2+3-C: regression: sig"
+            "1,2,3-A: regression: sig",
+            "1,2,3-B: regression: sig",
+            "1,2,3-C: regression: sig"
         ]
     },
     "11": {
@@ -616,7 +616,7 @@
         ],
         "sensor": [
             "IV) Kinect",
-            "II) video camera"
+            "II) camera"
         ],
         "metric": [
             "1) clustered hand/wrist movement",
@@ -647,7 +647,7 @@
             "A) product"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1-A: sup. machine learning: sig: (ACC: 76%)"
+            "1-A:sup. machine learning: sig (ACC: 76%)"
         ]
     },
     "12": {
@@ -692,8 +692,8 @@
             "A) product"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1-A: anova: sig: (F [1,16]=8.70)",
-            "1+2-A: anova: sig: (F [1,61]=7.60)"
+            "1-A: anova: sig (F [1,16]=8.70)",
+            "1,2-A: anova: sig (F [1,61]=7.60)"
         ]
     },
     "13": {
@@ -736,8 +736,8 @@
             "B) process"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1-A: regression: sig",
-            "1-B: regression: sig"
+            "1-A:regression: sig",
+            "1-B:regression: sig"
         ]
     },
     "14": {
@@ -838,8 +838,8 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,4-A: ANOVA: nonsig",
-            "1,4-B: ANOVA: nonsig",
-            "1,5-A: correlation: sig",
+            "1,4-B:ANOVA: nonsig",
+            "1,5-A:correlation: sig",
             "2,3,4,5-A: sup. machine learning: 75%"
         ]
     },
@@ -895,8 +895,8 @@
             "B) product"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1,2,3-B: qualitative: sig",
-            "1-B: correlation: sig"
+            "1,2,3-B:qualitative: sig",
+            "1-B:correlation: sig"
         ]
     },
     "17": {
@@ -995,8 +995,8 @@
             "B) condition"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1,2,3,4,5,6,7,8,9,10,11,12,13,14-A: regression: sig",
-            "1,2,3,4,5,6,7,8,9,10,11,12,13,14-B: sup. machine learning: sig"
+            "1,2,3,4,5,6,7,8,9,10,11,12,13,14-A:regression: sig",
+            "1,2,3,4,5,6,7,8,9,10,11,12,13,14-B:sup. machine learning: sig"
         ]
     },
     "18": {
@@ -1009,7 +1009,7 @@
             "III) Audio"
         ],
         "sensor": [
-            "II) video camera",
+            "II) camera",
             "III) microcone"
         ],
         "metric": [
@@ -1052,7 +1052,7 @@
             "A) personality traits"
         ],
         "outcome_instrument": [
-            "A) self-reported survey + researcher codes"
+            "A) self-reported survey , researcher codes"
         ],
         "outcome_smaller_category": [
             "A) group composition"
@@ -1061,7 +1061,7 @@
             "A) condition"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1,2,3,4,5,6,7-A: unsup. machine learning: 69.61%"
+            "1,2,3,4,5,6,7-A:unsup. machine learning: 69.61%"
         ]
     },
     "19": {
@@ -1112,9 +1112,9 @@
             "A) condition"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1-A: Wilcoxon Signed Ranks test: sig",
-            "2-A: Wilcoxon Signed Ranks test: sig",
-            "3-A: Wilcoxon Signed Ranks test: nonsig"
+            "1-A:Wilcoxon Signed Ranks test: sig",
+            "2-A:Wilcoxon Signed Ranks test: sig",
+            "3-A:Wilcoxon Signed Ranks test: nonsig"
         ]
     },
     "20": {
@@ -1159,7 +1159,7 @@
             "A) process"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1,2-A: unsup. machine learning: 90%"
+            "1,2-A:unsup. machine learning: 90%"
         ]
     },
     "21": {
@@ -1226,49 +1226,10 @@
             "A) condition"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1+2+3+4+5+6+7+8-A: sup. machine learning: sig: (ACC: 92%)"
+            "1,2,3,4,5,6,7,8-A: sup. machine learning: sig (ACC: 92%)"
         ]
     },
     "22": {
-        "paper_id_new": 22,
-        "title": "Automatic identification of experts and performance prediction in the multimodal math data corpus through analysis of speech interaction. ",
-        "year": 2013,
-        "authors": "Luz, S.",
-        "data_standardized": [
-            "III) Audio"
-        ],
-        "sensor": [
-            "III) microphone"
-        ],
-        "metric": [
-            "9) transition probability between types of vocalisations"
-        ],
-        "metric_larger_category": [
-            "9) Verbal"
-        ],
-        "metric_smaller_category": [
-            "9) Speech Participation"
-        ],
-        "data_per_metric": [
-            "9) III"
-        ],
-        "outcome": [
-            "B) task performance"
-        ],
-        "outcome_instrument": [
-            "B) correct vs incorrect solutions"
-        ],
-        "outcome_smaller_category": [
-            "B) performance"
-        ],
-        "outcome_larger_category": [
-            "B) product"
-        ],
-        "analysis_and_results mm-oo:analysis:resultsig": [
-            "9-B: sup. machine learning: sig: (F1: 0.838, 0.395)"
-        ]
-    },
-    "23": {
         "paper_id_new": 23,
         "title": "Unraveling Students' Interaction around a Tangible Interface Using Multimodal Learning Analytics.",
         "year": 2015,
@@ -1341,10 +1302,10 @@
             "4-C: ANOVA: sig",
             "5-A: ANOVA: nonsig",
             "6-A: correlation: nonsig",
-            "1+2+3+4+5+6-B: sup. machine learning: sig (ACC: 100%)"
+            "1,2,3,4,5,6-B: sup. machine learning: sig (ACC: 100%)"
         ]
     },
-    "24": {
+    "23": {
         "paper_id_new": 24,
         "title": "Unpacking the relationship between existing and new measures of physiological synchrony and collaborative learning: a mixed methods study",
         "year": 2020,
@@ -1406,13 +1367,13 @@
             "C) product"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1-C: correlation: sig: r = 0.35",
-            "2-A: correlation: sig: r =0.47",
-            "5-A: correlation: sig: r = 0.57",
-            "5-C: correlation: sig: r = 0.47"
+            "1-C: correlation: sig r = 0.35",
+            "2-A: correlation: sig r =0.47",
+            "5-A: correlation: sig r = 0.57",
+            "5-C: correlation: sig r = 0.47"
         ]
     },
-    "25": {
+    "24": {
         "paper_id_new": 25,
         "title": "Modeling Team-level Multimodal Dynamics during Multiparty Collaboration",
         "year": 2019,
@@ -1472,13 +1433,13 @@
             "D) product"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1+2+3-A: unsup. machine learning: nonsig",
-            "1+2+3-B: unsup. machine learning: nonsig",
-            "1+2+3-C: unsup. machine learning: nonsig",
-            "1+2+3-D: unsup. machine learning: nonsig"
+            "1,2,3-A:unsup. machine learning: nonsig",
+            "1,2,3-B:unsup. machine learning: nonsig",
+            "1,2,3-C:unsup. machine learning: nonsig",
+            "1,2,3-D:unsup. machine learning: nonsig"
         ]
     },
-    "26": {
+    "25": {
         "paper_id_new": 26,
         "title": "Leveraging Mobile Eye-Trackers to Capture Joint Visual Attention in Co-Located Collaborative Learning",
         "year": 2018,
@@ -1526,13 +1487,13 @@
             "C) product"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1-B: correlation: sig: r = 0.341",
-            "2-B: correlation: sig: r = 0.347",
-            "2-A: correlation: sig: r = 0.398",
-            "2-C: correlation: sig: r = 0.355"
+            "1-B: correlation: sig r = 0.341",
+            "2-B: correlation: sig r = 0.347",
+            "2-A: correlation: sig r = 0.398",
+            "2-C: correlation: sig r = 0.355"
         ]
     },
-    "27": {
+    "26": {
         "paper_id_new": 27,
         "title": "Gaze quality assisted automatic recognition of social contexts in collaborative Tetris",
         "year": 2010,
@@ -1586,10 +1547,10 @@
             "A) condition"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1+2+3+4+5-A: sup. machine learning: sig: (ACC:81.43)"
+            "1,2,3,4,5-A: sup. machine learning: sig (ACC:81.43)"
         ]
     },
-    "28": {
+    "27": {
         "paper_id_new": 28,
         "title": "Acoustic-Prosodic Entrainment and Rapport in Collaborative Learning Dialogues",
         "year": 2014,
@@ -1649,12 +1610,12 @@
             "A) process"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "5-A: correlation: mixed: (Max r 0.842)",
-            "6-A: correlation: mixed: (Max r 0.741)",
-            "7-A: correlation: mixed: (Max r 0.634)"
+            "5-A: correlation: mixed (Max r 0.842)",
+            "6-A: correlation: mixed (Max r 0.741)",
+            "7-A: correlation: mixed (Max r 0.634)"
         ]
     },
-    "29": {
+    "28": {
         "paper_id_new": 29,
         "title": "Can Eye Help You?: Effects of Visualizing Eye Fixations on Remote Collaboration Scenarios for Physical Tasks",
         "year": 2016,
@@ -1694,11 +1655,11 @@
             "B) product"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1-A: Wilcoxon Signed Ranks test: sig",
-            "1-B: Wilcoxon Signed Ranks test: sig"
+            "1-A:Wilcoxon Signed Ranks test: sig",
+            "1-B:Wilcoxon Signed Ranks test: sig"
         ]
     },
-    "30": {
+    "29": {
         "paper_id_new": 30,
         "title": "Using Mobile Eye-Trackers to Unpack the Perceptual Benefits of a Tangible User Interface for Collaborative Learning",
         "year": 2016,
@@ -1738,11 +1699,11 @@
             "B) product"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1-A: correlation: sig: (r = 0.59)",
-            "1-B: correlation: sig: (r = 0.42)"
+            "1-A: correlation: sig (r = 0.59)",
+            "1-B: correlation: sig (r = 0.42)"
         ]
     },
-    "31": {
+    "30": {
         "paper_id_new": 31,
         "title": "Personality classification and behaviour interpretation: An approach based on feature categories",
         "year": 2016,
@@ -1752,7 +1713,7 @@
             "III) Audio"
         ],
         "sensor": [
-            "II) video camera",
+            "II) camera",
             "III) microcone"
         ],
         "metric": [
@@ -1793,14 +1754,14 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: Regression: 73.53%",
-            "1-B: Regression: 76.47%",
+            "1-B:Regression: 76.47%",
             "2-A: Regression: 60.54%",
             "2-B: Regression: 66.42%",
             "3-A: Regression: 65.69%",
             "3-B: Regression: 73.53%"
         ]
     },
-    "32": {
+    "31": {
         "paper_id_new": 32,
         "title": "Investigating Automatic Dominance Estimation in Groups From Visual Attention and Speaking Activity",
         "year": 2008,
@@ -1810,7 +1771,7 @@
             "III) Audio"
         ],
         "sensor": [
-            "II) video camera",
+            "II) camera",
             "III) microphone"
         ],
         "metric": [
@@ -1842,10 +1803,10 @@
             "A) condition"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1+2-A: sup. machine learning: 79.4%"
+            "1,2-A: sup. machine learning: 79.4%"
         ]
     },
-    "33": {
+    "32": {
         "paper_id_new": 33,
         "title": "High Accuracy Detection of Collaboration From Log Data and Superficial Speech Features",
         "year": 2017,
@@ -1857,7 +1818,7 @@
             "X) Log data"
         ],
         "sensor": [
-            "II) video camera",
+            "II) camera",
             "III) microphone",
             "V) digital",
             "X) digital"
@@ -1907,11 +1868,11 @@
             "C) process"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1+2+3+4-A+C: sup. machine learning: 96%",
-            "1+2+3+4-A+B+C: sup. machine learning: 86%"
+            "1,2,3,4-A,C: sup. machine learning: 96%",
+            "1,2,3,4-A,B,C: sup. machine learning: 86%"
         ]
     },
-    "34": {
+    "33": {
         "paper_id_new": 34,
         "title": "Using Interlocutor-Modulated Attention BLSTM to Predict Personality Traits in Small Group Interaction",
         "year": 2018,
@@ -1938,7 +1899,7 @@
             "A) personality traits"
         ],
         "outcome_instrument": [
-            "A) self-reported survey + perceived interaction scores"
+            "A) self-reported survey , perceived interaction scores"
         ],
         "outcome_smaller_category": [
             "A) group composition"
@@ -1947,10 +1908,10 @@
             "A) condition"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1-A: sup. machine learning: 87.9%"
+            "1-A: sup. machine learning : 87.9%"
         ]
     },
-    "35": {
+    "34": {
         "paper_id_new": 35,
         "title": "Dynamics of Visual Attention in Multiparty Collaborative Problem Solving using Multidimensional Recurrence Quantification Analysis",
         "year": 2019,
@@ -2016,10 +1977,10 @@
             "2-D: regression: nonsig",
             "2-E: regression: sig",
             "2-D: regression: nonsig",
-            "2-E: regression: nosig"
+            "2-E: regression:nosig"
         ]
     },
-    "36": {
+    "35": {
         "paper_id_new": 36,
         "title": "Does Seeing One Another’s Gaze Affect Group Dialogue?",
         "year": 2015,
@@ -2083,9 +2044,9 @@
             "2-A: sup. machine learning: 75%"
         ]
     },
-    "37": {
+    "36": {
         "paper_id_new": 37,
-        "title": "Emergent leaders through looking and speaking: from\r\naudio-visual data to multimodal recognition",
+        "title": "Emergent leaders through looking and speaking: from\naudio-visual data to multimodal recognition",
         "year": 2013,
         "authors": "Dairazalia Sanchez-Cortes, Oya Aran, Dinesh Babu Jayagopi, Marianne Schmid Mast, Daniel Gatica-Perez",
         "data_standardized": [
@@ -2094,7 +2055,7 @@
         ],
         "sensor": [
             "III) microphone",
-            "II) video camera"
+            "II) camera"
         ],
         "metric": [
             "1) speaking activity",
@@ -2145,11 +2106,11 @@
             "E) process"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1*3-E: sup. machine learning: 50%",
-            "1*3-C: sup. machine learning: 59.1%"
+            "1,3-E: sup. machine learning: 50%",
+            "1,3-C: sup. machine learning: 59.1%"
         ]
     },
-    "38": {
+    "37": {
         "paper_id_new": 38,
         "title": "Predicting the Quality of Collaborative Problem Solving Through Linguistic Analysis of Discourse",
         "year": 2019,
@@ -2220,7 +2181,7 @@
             "2-B: sup. machine learning: 84%"
         ]
     },
-    "39": {
+    "38": {
         "paper_id_new": 39,
         "title": "Shared Experiences of Technology and Trust: An Experimental Study of Physiological Compliance Between Active and Passive Users in Technology-Mediated Collaborative Encounters",
         "year": 2014,
@@ -2326,7 +2287,7 @@
             "11-A: LME: nonsig"
         ]
     },
-    "40": {
+    "39": {
         "paper_id_new": 40,
         "title": "Using Multimodal Learning Analytics to Identify Aspects of Collaboration in Project-Based Learning",
         "year": 2017,
@@ -2382,13 +2343,13 @@
             "C) process"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "3-C: regression: sig",
-            "3-B: regression: sig",
-            "1+3-B: regression: sig",
-            "3-A: regression: sig"
+            "3-C:regression: sig",
+            "3-B:regression: sig",
+            "1+3-B:regression: sig",
+            "3-A:regression: sig"
         ]
     },
-    "41": {
+    "40": {
         "paper_id_new": 41,
         "title": "Modeling Collaboration Patterns on an Interactive Tabletop in a Classroom Setting",
         "year": 2016,
@@ -2424,10 +2385,10 @@
             "A) process"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1-A: calculation: 84.2%"
+            "1-A:calculation:84.2%"
         ]
     },
-    "42": {
+    "41": {
         "paper_id_new": 42,
         "title": "Toward Using Multi-Modal Learning Analytics to Support and Measure Collaboration in Co-Located Dyads",
         "year": 2018,
@@ -2477,7 +2438,7 @@
             "2-A: correlation: sig"
         ]
     },
-    "43": {
+    "42": {
         "paper_id_new": 43,
         "title": "An Alternate Statistical Lens to Look at Collaboration Data: Extreme Value Theory",
         "year": 2019,
@@ -2521,7 +2482,7 @@
             "1-B: regression: sig"
         ]
     },
-    "44": {
+    "43": {
         "paper_id_new": 44,
         "title": "Going beyond what is visible: What multichannel data can reveal about interaction in the context of collaborative learning?",
         "year": 2019,
@@ -2532,7 +2493,7 @@
             "VI) Physiological"
         ],
         "sensor": [
-            "II) video camera",
+            "II) camera",
             "III) microphone",
             "VI) wearable sensor"
         ],
@@ -2575,7 +2536,7 @@
             "2-B: calculation: nonsig"
         ]
     },
-    "45": {
+    "44": {
         "paper_id_new": 45,
         "title": "Task-independent Multimodal Prediction of Group Performance Based on Product Dimensions",
         "year": 2019,
@@ -2627,10 +2588,10 @@
             "A) product"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1*2*3*4-A: unsup. machine learning: sig"
+            "1,2,3,4-A : unsup. machine learning : sig"
         ]
     },
-    "46": {
+    "45": {
         "paper_id_new": 46,
         "title": "Toward Collaboration Sensing",
         "year": 2014,
@@ -2670,7 +2631,7 @@
             "1-A: correlation: sig"
         ]
     },
-    "47": {
+    "46": {
         "paper_id_new": 47,
         "title": "Supervised machine learning in multimodal learning analytics for estimating success in project-based learning",
         "year": 2017,
@@ -2682,7 +2643,7 @@
             "V) Log data"
         ],
         "sensor": [
-            "IV) video camera",
+            "IV) kinect",
             "VI) kinect",
             "III) microphone",
             "V) arduino IDE "
@@ -2748,10 +2709,10 @@
             "A) product"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1*2*3*4*5*6*7*8*9*10-A: sup. machine learning: 24%"
+            "1,2,3,4,5,6,7,8,9,10-A: sup. machine learning: 24%"
         ]
     },
-    "48": {
+    "47": {
         "paper_id_new": 48,
         "title": "Multimodal prediction of expertise and leadership in learning groups",
         "year": 2012,
@@ -2847,7 +2808,7 @@
             "6-B: t-test: nonsig"
         ]
     },
-    "49": {
+    "48": {
         "paper_id_new": 49,
         "title": "Estimation of success in collaborative learning based on multimodal learning analytics features",
         "year": 2017,
@@ -2858,7 +2819,7 @@
             "III) Audio"
         ],
         "sensor": [
-            "IV) video camera",
+            "IV) kinect",
             "V) Arduino IDE",
             "III) microphone"
         ],
@@ -2915,11 +2876,11 @@
             "A) process, product"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1+2-A: sup. machine learning: sig",
+            "1,2-A: sup. machine learning: sig",
             "8-A: sup. machine learning: sig"
         ]
     },
-    "50": {
+    "49": {
         "paper_id_new": 50,
         "title": "Unpacking Collaborative Learning Processes during Hands-on Activities using Mobile Eye-Trackers",
         "year": 2017,
@@ -2971,7 +2932,7 @@
             "1-A: correlation: sig"
         ]
     },
-    "51": {
+    "50": {
         "paper_id_new": 51,
         "title": "3D Tangibles Facilitate Joint Visual Attention in Dyads",
         "year": 2015,
@@ -3020,7 +2981,7 @@
             "1-C: correlation: sig"
         ]
     },
-    "52": {
+    "51": {
         "paper_id_new": 52,
         "title": "Exploring Collaboration Using Motion Sensors and Multi-Modal Learning Analytics",
         "year": 2018,
@@ -3079,7 +3040,7 @@
             "3-A: correlation: sig"
         ]
     },
-    "53": {
+    "52": {
         "paper_id_new": 53,
         "title": "Real-time mutual gaze perception enhances collaborative  learning and collaboration quality",
         "year": 2013,
@@ -3121,11 +3082,11 @@
             "A) product"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1-A: mediation: sig",
-            "2-A: mediation: nonsig"
+            "1-A :mediation: sig",
+            "2-A:mediation: nonsig"
         ]
     },
-    "54": {
+    "53": {
         "paper_id_new": 54,
         "title": "Investigating collaborative learning success with physiological coupling indices based on electrodermal activity",
         "year": 2016,
@@ -3185,15 +3146,15 @@
             "C) product"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1,3,4,5-A : regression: nonsig",
-            "2-A: regression: sig",
-            "1,3,4,5-B : regression: nonsig",
-            "2-B: regression: sig",
-            "1,2,4,5-C: regression: nonsig",
-            "3-C: regression: sig"
+            "1,3,4,5-A : regression : nonsig",
+            "2-A:regression: sig",
+            "1,3,4,5-B : regression : nonsig",
+            "2-B:regression: sig",
+            "1,2,4,5-C : regression : nonsig",
+            "3-C:regression: sig"
         ]
     },
-    "55": {
+    "54": {
         "paper_id_new": 55,
         "title": "Multimodal Analysis of Vocal Collaborative Search:A Public Corpus and Results",
         "year": 2017,
@@ -3203,7 +3164,7 @@
             "III) Audio"
         ],
         "sensor": [
-            "II) video camera",
+            "II) camera",
             "III) microphone"
         ],
         "metric": [
@@ -3247,18 +3208,18 @@
             "C) process"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1+2+3-A: correlation: sig",
-            "1+2+3-B: correlation: sig",
-            "1+2+3-C: correlation: sig",
-            "1,2-A: correlation: nonsig",
-            "1,2-B: correlation: nonsig",
-            "1,2-C: correlation: nonsig",
-            "3-A: correlation: sig",
-            "3-B: correlation: sig",
-            "3-C: correlation: sig"
+            "1,2,3-A: correlation: sig",
+            "1,2,3-B: correlation: sig",
+            "1,2,3-C:correlation: sig",
+            "1,2-A:correlation: nonsig",
+            "1,2-B:correlation: nonsig",
+            "1,2-C:correlation: nonsig",
+            "3-A:correlation: sig",
+            "3-B:correlation: sig",
+            "3-C:correlation: sig"
         ]
     },
-    "56": {
+    "55": {
         "paper_id_new": 56,
         "title": "Focused or Stuck Together: Multimodal Patterns Reveal Triads’ Performance in Collaborative Problem Solving",
         "year": 2020,
@@ -3268,7 +3229,7 @@
             "V) Log data"
         ],
         "sensor": [
-            "II) video camera",
+            "II) camera",
             "V) own application"
         ],
         "metric": [
@@ -3308,11 +3269,11 @@
             "B) process"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1*2*3-A: correlation: sig",
-            "1*2*3-B: correlation: sig"
+            "1,2,3-A : correlation : sig",
+            "1,2,3-B : correlation : sig"
         ]
     },
-    "57": {
+    "56": {
         "paper_id_new": 57,
         "title": "Using Physiological Synchrony as an Indicator of Collaboration Quality, Task Performance and Learning",
         "year": 2018,
@@ -3356,102 +3317,48 @@
             "5) III"
         ],
         "outcome": [
-            "A) learning gains"
-        ],
-        "outcome_instrument": [
-            "A) pre/post tests"
-        ],
-        "outcome_smaller_category": [
-            "A) learning"
-        ],
-        "outcome_larger_category": [
-            "A) product"
-        ],
-        "analysis_and_results mm-oo:analysis:resultsig": [
-            "1,2,3-A : correlation: nonsig",
-            "4-A: correlation: sig",
-            "5-A: ANOVA: sig"
-        ]
-    },
-    "58": {
-        "paper_id_new": 57,
-        "title": "Using Physiological Synchrony as an Indicator of Collaboration Quality, Task Performance and Learning",
-        "year": 2018,
-        "authors": "Yong Dich, Joseph Reilly, Bertrand Schneider",
-        "data_standardized": [
-            "II) Video",
-            "III) Audio",
-            "VI) Physiological"
-        ],
-        "sensor": [
-            "II) kinect",
-            "III) kinect",
-            "VI) wearable sensor"
-        ],
-        "metric": [
-            "1) signal matching",
-            "2) instantaneous derivative matching ",
-            "3) directional agreement ",
-            "4) pearson’s correlation coefficient",
-            "5) speech activity"
-        ],
-        "metric_larger_category": [
-            "1) Physiological",
-            "2) Physiological",
-            "3) Physiological",
-            "4) Physiological",
-            "5) Verbal"
-        ],
-        "metric_smaller_category": [
-            "1) Combined",
-            "2) Combined",
-            "3) Combined",
-            "4) Combined",
-            "5) Speech Participation"
-        ],
-        "data_per_metric": [
-            "1) VI",
-            "2) VI",
-            "3) VI",
-            "4) VI",
-            "5) III"
-        ],
-        "outcome": [
+            "A) learning gains",
             "B) collaboration quality: dialogue management",
             "C) collaboration quality: reaching consensus",
             "D) colaboration quality: reciprocal interaction",
             "E) collaboration quality: information pooling"
         ],
         "outcome_instrument": [
+            "A) pre/post tests",
             "B) researcher coded",
             "C) researcher coded",
             "D) researcher coded",
             "E) researcher coded"
         ],
         "outcome_smaller_category": [
+            "A) learning",
             "B) communication",
             "C) coordination",
             "D) coordination",
             "E) coordination"
         ],
         "outcome_larger_category": [
+            "A) product",
             "B) process",
             "C) process",
             "D) process",
             "E) process"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1,2,4-B: correlation: nonsig",
-            "3-B: correlation: sig",
-            "1,2,4-C: correlation : nonsig",
-            "3-C: correlation: sig",
-            "1,2,4-D: correlation: nonsig",
-            "3-D: correlation: sig",
-            "1,2,3-E: correlation: nonsig",
-            "4-E: correlation: sig"
+            "1,2,3-A : correlation : nonsig",
+            "4-A:correlation: sig",
+            "5-A : ANOVA : sig",
+            "1,2,4-B : correlation : nonsig",
+            "3-B:correlation: sig",
+            "1,2,4-C:correlation : nonsig",
+            "3-C:correlation: sig",
+            "1,2,4-D:correlation: nonsig",
+            "3-D:correlation: sig",
+            "1,2,3-E:correlation : nonsig",
+            "4-E:correlation: sig"
         ]
     },
-    "59": {
+    "57": {
         "paper_id_new": 58,
         "title": "Moving as a Leader: Detecting Emergent Leadership in Small Groups using Body Pose",
         "year": 2017,
@@ -3502,11 +3409,11 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: sup. machine learning: sig",
-            "2+3+4-A: sup. machine learning: sig",
-            "1+2+3+4-A: sup. machine learning: mixed"
+            "2,3,4-A: sup. machine learning: sig",
+            "1,2,3,4-A: sup. machine learning: mixed"
         ]
     },
-    "60": {
+    "58": {
         "paper_id_new": 59,
         "title": "Detecting Emergent Leader in a Meeting Environment",
         "year": 2016,
@@ -3546,7 +3453,7 @@
             "1-A: sup. machine learning: sig"
         ]
     },
-    "61": {
+    "59": {
         "paper_id_new": 60,
         "title": "An Automatic Approach for Mining Patterns of Collaboration around an Interactive Tabletop",
         "year": 2013,
@@ -3596,10 +3503,10 @@
             "A) process"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1+2+3+4-A: sup. machine learning: sig: (85%)"
+            "1,2,3,4-A: sup. machine learning: sig (85%)"
         ]
     },
-    "62": {
+    "60": {
         "paper_id_new": 61,
         "title": "Modelling and Identifying Collaborative Situations in a Collocated Multi-display Groupware Setting",
         "year": 2011,
@@ -3653,10 +3560,10 @@
             "A) process"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1+2+3+4-A: sup. machine learning: sig"
+            "1,2,3,4-A: sup. machine learning: sig"
         ]
     },
-    "63": {
+    "61": {
         "paper_id_new": 62,
         "title": "Using Motion Sensors to Understand Collaborative Interactions in Digital Fabrication Labs",
         "year": 2020,
@@ -3724,7 +3631,7 @@
             "4-D: correlation: mixed"
         ]
     },
-    "64": {
+    "62": {
         "paper_id_new": 63,
         "title": "What does physiological synchrony reveal about metacognitive experiences and group performance?",
         "year": 2020,
@@ -3785,15 +3692,15 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: regression: nonsig",
-            "1-B: regression: sig: (positive)",
+            "1-B: regression: sig (positive)",
             "1-C: regression: nonsig",
             "1-D: regression: nonsig",
             "1-E: regression: nonsig",
             "1-F: regression: nonsig",
-            "1-G: regression: nonsig"
+            "1-G:regression: nonsig"
         ]
     },
-    "65": {
+    "63": {
         "paper_id_new": 64,
         "title": "Physiological evidence of interpersonal dynamics in a cooperative production task",
         "year": 2016,
@@ -3845,12 +3752,12 @@
             "B) process"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1-A: regression: sig: (negative)",
+            "1-A: regression: sig (negative)",
             "2-A: regression: sig",
             "2-B: regression: sig"
         ]
     },
-    "66": {
+    "64": {
         "paper_id_new": 65,
         "title": "Brain-to-Brain Synchrony Tracks Real-World Dynamic Group Interactions in the Classroom",
         "year": 2017,
@@ -3894,7 +3801,7 @@
             "1-B: regression: sig"
         ]
     },
-    "67": {
+    "65": {
         "paper_id_new": 66,
         "title": "Multi-modal Social Signal Analysis for Predicting Agreement in Conversation Settings",
         "year": 2013,
@@ -3946,10 +3853,10 @@
             "A) process"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1+2+3+4-A: sup. machine learning: sig: (75% accuracy)"
+            "1,2,3,4-A: sup. machine learning: sig (75% accuracy)"
         ]
     },
-    "68": {
+    "66": {
         "paper_id_new": 67,
         "title": "Predicting Collaborative Learning Quality through Physiological Synchrony Recorded by Wearable Biosensors",
         "year": 2020,
@@ -3995,7 +3902,7 @@
             "2-A: sup. machine learning: nonsig"
         ]
     },
-    "69": {
+    "67": {
         "paper_id_new": 68,
         "title": "Effects of Shared Gaze on Audio- Versus Text-Based Remote Collaborations",
         "year": 2020,
@@ -4049,7 +3956,7 @@
             "1-D: anova: sig"
         ]
     },
-    "70": {
+    "68": {
         "paper_id_new": 69,
         "title": "Body synchrony in triadic interaction",
         "year": 2020,
@@ -4058,7 +3965,7 @@
             "II) Video"
         ],
         "sensor": [
-            "II) video camera"
+            "II) camera"
         ],
         "metric": [
             "1) body synchronization"
@@ -4098,12 +4005,12 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: regression: nonsig",
-            "1-B: regression: sig: (neg)",
-            "1-C: regression: sig: (neg)",
+            "1-B: regression: sig (neg)",
+            "1-C: regression: sig (neg)",
             "1-D: regression: sig"
         ]
     },
-    "71": {
+    "69": {
         "paper_id_new": 70,
         "title": "Using the Tablet Gestures and Speech of Pairs of Students to Classify Their Collaboration",
         "year": 2017,
@@ -4143,16 +4050,16 @@
             "A) self made researcher coding scheme (4-scale ranging between collaboration and cooperation)"
         ],
         "outcome_smaller_category": [
-            "A) coordination , communication"
+            "A) coordination"
         ],
         "outcome_larger_category": [
             "A) process"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1*2*3-A: sup. machine learning: sig"
+            "1,2,3-A:sup. machine learning: sig"
         ]
     },
-    "72": {
+    "70": {
         "paper_id_new": 71,
         "title": "Improving Visibility of Remote Gestures in Distributed Tabletop Collaboration",
         "year": 2011,
@@ -4196,7 +4103,7 @@
             "1-B: ANOVA: sig"
         ]
     },
-    "73": {
+    "71": {
         "paper_id_new": 72,
         "title": "Employing Social Gaze and Speaking Activity for Automatic Determination of the Extraversion Trait",
         "year": 2010,
@@ -4206,7 +4113,7 @@
             "III) Audio"
         ],
         "sensor": [
-            "II) video camera",
+            "II) camera",
             "III) microphone"
         ],
         "metric": [
@@ -4242,10 +4149,10 @@
             "A) condition"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1*2*3-A: sup. machine learning: sig"
+            "1,2,3-A: sup. machine learning: sig"
         ]
     },
-    "74": {
+    "72": {
         "paper_id_new": 73,
         "title": "See What I’m Saying? Using Dyadic Mobile Eye Tracking to Study Collaborative Reference",
         "year": 2011,
@@ -4281,7 +4188,3555 @@
             "A) process"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1-A: regression: nonsig"
+            "1-A:regression: nonsig"
+        ]
+    },
+    "73": {
+        "paper_id_new": 74,
+        "title": "Privacy-Preserving Speech Analytics for Automatic Assessment of Student Collaboration",
+        "year": 2016,
+        "authors": "Nikoletta Bassiou, Andreas Tsiartas, Jennifer Smith, Harry Bratt, Colleen Richey, Elizabeth Shriberg, Cynthia D’Angelo, Nonye Alozie",
+        "data_standardized": [
+            "III) Audio"
+        ],
+        "sensor": [
+            "III) microphones"
+        ],
+        "metric": [
+            "1) duration of speech by each student",
+            "2) duration in which each student was only speaker",
+            "3) duration of overlapping speech from pairs of students",
+            "4) duration of overlapping speech from all people",
+            "5) duration of silence for all people",
+            "6) prosodic and tone features"
+        ],
+        "metric_larger_category": [
+            "1) Verbal",
+            "2) Verbal",
+            "3) Verbal",
+            "4) Verbal",
+            "5) Verbal",
+            "6) Verbal"
+        ],
+        "metric_smaller_category": [
+            "1) Speech Participation",
+            "2) Speech Participation",
+            "3) Speech Participation",
+            "4) Speech Participation",
+            "5) Speech Participation",
+            "6) Speech Features"
+        ],
+        "data_per_metric": [
+            "1) III",
+            "2) III",
+            "3) III",
+            "4) III",
+            "5) III",
+            "6) III"
+        ],
+        "outcome": [
+            "A) collaboration quality"
+        ],
+        "outcome_instrument": [
+            "A) video coded scale of collaboration"
+        ],
+        "outcome_smaller_category": [
+            "A) coordination"
+        ],
+        "outcome_larger_category": [
+            "A) process"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1,2,3,4,5,6-A:sup. machine learning: nonsig"
+        ]
+    },
+    "74": {
+        "paper_id_new": 75,
+        "title": "(Dis)Engagement Matters: Identifying Efficacious Learning Practices with Multimodal Learning Analytics",
+        "year": 2018,
+        "authors": "Marcelo Worsley",
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "IV) Kinect",
+            "II) camera"
+        ],
+        "metric": [
+            "1) clustered hand/wrist movement",
+            "2) object manipulation"
+        ],
+        "metric_larger_category": [
+            "1) Body",
+            "2) Body"
+        ],
+        "metric_smaller_category": [
+            "1) Hand Motion",
+            "2) Task-related"
+        ],
+        "data_per_metric": [
+            "1) IV",
+            "2) II"
+        ],
+        "outcome": [
+            "A) Learning gains"
+        ],
+        "outcome_instrument": [
+            "A) pre-post test (references to  principles or mechanisms that confer stability to three example structures) "
+        ],
+        "outcome_smaller_category": [
+            "A) learning"
+        ],
+        "outcome_larger_category": [
+            "A) Product"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-A:sup. machine learning: sig (ACC: 76%)"
+        ]
+    },
+    "75": {
+        "paper_id_new": 76,
+        "title": "Unraveling Students’ Interaction Around a Tangible Interface Using Multimodal Learning Analytics",
+        "year": 2015,
+        "authors": "Bertrand Schneider, Paulo Blikstein",
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "IV) Kinect",
+            "V) Own application"
+        ],
+        "metric": [
+            "1) amount of exploration",
+            "2) types of exploration",
+            "3) amount of movement",
+            "4) type of movement",
+            "5) Body synchronization",
+            "6) Body distance"
+        ],
+        "metric_larger_category": [
+            "1) Body",
+            "2) Body",
+            "3) Body"
+        ],
+        "metric_smaller_category": [
+            "1) Task-related",
+            "2)  Task-related",
+            "3) Gross Body Motion"
+        ],
+        "data_per_metric": [
+            "1) V",
+            "2) V",
+            "3) IV",
+            "4) IV",
+            "5) IV",
+            "6) IV"
+        ],
+        "outcome": [
+            "A) learning gains",
+            "B) learning gain group (high or low)",
+            "C) leadership (driver/passenger)"
+        ],
+        "outcome_instrument": [
+            "A) pre-post test",
+            "B) pre-post test",
+            "C) coding"
+        ],
+        "outcome_smaller_category": [
+            "A) Learning",
+            "B) Learning",
+            "C) Interpersonal relationship"
+        ],
+        "outcome_larger_category": [
+            "A) Product",
+            "B) Product",
+            "C) Process"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-A: correlation: nonsig",
+            "2-A: correlation: mixed",
+            "3-A: correlation: nonsig",
+            "4-A: correlation: sig",
+            "4-C: ANOVA: sig",
+            "5-A: ANOVA: nonsig",
+            "6-A: correlation: nonsig",
+            "1,2,3,4,5,6-B: sup. machine learning: sig (ACC: 100%)"
+        ]
+    },
+    "76": {
+        "paper_id_new": 77,
+        "title": "Leveraging mobile eye-trackers to capture joint visual attention in co-located collaborative learning groups",
+        "year": 2018,
+        "authors": "Bertrand Schneider, Kshitij Sharma, Sebastien Cuendet, Guillaume Zufferey, Pierre Dillenbourg & Roy Pea ",
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "I) eyetracker"
+        ],
+        "metric": [
+            "1) Joint visual Attention",
+            "2) Cycles of collaborative / individual work"
+        ],
+        "metric_larger_category": [
+            "1) Gaze",
+            "2)"
+        ],
+        "metric_smaller_category": [
+            "1) Visual Attention",
+            "2) Task-related"
+        ],
+        "data_per_metric": [
+            "1) I",
+            "2) I"
+        ],
+        "outcome": [
+            "A) learning gains",
+            "B) collaboration quality",
+            "C) task performance"
+        ],
+        "outcome_instrument": [
+            "A) pre-post test",
+            "B) Meier Spada Rummel coding scheme",
+            "C) number of mazes solved"
+        ],
+        "outcome_smaller_category": [
+            "A) Learning",
+            "B) Coordination",
+            "C) Performance"
+        ],
+        "outcome_larger_category": [
+            "A) Product",
+            "B) Process",
+            "C) Product"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-B: correlation: sig ",
+            "2-B: correlation: sig ",
+            "2-A: correlation: sig ",
+            "2-C: correlation: sig "
+        ]
+    },
+    "77": {
+        "paper_id_new": 78,
+        "title": "Does Seeing One Another’s Gaze Affect Group Dialogue? A Computational Approach",
+        "year": 2015,
+        "authors": "Bertrand Schneider,Roy Pea",
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "I) eye-tracker",
+            "III) microphone"
+        ],
+        "metric": [
+            "1) Joint visual attention",
+            "2) simple linguistic features",
+            "3) convergence (of linguistic styles)",
+            "4) coherence"
+        ],
+        "metric_larger_category": [
+            "1) Gaze",
+            "2)Verbal"
+        ],
+        "metric_smaller_category": [
+            "1) Visual Attention",
+            "2) Speech Participation"
+        ],
+        "data_per_metric": [
+            "1) I",
+            "2) III",
+            "3) III",
+            "4) III"
+        ],
+        "outcome": [
+            "A) Learning ",
+            "B) Collaboration",
+            ""
+        ],
+        "outcome_instrument": [
+            "A) pre-post test",
+            "B) Coding scheme",
+            ""
+        ],
+        "outcome_smaller_category": [
+            "A) Learning",
+            "B) Coordination",
+            ""
+        ],
+        "outcome_larger_category": [
+            "A) Product",
+            "B) Process",
+            ""
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "",
+            "4-A: correlation: sig",
+            "4-C: ANOVA: sig",
+            "2-A: sup. machine learning: 75%"
+        ]
+    },
+    "78": {
+        "paper_id_new": 79,
+        "title": "Real-time mutual gaze perception enhances collaborative 4 learning and collaboration quality",
+        "year": 2013,
+        "authors": "Bertrand Schneider,Roy Pea",
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "I) eye tracker",
+            "II) eye tracker"
+        ],
+        "metric": [
+            "1) joint visual attention",
+            "2) cognitive load (from pupil size)"
+        ],
+        "metric_larger_category": [
+            "1) Gaze",
+            "2) Physiological"
+        ],
+        "metric_smaller_category": [
+            "1) Visual Attention",
+            "2）"
+        ],
+        "data_per_metric": [
+            "1) I",
+            "2) II"
+        ],
+        "outcome": [
+            "A) learning gains"
+        ],
+        "outcome_instrument": [
+            "A) pre/post test"
+        ],
+        "outcome_smaller_category": [
+            "A) Learning"
+        ],
+        "outcome_larger_category": [
+            "A) product"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-A :mediation : sig",
+            "2-A:mediation: nonsig"
+        ]
+    },
+    "79": {
+        "paper_id_new": 80,
+        "title": "Challenging Joint Visual Attention as a Proxy for Collaborative Performance",
+        "year": 2021,
+        "authors": "Sharma, Kshitij，Olsen, Jennifer K.Verma, Himanshu， Caballero, Daniela，Jermann, Patrick",
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "I) eye-tracker",
+            "III) computer system audio",
+            "V) NS"
+        ],
+        "metric": [
+            "1) Joint Visual Attention",
+            "2) Joint Mental Effort ",
+            "3) Dialogue",
+            ""
+        ],
+        "metric_larger_category": [
+            "1) Gaze",
+            "2) Gaze",
+            "3) Speech"
+        ],
+        "metric_smaller_category": [
+            "1) visual attention",
+            "2) visual attention",
+            "3) Speech Features "
+        ],
+        "data_per_metric": [
+            "1) I",
+            "2) I",
+            "3) III",
+            "4) V"
+        ],
+        "outcome": [
+            "A) learning performance"
+        ],
+        "outcome_instrument": [
+            "A) task outcome"
+        ],
+        "outcome_smaller_category": [
+            "A)product"
+        ],
+        "outcome_larger_category": [
+            "A)product"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-A: ANOVA: sig ",
+            "2-A: ANOVA: sig ",
+            "",
+            ""
+        ]
+    },
+    "80": {
+        "paper_id_new": 81,
+        "title": "Deep neural networks for collaborative learning analytics: Evaluating team collaborations using student gaze point prediction",
+        "year": 2020,
+        "authors": "Zhang Guo, Roghayeh Barmaki",
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "I) video camera, ",
+            "gaze-tracker (deep neural networks)"
+        ],
+        "metric": [
+            "1) Joint Visual Attention"
+        ],
+        "metric_larger_category": [
+            "1) Gaze"
+        ],
+        "metric_smaller_category": [
+            "1) Visual Attention"
+        ],
+        "data_per_metric": [
+            "1) I"
+        ],
+        "outcome": [
+            "A) learning gains"
+        ],
+        "outcome_instrument": [
+            "A) post test"
+        ],
+        "outcome_smaller_category": [
+            "A)product"
+        ],
+        "outcome_larger_category": [
+            "A)product"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-A: correlation: sig"
+        ]
+    },
+    "81": {
+        "paper_id_new": 82,
+        "title": "Utilizing Interactive Surfaces to Enhance Learning, Collaboration and Engagement: Insights from Learners’ Gaze and Speech",
+        "year": 2020,
+        "authors": "Kshitij Sharma, Ioannis Leftheriotis, Michail Giannakos\n",
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "I) eye-tracker",
+            "III) NS",
+            "V) application"
+        ],
+        "metric": [
+            "1) individual gaze (transition from image to text)",
+            "2) gaze similarity (collaborative gaze)",
+            "3) gaze similarity (gaze transition similarity)",
+            "4) speech"
+        ],
+        "metric_larger_category": [
+            "1) Gaze",
+            "2) Gaze",
+            "3) Gaze",
+            "4) Verbal"
+        ],
+        "metric_smaller_category": [
+            "1) Visual Attention",
+            "2) Visual Attention",
+            "3) Visual Attention",
+            "4) Speech Participation"
+        ],
+        "data_per_metric": [
+            "1) I",
+            "2) I",
+            "3) I",
+            "4) III"
+        ],
+        "outcome": [
+            "A) learning gains",
+            "(five posters, game on interactive display, gamified quiz - collaborative/competitive)",
+            "B) game performance"
+        ],
+        "outcome_instrument": [
+            "A1) pre test",
+            "A2) post test",
+            "A3) final post test",
+            "B) experience points"
+        ],
+        "outcome_smaller_category": [
+            "A) Learning"
+        ],
+        "outcome_larger_category": [
+            "A) product "
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-A1: correlation: sig ",
+            "1-A2: correlation: sig ",
+            "2-A2: correlation: sig ",
+            "2,4-A2: ANCOVA: sig "
+        ]
+    },
+    "82": {
+        "paper_id_new": 83,
+        "title": "A Multimodal Exploration of Engineering Students Emotions and Electrodermal Activity in Design Activities",
+        "year": 2018,
+        "authors": "Idalis Villanueva, Brett D. Campbell, Adam C. Raikes, Suzanne H. Jones, LeAnn G. Putney",
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "VI) wristband"
+        ],
+        "metric": [
+            "1) mean range-corrected EDA responses"
+        ],
+        "metric_larger_category": [
+            "1) Physiological"
+        ],
+        "metric_smaller_category": [
+            "1) EDA"
+        ],
+        "data_per_metric": [
+            "1) VI"
+        ],
+        "outcome": [
+            "A) topic emotions - negative",
+            "B) topic emotions - positive"
+        ],
+        "outcome_instrument": [
+            "A) pre post self report survey (Topic Emotions Scale)",
+            "B) pre post self report survey (Topic Emotions Scale)"
+        ],
+        "outcome_smaller_category": [
+            "A) cognitive?"
+        ],
+        "outcome_larger_category": [
+            "A) process?"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-A: corrleation: sig"
+        ]
+    },
+    "83": {
+        "paper_id_new": 84,
+        "title": "Multimodal, Multiparty Modeling of Collaborative Problem Solving Performance",
+        "year": 2020,
+        "authors": "Shree Krishna Subburaj, Angela E.B. Stewart, Arjun Ramesh Rao, Sidney K. D'Mello\n\n ",
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "I) eye-tracker",
+            "II) web camera",
+            "II) Emotient",
+            "III) headset"
+        ],
+        "metric": [
+            "1) gaze features (fixation dispersion, number of fixations and mean fixation duration, mean saccade amplitude, joint attention)",
+            "2) acoustic-prosodic information (fundamental frequency (pitch), loudness (energy), center frequency and amplitude of the first through third formants, harmonics to noise ratio, jitter, and shimmer)",
+            "3) facial features (face area, positive and negative valence, expressivity, face/upper body motion)",
+            "4) task content feature"
+        ],
+        "metric_larger_category": [
+            "1) Gaze",
+            "2) Verbal",
+            "3) Head",
+            "4) "
+        ],
+        "metric_smaller_category": [
+            "1) Visual Attention",
+            "2) Speech Features",
+            "3) Facial Expressions",
+            "4) Task Related"
+        ],
+        "data_per_metric": [
+            "1) I",
+            "2) III",
+            "3) III"
+        ],
+        "outcome": [
+            "A) task performance"
+        ],
+        "outcome_instrument": [
+            "A) AUROC"
+        ],
+        "outcome_smaller_category": [
+            "A) performance"
+        ],
+        "outcome_larger_category": [
+            "A) product"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1,2,3,4-A: AUROC=0.71",
+            "1-A: AUROC=0.62",
+            "2-A: AUROC=0.54",
+            "3-A: AUROC=0.61",
+            "4-A: AUROC=0.67"
+        ]
+    },
+    "84": {
+        "paper_id_new": 85,
+        "title": "Temporal analysis of multimodal data to predict collaborative learning outcomes",
+        "year": 2020,
+        "authors": "Jennifer K. Olsen, Kshitij Sharma, Nikol Rummel, Vincent Aleven\n",
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "I) eye-tracker ",
+            "III) microphone",
+            "V) NS"
+        ],
+        "metric": [
+            "1) Gaze",
+            "2) Entropy",
+            "3) Similarity",
+            "4) Cognitive load",
+            "5) Auto-correlation coefficient",
+            "6) Energy",
+            "7) Shape of envelope",
+            "8) Linear predictive coding",
+            "9) Dialog",
+            "10)  correct/incorrect/hint feedbacks"
+        ],
+        "metric_larger_category": [
+            "1) Gaze",
+            "2) Gaze",
+            "3) Gaze",
+            "4) Gaze",
+            "5) Verbal",
+            "6) Verbal",
+            "7) Verbal",
+            "8) Verbal",
+            "9) Verbal",
+            "10) Log Data",
+            ""
+        ],
+        "metric_smaller_category": [
+            "1) Visual Attention",
+            "2) Visua Attention",
+            "3) Visual Attention",
+            "4) Eye Physiology",
+            "5) Speech Features",
+            "6) Speech Features",
+            "7) Speech Features",
+            "8) Speech Features",
+            "9) Speech Content",
+            "10) Task Related"
+        ],
+        "data_per_metric": [
+            "1) I ",
+            "2) I",
+            "3) I",
+            "4) I",
+            "5) III",
+            "6) III",
+            "7) III",
+            "8) III",
+            "9) III",
+            "10) V"
+        ],
+        "outcome": [
+            "A) Learning gains"
+        ],
+        "outcome_instrument": [
+            "A)  pre -post test "
+        ],
+        "outcome_smaller_category": [
+            "A) Learning "
+        ],
+        "outcome_larger_category": [
+            "A) product"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "9 - A: correlation: sig",
+            "10 - A: correlation: sig",
+            "1- A: correlation: nonsig",
+            "2- A: correlation: nonsig",
+            "3-A: correlation: nonsig",
+            "4-A : correlation: nonsig",
+            "5-A: correlation: nonsig",
+            "6-A: correlation: nonsig",
+            "7-A: correlation: nonsig",
+            "8-A: correlation: nonsig",
+            ""
+        ]
+    },
+    "85": {
+        "paper_id_new": 86,
+        "title": "Collaboration on Procedural Problems May Support Conceptual Knowledge More than You May Think",
+        "year": 2014,
+        "authors": "Jennifer Olsen, Daniel Belenky,  Vincent Aleven, Nikol Rummel",
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "I) eye-tracker",
+            "III) computer audio chat",
+            "V) computer"
+        ],
+        "metric": [
+            "1) hint behavior",
+            "2) joint visual attention - collaboration quality",
+            "3) moments of good collaboration "
+        ],
+        "metric_larger_category": [
+            "1) Log Data",
+            "2) Gaze",
+            "3) Log Data"
+        ],
+        "metric_smaller_category": [
+            "1) Task Related",
+            "2) Visual Attention",
+            "3) Task Related"
+        ],
+        "data_per_metric": [
+            "1) V",
+            "2) I",
+            "3) III"
+        ],
+        "outcome": [
+            "A) learning gain",
+            ""
+        ],
+        "outcome_instrument": [
+            "A) computer-based isomorphic test forms"
+        ],
+        "outcome_smaller_category": [
+            "A) Learning "
+        ],
+        "outcome_larger_category": [
+            "A) product"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "2-A: correlation: sig",
+            "2-A: correlation: nosig"
+        ]
+    },
+    "86": {
+        "paper_id_new": 87,
+        "title": "An Application of Extreme Value Theory to Learning Analytics: Predicting Collaboration Outcome from Eye-Tracking Data",
+        "year": 2016,
+        "authors": "Kshitij Sharma, Valérie Chavez-Demoulin, Pierre Dillenbourg",
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "I) eye-tracker "
+        ],
+        "metric": [
+            "1) Gaze Visual Agitation",
+            "2) Gaze Spatial Entropy",
+            "3) Return Levels - EVT "
+        ],
+        "metric_larger_category": [
+            "1) Gaze",
+            "2) Gaze",
+            "3) Gaze"
+        ],
+        "metric_smaller_category": [
+            "1) Visual Attention",
+            "2) Visual Attention",
+            "3) Visual Attention"
+        ],
+        "data_per_metric": [
+            "1) I",
+            "2) I",
+            "3) I"
+        ],
+        "outcome": [
+            "A) quality of collaboration"
+        ],
+        "outcome_instrument": [
+            "A) scores based on comparing concept map with the map created by two experts"
+        ],
+        "outcome_smaller_category": [
+            "A) coordination"
+        ],
+        "outcome_larger_category": [
+            "A) process"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-A: ANOVA: nonsig",
+            "2-A: ANOVA: nonsig",
+            "2-A: correlation: nonsig"
+        ]
+    },
+    "87": {
+        "paper_id_new": 88,
+        "title": "Using Dual Eye-Tracking to Evaluate Students' Collaboration with an Intelligent Tutoring System for Elementary-Level Fractions",
+        "year": 2014,
+        "authors": "Daniel Belenky, Michael Ringenberg, Jennifer Olsen, Vincent Aleven, Nikol Rummel",
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "I) eye-tracker"
+        ],
+        "metric": [
+            "1) joint visual attention ",
+            "2) gaze recurrence "
+        ],
+        "metric_larger_category": [
+            "1) Gaze",
+            "2) Gaze"
+        ],
+        "metric_smaller_category": [
+            "1) Visual Attention",
+            "2) Visual Attention"
+        ],
+        "data_per_metric": [
+            "1) I ",
+            "2) I "
+        ],
+        "outcome": [
+            "A) learning gain - procedural test",
+            "B) learning gain - conceptual test"
+        ],
+        "outcome_instrument": [
+            "A) pre post test ",
+            "B) pre post test "
+        ],
+        "outcome_smaller_category": [
+            "A) Learning "
+        ],
+        "outcome_larger_category": [
+            "A) product"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-A: correlation: nonsig",
+            "1-B: correlation: sig"
+        ]
+    },
+    "88": {
+        "paper_id_new": 89,
+        "title": "Understanding Collaborative Program Comprehension: Interlacing Gaze and Dialogues\n",
+        "year": 2013,
+        "authors": "Kshitij Sharma, Patrick Jermann, Marc-Antoine Nüssli, Pierre Dillenbourg",
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "I) Eye-tracker ",
+            "III) NS",
+            ""
+        ],
+        "metric": [
+            "1) Gaze Episodes",
+            "2) Dialogue Episodes",
+            "3) Gaze Transitions"
+        ],
+        "metric_larger_category": [
+            "1) Gaze",
+            "2) Speech",
+            "3) Gaze"
+        ],
+        "metric_smaller_category": [
+            "1) Visual Attention",
+            "2) Speech Participation",
+            "3) Visual Attention"
+        ],
+        "data_per_metric": [
+            "1) I",
+            "2) III",
+            "3) I"
+        ],
+        "outcome": [
+            "A) Task performance - level of understanding "
+        ],
+        "outcome_instrument": [
+            "A) researcher coded"
+        ],
+        "outcome_smaller_category": [
+            "A) performance"
+        ],
+        "outcome_larger_category": [
+            "A) product"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1- A: ANOVA:sig",
+            ""
+        ]
+    },
+    "89": {
+        "paper_id_new": 90,
+        "title": "Many are the ways to learn identifying multi-modal behavioral profiles of collaborative learning in constructivist activities",
+        "year": 2021,
+        "authors": "Jauwairia Nasir, Aditi Kothiyal, Barbara Bruno, Pierre Dillenbourg",
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "II) Camera",
+            "III) Microphone",
+            "V) Log data"
+        ],
+        "metric": [
+            "1) Affective States",
+            "2) Speech",
+            "3) Task-context Features",
+            ""
+        ],
+        "metric_larger_category": [
+            "1) Gaze",
+            "2) Speech",
+            "3) "
+        ],
+        "metric_smaller_category": [
+            "1) Affective State",
+            "2) Speech",
+            "3) Text Features"
+        ],
+        "data_per_metric": [
+            "1) II",
+            "2) II",
+            "3) III",
+            "4) V",
+            ""
+        ],
+        "outcome": [
+            "A) Last error",
+            "B) Learning gain"
+        ],
+        "outcome_instrument": [
+            "A) performance score",
+            "B) pre-post test"
+        ],
+        "outcome_smaller_category": [
+            "A) performance",
+            "B) learning"
+        ],
+        "outcome_larger_category": [
+            "A) product",
+            "B) product"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-A: Kruskal-Wallis: nonsig",
+            "2-B: Kruskal-Wallis: sig (expressive explorers, silent wanderers)"
+        ]
+    },
+    "90": {
+        "paper_id_new": 91,
+        "title": "Looking To Understand: The Coupling Between Speakers’ and Listeners’ Eye Movements and Its Relationship to Discourse Comprehension",
+        "year": 2005,
+        "authors": "Daniel C. Richardsona, Rick Daleb",
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "I) Eye Tracker"
+        ],
+        "metric": [
+            "1) Eye Movement"
+        ],
+        "metric_larger_category": [
+            "1) Gaze"
+        ],
+        "metric_smaller_category": [
+            "1) Eye Motion"
+        ],
+        "data_per_metric": [
+            "1) I"
+        ],
+        "outcome": [
+            "A) Task performance"
+        ],
+        "outcome_instrument": [
+            "A) performance score"
+        ],
+        "outcome_smaller_category": [
+            "A) performance"
+        ],
+        "outcome_larger_category": [
+            "A) product",
+            ""
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-A: ANOVA: sig"
+        ]
+    },
+    "91": {
+        "paper_id_new": 92,
+        "title": "On the Same Wavelength: Exploring Team Neurosynchrony in Undergraduate Dyads Solving a Cyberlearning Problem With Collaborative Script",
+        "year": 2019,
+        "authors": "Robert Davis, Jiahui Wang, Mehmet Celepkolu",
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "VIII) EEG Sensor"
+        ],
+        "metric": [
+            "1) Brain synchrony"
+        ],
+        "metric_larger_category": [
+            "1) Physiological"
+        ],
+        "metric_smaller_category": [
+            "1) Brain"
+        ],
+        "data_per_metric": [
+            "1) VIII"
+        ],
+        "outcome": [
+            "A) collaborative problem-solving performance",
+            "B) collaborative problem-solving efficiency",
+            ""
+        ],
+        "outcome_instrument": [
+            "A) researcher coded",
+            "B) log data",
+            ""
+        ],
+        "outcome_smaller_category": [
+            "A) performance",
+            "B) coordination",
+            ""
+        ],
+        "outcome_larger_category": [
+            "A) product",
+            "B) process"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-A:positive correlation:sig",
+            "2-B:negative correlation: sig",
+            "",
+            ""
+        ]
+    },
+    "92": {
+        "paper_id_new": 93,
+        "title": "Automatically Recognizing Facial Indicators of Frustration: A Learning-centric Analysis",
+        "year": 2013,
+        "authors": "Joseph F. Grafsgaard, Joseph B. Wiggins, Kristy Elizabeth Boyer, Eric N. Wiebe, James C. Lester ",
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "IV) Kinect"
+        ],
+        "metric": [
+            "1) Posture Estimation",
+            "2) Hand-to-Face Gesture"
+        ],
+        "metric_larger_category": [
+            "1) Body",
+            "2) Body"
+        ],
+        "metric_smaller_category": [
+            "1) Gross Body Motion",
+            "2) Gross Body Motion"
+        ],
+        "data_per_metric": [
+            "1) IV",
+            "2) IV"
+        ],
+        "outcome": [
+            "A) learning gain",
+            ""
+        ],
+        "outcome_instrument": [
+            "A) pre post test",
+            ""
+        ],
+        "outcome_smaller_category": [
+            "A) cognitive load",
+            ""
+        ],
+        "outcome_larger_category": [
+            "A) product",
+            ""
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-A: negative correlation: sig (frustration level)"
+        ]
+    },
+    "93": {
+        "paper_id_new": 94,
+        "title": "The relationships between learner variables, tool-usage behaviour and performance",
+        "year": 2009,
+        "authors": "Lai Jiang, Jan Elen, Geraldine Clarebout",
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "V) Log Data"
+        ],
+        "metric": [
+            "1) Task-Context Features"
+        ],
+        "metric_larger_category": [
+            "1) Log Data"
+        ],
+        "metric_smaller_category": [
+            "1) Task Related"
+        ],
+        "data_per_metric": [
+            "1) V"
+        ],
+        "outcome": [
+            "A) Task performance"
+        ],
+        "outcome_instrument": [
+            "A) researcher coded"
+        ],
+        "outcome_smaller_category": [
+            "A) perspective",
+            "B) argument"
+        ],
+        "outcome_larger_category": [
+            "A) product",
+            "B) product"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-A:Wilcoxon Signed Ranks test: sig",
+            "1-B: Wilcoxon Signed Ranks test: sig"
+        ]
+    },
+    "94": {
+        "paper_id_new": 95,
+        "title": "Effects of Knowledge Interdependence with the Partner on Visual and Action Transactivity in Collaborative Concept Mapping",
+        "year": 2008,
+        "authors": "Gaëlle Molinari, Mirweis Sangin, Marc-Antoine Nüssli, & Pierre Dillenbourg",
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "I) Eye Tracker"
+        ],
+        "metric": [
+            "1) Concept map fixation time ratio",
+            "2) Number of concept-map eye-gaze transitions"
+        ],
+        "metric_larger_category": [
+            "1) Gaze"
+        ],
+        "metric_smaller_category": [
+            "1) Visual Attention"
+        ],
+        "data_per_metric": [
+            "1) I"
+        ],
+        "outcome": [
+            "A) Learning Measures",
+            ""
+        ],
+        "outcome_instrument": [
+            "A) questionnaire (individual level), research coded (dyad level)",
+            ""
+        ],
+        "outcome_smaller_category": [
+            "A) performance"
+        ],
+        "outcome_larger_category": [
+            "A) product"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1,2-A: negative correlation: sig (individual learning, knowledge equivalence)"
+        ]
+    },
+    "95": {
+        "paper_id_new": 96,
+        "title": "On the Same Wavelength: Exploring Team Neurosynchrony in Undergraduate Dyads Solving a Cyberlearning Problem With Collaborative Script",
+        "year": 2009,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "VIII) EEG Sensor"
+        ],
+        "metric": [
+            "1) Physiological Synchrony"
+        ],
+        "metric_larger_category": [
+            "1） physiology"
+        ],
+        "metric_smaller_category": [
+            "1）brain"
+        ],
+        "data_per_metric": [
+            "1) VIII"
+        ],
+        "outcome": [
+            "A) Collaborative problem-solving performance",
+            "B) Collaborative problem-solving efficiency"
+        ],
+        "outcome_instrument": [
+            "A) Researcher coded ",
+            "B) Log data"
+        ],
+        "outcome_smaller_category": [
+            "A) Performance ",
+            "B) performance",
+            ""
+        ],
+        "outcome_larger_category": [
+            "A) product        ",
+            "A) product"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-A: Positive Correlation: sig",
+            "1-B: Negative Correlation: sig"
+        ]
+    },
+    "96": {
+        "paper_id_new": 97,
+        "title": "The NISPI framework: Analysing collaborative problem-solving from students' physical interactions",
+        "year": 2008,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "II) camera"
+        ],
+        "metric": [
+            "1)physical interactivity"
+        ],
+        "metric_larger_category": [
+            "1）Body"
+        ],
+        "metric_smaller_category": [
+            "1）Gross Body motion"
+        ],
+        "data_per_metric": [
+            "1) II",
+            ""
+        ],
+        "outcome": [
+            "A)CPS competencies"
+        ],
+        "outcome_instrument": [
+            "A) researcher coded "
+        ],
+        "outcome_smaller_category": [
+            "A) performance"
+        ],
+        "outcome_larger_category": [
+            "A) product"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-A: anova:sig"
+        ]
+    },
+    "97": {
+        "paper_id_new": 98,
+        "title": "Many are the ways to learn identifying multi-modal behavioral profiles of collaborative learning in constructivist activities",
+        "year": 2021,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "II) camera",
+            "III) Microphone",
+            "V) Log data"
+        ],
+        "metric": [
+            "1) Affective States",
+            "2) Speech",
+            "3) Task- context",
+            "4) Gaze"
+        ],
+        "metric_larger_category": [
+            "1)Physiological",
+            "2)Verbal",
+            "3)Log",
+            "4) Gaze"
+        ],
+        "metric_smaller_category": [
+            "1) Affective",
+            "2) Speech",
+            "3) Task- related ",
+            "4) Gaze"
+        ],
+        "data_per_metric": [
+            "1) II",
+            "2) III",
+            "3) V",
+            "4) II"
+        ],
+        "outcome": [
+            "A) Learning gains ",
+            ""
+        ],
+        "outcome_instrument": [
+            "A) pre-post test ",
+            ""
+        ],
+        "outcome_smaller_category": [
+            "A) Learning "
+        ],
+        "outcome_larger_category": [
+            "A) product"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "2 - A: Kruskal-Wallis: sig ",
+            "1,2,3- A: sup. machine learning(0.89)"
+        ]
+    },
+    "98": {
+        "paper_id_new": 99,
+        "title": "Supervised machine learning in multimodal learning analytics\nfor estimating success in project-based learning",
+        "year": 2018,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "II)Camera",
+            "III) microphone",
+            "V)log"
+        ],
+        "metric": [
+            "II) NS III) NS V) Arduino IDE"
+        ],
+        "metric_larger_category": [
+            "1）Total number of faces looking toward the screen (FLLS)",
+            "2） Total number of connected Arduino components (IDEVHW) ",
+            "7） Mean distance between learners (DBL)",
+            "9)    measure of complexity (IDEX) "
+        ],
+        "metric_smaller_category": [
+            "None"
+        ],
+        "data_per_metric": [
+            "1) II ",
+            "2) V",
+            "3) II ",
+            "4) III",
+            "5）II",
+            "6）II",
+            "7）V",
+            "8）II",
+            "9)V"
+        ],
+        "outcome": [
+            "A）task performance"
+        ],
+        "outcome_instrument": [
+            "A) researcher coded "
+        ],
+        "outcome_smaller_category": [
+            "A) performance"
+        ],
+        "outcome_larger_category": [
+            "A) product"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "7,2,9,10-A: regression:sig(best result)"
+        ]
+    },
+    "99": {
+        "paper_id_new": 100,
+        "title": "Modelling Collaborative Problem-solving Competence with Transparent Learning Analytics: Is Video Data Enough?",
+        "year": 2020,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "II) Camera"
+        ],
+        "metric": [
+            "1) Metrics of frequency",
+            "2) Metrics of hands distance"
+        ],
+        "metric_larger_category": [
+            "1) Body",
+            "2) Body"
+        ],
+        "metric_smaller_category": [
+            "1) Hand 2) Hand"
+        ],
+        "data_per_metric": [
+            "1) II",
+            "2) II"
+        ],
+        "outcome": [
+            "A) CPS competence"
+        ],
+        "outcome_instrument": [
+            "A) Researcher coded "
+        ],
+        "outcome_smaller_category": [
+            "A) Collaboration"
+        ],
+        "outcome_larger_category": [
+            "A) Process"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1,2 - A: machine learning(0.75)"
+        ]
+    },
+    "100": {
+        "paper_id_new": 101,
+        "title": "An Integrated Observing Technic for Collaborative Learning: The Multimodal Learning Analytics Based on the Video Coding and EEG Data Mining",
+        "year": 2021,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "VIII) EEG"
+        ],
+        "metric": [
+            "1)mediation- anxiety level"
+        ],
+        "metric_larger_category": [
+            "1 ) physioloy"
+        ],
+        "metric_smaller_category": [
+            "1) brain"
+        ],
+        "data_per_metric": [
+            "1) VIII"
+        ],
+        "outcome": [
+            "A) Learning gains ",
+            ""
+        ],
+        "outcome_instrument": [
+            "A) researcher coded "
+        ],
+        "outcome_smaller_category": [
+            "A) Learning "
+        ],
+        "outcome_larger_category": [
+            "A) product"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-A: Mann-Whitney U and Kruskal-Wllis tests:sig"
+        ]
+    },
+    "101": {
+        "paper_id_new": 102,
+        "title": "Inter-brain synchrony in teams predicts collective performance",
+        "year": 2021,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "VIII) EEG sensor",
+            ""
+        ],
+        "metric": [
+            "1) Inter-brain synchrony "
+        ],
+        "metric_larger_category": [
+            "1） physiology"
+        ],
+        "metric_smaller_category": [
+            "1）brain"
+        ],
+        "data_per_metric": [
+            "1) VIII"
+        ],
+        "outcome": [
+            "A) tasks performance"
+        ],
+        "outcome_instrument": [
+            "A) mixed - researcher coded & tests"
+        ],
+        "outcome_smaller_category": [
+            "A)Performance"
+        ],
+        "outcome_larger_category": [
+            "A) Product"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-A: correlation: sig"
+        ]
+    },
+    "102": {
+        "paper_id_new": 103,
+        "title": "Eye gaze patterns in conversations: there is more to conversational agents than meets the eyes",
+        "year": 2001,
+        "authors": "Roel Vertegaal, Robert Slagter, Gerrit van der Veer, Anton Nijholt\n\n ",
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "I) Eye Tracker",
+            "III) Microphone"
+        ],
+        "metric": [
+            "1) Fixation",
+            "2) Phonemic clause"
+        ],
+        "metric_larger_category": [
+            "1) Gaze",
+            "2) Speech"
+        ],
+        "metric_smaller_category": [
+            "1) Visual Attention",
+            "2) Speech"
+        ],
+        "data_per_metric": [
+            "1) I",
+            "2) III"
+        ],
+        "outcome": [
+            "A) Conversational attention"
+        ],
+        "outcome_instrument": [
+            "A) researcher coded"
+        ],
+        "outcome_smaller_category": [
+            "A) attention"
+        ],
+        "outcome_larger_category": [
+            "A) process"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1,2-A: t-test: sig"
+        ]
+    },
+    "103": {
+        "paper_id_new": 104,
+        "title": "Another person's eye gaze as a cue in solving programming problems",
+        "year": 2004,
+        "authors": "Randy Stein, Susan E. Brennan\n\n ",
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "I) Eye Tracker"
+        ],
+        "metric": [
+            "1) Eye gaze trace"
+        ],
+        "metric_larger_category": [
+            "1) Gaze"
+        ],
+        "metric_smaller_category": [
+            "1) Eye Motion"
+        ],
+        "data_per_metric": [
+            "1) I"
+        ],
+        "outcome": [
+            "A) Performance"
+        ],
+        "outcome_instrument": [
+            "A) log data"
+        ],
+        "outcome_smaller_category": [
+            "A) performance"
+        ],
+        "outcome_larger_category": [
+            "B) product"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-A: ANOVA: sig"
+        ]
+    },
+    "104": {
+        "paper_id_new": 105,
+        "title": "Coordinating cognition: The costs and benefits of shared gaze during collaborative search",
+        "year": 2008,
+        "authors": "Susan E. Brennan, Xin Chen, Christopher A. Dickinson, Mark B. Neider, Gregory J. Zelinsky",
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "I) Eye Tracker",
+            "III) Microphone"
+        ],
+        "metric": [
+            "1) Shared gaze",
+            "2) Shared voice"
+        ],
+        "metric_larger_category": [
+            "1) Gaze",
+            "2) Speech"
+        ],
+        "metric_smaller_category": [
+            "1) Visual Attention",
+            "2) Speech"
+        ],
+        "data_per_metric": [
+            "1) I",
+            "2) III"
+        ],
+        "outcome": [
+            "A) Task performance"
+        ],
+        "outcome_instrument": [
+            "A) log data"
+        ],
+        "outcome_smaller_category": [
+            "A) performance"
+        ],
+        "outcome_larger_category": [
+            "A) product"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1,2-A: t-test: sig"
+        ]
+    },
+    "105": {
+        "paper_id_new": 106,
+        "title": "Analyzing and predicting focus of attention in remote collaborative tasks",
+        "year": 2005,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "V) Log Data"
+        ],
+        "metric": [
+            "1) task properties",
+            "2) people's actions",
+            "3) message content"
+        ],
+        "metric_larger_category": [
+            "1) log data",
+            "2) log data",
+            "3) log data"
+        ],
+        "metric_smaller_category": [
+            "1) task-related",
+            "2) task-related",
+            "3) task-related"
+        ],
+        "data_per_metric": [
+            "1) V",
+            "2) V",
+            "3) V"
+        ],
+        "outcome": [
+            "A) focus attention"
+        ],
+        "outcome_instrument": [
+            "A) log data"
+        ],
+        "outcome_smaller_category": [
+            "A) coordination"
+        ],
+        "outcome_larger_category": [
+            "A) process"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1, 2, 3-A: sup machine learning: 74.25%"
+        ]
+    },
+    "106": {
+        "paper_id_new": 107,
+        "title": "Gestural Communication over Video Stream: Supporting Multimodal Interaction for Remote Collaborative Physical Tasks",
+        "year": 2003,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "X) Digital pen"
+        ],
+        "metric": [
+            "1) gesture drawing on video feed"
+        ],
+        "metric_larger_category": [
+            "1) Body"
+        ],
+        "metric_smaller_category": [
+            "1) Gesture drawing"
+        ],
+        "data_per_metric": [
+            "1) X"
+        ],
+        "outcome": [
+            "A) Task performance"
+        ],
+        "outcome_instrument": [
+            "A) log data"
+        ],
+        "outcome_smaller_category": [
+            "A) collaboration"
+        ],
+        "outcome_larger_category": [
+            "A) process"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-A: ANOVA: sig"
+        ]
+    },
+    "107": {
+        "paper_id_new": 108,
+        "title": "Influencing social dynamics in meetings through a peripheral display\n",
+        "year": 2007,
+        "authors": "Janienke Sturm,  Olga Houben-van Herwijnen,  Anke Eyck, Jacques Terken\n\n",
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "None"
+        ],
+        "metric": [
+            "1) attention",
+            "2) speech"
+        ],
+        "metric_larger_category": [
+            "1) Gaze",
+            "2) Speech"
+        ],
+        "metric_smaller_category": [
+            "1) Visual Attention",
+            "2) Speaking Time"
+        ],
+        "data_per_metric": [
+            "1) I",
+            "2) III"
+        ],
+        "outcome": [
+            "A) quality of collaboration"
+        ],
+        "outcome_instrument": [
+            "A) log data"
+        ],
+        "outcome_smaller_category": [
+            "A) collaboration"
+        ],
+        "outcome_larger_category": [
+            "A) process"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-A: t-test: nonsig",
+            "2-A: t-test: sig"
+        ]
+    },
+    "108": {
+        "paper_id_new": 109,
+        "title": "A Look Is Worth a Thousand Words: Full Gaze Awareness in Video-Mediated Conversation",
+        "year": 2002,
+        "authors": "Andrew F. Monk , Caroline Gale",
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "II) camera"
+        ],
+        "metric": [
+            "1)  gaze awareness "
+        ],
+        "metric_larger_category": [
+            "1) Gaze"
+        ],
+        "metric_smaller_category": [
+            "1) Visual Attention"
+        ],
+        "data_per_metric": [
+            "1) I"
+        ],
+        "outcome": [
+            "A) Task Performance ",
+            "B) collaboration quality"
+        ],
+        "outcome_instrument": [
+            "A) log data",
+            "B) log data "
+        ],
+        "outcome_smaller_category": [
+            "A) performance ",
+            "B) collaboration",
+            ""
+        ],
+        "outcome_larger_category": [
+            "A) product",
+            "B) process "
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1- A: ANOVA: sig ",
+            "1- B: ANOVA: sig"
+        ]
+    },
+    "109": {
+        "paper_id_new": 110,
+        "title": "Recognizing communicative facial expressions for discovering interpersonal emotions in group meetings",
+        "year": 2009,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "II) camera"
+        ],
+        "metric": [
+            "1) facial expressions"
+        ],
+        "metric_larger_category": [
+            "1) Physiological"
+        ],
+        "metric_smaller_category": [
+            "1) Affective"
+        ],
+        "data_per_metric": [
+            "1) I"
+        ],
+        "outcome": [
+            "A) Emotion network"
+        ],
+        "outcome_instrument": [
+            "A) researcher coded "
+        ],
+        "outcome_smaller_category": [
+            "A) collaboration"
+        ],
+        "outcome_larger_category": [
+            "A) process"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-A unsup. machine learnig:sig "
+        ]
+    },
+    "110": {
+        "paper_id_new": 112,
+        "title": "Deixis and Gaze in Collaborative Work at a Distance (over a shared map): a\nComputational Model to Detect Misunderstandings",
+        "year": 2008,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "None"
+        ],
+        "metric": [
+            "None"
+        ],
+        "metric_larger_category": [
+            "None"
+        ],
+        "metric_smaller_category": [
+            "None"
+        ],
+        "data_per_metric": [
+            "None"
+        ],
+        "outcome": [
+            "None"
+        ],
+        "outcome_instrument": [
+            "None"
+        ],
+        "outcome_smaller_category": [
+            "None"
+        ],
+        "outcome_larger_category": [
+            "None"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "None"
+        ]
+    },
+    "111": {
+        "paper_id_new": 113,
+        "title": "Coordinating spatial referencing using shared gaze",
+        "year": 2010,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "I) eyetracker",
+            "III) microphone"
+        ],
+        "metric": [
+            "1) shared gaze",
+            "2) shared speech "
+        ],
+        "metric_larger_category": [
+            "1) Gaze",
+            "2) Speech "
+        ],
+        "metric_smaller_category": [
+            "1) visual attention",
+            "2) Speech Features"
+        ],
+        "data_per_metric": [
+            "1) I",
+            "2) III"
+        ],
+        "outcome": [
+            "A) task performance "
+        ],
+        "outcome_instrument": [
+            "A) log data "
+        ],
+        "outcome_smaller_category": [
+            "A) performance"
+        ],
+        "outcome_larger_category": [
+            "A) Product "
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1,2- A: t-test:sig "
+        ]
+    },
+    "112": {
+        "paper_id_new": 114,
+        "title": "Affective e-Learning: Using “Emotional” Data to Improve Learning in Pervasive Learning Environment",
+        "year": 2009,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "VIII) EEG sensor"
+        ],
+        "metric": [
+            "1) physiology",
+            "2) physiology",
+            "3) physiology",
+            "4) physiology",
+            ""
+        ],
+        "metric_larger_category": [
+            "1) physiology",
+            "2) physiology",
+            "3) physiology",
+            "4) physiology",
+            ""
+        ],
+        "metric_smaller_category": [
+            "1) brain",
+            "2) brain",
+            "3）brain",
+            "4）brain"
+        ],
+        "data_per_metric": [
+            "1) VIII",
+            "2) VII",
+            "3) VI",
+            "4) X"
+        ],
+        "outcome": [
+            "A) Affective states"
+        ],
+        "outcome_instrument": [
+            "A) self-report "
+        ],
+        "outcome_smaller_category": [
+            "A) Affective "
+        ],
+        "outcome_larger_category": [
+            "A) Process"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1,2,3,4 - A: machine learning: sig (86.30%)"
+        ]
+    },
+    "113": {
+        "paper_id_new": 118,
+        "title": "Multimodal Analysis of Group Attitudes Towards Meeting Management",
+        "year": 2018,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "III) Microphone"
+        ],
+        "metric": [
+            "1) Speech Features",
+            "2) Linguisitc features "
+        ],
+        "metric_larger_category": [
+            "1) Verbal",
+            "2) Verbal"
+        ],
+        "metric_smaller_category": [
+            "1) Speech features ",
+            "2) Speech features"
+        ],
+        "data_per_metric": [
+            "1) III",
+            "2) III"
+        ],
+        "outcome": [
+            "A) social impressions"
+        ],
+        "outcome_instrument": [
+            "A) self report"
+        ],
+        "outcome_smaller_category": [
+            "A) Collaboration"
+        ],
+        "outcome_larger_category": [
+            "A) Process"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1,2-A: sup.machine learning: sig(93%)"
+        ]
+    },
+    "114": {
+        "paper_id_new": 119,
+        "title": "Toward Open-Microphone Engagement\rfor Multiparty Interactions",
+        "year": 2006,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "III) Microphone"
+        ],
+        "metric": [
+            "1) speech features",
+            "2) speech features",
+            "3) speech style"
+        ],
+        "metric_larger_category": [
+            "1) Verbal",
+            "2) Verbal",
+            "3) Verbal"
+        ],
+        "metric_smaller_category": [
+            "1) Speech instructions",
+            "2) Adjacent utterances",
+            "3) Dialogue style"
+        ],
+        "data_per_metric": [
+            "1) III",
+            "2) III",
+            "3) III"
+        ],
+        "outcome": [
+            "A) amplitude difference",
+            "B) command usage"
+        ],
+        "outcome_instrument": [
+            "A) log data",
+            "B) researcher coded"
+        ],
+        "outcome_smaller_category": [
+            "A) Collaboration",
+            "B) Coordination"
+        ],
+        "outcome_larger_category": [
+            "A) Process",
+            "B) Product"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1,2,3-A: t-test: sig",
+            "1,2,3-B: t-test: sig",
+            ""
+        ]
+    },
+    "115": {
+        "paper_id_new": 120,
+        "title": "Evaluation of user gestures in multi-touch interaction: a case study in pair-programming",
+        "year": 2011,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "II) Camera"
+        ],
+        "metric": [
+            "1) Gesture fluency"
+        ],
+        "metric_larger_category": [
+            "1) Body"
+        ],
+        "metric_smaller_category": [
+            "1) Gesture fluency"
+        ],
+        "data_per_metric": [
+            "1) II"
+        ],
+        "outcome": [
+            "A) communicative intent "
+        ],
+        "outcome_instrument": [
+            "A) researcher coded"
+        ],
+        "outcome_smaller_category": [
+            "A) Collaboration"
+        ],
+        "outcome_larger_category": [
+            "A) Process "
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-A: ANOVA: sig",
+            ""
+        ]
+    },
+    "116": {
+        "paper_id_new": 121,
+        "title": "Towards Adapting Fantasy, Curiosity and Challenge in\nMultimodal Dialogue Systems for Preschoolers",
+        "year": 2009,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "III) Microphone"
+        ],
+        "metric": [
+            "1) speech features"
+        ],
+        "metric_larger_category": [
+            "1) Verbal"
+        ],
+        "metric_smaller_category": [
+            "1) speech usage"
+        ],
+        "data_per_metric": [
+            "1) III"
+        ],
+        "outcome": [
+            "A) task completion",
+            "B) fantasy levels"
+        ],
+        "outcome_instrument": [
+            "A) researcher coded",
+            "B) researcher coded"
+        ],
+        "outcome_smaller_category": [
+            "A) performance",
+            "B) affective"
+        ],
+        "outcome_larger_category": [
+            "A) Product ",
+            "B) process "
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-A: correlation: sig (r=0.406)",
+            "1-B: correlation: sig (r=0.224)"
+        ]
+    },
+    "117": {
+        "paper_id_new": 122,
+        "title": "Multimodal recognition of personality traits in social interactions\nAuthors\n",
+        "year": 2008,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "II) camera",
+            "III) Microphone",
+            ""
+        ],
+        "metric": [
+            "1) Gross body movements ",
+            "2) Speech Features "
+        ],
+        "metric_larger_category": [
+            "1) Body",
+            "2) Verbal"
+        ],
+        "metric_smaller_category": [
+            "1) Gross body motions",
+            "2) Speech features "
+        ],
+        "data_per_metric": [
+            "1)II",
+            "2)III"
+        ],
+        "outcome": [
+            "A) personality traits (five personality)"
+        ],
+        "outcome_instrument": [
+            "A) questionnaire"
+        ],
+        "outcome_smaller_category": [
+            "A) group composition"
+        ],
+        "outcome_larger_category": [
+            "A) Condition"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1,2- A:sup.machine learning:sig (90%)"
+        ]
+    },
+    "118": {
+        "paper_id_new": 123,
+        "title": "Modeling the Personality of Participants During Group Interactions",
+        "year": 2009,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "II) camera",
+            "III) Microphone",
+            ""
+        ],
+        "metric": [
+            "1) Gross body movements ",
+            "2) Speech Features "
+        ],
+        "metric_larger_category": [
+            "1) Body",
+            "2) Verbal"
+        ],
+        "metric_smaller_category": [
+            "1) Body",
+            "2) speech features "
+        ],
+        "data_per_metric": [
+            "1)II",
+            "2)III"
+        ],
+        "outcome": [
+            "A) personality traits (Extraversion and Locus of Control)"
+        ],
+        "outcome_instrument": [
+            "A) questionnaire"
+        ],
+        "outcome_smaller_category": [
+            "A) group composition"
+        ],
+        "outcome_larger_category": [
+            "A) Condition"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1,2- A:sup.machine learning:sig (90%)"
+        ]
+    },
+    "119": {
+        "paper_id_new": 124,
+        "title": "Automatic prediction of individual performance from\" thin slices\" of social behavior",
+        "year": 2009,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "II) camera",
+            "III) Microphone",
+            ""
+        ],
+        "metric": [
+            "1) Gross body movements",
+            " 2) Speech Features"
+        ],
+        "metric_larger_category": [
+            "1) Body",
+            "2) Verbal"
+        ],
+        "metric_smaller_category": [
+            "1) Body",
+            "2) Speech features "
+        ],
+        "data_per_metric": [
+            "1)II",
+            "2)III"
+        ],
+        "outcome": [
+            "A) task performance"
+        ],
+        "outcome_instrument": [
+            "A) researcher coded"
+        ],
+        "outcome_smaller_category": [
+            "A) Product "
+        ],
+        "outcome_larger_category": [
+            "A) Product "
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1,2-A:unsup:machine learning:50%"
+        ]
+    },
+    "120": {
+        "paper_id_new": 125,
+        "title": "Combining audio and video to predict helpers' focus of attention in multiparty remote collaboration on physical tasks",
+        "year": 2006,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "II) Camera",
+            "III) Microphone"
+        ],
+        "metric": [
+            "1) gross body movements",
+            "2) dialogue"
+        ],
+        "metric_larger_category": [
+            "1) Body",
+            "2) Verbal"
+        ],
+        "metric_smaller_category": [
+            "1) worker's actions",
+            "2) dialogue "
+        ],
+        "data_per_metric": [
+            "1) II",
+            "2) III"
+        ],
+        "outcome": [
+            "A) focus of attention"
+        ],
+        "outcome_instrument": [
+            "A) researcher coded"
+        ],
+        "outcome_smaller_category": [
+            "A) Collaboration"
+        ],
+        "outcome_larger_category": [
+            "A) process"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1,2-A: sup.machine learning: 81.79%"
+        ]
+    },
+    "121": {
+        "paper_id_new": 126,
+        "title": "Predicting remote versus collocated group interactions using nonverbal cues",
+        "year": 2009,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "III) Microphone"
+        ],
+        "metric": [
+            "1) Speaking Length",
+            "2) Speaking Turns",
+            "3) Successful Interruptions",
+            "4) Backchannels",
+            "5) Fraction of overlapped speech",
+            "6) Fraction of silence"
+        ],
+        "metric_larger_category": [
+            "1) Verbal",
+            "2) Verbal",
+            "3) Verbal",
+            "4) Verbal",
+            "5) Verbal",
+            "6) Verbal",
+            "7) Verbal"
+        ],
+        "metric_smaller_category": [
+            "1) speech features",
+            "2) speech features",
+            "3) speech features",
+            "4) speech features",
+            "5) speech features",
+            "6) speech features "
+        ],
+        "data_per_metric": [
+            "1) III",
+            "2) III",
+            "3) III",
+            "4) III",
+            "5) III",
+            "6) III"
+        ],
+        "outcome": [
+            "A) type of meeting (collocated or remote)",
+            "B) collocated meeting inference",
+            "C) remote member participation"
+        ],
+        "outcome_instrument": [
+            "A) log data",
+            "B) log data",
+            "C) log data"
+        ],
+        "outcome_smaller_category": [
+            "A) Group dynamics",
+            "B) Group dynamics",
+            "C) Group dynamics"
+        ],
+        "outcome_larger_category": [
+            "A) Condition",
+            "B) Condition",
+            "C) Condition"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "2-A: unsup.machine.learning: 70% (compared to 66% random performance)",
+            "2-B: unsup.machine.learning: 81% (compared to 33% random performance)",
+            "1-C: unsup.machine.learning: 50% (compared to 25% random performance)"
+        ]
+    },
+    "122": {
+        "paper_id_new": 127,
+        "title": "Reciprocal attentive communication in remote meeting with a humanoid robot",
+        "year": 2007,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "II) camera"
+        ],
+        "metric": [
+            "1) gaze frequency"
+        ],
+        "metric_larger_category": [
+            "1) Gaze"
+        ],
+        "metric_smaller_category": [
+            "1) gaze frequency"
+        ],
+        "data_per_metric": [
+            "1) II"
+        ],
+        "outcome": [
+            "A) conversational attention"
+        ],
+        "outcome_instrument": [
+            "A) questionnaire"
+        ],
+        "outcome_smaller_category": [
+            "A) attention"
+        ],
+        "outcome_larger_category": [
+            "A) Process"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-A: Tukey’s HSD test: sig"
+        ]
+    },
+    "123": {
+        "paper_id_new": 128,
+        "title": "Estimating focus of attention based on gaze and sound",
+        "year": 2001,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "II) camera",
+            "III) Microphone"
+        ],
+        "metric": [
+            "1) gaze focus ",
+            "2) sound focus"
+        ],
+        "metric_larger_category": [
+            "1) Gaze",
+            "2) Verbal"
+        ],
+        "metric_smaller_category": [
+            "1) Visual Attention ",
+            "2) speech features "
+        ],
+        "data_per_metric": [
+            "1) II",
+            "2) III"
+        ],
+        "outcome": [
+            "A) focus of attention"
+        ],
+        "outcome_instrument": [
+            "A) researcher coded "
+        ],
+        "outcome_smaller_category": [
+            "A) Group dynamics"
+        ],
+        "outcome_larger_category": [
+            "A) Process"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1,2- A: sup. machine learning: 74.8%"
+        ]
+    },
+    "124": {
+        "paper_id_new": 129,
+        "title": "Gaze quality assisted automatic recognition of social contexts in collaborative Tetris",
+        "year": 2010,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "I) Eye Tracker",
+            "V) application"
+        ],
+        "metric": [
+            "1) gaze fixations",
+            "2) gaze saccades",
+            "3) task actions"
+        ],
+        "metric_larger_category": [
+            "1)Gaze",
+            "2)Gaze",
+            "3) Log"
+        ],
+        "metric_smaller_category": [
+            "1) Visual Attention",
+            "2) Eye Motion",
+            "3) task-related "
+        ],
+        "data_per_metric": [
+            "1) I ",
+            "2) I",
+            "3) V"
+        ],
+        "outcome": [
+            "A) group contexts "
+        ],
+        "outcome_instrument": [
+            "A) researcher coded "
+        ],
+        "outcome_smaller_category": [
+            "A) Group dynamics"
+        ],
+        "outcome_larger_category": [
+            "A) Process"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1,2,3 - sup. machine learning: sig: 81.43%"
+        ]
+    },
+    "125": {
+        "paper_id_new": 131,
+        "title": "Putting the Pieces Together: Multimodal Analysis of Social Attention in Meetings",
+        "year": 2010,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "II) Camera",
+            "III) Microphone"
+        ],
+        "metric": [
+            "1) eye gaze directions",
+            "2) head movements",
+            "3) speech features"
+        ],
+        "metric_larger_category": [
+            "1) Gaze",
+            "2) Body",
+            "3) Verbal"
+        ],
+        "metric_smaller_category": [
+            "1) visual attention",
+            "2) hand motions",
+            "3) speech features",
+            ""
+        ],
+        "data_per_metric": [
+            "1) I",
+            "2) II",
+            "3) III"
+        ],
+        "outcome": [
+            "A) focus of attention "
+        ],
+        "outcome_instrument": [
+            "A) researcher coded "
+        ],
+        "outcome_smaller_category": [
+            "A) Coordination"
+        ],
+        "outcome_larger_category": [
+            "A) Process"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1,2,3 -A: sup.machine learning:sig: 94.6%"
+        ]
+    },
+    "126": {
+        "paper_id_new": 132,
+        "title": "Modeling focus of attention for meeting indexing",
+        "year": 1999,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "II) Camera",
+            "XI) Motion detecting sensor "
+        ],
+        "metric": [
+            "1) eye gaze directions ",
+            "2) head movements"
+        ],
+        "metric_larger_category": [
+            "1) Gaze",
+            "2) Body"
+        ],
+        "metric_smaller_category": [
+            "1) visual attention ",
+            "2)head motions "
+        ],
+        "data_per_metric": [
+            "1) I ",
+            "2) IV"
+        ],
+        "outcome": [
+            "A) focus of attention "
+        ],
+        "outcome_instrument": [
+            "A) researcher coded",
+            ""
+        ],
+        "outcome_smaller_category": [
+            "A) coordination"
+        ],
+        "outcome_larger_category": [
+            "A) process"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1,2- A: sup. machine learning: 93%"
+        ]
+    },
+    "127": {
+        "paper_id_new": 133,
+        "title": "Modeling focus of attention for meeting indexing based on multiple cues",
+        "year": 2002,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "II) Camera",
+            "III) Microphone",
+            "XI) Motion detecting sensor "
+        ],
+        "metric": [
+            "1) eye gaze directions ",
+            "2) head movements",
+            "3) Speech features"
+        ],
+        "metric_larger_category": [
+            "1) Gaze",
+            "2) Body",
+            "3) Verbal"
+        ],
+        "metric_smaller_category": [
+            "1) visual attention ",
+            "2)head motions ",
+            ""
+        ],
+        "data_per_metric": [
+            "1) I ",
+            "2) IV"
+        ],
+        "outcome": [
+            "A) focus of attention "
+        ],
+        "outcome_instrument": [
+            "A) researcher coded",
+            ""
+        ],
+        "outcome_smaller_category": [
+            "A) coordination"
+        ],
+        "outcome_larger_category": [
+            "A) process"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1,2,3- A: sup.machine learning: 76%"
+        ]
+    },
+    "128": {
+        "paper_id_new": 134,
+        "title": "Mediated attention with multimodal augmented reality",
+        "year": 2009,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "I) Eye Tracker"
+        ],
+        "metric": [
+            "1) reaction time"
+        ],
+        "metric_larger_category": [
+            "1) Gaze"
+        ],
+        "metric_smaller_category": [
+            "1) visual attention ",
+            "2) head motions ",
+            "3) speech features "
+        ],
+        "data_per_metric": [
+            "1) I"
+        ],
+        "outcome": [
+            "A) search time",
+            "B) error rate"
+        ],
+        "outcome_instrument": [
+            "A) log data",
+            "B) researcher coded"
+        ],
+        "outcome_smaller_category": [
+            "A) attention",
+            "B) performance"
+        ],
+        "outcome_larger_category": [
+            "A) Process",
+            "B) Product"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-A: t-test: sig",
+            "1-B: t-test: sig"
+        ]
+    },
+    "129": {
+        "paper_id_new": 135,
+        "title": "Implicit user-adaptive system engagement in speech and pen interfaces",
+        "year": 2008,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "III) Microphone",
+            "V) Digital Pen"
+        ],
+        "metric": [
+            "1) speech amplitude",
+            "2) pen pressure"
+        ],
+        "metric_larger_category": [
+            "1) Verbal",
+            "2) Log Data"
+        ],
+        "metric_smaller_category": [
+            "1) speech features",
+            "2) body motions"
+        ],
+        "data_per_metric": [
+            "1) III",
+            "2) IV"
+        ],
+        "outcome": [
+            "A) task performance"
+        ],
+        "outcome_instrument": [
+            "A) research coded"
+        ],
+        "outcome_smaller_category": [
+            "A) performance"
+        ],
+        "outcome_larger_category": [
+            "A) Product"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-A: t-test: sig",
+            "2-A: t-test: nonsig"
+        ]
+    },
+    "130": {
+        "paper_id_new": 136,
+        "title": "Gaze-communicative behavior of stuffed-toy robot with joint attention and eye contact based on ambient gaze-tracking",
+        "year": 2007,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "I) Eye Tracker"
+        ],
+        "metric": [
+            "1) reaction to eye contact",
+            "2) user-initiative joint attention"
+        ],
+        "metric_larger_category": [
+            "1) Gaze",
+            "2) Gaze"
+        ],
+        "metric_smaller_category": [
+            "1) visual attention",
+            "2) visual attention"
+        ],
+        "data_per_metric": [
+            "1) I",
+            "2) I"
+        ],
+        "outcome": [
+            "A) subconscious interest",
+            "B) favorable feeling"
+        ],
+        "outcome_instrument": [
+            "A) self report",
+            "B) self report"
+        ],
+        "outcome_smaller_category": [
+            "A) engagement",
+            "B) interpersonal relationship",
+            ""
+        ],
+        "outcome_larger_category": [
+            "A) Process",
+            "B) Process"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-A: t-test: sig",
+            "2-B: t-test: sig"
+        ]
+    },
+    "131": {
+        "paper_id_new": 137,
+        "title": "Multi-party focus of attention recognition in meetings from head pose and multimodal contextual cues",
+        "year": 2008,
+        "authors": "Sileye O. Ba; Jean-Marc Odobez",
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "III)Microphone",
+            "II) Camera",
+            "V) Log "
+        ],
+        "metric": [
+            "1) speech features ",
+            "2) head rotations ",
+            "3) slide data "
+        ],
+        "metric_larger_category": [
+            "1) Verbal",
+            "2) Body ",
+            "3) Log Data"
+        ],
+        "metric_smaller_category": [
+            "1) speech features",
+            "2) head motions ",
+            "3) Task- related "
+        ],
+        "data_per_metric": [
+            "1) III",
+            "2) IV",
+            "3) V"
+        ],
+        "outcome": [
+            "A) focus of attention "
+        ],
+        "outcome_instrument": [
+            "A) researcher coded",
+            ""
+        ],
+        "outcome_smaller_category": [
+            "A) coordination"
+        ],
+        "outcome_larger_category": [
+            "A) process"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1,2,3 - A: unsup.machine learning: 46.7%"
+        ]
+    },
+    "132": {
+        "paper_id_new": 138,
+        "title": "Multimodal Real-Time Focus of Attention Estimation in SmartRooms",
+        "year": 2008,
+        "authors": "C. Canton-Ferrer, C. Segura, M. Pardas, J.R. Casas, J. Hernando",
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "IV) Camera"
+        ],
+        "metric": [
+            "1) head rotation"
+        ],
+        "metric_larger_category": [
+            "1) Body"
+        ],
+        "metric_smaller_category": [
+            "1) head motions"
+        ],
+        "data_per_metric": [
+            "1) IV"
+        ],
+        "outcome": [
+            "A) focus of attention "
+        ],
+        "outcome_instrument": [
+            "A) researcher coded",
+            ""
+        ],
+        "outcome_smaller_category": [
+            "A) coordination"
+        ],
+        "outcome_larger_category": [
+            "A) process"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-A: unsup.machine learning: 85%"
+        ]
+    },
+    "133": {
+        "paper_id_new": 139,
+        "title": "Coordination of Communication: Effects of Shared Visual\nContext on Collaborative Work",
+        "year": 2000,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "II) Camera",
+            "III) Audio"
+        ],
+        "metric": [
+            "1) gesture",
+            "2) communication quality"
+        ],
+        "metric_larger_category": [
+            "1) Body",
+            "2) Verbal"
+        ],
+        "metric_smaller_category": [
+            "1) gross body motion",
+            "2) speech participation"
+        ],
+        "data_per_metric": [
+            "1) II",
+            "2) III"
+        ],
+        "outcome": [
+            "A) task performance"
+        ],
+        "outcome_instrument": [
+            "A) researcher coded"
+        ],
+        "outcome_smaller_category": [
+            "A) performance"
+        ],
+        "outcome_larger_category": [
+            "A) Product"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-A: ANOVA: nonsig",
+            "2-A: ANOVA: nonsig"
+        ]
+    },
+    "134": {
+        "paper_id_new": 140,
+        "title": "Effects\rof head-mounted and scene-oriented video systems on\rremote collaboration on physical tasks",
+        "year": 2003,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "I) Eye Tracker"
+        ],
+        "metric": [
+            "1) focus of attention"
+        ],
+        "metric_larger_category": [
+            "1) Gaze"
+        ],
+        "metric_smaller_category": [
+            "1) visual attention"
+        ],
+        "data_per_metric": [
+            "1) I"
+        ],
+        "outcome": [
+            "A) task performance",
+            "B) quality of assistance",
+            "C) communication efficiency"
+        ],
+        "outcome_instrument": [
+            "A) log data",
+            "B) questionnaire",
+            "C) "
+        ],
+        "outcome_smaller_category": [
+            "A) performance",
+            "B) coordination",
+            "C) coordination"
+        ],
+        "outcome_larger_category": [
+            "A) Product",
+            "B) Process",
+            "C) Process"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-A: ANOVA: sig",
+            "1-B: ANOVA: sig",
+            "1-C: ANOVA: sig"
+        ]
+    },
+    "135": {
+        "paper_id_new": 141,
+        "title": "RemoteCoDe: Robotic Embodiment for Enhancing Peripheral\nAwareness in Remote Collaboration Tasks",
+        "year": 2022,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "IV) Camera"
+        ],
+        "metric": [
+            "1) head rotation"
+        ],
+        "metric_larger_category": [
+            "1) Body"
+        ],
+        "metric_smaller_category": [
+            "1) head motions"
+        ],
+        "data_per_metric": [
+            "1) IV"
+        ],
+        "outcome": [
+            "A) peripheral awareness",
+            ""
+        ],
+        "outcome_instrument": [
+            "A) researcher coded",
+            ""
+        ],
+        "outcome_smaller_category": [
+            "A) coordination",
+            ""
+        ],
+        "outcome_larger_category": [
+            "A) Process",
+            ""
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-A: t-test: sig",
+            ""
+        ]
+    },
+    "136": {
+        "paper_id_new": 142,
+        "title": "EEG in classroom: EMD features to detect situational interest of students during learning",
+        "year": 2018,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "VIII) EEG sensor",
+            ""
+        ],
+        "metric": [
+            "1) brain waves patterns "
+        ],
+        "metric_larger_category": [
+            "1) physiology"
+        ],
+        "metric_smaller_category": [
+            "1）brain"
+        ],
+        "data_per_metric": [
+            "1) VIII"
+        ],
+        "outcome": [
+            "A) Situational Interest "
+        ],
+        "outcome_instrument": [
+            "A) questionnaire"
+        ],
+        "outcome_smaller_category": [
+            "A) coordination"
+        ],
+        "outcome_larger_category": [
+            "A) process"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-A: sup.machine learning: 93.3%"
+        ]
+    },
+    "137": {
+        "paper_id_new": 143,
+        "title": "Speakers’ eye gaze disambiguates referring expressions early during face-to-face conversation",
+        "year": 2007,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "I) Eye Tracker"
+        ],
+        "metric": [
+            "1) eye movements"
+        ],
+        "metric_larger_category": [
+            "1) Gaze"
+        ],
+        "metric_smaller_category": [
+            "1) visual attention"
+        ],
+        "data_per_metric": [
+            "1) I"
+        ],
+        "outcome": [
+            "A) early disambiguation",
+            "B) orienting effect"
+        ],
+        "outcome_instrument": [
+            "A) log data",
+            "B) researcher coded"
+        ],
+        "outcome_smaller_category": [
+            "A) communication",
+            "B) coordination "
+        ],
+        "outcome_larger_category": [
+            "A) Process",
+            "B) Process"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-A: ANOVA: sig",
+            "1-B: t-test: sig"
+        ]
+    },
+    "138": {
+        "paper_id_new": 144,
+        "title": "Meeting mediator: enhancing group collaboration with sociometric feedback",
+        "year": 2008,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "III) Microphone"
+        ],
+        "metric": [
+            "1) speech time"
+        ],
+        "metric_larger_category": [
+            "1) Verbal"
+        ],
+        "metric_smaller_category": [
+            "1) speech features"
+        ],
+        "data_per_metric": [
+            "1) III"
+        ],
+        "outcome": [
+            "A) speaking dynamics",
+            "B) group interactivity level",
+            "C) distraction level"
+        ],
+        "outcome_instrument": [
+            "A) log data",
+            "B) researcher coded",
+            "C) researcher coded"
+        ],
+        "outcome_smaller_category": [
+            "A) group dynamics",
+            "B) engagement",
+            "C) engagement"
+        ],
+        "outcome_larger_category": [
+            "A) Process",
+            "B) Process",
+            "C) Process"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-A: ANOVA: sig",
+            "1-B: ANOVA: sig",
+            "1-C: ANOVA: sig"
+        ]
+    },
+    "139": {
+        "paper_id_new": 145,
+        "title": "Using Audio and Video Features to Classify the Most\nDominant Person in a Group Meeting",
+        "year": 2007,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "III) Microphone",
+            "IV) Camera"
+        ],
+        "metric": [
+            "1) speaking length",
+            "2) speaking energy",
+            "3) motion activity"
+        ],
+        "metric_larger_category": [
+            "1) Verbal",
+            "2) Verbal",
+            "3) Body"
+        ],
+        "metric_smaller_category": [
+            "1) speech features",
+            "2) speech features",
+            "3) gross body motion"
+        ],
+        "data_per_metric": [
+            "1) III",
+            "2) III",
+            "3) IV"
+        ],
+        "outcome": [
+            "A) perceived dominance"
+        ],
+        "outcome_instrument": [
+            "A) researcher coded"
+        ],
+        "outcome_smaller_category": [
+            "A) group dynamics"
+        ],
+        "outcome_larger_category": [
+            "A) Process"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-A: sup. machine learning: 85%",
+            "1-B: sup. machine learning: 82%",
+            "1-C: sup. machine learning: 62%"
+        ]
+    },
+    "140": {
+        "paper_id_new": 146,
+        "title": "Visual focus of attention estimation from head pose posterior probability distributions",
+        "year": 2008,
+        "authors": "Sileye O. Ba; Jean Marc Odobez",
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "II) Camera"
+        ],
+        "metric": [
+            "1) head pose"
+        ],
+        "metric_larger_category": [
+            "1) Body"
+        ],
+        "metric_smaller_category": [
+            "1) head motions"
+        ],
+        "data_per_metric": [
+            "1) IV"
+        ],
+        "outcome": [
+            "A) focus of attention "
+        ],
+        "outcome_instrument": [
+            "A) researcher coded",
+            ""
+        ],
+        "outcome_smaller_category": [
+            "A) coordination"
+        ],
+        "outcome_larger_category": [
+            "A) process"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-A: unsup.machine learning:53.6%"
+        ]
+    },
+    "141": {
+        "paper_id_new": 147,
+        "title": "Towards High-Level Human Activity Recognition through Computer Vision and Temporal Logic",
+        "year": 2010,
+        "authors": "Joris Ijsselmuiden, Rainer Stiefelhagen",
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "II) Camera",
+            "III) Microphone",
+            "IV) Camera"
+        ],
+        "metric": [
+            "1) focus of attention",
+            "2) gestures",
+            "3) speech features "
+        ],
+        "metric_larger_category": [
+            "1) Gaze",
+            "2) Body",
+            "3) Verbal"
+        ],
+        "metric_smaller_category": [
+            "1) visual attention",
+            "2) gross body motion",
+            "3) speech features "
+        ],
+        "data_per_metric": [
+            "1) II",
+            "2) IV",
+            "3) III"
+        ],
+        "outcome": [
+            "A) group activity"
+        ],
+        "outcome_instrument": [
+            "A)researcher coded"
+        ],
+        "outcome_smaller_category": [
+            "A) group dynamics"
+        ],
+        "outcome_larger_category": [
+            "A) process"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1,2,3- A: unsup.machine learning: 74.4%"
+        ]
+    },
+    "142": {
+        "paper_id_new": 148,
+        "title": "Biosignals reflect pair-dynamics in collaborative work: EDA and ECG study of pair-programming in a classroom environmen",
+        "year": 2018,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "VI) wearable sensor",
+            "VII) wearable sensor"
+        ],
+        "metric": [
+            "1) Social Physiological Compliance (SPC)"
+        ],
+        "metric_larger_category": [
+            "1) Physiology",
+            ""
+        ],
+        "metric_smaller_category": [
+            "1) combined"
+        ],
+        "data_per_metric": [
+            "1) VI& VII"
+        ],
+        "outcome": [
+            "A) task performance"
+        ],
+        "outcome_instrument": [
+            "A) log data "
+        ],
+        "outcome_smaller_category": [
+            "A) performance"
+        ],
+        "outcome_larger_category": [
+            "A) product"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-A:minimum-width envelope: sig",
+            ""
+        ]
+    },
+    "143": {
+        "paper_id_new": 149,
+        "title": "Toward Automated Detection of Phase Changes in Team Collaboration\n",
+        "year": 2022,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "III) Microphone"
+        ],
+        "metric": [
+            "1) speech features"
+        ],
+        "metric_larger_category": [
+            "1) Verbal"
+        ],
+        "metric_smaller_category": [
+            "1) speech features"
+        ],
+        "data_per_metric": [
+            "1) III"
+        ],
+        "outcome": [
+            "A) team coordination"
+        ],
+        "outcome_instrument": [
+            "A) researcuer coded"
+        ],
+        "outcome_smaller_category": [
+            "A)coordination"
+        ],
+        "outcome_larger_category": [
+            "A) process"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1- A:sup.machine learning: 40%"
+        ]
+    },
+    "144": {
+        "paper_id_new": 150,
+        "title": "Modeling people's focus of attention",
+        "year": 1999,
+        "authors": "R. Stiefelhagen; Jie Yang; A. Waibel",
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "IV) Camera"
+        ],
+        "metric": [
+            "1) head rotation"
+        ],
+        "metric_larger_category": [
+            "1) Body"
+        ],
+        "metric_smaller_category": [
+            "1) head motions"
+        ],
+        "data_per_metric": [
+            "1) IV"
+        ],
+        "outcome": [
+            "A) focus of attention "
+        ],
+        "outcome_instrument": [
+            "A) researcher coded",
+            ""
+        ],
+        "outcome_smaller_category": [
+            "A) coordination"
+        ],
+        "outcome_larger_category": [
+            "A) process"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-A: unsup.machine learning: 93%"
+        ]
+    },
+    "145": {
+        "paper_id_new": 151,
+        "title": "Social\u0001physiological compliance as a determinant of team performance",
+        "year": 2001,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "VI) Wearable sensor, Wristband",
+            "VII) ECG",
+            "?) "
+        ],
+        "metric": [
+            "1) Physiological Compliance "
+        ],
+        "metric_larger_category": [
+            "1) Physiology"
+        ],
+        "metric_smaller_category": [
+            "1) Physiological Compliance"
+        ],
+        "data_per_metric": [
+            "1) VI, VII, ?"
+        ],
+        "outcome": [
+            "A) task completion time",
+            "B) collision damage",
+            "C) team coordination"
+        ],
+        "outcome_instrument": [
+            "A) log data",
+            "B) researcher coded",
+            "C) researcher coded"
+        ],
+        "outcome_smaller_category": [
+            "A) performance",
+            "B) performance",
+            "C) coordination"
+        ],
+        "outcome_larger_category": [
+            "A) product",
+            "B) product",
+            "C) process"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1-A: regression: sig",
+            "1-B: regression: nonsig",
+            "1-C: regression: nonsig"
+        ]
+    },
+    "146": {
+        "paper_id_new": 152,
+        "title": "Modelling Symmetry of Activity as an Indicator of Collocated Group Collaboration",
+        "year": 2011,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "III) Microphone",
+            "V) Log Data"
+        ],
+        "metric": [
+            "1) verbal participation",
+            "2) physical participation"
+        ],
+        "metric_larger_category": [
+            "1) Verbal",
+            "2) Log"
+        ],
+        "metric_smaller_category": [
+            "1) speech features",
+            "2) physical participation"
+        ],
+        "data_per_metric": [
+            "1) III",
+            "2) V"
+        ],
+        "outcome": [
+            "A) group collaboration level"
+        ],
+        "outcome_instrument": [
+            "A) researcher coded",
+            ""
+        ],
+        "outcome_smaller_category": [
+            "A) collaboration"
+        ],
+        "outcome_larger_category": [
+            "A) process"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1,2-A: unsup.machine learning: 60%"
+        ]
+    },
+    "147": {
+        "paper_id_new": 153,
+        "title": "Estimating conversational dominance in multiparty interaction\n",
+        "year": 2012,
+        "authors": null,
+        "data_standardized": [
+            "None"
+        ],
+        "sensor": [
+            "I) Eye Tracker",
+            "III) Microphone"
+        ],
+        "metric": [
+            "1) amount of eye gaze at others",
+            "2) amount of mutual gaze",
+            "3) amount of speech",
+            "4) breaking a silence"
+        ],
+        "metric_larger_category": [
+            "1) Gaze",
+            "2) Gaze",
+            "3) Verbal",
+            "4) Verbal"
+        ],
+        "metric_smaller_category": [
+            "1) visual attention",
+            "2) visual attention",
+            "3) speech features",
+            "4) speech particpation"
+        ],
+        "data_per_metric": [
+            "1) I",
+            "2) I",
+            "3) III",
+            "4) III"
+        ],
+        "outcome": [
+            "A) Conversational dominance"
+        ],
+        "outcome_instrument": [
+            "A) questionnaire"
+        ],
+        "outcome_smaller_category": [
+            "A) group dynamics"
+        ],
+        "outcome_larger_category": [
+            "A) process"
+        ],
+        "analysis_and_results mm-oo:analysis:resultsig": [
+            "1,2,3,4: regression: sig"
         ]
     }
 }

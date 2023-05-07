@@ -36,7 +36,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: t-test: sig (t[38] = 2.18)"
-        ]
+        ],
+        "Citations": 144,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=An+Interactive+Table+for+Supporting+Participation+Balance+in+Face-to-Face+Collaborative+Learning&btnG="
     },
     "1": {
         "paper_id_new": 2,
@@ -95,7 +97,9 @@
             "1,2-A: anova: sig",
             "1,2-A,B: mixed linear model: sig",
             "4-B: anova: sig"
-        ]
+        ],
+        "Citations": 53,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Understanding+collaborative+program+comprehension:+Interlacing+gaze+and+dialogues&btnG="
     },
     "2": {
         "paper_id_new": 3,
@@ -151,7 +155,9 @@
             "1-B:regression: sig",
             "1-C:regression: sig",
             "1-D:regression: sig"
-        ]
+        ],
+        "Citations": 93,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Physiological+Linkage+of+Dyadic+Gaming+Experience&btnG="
     },
     "3": {
         "paper_id_new": 4,
@@ -213,7 +219,9 @@
             "2-B : correlation : sig",
             "1,2,3-A : regression: nonsig",
             "1,2,3-B : regression: nonsig"
-        ]
+        ],
+        "Citations": 20,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=A+Multimodal-Sensor-Enabled+Room+for+Unobtrusive+Group+Meeting+Analysis&btnG="
     },
     "4": {
         "paper_id_new": 5,
@@ -258,7 +266,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2-A: correlation: sig (r=0.663)"
-        ]
+        ],
+        "Citations": 32,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Are+we+together+or+not?+The+temporal+interplay+of+monitoring,+physiological+arousal+and+physiological+synchrony+during+a+collaborative+exam&btnG="
     },
     "5": {
         "paper_id_new": 6,
@@ -340,7 +350,9 @@
             "1,2-A:regression:sig",
             "2,3-B:regression:sig",
             "2-C:regression:sig"
-        ]
+        ],
+        "Citations": 60,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Linking+Speaking+and+Looking+Behavior+Patterns+with+Group+Composition,+Perception,+and+Performance&btnG="
     },
     "6": {
         "paper_id_new": 7,
@@ -403,7 +415,9 @@
             "1,2,3,4-A:sup. machine learning: nonsig",
             "1,3,3,4-B:sup. machine learning: nonsig",
             "1,2,3,4-C:sup. machine learning: nonsig"
-        ]
+        ],
+        "Citations": 12,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Automatic+Recognition+of+Affective+Laughter+in+Spontaneous+Dyadic+Interactions+from+Audiovisual+Signals&btnG="
     },
     "7": {
         "paper_id_new": 8,
@@ -446,7 +460,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2-A: sup. machine learning: 64.4"
-        ]
+        ],
+        "Citations": 41,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Predicting+Group+Performance+in+Task-Based+Interaction&btnG="
     },
     "8": {
         "paper_id_new": 9,
@@ -495,7 +511,9 @@
             "1-A: correlation: sig (r = 0.51)",
             "2-A: correlation: sig (r = 0.41)",
             "3-A: correlation: sig (r = 0.39)"
-        ]
+        ],
+        "Citations": 38,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Looking+AT+versus+Looking+THROUGH:+A+Dual+Eye-tracking+Study+in+MOOC+Context&btnG="
     },
     "9": {
         "paper_id_new": 10,
@@ -538,7 +556,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2-A:correlation: nonsig"
-        ]
+        ],
+        "Citations": 27,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=A+Network+Analytic+Approach+to+Gaze+Coordination+during+a+Collaborative+Task&btnG="
     },
     "10": {
         "paper_id_new": 11,
@@ -603,7 +623,9 @@
             "1,2,3-A: regression: sig",
             "1,2,3-B: regression: sig",
             "1,2,3-C: regression: sig"
-        ]
+        ],
+        "Citations": 84,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=The+Additive+Value+of+Multimodal+Features+for+Predicting+Engagement,+Frustration,+and+Learning+during+Tutoring&btnG="
     },
     "11": {
         "paper_id_new": 12,
@@ -648,7 +670,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A:sup. machine learning: sig (ACC: 76%)"
-        ]
+        ],
+        "Citations": 32,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=(Dis)Engagement+Maters:+Identifying+Efficacious+Learning+Practices+with+Multimodal+Learning+Analytics&btnG="
     },
     "12": {
         "paper_id_new": 13,
@@ -694,7 +718,9 @@
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: anova: sig (F [1,16]=8.70)",
             "1,2-A: anova: sig (F [1,61]=7.60)"
-        ]
+        ],
+        "Citations": 2,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Dual+Gaze+as+a+Proxy+for+Collaboration+in+Informal+Learning&btnG="
     },
     "13": {
         "paper_id_new": 14,
@@ -738,7 +764,9 @@
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A:regression: sig",
             "1-B:regression: sig"
-        ]
+        ],
+        "Citations": 5,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Using+Eye-Tracking+Technology+to+Support+Visual+Coordination+in+Collaborative+Problem-Solving+Groups&btnG="
     },
     "14": {
         "paper_id_new": 15,
@@ -777,7 +805,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: unsup. machine learning: sig"
-        ]
+        ],
+        "Citations": 105,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Analysing+frequent+sequential+patterns+of+collaborative+learning+activity+around+an+interactive+tabletop&btnG="
     },
     "15": {
         "paper_id_new": 16,
@@ -841,7 +871,9 @@
             "1,4-B:ANOVA: nonsig",
             "1,5-A:correlation: sig",
             "2,3,4,5-A: sup. machine learning: 75%"
-        ]
+        ],
+        "Citations": 15,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=The+Effect+of+Mutual+Gaze+Perception+on+Students’+Verbal+Coordination&btnG="
     },
     "16": {
         "paper_id_new": 17,
@@ -897,7 +929,9 @@
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2,3-B:qualitative: sig",
             "1-B:correlation: sig"
-        ]
+        ],
+        "Citations": 24,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Detecting+Collaborative+Dynamics+Using+Mobile+Eye-Trackers&btnG="
     },
     "17": {
         "paper_id_new": 18,
@@ -997,7 +1031,9 @@
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2,3,4,5,6,7,8,9,10,11,12,13,14-A:regression: sig",
             "1,2,3,4,5,6,7,8,9,10,11,12,13,14-B:sup. machine learning: sig"
-        ]
+        ],
+        "Citations": 78,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Expertise+estimation+based+on+simple+multimodal+features&btnG="
     },
     "18": {
         "paper_id_new": 19,
@@ -1062,7 +1098,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2,3,4,5,6,7-A:unsup. machine learning: 69.61%"
-        ]
+        ],
+        "Citations": 59,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Personality+Trait+Classification+via+Co-Occurrent+Multiparty+Multimodal+Event+Discovery&btnG="
     },
     "19": {
         "paper_id_new": 20,
@@ -1115,7 +1153,9 @@
             "1-A:Wilcoxon Signed Ranks test: sig",
             "2-A:Wilcoxon Signed Ranks test: sig",
             "3-A:Wilcoxon Signed Ranks test: nonsig"
-        ]
+        ],
+        "Citations": 8,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Dynamic+Adaptive+Gesturing+Predicts+Domain+Expertise+in+Mathematics&btnG="
     },
     "20": {
         "paper_id_new": 21,
@@ -1160,7 +1200,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2-A:unsup. machine learning: 90%"
-        ]
+        ],
+        "Citations": 109,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Capturing+and+analyzing+verbal+and+physical+collaborative+learning+interactions+at+an+enriched+interactive+tabletop&btnG="
     },
     "21": {
         "paper_id_new": 22,
@@ -1227,7 +1269,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2,3,4,5,6,7,8-A: sup. machine learning: sig (ACC: 92%)"
-        ]
+        ],
+        "Citations": 24,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Automatic+identification+of+experts+and+performance+prediction+in+the+multimodal+math+data+corpus+through+analysis+of+speech+interaction.+&btnG="
     },
     "22": {
         "paper_id_new": 23,
@@ -1303,7 +1347,9 @@
             "5-A: ANOVA: nonsig",
             "6-A: correlation: nonsig",
             "1,2,3,4,5,6-B: sup. machine learning: sig (ACC: 100%)"
-        ]
+        ],
+        "Citations": 97,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Unraveling+Students'+Interaction+around+a+Tangible+Interface+Using+Multimodal+Learning+Analytics.&btnG="
     },
     "23": {
         "paper_id_new": 24,
@@ -1371,7 +1417,9 @@
             "2-A: correlation: sig r =0.47",
             "5-A: correlation: sig r = 0.57",
             "5-C: correlation: sig r = 0.47"
-        ]
+        ],
+        "Citations": 29,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Unpacking+the+relationship+between+existing+and+new+measures+of+physiological+synchrony+and+collaborative+learning:+a+mixed+methods+study&btnG="
     },
     "24": {
         "paper_id_new": 25,
@@ -1437,7 +1485,9 @@
             "1,2,3-B:unsup. machine learning: nonsig",
             "1,2,3-C:unsup. machine learning: nonsig",
             "1,2,3-D:unsup. machine learning: nonsig"
-        ]
+        ],
+        "Citations": 24,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Modeling+Team-level+Multimodal+Dynamics+during+Multiparty+Collaboration&btnG="
     },
     "25": {
         "paper_id_new": 26,
@@ -1491,7 +1541,9 @@
             "2-B: correlation: sig r = 0.347",
             "2-A: correlation: sig r = 0.398",
             "2-C: correlation: sig r = 0.355"
-        ]
+        ],
+        "Citations": 74,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Leveraging+Mobile+Eye-Trackers+to+Capture+Joint+Visual+Attention+in+Co-Located+Collaborative+Learning&btnG="
     },
     "26": {
         "paper_id_new": 27,
@@ -1548,7 +1600,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2,3,4,5-A: sup. machine learning: sig (ACC:81.43)"
-        ]
+        ],
+        "Citations": 7,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Gaze+quality+assisted+automatic+recognition+of+social+contexts+in+collaborative+Tetris&btnG="
     },
     "27": {
         "paper_id_new": 28,
@@ -1613,7 +1667,9 @@
             "5-A: correlation: mixed (Max r 0.842)",
             "6-A: correlation: mixed (Max r 0.741)",
             "7-A: correlation: mixed (Max r 0.634)"
-        ]
+        ],
+        "Citations": 100,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Acoustic-Prosodic+Entrainment+and+Rapport+in+Collaborative+Learning+Dialogues&btnG="
     },
     "28": {
         "paper_id_new": 29,
@@ -1657,7 +1713,9 @@
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A:Wilcoxon Signed Ranks test: sig",
             "1-B:Wilcoxon Signed Ranks test: sig"
-        ]
+        ],
+        "Citations": 110,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Can+Eye+Help+You?:+Effects+of+Visualizing+Eye+Fixations+on+Remote+Collaboration+Scenarios+for+Physical+Tasks&btnG="
     },
     "29": {
         "paper_id_new": 30,
@@ -1701,7 +1759,9 @@
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: correlation: sig (r = 0.59)",
             "1-B: correlation: sig (r = 0.42)"
-        ]
+        ],
+        "Citations": 65,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Using+Mobile+Eye-Trackers+to+Unpack+the+Perceptual+Benefits+of+a+Tangible+User+Interface+for+Collaborative+Learning&btnG="
     },
     "30": {
         "paper_id_new": 31,
@@ -1759,7 +1819,9 @@
             "2-B: Regression: 66.42%",
             "3-A: Regression: 65.69%",
             "3-B: Regression: 73.53%"
-        ]
+        ],
+        "Citations": 32,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Personality+classification+and+behaviour+interpretation:+An+approach+based+on+feature+categories&btnG="
     },
     "31": {
         "paper_id_new": 32,
@@ -1804,7 +1866,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2-A: sup. machine learning: 79.4%"
-        ]
+        ],
+        "Citations": 63,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Investigating+Automatic+Dominance+Estimation+in+Groups+From+Visual+Attention+and+Speaking+Activity&btnG="
     },
     "32": {
         "paper_id_new": 33,
@@ -1870,7 +1934,9 @@
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2,3,4-A,C: sup. machine learning: 96%",
             "1,2,3,4-A,B,C: sup. machine learning: 86%"
-        ]
+        ],
+        "Citations": 13,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=High+Accuracy+Detection+of+Collaboration+From+Log+Data+and+Superficial+Speech+Features&btnG="
     },
     "33": {
         "paper_id_new": 34,
@@ -1909,7 +1975,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: sup. machine learning : 87.9%"
-        ]
+        ],
+        "Citations": 20,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Using+Interlocutor-Modulated+Attention+BLSTM+to+Predict+Personality+Traits+in+Small+Group+Interaction&btnG="
     },
     "34": {
         "paper_id_new": 35,
@@ -1978,7 +2046,9 @@
             "2-E: regression: sig",
             "2-D: regression: nonsig",
             "2-E: regression:nosig"
-        ]
+        ],
+        "Citations": 16,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Dynamics+of+Visual+Attention+in+Multiparty+Collaborative+Problem+Solving+using+Multidimensional+Recurrence+Quantification+Analysis&btnG="
     },
     "35": {
         "paper_id_new": 36,
@@ -2042,7 +2112,9 @@
             "4-A: correlation: sig",
             "4-C: ANOVA: sig",
             "2-A: sup. machine learning: 75%"
-        ]
+        ],
+        "Citations": 35,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Does+Seeing+One+Another’s+Gaze+Affect+Group+Dialogue?&btnG="
     },
     "36": {
         "paper_id_new": 37,
@@ -2108,7 +2180,9 @@
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,3-E: sup. machine learning: 50%",
             "1,3-C: sup. machine learning: 59.1%"
-        ]
+        ],
+        "Citations": 93,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Emergent+leaders+through+looking+and+speaking:+from\naudio-visual+data+to+multimodal+recognition&btnG="
     },
     "37": {
         "paper_id_new": 38,
@@ -2179,7 +2253,9 @@
             "3-C: correlation: sig",
             "4-C: correlation: sig",
             "2-B: sup. machine learning: 84%"
-        ]
+        ],
+        "Citations": 26,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Predicting+the+Quality+of+Collaborative+Problem+Solving+Through+Linguistic+Analysis+of+Discourse&btnG="
     },
     "38": {
         "paper_id_new": 39,
@@ -2285,7 +2361,9 @@
             "9-A: LME: nonsig",
             "10-A: LME: nonsig",
             "11-A: LME: nonsig"
-        ]
+        ],
+        "Citations": 53,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Shared+Experiences+of+Technology+and+Trust:+An+Experimental+Study+of+Physiological+Compliance+Between+Active+and+Passive+Users+in+Technology-Mediated+Collaborative+Encounters&btnG="
     },
     "39": {
         "paper_id_new": 40,
@@ -2347,7 +2425,9 @@
             "3-B:regression: sig",
             "1+3-B:regression: sig",
             "3-A:regression: sig"
-        ]
+        ],
+        "Citations": 39,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Using+Multimodal+Learning+Analytics+to+Identify+Aspects+of+Collaboration+in+Project-Based+Learning&btnG="
     },
     "40": {
         "paper_id_new": 41,
@@ -2386,7 +2466,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A:calculation:84.2%"
-        ]
+        ],
+        "Citations": 44,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Modeling+Collaboration+Patterns+on+an+Interactive+Tabletop+in+a+Classroom+Setting&btnG="
     },
     "41": {
         "paper_id_new": 42,
@@ -2436,7 +2518,9 @@
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: correlation: sig",
             "2-A: correlation: sig"
-        ]
+        ],
+        "Citations": 24,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Toward+Using+Multi-Modal+Learning+Analytics+to+Support+and+Measure+Collaboration+in+Co-Located+Dyads&btnG="
     },
     "42": {
         "paper_id_new": 43,
@@ -2480,7 +2564,9 @@
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: regression: sig",
             "1-B: regression: sig"
-        ]
+        ],
+        "Citations": 1,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=An+Alternate+Statistical+Lens+to+Look+at+Collaboration+Data:+Extreme+Value+Theory&btnG="
     },
     "43": {
         "paper_id_new": 44,
@@ -2534,7 +2620,9 @@
             "1-B: ANOVA: sig",
             "2-A: calculation: nonsig",
             "2-B: calculation: nonsig"
-        ]
+        ],
+        "Citations": 90,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Going+beyond+what+is+visible:+What+multichannel+data+can+reveal+about+interaction+in+the+context+of+collaborative+learning?&btnG="
     },
     "44": {
         "paper_id_new": 45,
@@ -2589,7 +2677,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2,3,4-A : unsup. machine learning : sig"
-        ]
+        ],
+        "Citations": 10,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Task-independent+Multimodal+Prediction+of+Group+Performance+Based+on+Product+Dimensions&btnG="
     },
     "45": {
         "paper_id_new": 46,
@@ -2629,7 +2719,9 @@
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: sup. machine learning: 85-100%",
             "1-A: correlation: sig"
-        ]
+        ],
+        "Citations": 51,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Toward+Collaboration+Sensing&btnG="
     },
     "46": {
         "paper_id_new": 47,
@@ -2710,7 +2802,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2,3,4,5,6,7,8,9,10-A: sup. machine learning: 24%"
-        ]
+        ],
+        "Citations": 143,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Supervised+machine+learning+in+multimodal+learning+analytics+for+estimating+success+in+project-based+learning&btnG="
     },
     "47": {
         "paper_id_new": 48,
@@ -2806,7 +2900,9 @@
             "3-B: t-test: nonsig",
             "1-B: t-test: nonsig",
             "6-B: t-test: nonsig"
-        ]
+        ],
+        "Citations": 52,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Multimodal+prediction+of+expertise+and+leadership+in+learning+groups&btnG="
     },
     "48": {
         "paper_id_new": 49,
@@ -2878,7 +2974,9 @@
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2-A: sup. machine learning: sig",
             "8-A: sup. machine learning: sig"
-        ]
+        ],
+        "Citations": 41,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Estimation+of+success+in+collaborative+learning+based+on+multimodal+learning+analytics+features&btnG="
     },
     "49": {
         "paper_id_new": 50,
@@ -2930,7 +3028,9 @@
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: correlation: sig",
             "1-A: correlation: sig"
-        ]
+        ],
+        "Citations": 14,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Unpacking+Collaborative+Learning+Processes+during+Hands-on+Activities+using+Mobile+Eye-Trackers&btnG="
     },
     "50": {
         "paper_id_new": 51,
@@ -2979,7 +3079,9 @@
             "1-A: correlation: sig",
             "1-B: regression: sig",
             "1-C: correlation: sig"
-        ]
+        ],
+        "Citations": 35,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=3D+Tangibles+Facilitate+Joint+Visual+Attention+in+Dyads&btnG="
     },
     "51": {
         "paper_id_new": 52,
@@ -3038,7 +3140,9 @@
             "2-A: correlation: sig / mixed",
             "3-B: correlation: nonsig",
             "3-A: correlation: sig"
-        ]
+        ],
+        "Citations": 20,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Exploring+Collaboration+Using+Motion+Sensors+and+Multi-Modal+Learning+Analytics&btnG="
     },
     "52": {
         "paper_id_new": 53,
@@ -3084,7 +3188,9 @@
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A :mediation: sig",
             "2-A:mediation: nonsig"
-        ]
+        ],
+        "Citations": 196,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Real-time+mutual+gaze+perception+enhances+collaborative++learning+and+collaboration+quality&btnG="
     },
     "53": {
         "paper_id_new": 54,
@@ -3152,7 +3258,9 @@
             "2-B:regression: sig",
             "1,2,4,5-C : regression : nonsig",
             "3-C:regression: sig"
-        ]
+        ],
+        "Citations": 90,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Investigating+collaborative+learning+success+with+physiological+coupling+indices+based+on+electrodermal+activity&btnG="
     },
     "54": {
         "paper_id_new": 55,
@@ -3217,7 +3325,9 @@
             "3-A:correlation: sig",
             "3-B:correlation: sig",
             "3-C:correlation: sig"
-        ]
+        ],
+        "Citations": 13,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Multimodal+Analysis+of+Vocal+Collaborative+Search:A+Public+Corpus+and+Results&btnG="
     },
     "55": {
         "paper_id_new": 56,
@@ -3271,7 +3381,9 @@
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2,3-A : correlation : sig",
             "1,2,3-B : correlation : sig"
-        ]
+        ],
+        "Citations": 37,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Focused+or+Stuck+Together:+Multimodal+Patterns+Reveal+Triads’+Performance+in+Collaborative+Problem+Solving&btnG="
     },
     "56": {
         "paper_id_new": 57,
@@ -3356,7 +3468,9 @@
             "3-D:correlation: sig",
             "1,2,3-E:correlation : nonsig",
             "4-E:correlation: sig"
-        ]
+        ],
+        "Citations": 22,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Using+Physiological+Synchrony+as+an+Indicator+of+Collaboration+Quality,+Task+Performance+and+Learning&btnG="
     },
     "57": {
         "paper_id_new": 58,
@@ -3411,7 +3525,9 @@
             "1-A: sup. machine learning: sig",
             "2,3,4-A: sup. machine learning: sig",
             "1,2,3,4-A: sup. machine learning: mixed"
-        ]
+        ],
+        "Citations": 22,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Moving+as+a+Leader:+Detecting+Emergent+Leadership+in+Small+Groups+using+Body+Pose&btnG="
     },
     "58": {
         "paper_id_new": 59,
@@ -3451,7 +3567,9 @@
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: correlation: mixed",
             "1-A: sup. machine learning: sig"
-        ]
+        ],
+        "Citations": 45,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Detecting+Emergent+Leader+in+a+Meeting+Environment&btnG="
     },
     "59": {
         "paper_id_new": 60,
@@ -3504,7 +3622,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2,3,4-A: sup. machine learning: sig (85%)"
-        ]
+        ],
+        "Citations": 31,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=An+Automatic+Approach+for+Mining+Patterns+of+Collaboration+around+an+Interactive+Tabletop&btnG="
     },
     "60": {
         "paper_id_new": 61,
@@ -3561,7 +3681,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2,3,4-A: sup. machine learning: sig"
-        ]
+        ],
+        "Citations": 41,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Modelling+and+Identifying+Collaborative+Situations+in+a+Collocated+Multi-display+Groupware+Setting&btnG="
     },
     "61": {
         "paper_id_new": 62,
@@ -3629,7 +3751,9 @@
             "4-A: correlation: mixed",
             "4-C: correlation: mixed",
             "4-D: correlation: mixed"
-        ]
+        ],
+        "Citations": 17,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Using+Motion+Sensors+to+Understand+Collaborative+Interactions+in+Digital+Fabrication+Labs&btnG="
     },
     "62": {
         "paper_id_new": 63,
@@ -3698,7 +3822,9 @@
             "1-E: regression: nonsig",
             "1-F: regression: nonsig",
             "1-G:regression: nonsig"
-        ]
+        ],
+        "Citations": 36,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=What+does+physiological+synchrony+reveal+about+metacognitive+experiences+and+group+performance?&btnG="
     },
     "63": {
         "paper_id_new": 64,
@@ -3755,7 +3881,9 @@
             "1-A: regression: sig (negative)",
             "2-A: regression: sig",
             "2-B: regression: sig"
-        ]
+        ],
+        "Citations": 137,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Physiological+evidence+of+interpersonal+dynamics+in+a+cooperative+production+task&btnG="
     },
     "64": {
         "paper_id_new": 65,
@@ -3799,7 +3927,9 @@
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: regression: sig",
             "1-B: regression: sig"
-        ]
+        ],
+        "Citations": 570,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Brain-to-Brain+Synchrony+Tracks+Real-World+Dynamic+Group+Interactions+in+the+Classroom&btnG="
     },
     "65": {
         "paper_id_new": 66,
@@ -3854,7 +3984,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2,3,4-A: sup. machine learning: sig (75% accuracy)"
-        ]
+        ],
+        "Citations": 25,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Multi-modal+Social+Signal+Analysis+for+Predicting+Agreement+in+Conversation+Settings&btnG="
     },
     "66": {
         "paper_id_new": 67,
@@ -3900,7 +4032,9 @@
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: sup. machine learning: sig",
             "2-A: sup. machine learning: nonsig"
-        ]
+        ],
+        "Citations": 4,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Predicting+Collaborative+Learning+Quality+through+Physiological+Synchrony+Recorded+by+Wearable+Biosensors&btnG="
     },
     "67": {
         "paper_id_new": 68,
@@ -3954,7 +4088,9 @@
             "1-B: anova: sig",
             "1-C: anova: sig",
             "1-D: anova: sig"
-        ]
+        ],
+        "Citations": 10,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Effects+of+Shared+Gaze+on+Audio-+Versus+Text-Based+Remote+Collaborations&btnG="
     },
     "68": {
         "paper_id_new": 69,
@@ -4008,7 +4144,9 @@
             "1-B: regression: sig (neg)",
             "1-C: regression: sig (neg)",
             "1-D: regression: sig"
-        ]
+        ],
+        "Citations": 18,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Body+synchrony+in+triadic+interaction&btnG="
     },
     "69": {
         "paper_id_new": 70,
@@ -4057,7 +4195,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2,3-A:sup. machine learning: sig"
-        ]
+        ],
+        "Citations": 31,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Using+the+Tablet+Gestures+and+Speech+of+Pairs+of+Students+to+Classify+Their+Collaboration&btnG="
     },
     "70": {
         "paper_id_new": 71,
@@ -4101,7 +4241,9 @@
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: ANOVA: sig",
             "1-B: ANOVA: sig"
-        ]
+        ],
+        "Citations": 56,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Improving+Visibility+of+Remote+Gestures+in+Distributed+Tabletop+Collaboration&btnG="
     },
     "71": {
         "paper_id_new": 72,
@@ -4150,7 +4292,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2,3-A: sup. machine learning: sig"
-        ]
+        ],
+        "Citations": 37,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Employing+Social+Gaze+and+Speaking+Activity+for+Automatic+Determination+of+the+Extraversion+Trait&btnG="
     },
     "72": {
         "paper_id_new": 73,
@@ -4189,7 +4333,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A:regression: nonsig"
-        ]
+        ],
+        "Citations": 66,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=See+What+I’m+Saying?+Using+Dyadic+Mobile+Eye+Tracking+to+Study+Collaborative+Reference&btnG="
     },
     "73": {
         "paper_id_new": 74,
@@ -4248,7 +4394,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2,3,4,5,6-A:sup. machine learning: nonsig"
-        ]
+        ],
+        "Citations": 35,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Privacy-Preserving+Speech+Analytics+for+Automatic+Assessment+of+Student+Collaboration&btnG="
     },
     "74": {
         "paper_id_new": 75,
@@ -4292,7 +4440,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A:sup. machine learning: sig (ACC: 76%)"
-        ]
+        ],
+        "Citations": 32,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=(Dis)Engagement+Matters:+Identifying+Efficacious+Learning+Practices+with+Multimodal+Learning+Analytics&btnG="
     },
     "75": {
         "paper_id_new": 76,
@@ -4361,7 +4511,9 @@
             "5-A: ANOVA: nonsig",
             "6-A: correlation: nonsig",
             "1,2,3,4,5,6-B: sup. machine learning: sig (ACC: 100%)"
-        ]
+        ],
+        "Citations": 97,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Unraveling+Students’+Interaction+Around+a+Tangible+Interface+Using+Multimodal+Learning+Analytics&btnG="
     },
     "76": {
         "paper_id_new": 77,
@@ -4415,7 +4567,9 @@
             "2-B: correlation: sig ",
             "2-A: correlation: sig ",
             "2-C: correlation: sig "
-        ]
+        ],
+        "Citations": 74,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Leveraging+mobile+eye-trackers+to+capture+joint+visual+attention+in+co-located+collaborative+learning+groups&btnG="
     },
     "77": {
         "paper_id_new": 78,
@@ -4474,7 +4628,9 @@
             "4-A: correlation: sig",
             "4-C: ANOVA: sig",
             "2-A: sup. machine learning: 75%"
-        ]
+        ],
+        "Citations": 35,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Does+Seeing+One+Another’s+Gaze+Affect+Group+Dialogue?+A+Computational+Approach&btnG="
     },
     "78": {
         "paper_id_new": 79,
@@ -4519,7 +4675,9 @@
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A :mediation : sig",
             "2-A:mediation: nonsig"
-        ]
+        ],
+        "Citations": 196,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Real-time+mutual+gaze+perception+enhances+collaborative+4+learning+and+collaboration+quality&btnG="
     },
     "79": {
         "paper_id_new": 80,
@@ -4573,7 +4731,9 @@
             "2-A: ANOVA: sig ",
             "",
             ""
-        ]
+        ],
+        "Citations": 8,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Challenging+Joint+Visual+Attention+as+a+Proxy+for+Collaborative+Performance&btnG="
     },
     "80": {
         "paper_id_new": 81,
@@ -4613,7 +4773,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: correlation: sig"
-        ]
+        ],
+        "Citations": 9,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Deep+neural+networks+for+collaborative+learning+analytics:+Evaluating+team+collaborations+using+student+gaze+point+prediction&btnG="
     },
     "81": {
         "paper_id_new": 82,
@@ -4674,7 +4836,9 @@
             "1-A2: correlation: sig ",
             "2-A2: correlation: sig ",
             "2,4-A2: ANCOVA: sig "
-        ]
+        ],
+        "Citations": 16,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Utilizing+Interactive+Surfaces+to+Enhance+Learning,+Collaboration+and+Engagement:+Insights+from+Learners’+Gaze+and+Speech&btnG="
     },
     "82": {
         "paper_id_new": 83,
@@ -4715,7 +4879,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: corrleation: sig"
-        ]
+        ],
+        "Citations": 45,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=A+Multimodal+Exploration+of+Engineering+Students+Emotions+and+Electrodermal+Activity+in+Design+Activities&btnG="
     },
     "83": {
         "paper_id_new": 84,
@@ -4772,7 +4938,9 @@
             "2-A: AUROC=0.54",
             "3-A: AUROC=0.61",
             "4-A: AUROC=0.67"
-        ]
+        ],
+        "Citations": 15,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Multimodal,+Multiparty+Modeling+of+Collaborative+Problem+Solving+Performance&btnG="
     },
     "84": {
         "paper_id_new": 85,
@@ -4860,7 +5028,9 @@
             "7-A: correlation: nonsig",
             "8-A: correlation: nonsig",
             ""
-        ]
+        ],
+        "Citations": 40,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Temporal+analysis+of+multimodal+data+to+predict+collaborative+learning+outcomes&btnG="
     },
     "85": {
         "paper_id_new": 86,
@@ -4911,7 +5081,9 @@
         "analysis_and_results mm-oo:analysis:resultsig": [
             "2-A: correlation: sig",
             "2-A: correlation: nosig"
-        ]
+        ],
+        "Citations": 0,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Collaboration+on+Procedural+Problems+May+Support+Conceptual+Knowledge+More+than+You+May+Think&btnG="
     },
     "86": {
         "paper_id_new": 87,
@@ -4960,7 +5132,9 @@
             "1-A: ANOVA: nonsig",
             "2-A: ANOVA: nonsig",
             "2-A: correlation: nonsig"
-        ]
+        ],
+        "Citations": 7,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=An+Application+of+Extreme+Value+Theory+to+Learning+Analytics:+Predicting+Collaboration+Outcome+from+Eye-Tracking+Data&btnG="
     },
     "87": {
         "paper_id_new": 88,
@@ -5006,7 +5180,9 @@
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: correlation: nonsig",
             "1-B: correlation: sig"
-        ]
+        ],
+        "Citations": 26,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Using+Dual+Eye-Tracking+to+Evaluate+Students'+Collaboration+with+an+Intelligent+Tutoring+System+for+Elementary-Level+Fractions&btnG="
     },
     "88": {
         "paper_id_new": 89,
@@ -5056,7 +5232,9 @@
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1- A: ANOVA:sig",
             ""
-        ]
+        ],
+        "Citations": 53,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Understanding+Collaborative+Program+Comprehension:+Interlacing+Gaze+and+Dialogues\n&btnG="
     },
     "89": {
         "paper_id_new": 90,
@@ -5113,7 +5291,9 @@
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: Kruskal-Wallis: nonsig",
             "2-B: Kruskal-Wallis: sig (expressive explorers, silent wanderers)"
-        ]
+        ],
+        "Citations": 16,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Many+are+the+ways+to+learn+identifying+multi-modal+behavioral+profiles+of+collaborative+learning+in+constructivist+activities&btnG="
     },
     "90": {
         "paper_id_new": 91,
@@ -5153,7 +5333,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: ANOVA: sig"
-        ]
+        ],
+        "Citations": 790,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Looking+To+Understand:+The+Coupling+Between+Speakers’+and+Listeners’+Eye+Movements+and+Its+Relationship+to+Discourse+Comprehension&btnG="
     },
     "91": {
         "paper_id_new": 92,
@@ -5202,7 +5384,9 @@
             "2-B:negative correlation: sig",
             "",
             ""
-        ]
+        ],
+        "Citations": 13,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=On+the+Same+Wavelength:+Exploring+Team+Neurosynchrony+in+Undergraduate+Dyads+Solving+a+Cyberlearning+Problem+With+Collaborative+Script&btnG="
     },
     "92": {
         "paper_id_new": 93,
@@ -5249,7 +5433,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: negative correlation: sig (frustration level)"
-        ]
+        ],
+        "Citations": 100,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Automatically+Recognizing+Facial+Indicators+of+Frustration:+A+Learning-centric+Analysis&btnG="
     },
     "93": {
         "paper_id_new": 94,
@@ -5291,7 +5477,9 @@
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A:Wilcoxon Signed Ranks test: sig",
             "1-B: Wilcoxon Signed Ranks test: sig"
-        ]
+        ],
+        "Citations": 46,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=The+relationships+between+learner+variables,+tool-usage+behaviour+and+performance&btnG="
     },
     "94": {
         "paper_id_new": 95,
@@ -5333,7 +5521,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2-A: negative correlation: sig (individual learning, knowledge equivalence)"
-        ]
+        ],
+        "Citations": 27,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Effects+of+Knowledge+Interdependence+with+the+Partner+on+Visual+and+Action+Transactivity+in+Collaborative+Concept+Mapping&btnG="
     },
     "95": {
         "paper_id_new": 96,
@@ -5378,7 +5568,9 @@
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: Positive Correlation: sig",
             "1-B: Negative Correlation: sig"
-        ]
+        ],
+        "Citations": 13,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=On+the+Same+Wavelength:+Exploring+Team+Neurosynchrony+in+Undergraduate+Dyads+Solving+a+Cyberlearning+Problem+With+Collaborative+Script&btnG="
     },
     "96": {
         "paper_id_new": 97,
@@ -5418,7 +5610,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: anova:sig"
-        ]
+        ],
+        "Citations": 98,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=The+NISPI+framework:+Analysing+collaborative+problem-solving+from+students'+physical+interactions&btnG="
     },
     "97": {
         "paper_id_new": 98,
@@ -5474,7 +5668,9 @@
         "analysis_and_results mm-oo:analysis:resultsig": [
             "2 - A: Kruskal-Wallis: sig ",
             "1,2,3- A: sup. machine learning(0.89)"
-        ]
+        ],
+        "Citations": 16,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Many+are+the+ways+to+learn+identifying+multi-modal+behavioral+profiles+of+collaborative+learning+in+constructivist+activities&btnG="
     },
     "98": {
         "paper_id_new": 99,
@@ -5526,7 +5722,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "7,2,9,10-A: regression:sig(best result)"
-        ]
+        ],
+        "Citations": 143,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Supervised+machine+learning+in+multimodal+learning+analytics\nfor+estimating+success+in+project-based+learning&btnG="
     },
     "99": {
         "paper_id_new": 100,
@@ -5568,7 +5766,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2 - A: machine learning(0.75)"
-        ]
+        ],
+        "Citations": 20,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Modelling+Collaborative+Problem-solving+Competence+with+Transparent+Learning+Analytics:+Is+Video+Data+Enough?&btnG="
     },
     "100": {
         "paper_id_new": 101,
@@ -5608,7 +5808,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: Mann-Whitney U and Kruskal-Wllis tests:sig"
-        ]
+        ],
+        "Citations": 1,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=An+Integrated+Observing+Technic+for+Collaborative+Learning:+The+Multimodal+Learning+Analytics+Based+on+the+Video+Coding+and+EEG+Data+Mining&btnG="
     },
     "101": {
         "paper_id_new": 102,
@@ -5648,7 +5850,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: correlation: sig"
-        ]
+        ],
+        "Citations": 69,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Inter-brain+synchrony+in+teams+predicts+collective+performance&btnG="
     },
     "102": {
         "paper_id_new": 103,
@@ -5692,7 +5896,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2-A: t-test: sig"
-        ]
+        ],
+        "Citations": 544,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Eye+gaze+patterns+in+conversations:+there+is+more+to+conversational+agents+than+meets+the+eyes&btnG="
     },
     "103": {
         "paper_id_new": 104,
@@ -5731,7 +5937,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: ANOVA: sig"
-        ]
+        ],
+        "Citations": 119,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Another+person's+eye+gaze+as+a+cue+in+solving+programming+problems&btnG="
     },
     "104": {
         "paper_id_new": 105,
@@ -5775,7 +5983,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2-A: t-test: sig"
-        ]
+        ],
+        "Citations": 420,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Coordinating+cognition:+The+costs+and+benefits+of+shared+gaze+during+collaborative+search&btnG="
     },
     "105": {
         "paper_id_new": 106,
@@ -5822,7 +6032,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1, 2, 3-A: sup machine learning: 74.25%"
-        ]
+        ],
+        "Citations": 29,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Analyzing+and+predicting+focus+of+attention+in+remote+collaborative+tasks&btnG="
     },
     "106": {
         "paper_id_new": 107,
@@ -5861,7 +6073,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: ANOVA: sig"
-        ]
+        ],
+        "Citations": 134,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Gestural+Communication+over+Video+Stream:+Supporting+Multimodal+Interaction+for+Remote+Collaborative+Physical+Tasks&btnG="
     },
     "107": {
         "paper_id_new": 108,
@@ -5905,7 +6119,9 @@
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: t-test: nonsig",
             "2-A: t-test: sig"
-        ]
+        ],
+        "Citations": 63,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Influencing+social+dynamics+in+meetings+through+a+peripheral+display\n&btnG="
     },
     "108": {
         "paper_id_new": 109,
@@ -5950,7 +6166,9 @@
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1- A: ANOVA: sig ",
             "1- B: ANOVA: sig"
-        ]
+        ],
+        "Citations": 115,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=A+Look+Is+Worth+a+Thousand+Words:+Full+Gaze+Awareness+in+Video-Mediated+Conversation&btnG="
     },
     "109": {
         "paper_id_new": 110,
@@ -5989,7 +6207,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A unsup. machine learnig:sig "
-        ]
+        ],
+        "Citations": 24,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Recognizing+communicative+facial+expressions+for+discovering+interpersonal+emotions+in+group+meetings&btnG="
     },
     "110": {
         "paper_id_new": 112,
@@ -6028,7 +6248,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "None"
-        ]
+        ],
+        "Citations": 76,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Deixis+and+Gaze+in+Collaborative+Work+at+a+Distance+(over+a+shared+map):+a\nComputational+Model+to+Detect+Misunderstandings&btnG="
     },
     "111": {
         "paper_id_new": 113,
@@ -6072,7 +6294,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2- A: t-test:sig "
-        ]
+        ],
+        "Citations": 116,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Coordinating+spatial+referencing+using+shared+gaze&btnG="
     },
     "112": {
         "paper_id_new": 114,
@@ -6125,7 +6349,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2,3,4 - A: machine learning: sig (86.30%)"
-        ]
+        ],
+        "Citations": 594,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Affective+e-Learning:+Using+“Emotional”+Data+to+Improve+Learning+in+Pervasive+Learning+Environment&btnG="
     },
     "113": {
         "paper_id_new": 118,
@@ -6168,7 +6394,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2-A: sup.machine learning: sig(93%)"
-        ]
+        ],
+        "Citations": 4,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Multimodal+Analysis+of+Group+Attitudes+Towards+Meeting+Management&btnG="
     },
     "114": {
         "paper_id_new": 119,
@@ -6221,7 +6449,9 @@
             "1,2,3-A: t-test: sig",
             "1,2,3-B: t-test: sig",
             ""
-        ]
+        ],
+        "Citations": 26,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Toward+Open-Microphone+Engagement\rfor+Multiparty+Interactions&btnG="
     },
     "115": {
         "paper_id_new": 120,
@@ -6261,7 +6491,9 @@
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: ANOVA: sig",
             ""
-        ]
+        ],
+        "Citations": 14,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Evaluation+of+user+gestures+in+multi-touch+interaction:+a+case+study+in+pair-programming&btnG="
     },
     "116": {
         "paper_id_new": 121,
@@ -6305,7 +6537,9 @@
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: correlation: sig (r=0.406)",
             "1-B: correlation: sig (r=0.224)"
-        ]
+        ],
+        "Citations": 21,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Towards+Adapting+Fantasy,+Curiosity+and+Challenge+in\nMultimodal+Dialogue+Systems+for+Preschoolers&btnG="
     },
     "117": {
         "paper_id_new": 122,
@@ -6350,7 +6584,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2- A:sup.machine learning:sig (90%)"
-        ]
+        ],
+        "Citations": 213,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Multimodal+recognition+of+personality+traits+in+social+interactions\nAuthors\n&btnG="
     },
     "118": {
         "paper_id_new": 123,
@@ -6395,7 +6631,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2- A:sup.machine learning:sig (90%)"
-        ]
+        ],
+        "Citations": 48,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Modeling+the+Personality+of+Participants+During+Group+Interactions&btnG="
     },
     "119": {
         "paper_id_new": 124,
@@ -6440,7 +6678,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2-A:unsup:machine learning:50%"
-        ]
+        ],
+        "Citations": 26,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Automatic+prediction+of+individual+performance+from\"+thin+slices\"+of+social+behavior&btnG="
     },
     "120": {
         "paper_id_new": 125,
@@ -6484,7 +6724,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2-A: sup.machine learning: 81.79%"
-        ]
+        ],
+        "Citations": 13,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Combining+audio+and+video+to+predict+helpers'+focus+of+attention+in+multiparty+remote+collaboration+on+physical+tasks&btnG="
     },
     "121": {
         "paper_id_new": 126,
@@ -6554,7 +6796,9 @@
             "2-A: unsup.machine.learning: 70% (compared to 66% random performance)",
             "2-B: unsup.machine.learning: 81% (compared to 33% random performance)",
             "1-C: unsup.machine.learning: 50% (compared to 25% random performance)"
-        ]
+        ],
+        "Citations": 11,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Predicting+remote+versus+collocated+group+interactions+using+nonverbal+cues&btnG="
     },
     "122": {
         "paper_id_new": 127,
@@ -6593,7 +6837,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: Tukey’s HSD test: sig"
-        ]
+        ],
+        "Citations": 46,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Reciprocal+attentive+communication+in+remote+meeting+with+a+humanoid+robot&btnG="
     },
     "123": {
         "paper_id_new": 128,
@@ -6637,7 +6883,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2- A: sup. machine learning: 74.8%"
-        ]
+        ],
+        "Citations": 97,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Estimating+focus+of+attention+based+on+gaze+and+sound&btnG="
     },
     "124": {
         "paper_id_new": 129,
@@ -6685,7 +6933,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2,3 - sup. machine learning: sig: 81.43%"
-        ]
+        ],
+        "Citations": 7,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Gaze+quality+assisted+automatic+recognition+of+social+contexts+in+collaborative+Tetris&btnG="
     },
     "125": {
         "paper_id_new": 131,
@@ -6734,7 +6984,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2,3 -A: sup.machine learning:sig: 94.6%"
-        ]
+        ],
+        "Citations": 30,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Putting+the+Pieces+Together:+Multimodal+Analysis+of+Social+Attention+in+Meetings&btnG="
     },
     "126": {
         "paper_id_new": 132,
@@ -6779,7 +7031,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2- A: sup. machine learning: 93%"
-        ]
+        ],
+        "Citations": 88,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Modeling+focus+of+attention+for+meeting+indexing&btnG="
     },
     "127": {
         "paper_id_new": 133,
@@ -6828,7 +7082,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2,3- A: sup.machine learning: 76%"
-        ]
+        ],
+        "Citations": 209,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Modeling+focus+of+attention+for+meeting+indexing+based+on+multiple+cues&btnG="
     },
     "128": {
         "paper_id_new": 134,
@@ -6874,7 +7130,9 @@
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: t-test: sig",
             "1-B: t-test: sig"
-        ]
+        ],
+        "Citations": 17,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Mediated+attention+with+multimodal+augmented+reality&btnG="
     },
     "129": {
         "paper_id_new": 135,
@@ -6919,7 +7177,9 @@
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: t-test: sig",
             "2-A: t-test: nonsig"
-        ]
+        ],
+        "Citations": 31,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Implicit+user-adaptive+system+engagement+in+speech+and+pen+interfaces&btnG="
     },
     "130": {
         "paper_id_new": 136,
@@ -6968,7 +7228,9 @@
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: t-test: sig",
             "2-B: t-test: sig"
-        ]
+        ],
+        "Citations": 96,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Gaze-communicative+behavior+of+stuffed-toy+robot+with+joint+attention+and+eye+contact+based+on+ambient+gaze-tracking&btnG="
     },
     "131": {
         "paper_id_new": 137,
@@ -7018,7 +7280,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2,3 - A: unsup.machine learning: 46.7%"
-        ]
+        ],
+        "Citations": 42,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Multi-party+focus+of+attention+recognition+in+meetings+from+head+pose+and+multimodal+contextual+cues&btnG="
     },
     "132": {
         "paper_id_new": 138,
@@ -7058,7 +7322,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: unsup.machine learning: 85%"
-        ]
+        ],
+        "Citations": 10,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Multimodal+Real-Time+Focus+of+Attention+Estimation+in+SmartRooms&btnG="
     },
     "133": {
         "paper_id_new": 139,
@@ -7103,7 +7369,9 @@
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: ANOVA: nonsig",
             "2-A: ANOVA: nonsig"
-        ]
+        ],
+        "Citations": 489,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Coordination+of+Communication:+Effects+of+Shared+Visual\nContext+on+Collaborative+Work&btnG="
     },
     "134": {
         "paper_id_new": 140,
@@ -7152,7 +7420,9 @@
             "1-A: ANOVA: sig",
             "1-B: ANOVA: sig",
             "1-C: ANOVA: sig"
-        ]
+        ],
+        "Citations": 323,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Effects\rof+head-mounted+and+scene-oriented+video+systems+on\rremote+collaboration+on+physical+tasks&btnG="
     },
     "135": {
         "paper_id_new": 141,
@@ -7196,7 +7466,9 @@
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: t-test: sig",
             ""
-        ]
+        ],
+        "Citations": 4,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=RemoteCoDe:+Robotic+Embodiment+for+Enhancing+Peripheral\nAwareness+in+Remote+Collaboration+Tasks&btnG="
     },
     "136": {
         "paper_id_new": 142,
@@ -7236,7 +7508,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: sup.machine learning: 93.3%"
-        ]
+        ],
+        "Citations": 32,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=EEG+in+classroom:+EMD+features+to+detect+situational+interest+of+students+during+learning&btnG="
     },
     "137": {
         "paper_id_new": 143,
@@ -7280,7 +7554,9 @@
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: ANOVA: sig",
             "1-B: t-test: sig"
-        ]
+        ],
+        "Citations": 387,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Speakers’+eye+gaze+disambiguates+referring+expressions+early+during+face-to-face+conversation&btnG="
     },
     "138": {
         "paper_id_new": 144,
@@ -7329,7 +7605,9 @@
             "1-A: ANOVA: sig",
             "1-B: ANOVA: sig",
             "1-C: ANOVA: sig"
-        ]
+        ],
+        "Citations": 377,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Meeting+mediator:+enhancing+group+collaboration+with+sociometric+feedback&btnG="
     },
     "139": {
         "paper_id_new": 145,
@@ -7379,7 +7657,9 @@
             "1-A: sup. machine learning: 85%",
             "1-B: sup. machine learning: 82%",
             "1-C: sup. machine learning: 62%"
-        ]
+        ],
+        "Citations": 103,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Using+Audio+and+Video+Features+to+Classify+the+Most\nDominant+Person+in+a+Group+Meeting&btnG="
     },
     "140": {
         "paper_id_new": 146,
@@ -7419,7 +7699,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: unsup.machine learning:53.6%"
-        ]
+        ],
+        "Citations": 8,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Visual+focus+of+attention+estimation+from+head+pose+posterior+probability+distributions&btnG="
     },
     "141": {
         "paper_id_new": 147,
@@ -7468,7 +7750,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2,3- A: unsup.machine learning: 74.4%"
-        ]
+        ],
+        "Citations": 38,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Towards+High-Level+Human+Activity+Recognition+through+Computer+Vision+and+Temporal+Logic&btnG="
     },
     "142": {
         "paper_id_new": 148,
@@ -7510,7 +7794,9 @@
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A:minimum-width envelope: sig",
             ""
-        ]
+        ],
+        "Citations": 67,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Biosignals+reflect+pair-dynamics+in+collaborative+work:+EDA+and+ECG+study+of+pair-programming+in+a+classroom+environmen&btnG="
     },
     "143": {
         "paper_id_new": 149,
@@ -7549,7 +7835,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1- A:sup.machine learning: 40%"
-        ]
+        ],
+        "Citations": 1,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Toward+Automated+Detection+of+Phase+Changes+in+Team+Collaboration\n&btnG="
     },
     "144": {
         "paper_id_new": 150,
@@ -7589,7 +7877,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: unsup.machine learning: 93%"
-        ]
+        ],
+        "Citations": 8,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Modeling+people's+focus+of+attention&btnG="
     },
     "145": {
         "paper_id_new": 151,
@@ -7640,7 +7930,9 @@
             "1-A: regression: sig",
             "1-B: regression: nonsig",
             "1-C: regression: nonsig"
-        ]
+        ],
+        "Citations": 138,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Social\u0001physiological+compliance+as+a+determinant+of+team+performance&btnG="
     },
     "146": {
         "paper_id_new": 152,
@@ -7685,7 +7977,9 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2-A: unsup.machine learning: 60%"
-        ]
+        ],
+        "Citations": 31,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Modelling+Symmetry+of+Activity+as+an+Indicator+of+Collocated+Group+Collaboration&btnG="
     },
     "147": {
         "paper_id_new": 153,
@@ -7737,6 +8031,8 @@
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1,2,3,4: regression: sig"
-        ]
+        ],
+        "Citations": 32,
+        "google_scholar_url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Estimating+conversational+dominance+in+multiparty+interaction\n&btnG="
     }
 }

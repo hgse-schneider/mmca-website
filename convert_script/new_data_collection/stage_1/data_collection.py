@@ -37,7 +37,7 @@ IMPORTANT NOTES:
 METRIC_PATH = "paper_metrics_constructs.csv"
 META_PATH = "paper_meta.csv"
 JSON_PATH = "data.JSON"
-FINAL_CODED = 74
+FINAL_CODED = 148
 ALL_PAPERS = True
 ALL_FIELDS = False
 # DEBUG = False
@@ -45,6 +45,7 @@ ALL_FIELDS = False
 USEFUL_FIELDS = [
     "paper_id_new",
     "data_standardized",
+    "data",
     "sensor",
     "metric", 
     "metric_larger_category", 

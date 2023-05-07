@@ -19,10 +19,10 @@ Parameters:
 --> FIELD_HIERARCHY: order of fields in diagram, first element highest
 '''
 
-INPUT_PATH = "citation_data_verified.JSON"
-OUTPUT_PATH = "circle_data_test.JSON"
+INPUT_PATH = "citation_data.JSON"
+OUTPUT_PATH = "circle_data.JSON"
 # Flipping hierarhcy order from the intuitive since pop removes from end
-FIELD_HIERARHCY = ["outcome_larger_category", "outcome_smaller_category", "data_standardized", "metric"][::-1]
+FIELD_HIERARHCY = ["outcome_larger_category", "outcome_smaller_category", "data", "metric"][::-1]
 
 '''
 What would be ideal to get out to make life easy:
@@ -138,16 +138,21 @@ with open(INPUT_PATH, 'r') as f:
                         info.append(met)
                         break
                 
-                # Finding the key of the data_standardized associated with the metric
+                # Finding the key of the data associated with the metric
                 data_no = ""
                 for data_metric_link in data_metric_links:
                     no, dta = data_metric_link
                     if no == metric_no:
                         data_no = dta
 
-                # Grabbing the data_standardized that we want
+                # Grabbing the data that we want
                 for datum in paper_useful_data[1]:
-                    no, d = datum.split(") ")
+                    try:
+                        no, d = datum.split(") ")
+                    except:
+                        print(f"Problem with paper: {paper}. Useful data array:")
+                        print(paper_useful_data)
+                        print(" ")
                     if no == data_no:
                         info.append(d)
                         break
