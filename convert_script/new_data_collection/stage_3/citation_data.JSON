@@ -5025,7 +5025,7 @@
             "A) task outcome"
         ],
         "outcome_smaller_category": [
-            "A) product"
+            "A)product"
         ],
         "outcome_larger_category": [
             "A) product"
@@ -5071,7 +5071,7 @@
             "A) post test"
         ],
         "outcome_smaller_category": [
-            "A) product"
+            "A)product"
         ],
         "outcome_larger_category": [
             "A) product"
@@ -5883,7 +5883,7 @@
             "1) Physiological Synchrony"
         ],
         "metric_larger_category": [
-            "1) physiology"
+            "1） physiology"
         ],
         "metric_smaller_category": [
             "1）brain"

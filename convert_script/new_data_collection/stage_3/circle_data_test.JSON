@@ -1,0 +1,440 @@
+{
+    "name": "data",
+    "children": [
+        {
+            "name": "process",
+            "children": [
+                {
+                    "name": "interpersonal relationship / perception",
+                    "children": [
+                        {
+                            "name": "individual visual focus of attention",
+                            "children": [
+                                {
+                                    "name": "Linking Speaking and Looking Behavior Patterns with Group Composition, Perception, and Performance",
+                                    "value": 1,
+                                    "connections": 1,
+                                    "id": 6,
+                                    "citations": 60,
+                                    "year": 2012,
+                                    "url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Linking+Speaking+and+Looking+Behavior+Patterns+with+Group+Composition,+Perception,+and+Performance&btnG=",
+                                    "metric": [
+                                        "1) group participation speaking cues",
+                                        "2) silence and overlap cues",
+                                        "3) speaking distribution cues",
+                                        "4) individual visual focus of attention",
+                                        "5) group looking cues"
+                                    ],
+                                    "outcome": [
+                                        "A) group composition",
+                                        "B) group interpersonal perception",
+                                        "C) group performance"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "group looking cues",
+                            "children": [
+                                {
+                                    "name": "Linking Speaking and Looking Behavior Patterns with Group Composition, Perception, and Performance",
+                                    "value": 1,
+                                    "connections": 1,
+                                    "id": 6,
+                                    "citations": 60,
+                                    "year": 2012,
+                                    "url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Linking+Speaking+and+Looking+Behavior+Patterns+with+Group+Composition,+Perception,+and+Performance&btnG=",
+                                    "metric": [
+                                        "1) group participation speaking cues",
+                                        "2) silence and overlap cues",
+                                        "3) speaking distribution cues",
+                                        "4) individual visual focus of attention",
+                                        "5) group looking cues"
+                                    ],
+                                    "outcome": [
+                                        "A) group composition",
+                                        "B) group interpersonal perception",
+                                        "C) group performance"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Audio",
+                            "children": [
+                                {
+                                    "name": "speaking distribution cues",
+                                    "children": [
+                                        {
+                                            "name": "Linking Speaking and Looking Behavior Patterns with Group Composition, Perception, and Performance",
+                                            "value": 1,
+                                            "connections": 1,
+                                            "id": 6,
+                                            "citations": 60,
+                                            "year": 2012,
+                                            "url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Linking+Speaking+and+Looking+Behavior+Patterns+with+Group+Composition,+Perception,+and+Performance&btnG=",
+                                            "metric": [
+                                                "1) group participation speaking cues",
+                                                "2) silence and overlap cues",
+                                                "3) speaking distribution cues",
+                                                "4) individual visual focus of attention",
+                                                "5) group looking cues"
+                                            ],
+                                            "outcome": [
+                                                "A) group composition",
+                                                "B) group interpersonal perception",
+                                                "C) group performance"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "group participation speaking cues",
+                                    "children": [
+                                        {
+                                            "name": "Linking Speaking and Looking Behavior Patterns with Group Composition, Perception, and Performance",
+                                            "value": 1,
+                                            "connections": 1,
+                                            "id": 6,
+                                            "citations": 60,
+                                            "year": 2012,
+                                            "url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Linking+Speaking+and+Looking+Behavior+Patterns+with+Group+Composition,+Perception,+and+Performance&btnG=",
+                                            "metric": [
+                                                "1) group participation speaking cues",
+                                                "2) silence and overlap cues",
+                                                "3) speaking distribution cues",
+                                                "4) individual visual focus of attention",
+                                                "5) group looking cues"
+                                            ],
+                                            "outcome": [
+                                                "A) group composition",
+                                                "B) group interpersonal perception",
+                                                "C) group performance"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "silence and overlap cues",
+                                    "children": [
+                                        {
+                                            "name": "Linking Speaking and Looking Behavior Patterns with Group Composition, Perception, and Performance",
+                                            "value": 1,
+                                            "connections": 1,
+                                            "id": 6,
+                                            "citations": 60,
+                                            "year": 2012,
+                                            "url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Linking+Speaking+and+Looking+Behavior+Patterns+with+Group+Composition,+Perception,+and+Performance&btnG=",
+                                            "metric": [
+                                                "1) group participation speaking cues",
+                                                "2) silence and overlap cues",
+                                                "3) speaking distribution cues",
+                                                "4) individual visual focus of attention",
+                                                "5) group looking cues"
+                                            ],
+                                            "outcome": [
+                                                "A) group composition",
+                                                "B) group interpersonal perception",
+                                                "C) group performance"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "condition",
+            "children": [
+                {
+                    "name": "group composition",
+                    "children": [
+                        {
+                            "name": "group looking cues",
+                            "children": [
+                                {
+                                    "name": "Linking Speaking and Looking Behavior Patterns with Group Composition, Perception, and Performance",
+                                    "value": 1,
+                                    "connections": 1,
+                                    "id": 6,
+                                    "citations": 60,
+                                    "year": 2012,
+                                    "url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Linking+Speaking+and+Looking+Behavior+Patterns+with+Group+Composition,+Perception,+and+Performance&btnG=",
+                                    "metric": [
+                                        "1) group participation speaking cues",
+                                        "2) silence and overlap cues",
+                                        "3) speaking distribution cues",
+                                        "4) individual visual focus of attention",
+                                        "5) group looking cues"
+                                    ],
+                                    "outcome": [
+                                        "A) group composition",
+                                        "B) group interpersonal perception",
+                                        "C) group performance"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "individual visual focus of attention",
+                            "children": [
+                                {
+                                    "name": "Linking Speaking and Looking Behavior Patterns with Group Composition, Perception, and Performance",
+                                    "value": 1,
+                                    "connections": 1,
+                                    "id": 6,
+                                    "citations": 60,
+                                    "year": 2012,
+                                    "url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Linking+Speaking+and+Looking+Behavior+Patterns+with+Group+Composition,+Perception,+and+Performance&btnG=",
+                                    "metric": [
+                                        "1) group participation speaking cues",
+                                        "2) silence and overlap cues",
+                                        "3) speaking distribution cues",
+                                        "4) individual visual focus of attention",
+                                        "5) group looking cues"
+                                    ],
+                                    "outcome": [
+                                        "A) group composition",
+                                        "B) group interpersonal perception",
+                                        "C) group performance"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Audio",
+                            "children": [
+                                {
+                                    "name": "speaking distribution cues",
+                                    "children": [
+                                        {
+                                            "name": "Linking Speaking and Looking Behavior Patterns with Group Composition, Perception, and Performance",
+                                            "value": 1,
+                                            "connections": 1,
+                                            "id": 6,
+                                            "citations": 60,
+                                            "year": 2012,
+                                            "url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Linking+Speaking+and+Looking+Behavior+Patterns+with+Group+Composition,+Perception,+and+Performance&btnG=",
+                                            "metric": [
+                                                "1) group participation speaking cues",
+                                                "2) silence and overlap cues",
+                                                "3) speaking distribution cues",
+                                                "4) individual visual focus of attention",
+                                                "5) group looking cues"
+                                            ],
+                                            "outcome": [
+                                                "A) group composition",
+                                                "B) group interpersonal perception",
+                                                "C) group performance"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "group participation speaking cues",
+                                    "children": [
+                                        {
+                                            "name": "Linking Speaking and Looking Behavior Patterns with Group Composition, Perception, and Performance",
+                                            "value": 1,
+                                            "connections": 1,
+                                            "id": 6,
+                                            "citations": 60,
+                                            "year": 2012,
+                                            "url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Linking+Speaking+and+Looking+Behavior+Patterns+with+Group+Composition,+Perception,+and+Performance&btnG=",
+                                            "metric": [
+                                                "1) group participation speaking cues",
+                                                "2) silence and overlap cues",
+                                                "3) speaking distribution cues",
+                                                "4) individual visual focus of attention",
+                                                "5) group looking cues"
+                                            ],
+                                            "outcome": [
+                                                "A) group composition",
+                                                "B) group interpersonal perception",
+                                                "C) group performance"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "silence and overlap cues",
+                                    "children": [
+                                        {
+                                            "name": "Linking Speaking and Looking Behavior Patterns with Group Composition, Perception, and Performance",
+                                            "value": 1,
+                                            "connections": 1,
+                                            "id": 6,
+                                            "citations": 60,
+                                            "year": 2012,
+                                            "url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Linking+Speaking+and+Looking+Behavior+Patterns+with+Group+Composition,+Perception,+and+Performance&btnG=",
+                                            "metric": [
+                                                "1) group participation speaking cues",
+                                                "2) silence and overlap cues",
+                                                "3) speaking distribution cues",
+                                                "4) individual visual focus of attention",
+                                                "5) group looking cues"
+                                            ],
+                                            "outcome": [
+                                                "A) group composition",
+                                                "B) group interpersonal perception",
+                                                "C) group performance"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "product",
+            "children": [
+                {
+                    "name": "performance",
+                    "children": [
+                        {
+                            "name": "individual visual focus of attention",
+                            "children": [
+                                {
+                                    "name": "Linking Speaking and Looking Behavior Patterns with Group Composition, Perception, and Performance",
+                                    "value": 1,
+                                    "connections": 1,
+                                    "id": 6,
+                                    "citations": 60,
+                                    "year": 2012,
+                                    "url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Linking+Speaking+and+Looking+Behavior+Patterns+with+Group+Composition,+Perception,+and+Performance&btnG=",
+                                    "metric": [
+                                        "1) group participation speaking cues",
+                                        "2) silence and overlap cues",
+                                        "3) speaking distribution cues",
+                                        "4) individual visual focus of attention",
+                                        "5) group looking cues"
+                                    ],
+                                    "outcome": [
+                                        "A) group composition",
+                                        "B) group interpersonal perception",
+                                        "C) group performance"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "group looking cues",
+                            "children": [
+                                {
+                                    "name": "Linking Speaking and Looking Behavior Patterns with Group Composition, Perception, and Performance",
+                                    "value": 1,
+                                    "connections": 1,
+                                    "id": 6,
+                                    "citations": 60,
+                                    "year": 2012,
+                                    "url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Linking+Speaking+and+Looking+Behavior+Patterns+with+Group+Composition,+Perception,+and+Performance&btnG=",
+                                    "metric": [
+                                        "1) group participation speaking cues",
+                                        "2) silence and overlap cues",
+                                        "3) speaking distribution cues",
+                                        "4) individual visual focus of attention",
+                                        "5) group looking cues"
+                                    ],
+                                    "outcome": [
+                                        "A) group composition",
+                                        "B) group interpersonal perception",
+                                        "C) group performance"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Audio",
+                            "children": [
+                                {
+                                    "name": "speaking distribution cues",
+                                    "children": [
+                                        {
+                                            "name": "Linking Speaking and Looking Behavior Patterns with Group Composition, Perception, and Performance",
+                                            "value": 1,
+                                            "connections": 1,
+                                            "id": 6,
+                                            "citations": 60,
+                                            "year": 2012,
+                                            "url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Linking+Speaking+and+Looking+Behavior+Patterns+with+Group+Composition,+Perception,+and+Performance&btnG=",
+                                            "metric": [
+                                                "1) group participation speaking cues",
+                                                "2) silence and overlap cues",
+                                                "3) speaking distribution cues",
+                                                "4) individual visual focus of attention",
+                                                "5) group looking cues"
+                                            ],
+                                            "outcome": [
+                                                "A) group composition",
+                                                "B) group interpersonal perception",
+                                                "C) group performance"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "group participation speaking cues",
+                                    "children": [
+                                        {
+                                            "name": "Linking Speaking and Looking Behavior Patterns with Group Composition, Perception, and Performance",
+                                            "value": 1,
+                                            "connections": 1,
+                                            "id": 6,
+                                            "citations": 60,
+                                            "year": 2012,
+                                            "url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Linking+Speaking+and+Looking+Behavior+Patterns+with+Group+Composition,+Perception,+and+Performance&btnG=",
+                                            "metric": [
+                                                "1) group participation speaking cues",
+                                                "2) silence and overlap cues",
+                                                "3) speaking distribution cues",
+                                                "4) individual visual focus of attention",
+                                                "5) group looking cues"
+                                            ],
+                                            "outcome": [
+                                                "A) group composition",
+                                                "B) group interpersonal perception",
+                                                "C) group performance"
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "silence and overlap cues",
+                                    "children": [
+                                        {
+                                            "name": "Linking Speaking and Looking Behavior Patterns with Group Composition, Perception, and Performance",
+                                            "value": 1,
+                                            "connections": 1,
+                                            "id": 6,
+                                            "citations": 60,
+                                            "year": 2012,
+                                            "url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C22&q=Linking+Speaking+and+Looking+Behavior+Patterns+with+Group+Composition,+Perception,+and+Performance&btnG=",
+                                            "metric": [
+                                                "1) group participation speaking cues",
+                                                "2) silence and overlap cues",
+                                                "3) speaking distribution cues",
+                                                "4) individual visual focus of attention",
+                                                "5) group looking cues"
+                                            ],
+                                            "outcome": [
+                                                "A) group composition",
+                                                "B) group interpersonal perception",
+                                                "C) group performance"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

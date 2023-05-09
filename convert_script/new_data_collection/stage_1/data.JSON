@@ -3570,17 +3570,17 @@
             "E) process"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1,2,3-A : correlation : nonsig",
-            "4-A:correlation: sig",
-            "5-A : ANOVA : sig",
-            "1,2,4-B : correlation : nonsig",
-            "3-B:correlation: sig",
-            "1,2,4-C:correlation : nonsig",
-            "3-C:correlation: sig",
-            "1,2,4-D:correlation: nonsig",
-            "3-D:correlation: sig",
-            "1,2,3-E:correlation : nonsig",
-            "4-E:correlation: sig"
+            "1,2,3-A: correlation : nonsig",
+            "4-A: correlation: sig",
+            "5-A: ANOVA : sig",
+            "1,2,4-B: correlation : nonsig",
+            "3-B: correlation: sig",
+            "1,2,4-C: correlation : nonsig",
+            "3-C: correlation: sig",
+            "1,2,4-D: correlation: nonsig",
+            "3-D: correlation: sig",
+            "1,2,3-E: correlation : nonsig",
+            "4-E: correlation: sig"
         ]
     },
     "57": {
@@ -4738,7 +4738,7 @@
         ],
         "metric_larger_category": [
             "1) Gaze",
-            "2)Verbal"
+            "2) Verbal"
         ],
         "metric_smaller_category": [
             "1) Visual Attention",
@@ -4756,11 +4756,13 @@
         ],
         "outcome_instrument": [
             "A) pre-post test",
-            "B) Coding scheme"
+            "B) Coding scheme",
+            ""
         ],
         "outcome_smaller_category": [
             "A) Learning",
-            "B) Coordination"
+            "B) Coordination",
+            ""
         ],
         "outcome_larger_category": [
             "A) Product",
@@ -4842,7 +4844,8 @@
         "metric": [
             "1) Joint Visual Attention",
             "2) Joint Mental Effort ",
-            "3) Dialogue"
+            "3) Dialogue",
+            ""
         ],
         "metric_larger_category": [
             "1) Gaze",
@@ -4870,7 +4873,7 @@
             "A)product"
         ],
         "outcome_larger_category": [
-            "A)product"
+            "A) product"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: ANOVA: sig ",
@@ -4914,7 +4917,7 @@
             "A)product"
         ],
         "outcome_larger_category": [
-            "A)product"
+            "A) product"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: correlation: sig"
@@ -5222,7 +5225,8 @@
             "3) III"
         ],
         "outcome": [
-            "A) learning gain"
+            "A) learning gain",
+            ""
         ],
         "outcome_instrument": [
             "A) computer-based isomorphic test forms"
@@ -5353,7 +5357,8 @@
         ],
         "sensor": [
             "I) Eye-tracker ",
-            "III) NS"
+            "III) NS",
+            ""
         ],
         "metric": [
             "1) Gaze Episodes",
@@ -5412,7 +5417,8 @@
         "metric": [
             "1) Affective States",
             "2) Speech",
-            "3) Task-context Features"
+            "3) Task-context Features",
+            ""
         ],
         "metric_larger_category": [
             "1) Gaze",
@@ -5428,7 +5434,8 @@
             "1) II",
             "2) II",
             "3) III",
-            "4) V"
+            "4) V",
+            ""
         ],
         "outcome": [
             "A) Last error",
@@ -5487,7 +5494,8 @@
             "A) performance"
         ],
         "outcome_larger_category": [
-            "A) product"
+            "A) product",
+            ""
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: ANOVA: sig"
@@ -5522,15 +5530,18 @@
         ],
         "outcome": [
             "A) collaborative problem-solving performance",
-            "B) collaborative problem-solving efficiency"
+            "B) collaborative problem-solving efficiency",
+            ""
         ],
         "outcome_instrument": [
             "A) researcher coded",
-            "B) log data"
+            "B) log data",
+            ""
         ],
         "outcome_smaller_category": [
             "A) performance",
-            "B) coordination"
+            "B) coordination",
+            ""
         ],
         "outcome_larger_category": [
             "A) product",
@@ -5572,16 +5583,20 @@
             "2) IV"
         ],
         "outcome": [
-            "A) learning gain"
+            "A) learning gain",
+            ""
         ],
         "outcome_instrument": [
-            "A) pre post test"
+            "A) pre post test",
+            ""
         ],
         "outcome_smaller_category": [
-            "A) cognitive load"
+            "A) cognitive load",
+            ""
         ],
         "outcome_larger_category": [
-            "A) product"
+            "A) product",
+            ""
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: negative correlation: sig: (frustration level)"
@@ -5660,10 +5675,12 @@
             "1) I"
         ],
         "outcome": [
-            "A) Learning Measures"
+            "A) Learning Measures",
+            ""
         ],
         "outcome_instrument": [
-            "A) questionnaire (individual level), research coded (dyad level)"
+            "A) questionnaire (individual level), research coded (dyad level)",
+            ""
         ],
         "outcome_smaller_category": [
             "A) performance"
@@ -5711,7 +5728,8 @@
         ],
         "outcome_smaller_category": [
             "A) Performance ",
-            "B) performance"
+            "B) performance",
+            ""
         ],
         "outcome_larger_category": [
             "A) product        ",
@@ -5737,7 +5755,7 @@
             "II) camera"
         ],
         "metric": [
-            "1)physical interactivity"
+            "1) physical interactivity"
         ],
         "metric_larger_category": [
             "1）Body"
@@ -5746,7 +5764,8 @@
             "1）Gross Body motion"
         ],
         "data_per_metric": [
-            "1) II"
+            "1) II",
+            ""
         ],
         "outcome": [
             "A)CPS competencies"
@@ -5807,10 +5826,12 @@
             "4) II"
         ],
         "outcome": [
-            "A) Learning gains "
+            "A) Learning gains ",
+            ""
         ],
         "outcome_instrument": [
-            "A) pre-post test "
+            "A) pre-post test ",
+            ""
         ],
         "outcome_smaller_category": [
             "A) Learning "
@@ -5940,10 +5961,10 @@
             "VIII) EEG"
         ],
         "metric": [
-            "1)mediation- anxiety level"
+            "1) mediation- anxiety level"
         ],
         "metric_larger_category": [
-            "1 ) physioloy"
+            "1) physiology"
         ],
         "metric_smaller_category": [
             "1) brain"
@@ -5952,7 +5973,8 @@
             "1) VIII"
         ],
         "outcome": [
-            "A) Learning gains "
+            "A) Learning gains ",
+            ""
         ],
         "outcome_instrument": [
             "A) researcher coded "
@@ -5979,7 +6001,8 @@
             "None"
         ],
         "sensor": [
-            "VIII) EEG sensor"
+            "VIII) EEG sensor",
+            ""
         ],
         "metric": [
             "1) Inter-brain synchrony "
@@ -6245,7 +6268,8 @@
         "year": 2007,
         "authors": "Janienke Sturm,  Olga Houben-van Herwijnen,  Anke Eyck, Jacques Terken\n\n",
         "data": [
-            "I) Eye Gaze"
+            "I) Eye Gaze",
+            ""
         ],
         "data_standardized": [
             "None"
@@ -6293,7 +6317,8 @@
         "authors": "Andrew F. Monk , Caroline Gale",
         "data": [
             "I) Eye Gaze",
-            "III) Audio"
+            "III) Audio",
+            ""
         ],
         "data_standardized": [
             "None"
@@ -6323,7 +6348,8 @@
         ],
         "outcome_smaller_category": [
             "A) performance ",
-            "B) collaboration"
+            "B) collaboration",
+            ""
         ],
         "outcome_larger_category": [
             "A) product",
@@ -6487,13 +6513,15 @@
             "1) physiology",
             "2) physiology",
             "3) physiology",
-            "4) physiology"
+            "4) physiology",
+            ""
         ],
         "metric_larger_category": [
             "1) physiology",
             "2) physiology",
             "3) physiology",
-            "4) physiology"
+            "4) physiology",
+            ""
         ],
         "metric_smaller_category": [
             "1) brain",
@@ -6720,14 +6748,16 @@
         "authors": null,
         "data": [
             "II) Video",
-            "III) Audio"
+            "III) Audio",
+            ""
         ],
         "data_standardized": [
             "None"
         ],
         "sensor": [
             "II) camera",
-            "III) Microphone"
+            "III) Microphone",
+            ""
         ],
         "metric": [
             "1) Gross body movements ",
@@ -6768,14 +6798,16 @@
         "authors": null,
         "data": [
             "II) Video",
-            "III) Audio"
+            "III) Audio",
+            ""
         ],
         "data_standardized": [
             "None"
         ],
         "sensor": [
             "II) camera",
-            "III) Microphone"
+            "III) Microphone",
+            ""
         ],
         "metric": [
             "1) Gross body movements ",
@@ -6823,7 +6855,8 @@
         ],
         "sensor": [
             "II) camera",
-            "III) Microphone"
+            "III) Microphone",
+            ""
         ],
         "metric": [
             "1) Gross body movements",
@@ -7150,7 +7183,8 @@
         "metric_smaller_category": [
             "1) visual attention",
             "2) hand motions",
-            "3) speech features"
+            "3) speech features",
+            ""
         ],
         "data_per_metric": [
             "1) I",
@@ -7209,7 +7243,8 @@
             "A) focus of attention "
         ],
         "outcome_instrument": [
-            "A) researcher coded"
+            "A) researcher coded",
+            ""
         ],
         "outcome_smaller_category": [
             "A) coordination"
@@ -7251,7 +7286,8 @@
         ],
         "metric_smaller_category": [
             "1) visual attention ",
-            "2)head motions "
+            "2)head motions ",
+            ""
         ],
         "data_per_metric": [
             "1) I ",
@@ -7261,7 +7297,8 @@
             "A) focus of attention "
         ],
         "outcome_instrument": [
-            "A) researcher coded"
+            "A) researcher coded",
+            ""
         ],
         "outcome_smaller_category": [
             "A) coordination"
@@ -7411,7 +7448,8 @@
         ],
         "outcome_smaller_category": [
             "A) engagement",
-            "B) interpersonal relationship"
+            "B) interpersonal relationship",
+            ""
         ],
         "outcome_larger_category": [
             "A) Process",
@@ -7464,7 +7502,8 @@
             "A) focus of attention "
         ],
         "outcome_instrument": [
-            "A) researcher coded"
+            "A) researcher coded",
+            ""
         ],
         "outcome_smaller_category": [
             "A) coordination"
@@ -7506,7 +7545,8 @@
             "A) focus of attention "
         ],
         "outcome_instrument": [
-            "A) researcher coded"
+            "A) researcher coded",
+            ""
         ],
         "outcome_smaller_category": [
             "A) coordination"
@@ -7573,7 +7613,8 @@
         "year": 2003,
         "authors": null,
         "data": [
-            "I) Eye Gaze"
+            "I) Eye Gaze",
+            ""
         ],
         "data_standardized": [
             "None"
@@ -7646,13 +7687,16 @@
             "1) IV"
         ],
         "outcome": [
-            "A) peripheral awareness"
+            "A) peripheral awareness",
+            ""
         ],
         "outcome_instrument": [
-            "A) researcher coded"
+            "A) researcher coded",
+            ""
         ],
         "outcome_smaller_category": [
-            "A) coordination"
+            "A) coordination",
+            ""
         ],
         "outcome_larger_category": [
             "A) Process"
@@ -7673,7 +7717,8 @@
             "None"
         ],
         "sensor": [
-            "VIII) EEG sensor"
+            "VIII) EEG sensor",
+            ""
         ],
         "metric": [
             "1) brain waves patterns "
@@ -7886,7 +7931,8 @@
             "A) focus of attention "
         ],
         "outcome_instrument": [
-            "A) researcher coded"
+            "A) researcher coded",
+            ""
         ],
         "outcome_smaller_category": [
             "A) coordination"
@@ -7959,7 +8005,8 @@
         "authors": null,
         "data": [
             "VI) EDA",
-            "VII) ECG"
+            "VII) ECG",
+            ""
         ],
         "data_standardized": [
             "None"
@@ -7972,7 +8019,8 @@
             "1) Social Physiological Compliance (SPC)"
         ],
         "metric_larger_category": [
-            "1) Physiology"
+            "1) Physiology",
+            ""
         ],
         "metric_smaller_category": [
             "1) combined"
@@ -8035,7 +8083,7 @@
             "A) process"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1-A:sup.machine learning: 40%"
+            "1-A: sup.machine learning: 40%"
         ]
     },
     "144": {
@@ -8068,7 +8116,8 @@
             "A) focus of attention "
         ],
         "outcome_instrument": [
-            "A) researcher coded"
+            "A) researcher coded",
+            ""
         ],
         "outcome_smaller_category": [
             "A) coordination"
@@ -8172,7 +8221,8 @@
             "A) group collaboration level"
         ],
         "outcome_instrument": [
-            "A) researcher coded"
+            "A) researcher coded",
+            ""
         ],
         "outcome_smaller_category": [
             "A) collaboration"

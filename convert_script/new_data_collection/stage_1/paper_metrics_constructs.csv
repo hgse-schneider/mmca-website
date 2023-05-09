@@ -1599,17 +1599,17 @@ E) coordination","A) product
 B) process
 C) process
 D) process
-E) process","1,2,3-A : correlation : nonsig
-4-A:correlation: sig
-5-A : ANOVA : sig
-1,2,4-B : correlation : nonsig
-3-B:correlation: sig
-1,2,4-C:correlation : nonsig
-3-C:correlation: sig
-1,2,4-D:correlation: nonsig
-3-D:correlation: sig
-1,2,3-E:correlation : nonsig
-4-E:correlation: sig"
+E) process","1,2,3-A: correlation : nonsig
+4-A: correlation: sig
+5-A: ANOVA : sig
+1,2,4-B: correlation : nonsig
+3-B: correlation: sig
+1,2,4-C: correlation : nonsig
+3-C: correlation: sig
+1,2,4-D: correlation: nonsig
+3-D: correlation: sig
+1,2,3-E: correlation : nonsig
+4-E: correlation: sig"
 58,89,callie,"II) Video
 III) Audio","II) Video
 III) Audio","II) camera
@@ -1996,19 +1996,17 @@ III) NS","1) Joint visual attention
 2) simple linguistic features
 3) convergence (of linguistic styles)
 4) coherence","1) Gaze
-2)Verbal","1) Visual Attention
+2) Verbal","1) Visual Attention
 2) Speech Participation",,"1) I
 2) III
 3) III
 4) III",,"A) Learning 
-B) Collaboration
-","A) pre-post test
+B) Collaboration","A) pre-post test
 B) Coding scheme
 ","A) Learning
 B) Coordination
 ","A) Product
-B) Process
-","4-A: correlation: sig
+B) Process","4-A: correlation: sig
 4-C: ANOVA: sig
 2-A: sup. machine learning: 75%"
 79,Real-time mutual gaze perception enhances collaborative 4 learning and collaboration quality,,"I) Eye gaze
@@ -2036,10 +2034,10 @@ V) NS","1) Joint Visual Attention
 3) Speech Features ",,"1) I
 2) I
 3) III
-4) V",,A) learning performance,A) task outcome,A)product,A)product,"1-A: ANOVA: sig 
+4) V",,A) learning performance,A) task outcome,A)product,A) product,"1-A: ANOVA: sig 
 2-A: ANOVA: sig"
 81,Deep neural networks for collaborative learning analytics: Evaluating team collaborations using student gaze point prediction,,I) Eye Gaze,,"I) video camera, 
-gaze-tracker (deep neural networks)","I) Microsoft Kinect, Gaze following framework (GazeFollow)",1) Joint Visual Attention,1) Gaze,1) Visual Attention,,1) I,,A) learning gains,A) post test,A)product,A)product,1-A: correlation: sig
+gaze-tracker (deep neural networks)","I) Microsoft Kinect, Gaze following framework (GazeFollow)",1) Joint Visual Attention,1) Gaze,1) Visual Attention,,1) I,,A) learning gains,A) post test,A)product,A) product,1-A: correlation: sig
 82,"Utilizing Interactive Surfaces to Enhance Learning, Collaboration and Engagement: Insights from Learners’ Gaze and Speech",,"I) Eye Gaze
 III) Audio
 V) Log data",,"I) eye-tracker
@@ -2117,8 +2115,7 @@ V) NS","1) Gaze
 7) Verbal
 8) Verbal
 9) Verbal
-10) Log Data
-","1) Visual Attention
+10) Log Data","1) Visual Attention
 2) Visua Attention
 3) Visual Attention
 4) Eye Physiology
@@ -2230,9 +2227,7 @@ B) log data
 B) coordination
 ","A) product
 B) process","1-A: positive correlation: sig
-2-B: negative correlation: sig
-
-"
+2-B: negative correlation: sig"
 93,Automatically Recognizing Facial Indicators of Frustration: A Learning-centric Analysis,kavie,IV) Kinesiology,,IV) Kinect,IV) Kinect depth camera,"1) Posture Estimation
 2) Hand-to-Face Gesture","1) Body
 2) Body","1) Gross Body Motion
@@ -2257,7 +2252,7 @@ B) performance
 ","A) product        
 A) product","1-A: Positive Correlation: sig
 1-B: Negative Correlation: sig"
-97,The NISPI framework: Analysing collaborative problem-solving from students' physical interactions,zoe,II) video,,II) camera,II) Microsoft Kinetic,1)physical interactivity,1）Body,1）Gross Body motion,,"1) II
+97,The NISPI framework: Analysing collaborative problem-solving from students' physical interactions,zoe,II) video,,II) camera,II) Microsoft Kinetic,1) physical interactivity,1）Body,1）Gross Body motion,,"1) II
 ",,A)CPS competencies,A) researcher coded ,A) performance,A) product,1-A: anova: sig
 98,Many are the ways to learn identifying multi-modal behavioral profiles of collaborative learning in constructivist activities,zoe,"II) video
 III) Audio
@@ -2304,7 +2299,7 @@ V) learning platform",II) NS III) NS V) Arduino IDE,"1）Total number of faces l
 2) Metrics of hands distance","1) Body
 2) Body",1) Hand 2) Hand,,"1) II
 2) II",,A) CPS competence,A) Researcher coded ,A) Collaboration,A) Process,"1,2-A: machine learning: sig: (0.75)"
-101,An Integrated Observing Technic for Collaborative Learning: The Multimodal Learning Analytics Based on the Video Coding and EEG Data Mining,zoe,VIII) EEG,,VIII) EEG,VIII) NS,1)mediation- anxiety level,1 ) physioloy,1) brain,,1) VIII,,"A) Learning gains 
+101,An Integrated Observing Technic for Collaborative Learning: The Multimodal Learning Analytics Based on the Video Coding and EEG Data Mining,zoe,VIII) EEG,,VIII) EEG,VIII) NS,1) mediation- anxiety level,1) physiology,1) brain,,1) VIII,,"A) Learning gains 
 ",A) researcher coded ,A) Learning ,A) product,1-A: Mann-Whitney U and Kruskal-Wllis tests: sig
 102,Inter-brain synchrony in teams predicts collective performance,zoe,VIII) EEG ,,"VIII) EEG sensor
 ","VIII) Emotiv
@@ -2402,8 +2397,7 @@ B) researcher coded","A) Collaboration
 B) Coordination","A) Process
 B) Product","1,2,3-A: t-test: sig
 1,2,3-B: t-test: sig"
-120,Evaluation of user gestures in multi-touch interaction: a case study in pair-programming,kavie,II) Video,,II) Camera,,1) Gesture fluency,1) Body,1) Gesture fluency,,1) II,,A) communicative intent ,A) researcher coded,A) Collaboration,A) Process ,"1-A: ANOVA: sig
-"
+120,Evaluation of user gestures in multi-touch interaction: a case study in pair-programming,kavie,II) Video,,II) Camera,,1) Gesture fluency,1) Body,1) Gesture fluency,,1) II,,A) communicative intent ,A) researcher coded,A) Collaboration,A) Process ,1-A: ANOVA: sig
 121,"Towards Adapting Fantasy, Curiosity and Challenge in
 Multimodal Dialogue Systems for Preschoolers",kavie,III) Audio,,III) Microphone,,1) speech features,1) Verbal,1) speech usage,,1) III,,"A) task completion
 B) fantasy levels","A) researcher coded
@@ -2606,9 +2600,7 @@ C) Process","1-A: ANOVA: sig
 141,,kavie,IV) Kinesiology,,IV) Camera,,1) head rotation,1) Body,1) head motions,,1) IV,,"A) peripheral awareness
 ","A) researcher coded
 ","A) coordination
-","A) Process
-","1-A: t-test: sig
-"
+",A) Process,1-A: t-test: sig
 142,,zoe,VIII) EEG ,,"VIII) EEG sensor
 ","VIII) Enobio EEG
 ",1) brain waves patterns ,1) physiology,1）brain,,1) VIII,,A) Situational Interest ,A) questionnaire,A) coordination,A) process,1-A: sup.machine learning: 93.3%
@@ -2662,10 +2654,9 @@ VII) ECG
 ",,"VI) wearable sensor
 VII) wearable sensor","VI) Shimmer 3+ GSR devices
 VII)  eMotion Faros 180",1) Social Physiological Compliance (SPC),"1) Physiology
-",1) combined,,1) VI& VII,,A) task performance,A) log data ,A) performance,A) product,"1-A: minimum-width envelope: sig
-"
+",1) combined,,1) VI& VII,,A) task performance,A) log data ,A) performance,A) product,1-A: minimum-width envelope: sig
 149,"Toward Automated Detection of Phase Changes in Team Collaboration
-",zoe,III) Audio,,III) Microphone,,1) speech features,1) Verbal,1) speech features,,1) III,,A) team coordination,A) researcuer coded,A)coordination,A) process,1-A:sup.machine learning: 40%
+",zoe,III) Audio,,III) Microphone,,1) speech features,1) Verbal,1) speech features,,1) III,,A) team coordination,A) researcuer coded,A)coordination,A) process,1-A: sup.machine learning: 40%
 150,Modeling People's Focus of Attention,zoe,IV) Kinesiology,,IV) Camera,,1) head rotation,1) Body,1) head motions,,1) IV,,A) focus of attention ,"A) researcher coded
 ",A) coordination,A) process,1-A: unsup.machine learning: 93%
 151,,kavie,"VI) EDA

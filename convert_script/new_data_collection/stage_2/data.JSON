@@ -3570,17 +3570,17 @@
             "E) process"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1,2,3-A : correlation : nonsig",
-            "4-A:correlation: sig",
-            "5-A : ANOVA : sig",
-            "1,2,4-B : correlation : nonsig",
-            "3-B:correlation: sig",
-            "1,2,4-C:correlation : nonsig",
-            "3-C:correlation: sig",
-            "1,2,4-D:correlation: nonsig",
-            "3-D:correlation: sig",
-            "1,2,3-E:correlation : nonsig",
-            "4-E:correlation: sig"
+            "1,2,3-A: correlation : nonsig",
+            "4-A: correlation: sig",
+            "5-A: ANOVA : sig",
+            "1,2,4-B: correlation : nonsig",
+            "3-B: correlation: sig",
+            "1,2,4-C: correlation : nonsig",
+            "3-C: correlation: sig",
+            "1,2,4-D: correlation: nonsig",
+            "3-D: correlation: sig",
+            "1,2,3-E: correlation : nonsig",
+            "4-E: correlation: sig"
         ]
     },
     "57": {
@@ -4738,7 +4738,7 @@
         ],
         "metric_larger_category": [
             "1) Gaze",
-            "2)Verbal"
+            "2) Verbal"
         ],
         "metric_smaller_category": [
             "1) Visual Attention",
@@ -4870,7 +4870,7 @@
             "A)product"
         ],
         "outcome_larger_category": [
-            "A)product"
+            "A) product"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: ANOVA: sig ",
@@ -4914,7 +4914,7 @@
             "A)product"
         ],
         "outcome_larger_category": [
-            "A)product"
+            "A) product"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
             "1-A: correlation: sig"
@@ -5737,7 +5737,7 @@
             "II) camera"
         ],
         "metric": [
-            "1)physical interactivity"
+            "1) physical interactivity"
         ],
         "metric_larger_category": [
             "1）Body"
@@ -5940,10 +5940,10 @@
             "VIII) EEG"
         ],
         "metric": [
-            "1)mediation- anxiety level"
+            "1) mediation- anxiety level"
         ],
         "metric_larger_category": [
-            "1 ) physioloy"
+            "1) physiology"
         ],
         "metric_smaller_category": [
             "1) brain"
@@ -8035,7 +8035,7 @@
             "A) process"
         ],
         "analysis_and_results mm-oo:analysis:resultsig": [
-            "1-A:sup.machine learning: 40%"
+            "1-A: sup.machine learning: 40%"
         ]
     },
     "144": {

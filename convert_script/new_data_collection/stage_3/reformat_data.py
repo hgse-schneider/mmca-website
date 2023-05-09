@@ -1,17 +1,26 @@
 import pandas as pd
 import json
 import re
+import logging
+import sys
+from textwrap import dedent
 
 '''
 Guidance:
 This script is designed to take the overall JSON data file created using data_collection.py
 and refactor it into another JSON format to work well for the circular_packing plot.
 
+Now with citation data, it should take the data WITH citation data from STAGE_2 to ensure the final result has that data.
+If you don't need the citation data, you can just use STAGE_1 and STAGE_3.
+
 How-to:
 You can run this file using:
 $ py reformat_data.py
 
 You should ensure all parameters specified below are set to your desire before doing so.
+
+YOU MUST CHECK THE ERROR LOG FILE AFTER RUNNING TO SAVE YOURSELF A LOT OF PAIN LATER. I have done my best
+to set up some error logging work for you so that it should give you useful infomartion on issues that you can hunt.
 
 Parameters:
 --> INPUT_PATH: location of input data (must end .JSON)
@@ -20,9 +29,13 @@ Parameters:
 '''
 
 INPUT_PATH = "citation_data.JSON"
-OUTPUT_PATH = "circle_data.JSON"
+OUTPUT_PATH = "circle_data_test.JSON"
+
 # Flipping hierarhcy order from the intuitive since pop removes from end
 FIELD_HIERARHCY = ["outcome_larger_category", "outcome_smaller_category", "data", "metric"][::-1]
+
+# Setting up an error log for you. 
+logging.basicConfig(filename='error_log.txt', encoding='utf-8', level=logging.DEBUG, filemode="w")
 
 '''
 What would be ideal to get out to make life easy:
@@ -58,13 +71,6 @@ with open(INPUT_PATH, 'r') as f:
                 "children": []}
     # For each paper we do the following
     for paper in data:
-
-        # TODO: REMOVE THIS TEMPORARY FIX WHEN THEY HAVE FIXED THE DATA, DONT KNOW WHAT HAPPENED
-        # TO PAPER 112
-
-        if paper == 110:
-            continue
-
         # Location of where will be adding data, children of main node (represents all graph data)
         pos = new_data["children"]
 
@@ -76,10 +82,15 @@ with open(INPUT_PATH, 'r') as f:
             for link in data[paper][ANALYSIS]:
                 cleaned = link.split(": ")
                 if len(cleaned) < 3:
-                    print(data[paper])
-                    print(cleaned)
+                    err = dedent(f"""
+                                    ERROR for paper_id_new {data[paper]['paper_id_new']}: 
+                                    Check formatting of analysis, should have form aa: bb: cc""")
+                    print(err)
+                    logging.error(err)
+                    sys.exit(1)
                 if cleaned[2].strip() == "nonsig":
                     continue
+
                 split_links = re.findall(r"[\w']+|[.!?;]", cleaned[0])
                 numbers = []
                 chars = []
@@ -92,7 +103,6 @@ with open(INPUT_PATH, 'r') as f:
                 for number in numbers:
                     for char in chars:
                         links.add((number, char))
-            # print(f"{paper}: {list(links)}")
             return list(links)
 
         # This outputs the data per metric, reformatted to list all possible links
@@ -114,17 +124,11 @@ with open(INPUT_PATH, 'r') as f:
                 for n in numbers:
                     for m in metric:
                         links.add((n, m))
-            # print(f"{paper}: {list(links)}")
             return list(links)
 
         metric_category_pairs = pair_metric_and_category(paper)
         data_metric_links = pair_data_and_metric(paper)
         paper_useful_data = [data[paper][category] for category in FIELD_HIERARHCY]
-        if paper == 4:
-            print(paper_useful_data)
-            print(f"metric-category: {metric_category_pairs}")
-            print(f"data-metric: {data_metric_links}")
-        # DATA PER METRIC CATEGORY CRUCIAL
 
         # Convert the output of metric_category_pairs to an array of arrays of info
         # E.g. [('1', 'A'), ('2', 'A'), ('4', 'B'), ('1', 'B'), ('2', 'B')], if we just consider ('1', 'A'), this should produce (for this data)
@@ -161,8 +165,11 @@ with open(INPUT_PATH, 'r') as f:
                     try:
                         no, d = datum.split(") ")
                     except:
-                        print(f"Problem with paper: {paper}. Useful data array:")
-                        print(paper_useful_data)
+                        err = f"Problem with paper_id_new: {data[paper]['paper_id_new']} for field {FIELD_HIERARHCY[1]}:"
+                        print(err)
+                        print(paper_useful_data[1])
+                        logging.warning(err)
+                        logging.warning(str(paper_useful_data[1]) + "\n")
                         print(" ")
                     if no == data_no:
                         info.append(d)
@@ -173,8 +180,12 @@ with open(INPUT_PATH, 'r') as f:
                     try:
                         no, out = small_outcome.split(") ")
                     except Exception as e:
-                        print(paper)
-                        print(paper_useful_data[2]) 
+                        err = f"Problem with paper_id_new: {data[paper]['paper_id_new']} for field {FIELD_HIERARHCY[2]}: "
+                        print(err)
+                        print(paper_useful_data[2])
+                        print(" ")
+                        logging.warning(err)
+                        logging.warning(str(paper_useful_data[2]) + "\n")
 
                     if no == outcome_let:
                         info.append(out)
@@ -188,9 +199,12 @@ with open(INPUT_PATH, 'r') as f:
             return info_list
             
         info_list = build_info(paper_useful_data, metric_category_pairs, data_metric_links)
-        if paper == 4:
-            print(info_list)
-
+        
+        for info in info_list:
+            if len(info) != 4:
+                logging.warning(dedent(f"""
+                                            Paper with paper_id_new: {data[paper]['paper_id_new']} 
+                                            has incorrect length info (Normally caused by codes such as II not matching up) """))
 
         def build_data(pos, info):
             if not info:

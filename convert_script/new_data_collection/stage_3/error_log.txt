@@ -1,0 +1,120 @@
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 78 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:Problem with paper_id_new: 80 for field outcome_smaller_category: 
+WARNING:root:['A)product']
+
+WARNING:root:Problem with paper_id_new: 80 for field outcome_smaller_category: 
+WARNING:root:['A)product']
+
+WARNING:root:
+Paper with paper_id_new: 80 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 80 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:Problem with paper_id_new: 81 for field outcome_smaller_category: 
+WARNING:root:['A)product']
+
+WARNING:root:
+Paper with paper_id_new: 81 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 82 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 82 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 82 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 82 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 84 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 88 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 92 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 95 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 96 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:Problem with paper_id_new: 99 for field data:
+WARNING:root:['II)VIdeo', 'III) Audio', 'V)log']
+
+WARNING:root:Problem with paper_id_new: 99 for field data:
+WARNING:root:['II)VIdeo', 'III) Audio', 'V)log']
+
+WARNING:root:Problem with paper_id_new: 99 for field data:
+WARNING:root:['II)VIdeo', 'III) Audio', 'V)log']
+
+WARNING:root:Problem with paper_id_new: 99 for field data:
+WARNING:root:['II)VIdeo', 'III) Audio', 'V)log']
+
+WARNING:root:Problem with paper_id_new: 99 for field data:
+WARNING:root:['II)VIdeo', 'III) Audio', 'V)log']
+
+WARNING:root:Problem with paper_id_new: 99 for field data:
+WARNING:root:['II)VIdeo', 'III) Audio', 'V)log']
+
+WARNING:root:Problem with paper_id_new: 99 for field data:
+WARNING:root:['II)VIdeo', 'III) Audio', 'V)log']
+
+WARNING:root:Problem with paper_id_new: 99 for field data:
+WARNING:root:['II)VIdeo', 'III) Audio', 'V)log']
+
+WARNING:root:
+Paper with paper_id_new: 99 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 99 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 99 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 99 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:Problem with paper_id_new: 102 for field outcome_smaller_category: 
+WARNING:root:['A)Performance']
+
+WARNING:root:
+Paper with paper_id_new: 102 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 104 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 108 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 110 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+ERROR:root:
+ERROR for paper_id_new 112: 
+Check formatting of analysis, should have form aa: bb: cc
