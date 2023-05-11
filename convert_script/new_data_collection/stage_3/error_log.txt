@@ -1,4 +1,331 @@
 WARNING:root:
+Paper with paper_id_new: 1 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 1 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 1 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 1 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 2 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 2 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 2 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 2 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 2 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 2 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 2 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 2 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 2 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 2 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 2 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 2 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 2 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 2 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 2 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 2 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 2 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 2 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 2 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 2 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 3 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 3 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 3 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 3 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 3 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 3 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 3 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 3 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 3 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 3 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 3 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 3 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 3 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 3 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 3 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 3 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 4 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 4 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 4 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 4 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 4 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 4 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 4 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 4 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 4 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 4 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 4 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 4 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 5 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 5 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 5 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 5 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 5 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 5 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 5 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 5 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
 Paper with paper_id_new: 6 
 has incorrect length info (Normally caused by codes such as II not matching up) 
 WARNING:root:
@@ -15,106 +342,4555 @@ Paper with paper_id_new: 6
 has incorrect length info (Normally caused by codes such as II not matching up) 
 WARNING:root:
 Paper with paper_id_new: 6 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 6 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 8 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 8 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 8 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 8 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 8 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 8 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 8 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 8 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 9 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 9 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 9 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 9 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 9 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 9 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 9 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 9 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 9 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 9 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 9 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 9 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 11 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 11 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 11 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 11 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 11 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 11 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 11 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 11 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 11 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 11 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 11 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 11 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 11 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 11 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 11 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 11 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 11 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 11 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 11 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 11 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 11 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 11 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 11 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 11 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 11 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 11 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 11 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 11 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 11 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 11 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 11 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 11 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 11 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 11 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 11 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 11 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 12 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 12 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 12 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 12 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 13 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 13 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 13 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 13 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 13 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 13 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 13 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 13 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 14 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 14 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 14 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 14 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 14 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 14 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 14 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 14 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 15 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 15 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 15 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 15 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 16 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 16 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 16 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 16 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 16 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 16 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 16 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 16 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 16 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 16 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 16 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 16 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 16 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 16 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 16 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 16 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 16 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 16 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 16 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 16 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 17 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 17 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 17 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 17 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 17 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 17 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 17 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 17 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 17 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 17 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 17 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 17 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 18 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 19 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 19 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 19 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 19 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 19 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 19 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 19 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 19 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 19 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 19 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 19 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 19 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 19 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 19 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 19 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 19 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 19 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 19 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 19 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 19 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 19 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 19 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 19 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 19 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 19 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 19 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 19 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 19 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 20 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 20 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 20 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 20 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 20 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 20 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 20 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 20 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 21 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 21 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 21 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 21 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 21 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 21 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 21 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 21 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 22 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 22 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 22 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 22 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 22 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 22 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 22 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 22 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 22 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 22 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 22 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 22 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 22 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 22 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 22 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 22 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 22 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 22 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 22 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 22 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 22 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 22 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 22 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 22 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 22 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 22 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 22 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 22 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 22 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 22 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 22 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 22 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 23 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 23 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 23 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 23 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 23 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 23 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 23 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 23 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 23 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 23 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 23 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 23 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 23 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 23 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 23 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 23 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 23 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 23 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 23 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 23 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 23 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 23 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 23 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 23 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 23 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 23 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 23 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 23 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 23 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 23 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 23 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 23 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 23 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 23 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 23 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 23 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 24 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 24 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 24 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 24 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 24 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 24 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 24 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 24 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 24 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 24 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 24 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 24 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 24 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 24 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 24 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 24 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 26 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 26 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 26 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 26 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 26 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 26 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 26 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 26 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 26 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 26 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 26 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 26 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 26 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 26 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 26 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 26 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 27 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 27 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 27 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 27 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 27 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 27 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 27 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 27 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 27 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 27 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 27 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 27 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 27 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 27 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 27 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 27 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 27 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 27 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 27 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 27 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 28 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 28 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 28 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 28 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 28 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 28 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 28 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 28 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 28 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 28 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 28 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 28 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 29 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 29 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 29 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 29 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 29 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 29 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 29 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 29 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 30 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 30 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 30 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 30 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 30 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 30 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 30 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 30 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 31 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 31 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 31 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 31 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 31 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 31 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 31 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 31 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 31 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 31 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 31 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 31 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 31 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 31 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 31 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 31 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 31 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 31 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 31 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 31 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 31 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 31 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 31 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 31 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 32 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 32 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 32 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 32 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 32 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 32 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 32 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 32 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 33 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 34 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 34 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 34 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 34 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 35 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 35 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 35 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 35 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 35 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 35 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 35 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 35 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 35 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 35 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 35 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 35 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 35 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 35 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 35 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 35 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 36 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 36 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 36 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 36 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 36 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 36 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 36 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 36 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 36 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 36 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 36 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 36 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 37 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 37 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 37 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 37 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 37 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 37 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 37 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 37 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 37 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 37 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 37 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 37 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 37 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 37 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 37 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 37 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 38 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 38 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 38 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 38 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 38 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 38 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 38 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 38 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 38 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 38 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 38 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 38 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 38 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 38 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 38 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 38 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 38 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 38 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 38 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 38 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 38 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 38 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 38 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 38 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 38 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 38 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 38 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 38 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 39 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 39 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 39 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 39 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 40 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 40 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 40 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 40 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 40 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 40 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 40 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 40 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 40 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 40 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 40 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 40 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 40 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 40 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 40 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 40 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 41 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 41 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 41 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 41 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 42 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 42 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 42 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 42 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 42 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 42 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 42 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 42 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 43 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 43 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 43 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 43 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 43 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 43 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 43 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 43 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 44 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 44 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 44 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 44 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 45 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 45 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 45 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 45 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 45 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 45 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 45 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 45 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 45 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 45 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 45 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 45 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 45 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 45 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 45 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 45 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 46 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 46 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 46 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 46 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 47 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 47 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 47 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 47 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 47 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 47 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 47 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 47 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 47 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 47 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 47 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 47 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 47 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 47 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 47 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 47 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 47 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 47 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 47 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 47 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 47 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 47 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 47 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 47 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 47 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 47 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 47 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 47 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 47 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 47 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 47 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 47 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 47 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 47 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 47 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 47 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 47 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 47 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 47 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 47 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 48 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 48 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 48 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 48 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 48 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 48 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 48 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 48 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 48 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 48 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 48 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 48 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 48 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 48 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 48 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 48 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 48 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 48 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 48 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 48 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 49 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 49 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 49 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 49 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 49 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 49 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 49 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 49 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 49 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 49 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 49 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 49 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 50 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 50 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 50 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 50 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 51 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 51 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 51 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 51 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 51 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 51 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 51 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 51 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 51 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 51 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 51 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 51 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 52 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 52 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 52 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 52 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 52 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 52 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 52 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 52 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 52 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 52 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 52 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 52 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 53 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 53 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 53 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 53 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 54 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 54 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 54 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 54 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 54 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 54 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 54 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 54 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 54 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 54 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 54 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 54 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 55 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 55 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 55 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 55 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 55 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 55 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 55 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 55 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 55 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 55 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 55 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 55 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 55 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 55 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 55 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 55 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 55 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 55 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 55 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 55 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 55 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 55 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 55 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 55 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 55 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 55 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 55 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 55 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 55 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 55 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 55 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 55 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 55 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 55 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 55 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 55 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 56 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 56 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 56 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 56 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 56 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 56 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 56 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 56 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 56 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 56 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 56 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 56 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 56 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 56 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 56 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 56 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 56 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 56 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 56 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 56 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 56 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 56 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 56 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 56 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 57 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 57 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 57 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 57 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 57 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 57 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 57 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 57 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 57 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 57 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 57 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 57 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 57 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 57 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 57 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 57 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 57 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 57 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 57 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 57 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 57 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 57 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 57 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 57 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 58 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 58 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 58 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 58 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 58 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 58 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 58 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 58 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 58 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 58 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 58 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 58 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 58 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 58 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 58 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 58 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 59 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 59 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 59 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 59 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 60 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 60 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 60 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 60 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 60 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 60 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 60 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 60 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 60 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 60 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 60 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 60 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 60 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 60 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 60 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 60 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 61 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 61 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 61 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 61 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 61 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 61 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 61 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 61 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 61 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 61 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 61 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 61 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 61 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 61 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 61 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 61 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 62 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 62 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 62 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 62 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 62 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 62 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 62 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 62 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 62 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 62 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 62 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 62 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 62 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 62 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 62 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 62 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 62 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 62 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 62 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 62 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 62 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 62 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 62 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 62 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 63 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 63 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 63 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 63 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 64 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 64 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 64 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 64 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 64 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 64 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 64 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 64 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 64 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 64 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 64 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 64 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 65 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 65 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 65 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 65 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 65 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 65 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 65 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 65 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 66 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 66 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 66 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 66 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 66 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 66 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 66 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 66 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 66 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 66 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 66 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 66 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 66 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 66 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 66 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 66 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 67 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 67 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 67 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 67 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 68 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 68 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 68 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 68 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 68 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 68 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 68 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 68 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 68 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 68 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 68 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 68 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 69 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 69 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 69 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 69 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 69 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 69 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 69 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 69 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 69 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 69 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 69 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 69 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 70 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 70 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 70 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 70 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 70 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 70 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 70 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 70 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 70 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 70 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 70 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 70 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 71 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 71 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 71 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 71 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 71 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 71 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 71 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 71 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 72 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 72 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 72 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 72 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 72 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 72 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 72 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 72 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 72 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 72 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 72 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 72 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 75 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 75 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 75 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 75 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 76 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 76 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 76 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 76 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 76 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 76 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 76 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 76 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 76 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 76 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 76 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 76 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 76 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 76 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 76 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 76 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 76 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 76 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 76 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 76 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 76 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 76 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 76 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 76 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 76 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 76 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 76 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 76 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 76 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 76 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 76 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 76 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 76 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 76 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 76 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 76 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 77 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 77 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 77 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 77 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 77 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 77 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 77 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 77 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 77 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 77 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 77 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 77 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 77 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 77 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 77 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 77 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 78 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 78 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 78 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 78 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 78 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 78 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 78 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 78 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 78 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 78 
 has incorrect length info (Normally caused by codes such as II not matching up) 
 WARNING:root:
 Paper with paper_id_new: 78 
 has incorrect length info (Normally caused by codes such as II not matching up) 
-WARNING:root:Problem with paper_id_new: 80 for field outcome_smaller_category: 
-WARNING:root:['A)product']
-
-WARNING:root:Problem with paper_id_new: 80 for field outcome_smaller_category: 
-WARNING:root:['A)product']
-
+WARNING:root:
+Paper with paper_id_new: 78 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 79 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 79 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 79 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 79 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 80 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 80 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 80 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 80 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 80 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 80 
+has incorrect length info, missing field: outcome_larger_category 
 WARNING:root:
 Paper with paper_id_new: 80 
 has incorrect length info (Normally caused by codes such as II not matching up) 
 WARNING:root:
 Paper with paper_id_new: 80 
 has incorrect length info (Normally caused by codes such as II not matching up) 
-WARNING:root:Problem with paper_id_new: 81 for field outcome_smaller_category: 
-WARNING:root:['A)product']
-
+WARNING:root:
+Paper with paper_id_new: 81 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 81 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 81 
+has incorrect length info, missing field: outcome_larger_category 
 WARNING:root:
 Paper with paper_id_new: 81 
 has incorrect length info (Normally caused by codes such as II not matching up) 
 WARNING:root:
-Paper with paper_id_new: 82 
+Paper with paper_id_new: 85 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 85 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 85 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 85 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 85 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 85 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 85 
 has incorrect length info (Normally caused by codes such as II not matching up) 
 WARNING:root:
-Paper with paper_id_new: 82 
+Paper with paper_id_new: 85 
 has incorrect length info (Normally caused by codes such as II not matching up) 
 WARNING:root:
-Paper with paper_id_new: 82 
+Paper with paper_id_new: 86 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 86 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 86 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 86 
 has incorrect length info (Normally caused by codes such as II not matching up) 
 WARNING:root:
-Paper with paper_id_new: 82 
+Paper with paper_id_new: 89 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 89 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 89 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 89 
 has incorrect length info (Normally caused by codes such as II not matching up) 
 WARNING:root:
-Paper with paper_id_new: 84 
+Paper with paper_id_new: 90 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 90 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 90 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 90 
 has incorrect length info (Normally caused by codes such as II not matching up) 
 WARNING:root:
-Paper with paper_id_new: 88 
+Paper with paper_id_new: 91 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 91 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 91 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 91 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 92 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 92 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 92 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 92 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 92 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 92 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 92 
 has incorrect length info (Normally caused by codes such as II not matching up) 
 WARNING:root:
 Paper with paper_id_new: 92 
 has incorrect length info (Normally caused by codes such as II not matching up) 
 WARNING:root:
+Paper with paper_id_new: 93 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 93 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 93 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 93 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 94 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 94 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 94 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 94 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 94 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 94 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 94 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 94 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 95 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 95 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 95 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 95 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 95 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 95 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
 Paper with paper_id_new: 95 
 has incorrect length info (Normally caused by codes such as II not matching up) 
 WARNING:root:
-Paper with paper_id_new: 96 
-has incorrect length info (Normally caused by codes such as II not matching up) 
-WARNING:root:Problem with paper_id_new: 99 for field data:
-WARNING:root:['II)VIdeo', 'III) Audio', 'V)log']
-
-WARNING:root:Problem with paper_id_new: 99 for field data:
-WARNING:root:['II)VIdeo', 'III) Audio', 'V)log']
-
-WARNING:root:Problem with paper_id_new: 99 for field data:
-WARNING:root:['II)VIdeo', 'III) Audio', 'V)log']
-
-WARNING:root:Problem with paper_id_new: 99 for field data:
-WARNING:root:['II)VIdeo', 'III) Audio', 'V)log']
-
-WARNING:root:Problem with paper_id_new: 99 for field data:
-WARNING:root:['II)VIdeo', 'III) Audio', 'V)log']
-
-WARNING:root:Problem with paper_id_new: 99 for field data:
-WARNING:root:['II)VIdeo', 'III) Audio', 'V)log']
-
-WARNING:root:Problem with paper_id_new: 99 for field data:
-WARNING:root:['II)VIdeo', 'III) Audio', 'V)log']
-
-WARNING:root:Problem with paper_id_new: 99 for field data:
-WARNING:root:['II)VIdeo', 'III) Audio', 'V)log']
-
-WARNING:root:
-Paper with paper_id_new: 99 
+Paper with paper_id_new: 95 
 has incorrect length info (Normally caused by codes such as II not matching up) 
 WARNING:root:
-Paper with paper_id_new: 99 
+Paper with paper_id_new: 97 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 97 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 97 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 97 
 has incorrect length info (Normally caused by codes such as II not matching up) 
 WARNING:root:
-Paper with paper_id_new: 99 
+Paper with paper_id_new: 98 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 98 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 98 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 98 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 98 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 98 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 98 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 98 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 98 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 98 
 has incorrect length info (Normally caused by codes such as II not matching up) 
 WARNING:root:
-Paper with paper_id_new: 99 
+Paper with paper_id_new: 98 
 has incorrect length info (Normally caused by codes such as II not matching up) 
-WARNING:root:Problem with paper_id_new: 102 for field outcome_smaller_category: 
-WARNING:root:['A)Performance']
-
+WARNING:root:
+Paper with paper_id_new: 98 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 100 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 100 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 100 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 100 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 100 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 100 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 100 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 100 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 101 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 101 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 101 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 101 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 102 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 102 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 102 
+has incorrect length info, missing field: outcome_larger_category 
 WARNING:root:
 Paper with paper_id_new: 102 
 has incorrect length info (Normally caused by codes such as II not matching up) 
 WARNING:root:
+Paper with paper_id_new: 103 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 103 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 103 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 103 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 103 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 103 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 103 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 103 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 104 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 104 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 104 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
 Paper with paper_id_new: 104 
 has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 105 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 105 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 105 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 105 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 105 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 105 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 105 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 105 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 106 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 106 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 106 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 106 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 106 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 106 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 106 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 106 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 106 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 106 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 106 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 106 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 107 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 107 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 107 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 107 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 108 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 108 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 108 
+has incorrect length info, missing field: outcome_larger_category 
 WARNING:root:
 Paper with paper_id_new: 108 
 has incorrect length info (Normally caused by codes such as II not matching up) 
 WARNING:root:
+Paper with paper_id_new: 109 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 109 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 109 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 109 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 109 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 109 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 109 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 109 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 110 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 110 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 110 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
 Paper with paper_id_new: 110 
 has incorrect length info (Normally caused by codes such as II not matching up) 
-ERROR:root:
-ERROR for paper_id_new 112: 
-Check formatting of analysis, should have form aa: bb: cc
+WARNING:root:
+Paper with paper_id_new: 113 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 113 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 113 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 113 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 113 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 113 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 113 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 113 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 114 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 114 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 114 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 114 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 114 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 114 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 114 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 114 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 114 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 114 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 114 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 114 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 114 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 114 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 114 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 114 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 118 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 118 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 118 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 118 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 118 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 118 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 118 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 118 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 119 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 119 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 119 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 119 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 119 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 119 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 119 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 119 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 119 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 119 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 119 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 119 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 119 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 119 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 119 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 119 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 119 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 119 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 119 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 119 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 119 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 119 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 119 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 119 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 120 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 120 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 120 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 120 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 121 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 121 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 121 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 121 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 121 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 121 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 121 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 121 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 123 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 123 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 123 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 123 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 123 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 123 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 123 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 123 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 124 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 124 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 124 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 124 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 124 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 124 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 124 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 124 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 125 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 125 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 125 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 125 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 125 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 125 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 125 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 125 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 126 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 126 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 126 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 126 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 126 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 126 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 126 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 126 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 126 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 126 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 126 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 126 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 127 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 127 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 127 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 127 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 129 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 129 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 129 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 129 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 129 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 129 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 129 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 129 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 129 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 129 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 129 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 129 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 131 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 131 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 131 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 131 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 131 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 131 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 131 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 131 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 131 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 131 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 131 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 131 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 132 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 132 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 132 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 132 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 132 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 132 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 132 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 132 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 134 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 134 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 134 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 134 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 134 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 134 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 134 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 134 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 135 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 135 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 135 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 135 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 136 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 136 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 136 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 136 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 136 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 136 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 136 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 136 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 137 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 137 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 137 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 137 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 137 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 137 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 137 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 137 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 137 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 137 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 137 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 137 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 138 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 138 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 138 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 138 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 140 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 140 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 140 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 140 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 140 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 140 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 140 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 140 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 140 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 140 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 140 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 140 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 141 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 141 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 141 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 141 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 142 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 142 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 142 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 142 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 143 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 143 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 143 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 143 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 143 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 143 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 143 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 143 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 144 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 144 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 144 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 144 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 144 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 144 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 144 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 144 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 144 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 144 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 144 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 144 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 145 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 145 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 145 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 145 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 145 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 145 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 145 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 145 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 145 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 145 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 145 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 145 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 146 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 146 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 146 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 146 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 147 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 147 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 147 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 147 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 147 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 147 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 147 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 147 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 147 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 147 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 147 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 147 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 148 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 148 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 148 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 148 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 149 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 149 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 149 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 149 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 150 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 150 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 150 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 150 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 152 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 152 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 152 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 152 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 152 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 152 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 152 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 152 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 153 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 153 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 153 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 153 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 153 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 153 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 153 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 153 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 153 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 153 
+has incorrect length info, missing field: data 
+WARNING:root:
+Paper with paper_id_new: 153 
+has incorrect length info, missing field: outcome_smaller_category 
+WARNING:root:
+Paper with paper_id_new: 153 
+has incorrect length info, missing field: outcome_larger_category 
+WARNING:root:
+Paper with paper_id_new: 153 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 153 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 153 
+has incorrect length info (Normally caused by codes such as II not matching up) 
+WARNING:root:
+Paper with paper_id_new: 153 
+has incorrect length info (Normally caused by codes such as II not matching up) 

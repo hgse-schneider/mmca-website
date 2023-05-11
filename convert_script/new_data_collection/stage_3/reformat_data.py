@@ -28,7 +28,7 @@ Parameters:
 --> FIELD_HIERARCHY: order of fields in diagram, first element highest
 '''
 
-INPUT_PATH = "citation_data.JSON"
+INPUT_PATH = "citation_data_reduced.JSON"
 OUTPUT_PATH = "circle_data_test.JSON"
 
 # Flipping hierarhcy order from the intuitive since pop removes from end
@@ -130,6 +130,11 @@ with open(INPUT_PATH, 'r') as f:
         data_metric_links = pair_data_and_metric(paper)
         paper_useful_data = [data[paper][category] for category in FIELD_HIERARHCY]
 
+        def warn(paper, field):
+            logging.warning(dedent(f"""
+                                    Paper with paper_id_new: {data[paper]['paper_id_new']} 
+                                    has incorrect length info, missing field: {field} """))
+
         # Convert the output of metric_category_pairs to an array of arrays of info
         # E.g. [('1', 'A'), ('2', 'A'), ('4', 'B'), ('1', 'B'), ('2', 'B')], if we just consider ('1', 'A'), this should produce (for this data)
         # Should go to[["focussed gaze", "eye gaze", "performance", "product"], ["focussed gaze", "eye gaze", "performance", "product"]]
@@ -142,21 +147,25 @@ with open(INPUT_PATH, 'r') as f:
                 for metric in paper_useful_data[0]:
                     split = metric.split(") ")
                     if len(split) > 2:
-                        no, met = split[0], split[2]
+                        no, met = split[0], split[2].lower().strip()
                     else:
                         if len(split) == 1:
                             print(paper)
                             print(split)
-                        no, met = split[0], split[1]
+                        no, met = split[0], split[1].lower().strip()
                         
                     if no == metric_no:
                         info.append(met)
                         break
                 
+                if len(info) != 1:
+                    warn(paper, FIELD_HIERARHCY[0])
+
                 # Finding the key of the data associated with the metric
                 data_no = ""
                 for data_metric_link in data_metric_links:
                     no, dta = data_metric_link
+                    dta = dta.lower().strip()
                     if no == metric_no:
                         data_no = dta
 
@@ -164,6 +173,7 @@ with open(INPUT_PATH, 'r') as f:
                 for datum in paper_useful_data[1]:
                     try:
                         no, d = datum.split(") ")
+                        d = d.lower().strip()
                     except:
                         err = f"Problem with paper_id_new: {data[paper]['paper_id_new']} for field {FIELD_HIERARHCY[1]}:"
                         print(err)
@@ -175,10 +185,14 @@ with open(INPUT_PATH, 'r') as f:
                         info.append(d)
                         break
 
+                if len(info) != 2:
+                    warn(paper, FIELD_HIERARHCY[1])
+
                 # Find the correct outcomes
                 for small_outcome in paper_useful_data[2]:
                     try:
                         no, out = small_outcome.split(") ")
+                        out = out.lower().strip()
                     except Exception as e:
                         err = f"Problem with paper_id_new: {data[paper]['paper_id_new']} for field {FIELD_HIERARHCY[2]}: "
                         print(err)
@@ -190,11 +204,20 @@ with open(INPUT_PATH, 'r') as f:
                     if no == outcome_let:
                         info.append(out)
                         break
+                
+                if len(info) != 3:
+                    warn(paper, FIELD_HIERARHCY[2])        
+
                 for large_outcome in paper_useful_data[3]:
                     no, out = large_outcome.split(") ")
+                    out = out.lower().strip()
                     if no == outcome_let:
                         info.append(out)
                         break
+                
+                if len(info) != 4:
+                    warn(paper, FIELD_HIERARHCY[3])
+
                 info_list.append(info)
             return info_list
             
