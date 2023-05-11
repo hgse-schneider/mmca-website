@@ -9,15 +9,15 @@
         },
         {
             "name": "10 citations/connections",
-            "value": 10,
+            "value": 2,
             "citations": 10,
-            "connections": 10
+            "connections": 2
         },
         {
             "name": "100 citations/connections",
-            "value": 100,
+            "value": 3,
             "citations": 100,
-            "connections": 100
+            "connections": 3
         }
     ]
 }

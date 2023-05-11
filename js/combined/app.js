@@ -79,7 +79,7 @@ let scale_data;
 
 // Read in the data!
 Promise.all([
-  d3.json('circle_data.json'),
+  d3.json('circle_data_reduced_2.json'),
   d3.json('layers.json'),
   d3.json('scale_data.json')
 ]).then(function(files) {
@@ -113,8 +113,10 @@ const graph_switcher = (circle_data, sankey_data) => {
       current && (current.className = current.className.replace(" active", ""));
       this.className += " active";
       const filtered = filter_data(circle_data, filter_state);
+      // TODO: Set this back to filtered!
       circle_chart(filtered);
-      circle_scale_2(scale_data);
+      const scale_adjusted = scale_switch_node_display(scale_data)
+      circle_scale_2(scale_adjusted, filtered);
   })   
   // Switch to tree, applying filters
   d3.select("#tree")
@@ -123,10 +125,10 @@ const graph_switcher = (circle_data, sankey_data) => {
       current && (current.className = current.className.replace(" active", ""));
       this.className += " active";
       // TODO: put this back, just for testing new dataset
-      // const filtered = filter_data(circle_data, filter_state);
-      const filtered = circle_data;
+      const filtered = filter_data(circle_data, filter_state);
       tree_chart(filtered);
-      tree_scale(scale_data);
+      const scale_adjusted = scale_switch_node_display(scale_data);
+      tree_scale(scale_adjusted);
   }) 
 
   d3.select("#num_citations")
@@ -142,7 +144,8 @@ const graph_switcher = (circle_data, sankey_data) => {
       const filtered = filter_data(circle_data, filter_state);
       const adjusted = switch_node_display(filtered);
       circle_chart(adjusted);
-      circle_scale(scale_data);
+      const scale_adjusted = scale_switch_node_display(scale_data)
+      circle_scale_2(scale_adjusted, filtered);
     }
     if (current_graph == "tree")
     {
@@ -150,7 +153,8 @@ const graph_switcher = (circle_data, sankey_data) => {
       // This doesn't work because data is stored away in _children rather than childrens
       const adjusted = switch_node_display(filtered);
       tree_chart(adjusted);
-      tree_scale(scale_data);
+      const scale_adjusted = scale_switch_node_display(scale_data);
+      tree_scale(scale_adjusted);
     }
   })
 
@@ -167,15 +171,16 @@ const graph_switcher = (circle_data, sankey_data) => {
       const filtered = filter_data(circle_data, filter_state);
       const adjusted = switch_node_display(filtered);
       circle_chart(adjusted);
-      const adjusted_scaled= switch_node_display(scale_data);
-      circle_scale(adjusted_scaled);
+      const scale_adjusted = scale_switch_node_display(scale_data)
+      circle_scale_2(scale_adjusted, filtered);
     }
     if (current_graph == "tree")
     {
       const filtered = filter_data(circle_data, filter_state);
       const adjusted = switch_node_display(filtered);
       tree_chart(adjusted);
-      tree_scale(scale_data);
+      const scale_adjusted = scale_switch_node_display(scale_data);
+      tree_scale(scale_adjusted);
     }
   })
 }
@@ -230,6 +235,19 @@ const findState = (e, d, chart_type) => {
 
 let display_setting = "connections";
 
+const scale_switch_node_display = (data) => {
+  if (!display_setting)
+  {
+    return data;
+  }
+
+  data.children.forEach((leaf) => {
+    leaf.value = leaf[display_setting];
+  })
+
+  return data;
+}
+
 const switch_node_display = (data) => {
   // If no display setting, defaults to value
   // Which is # connections
@@ -246,7 +264,7 @@ const switch_node_display = (data) => {
         layer_2.children.forEach((layer_3) => {
           layer_3.children.forEach((layer_4) => {
             layer_4.children.forEach((leaf) => {
-              leaf.value = leaf[display_setting]
+              leaf.value = leaf[display_setting];
             })
           })
         })

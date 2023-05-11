@@ -99,14 +99,32 @@ const scale_pack = data => d3.pack()
     return "#c76d81";
   }
 
-const circle_scale_2 = (data) => {
+const circle_scale_2 = (scale_data, filtered) => {
+  // Reset visualization
   d3.select('.scale').html('');
-  const root = scale_pack(data);
-  // const f_rlab = (d) => {d.rlab = d.r};
-  // root = map_data(root, f_rlab);
-  let focus = root;
-  let view;
 
+  // Pack the data as if it were the real size. Will need this info
+  // To correctly display sizes
+  const main_root = pack(filtered)
+
+  // As per https://github.com/d3/d3-hierarchy/issues/86, the packing layout is proportional to the sqrt of the value
+  // Finding the proportionality constant used in the main viz:
+
+  // Finding a leaf node
+  const leaf = main_root.descendants()[0]
+                        .children[0]
+                        .children[0]
+                        .children[0]
+                        .children[0]
+                        .children[0];
+  
+  // Find ratio of radius to sqrt of value to get c
+  c = leaf.r / Math.sqrt(leaf.value);
+  console.log(leaf);
+  console.log(c);
+
+  const root = scale_pack(scale_data);
+  
   const con = d3.select(".scale");
     const svg = con
         .append("svg")
@@ -114,8 +132,7 @@ const circle_scale_2 = (data) => {
         .style("display", "block")
         .style("cursor", "pointer")
         .attr("height", svgheight/6)
-        .attr("width", svgwidth/6)
-        .on("click", (event) => zoom(event, root));
+        .attr("width", svgwidth/6);
 
     const node = svg.append("g")
       .attr("transform", "translate(0, 0)")
@@ -123,23 +140,9 @@ const circle_scale_2 = (data) => {
       .data(root.descendants().slice(1))
       .join("circle")
         .attr("fill", d =>  scaleNodeColor(d))
-        .attr("d", d => d);
-    
-    zoomTo([root.x, root.y, root.r * 2]);
-
-    function scaleSize(d) {
-
-    }
-
-    function zoomTo(v) {
-      const k = circle_width / v[2];
-  
-      view = v;
-      // Transform everything according to the current view/zoom
-      node.attr("transform", d => `translate(${(d.x - v[0]) * k / 28 + 50},${(d.y - v[1]) * k / 24})`);
-      node.attr("r", d => d.data.connections * 0.077 + 3.1691);
-    }
-    return con;
+        .attr("d", d => d)
+        .attr("r", d => c * Math.sqrt(d.value))
+        .attr("transform", (d, i) => `translate(${i * 50},${0})`);
 }
 
 const circle_chart = (data) => {
